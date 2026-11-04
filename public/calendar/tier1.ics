@@ -1,0 +1,3280 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Rondom//tier1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rondom tier1
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:rondom-stedelijk-yayoi-kusama-2026@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Ongoing: Yayoi Kusama retrospective (Stedelijk) (until Sun 17 Jan
+ )
+LOCATION:Stedelijk Museum\, Amsterdam\, NL
+DESCRIPTION:The mirror rooms are the most Instagrammed art on earth\, and
+  this is the retrospective's final European stop.\nDrive about 165 min f
+ rom Hoensbroek.\nhigh sell-out risk.\nTickets: https://www.stedelijk.nl/
+ en/visit/tickets\nSource: https://www.stedelijk.nl/en/exhibitions/yayoi-
+ kusama-en\nOpen in Rondom: https://todonl.vercel.app/#e-stedelijk-yayoi-
+ kusama-2026
+GEO:52.358;4.8797
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-hart-chez-matisse-2026@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Ongoing: Chez Matisse: Masterpieces from Centre Pompidou (H'ART) 
+ (until Sun 14 Feb)
+LOCATION:H'ART Museum\, Amsterdam\, NL
+DESCRIPTION:Pompidou masterpieces that would otherwise be locked away unt
+ il 2030\, on loan an hour's train from Limburg instead of in Paris.\nDri
+ ve about 165 min from Hoensbroek.\nmedium sell-out risk.\nTickets: https
+ ://www.hartmuseum.nl/en/plan-your-visit/tickets\nSource: https://www.har
+ tmuseum.nl/en/exhibitions/chez-matisse\nOpen in Rondom: https://todonl.v
+ ercel.app/#e-hart-chez-matisse-2026
+GEO:52.3672;4.9024
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-rijksmuseum-de-kooning-2026@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Ongoing: Willem de Kooning at work (Rijksmuseum) (until Sun 17 Ja
+ n)
+LOCATION:Rijksmuseum\, Amsterdam\, NL
+DESCRIPTION:The Rijksmuseum rarely gives its Gallery of Honour to a 20th-
+ century painter\, and this is the biggest De Kooning show in Europe in y
+ ears.\nDrive about 165 min from Hoensbroek.\nmedium sell-out risk.\nTick
+ ets: https://www.rijksmuseum.nl/en/tickets\nSource: https://www.rijksmus
+ eum.nl/en/whats-on/exhibitions/willem-de-kooning-at-work\nOpen in Rondom
+ : https://todonl.vercel.app/#e-rijksmuseum-de-kooning-2026
+GEO:52.36;4.8852
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-vgm-whistler-2026@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Ongoing: Whistler. Dandy and Disruptor (Van Gogh Museum) (until S
+ un 10 Jan)
+LOCATION:Van Gogh Museum\, Amsterdam\, NL
+DESCRIPTION:A Whistler retrospective has never been shown in the Netherla
+ nds\, and it comes bundled with the world's largest Van Gogh collection.
+ \nDrive about 165 min from Hoensbroek.\nhigh sell-out risk.\nTickets: ht
+ tps://tickets.vangoghmuseum.nl/en/tickets\nSource: https://www.vangoghmu
+ seum.nl/en/visit/whats-on/exhibitions/whistler\nOpen in Rondom: https://
+ todonl.vercel.app/#e-vgm-whistler-2026
+GEO:52.3584;4.8811
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-glow-eindhoven-2026@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261115
+SUMMARY:GLOW Eindhoven 2026
+LOCATION:City centre route (about 5 km)\, Eindhoven\, NL
+DESCRIPTION:The biggest light-art festival in the Netherlands is one hour
+  away and free\, so the whole family can walk it on a school night.\nDri
+ ve about 75 min from Hoensbroek.\nlow sell-out risk.\nTickets: https://w
+ ww.gloweindhoven.nl/\nSource: https://www.gloweindhoven.nl/praktisch/\nO
+ pen in Rondom: https://todonl.vercel.app/#e-glow-eindhoven-2026
+URL:https://www.gloweindhoven.nl/
+GEO:51.4416;5.4697
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: GLOW Eindhoven 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-amsterdam-light-festival-2026@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Ongoing: Amsterdam Light Festival 2026-27 (Edition 15) (until Sun
+  17 Jan)
+LOCATION:Canals of the city centre\, 4.5 km walking route\, Amsterdam\, N
+ L
+DESCRIPTION:A world-class light festival that works as a winter weekend t
+ rip and combines a free canal walk with a boat tour.\nDrive about 165 mi
+ n from Hoensbroek.\nmedium sell-out risk.\nTickets: https://amsterdamlig
+ htfestival.com/nl/tickets\nSource: https://amsterdamlightfestival.com/nl
+ /data-tijden\nOpen in Rondom: https://todonl.vercel.app/#e-amsterdam-lig
+ ht-festival-2026
+GEO:52.3676;4.9041
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-amsterdam-light-festival-2026-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20261105T090000
+DTEND;TZID=Europe/Amsterdam:20261105T093000
+SUMMARY:Book by today: Amsterdam Light Festival 2026-27 (Edition 15)
+DESCRIPTION:medium sell-out risk. https://amsterdamlightfestival.com/nl/t
+ ickets
+URL:https://amsterdamlightfestival.com/nl/tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Amsterdam Light Festival 2026-27 (Edition 15)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-nuts-weekend-bastogne-2026@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261214
+SUMMARY:Nuts Weekend Bastogne 2026 (Battle of the Bulge commemoration)
+LOCATION:Bastogne War Museum\, Bastogne War Rooms\, Bois Jacques and town
+  centre\, Bastogne\, BE
+DESCRIPTION:The biggest Battle of the Bulge commemoration in the Ardennes
+ \, with American veterans' units\, convoys and re-enactors filling Basto
+ gne.\nDrive about 105 min from Hoensbroek.\nlow sell-out risk.\nTickets:
+  https://www.bastognewarmuseum.be/en/events/nuts-week-end-2026-en/\nSour
+ ce: https://www.bastognewarmuseum.be/en/events/nuts-week-end-2026-en/\nO
+ pen in Rondom: https://todonl.vercel.app/#e-nuts-weekend-bastogne-2026
+URL:https://www.bastognewarmuseum.be/en/events/nuts-week-end-2026-en/
+GEO:50.0063;5.7372
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Nuts Weekend Bastogne 2026 (Battle of the Bulge com
+ memoration)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-nuts-weekend-bastogne-2026-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20261127T090000
+DTEND;TZID=Europe/Amsterdam:20261127T093000
+SUMMARY:Book by today: Nuts Weekend Bastogne 2026 (Battle of the Bulge co
+ mmemoration)
+DESCRIPTION:low sell-out risk. https://www.bastognewarmuseum.be/en/events
+ /nuts-week-end-2026-en/
+URL:https://www.bastognewarmuseum.be/en/events/nuts-week-end-2026-en/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Nuts Weekend Bastogne 2026 (Battle of the Bulge c
+ ommemoration)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-ihf-handball-world-championship-cologne-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270201
+SUMMARY:IHF Men's Handball World Championship 2027 (Cologne)
+LOCATION:LANXESS arena\, Köln\, DE
+DESCRIPTION:The whole knockout stage of a World Championship 75 minutes a
+ way in the loudest handball arena on earth.\nDrive about 65 min from Hoe
+ nsbroek.\nhigh sell-out risk.\nTickets: https://www.eventim.de/campaign/
+ ihf2027-m\nSource: https://handball2027.com/en/match-schedule\nOpen in R
+ ondom: https://todonl.vercel.app/#e-ihf-handball-world-championship-colo
+ gne-2027
+URL:https://www.eventim.de/campaign/ihf2027-m
+GEO:50.9384;6.983
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: IHF Men's Handball World Championship 2027 (Cologne
+ )
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-ihf-handball-world-championship-cologne-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20261221T090000
+DTEND;TZID=Europe/Amsterdam:20261221T093000
+SUMMARY:Book by today: IHF Men's Handball World Championship 2027 (Cologn
+ e)
+DESCRIPTION:high sell-out risk. https://www.eventim.de/campaign/ihf2027-m
+URL:https://www.eventim.de/campaign/ihf2027-m
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: IHF Men's Handball World Championship 2027 (Colog
+ ne)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-uci-cyclocross-world-championships-ostend-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270201
+SUMMARY:UCI Cyclo-cross World Championships 2027 Ostend
+LOCATION:Wellington Hippodrome and the beach at Thermae Palace\, Oostende
+ \, BE
+DESCRIPTION:A world championship on a Belgian beach with the Dutch and Be
+ lgian superstars fighting for the rainbow jersey.\nDrive about 160 min f
+ rom Hoensbroek.\nmedium sell-out risk.\nTickets: https://ostend2027.tick
+ ets.flandersclassics.be/selection?language=en\nSource: https://www.osten
+ d2027.com/en/programme\nOpen in Rondom: https://todonl.vercel.app/#e-uci
+ -cyclocross-world-championships-ostend-2027
+URL:https://ostend2027.tickets.flandersclassics.be/selection?language=en
+GEO:51.2185;2.8935
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: UCI Cyclo-cross World Championships 2027 Ostend
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-uci-cyclocross-world-championships-ostend-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270108T090000
+DTEND;TZID=Europe/Amsterdam:20270108T093000
+SUMMARY:Book by today: UCI Cyclo-cross World Championships 2027 Ostend
+DESCRIPTION:medium sell-out risk. https://ostend2027.tickets.flandersclas
+ sics.be/selection?language=en
+URL:https://ostend2027.tickets.flandersclassics.be/selection?language=en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: UCI Cyclo-cross World Championships 2027 Ostend
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-koelner-karneval-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270210
+SUMMARY:Kölner Karneval 2027: Weiberfastnacht to Rosenmontagszug
+LOCATION:Altstadt\, Heumarkt and the Rosenmontag route\, Köln\, DE
+DESCRIPTION:The Cologne Rosenmontag parade is the one carnival spectacle 
+ in Europe that matches Anne's taste for scale\, just over an hour away.\
+ nDrive about 65 min from Hoensbroek.\nlow sell-out risk.\nTickets: https
+ ://www.koelnerkarneval.de/\nSource: https://www.koelnerkarneval.de/rosen
+ montagszug/\nOpen in Rondom: https://todonl.vercel.app/#e-koelner-karnev
+ al-2027
+URL:https://www.koelnerkarneval.de/
+GEO:50.9375;6.9603
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Kölner Karneval 2027: Weiberfastnacht to Rosenmonta
+ gszug
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-koelner-karneval-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270121T090000
+DTEND;TZID=Europe/Amsterdam:20270121T093000
+SUMMARY:Book by today: Kölner Karneval 2027: Weiberfastnacht to Rosenmont
+ agszug
+DESCRIPTION:low sell-out risk. https://www.koelnerkarneval.de/
+URL:https://www.koelnerkarneval.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Kölner Karneval 2027: Weiberfastnacht to Rosenmon
+ tagszug
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-carnaval-de-binche-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270210
+SUMMARY:Carnaval de Binche 2027
+LOCATION:Grand-Place and old town\, Binche\, BE
+DESCRIPTION:One of the oldest carnivals in Europe and a UNESCO masterpiec
+ e\, with a Mardi Gras the family will remember.\nDrive about 120 min fro
+ m Hoensbroek.\nlow sell-out risk.\nTickets: https://www.carnavaldebinche
+ .be/\nSource: https://www.carnavaldebinche.be/\nOpen in Rondom: https://
+ todonl.vercel.app/#e-carnaval-de-binche-2027
+URL:https://www.carnavaldebinche.be/
+GEO:50.4112;4.1657
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Carnaval de Binche 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-carnaval-de-binche-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270124T090000
+DTEND;TZID=Europe/Amsterdam:20270124T093000
+SUMMARY:Book by today: Carnaval de Binche 2027
+DESCRIPTION:low sell-out risk. https://www.carnavaldebinche.be/
+URL:https://www.carnavaldebinche.be/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Carnaval de Binche 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-vastelaovend-maastricht-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270210
+SUMMARY:Vastelaovend Maastricht 2027 (Carnival)
+LOCATION:Vrijthof and city centre\, Maastricht\, NL
+DESCRIPTION:The biggest carnival in the Netherlands is 25 minutes from ho
+ me\, so the family can join the Sunday parade without planning a trip.\n
+ Drive about 30 min from Hoensbroek.\nlow sell-out risk.\nTickets: https:
+ //www.tempeleers.nl/\nSource: https://www.visitmaastricht.com/en/agenda/
+ 4126461966/carnival-1\nOpen in Rondom: https://todonl.vercel.app/#e-vast
+ elaovend-maastricht-2027
+URL:https://www.tempeleers.nl/
+GEO:50.8486;5.688
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Vastelaovend Maastricht 2027 (Carnival)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-vastelaovend-maastricht-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270124T090000
+DTEND;TZID=Europe/Amsterdam:20270124T093000
+SUMMARY:Book by today: Vastelaovend Maastricht 2027 (Carnival)
+DESCRIPTION:low sell-out risk. https://www.tempeleers.nl/
+URL:https://www.tempeleers.nl/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Vastelaovend Maastricht 2027 (Carnival)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-vgm-eva-gonzales-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:Ongoing: Eva Gonzalès. A New Perspective (Van Gogh Museum) (until
+  Sun 20 Jun)
+LOCATION:Van Gogh Museum\, Amsterdam\, NL
+DESCRIPTION:A world-first retrospective at the Van Gogh Museum\, the most
+  visited museum in the Netherlands\, in the quieter spring months.\nDriv
+ e about 165 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https://
+ tickets.vangoghmuseum.nl/en/tickets\nSource: https://www.vangoghmuseum.n
+ l/en/visit/whats-on/exhibitions/eva-gonzales\nOpen in Rondom: https://to
+ donl.vercel.app/#e-vgm-eva-gonzales-2027
+GEO:52.3584;4.8811
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-vgm-eva-gonzales-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270113T090000
+DTEND;TZID=Europe/Amsterdam:20270113T093000
+SUMMARY:Book by today: Eva Gonzalès. A New Perspective (Van Gogh Museum)
+DESCRIPTION:high sell-out risk. https://tickets.vangoghmuseum.nl/en/ticke
+ ts
+URL:https://tickets.vangoghmuseum.nl/en/tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Eva Gonzalès. A New Perspective (Van Gogh Museum)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-staedel-welcome-to-paradise-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:Ongoing: Welcome to Paradise (Städel Frankfurt) (until Sun 27 Jun
+ )
+LOCATION:Städel Museum\, Frankfurt am Main\, DE
+DESCRIPTION:Van Eyck-level loans around one of Germany's most beloved med
+ ieval paintings\, the Städel's flagship show of 2027.\nDrive about 175 m
+ in from Hoensbroek.\nmedium sell-out risk.\nTickets: https://www.staedel
+ museum.de/en/tickets\nSource: https://www.staedelmuseum.de/en/welcome-to
+ -paradise\nOpen in Rondom: https://todonl.vercel.app/#e-staedel-welcome-
+ to-paradise-2027
+GEO:50.103;8.674
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-staedel-welcome-to-paradise-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270203T090000
+DTEND;TZID=Europe/Amsterdam:20270203T093000
+SUMMARY:Book by today: Welcome to Paradise (Städel Frankfurt)
+DESCRIPTION:medium sell-out risk. https://www.staedelmuseum.de/en/tickets
+URL:https://www.staedelmuseum.de/en/tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Welcome to Paradise (Städel Frankfurt)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-tefaf-maastricht-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270319
+SUMMARY:TEFAF Maastricht
+LOCATION:MECC Maastricht\, Forum 100\, Maastricht\, NL
+DESCRIPTION:The world's greatest art fair happens ten minutes from the fr
+ ont door\, once a year.\nDrive about 25 min from Hoensbroek.\nlow sell-o
+ ut risk.\nTickets: https://www.tefaf.com/fairs/tefaf-maastricht/visit\nS
+ ource: https://www.tefaf.com/fairs/tefaf-maastricht/visit\nOpen in Rondo
+ m: https://todonl.vercel.app/#e-tefaf-maastricht-2027
+URL:https://www.tefaf.com/fairs/tefaf-maastricht/visit
+GEO:50.8372;5.7155
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: TEFAF Maastricht
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-tefaf-maastricht-2027-onsale@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20261115T090000
+DTEND;TZID=Europe/Amsterdam:20261115T093000
+SUMMARY:Tickets on sale: TEFAF Maastricht
+DESCRIPTION:low sell-out risk. https://www.tefaf.com/fairs/tefaf-maastric
+ ht/visit
+URL:https://www.tefaf.com/fairs/tefaf-maastricht/visit
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tickets on sale now: TEFAF Maastricht
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-keukenhof-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:Ongoing: Keukenhof 2027 (until Sun 9 May)
+LOCATION:Lisse\, NL
+DESCRIPTION:The world's most famous spring garden is a once-a-year day ou
+ t\, two and a half hours away.\nDrive about 185 min from Hoensbroek.\nme
+ dium sell-out risk.\nTickets: https://keukenhof.nl/en/\nSource: https://
+ keukenhof.nl/en/\nOpen in Rondom: https://todonl.vercel.app/#e-keukenhof
+ -2027
+GEO:52.2697;4.5462
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-keukenhof-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270225T090000
+DTEND;TZID=Europe/Amsterdam:20270225T093000
+SUMMARY:Book by today: Keukenhof 2027
+DESCRIPTION:medium sell-out risk. https://keukenhof.nl/en/
+URL:https://keukenhof.nl/en/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Keukenhof 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-ronde-van-vlaanderen-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270405
+SUMMARY:Ronde van Vlaanderen 2027
+LOCATION:Finish Oudenaarde\, climbs Oude Kwaremont and Paterberg\, Oudena
+ arde\, BE
+DESCRIPTION:The most atmospheric day in cycling\, with cobbled climbs you
+  can stand on for free.\nDrive about 140 min from Hoensbroek.\nlow sell-
+ out risk.\nTickets: https://www.rondevanvlaanderen.be/en\nSource: https:
+ //www.rondevanvlaanderen.be/en\nOpen in Rondom: https://todonl.vercel.ap
+ p/#e-ronde-van-vlaanderen-2027
+URL:https://www.rondevanvlaanderen.be/en
+GEO:50.8441;3.609
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Ronde van Vlaanderen 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-ronde-van-vlaanderen-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270320T090000
+DTEND;TZID=Europe/Amsterdam:20270320T093000
+SUMMARY:Book by today: Ronde van Vlaanderen 2027
+DESCRIPTION:low sell-out risk. https://www.rondevanvlaanderen.be/en
+URL:https://www.rondevanvlaanderen.be/en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Ronde van Vlaanderen 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-amstel-gold-race-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270419
+SUMMARY:Amstel Gold Race 2027
+LOCATION:Start Maastricht\, finish Valkenburg (Cauberg region)\, Valkenbu
+ rg aan de Geul\, NL
+DESCRIPTION:The biggest sporting day in Limburg rolls past the front door
+  for free.\nDrive about 15 min from Hoensbroek.\nlow sell-out risk.\nTic
+ kets: https://www.amstelgoldrace.nl/\nSource: https://www.amstelgoldrace
+ .nl/\nOpen in Rondom: https://todonl.vercel.app/#e-amstel-gold-race-2027
+URL:https://www.amstelgoldrace.nl/
+GEO:50.8653;5.831
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Amstel Gold Race 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-amstel-gold-race-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270403T090000
+DTEND;TZID=Europe/Amsterdam:20270403T093000
+SUMMARY:Book by today: Amstel Gold Race 2027
+DESCRIPTION:low sell-out risk. https://www.amstelgoldrace.nl/
+URL:https://www.amstelgoldrace.nl/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Amstel Gold Race 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-bloemencorso-bollenstreek-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Bloemencorso Bollenstreek
+LOCATION:Noordwijk to Haarlem\, NL
+DESCRIPTION:The largest flower parade in the Netherlands\, rolling past K
+ eukenhof at the peak of tulip season.\nDrive about 185 min from Hoensbro
+ ek.\nlow sell-out risk.\nSource: https://bloemencorso-bollenstreek.nl/en
+ /\nOpen in Rondom: https://todonl.vercel.app/#e-bloemencorso-bollenstree
+ k-2027
+URL:https://bloemencorso-bollenstreek.nl/en/
+GEO:52.2574;4.5571
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Bloemencorso Bollenstreek
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-bloemencorso-bollenstreek-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270403T090000
+DTEND;TZID=Europe/Amsterdam:20270403T093000
+SUMMARY:Book by today: Bloemencorso Bollenstreek
+DESCRIPTION:low sell-out risk. https://bloemencorso-bollenstreek.nl/en/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Bloemencorso Bollenstreek
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-liege-bastogne-liege-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Liège-Bastogne-Liège 2027
+LOCATION:Start and finish Liège\, via the Ardennes\, Liège\, BE
+DESCRIPTION:A cycling Monument that finishes 40 minutes from home\, with 
+ the Ardennes climbs as a stage.\nDrive about 45 min from Hoensbroek.\nlo
+ w sell-out risk.\nTickets: https://www.liege-bastogne-liege.be/en/\nSour
+ ce: https://www.liege-bastogne-liege.be/en/\nOpen in Rondom: https://tod
+ onl.vercel.app/#e-liege-bastogne-liege-2027
+URL:https://www.liege-bastogne-liege.be/en/
+GEO:50.6326;5.5797
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Liège-Bastogne-Liège 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-liege-bastogne-liege-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270411T090000
+DTEND;TZID=Europe/Amsterdam:20270411T093000
+SUMMARY:Book by today: Liège-Bastogne-Liège 2027
+DESCRIPTION:low sell-out risk. https://www.liege-bastogne-liege.be/en/
+URL:https://www.liege-bastogne-liege.be/en/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Liège-Bastogne-Liège 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-koningsdag-lelystad-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Koningsdag 2027 with the Royal Family
+LOCATION:Lelystad\, NL
+DESCRIPTION:See the whole royal family at close range on the King's miles
+ tone 60th birthday.\nDrive about 185 min from Hoensbroek.\nlow sell-out 
+ risk.\nSource: https://www.koninklijkhuis.nl/actueel/nieuws/2026/07/06/k
+ oningsdag-2027-in-lelystad\nOpen in Rondom: https://todonl.vercel.app/#e
+ -koningsdag-lelystad-2027
+URL:https://www.koninklijkhuis.nl/actueel/nieuws/2026/07/06/koningsdag-20
+ 27-in-lelystad
+GEO:52.5185;5.4714
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Koningsdag 2027 with the Royal Family
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-koningsdag-lelystad-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270413T090000
+DTEND;TZID=Europe/Amsterdam:20270413T093000
+SUMMARY:Book by today: Koningsdag 2027 with the Royal Family
+DESCRIPTION:low sell-out risk. https://www.koninklijkhuis.nl/actueel/nieu
+ ws/2026/07/06/koningsdag-2027-in-lelystad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Koningsdag 2027 with the Royal Family
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-heilig-bloedprocessie-brugge-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:Heilig Bloedprocessie Brugge 2027
+LOCATION:Historic centre\, starting from the Burg\, Brugge\, BE
+DESCRIPTION:A once-a-year UNESCO pageant through the best-preserved medie
+ val city in Belgium\, on a public holiday.\nDrive about 155 min from Hoe
+ nsbroek.\nmedium sell-out risk.\nTickets: https://www.bloedprocessiebrug
+ ge.be/\nSource: https://www.holyblood.com/\nOpen in Rondom: https://todo
+ nl.vercel.app/#e-heilig-bloedprocessie-brugge-2027
+URL:https://www.bloedprocessiebrugge.be/
+GEO:51.2085;3.227
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Heilig Bloedprocessie Brugge 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-heilig-bloedprocessie-brugge-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270415T090000
+DTEND;TZID=Europe/Amsterdam:20270415T093000
+SUMMARY:Book by today: Heilig Bloedprocessie Brugge 2027
+DESCRIPTION:medium sell-out risk. https://www.bloedprocessiebrugge.be/
+URL:https://www.bloedprocessiebrugge.be/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Heilig Bloedprocessie Brugge 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-kattenstoet-ieper-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Kattenstoet Ieper 2027
+LOCATION:Grote Markt and city centre\, Ieper\, BE
+DESCRIPTION:A triennial parade that will not come back until 2030\, with 
+ giants and flying plush cats that Alma will love.\nDrive about 170 min f
+ rom Hoensbroek.\nmedium sell-out risk.\nTickets: https://www.kattenstoet
+ .be/\nSource: https://www.kattenstoet.be/\nOpen in Rondom: https://todon
+ l.vercel.app/#e-kattenstoet-ieper-2027
+URL:https://www.kattenstoet.be/
+GEO:50.851;2.8857
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Kattenstoet Ieper 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-kattenstoet-ieper-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270418T090000
+DTEND;TZID=Europe/Amsterdam:20270418T093000
+SUMMARY:Book by today: Kattenstoet Ieper 2027
+DESCRIPTION:medium sell-out risk. https://www.kattenstoet.be/
+URL:https://www.kattenstoet.be/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Kattenstoet Ieper 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-iihf-world-championship-duesseldorf-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270531
+SUMMARY:IIHF Ice Hockey World Championship 2027 (Düsseldorf)
+LOCATION:PSD Bank Dome\, Düsseldorf (co-host Mannheim SAP Arena)\, Düssel
+ dorf\, DE
+DESCRIPTION:A world championship final weekend 80 minutes away\, with two
+  games a day for one ticket.\nDrive about 70 min from Hoensbroek.\nmediu
+ m sell-out risk.\nTickets: https://www.ticket-onlineshop.com/ols/deb/\nS
+ ource: https://www.visitduesseldorf.de/event/iihf-eishockey-weltmeisters
+ chaft-2027-34f04fe27a\nOpen in Rondom: https://todonl.vercel.app/#e-iihf
+ -world-championship-duesseldorf-2027
+URL:https://www.ticket-onlineshop.com/ols/deb/
+GEO:51.2614;6.7332
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: IIHF Ice Hockey World Championship 2027 (Düsseldorf
+ )
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-iihf-world-championship-duesseldorf-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270423T090000
+DTEND;TZID=Europe/Amsterdam:20270423T093000
+SUMMARY:Book by today: IIHF Ice Hockey World Championship 2027 (Düsseldor
+ f)
+DESCRIPTION:medium sell-out risk. https://www.ticket-onlineshop.com/ols/d
+ eb/
+URL:https://www.ticket-onlineshop.com/ols/deb/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: IIHF Ice Hockey World Championship 2027 (Düsseldo
+ rf)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-stedelijk-marc-chagall-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:Ongoing: Becoming Marc Chagall (Stedelijk) (until Sun 29 Aug)
+LOCATION:Stedelijk Museum\, Amsterdam\, NL
+DESCRIPTION:The first big Chagall show in the Netherlands in 70 years\, b
+ uilt on the Stedelijk's own world-class holdings.\nDrive about 165 min f
+ rom Hoensbroek.\nmedium sell-out risk.\nTickets: https://www.stedelijk.n
+ l/en/visit/tickets\nSource: https://www.stedelijk.nl/en/exhibitions/marc
+ -chagall-en\nOpen in Rondom: https://todonl.vercel.app/#e-stedelijk-marc
+ -chagall-2027
+GEO:52.358;4.8797
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-stedelijk-marc-chagall-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270424T090000
+DTEND;TZID=Europe/Amsterdam:20270424T093000
+SUMMARY:Book by today: Becoming Marc Chagall (Stedelijk)
+DESCRIPTION:medium sell-out risk. https://www.stedelijk.nl/en/visit/ticke
+ ts
+URL:https://www.stedelijk.nl/en/visit/tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Becoming Marc Chagall (Stedelijk)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-doudou-mons-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:Ducasse de Mons (Doudou) 2027
+LOCATION:Grand-Place and Collegiate Church of Sainte-Waudru\, Mons\, BE
+DESCRIPTION:The most intense traditional spectacle in Belgium\, a UNESCO 
+ masterpiece\, two hours from home.\nDrive about 125 min from Hoensbroek.
+ \nhigh sell-out risk.\nTickets: https://www.mons.be/fr/doudou/\nSource: 
+ https://www.mons.be/fr/doudou/\nOpen in Rondom: https://todonl.vercel.ap
+ p/#e-doudou-mons-2027
+URL:https://www.mons.be/fr/doudou/
+GEO:50.4547;3.9523
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Ducasse de Mons (Doudou) 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-doudou-mons-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270423T090000
+DTEND;TZID=Europe/Amsterdam:20270423T093000
+SUMMARY:Book by today: Ducasse de Mons (Doudou) 2027
+DESCRIPTION:high sell-out risk. https://www.mons.be/fr/doudou/
+URL:https://www.mons.be/fr/doudou/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Ducasse de Mons (Doudou) 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-adac-24h-nuerburgring-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270531
+SUMMARY:ADAC RAVENOL 24h Nürburgring 2027
+LOCATION:Nürburgring Nordschleife and Grand Prix circuit\, Nürburg\, DE
+DESCRIPTION:The wildest 24-hour race in the world\, two hours away\, with
+  a forest circuit you can roam all night.\nDrive about 105 min from Hoen
+ sbroek.\nlow sell-out risk.\nTickets: https://www.24h-rennen.de/\nSource
+ : https://mobil.nuerburgring.de/events/categories/automotive/24h-race?lo
+ cale=en\nOpen in Rondom: https://todonl.vercel.app/#e-adac-24h-nuerburgr
+ ing-2027
+URL:https://www.24h-rennen.de/
+GEO:50.3356;6.9475
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ADAC RAVENOL 24h Nürburgring 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-adac-24h-nuerburgring-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270513T090000
+DTEND;TZID=Europe/Amsterdam:20270513T093000
+SUMMARY:Book by today: ADAC RAVENOL 24h Nürburgring 2027
+DESCRIPTION:low sell-out risk. https://www.24h-rennen.de/
+URL:https://www.24h-rennen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: ADAC RAVENOL 24h Nürburgring 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-memorial-day-margraten-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:Memorial Day Ceremony\, Netherlands American Cemetery Margraten
+LOCATION:Netherlands American Cemetery and Memorial\, Margraten\, NL
+DESCRIPTION:The largest American Memorial Day ceremony in Europe is 20 mi
+ nutes from home and JFC Brunssum always takes part.\nDrive about 25 min 
+ from Hoensbroek.\nlow sell-out risk.\nSource: https://www.abmc.gov/Nethe
+ rlands\nOpen in Rondom: https://todonl.vercel.app/#e-memorial-day-margra
+ ten-2027
+URL:https://www.abmc.gov/Netherlands
+GEO:50.8194;5.806
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Memorial Day Ceremony\, Netherlands American Cemete
+ ry Margraten
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-memorial-day-margraten-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270516T090000
+DTEND;TZID=Europe/Amsterdam:20270516T093000
+SUMMARY:Book by today: Memorial Day Ceremony\, Netherlands American Cemet
+ ery Margraten
+DESCRIPTION:low sell-out risk. https://www.abmc.gov/Netherlands
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Memorial Day Ceremony\, Netherlands American Ceme
+ tery Margraten
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-antwerp-academy-fashion-show-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270606
+SUMMARY:SHOW 2027\, Royal Academy of Fine Arts Antwerp Fashion Department
+LOCATION:Waagnatie\, Rijnkaai 150 (2026 venue)\, Antwerp\, BE
+DESCRIPTION:A world-famous fashion academy shows its students' collection
+ s\, the closest thing to a real fashion week for a teenager who draws an
+ d designs.\nDrive about 85 min from Hoensbroek.\nmedium sell-out risk.\n
+ Tickets: https://www.showww.be\nSource: https://www.ap-arts.be/en/show-f
+ ashion-dept\nOpen in Rondom: https://todonl.vercel.app/#e-antwerp-academ
+ y-fashion-show-2027
+URL:https://www.showww.be
+GEO:51.2318;4.4055
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: SHOW 2027\, Royal Academy of Fine Arts Antwerp Fash
+ ion Department
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-antwerp-academy-fashion-show-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270514T090000
+DTEND;TZID=Europe/Amsterdam:20270514T093000
+SUMMARY:Book by today: SHOW 2027\, Royal Academy of Fine Arts Antwerp Fas
+ hion Department
+DESCRIPTION:medium sell-out risk. https://www.showww.be
+URL:https://www.showww.be
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: SHOW 2027\, Royal Academy of Fine Arts Antwerp Fa
+ shion Department
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-rock-am-ring-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270607
+SUMMARY:Rock am Ring 2027
+LOCATION:Nürburgring\, Nürburg\, DE
+DESCRIPTION:A world-famous festival weekend on the Nürburgring that is ju
+ st within driving range for a Friday-to-Sunday trip.\nDrive about 110 mi
+ n from Hoensbroek.\nhigh sell-out risk.\nTickets: https://www.eventim.de
+ /\nSource: https://www.rock-am-ring.com/\nOpen in Rondom: https://todonl
+ .vercel.app/#e-rock-am-ring-2027
+URL:https://www.eventim.de/
+GEO:50.335;6.947
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Rock am Ring 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-rock-am-ring-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270505T090000
+DTEND;TZID=Europe/Amsterdam:20270505T093000
+SUMMARY:Book by today: Rock am Ring 2027
+DESCRIPTION:high sell-out risk. https://www.eventim.de/
+URL:https://www.eventim.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Rock am Ring 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-graspop-metal-meeting-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270621
+SUMMARY:Graspop Metal Meeting 2027
+LOCATION:Stenehei\, Dessel\, BE
+DESCRIPTION:The 30th anniversary edition stacks legacy headliners and is 
+ an easy hour's drive into the Kempen.\nDrive about 75 min from Hoensbroe
+ k.\nhigh sell-out risk.\nTickets: https://www.graspop.be/\nSource: https
+ ://www.graspop.be/\nOpen in Rondom: https://todonl.vercel.app/#e-graspop
+ -metal-meeting-2027
+URL:https://www.graspop.be/
+GEO:51.236;5.133
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Graspop Metal Meeting 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-graspop-metal-meeting-2027-onsale@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20261114T090000
+DTEND;TZID=Europe/Amsterdam:20261114T093000
+SUMMARY:Tickets on sale: Graspop Metal Meeting 2027
+DESCRIPTION:high sell-out risk. https://www.graspop.be/
+URL:https://www.graspop.be/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tickets on sale now: Graspop Metal Meeting 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-pinkpop-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270621
+SUMMARY:Pinkpop 2027
+LOCATION:Megaland\, Landgraaf\, NL
+DESCRIPTION:The biggest festival in the Netherlands happens on your doors
+ tep in Landgraaf\, so you can go for one day and sleep at home.\nDrive a
+ bout 15 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https://www.
+ pinkpop.nl/tickets\nSource: https://www.pinkpop.nl/\nOpen in Rondom: htt
+ ps://todonl.vercel.app/#e-pinkpop-2027
+URL:https://www.pinkpop.nl/tickets
+GEO:50.883;6.044
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Pinkpop 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-pinkpop-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270519T090000
+DTEND;TZID=Europe/Amsterdam:20270519T093000
+SUMMARY:Book by today: Pinkpop 2027
+DESCRIPTION:high sell-out risk. https://www.pinkpop.nl/tickets
+URL:https://www.pinkpop.nl/tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Pinkpop 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-paris-air-show-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270621
+SUMMARY:International Paris Air Show 2027 (Salon du Bourget)\, public day
+ s
+LOCATION:Paris-Le Bourget Airport exhibition grounds\, Le Bourget\, FR
+DESCRIPTION:The biggest aerospace show on earth\, only held every two yea
+ rs\, with a flying display you will not see anywhere else in Europe.\nDr
+ ive about 270 min from Hoensbroek.\nmedium sell-out risk.\nTickets: http
+ s://www.siae.fr/en/general-public/\nSource: https://www.siae.fr/en/gener
+ al-public/\nOpen in Rondom: https://todonl.vercel.app/#e-paris-air-show-
+ 2027
+URL:https://www.siae.fr/en/general-public/
+GEO:48.9694;2.4414
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: International Paris Air Show 2027 (Salon du Bourget
+ )\, public days
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-paris-air-show-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270529T090000
+DTEND;TZID=Europe/Amsterdam:20270529T093000
+SUMMARY:Book by today: International Paris Air Show 2027 (Salon du Bourge
+ t)\, public days
+DESCRIPTION:medium sell-out risk. https://www.siae.fr/en/general-public/
+URL:https://www.siae.fr/en/general-public/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: International Paris Air Show 2027 (Salon du Bourg
+ et)\, public days
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-crowdstrike-24-hours-of-spa-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270628
+SUMMARY:CrowdStrike 24 Hours of Spa 2027
+LOCATION:Circuit de Spa-Francorchamps\, Stavelot\, BE
+DESCRIPTION:The world's biggest GT race\, an open paddock and a night at 
+ Eau Rouge for a fraction of F1 prices.\nDrive about 70 min from Hoensbro
+ ek.\nlow sell-out risk.\nTickets: https://www.gt-world-challenge-europe.
+ com/\nSource: https://www.spa-francorchamps.be/en/events\nOpen in Rondom
+ : https://todonl.vercel.app/#e-crowdstrike-24-hours-of-spa-2027
+URL:https://www.gt-world-challenge-europe.com/
+GEO:50.4372;5.9714
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: CrowdStrike 24 Hours of Spa 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-crowdstrike-24-hours-of-spa-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270610T090000
+DTEND;TZID=Europe/Amsterdam:20270610T093000
+SUMMARY:Book by today: CrowdStrike 24 Hours of Spa 2027
+DESCRIPTION:low sell-out risk. https://www.gt-world-challenge-europe.com/
+URL:https://www.gt-world-challenge-europe.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: CrowdStrike 24 Hours of Spa 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-chio-aachen-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270705
+SUMMARY:CHIO Aachen 2027
+LOCATION:Reitstadion Soers\, Aachen\, DE
+DESCRIPTION:The Wimbledon of horse sport\, 30 minutes from home\, with an
+  opening show built for Anne.\nDrive about 25 min from Hoensbroek.\nmedi
+ um sell-out risk.\nTickets: https://tickets.chioaachen.de/shop?shopid=10
+ 3&language=2&gotoperformance=\nSource: https://www.chioaachen.de/en/news
+ /ticket-sales-for-chio-aachen-2027-have-started/\nOpen in Rondom: https:
+ //todonl.vercel.app/#e-chio-aachen-2027
+URL:https://tickets.chioaachen.de/shop?shopid=103&language=2&gotoperforma
+ nce=
+GEO:50.8003;6.09
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: CHIO Aachen 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-chio-aachen-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270604T090000
+DTEND;TZID=Europe/Amsterdam:20270604T093000
+SUMMARY:Book by today: CHIO Aachen 2027
+DESCRIPTION:medium sell-out risk. https://tickets.chioaachen.de/shop?shop
+ id=103&language=2&gotoperformance=
+URL:https://tickets.chioaachen.de/shop?shopid=103&language=2&gotoperforma
+ nce=
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: CHIO Aachen 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-dutch-tt-assen-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270628
+SUMMARY:MotoGP Dutch TT Assen 2027
+LOCATION:TT Circuit Assen\, Assen\, NL
+DESCRIPTION:The oldest and loudest Grand Prix in motorcycling and the onl
+ y one in the Netherlands.\nDrive about 220 min from Hoensbroek.\nhigh se
+ ll-out risk.\nTickets: https://www.ttcircuit.com/en/events/tt-assen\nSou
+ rce: https://www.ttcircuit.com/en/events/tt-assen\nOpen in Rondom: https
+ ://todonl.vercel.app/#e-dutch-tt-assen-2027
+URL:https://www.ttcircuit.com/en/events/tt-assen
+GEO:52.9617;6.5247
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: MotoGP Dutch TT Assen 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-dutch-tt-assen-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270526T090000
+DTEND;TZID=Europe/Amsterdam:20270526T093000
+SUMMARY:Book by today: MotoGP Dutch TT Assen 2027
+DESCRIPTION:high sell-out risk. https://www.ttcircuit.com/en/events/tt-as
+ sen
+URL:https://www.ttcircuit.com/en/events/tt-assen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: MotoGP Dutch TT Assen 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-nederlandse-veteranendag-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:Nederlandse Veteranendag 2027
+LOCATION:Malieveld\, Binnenhof and city centre\, Den Haag\, NL
+DESCRIPTION:The Netherlands' biggest military parade of the year\, with a
+  fly-past\, and it is free.\nDrive about 170 min from Hoensbroek.\nlow s
+ ell-out risk.\nSource: https://denhaag.com/nl/agenda/nederlandse-veteran
+ endag\nOpen in Rondom: https://todonl.vercel.app/#e-nederlandse-veterane
+ ndag-2027
+URL:https://denhaag.com/nl/agenda/nederlandse-veteranendag
+GEO:52.0858;4.3178
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Nederlandse Veteranendag 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-nederlandse-veteranendag-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270612T090000
+DTEND;TZID=Europe/Amsterdam:20270612T093000
+SUMMARY:Book by today: Nederlandse Veteranendag 2027
+DESCRIPTION:low sell-out risk. https://denhaag.com/nl/agenda/nederlandse-
+ veteranendag
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Nederlandse Veteranendag 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-rock-werchter-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270705
+SUMMARY:Rock Werchter 2027
+LOCATION:Festivalpark Werchter\, Werchter\, BE
+DESCRIPTION:One of Europe's best-run festivals with a stadium-grade headl
+ iner every night\, under 90 minutes from Hoensbroek.\nDrive about 70 min
+  from Hoensbroek.\nhigh sell-out risk.\nTickets: https://www.rockwerchte
+ r.be/nl/tickets\nSource: https://www.rockwerchter.be/\nOpen in Rondom: h
+ ttps://todonl.vercel.app/#e-rock-werchter-2027
+URL:https://www.rockwerchter.be/nl/tickets
+GEO:50.97;4.7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Rock Werchter 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-rock-werchter-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270601T090000
+DTEND;TZID=Europe/Amsterdam:20270601T093000
+SUMMARY:Book by today: Rock Werchter 2027
+DESCRIPTION:high sell-out risk. https://www.rockwerchter.be/nl/tickets
+URL:https://www.rockwerchter.be/nl/tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Rock Werchter 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-dokomi-duesseldorf-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270712
+SUMMARY:DoKomi 2027 (anime\, manga and Japan expo)
+LOCATION:Messe Düsseldorf\, Stockumer Kirchstraße 61\, Düsseldorf\, DE
+DESCRIPTION:The biggest manga and anime weekend in Germany\, with drawing
+  workshops and K-pop dance stages\, an hour and a quarter from home.\nDr
+ ive about 70 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https:/
+ /dokomi.de/en/tickets\nSource: https://dokomi.de/en/event/when-and-where
+ \nOpen in Rondom: https://todonl.vercel.app/#e-dokomi-duesseldorf-2027
+URL:https://dokomi.de/en/tickets
+GEO:51.265;6.739
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: DoKomi 2027 (anime\, manga and Japan expo)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-dokomi-duesseldorf-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270609T090000
+DTEND;TZID=Europe/Amsterdam:20270609T093000
+SUMMARY:Book by today: DoKomi 2027 (anime\, manga and Japan expo)
+DESCRIPTION:high sell-out risk. https://dokomi.de/en/tickets
+URL:https://dokomi.de/en/tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: DoKomi 2027 (anime\, manga and Japan expo)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-north-sea-jazz-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270712
+SUMMARY:NN North Sea Jazz Festival 2027
+LOCATION:Rotterdam Ahoy\, Rotterdam\, NL
+DESCRIPTION:A world-renowned festival where one day ticket gets you 50 co
+ ncerts under one roof.\nDrive about 150 min from Hoensbroek.\nmedium sel
+ l-out risk.\nTickets: http://www.northseajazz.com/nl/\nSource: https://w
+ ww.northseajazz.com/nl/\nOpen in Rondom: https://todonl.vercel.app/#e-no
+ rth-sea-jazz-2027
+URL:http://www.northseajazz.com/nl/
+GEO:51.884;4.488
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: NN North Sea Jazz Festival 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-north-sea-jazz-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270618T090000
+DTEND;TZID=Europe/Amsterdam:20270618T093000
+SUMMARY:Book by today: NN North Sea Jazz Festival 2027
+DESCRIPTION:medium sell-out risk. http://www.northseajazz.com/nl/
+URL:http://www.northseajazz.com/nl/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: NN North Sea Jazz Festival 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-gentse-feesten-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270726
+SUMMARY:Gentse Feesten 2027
+LOCATION:Historic city centre of Ghent\, Gent\, BE
+DESCRIPTION:Europe's largest free city festival turns the whole of Ghent 
+ into a stage for ten days\, about two hours away.\nDrive about 125 min f
+ rom Hoensbroek.\nlow sell-out risk.\nTickets: https://gentsefeesten.stad
+ .gent/\nSource: https://gentsefeesten.stad.gent/\nOpen in Rondom: https:
+ //todonl.vercel.app/#e-gentse-feesten-2027
+URL:https://gentsefeesten.stad.gent/
+GEO:51.054;3.725
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Gentse Feesten 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-gentse-feesten-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270702T090000
+DTEND;TZID=Europe/Amsterdam:20270702T093000
+SUMMARY:Book by today: Gentse Feesten 2027
+DESCRIPTION:low sell-out risk. https://gentsefeesten.stad.gent/
+URL:https://gentsefeesten.stad.gent/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Gentse Feesten 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-tomorrowland-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270726
+SUMMARY:Tomorrowland 2027
+LOCATION:De Schorre\, Boom\, BE
+DESCRIPTION:Nothing else in Europe matches the stage design and pyrotechn
+ ics of Tomorrowland\, and it is only an hour and a half from home.\nDriv
+ e about 95 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https://w
+ ww.tomorrowland.com/\nSource: https://www.tomorrowland.com/\nOpen in Ron
+ dom: https://todonl.vercel.app/#e-tomorrowland-2027
+URL:https://www.tomorrowland.com/
+GEO:51.087;4.384
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Tomorrowland 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-tomorrowland-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270616T090000
+DTEND;TZID=Europe/Amsterdam:20270616T093000
+SUMMARY:Book by today: Tomorrowland 2027
+DESCRIPTION:high sell-out risk. https://www.tomorrowland.com/
+URL:https://www.tomorrowland.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Tomorrowland 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-vierdaagse-nijmegen-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270724
+SUMMARY:Nijmeegse Vierdaagse 2027 (109th Four Days Marches)
+LOCATION:Start/finish at De Wedren\; Vierdaagsefeesten in the city centre
+ \, Nijmegen\, NL
+DESCRIPTION:Thousands of allied soldiers march the Vierdaagse every year 
+ and the Friday finish is a national celebration.\nDrive about 110 min fr
+ om Hoensbroek.\nhigh sell-out risk.\nTickets: https://www.4daagse.nl/\nS
+ ource: https://www.4daagse.nl/\nOpen in Rondom: https://todonl.vercel.ap
+ p/#e-vierdaagse-nijmegen-2027
+URL:https://www.4daagse.nl/
+GEO:51.837;5.863
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Nijmeegse Vierdaagse 2027 (109th Four Days Marches)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-vierdaagse-nijmegen-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270620T090000
+DTEND;TZID=Europe/Amsterdam:20270620T093000
+SUMMARY:Book by today: Nijmeegse Vierdaagse 2027 (109th Four Days Marches
+ )
+DESCRIPTION:high sell-out risk. https://www.4daagse.nl/
+URL:https://www.4daagse.nl/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Nijmeegse Vierdaagse 2027 (109th Four Days Marche
+ s)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-belgian-national-day-brussels-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270722
+SUMMARY:Belgian National Day Parade and Fireworks\, Brussels 2027
+LOCATION:Place des Palais\, Parc de Bruxelles and Cinquantenaire\, Brusse
+ ls\, BE
+DESCRIPTION:Belgium's biggest military parade plus a drone and fireworks 
+ finale in one free day\, under two hours away.\nDrive about 90 min from 
+ Hoensbroek.\nlow sell-out risk.\nSource: https://www.brussels.be/nationa
+ l-day\nOpen in Rondom: https://todonl.vercel.app/#e-belgian-national-day
+ -brussels-2027
+URL:https://www.brussels.be/national-day
+GEO:50.842;4.362
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Belgian National Day Parade and Fireworks\, Brussel
+ s 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-belgian-national-day-brussels-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270707T090000
+DTEND;TZID=Europe/Amsterdam:20270707T093000
+SUMMARY:Book by today: Belgian National Day Parade and Fireworks\, Brusse
+ ls 2027
+DESCRIPTION:low sell-out risk. https://www.brussels.be/national-day
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Belgian National Day Parade and Fireworks\, Bruss
+ els 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-f1-belgian-grand-prix-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270726
+SUMMARY:Formula 1 Belgian Grand Prix 2027
+LOCATION:Circuit de Spa-Francorchamps\, Stavelot\, BE
+DESCRIPTION:The world's greatest Grand Prix circuit is on our doorstep an
+ d 2027 is the only Belgian GP for two years.\nDrive about 70 min from Ho
+ ensbroek.\nhigh sell-out risk.\nTickets: https://www.spagrandprix.com/en
+ /billetterie\nSource: https://www.spa-francorchamps.be/en/news/630_formu
+ la-1-belgian-grand-prix-july-23-25\nOpen in Rondom: https://todonl.verce
+ l.app/#e-f1-belgian-grand-prix-2027
+URL:https://www.spagrandprix.com/en/billetterie
+GEO:50.4372;5.9714
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Formula 1 Belgian Grand Prix 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-f1-belgian-grand-prix-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270623T090000
+DTEND;TZID=Europe/Amsterdam:20270623T093000
+SUMMARY:Book by today: Formula 1 Belgian Grand Prix 2027
+DESCRIPTION:high sell-out risk. https://www.spagrandprix.com/en/billetter
+ ie
+URL:https://www.spagrandprix.com/en/billetterie
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Formula 1 Belgian Grand Prix 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-koelner-lichter-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:Kölner Lichter 2027
+LOCATION:Rhine between Zoobrücke and Deutzer Brücke\, Altstadt and Tanzbr
+ unnen banks\, Köln\, DE
+DESCRIPTION:The biggest fireworks show in Germany\, in front of the cathe
+ dral\, just over an hour from home.\nDrive about 70 min from Hoensbroek.
+ \nmedium sell-out risk.\nTickets: https://www.koelner-lichter.de/\nSourc
+ e: https://www.koelner-lichter.de/\nOpen in Rondom: https://todonl.verce
+ l.app/#e-koelner-lichter-2027
+URL:https://www.koelner-lichter.de/
+GEO:50.942;6.968
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Kölner Lichter 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-koelner-lichter-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270710T090000
+DTEND;TZID=Europe/Amsterdam:20270710T093000
+SUMMARY:Book by today: Kölner Lichter 2027
+DESCRIPTION:medium sell-out risk. https://www.koelner-lichter.de/
+URL:https://www.koelner-lichter.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Kölner Lichter 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-pride-amsterdam-canal-parade-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:Pride Amsterdam Canal Parade
+LOCATION:Prinsengracht and Amstel\, Amsterdam\, NL
+DESCRIPTION:A parade of boats through the canals is the single most spect
+ acular free event in the Dutch summer.\nDrive about 170 min from Hoensbr
+ oek.\nlow sell-out risk.\nSource: https://pride.amsterdam/\nOpen in Rond
+ om: https://todonl.vercel.app/#e-pride-amsterdam-canal-parade-2027
+URL:https://pride.amsterdam/
+GEO:52.366;4.884
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Pride Amsterdam Canal Parade
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-pride-amsterdam-canal-parade-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270724T090000
+DTEND;TZID=Europe/Amsterdam:20270724T093000
+SUMMARY:Book by today: Pride Amsterdam Canal Parade
+DESCRIPTION:low sell-out risk. https://pride.amsterdam/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Pride Amsterdam Canal Parade
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-rhein-in-flammen-koblenz-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:Rhein in Flammen Koblenz 2027
+LOCATION:Rhine from Spay to Koblenz\, finale at Deutsches Eck and Ehrenbr
+ eitstein fortress\, Koblenz\, DE
+DESCRIPTION:The biggest fireworks show on the Rhine\, best seen from the 
+ Koblenz bank at the Deutsches Eck.\nDrive about 110 min from Hoensbroek.
+ \nmedium sell-out risk.\nTickets: https://www.rhein-in-flammen.com/spay-
+ koblenz/tickets-spay.html\nSource: https://www.rhein-in-flammen.com/spay
+ -koblenz/\nOpen in Rondom: https://todonl.vercel.app/#e-rhein-in-flammen
+ -koblenz-2027
+URL:https://www.rhein-in-flammen.com/spay-koblenz/tickets-spay.html
+GEO:50.3644;7.6058
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Rhein in Flammen Koblenz 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-rhein-in-flammen-koblenz-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270724T090000
+DTEND;TZID=Europe/Amsterdam:20270724T093000
+SUMMARY:Book by today: Rhein in Flammen Koblenz 2027
+DESCRIPTION:medium sell-out risk. https://www.rhein-in-flammen.com/spay-k
+ oblenz/tickets-spay.html
+URL:https://www.rhein-in-flammen.com/spay-koblenz/tickets-spay.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Rhein in Flammen Koblenz 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-pukkelpop-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270819
+DTEND;VALUE=DATE:20270823
+SUMMARY:Pukkelpop 2027
+LOCATION:Kiewit\, Hasselt\, BE
+DESCRIPTION:The closest big festival after Pinkpop and the one with the m
+ ost pop and hip-hop for a 14-year-old.\nDrive about 40 min from Hoensbro
+ ek.\nhigh sell-out risk.\nTickets: https://www.pukkelpop.be/en\nSource: 
+ https://www.pukkelpop.be/en\nOpen in Rondom: https://todonl.vercel.app/#
+ e-pukkelpop-2027
+URL:https://www.pukkelpop.be/en
+GEO:50.956;5.348
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Pukkelpop 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-pukkelpop-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270720T090000
+DTEND;TZID=Europe/Amsterdam:20270720T093000
+SUMMARY:Book by today: Pukkelpop 2027
+DESCRIPTION:high sell-out risk. https://www.pukkelpop.be/en
+URL:https://www.pukkelpop.be/en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Pukkelpop 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-lowlands-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270823
+SUMMARY:Lowlands 2027
+LOCATION:Evenemententerrein Walibi Holland\, Biddinghuizen\, NL
+DESCRIPTION:Lowlands is the one Dutch festival worth a full camping weeke
+ nd\, with far more than music on the bill.\nDrive about 190 min from Hoe
+ nsbroek.\nhigh sell-out risk.\nTickets: https://lowlands.nl/tickets/\nSo
+ urce: https://lowlands.nl/\nOpen in Rondom: https://todonl.vercel.app/#e
+ -lowlands-2027
+URL:https://lowlands.nl/tickets/
+GEO:52.439;5.764
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Lowlands 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-lowlands-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270721T090000
+DTEND;TZID=Europe/Amsterdam:20270721T093000
+SUMMARY:Book by today: Lowlands 2027
+DESCRIPTION:high sell-out risk. https://lowlands.nl/tickets/
+URL:https://lowlands.nl/tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Lowlands 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-ducasse-d-ath-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270824
+SUMMARY:Ducasse d'Ath 2027
+LOCATION:Grand-Place and old town of Ath\, Ath\, BE
+DESCRIPTION:The most famous giants procession in Belgium and a UNESCO mas
+ terpiece\, two hours from home.\nDrive about 135 min from Hoensbroek.\nl
+ ow sell-out risk.\nTickets: https://visitath.be/ducasse/\nSource: https:
+ //visitath.be/ducasse/\nOpen in Rondom: https://todonl.vercel.app/#e-duc
+ asse-d-ath-2027
+URL:https://visitath.be/ducasse/
+GEO:50.6292;3.7775
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Ducasse d'Ath 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-ducasse-d-ath-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270807T090000
+DTEND;TZID=Europe/Amsterdam:20270807T093000
+SUMMARY:Book by today: Ducasse d'Ath 2027
+DESCRIPTION:low sell-out risk. https://visitath.be/ducasse/
+URL:https://visitath.be/ducasse/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Ducasse d'Ath 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-gamescom-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270830
+SUMMARY:gamescom
+LOCATION:Koelnmesse\, Köln\, DE
+DESCRIPTION:The biggest gaming show on the planet is an hour from home an
+ d the first thing Alma would ask for.\nDrive about 70 min from Hoensbroe
+ k.\nhigh sell-out risk.\nTickets: https://www.gamescom.global/en/tickets
+ /buy-tickets\nSource: https://www.koeln.de/?p=27982\nOpen in Rondom: htt
+ ps://todonl.vercel.app/#e-gamescom-2027
+URL:https://www.gamescom.global/en/tickets/buy-tickets
+GEO:50.9466;6.9833
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: gamescom
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-gamescom-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270724T090000
+DTEND;TZID=Europe/Amsterdam:20270724T093000
+SUMMARY:Book by today: gamescom
+DESCRIPTION:high sell-out risk. https://www.gamescom.global/en/tickets/bu
+ y-tickets
+URL:https://www.gamescom.global/en/tickets/buy-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: gamescom
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-preuvenemint-maastricht-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270826
+DTEND;VALUE=DATE:20270830
+SUMMARY:'t Preuvenemint Maastricht
+LOCATION:Vrijthof\, Maastricht\, NL
+DESCRIPTION:The biggest culinary festival in Limburg sits twenty minutes 
+ from home and costs nothing to enter.\nDrive about 25 min from Hoensbroe
+ k.\nlow sell-out risk.\nSource: https://www.preuvenemint.nl/\nOpen in Ro
+ ndom: https://todonl.vercel.app/#e-preuvenemint-maastricht-2027
+URL:https://www.preuvenemint.nl/
+GEO:50.849;5.6878
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: 't Preuvenemint Maastricht
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-preuvenemint-maastricht-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270812T090000
+DTEND;TZID=Europe/Amsterdam:20270812T093000
+SUMMARY:Book by today: 't Preuvenemint Maastricht
+DESCRIPTION:low sell-out risk. https://www.preuvenemint.nl/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: 't Preuvenemint Maastricht
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-belgian-beer-weekend-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270906
+SUMMARY:Belgian Beer Weekend
+LOCATION:Grand-Place\, Brussels\, BE
+DESCRIPTION:Belgium's beer culture\, itself on the UNESCO intangible heri
+ tage list\, celebrated on the most beautiful square in Europe.\nDrive ab
+ out 95 min from Hoensbroek.\nlow sell-out risk.\nSource: https://www.bel
+ gianbeerweekend.be/\nOpen in Rondom: https://todonl.vercel.app/#e-belgia
+ n-beer-weekend-2027
+URL:https://www.belgianbeerweekend.be/
+GEO:50.8467;4.3525
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Belgian Beer Weekend
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-belgian-beer-weekend-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270820T090000
+DTEND;TZID=Europe/Amsterdam:20270820T093000
+SUMMARY:Book by today: Belgian Beer Weekend
+DESCRIPTION:low sell-out risk. https://www.belgianbeerweekend.be/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Belgian Beer Weekend
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-braderie-de-lille-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270906
+SUMMARY:Braderie de Lille
+LOCATION:Lille\, FR
+DESCRIPTION:A whole city turned into one giant market and moules-frites p
+ arty\, the biggest street event in France outside Paris.\nDrive about 16
+ 5 min from Hoensbroek.\nlow sell-out risk.\nSource: https://www.lille.fr
+ /Braderie-de-Lille\nOpen in Rondom: https://todonl.vercel.app/#e-braderi
+ e-de-lille-2027
+URL:https://www.lille.fr/Braderie-de-Lille
+GEO:50.6366;3.0635
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Braderie de Lille
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-braderie-de-lille-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270821T090000
+DTEND;TZID=Europe/Amsterdam:20270821T093000
+SUMMARY:Book by today: Braderie de Lille
+DESCRIPTION:low sell-out risk. https://www.lille.fr/Braderie-de-Lille
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Braderie de Lille
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-corso-zundert-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270907
+SUMMARY:Corso Zundert 2027
+LOCATION:Parade route through Zundert\, Zundert\, NL
+DESCRIPTION:The world's biggest flower parade is one of the few Dutch eve
+ nts that genuinely counts as world-renowned\, 90 minutes from home.\nDri
+ ve about 110 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https:/
+ /www.corsozundert.nl/\nSource: https://www.corsozundert.nl/\nOpen in Ron
+ dom: https://todonl.vercel.app/#e-corso-zundert-2027
+URL:https://www.corsozundert.nl/
+GEO:51.4716;4.6556
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Corso Zundert 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-corso-zundert-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270806T090000
+DTEND;TZID=Europe/Amsterdam:20270806T093000
+SUMMARY:Book by today: Corso Zundert 2027
+DESCRIPTION:high sell-out risk. https://www.corsozundert.nl/
+URL:https://www.corsozundert.nl/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Corso Zundert 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-duerkheimer-wurstmarkt-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270921
+SUMMARY:Dürkheimer Wurstmarkt
+LOCATION:Brühlwiesen / Wurstmarktplatz\, Bad Dürkheim\, DE
+DESCRIPTION:Two weekends of wine\, rides and fireworks at the largest win
+ e festival on earth\, under three hours away in the Pfalz.\nDrive about 
+ 185 min from Hoensbroek.\nlow sell-out risk.\nSource: https://www.duerkh
+ eimer-wurstmarkt.de/\nOpen in Rondom: https://todonl.vercel.app/#e-duerk
+ heimer-wurstmarkt-2027
+URL:https://www.duerkheimer-wurstmarkt.de/
+GEO:49.4625;8.1707
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Dürkheimer Wurstmarkt
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-duerkheimer-wurstmarkt-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270827T090000
+DTEND;TZID=Europe/Amsterdam:20270827T093000
+SUMMARY:Book by today: Dürkheimer Wurstmarkt
+DESCRIPTION:low sell-out risk. https://www.duerkheimer-wurstmarkt.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Dürkheimer Wurstmarkt
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-sanicole-airshow-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270911
+DTEND;VALUE=DATE:20270913
+SUMMARY:International Sanicole Airshow 2027
+LOCATION:Vliegveld Sanicole (EBLE)\, Hechtel-Eksel / Leopoldsburg\, Hecht
+ el-Eksel\, BE
+DESCRIPTION:The best airshow within an hour of home\, with a sunset pyro 
+ show on Saturday and a full military flying display on Sunday.\nDrive ab
+ out 50 min from Hoensbroek.\nmedium sell-out risk.\nTickets: https://www
+ .sanicole.com/\nSource: https://www.sanicole.com/\nOpen in Rondom: https
+ ://todonl.vercel.app/#e-sanicole-airshow-2027
+URL:https://www.sanicole.com/
+GEO:51.1203;5.3072
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: International Sanicole Airshow 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-sanicole-airshow-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270821T090000
+DTEND;TZID=Europe/Amsterdam:20270821T093000
+SUMMARY:Book by today: International Sanicole Airshow 2027
+DESCRIPTION:medium sell-out risk. https://www.sanicole.com/
+URL:https://www.sanicole.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: International Sanicole Airshow 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-airborne-luchtlandingen-ginkelse-heide-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:Airborne Luchtlandingen en Herdenking Ginkelse Heide 2027
+LOCATION:Ginkelse Heide\, Ede\, Ede\, NL
+DESCRIPTION:Hundreds of allied paratroopers jumping over the heath is the
+  most spectacular Market Garden commemoration there is.\nDrive about 130
+  min from Hoensbroek.\nlow sell-out risk.\nSource: https://www.ede.nl/ai
+ rborne\nOpen in Rondom: https://todonl.vercel.app/#e-airborne-luchtlandi
+ ngen-ginkelse-heide-2027
+URL:https://www.ede.nl/airborne
+GEO:52.038;5.742
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Airborne Luchtlandingen en Herdenking Ginkelse Heid
+ e 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-airborne-luchtlandingen-ginkelse-heide-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270904T090000
+DTEND;TZID=Europe/Amsterdam:20270904T093000
+SUMMARY:Book by today: Airborne Luchtlandingen en Herdenking Ginkelse Hei
+ de 2027
+DESCRIPTION:low sell-out risk. https://www.ede.nl/airborne
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Airborne Luchtlandingen en Herdenking Ginkelse He
+ ide 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-motocross-of-nations-assen-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20271009
+DTEND;VALUE=DATE:20271011
+SUMMARY:Monster Energy FIM Motocross of Nations 2027 Assen
+LOCATION:TT Circuit Assen (sand track on the circuit infield)\, Assen\, N
+ L
+DESCRIPTION:The once-in-a-decade chance to see motocross's World Cup on D
+ utch soil.\nDrive about 220 min from Hoensbroek.\nmedium sell-out risk.\
+ nTickets: https://my.weezevent.com/motocross-of-nations-mxon-2027\nSourc
+ e: https://www.mxon-assen.com/\nOpen in Rondom: https://todonl.vercel.ap
+ p/#e-motocross-of-nations-assen-2027
+URL:https://my.weezevent.com/motocross-of-nations-mxon-2027
+GEO:52.9617;6.5247
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Monster Energy FIM Motocross of Nations 2027 Assen
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-motocross-of-nations-assen-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270918T090000
+DTEND;TZID=Europe/Amsterdam:20270918T093000
+SUMMARY:Book by today: Monster Energy FIM Motocross of Nations 2027 Assen
+DESCRIPTION:medium sell-out risk. https://my.weezevent.com/motocross-of-n
+ ations-mxon-2027
+URL:https://my.weezevent.com/motocross-of-nations-mxon-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Monster Energy FIM Motocross of Nations 2027 Asse
+ n
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-dae-graduation-show-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271101
+SUMMARY:Design Academy Eindhoven Graduation Show 2027 (Dutch Design Week)
+LOCATION:Eindhoven\, NL
+DESCRIPTION:The most inspiring design show in the country for a 14-year-o
+ ld who draws\, an hour from home.\nDrive about 75 min from Hoensbroek.\n
+ low sell-out risk.\nTickets: https://ddw.nl/en\nSource: https://ddw.nl/e
+ n\nOpen in Rondom: https://todonl.vercel.app/#e-dae-graduation-show-2027
+URL:https://ddw.nl/en
+GEO:51.4431;5.479
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Design Academy Eindhoven Graduation Show 2027 (Dutc
+ h Design Week)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-dae-graduation-show-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20271009T090000
+DTEND;TZID=Europe/Amsterdam:20271009T093000
+SUMMARY:Book by today: Design Academy Eindhoven Graduation Show 2027 (Dut
+ ch Design Week)
+DESCRIPTION:low sell-out risk. https://ddw.nl/en
+URL:https://ddw.nl/en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Design Academy Eindhoven Graduation Show 2027 (Du
+ tch Design Week)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-dutch-design-week-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271101
+SUMMARY:Dutch Design Week
+LOCATION:Eindhoven\, NL
+DESCRIPTION:Northern Europe's biggest design event\, seventy minutes away
+  and genuinely interesting for a teenager.\nDrive about 75 min from Hoen
+ sbroek.\nlow sell-out risk.\nTickets: https://ddw.nl/en\nSource: https:/
+ /ddw.nl/en\nOpen in Rondom: https://todonl.vercel.app/#e-dutch-design-we
+ ek-2027
+URL:https://ddw.nl/en
+GEO:51.4416;5.4697
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Dutch Design Week
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-dutch-design-week-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20271009T090000
+DTEND;TZID=Europe/Amsterdam:20271009T093000
+SUMMARY:Book by today: Dutch Design Week
+DESCRIPTION:low sell-out risk. https://ddw.nl/en
+URL:https://ddw.nl/en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Dutch Design Week
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-nuts-weekend-bastogne-2027@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20271210
+DTEND;VALUE=DATE:20271213
+SUMMARY:Nuts Weekend Bastogne 2027 (Battle of the Bulge commemoration)
+LOCATION:Bastogne War Museum and town centre\, Bastogne\, BE
+DESCRIPTION:Bastogne's Battle of the Bulge weekend is the Ardennes' bigge
+ st WWII commemoration and only 90 minutes from home.\nDrive about 105 mi
+ n from Hoensbroek.\nlow sell-out risk.\nSource: https://www.bastognewarm
+ useum.be/en/events/nuts-week-end-2026-en/\nOpen in Rondom: https://todon
+ l.vercel.app/#e-nuts-weekend-bastogne-2027
+URL:https://www.bastognewarmuseum.be/en/events/nuts-week-end-2026-en/
+GEO:50.0063;5.7372
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Nuts Weekend Bastogne 2027 (Battle of the Bulge com
+ memoration)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-nuts-weekend-bastogne-2027-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20271126T090000
+DTEND;TZID=Europe/Amsterdam:20271126T093000
+SUMMARY:Book by today: Nuts Weekend Bastogne 2027 (Battle of the Bulge co
+ mmemoration)
+DESCRIPTION:low sell-out risk. https://www.bastognewarmuseum.be/en/events
+ /nuts-week-end-2026-en/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Nuts Weekend Bastogne 2027 (Battle of the Bulge c
+ ommemoration)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-taemin-adidas-arena-2026-11-16@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Taemin
+LOCATION:adidas arena\, Paris\, FR
+DESCRIPTION:LiMiNaL Tour at adidas arena\, Paris.\nDrive about 265 min fr
+ om Hoensbroek.\nhigh sell-out risk.\nTickets: https://billetterie.adidas
+ arena.com/fr/manifestation/taemin-billet/idmanif/670379/codtypadh/FTT/nu
+ madh/01/codeconf/FTMS01\nSource: https://www.adidasarena.com/programmati
+ on/taemin--1498\nOpen in Rondom: https://todonl.vercel.app/#c-taemin-adi
+ das-arena-2026-11-16
+URL:https://billetterie.adidasarena.com/fr/manifestation/taemin-billet/id
+ manif/670379/codtypadh/FTT/numadh/01/codeconf/FTMS01
+GEO:48.8988;2.3604
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Taemin
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-zelo-p60-2026-11-18@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:ZELO
+LOCATION:P60\, Amstelveen\, NL
+DESCRIPTION:UNBOUND TOUR IN EUROPE 2026 at P60\, Amstelveen.\nDrive about
+  160 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https://my.weez
+ event.com/zelo-unbound-tour-in-europe-2026-amsterdam\nSource: https://p6
+ 0.nl/2026/zelo/\nOpen in Rondom: https://todonl.vercel.app/#c-zelo-p60-2
+ 026-11-18
+URL:https://my.weezevent.com/zelo-unbound-tour-in-europe-2026-amsterdam
+GEO:52.3012;4.8622
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ZELO
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-h1ghr-season-q-factory-2026-11-20@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:pH-1\, lIlBOI & Woodie Gochild (H1GHR SEASON)
+LOCATION:Q-Factory\, Amsterdam\, NL
+DESCRIPTION:2026 H1GHR SEASON in EUROPE & UK at Q-Factory\, Amsterdam.\nD
+ rive about 165 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https
+ ://q-factory.com/nl/events/h1ghr-season-in-europe-uk-2026\nSource: https
+ ://q-factory.com/nl/events/h1ghr-season-in-europe-uk-2026\nOpen in Rondo
+ m: https://todonl.vercel.app/#c-h1ghr-season-q-factory-2026-11-20
+URL:https://q-factory.com/nl/events/h1ghr-season-in-europe-uk-2026
+GEO:52.3556;4.9245
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: pH-1\, lIlBOI & Woodie Gochild (H1GHR SEASON)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-taemin-afas-live-2026-11-24@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:TAEMIN
+LOCATION:AFAS Live\, Amsterdam\, NL
+DESCRIPTION:TAEMIN 2nd World Tour at AFAS Live\, Amsterdam.\nDrive about 
+ 155 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https://www.afas
+ live.nl/agenda/taemin\nSource: https://www.afaslive.nl/agenda/taemin\nOp
+ en in Rondom: https://todonl.vercel.app/#c-taemin-afas-live-2026-11-24
+URL:https://www.afaslive.nl/agenda/taemin
+GEO:52.3122;4.9442
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: TAEMIN
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-transmission-gelredome-2026-11-28@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Transmission
+LOCATION:GelreDome\, Arnhem\, NL
+DESCRIPTION:Live at GelreDome\, Arnhem\, a stadium show.\nDrive about 125
+  min from Hoensbroek.\nhigh sell-out risk.\nTickets: https://shop.paylog
+ ic.com/1314b4279cd74fc1af992c3a82f31a72/tickets\nSource: https://www.gel
+ redome.nl/evenement/transmission-2026\nOpen in Rondom: https://todonl.ve
+ rcel.app/#c-transmission-gelredome-2026-11-28
+URL:https://shop.paylogic.com/1314b4279cd74fc1af992c3a82f31a72/tickets
+GEO:51.9627;5.893
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Transmission
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-aespa-ziggo-2027-01-19@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:aespa
+LOCATION:Ziggo Dome\, Amsterdam\, NL
+DESCRIPTION:aespa LIVE TOUR - SYNK : COMPLæXITY at Ziggo Dome\, Amsterdam
+ .\nDrive about 155 min from Hoensbroek.\nhigh sell-out risk.\nTickets: h
+ ttps://www.ticketmaster.nl/artist/aespa-tickets/1173664\nSource: https:/
+ /www.ziggodome.nl/events/9f0e4fde-e310-4f21-b545-edf76e2570e3\nOpen in R
+ ondom: https://todonl.vercel.app/#c-aespa-ziggo-2027-01-19
+URL:https://www.ticketmaster.nl/artist/aespa-tickets/1173664
+GEO:52.3134;4.937
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: aespa
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-aespa-ziggo-2027-01-19-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20261220T090000
+DTEND;TZID=Europe/Amsterdam:20261220T093000
+SUMMARY:Book by today: aespa
+DESCRIPTION:high sell-out risk. https://www.ticketmaster.nl/artist/aespa-
+ tickets/1173664
+URL:https://www.ticketmaster.nl/artist/aespa-tickets/1173664
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: aespa
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-aespa-accor-2027-02-02@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:aespa
+LOCATION:Accor Arena\, Paris\, FR
+DESCRIPTION:aespa LIVE TOUR - SYNK : COMPLAEXITY at Accor Arena\, Paris.\
+ nDrive about 275 min from Hoensbroek.\nhigh sell-out risk.\nTickets: htt
+ ps://www.livenation.fr/event/aespa-live-tour-synk-compl%C3%A6xity-in-par
+ is-paris-tickets-edp1668633\nSource: https://www.livenation.fr/event/aes
+ pa-live-tour-synk-compl%C3%A6xity-in-paris-paris-tickets-edp1668633\nOpe
+ n in Rondom: https://todonl.vercel.app/#c-aespa-accor-2027-02-02
+URL:https://www.livenation.fr/event/aespa-live-tour-synk-compl%C3%A6xity-
+ in-paris-paris-tickets-edp1668633
+GEO:48.8386;2.3786
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: aespa
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-aespa-accor-2027-02-02-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270103T090000
+DTEND;TZID=Europe/Amsterdam:20270103T093000
+SUMMARY:Book by today: aespa
+DESCRIPTION:high sell-out risk. https://www.livenation.fr/event/aespa-liv
+ e-tour-synk-compl%C3%A6xity-in-paris-paris-tickets-edp1668633
+URL:https://www.livenation.fr/event/aespa-live-tour-synk-compl%C3%A6xity-
+ in-paris-paris-tickets-edp1668633
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: aespa
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-enhypen-pldefense-2027-02-27@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:ENHYPEN
+LOCATION:Plenitude Arena (Paris La Défense Arena)\, Nanterre\, FR
+DESCRIPTION:ENHYPEN WORLD TOUR 'BLOOD SAGA' at Plenitude Arena (Paris La 
+ Défense Arena)\, Nanterre.\nDrive about 280 min from Hoensbroek.\nhigh s
+ ell-out risk.\nTickets: https://www.plenitudearena.com/en/event/enhypen-
+ paris-concert/\nSource: https://www.plenitudearena.com/en/event/enhypen-
+ paris-concert/\nOpen in Rondom: https://todonl.vercel.app/#c-enhypen-pld
+ efense-2027-02-27
+URL:https://www.plenitudearena.com/en/event/enhypen-paris-concert/
+GEO:48.8955;2.2298
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ENHYPEN
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-enhypen-pldefense-2027-02-27-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270128T090000
+DTEND;TZID=Europe/Amsterdam:20270128T093000
+SUMMARY:Book by today: ENHYPEN
+DESCRIPTION:high sell-out risk. https://www.plenitudearena.com/en/event/e
+ nhypen-paris-concert/
+URL:https://www.plenitudearena.com/en/event/enhypen-paris-concert/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: ENHYPEN
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-enhypen-ziggo-2027-03-02@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:ENHYPEN
+LOCATION:Ziggo Dome\, Amsterdam\, NL
+DESCRIPTION:ENHYPEN WORLD TOUR 'BLOOD SAGA' at Ziggo Dome\, Amsterdam.\nD
+ rive about 155 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https
+ ://www.ticketmaster.nl/artist/enhypen-tickets/1135464\nSource: https://w
+ ww.ziggodome.nl/events/bbe500ad-5496-48ef-a406-247cbcc54372\nOpen in Ron
+ dom: https://todonl.vercel.app/#c-enhypen-ziggo-2027-03-02
+URL:https://www.ticketmaster.nl/artist/enhypen-tickets/1135464
+GEO:52.3134;4.937
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ENHYPEN
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-enhypen-ziggo-2027-03-02-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270131T090000
+DTEND;TZID=Europe/Amsterdam:20270131T093000
+SUMMARY:Book by today: ENHYPEN
+DESCRIPTION:high sell-out risk. https://www.ticketmaster.nl/artist/enhype
+ n-tickets/1135464
+URL:https://www.ticketmaster.nl/artist/enhypen-tickets/1135464
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: ENHYPEN
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-ateez-ziggo-2027-04-12@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:ATEEZ
+LOCATION:Ziggo Dome\, Amsterdam\, NL
+DESCRIPTION:ATEEZ 2027 World Tour at Ziggo Dome\, Amsterdam.\nDrive about
+  155 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https://ateez.k
+ qent.com/\nSource: https://ateez.kqent.com/\nOpen in Rondom: https://tod
+ onl.vercel.app/#c-ateez-ziggo-2027-04-12
+URL:https://ateez.kqent.com/
+GEO:52.3134;4.937
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ATEEZ
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-ateez-ziggo-2027-04-12-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270313T090000
+DTEND;TZID=Europe/Amsterdam:20270313T093000
+SUMMARY:Book by today: ATEEZ
+DESCRIPTION:high sell-out risk. https://ateez.kqent.com/
+URL:https://ateez.kqent.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: ATEEZ
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-sofiane-pamart-stade-de-france-2027-04-17@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Sofiane Pamart
+LOCATION:Stade de France\, Saint-Denis\, FR
+DESCRIPTION:Live at Stade de France\, Saint-Denis\, a stadium show.\nDriv
+ e about 260 min from Hoensbroek.\nmedium sell-out risk.\nTickets: https:
+ //www.stadefrance.com/fr/billetterie/sofiane-pamart\nSource: https://www
+ .stadefrance.com/fr/billetteries/concerts\nOpen in Rondom: https://todon
+ l.vercel.app/#c-sofiane-pamart-stade-de-france-2027-04-17
+URL:https://www.stadefrance.com/fr/billetterie/sofiane-pamart
+GEO:48.9245;2.3602
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Sofiane Pamart
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-sofiane-pamart-stade-de-france-2027-04-17-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270327T090000
+DTEND;TZID=Europe/Amsterdam:20270327T093000
+SUMMARY:Book by today: Sofiane Pamart
+DESCRIPTION:medium sell-out risk. https://www.stadefrance.com/fr/billette
+ rie/sofiane-pamart
+URL:https://www.stadefrance.com/fr/billetterie/sofiane-pamart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Sofiane Pamart
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-roxy-dekker-jca-2027-04-24@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:Roxy Dekker
+LOCATION:Johan Cruijff ArenA\, Amsterdam\, NL
+DESCRIPTION:Live at Johan Cruijff ArenA\, Amsterdam\, a stadium show.\nDr
+ ive about 155 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https:
+ //www.johancruijffarena.nl/en/calendar/461559-roxy-dekker/\nSource: http
+ s://www.johancruijffarena.nl/en/calendar/461559-roxy-dekker/\nOpen in Ro
+ ndom: https://todonl.vercel.app/#c-roxy-dekker-jca-2027-04-24
+URL:https://www.johancruijffarena.nl/en/calendar/461559-roxy-dekker/
+GEO:52.3143;4.9419
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Roxy Dekker
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-roxy-dekker-jca-2027-04-24-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270325T090000
+DTEND;TZID=Europe/Amsterdam:20270325T093000
+SUMMARY:Book by today: Roxy Dekker
+DESCRIPTION:high sell-out risk. https://www.johancruijffarena.nl/en/calen
+ dar/461559-roxy-dekker/
+URL:https://www.johancruijffarena.nl/en/calendar/461559-roxy-dekker/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Roxy Dekker
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-u2-stade-de-france-2027-05-05@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:U2
+LOCATION:Stade de France\, Saint-Denis\, FR
+DESCRIPTION:The Greatest Show On Earth World Tour at Stade de France\, Sa
+ int-Denis\, a stadium show.\nDrive about 260 min from Hoensbroek.\nhigh 
+ sell-out risk.\nTickets: https://www.stadefrance.com/fr/billetterie/u2\n
+ Source: https://www.stadefrance.com/fr/billetterie/u2\nOpen in Rondom: h
+ ttps://todonl.vercel.app/#c-u2-stade-de-france-2027-05-05
+URL:https://www.stadefrance.com/fr/billetterie/u2
+GEO:48.9245;2.3602
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: U2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-u2-stade-de-france-2027-05-05-onsale@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20261106T090000
+DTEND;TZID=Europe/Amsterdam:20261106T093000
+SUMMARY:Tickets on sale: U2
+DESCRIPTION:high sell-out risk. https://www.stadefrance.com/fr/billetteri
+ e/u2
+URL:https://www.stadefrance.com/fr/billetterie/u2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tickets on sale now: U2
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-u2-stade-de-france-2027-05-08@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:U2
+LOCATION:Stade de France\, Saint-Denis\, FR
+DESCRIPTION:The Greatest Show On Earth World Tour at Stade de France\, Sa
+ int-Denis\, a stadium show.\nDrive about 260 min from Hoensbroek.\nhigh 
+ sell-out risk.\nTickets: https://www.stadefrance.com/fr/billetterie/u2\n
+ Source: https://www.stadefrance.com/fr/billetterie/u2\nOpen in Rondom: h
+ ttps://todonl.vercel.app/#c-u2-stade-de-france-2027-05-08
+URL:https://www.stadefrance.com/fr/billetterie/u2
+GEO:48.9245;2.3602
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: U2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-u2-stade-de-france-2027-05-08-onsale@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20261106T090000
+DTEND;TZID=Europe/Amsterdam:20261106T093000
+SUMMARY:Tickets on sale: U2
+DESCRIPTION:high sell-out risk. https://www.stadefrance.com/fr/billetteri
+ e/u2
+URL:https://www.stadefrance.com/fr/billetterie/u2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tickets on sale now: U2
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-toppers-jca-2027-05-28@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:De Toppers
+LOCATION:Johan Cruijff ArenA\, Amsterdam\, NL
+DESCRIPTION:Toppers in Concert 2027 at Johan Cruijff ArenA\, Amsterdam\, 
+ a stadium show.\nDrive about 155 min from Hoensbroek.\nmedium sell-out r
+ isk.\nTickets: https://www.johancruijffarena.nl/en/calendar/464533-toppe
+ rs-in-concert-2027/\nSource: https://www.johancruijffarena.nl/en/calenda
+ r/464533-toppers-in-concert-2027/\nOpen in Rondom: https://todonl.vercel
+ .app/#c-toppers-jca-2027-05-28
+URL:https://www.johancruijffarena.nl/en/calendar/464533-toppers-in-concer
+ t-2027/
+GEO:52.3143;4.9419
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: De Toppers
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-toppers-jca-2027-05-28-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270507T090000
+DTEND;TZID=Europe/Amsterdam:20270507T093000
+SUMMARY:Book by today: De Toppers
+DESCRIPTION:medium sell-out risk. https://www.johancruijffarena.nl/en/cal
+ endar/464533-toppers-in-concert-2027/
+URL:https://www.johancruijffarena.nl/en/calendar/464533-toppers-in-concer
+ t-2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: De Toppers
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-toppers-jca-2027-05-29@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:De Toppers
+LOCATION:Johan Cruijff ArenA\, Amsterdam\, NL
+DESCRIPTION:Toppers in Concert 2027 at Johan Cruijff ArenA\, Amsterdam\, 
+ a stadium show.\nDrive about 155 min from Hoensbroek.\nmedium sell-out r
+ isk.\nTickets: https://www.johancruijffarena.nl/en/calendar/464620-toppe
+ rs-in-concert-2027/\nSource: https://www.johancruijffarena.nl/en/calenda
+ r/464620-toppers-in-concert-2027/\nOpen in Rondom: https://todonl.vercel
+ .app/#c-toppers-jca-2027-05-29
+URL:https://www.johancruijffarena.nl/en/calendar/464620-toppers-in-concer
+ t-2027/
+GEO:52.3143;4.9419
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: De Toppers
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-toppers-jca-2027-05-29-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270508T090000
+DTEND;TZID=Europe/Amsterdam:20270508T093000
+SUMMARY:Book by today: De Toppers
+DESCRIPTION:medium sell-out risk. https://www.johancruijffarena.nl/en/cal
+ endar/464620-toppers-in-concert-2027/
+URL:https://www.johancruijffarena.nl/en/calendar/464620-toppers-in-concer
+ t-2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: De Toppers
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-u2-jca-2027-06-05@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:U2
+LOCATION:Johan Cruijff ArenA\, Amsterdam\, NL
+DESCRIPTION:The Greatest Show On Earth World Tour at Johan Cruijff ArenA\
+ , Amsterdam\, a stadium show.\nDrive about 155 min from Hoensbroek.\nhig
+ h sell-out risk.\nTickets: https://www.johancruijffarena.nl/en/calendar/
+ 466110-u2/\nSource: https://www.johancruijffarena.nl/en/calendar/466110-
+ u2/\nOpen in Rondom: https://todonl.vercel.app/#c-u2-jca-2027-06-05
+URL:https://www.johancruijffarena.nl/en/calendar/466110-u2/
+GEO:52.3143;4.9419
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: U2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-u2-jca-2027-06-05-onsale@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20261105T090000
+DTEND;TZID=Europe/Amsterdam:20261105T093000
+SUMMARY:Tickets on sale: U2
+DESCRIPTION:high sell-out risk. https://www.johancruijffarena.nl/en/calen
+ dar/466110-u2/
+URL:https://www.johancruijffarena.nl/en/calendar/466110-u2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tickets on sale now: U2
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-u2-jca-2027-06-06@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:U2
+LOCATION:Johan Cruijff ArenA\, Amsterdam\, NL
+DESCRIPTION:The Greatest Show On Earth World Tour at Johan Cruijff ArenA\
+ , Amsterdam\, a stadium show.\nDrive about 155 min from Hoensbroek.\nhig
+ h sell-out risk.\nTickets: https://www.johancruijffarena.nl/en/calendar/
+ 466163-u2/\nSource: https://www.johancruijffarena.nl/en/calendar/466163-
+ u2/\nOpen in Rondom: https://todonl.vercel.app/#c-u2-jca-2027-06-06
+URL:https://www.johancruijffarena.nl/en/calendar/466163-u2/
+GEO:52.3143;4.9419
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: U2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-u2-jca-2027-06-06-onsale@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20261105T090000
+DTEND;TZID=Europe/Amsterdam:20261105T093000
+SUMMARY:Tickets on sale: U2
+DESCRIPTION:high sell-out risk. https://www.johancruijffarena.nl/en/calen
+ dar/466163-u2/
+URL:https://www.johancruijffarena.nl/en/calendar/466163-u2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tickets on sale now: U2
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-kraftklub-rheinenergie-2027-06-11@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270611
+DTEND;VALUE=DATE:20270612
+SUMMARY:Kraftklub
+LOCATION:RheinEnergieStadion\, Köln\, DE
+DESCRIPTION:Live at RheinEnergieStadion\, Köln\, a stadium show.\nDrive a
+ bout 55 min from Hoensbroek.\nmedium sell-out risk.\nTickets: https://kr
+ aftklub.to/\nSource: https://www.rheinenergiestadion.de/kraftklub/\nOpen
+  in Rondom: https://todonl.vercel.app/#c-kraftklub-rheinenergie-2027-06-
+ 11
+URL:https://kraftklub.to/
+GEO:50.9335;6.875
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Kraftklub
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-kraftklub-rheinenergie-2027-06-11-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270521T090000
+DTEND;TZID=Europe/Amsterdam:20270521T093000
+SUMMARY:Book by today: Kraftklub
+DESCRIPTION:medium sell-out risk. https://kraftklub.to/
+URL:https://kraftklub.to/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Kraftklub
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-querbeat-rheinenergie-2027-06-12@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Querbeat
+LOCATION:RheinEnergieStadion\, Köln\, DE
+DESCRIPTION:Live at RheinEnergieStadion\, Köln\, a stadium show.\nDrive a
+ bout 55 min from Hoensbroek.\nmedium sell-out risk.\nTickets: https://ww
+ w.rheinenergiestadion.de/querbeat-2027/\nSource: https://www.rheinenergi
+ estadion.de/termine\nOpen in Rondom: https://todonl.vercel.app/#c-querbe
+ at-rheinenergie-2027-06-12
+URL:https://www.rheinenergiestadion.de/querbeat-2027/
+GEO:50.9335;6.875
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Querbeat
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-querbeat-rheinenergie-2027-06-12-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270522T090000
+DTEND;TZID=Europe/Amsterdam:20270522T093000
+SUMMARY:Book by today: Querbeat
+DESCRIPTION:medium sell-out risk. https://www.rheinenergiestadion.de/quer
+ beat-2027/
+URL:https://www.rheinenergiestadion.de/querbeat-2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Querbeat
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-herbert-groenemeyer-veltins-2027-06-19@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:Herbert Grönemeyer
+LOCATION:Veltins-Arena\, Gelsenkirchen\, DE
+DESCRIPTION:Arena Tour 2027 at Veltins-Arena\, Gelsenkirchen\, a stadium 
+ show.\nDrive about 100 min from Hoensbroek.\nhigh sell-out risk.\nTicket
+ s: https://tickets.schalke04.de/de\nSource: https://veltins-arena.de/eve
+ nts/herbert-groenemeyer-tour2027/\nOpen in Rondom: https://todonl.vercel
+ .app/#c-herbert-groenemeyer-veltins-2027-06-19
+URL:https://tickets.schalke04.de/de
+GEO:51.5546;7.0676
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Herbert Grönemeyer
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-herbert-groenemeyer-veltins-2027-06-19-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270520T090000
+DTEND;TZID=Europe/Amsterdam:20270520T093000
+SUMMARY:Book by today: Herbert Grönemeyer
+DESCRIPTION:high sell-out risk. https://tickets.schalke04.de/de
+URL:https://tickets.schalke04.de/de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Herbert Grönemeyer
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-qmusic-foute-party-gelredome-2027-06-19@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:Qmusic Foute Party - The Big One
+LOCATION:GelreDome\, Arnhem\, NL
+DESCRIPTION:Live at GelreDome\, Arnhem\, a stadium show.\nDrive about 125
+  min from Hoensbroek.\nmedium sell-out risk.\nTickets: https://www.qmusi
+ cfouteparty.nl/\nSource: https://www.qmusicfouteparty.nl/\nOpen in Rondo
+ m: https://todonl.vercel.app/#c-qmusic-foute-party-gelredome-2027-06-19
+URL:https://www.qmusicfouteparty.nl/
+GEO:51.9627;5.893
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Qmusic Foute Party - The Big One
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-qmusic-foute-party-gelredome-2027-06-19-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270529T090000
+DTEND;TZID=Europe/Amsterdam:20270529T093000
+SUMMARY:Book by today: Qmusic Foute Party - The Big One
+DESCRIPTION:medium sell-out risk. https://www.qmusicfouteparty.nl/
+URL:https://www.qmusicfouteparty.nl/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Qmusic Foute Party - The Big One
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-scooter-rheinenergie-2027-06-19@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:Scooter
+LOCATION:RheinEnergieStadion\, Köln\, DE
+DESCRIPTION:Live at RheinEnergieStadion\, Köln\, a stadium show.\nDrive a
+ bout 55 min from Hoensbroek.\nmedium sell-out risk.\nTickets: https://ww
+ w.rheinenergiestadion.de/scooter-2027/\nSource: https://www.rheinenergie
+ stadion.de/scooter-2027/\nOpen in Rondom: https://todonl.vercel.app/#c-s
+ cooter-rheinenergie-2027-06-19
+URL:https://www.rheinenergiestadion.de/scooter-2027/
+GEO:50.9335;6.875
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Scooter
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-scooter-rheinenergie-2027-06-19-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270529T090000
+DTEND;TZID=Europe/Amsterdam:20270529T093000
+SUMMARY:Book by today: Scooter
+DESCRIPTION:medium sell-out risk. https://www.rheinenergiestadion.de/scoo
+ ter-2027/
+URL:https://www.rheinenergiestadion.de/scooter-2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Scooter
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-die-toten-hosen-veltins-2027-06-29@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:Die Toten Hosen
+LOCATION:Veltins-Arena\, Gelsenkirchen\, DE
+DESCRIPTION:Trink aus! Wir müssen gehen Tour 2026/27 at Veltins-Arena\, G
+ elsenkirchen\, a stadium show.\nDrive about 100 min from Hoensbroek.\nhi
+ gh sell-out risk.\nTickets: https://tickets.schalke04.de/de\nSource: htt
+ ps://veltins-arena.de/events/die-toten-hosen-2027/\nOpen in Rondom: http
+ s://todonl.vercel.app/#c-die-toten-hosen-veltins-2027-06-29
+URL:https://tickets.schalke04.de/de
+GEO:51.5546;7.0676
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Die Toten Hosen
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-die-toten-hosen-veltins-2027-06-29-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270530T090000
+DTEND;TZID=Europe/Amsterdam:20270530T093000
+SUMMARY:Book by today: Die Toten Hosen
+DESCRIPTION:high sell-out risk. https://tickets.schalke04.de/de
+URL:https://tickets.schalke04.de/de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Die Toten Hosen
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-die-80er-live-rheinenergie-2027-07-03@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:Die 80er Jahre Live
+LOCATION:RheinEnergieStadion\, Köln\, DE
+DESCRIPTION:Live at RheinEnergieStadion\, Köln\, a stadium show.\nDrive a
+ bout 55 min from Hoensbroek.\nmedium sell-out risk.\nTickets: https://ww
+ w.80er-live.de/koeln\nSource: https://www.rheinenergiestadion.de/die-80e
+ r-jahre-live/\nOpen in Rondom: https://todonl.vercel.app/#c-die-80er-liv
+ e-rheinenergie-2027-07-03
+URL:https://www.80er-live.de/koeln
+GEO:50.9335;6.875
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Die 80er Jahre Live
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-die-80er-live-rheinenergie-2027-07-03-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270612T090000
+DTEND;TZID=Europe/Amsterdam:20270612T093000
+SUMMARY:Book by today: Die 80er Jahre Live
+DESCRIPTION:medium sell-out risk. https://www.80er-live.de/koeln
+URL:https://www.80er-live.de/koeln
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Die 80er Jahre Live
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-karol-g-jca-2027-07-10@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270711
+SUMMARY:KAROL G
+LOCATION:Johan Cruijff ArenA\, Amsterdam\, NL
+DESCRIPTION:Viajando Por El Mundo Tropitour at Johan Cruijff ArenA\, Amst
+ erdam\, a stadium show.\nDrive about 155 min from Hoensbroek.\nmedium se
+ ll-out risk.\nTickets: https://www.johancruijffarena.nl/en/calendar/4421
+ 29-karol-g-viajando-por-el-mundo-tropitour/\nSource: https://www.johancr
+ uijffarena.nl/en/calendar/442129-karol-g-viajando-por-el-mundo-tropitour
+ /\nOpen in Rondom: https://todonl.vercel.app/#c-karol-g-jca-2027-07-10
+URL:https://www.johancruijffarena.nl/en/calendar/442129-karol-g-viajando-
+ por-el-mundo-tropitour/
+GEO:52.3143;4.9419
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: KAROL G
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-karol-g-jca-2027-07-10-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270619T090000
+DTEND;TZID=Europe/Amsterdam:20270619T093000
+SUMMARY:Book by today: KAROL G
+DESCRIPTION:medium sell-out risk. https://www.johancruijffarena.nl/en/cal
+ endar/442129-karol-g-viajando-por-el-mundo-tropitour/
+URL:https://www.johancruijffarena.nl/en/calendar/442129-karol-g-viajando-
+ por-el-mundo-tropitour/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: KAROL G
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-oasis-jca-2027-07-16@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:Oasis
+LOCATION:Johan Cruijff ArenA\, Amsterdam\, NL
+DESCRIPTION:Oasis Live '27 at Johan Cruijff ArenA\, Amsterdam\, a stadium
+  show.\nDrive about 155 min from Hoensbroek.\nhigh sell-out risk.\nTicke
+ ts: https://www.johancruijffarena.nl/en/calendar/462141-oasis/\nSource: 
+ https://www.johancruijffarena.nl/en/calendar/462141-oasis/\nOpen in Rond
+ om: https://todonl.vercel.app/#c-oasis-jca-2027-07-16
+URL:https://www.johancruijffarena.nl/en/calendar/462141-oasis/
+GEO:52.3143;4.9419
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Oasis
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-oasis-jca-2027-07-16-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270616T090000
+DTEND;TZID=Europe/Amsterdam:20270616T093000
+SUMMARY:Book by today: Oasis
+DESCRIPTION:high sell-out risk. https://www.johancruijffarena.nl/en/calen
+ dar/462141-oasis/
+URL:https://www.johancruijffarena.nl/en/calendar/462141-oasis/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Oasis
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-karol-g-merkur-2027-07-17@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+SUMMARY:Karol G
+LOCATION:Merkur Spiel-Arena\, Düsseldorf\, DE
+DESCRIPTION:Viajando por el Mundo Tropitour at Merkur Spiel-Arena\, Düsse
+ ldorf\, a stadium show.\nDrive about 70 min from Hoensbroek.\nhigh sell-
+ out risk.\nTickets: https://www.livenation.de/karol-g-tickets-adp1363466
+ \nSource: https://www.merkur-spiel-arena.de/event/karol-g-17-07-2027\nOp
+ en in Rondom: https://todonl.vercel.app/#c-karol-g-merkur-2027-07-17
+URL:https://www.livenation.de/karol-g-tickets-adp1363466
+GEO:51.2616;6.733
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Karol G
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-karol-g-merkur-2027-07-17-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270617T090000
+DTEND;TZID=Europe/Amsterdam:20270617T093000
+SUMMARY:Book by today: Karol G
+DESCRIPTION:high sell-out risk. https://www.livenation.de/karol-g-tickets
+ -adp1363466
+URL:https://www.livenation.de/karol-g-tickets-adp1363466
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Karol G
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-oasis-jca-2027-07-17@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+SUMMARY:Oasis
+LOCATION:Johan Cruijff ArenA\, Amsterdam\, NL
+DESCRIPTION:Oasis Live '27 at Johan Cruijff ArenA\, Amsterdam\, a stadium
+  show.\nDrive about 155 min from Hoensbroek.\nhigh sell-out risk.\nTicke
+ ts: https://www.johancruijffarena.nl/en/calendar/462272-oasis/\nSource: 
+ https://www.johancruijffarena.nl/en/calendar/462272-oasis/\nOpen in Rond
+ om: https://todonl.vercel.app/#c-oasis-jca-2027-07-17
+URL:https://www.johancruijffarena.nl/en/calendar/462272-oasis/
+GEO:52.3143;4.9419
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Oasis
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-oasis-jca-2027-07-17-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270617T090000
+DTEND;TZID=Europe/Amsterdam:20270617T093000
+SUMMARY:Book by today: Oasis
+DESCRIPTION:high sell-out risk. https://www.johancruijffarena.nl/en/calen
+ dar/462272-oasis/
+URL:https://www.johancruijffarena.nl/en/calendar/462272-oasis/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Oasis
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-oasis-stade-de-france-2027-07-20@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:Oasis
+LOCATION:Stade de France\, Saint-Denis\, FR
+DESCRIPTION:Live at Stade de France\, Saint-Denis\, a stadium show.\nDriv
+ e about 260 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https://
+ www.stadefrance.com/fr/billetterie/oasis\nSource: https://www.stadefranc
+ e.com/fr/billetterie/oasis\nOpen in Rondom: https://todonl.vercel.app/#c
+ -oasis-stade-de-france-2027-07-20
+URL:https://www.stadefrance.com/fr/billetterie/oasis
+GEO:48.9245;2.3602
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Oasis
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-oasis-stade-de-france-2027-07-20-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270620T090000
+DTEND;TZID=Europe/Amsterdam:20270620T093000
+SUMMARY:Book by today: Oasis
+DESCRIPTION:high sell-out risk. https://www.stadefrance.com/fr/billetteri
+ e/oasis
+URL:https://www.stadefrance.com/fr/billetterie/oasis
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Oasis
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-oasis-stade-de-france-2027-07-23@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:Oasis
+LOCATION:Stade de France\, Saint-Denis\, FR
+DESCRIPTION:Live at Stade de France\, Saint-Denis\, a stadium show.\nDriv
+ e about 260 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https://
+ www.stadefrance.com/fr/billetterie/oasis\nSource: https://www.stadefranc
+ e.com/fr/billetterie/oasis\nOpen in Rondom: https://todonl.vercel.app/#c
+ -oasis-stade-de-france-2027-07-23
+URL:https://www.stadefrance.com/fr/billetterie/oasis
+GEO:48.9245;2.3602
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Oasis
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-oasis-stade-de-france-2027-07-23-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270623T090000
+DTEND;TZID=Europe/Amsterdam:20270623T093000
+SUMMARY:Book by today: Oasis
+DESCRIPTION:high sell-out risk. https://www.stadefrance.com/fr/billetteri
+ e/oasis
+URL:https://www.stadefrance.com/fr/billetterie/oasis
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Oasis
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-clouseau-king-baudouin-2027-08-04@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270804
+DTEND;VALUE=DATE:20270805
+SUMMARY:Clouseau
+LOCATION:King Baudouin Stadium\, Brussels\, BE
+DESCRIPTION:Live at King Baudouin Stadium\, Brussels\, a stadium show.\nD
+ rive about 90 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https:
+ //www.greenhousetalent.com/benl/agenda/clouseau\nSource: https://www.gre
+ enhousetalent.com/benl/agenda/clouseau\nOpen in Rondom: https://todonl.v
+ ercel.app/#c-clouseau-king-baudouin-2027-08-04
+URL:https://www.greenhousetalent.com/benl/agenda/clouseau
+GEO:50.895;4.3342
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Clouseau
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-clouseau-king-baudouin-2027-08-04-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270705T090000
+DTEND;TZID=Europe/Amsterdam:20270705T093000
+SUMMARY:Book by today: Clouseau
+DESCRIPTION:high sell-out risk. https://www.greenhousetalent.com/benl/age
+ nda/clouseau
+URL:https://www.greenhousetalent.com/benl/agenda/clouseau
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Clouseau
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-clouseau-king-baudouin-2027-08-06@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270806
+DTEND;VALUE=DATE:20270807
+SUMMARY:Clouseau
+LOCATION:King Baudouin Stadium\, Brussels\, BE
+DESCRIPTION:Live at King Baudouin Stadium\, Brussels\, a stadium show.\nD
+ rive about 90 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https:
+ //www.greenhousetalent.com/benl/agenda/clouseau\nSource: https://www.gre
+ enhousetalent.com/benl/agenda/clouseau\nOpen in Rondom: https://todonl.v
+ ercel.app/#c-clouseau-king-baudouin-2027-08-06
+URL:https://www.greenhousetalent.com/benl/agenda/clouseau
+GEO:50.895;4.3342
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Clouseau
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-clouseau-king-baudouin-2027-08-06-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270707T090000
+DTEND;TZID=Europe/Amsterdam:20270707T093000
+SUMMARY:Book by today: Clouseau
+DESCRIPTION:high sell-out risk. https://www.greenhousetalent.com/benl/age
+ nda/clouseau
+URL:https://www.greenhousetalent.com/benl/agenda/clouseau
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Clouseau
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-clouseau-king-baudouin-2027-08-07@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:Clouseau
+LOCATION:King Baudouin Stadium\, Brussels\, BE
+DESCRIPTION:Live at King Baudouin Stadium\, Brussels\, a stadium show.\nD
+ rive about 90 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https:
+ //www.greenhousetalent.com/benl/agenda/clouseau\nSource: https://www.gre
+ enhousetalent.com/benl/agenda/clouseau\nOpen in Rondom: https://todonl.v
+ ercel.app/#c-clouseau-king-baudouin-2027-08-07
+URL:https://www.greenhousetalent.com/benl/agenda/clouseau
+GEO:50.895;4.3342
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Clouseau
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-clouseau-king-baudouin-2027-08-07-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270708T090000
+DTEND;TZID=Europe/Amsterdam:20270708T093000
+SUMMARY:Book by today: Clouseau
+DESCRIPTION:high sell-out risk. https://www.greenhousetalent.com/benl/age
+ nda/clouseau
+URL:https://www.greenhousetalent.com/benl/agenda/clouseau
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Clouseau
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-ole-auf-schalke-veltins-2027-10-02@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+SUMMARY:Olé auf Schalke 2027
+LOCATION:Veltins-Arena\, Gelsenkirchen\, DE
+DESCRIPTION:Live at Veltins-Arena\, Gelsenkirchen\, a stadium show.\nDriv
+ e about 100 min from Hoensbroek.\nlow sell-out risk.\nTickets: https://v
+ eltins-arena.de/events/ole-auf-schalke-2027/\nSource: https://veltins-ar
+ ena.de/event-type/musik/\nOpen in Rondom: https://todonl.vercel.app/#c-o
+ le-auf-schalke-veltins-2027-10-02
+URL:https://veltins-arena.de/events/ole-auf-schalke-2027/
+GEO:51.5546;7.0676
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Olé auf Schalke 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-ole-auf-schalke-veltins-2027-10-02-planby@rondom
+DTSTAMP:20261104T154524Z
+DTSTART;TZID=Europe/Amsterdam:20270918T090000
+DTEND;TZID=Europe/Amsterdam:20270918T093000
+SUMMARY:Book by today: Olé auf Schalke 2027
+DESCRIPTION:low sell-out risk. https://veltins-arena.de/events/ole-auf-sc
+ halke-2027/
+URL:https://veltins-arena.de/events/ole-auf-schalke-2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Olé auf Schalke 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

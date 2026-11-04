@@ -17,7 +17,9 @@
 <!--/PWA-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"></noscript>
 <style>
 /* Rondom: a radar for weekends worth the drive. Dark only. Near-black blue-green ground, one warm accent for "act now",
    one cool accent for "new", a fixed color per lane, a small hue per person. Body text stays at 7:1 or better. */
@@ -27,7 +29,7 @@
   --urgent: #ffb454; --urgent-ink: #221400; --new: #7de0ff; --new-ink: #02191d;
   --anne: #ff6b9d; --alma: #7cb8ff; --nick: #b5c951; --family: #efe6c9;
   --l-fest: #ff8a5b; --l-music: #b388ff; --l-mil: #3ecf8e; --l-sport: #35c4d6; --l-cult: #f6c445;
-  --ok: #7fdca8; --warn: #ffc875; --bad: #ff8585;
+  --ok: #7fdca8; --warn: #ffc875; --bad: #ffb3b3;
   --display: "Bricolage Grotesque", "Avenir Next", "Helvetica Neue", sans-serif;
   --body: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", sans-serif;
   --r: 14px; --tabh: 64px; --rail: 0px;
@@ -90,13 +92,13 @@ h2.lane { font-size: 1.15rem; margin: 24px 0 4px; padding-left: 12px; border-lef
 
 /* ===== Chips and controls ===== */
 .fstrip { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 8px 0 4px; }
-.chip { border: 1px solid var(--line); background: var(--s1); color: var(--t2); border-radius: 999px; padding: 7px 13px; font-size: .88rem; font-weight: 600; min-height: 38px; display: inline-flex; align-items: center; gap: 7px; }
+.chip { border: 1px solid var(--line); background: var(--s1); color: var(--t2); border-radius: 999px; padding: 7px 13px; font-size: .88rem; font-weight: 600; min-height: 44px; display: inline-flex; align-items: center; gap: 7px; }
 .chip[aria-pressed="true"] { background: var(--t1); color: var(--bg); border-color: var(--t1); }
 .chip .pd { width: 10px; height: 10px; border-radius: 50%; background: var(--pc); flex: none; }
 .chip[aria-pressed="true"] .pd { outline: 2px solid var(--bg); }
 .chip.lane[aria-pressed="true"] { background: var(--lc); border-color: var(--lc); color: #07140f; }
 .seg { display: inline-flex; background: var(--s1); border: 1px solid var(--line); border-radius: 999px; padding: 3px; max-width: 100%; overflow-x: auto; }
-.seg button { border: 0; background: none; border-radius: 999px; padding: 7px 12px; font-weight: 600; font-size: .86rem; color: var(--t2); min-height: 36px; white-space: nowrap; }
+.seg button { border: 0; background: none; border-radius: 999px; padding: 7px 12px; font-weight: 600; font-size: .86rem; color: var(--t2); min-height: 38px; white-space: nowrap; }
 .seg button[aria-pressed="true"] { background: var(--urgent); color: var(--urgent-ink); }
 .search { display: flex; gap: 8px; margin-top: 6px; }
 .search input { flex: 1; min-width: 0; background: var(--s1); border: 1px solid var(--line); border-radius: 12px; padding: 11px 14px; font-size: 1rem; color: var(--t1); }
@@ -105,12 +107,13 @@ select { background: var(--s1); border: 1px solid var(--line); border-radius: 12
 textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; color: var(--t1); min-height: 64px; resize: vertical; }
 .btn { border: 1px solid var(--line); background: var(--s2); border-radius: 12px; padding: 10px 14px; font-weight: 600; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; color: var(--t1); }
 .btn.pri { background: var(--urgent); border-color: var(--urgent); color: var(--urgent-ink); }
-.btn.sm { min-height: 36px; padding: 6px 11px; font-size: .86rem; }
+.btn.sm { min-height: 44px; padding: 6px 12px; font-size: .86rem; }
 .btn[aria-pressed="true"] { border-color: var(--new); color: var(--new); }
 .btn:disabled { opacity: .55; cursor: progress; }
 .actions { display: flex; gap: 8px; flex-wrap: wrap; }
 .tag { display: inline-flex; align-items: center; gap: 5px; font-size: .78rem; font-weight: 600; padding: 2px 9px; border-radius: 999px; background: var(--s3); color: var(--t2); white-space: nowrap; }
-.tag.ok { color: var(--ok); } .tag.warn { color: var(--warn); } .tag.bad { color: var(--bad); } .tag.new { color: var(--new); } .tag.mute { color: var(--t3); }
+.tag.ok { color: var(--ok); } .tag.warn { color: var(--warn); } .tag.bad { color: var(--bad); } .tag.new { color: var(--new); } .tag.mute { color: var(--t2); }
+.tag.rsvp { background: rgba(255,180,84,.14); color: var(--t1); }
 .tag.urgent { background: var(--urgent); color: var(--urgent-ink); }
 .tag.near { background: none; border: 1px solid var(--t3); color: var(--t1); padding: 1px 8px; }
 .tag.near svg, .chip.nearchip svg { width: 12px; height: 12px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
@@ -147,11 +150,44 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
 .act .as { color: var(--t2); font-size: .84rem; }
 .row2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
 
+/* ===== Updated line, heat strip, health card ===== */
+.upd { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; color: var(--t2); font-size: .86rem; margin: 6px 0 2px; }
+.upd .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--ok); flex: none; }
+.upd .dot.warn { background: var(--warn); } .upd .dot.bad { background: var(--bad); }
+.heat { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 3px; margin: 10px 0 2px; }
+.heat button { border: 1px solid var(--line); background: var(--s1); border-radius: 7px; padding: 5px 0 4px; display: grid; gap: 2px; justify-items: center; color: var(--t2); min-height: 44px; }
+.heat button b { font-size: .7rem; letter-spacing: .04em; text-transform: uppercase; font-weight: 600; }
+.heat button i { display: block; width: 70%; height: 6px; border-radius: 3px; background: var(--urgent); opacity: var(--h, .1); }
+.heat button span { font-size: .72rem; color: var(--t3); font-variant-numeric: tabular-nums; }
+.heat button.cur { border-color: var(--t3); }
+.health { border: 1px solid var(--line); border-radius: var(--r); background: var(--s1); padding: 12px 14px; margin-top: 22px; }
+.health h3 { margin: 0 0 8px; font-size: 1rem; display: flex; align-items: center; gap: 8px; }
+.health table { width: 100%; border-collapse: collapse; font-size: .88rem; font-variant-numeric: tabular-nums; }
+.health td { padding: 4px 0; border-top: 1px solid var(--line); color: var(--t2); vertical-align: top; }
+.health td:last-child { text-align: right; white-space: nowrap; }
+.health td b { color: var(--t1); font-weight: 600; }
+.health .ok { color: var(--ok); } .health .warn { color: var(--warn); } .health .bad { color: var(--bad); }
+/* ===== Week strip ===== */
+.wstrip { display: flex; gap: 6px; overflow-x: auto; padding: 4px 2px 10px; scroll-snap-type: x proximity; scrollbar-width: thin; }
+.wtile { flex: 0 0 48px; min-height: 74px; scroll-snap-align: start; border: 1px solid var(--line); background: var(--s1); border-radius: 10px; display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 6px 2px 5px; color: var(--t2); }
+.wtile.we { background: var(--s2); }
+.wtile.mo { border-left: 2px solid var(--t3); }
+.wtile .dw { font-size: .64rem; letter-spacing: .06em; text-transform: uppercase; font-weight: 600; color: var(--t3); }
+.wtile .dn { font-family: var(--display); font-size: 1.15rem; line-height: 1; width: 26px; height: 26px; display: grid; place-items: center; border-radius: 50%; }
+.wtile.today .dn { background: var(--urgent); color: var(--urgent-ink); }
+.wtile .dn.ring { box-shadow: 0 0 0 2px var(--new); }
+.wtile .pp { display: flex; gap: 3px; height: 6px; }
+.wtile .pp i { width: 6px; height: 6px; border-radius: 50%; background: var(--pc); }
+.wtile .mn { font-size: .62rem; color: var(--t3); }
+.wtile[aria-pressed="true"] { border-color: var(--t1); background: var(--s3); color: var(--t1); }
+.rsvp { display: grid; gap: 6px; }
+.rsvp .row { display: grid; grid-template-columns: 70px 1fr; gap: 8px; align-items: center; }
+.rsvp .row b { color: var(--pc); font-weight: 600; }
 /* ===== New tab rows ===== */
 .nrow { background: var(--s1); border: 1px solid var(--line); border-left: 5px solid var(--lc); border-radius: var(--r); padding: 10px 12px; display: grid; gap: 6px; }
 .nrow .nt { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: start; }
 .nrow .nb { display: flex; gap: 6px; flex-wrap: wrap; }
-.nrow .nb button { min-height: 36px; }
+.nrow .nb button { min-height: 44px; }
 
 /* ===== Calendar ===== */
 .calhead { display: flex; align-items: center; gap: 8px; margin: 8px 0; }
@@ -161,7 +197,8 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
 .dow { text-align: center; font-size: .7rem; font-weight: 600; letter-spacing: .08em; color: var(--t3); padding-bottom: 2px; }
 .day { min-height: 60px; border-radius: 8px; border: 1px solid var(--line); background: var(--s1); padding: 4px 4px 5px; display: flex; flex-direction: column; gap: 2px; position: relative; text-align: left; color: var(--t2); }
 .day.blank { visibility: hidden; }
-.day.past { opacity: .45; }
+.day.past { background: transparent; border-color: transparent; }
+.day.past .n { color: var(--t3); }
 .day.we { background: var(--s2); }
 .day .n { font-size: .8rem; line-height: 1; font-weight: 600; font-variant-numeric: tabular-nums; width: 20px; height: 20px; display: grid; place-items: center; border-radius: 50%; }
 .day.today .n { background: var(--urgent); color: var(--urgent-ink); }
@@ -294,7 +331,9 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
   <div id="col">
   <!-- HOME -->
   <section class="view" id="v-home" aria-label="Home">
+    <p class="upd" id="upd"></p>
     <div class="fstrip" id="profiles" role="group" aria-label="Who is going"></div>
+    <div class="heat" id="heat" role="group" aria-label="Next 12 months"></div>
     <div id="homeBody"></div>
     <footer class="foot" id="foot"></footer>
   </section>
@@ -308,9 +347,11 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
   <!-- CALENDAR -->
   <section class="view" id="v-cal" aria-label="Calendar" hidden>
     <div class="fstrip" id="calLanes" role="group" aria-label="Lanes"></div>
-    <div class="calhead"><button class="iconbtn" id="calPrev" aria-label="Previous month">&larr;</button><h3 id="calTitle"></h3><button class="btn sm" id="calToday">Today</button><button class="iconbtn" id="calNext" aria-label="Next month">&rarr;</button></div>
+    <div class="calhead"><div class="seg" role="group" aria-label="Calendar layout"><button id="cm-week" aria-pressed="false">Week</button><button id="cm-month" aria-pressed="true">Month</button></div><h3 id="calTitle" style="font-size:1.05rem"></h3><button class="btn sm" id="calToday">Today</button></div>
+    <div id="calWeek" hidden><div class="wstrip" id="wstrip" role="group" aria-label="Pick a day"></div><div id="wday"></div></div>
+    <div id="calMonth"><div class="calhead"><button class="iconbtn" id="calPrev" aria-label="Previous month">&larr;</button><span style="flex:1"></span><button class="iconbtn" id="calNext" aria-label="Next month">&rarr;</button></div>
     <div class="legend" id="calLegend"></div>
-    <div class="months" id="months"></div>
+    <div class="months" id="months"></div></div>
     <p class="muted" style="font-size:.85rem;margin-top:10px">Tap a day for its list. Bars are multi-day events, dots are single days, a ring marks a ticket on-sale date for a saved or tier 1 entry. Arrow keys move between days.</p>
   </section>
 
@@ -327,7 +368,7 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
   <section class="view" id="v-map" aria-label="Map" hidden>
     <div class="fstrip" id="mapLanes" role="group" aria-label="Lanes"></div>
     <div class="mapbox" id="mapbox">
-      <svg id="map" role="img" aria-label="Map of events and venues"></svg>
+      <svg id="map" role="group" aria-label="Map of events and venues"></svg>
       <div class="mapctl"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">&minus;</button><button id="zfit" aria-label="Show all" style="font-size:.8rem">All</button></div>
     </div>
     <div class="maplegend" id="maplegend"></div>
@@ -360,7 +401,6 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
 <div class="sheet" id="fsheet" role="dialog" aria-modal="true" aria-label="Panel" hidden></div>
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
-<script src="__JSPDF_SRC__" defer></script>
 <script>
 const EVENTS = __EVENTS__;
 const CONCERTS = __CONCERTS__;
@@ -420,7 +460,8 @@ EVENTS.forEach(e => {
   const it = { ...e, type: "e", first: dn(e.start), last: dn(e.end), lane: laneOf(e.kind), tags: e.tags || [], for: e.for || [], annual: !!e.annual };
   if (e.days && e.days.length) it.daysSet = new Set(e.days.map(dn));
   it.open = d => it.daysSet ? it.daysSet.has(d) : d >= it.first && d <= it.last;
-  it.t0 = firstTime(e.times);
+  it.span = it.last - it.first; it.ongoing = it.span > 21;
+  it.t0 = e.startTime ? firstTime(e.startTime) : null;
   it.hay = norm([e.name, e.city, e.short, e.region, e.venue, COUNTRY[e.country], KIND[e.kind], ...(e.tags || [])].join(" "));
   ITEMS.push(it);
 });
@@ -428,18 +469,22 @@ CONCERTS.forEach(c => {
   const v = VBY[c.venueId] || { id: null, name: c.venueName || "Venue", city: c.city, country: c.country, lat: c.lat, lng: c.lng, driveMin: c.driveMin, capacity: null };
   const d = dn(c.date);
   const it = { ...c, type: "c", name: c.artist, kind: c.genre === "kpop" ? "kpop" : "concert", lane: "music", start: c.date, end: c.date, first: d, last: d, venueObj: v, venue: v.name, city: v.city || c.city, country: v.country || c.country, lat: v.lat ?? c.lat, lng: v.lng ?? c.lng, driveMin: c.driveMin ?? v.driveMin, tags: c.tags || [], for: c.for || [], annual: false, times: c.doors ? "Doors " + c.doors : null };
-  it.tier = c.tier || (c.sellOutRisk === "high" ? 1 : c.sellOutRisk === "medium" ? 2 : 3);
-  it.why = c.note || ((c.tour ? c.tour + " at " : "") + v.name + (v.city ? ", " + v.city : ""));
+  it.tier = c.tier || (c.sellOutRisk === "high" || c.sellOutRisk === "medium" ? 2 : 3);
+  it.why = c.why || ((c.tour ? c.tour + " at " : "Live at ") + v.name + (v.city ? ", " + v.city : "") + ".");
+  it.span = 0; it.ongoing = false;
   it.open = x => x === d;
   it.t0 = firstTime(c.doors);
   it.hay = norm([c.artist, c.short, v.name, v.city, c.tour, c.genre, COUNTRY[it.country], ...(c.tags || [])].join(" "));
   ITEMS.push(it);
 });
 const BYID = Object.fromEntries(ITEMS.map(it => [it.id, it]));
+// Novelty only means something when additions trickle in; at a baseline where most entries share one addedOn it is noise.
+const ADDED = {}; ITEMS.forEach(it => { if (it.addedOn) ADDED[it.addedOn] = (ADDED[it.addedOn] || 0) + 1; });
+const NOVELTY_SKIP = new Set(Object.keys(ADDED).filter(d => ADDED[d] > ITEMS.length * 0.3));
 const HOME = { lat: 50.9128, lng: 5.9268 };
 
 /* ================= state ================= */
-const K = { near: "out-near", profiles: "out-profiles", plan: "out-plan", notes: "out-notes", hidden: "out-hidden", likes: "out-likes", weights: "out-weights", lastSeen: "out-lastSeen", seen: "out-seen", newCount: "out-newCount", drive: "out-drive", sort: "out-sort", showHidden: "out-showHidden" };
+const K = { near: "out-near", follows: "out-follows", rsvp: "out-rsvp", diary: "out-diary", calMode: "out-calMode", only: "out-only", profiles: "out-profiles", plan: "out-plan", notes: "out-notes", hidden: "out-hidden", likes: "out-likes", weights: "out-weights", lastSeen: "out-lastSeen", seen: "out-seen", newCount: "out-newCount", drive: "out-drive", sort: "out-sort", showHidden: "out-showHidden" };
 const ALLKEYS = Object.values(K);
 const state = {
   tab: "home",
@@ -449,6 +494,8 @@ const state = {
   weights: store.get(K.weights, { anne: 1, alma: 1, nick: 1, family: 1 }),
   lastSeen: store.get(K.lastSeen, null), seen: new Set(store.get(K.seen, [])),
   showHidden: store.get(K.showHidden, false), near: store.get(K.near, false),
+  follows: store.get(K.follows, { anne: [], alma: [], nick: [], family: [] }), rsvp: store.get(K.rsvp, {}), diary: store.get(K.diary, {}),
+  calMode: store.get(K.calMode, null), only: new Set(store.get(K.only, [])),
   drive: store.get(K.drive, 300), sort: store.get(K.sort, "score"),
   q: "", lanes: new Set(), kinds: new Set(), countries: new Set(), tier: 0, status: "", month: "",
   calYM: null, calSel: null, calLanes: new Set(), mapLanes: new Set(), mapSel: null, detail: null, nextWeekend: false
@@ -470,8 +517,9 @@ function rescore() {
     it.for.forEach(p => { if (state.profiles.has(p)) { pm += 10 * (state.weights[p] ?? 1); names.push(PBY[p] ? PBY[p].label : p); } });
     pm = Math.min(20, pm); s += pm; if (names.length) r.push("for " + names.join(", "));
     if (it.planBy) { const d = dn(it.planBy) - TODAY; if (d >= 0 && d <= 14) { s += 10; r.push("book by " + fmt(dn(it.planBy))); } else if (d > 14 && d <= 30) { s += 5; r.push("book by " + fmt(dn(it.planBy))); } }
-    if (it.addedOn && TODAY - dn(it.addedOn) <= 14) { s += 5; r.push("new this week"); }
-    if (it.annual && fromDn(it.first).getUTCMonth() === fromDn(TODAY).getUTCMonth()) { s += 5; r.push("in season"); }
+    if (it.addedOn && TODAY - dn(it.addedOn) <= 14 && !NOVELTY_SKIP.has(it.addedOn)) { s += 5; r.push("added " + fmt(dn(it.addedOn))); }
+    if (it.annual && fromDn(it.first).getUTCMonth() === fromDn(TODAY).getUTCMonth() && it.first <= TODAY + 60) { s += 5; r.push("in season"); }
+    const fh = followHits(it); if (fh.length) { s += 8; r.push("follows " + fh.map(p => PBY[p].label).join(", ")); }
     let like = (state.likes.lanes[it.lane] ? 2 : 0); it.tags.forEach(t => { if (state.likes.tags[t]) like += 2; }); like = Math.min(10, like); if (like) { s += like; r.push("like your picks"); }
     if (it.status === "soldout") { s -= 15; r.push("sold out"); }
     if (it.status === "cancelled") s -= 100;
@@ -484,9 +532,9 @@ function rescore() {
 function weekendFrom(d) { let f = d; while (wd(f) !== 5) f++; if (wd(d) === 6) f = d - 1; else if (wd(d) === 0) f = d - 2; return [f, f + 2]; }
 const THISWE = weekendFrom(TODAY), NEXTWE = [THISWE[0] + 7, THISWE[1] + 7];
 const monthEnd = d => { const x = fromDn(d); return Date.UTC(x.getUTCFullYear(), x.getUTCMonth() + 1, 0) / DAY; };
-const BUCKETS = [["we", "This weekend", THISWE[0], THISWE[1]], ["nwe", "Next weekend", NEXTWE[0], NEXTWE[1]], ["mo", "This month", TODAY, monthEnd(TODAY)], ["q", "Next 3 months", TODAY, TODAY + 92], ["later", "Later", TODAY, 1e9]];
+const BUCKETS = [["wk", "This week", TODAY, THISWE[0] - 1], ["we", "This weekend", THISWE[0], THISWE[1]], ["nwe", "Next weekend", NEXTWE[0], NEXTWE[1]], ["mo", "This month", TODAY, monthEnd(TODAY)], ["q", "Next 3 months", TODAY, TODAY + 92], ["later", "Later", TODAY, 1e9], ["on", "Ongoing", TODAY, 1e9]];
 const touches = (it, a, b) => { const s = Math.max(it.first, a), e = Math.min(it.last, b); if (s > e) return false; if (!it.daysSet) return true; for (let d = s; d <= e; d++) if (it.daysSet.has(d)) return true; return false; };
-function bucketOf(it) { for (const b of BUCKETS) if (touches(it, b[2], b[3])) return b[0]; return "later"; }
+function bucketOf(it) { if (it.ongoing) return "on"; for (const b of BUCKETS) if (b[0] !== "on" && touches(it, b[2], b[3])) return b[0]; return "later"; }
 const live = () => ITEMS.filter(it => it.last >= TODAY && it.status !== "cancelled" && (state.showHidden || !state.hidden.has(it.id)));
 // Nearby: Parkstad, Maastricht, Sittard, Valkenburg and Aachen all sit within 30 minutes; Zonhoven and Hasselt do not.
 const NEAR = 30;
@@ -499,6 +547,14 @@ function nearChip(container, onChange) {
   b.addEventListener("click", () => { state.near = !state.near; save("near", state.near); vb = null; onChange(); });
   container.appendChild(b);
 }
+// Follows: per person, artist or venue names typed in Settings; matched client-side so the data never carries personal lists.
+const followsOf = () => { const out = []; PROFILES.forEach(p => { if (state.profiles.has(p.id)) (state.follows[p.id] || []).forEach(n => { const t = norm(n).trim(); if (t.length > 1) out.push({ p: p.id, t }); }); }); return out; };
+let FOLLOWS = followsOf();
+const followHits = it => FOLLOWS.filter(f => it.hay.includes(f.t)).map(f => f.p);
+// RSVP: Maybe or In per person, kept on this device.
+const rsvpOf = id => state.rsvp[id] || {};
+const rsvpLine = it => { const r = rsvpOf(it.id); const ins = PROFILES.filter(p => r[p.id] === "in").map(p => p.label), maybes = PROFILES.filter(p => r[p.id] === "maybe").map(p => p.label); return [ins.length ? "In: " + ins.join(", ") : null, maybes.length ? "Maybe: " + maybes.join(", ") : null].filter(Boolean).join(" · "); };
+const onlyOk = it => (!state.only.has("free") || statusWord(it).t === "Free") && (!state.only.has("learning") || it.tags.includes("learning")) && (!state.only.has("under50") || (it.priceFrom != null && it.priceFrom < 50) || statusWord(it).t === "Free");
 const forSel = it => state.profiles.size === PROFILES.length || !it.for.length || it.for.some(p => state.profiles.has(p));
 
 /* ================= components ================= */
@@ -523,7 +579,7 @@ function when(it) {
 }
 function card(it, o = {}) {
   const st = statusWord(it), l = LANEBY[it.lane];
-  return `<div class="card ${o.compact ? "compact" : ""} ${state.detail === it.id ? "sel" : ""}" style="--lc:${l.c}"><button class="cmain" data-open="${it.id}"><b>${esc(it.name)}</b><span class="why">${esc(it.why || "")}</span><span class="meta"><span class="d">${esc(when(it))}</span><span class="pl">${esc(place(it))}</span>${driveTag(it)}${pdots(it)}<span class="tag ${st.c}">${esc(st.t)}</span></span>${o.reason ? `<span class="reason">${esc(o.reason)}</span>` : ""}</button><button class="star" data-star="${it.id}" aria-pressed="${inPlan(it.id)}" aria-label="${inPlan(it.id) ? "Remove from" : "Save to"} plan">${STAR}</button></div>`;
+  return `<div class="card ${o.compact ? "compact" : ""} ${state.detail === it.id ? "sel" : ""}" style="--lc:${l.c}"><button class="cmain" data-open="${it.id}"><b>${esc(it.name)}</b><span class="why">${esc(it.why || "")}</span><span class="meta"><span class="d">${esc(when(it))}</span><span class="pl">${esc(place(it))}</span>${driveTag(it)}${pdots(it)}<span class="tag ${st.c}">${esc(st.t)}</span>${rsvpLine(it) ? `<span class="tag rsvp">${esc(rsvpLine(it))}</span>` : ""}</span>${o.reason ? `<span class="reason">${esc(o.reason)}</span>` : ""}</button><button class="star" data-star="${it.id}" aria-pressed="${inPlan(it.id)}" aria-label="${inPlan(it.id) ? "Remove from" : "Save to"} plan">${STAR}</button></div>`;
 }
 const reasonLine = it => it.reason.join(", ");
 function groupedList(items, o = {}) {
@@ -544,7 +600,7 @@ function wire(root) {
   root.querySelectorAll("[data-star]").forEach(b => b.addEventListener("click", e => { e.stopPropagation(); toggleStar(b.dataset.star); }));
 }
 function toggleStar(id) {
-  if (inPlan(id)) { delete state.plan[id]; toast("Removed from your plan"); } else { state.plan[id] = { added: isoOf(TODAY) }; toast("Saved to your plan"); }
+  if (inPlan(id)) { delete state.plan[id]; toast("Removed from your plan"); } else { const it = BYID[id]; state.plan[id] = { added: isoOf(TODAY), name: it ? it.name : id, date: it ? it.start : null }; toast("Saved to your plan"); }
   save("plan", state.plan); renderBadges();
   document.querySelectorAll(`[data-star="${id}"]`).forEach(b => { b.setAttribute("aria-pressed", inPlan(id)); b.setAttribute("aria-label", (inPlan(id) ? "Remove from" : "Save to") + " plan"); });
   const ds = document.querySelector(`[data-dstar="${id}"]`); if (ds) { ds.className = "btn " + (inPlan(id) ? "pri" : ""); ds.textContent = inPlan(id) ? "In your plan" : "Save to plan"; }
@@ -556,6 +612,7 @@ function renderBadges() {
   const n = Object.keys(state.plan).length; $("pbadge").hidden = !n; $("pbadge").textContent = n;
   const nw = newItems(), nc = changedItems().filter(it => !nw.includes(it)), total = nw.length + nc.length;
   const b = $("nbadge"); b.hidden = !total; b.textContent = total > 99 ? "99+" : total; b.classList.toggle("t1", nw.some(it => it.tier === 1));
+  try { if (navigator.setAppBadge) { total ? navigator.setAppBadge(total) : navigator.clearAppBadge(); } } catch (e) {}
   return total;
 }
 function profileChips(container, onChange) {
@@ -574,7 +631,7 @@ const laneOk = (it, set) => !set.size || set.has(it.lane);
 function picks(list) {
   const shown = new Set(), out = [];
   const pickWeekend = (we) => {
-    const cands = list.filter(it => touches(it, we[0], we[1])).sort((a, b) => b.score - a.score);
+    const cands = list.filter(it => !it.ongoing && it.status !== "soldout" && touches(it, we[0], we[1])).sort((a, b) => b.score - a.score);
     if (!cands.length || cands[0].score < 50) return null;
     const res = [], lanes = new Set();
     cands.forEach(it => { if (res.length < 3 && !lanes.has(it.lane)) { res.push(it); lanes.add(it.lane); } });
@@ -585,10 +642,10 @@ function picks(list) {
   if (!we) { none = true; we = pickWeekend(NEXTWE) || []; weLabel = "Next weekend"; }
   we.forEach(it => shown.add(it.id));
   PROFILES.filter(p => state.profiles.has(p.id)).forEach(p => {
-    const it = list.filter(x => x.for.includes(p.id) && !shown.has(x.id) && x.first <= TODAY + 60).sort((a, b) => b.score - a.score)[0];
+    const it = list.filter(x => x.for.includes(p.id) && !shown.has(x.id) && x.status !== "soldout" && x.first <= TODAY + 60).sort((a, b) => b.score - a.score)[0];
     if (it) { shown.add(it.id); out.push({ label: `For ${p.label}`, c: p.c, it }); }
   });
-  const ahead = list.filter(it => it.tier === 1 && it.planBy && dn(it.planBy) >= TODAY && !shown.has(it.id)).sort((a, b) => dn(a.planBy) - dn(b.planBy))[0];
+  const ahead = list.filter(it => it.tier === 1 && it.status !== "soldout" && it.planBy && dn(it.planBy) >= TODAY && !shown.has(it.id)).sort((a, b) => dn(a.planBy) - dn(b.planBy))[0];
   return { we, weLabel, none, prof: out, ahead };
 }
 function aheadReason(it) {
@@ -597,18 +654,61 @@ function aheadReason(it) {
   if (it.sellOutRisk) bits.push(RISK[it.sellOutRisk].toLowerCase());
   return bits.join(", ") + ".";
 }
+const AMS = { timeZone: "Europe/Amsterdam" };
+function fmtStamp(isoStr) { const d = new Date(isoStr); if (isNaN(d)) return "unknown"; const parts = new Intl.DateTimeFormat("en-GB", { ...AMS, weekday: "short", day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: false }).formatToParts(d); const g = t => (parts.find(x => x.type === t) || {}).value; return `${g("weekday")} ${g("day")} ${g("month")} ${g("year")}, ${g("hour")}:${g("minute")}`; }
+function nextRefresh() { let d = TODAY + 1; while (wd(d) !== 3) d++; return d; }
+function refreshAge() { const b = META.built ? dn(META.built) : null; return b == null ? 999 : TODAY - b; }
+function renderUpdated() {
+  const age = refreshAge(), cls = age <= 8 ? "" : age <= 15 ? "warn" : "bad";
+  $("upd").innerHTML = `<span class="dot ${cls}" aria-hidden="true"></span><span><b>Updated ${esc(fmtStamp(META.generated))}</b> · data checked ${esc(META.checked)}${age > 8 ? ` · <span style="color:var(--${cls === "bad" ? "bad" : "warn"})">${age} days old, the weekly refresh may have failed</span>` : ""} · next refresh ${fmtW(nextRefresh())} 02:30</span>`;
+}
+function renderHeat() {
+  const t = fromDn(TODAY), cells = [];
+  for (let i = 0; i < 12; i++) { const y = t.getUTCFullYear() + Math.floor((t.getUTCMonth() + i) / 12), m = (t.getUTCMonth() + i) % 12; const f = Date.UTC(y, m, 1) / DAY, l = Date.UTC(y, m + 1, 0) / DAY; const n = live().filter(forSel).filter(nearOk).filter(it => it.tier <= 2 && !it.ongoing && it.first >= f && it.first <= l).length; cells.push({ y, m, n }); }
+  const max = Math.max(1, ...cells.map(c => c.n));
+  $("heat").innerHTML = cells.map((c, i) => `<button data-hm="${c.y}-${c.m}" class="${i === 0 ? "cur" : ""}" style="--h:${(0.12 + 0.88 * c.n / max).toFixed(2)}" aria-label="${MONL[c.m]} ${c.y}: ${c.n} tier 1 and 2 entries"><b>${MON[c.m]}</b><i></i><span>${c.n}</span></button>`).join("");
+  $("heat").querySelectorAll("[data-hm]").forEach(b => b.addEventListener("click", () => { const [y, m] = b.dataset.hm.split("-").map(Number); state.calYM = [y, m]; state.calSel = null; setTab("calendar"); }));
+}
+function surprise(list) {
+  const pool = list.filter(it => !it.ongoing && it.status !== "soldout" && it.first <= TODAY + 90).sort((a, b) => b.score - a.score).slice(0, 30);
+  return pool.length ? pool[Math.floor(Math.random() * pool.length)] : null;
+}
+function healthCard() {
+  const all = ITEMS, liveAll = ITEMS.filter(it => it.last >= TODAY), age = refreshAge();
+  const stale = liveAll.filter(it => it.confidence === "confirmed" && (!it.verifiedOn || TODAY - dn(it.verifiedOn) > 60)).length;
+  const proj = liveAll.filter(it => it.confidence === "projected").length;
+  const noDrive = all.filter(it => it.driveMin == null).length, noPrice = liveAll.filter(it => it.priceFrom == null && statusWord(it).t !== "Free").length;
+  const expired = all.filter(it => it.last < TODAY).length, sold = liveAll.filter(it => it.status === "soldout").length, canc = all.filter(it => it.status === "cancelled").length;
+  const next60 = liveAll.filter(it => it.first <= TODAY + 60 && it.first >= TODAY).length, planWin = liveAll.filter(it => it.planBy && dn(it.planBy) >= TODAY && dn(it.planBy) <= TODAY + 14).length;
+  const row = (k, v, c, note) => `<tr><td>${k}${note ? `<div class="muted" style="font-size:.78rem">${note}</div>` : ""}</td><td class="${c || ""}"><b>${v}</b></td></tr>`;
+  const overall = age > 15 || noDrive > 5 ? "bad" : age > 8 || stale > 40 || proj > liveAll.length * 0.3 ? "warn" : "ok";
+  return `<div class="health"><h3><span class="upd" style="margin:0"><span class="dot ${overall === "ok" ? "" : overall}"></span></span>Data health: ${overall === "ok" ? "good" : overall === "warn" ? "check" : "stale"}</h3><table><tbody>
+    ${row("Last refresh", age === 0 ? "today" : plural(age, "day") + " ago", age <= 8 ? "ok" : age <= 15 ? "warn" : "bad", "Runs every Wednesday 02:30")}
+    ${row("Live entries", `${liveAll.length} of ${all.length}`, "", `${EVENTS.length} events, ${CONCERTS.length} concerts`)}
+    ${row("Starting in 60 days", next60, "")}
+    ${row("Book-by dates in 14 days", planWin, planWin ? "warn" : "")}
+    ${row("Projected dates", `${proj} (${Math.round(100 * proj / Math.max(1, liveAll.length))}%)`, proj > liveAll.length * 0.3 ? "warn" : "ok", "Checked against the official page before you drive")}
+    ${row("Not verified in 60 days", stale, stale > 40 ? "warn" : stale ? "" : "ok")}
+    ${row("Sold out / cancelled", `${sold} / ${canc}`, "")}
+    ${row("Missing drive time", noDrive, noDrive ? "bad" : "ok")}
+    ${row("Missing price", noPrice, "", "Ticket pages that hide prices from the refresh")}
+    ${row("Ended, awaiting removal", expired, expired > 20 ? "warn" : "")}
+  </tbody></table></div>`;
+}
 function renderHome() {
-  profileChips($("profiles"), render);
+  renderUpdated(); FOLLOWS = followsOf();
+  profileChips($("profiles"), render); renderHeat();
   const list = live().filter(forSel).filter(nearOk).sort((a, b) => b.score - a.score || a.first - b.first);
   const p = picks(list);
-  let h = `<h2 class="sec">Picks<small>chosen by score, one per lane where possible</small></h2>`;
+  let h = `<h2 class="sec">Picks<small>chosen by score, one per lane where possible</small><a href="#" id="surprise">Surprise me</a></h2>`;
+  if (state.surprise && BYID[state.surprise]) h += `<div class="pick" style="margin-bottom:10px"><div class="plab"><b style="--pc:var(--new)">Surprise</b>: a random pick from the top 30</div>${card(BYID[state.surprise], { reason: reasonLine(BYID[state.surprise]) })}</div>`;
   if (p.none) h += `<p class="lead" style="margin-bottom:8px">Nothing worth the drive this weekend${state.near ? " within 30 minutes" : ""}. Here is next weekend.</p>`;
   if (p.we.length) h += `<h3 class="sub">${p.weLabel}, ${fmtRange(p.none ? NEXTWE[0] : THISWE[0], p.none ? NEXTWE[1] : THISWE[1])}</h3><div class="list">${p.we.map(it => card(it, { reason: reasonLine(it) })).join("")}</div>`;
   else h += `<div class="empty">No weekend picks with the current profiles.</div>`;
   if (p.prof.length) h += `<div class="row2" style="margin-top:12px">${p.prof.map(x => `<div class="pick"><div class="plab"><b style="--pc:${x.c}">${x.label}</b>: next 60 days</div>${card(x.it, { reason: reasonLine(x.it) })}</div>`).join("")}</div>`;
   if (p.ahead) h += `<div class="pick" style="margin-top:12px"><div class="plab"><b style="--pc:var(--urgent)">Plan ahead</b>: ${esc(aheadReason(p.ahead))}</div>${card(p.ahead, { reason: reasonLine(p.ahead) })}</div>`;
   // Act now strip
-  const act = live().filter(nearOk).filter(it => (it.planBy && dn(it.planBy) >= TODAY && dn(it.planBy) <= TODAY + 14) || (it.onSale && dn(it.onSale) >= TODAY && dn(it.onSale) <= TODAY + 14)).map(it => ({ it, d: Math.min(it.planBy && dn(it.planBy) >= TODAY ? dn(it.planBy) : 1e9, it.onSale && dn(it.onSale) >= TODAY ? dn(it.onSale) : 1e9) })).sort((a, b) => a.d - b.d || b.it.score - a.it.score);
+  const act = live().filter(nearOk).filter(it => it.status !== "soldout").filter(it => (it.planBy && dn(it.planBy) >= TODAY && dn(it.planBy) <= TODAY + 14) || (it.onSale && dn(it.onSale) >= TODAY && dn(it.onSale) <= TODAY + 14)).map(it => ({ it, d: Math.min(it.planBy && dn(it.planBy) >= TODAY ? dn(it.planBy) : 1e9, it.onSale && dn(it.onSale) >= TODAY ? dn(it.onSale) : 1e9) })).sort((a, b) => a.d - b.d || b.it.score - a.it.score);
   h += `<h2 class="sec">Act now<small>on-sale and book-by dates in the next 14 days</small></h2>`;
   h += act.length ? `<div class="strip">${act.map(({ it, d }) => `<button class="act" data-open="${it.id}"><span class="ad">${fmtW(d)}</span><b>${esc(it.name)}</b><span class="as">${it.onSale && dn(it.onSale) === d ? "Tickets on sale" : "Book by this date"}${it.sellOutRisk ? " · " + it.sellOutRisk + " risk" : ""}</span><span class="as">${esc(when(it))} · ${esc(place(it))} · ${isNear(it) ? "nearby, " : ""}${drive(it)}</span></button>`).join("")}</div>` : `<div class="empty">Nothing to book in the next two weeks.</div>`;
   // New this week
@@ -616,11 +716,15 @@ function renderHome() {
   h += `<h2 class="sec">New this week<small>${nw.length} added</small><a href="#new">All new</a></h2>`;
   h += nw.length ? `<div class="list">${nw.slice(0, 5).map(it => card(it, { compact: true })).join("")}</div>` : `<div class="empty">No new entries this week.</div>`;
   // Next 30 days
-  const n30 = list.filter(it => it.tier <= 2 && it.first <= TODAY + 30).sort((a, b) => Math.max(a.first, TODAY) - Math.max(b.first, TODAY) || b.score - a.score);
+  const n30 = list.filter(it => it.tier <= 2 && !it.ongoing && it.first <= TODAY + 30).sort((a, b) => Math.max(a.first, TODAY) - Math.max(b.first, TODAY) || b.score - a.score);
   h += `<h2 class="sec">Next 30 days<small>tier 1 and 2</small></h2>`;
   h += n30.length ? `<div class="list">${n30.slice(0, 20).map(it => card(it, { compact: true })).join("")}</div>${n30.length > 20 ? `<p class="muted" style="font-size:.88rem">Plus ${n30.length - 20} more in the next 30 days. Browse has the full list.</p>` : ""}` : `<div class="empty">Nothing in the next 30 days for these profiles.</div>`;
+  const ong = list.filter(it => it.ongoing && it.tier <= 2).sort((a, b) => a.last - b.last);
+  if (ong.length) h += `<h2 class="sec">Ongoing<small>exhibitions and long runs, soonest to close first</small></h2><div class="list">${ong.slice(0, 8).map(it => card(it, { compact: true })).join("")}</div>${ong.length > 8 ? `<p class="muted" style="font-size:.88rem">Plus ${ong.length - 8} more under Ongoing in Browse.</p>` : ""}`;
+  h += healthCard();
   $("homeBody").innerHTML = h; wire($("homeBody"));
   $("homeBody").querySelector("a[href='#new']").addEventListener("click", e => { e.preventDefault(); setTab("new"); });
+  $("surprise").addEventListener("click", e => { e.preventDefault(); const it = surprise(list); if (it) { state.surprise = it.id; renderHome(); } else toast("Nothing to pick from."); });
   $("foot").innerHTML = `<p><b>Rondom ${esc(META.version)}</b>, data checked ${esc(META.checked)}. ${ITEMS.length} entries: ${EVENTS.length} events and ${CONCERTS.length} concerts.</p><p><b>How picks work.</b> Score = tier (60, 35 or 15) + proximity (up to 25) + a match for each selected person (10 each, up to 20) + urgency (10 if you must act within 14 days) + newness (5) + season (5), minus penalties for sold out or hidden entries. Every pick shows its reasons.</p><p>Your plan, notes, hidden entries and settings live only in this browser and are not synced between devices. Export them from the settings panel.</p>${__PWA__ ? "<p><b>Use it like an app.</b> On iPhone: Share, then Add to Home Screen. It keeps working offline once opened.</p>" : ""}<div class="actions" style="margin-top:10px"><button class="btn sm" id="openSettings">Settings and export</button></div>`;
   $("openSettings").addEventListener("click", openSettings);
 }
@@ -633,8 +737,10 @@ function renderNew() {
   $("newsub").textContent = `last visit ${fmtY(dn(state.lastSeen))}`;
   const row = (it, extra = "") => { const l = LANEBY[it.lane], st = statusWord(it); return `<div class="nrow" style="--lc:${l.c}"><div class="nt"><button class="cmain" style="padding:0" data-open="${it.id}"><b>${it.tier === 1 ? `<span class="tag urgent" style="margin-right:6px">Tier 1</span>` : ""}${esc(it.name)}</b><span class="why">${esc(it.why || "")}</span><span class="meta"><span class="d">${esc(when(it))}</span><span class="pl">${esc(place(it))}</span>${driveTag(it)}${pdots(it)}<span class="tag ${st.c}">${esc(st.t)}</span></span>${extra}</button></div><div class="nb"><button class="btn sm ${inPlan(it.id) ? "pri" : ""}" data-star="${it.id}" aria-pressed="${inPlan(it.id)}">${inPlan(it.id) ? "In plan" : "Save to plan"}</button><button class="btn sm" data-seen="${it.id}">Mark seen</button><button class="btn sm" data-hide="${it.id}">Not interested</button></div></div>`; };
   let h = "";
+  const you = nw.filter(it => followHits(it).length), rest = nw.filter(it => !followHits(it).length);
   const sec = (title, items, extraFn) => { if (!items.length) return; h += `<h2 class="sec">${title}<small>${items.length}</small></h2>`; LANES.forEach(l => { const li = items.filter(it => it.lane === l.id); if (li.length) h += `<h3 class="sub" style="color:${l.c}">${l.label}</h3><div class="list">${li.map(it => row(it, extraFn ? extraFn(it) : "")).join("")}</div>`; }); };
-  sec("Added this week", sortN(week)); sec("Added in the last 30 days", sortN(month));
+  sec("New for you", sortN(you), it => `<span class="reason">Matches a follow: <b>${esc(followHits(it).map(p => PBY[p].label).join(", "))}</b></span>`);
+  sec("Added this week", sortN(week.filter(it => !you.includes(it)))); sec("Added in the last 30 days", sortN(month.filter(it => !you.includes(it))));
   sec("Changed", ch.sort((a, b) => b.changedOn.localeCompare(a.changedOn)), it => `<span class="reason">Status changed ${fmt(dn(it.changedOn))}: ${esc(it.prevStatus || "unknown")} to <b>${esc(it.status)}</b></span>`);
   if (!h) h = `<div class="empty">Nothing new since ${fmtY(dn(state.lastSeen))}. The data refreshes every Wednesday.</div><div class="actions" style="margin-top:12px"><button class="btn" id="showAllNew">Show everything added in the last 30 days</button></div>`;
   $("newBody").innerHTML = h; wire($("newBody"));
@@ -646,15 +752,32 @@ function hide(id, on = true) { on ? state.hidden.add(id) : state.hidden.delete(i
 function markSeenAll() { state.lastSeen = isoOf(TODAY); save("lastSeen", state.lastSeen); }
 
 /* ================= CALENDAR ================= */
+function calList() { return live().filter(forSel).filter(nearOk).filter(it => laneOk(it, state.calLanes)).sort((a, b) => a.first - b.first || b.score - a.score); }
+function onSaleDaySet() { const o = new Set(); ITEMS.forEach(it => { if (it.onSale && (inPlan(it.id) || it.tier === 1) && it.last >= TODAY) o.add(dn(it.onSale)); }); return o; }
+function renderWeek(list) {
+  const onSaleDays = onSaleDaySet(); if (state.calSel == null) state.calSel = TODAY;
+  let a = TODAY; while (wd(a) !== 1) a--; const days = []; for (let d = a; d < a + 70; d++) days.push(d);
+  $("wstrip").innerHTML = days.map(d => { const its = list.filter(it => !it.ongoing && it.open(d)).sort((x, y) => y.score - x.score); const lanes = [...new Set(its.map(it => it.lane))].slice(0, 3); const x = fromDn(d); return `<button class="wtile ${[0,6].includes(wd(d)) ? "we" : ""} ${d === TODAY ? "today" : ""} ${x.getUTCDate() === 1 ? "mo" : ""}" data-wday="${d}" aria-pressed="${d === state.calSel}" aria-label="${fmtW(d)}: ${its.length} ${its.length === 1 ? "entry" : "entries"}"><span class="dw">${DOW[wd(d)]}</span><span class="dn ${onSaleDays.has(d) ? "ring" : ""}">${x.getUTCDate()}</span><span class="pp">${lanes.map(l => `<i style="--pc:${LANEBY[l].c}"></i>`).join("")}</span><span class="mn">${x.getUTCDate() === 1 || d === a ? MON[x.getUTCMonth()] : (its.length ? its.length : "")}</span></button>`; }).join("");
+  $("wstrip").querySelectorAll("[data-wday]").forEach(b => b.addEventListener("click", () => { state.calSel = +b.dataset.wday; renderWeek(list); }));
+  const sel = $("wstrip").querySelector('[aria-pressed="true"]'); if (sel) sel.scrollIntoView({ inline: "center", block: "nearest", behavior: reduced() ? "auto" : "smooth" });
+  const d = state.calSel, its = list.filter(it => !it.ongoing && it.open(d)).sort((x, y) => y.score - x.score), ong = list.filter(it => it.ongoing && it.open(d)).sort((x, y) => y.score - x.score);
+  $("calTitle").textContent = fmtW(d) + " " + fromDn(d).getUTCFullYear();
+  $("wday").innerHTML = (its.length ? `<div class="list">${its.map(it => card(it)).join("")}</div>` : `<div class="empty">Nothing starts or runs only on this day.</div>`) + (ong.length ? `<h3 class="sub">Ongoing that day<small class="muted" style="margin-left:6px">${ong.length}</small></h3><div class="list">${ong.slice(0, state.showOng ? 99 : 3).map(it => card(it, { compact: true })).join("")}</div>${ong.length > 3 && !state.showOng ? `<button class="btn sm" style="margin-top:8px" id="moreOng">Show all ${ong.length} ongoing</button>` : ""}` : "");
+  wire($("wday")); const mo = $("moreOng"); if (mo) mo.addEventListener("click", () => { state.showOng = true; renderWeek(list); });
+}
 function renderCal() {
   if (!state.calYM) { const t = fromDn(TODAY); state.calYM = [t.getUTCFullYear(), t.getUTCMonth()]; }
+  if (!state.calMode) state.calMode = isDesk() ? "month" : "week";
   laneChips($("calLanes"), state.calLanes, renderCal);
-  $("calLegend").innerHTML = LANES.map(l => `<span><i style="--pc:${l.c}"></i>${l.label}</span>`).join("") + `<span><i class="ring"></i>Tickets on sale</span>`;
-  const list = live().filter(forSel).filter(nearOk).filter(it => laneOk(it, state.calLanes)).sort((a, b) => a.first - b.first || b.score - a.score);
+  $("cm-week").setAttribute("aria-pressed", state.calMode === "week"); $("cm-month").setAttribute("aria-pressed", state.calMode === "month");
+  $("calWeek").hidden = state.calMode !== "week"; $("calMonth").hidden = state.calMode !== "month";
+  const list = calList();
+  if (state.calMode === "week") return renderWeek(list);
+  $("calLegend").innerHTML = isDesk() ? LANES.map(l => `<span><i style="--pc:${l.c}"></i>${l.label}</span>`).join("") + `<span><i class="ring"></i>Tickets on sale</span>` : `<span><i class="ring"></i>Ring: tickets on sale that day. Long runs are not drawn; find them in the day sheet.</span>`;
   const n = isDesk() ? 2 : 1;
   const [y0, m0] = state.calYM;
   $("calTitle").textContent = n === 1 ? `${MONL[m0]} ${y0}` : `${MONL[m0]} ${y0} and ${MONL[(m0 + 1) % 12]} ${m0 === 11 ? y0 + 1 : y0}`;
-  const onSaleDays = new Set(); ITEMS.forEach(it => { if (it.onSale && (inPlan(it.id) || it.tier === 1) && it.last >= TODAY) onSaleDays.add(dn(it.onSale)); });
+  const onSaleDays = onSaleDaySet();
   let html = "";
   for (let k = 0; k < n; k++) {
     const y = m0 + k > 11 ? y0 + 1 : y0, mo = (m0 + k) % 12;
@@ -662,30 +785,31 @@ function renderCal() {
     // slot assignment: items touching this month get a stable row (0..2) across their days; the rest count as +n
     const slots = [new Map(), new Map(), new Map()], extra = new Map(), perDay = {};
     // Pip rows go to short runs (21 days or fewer), best tier and score first; long runs are counted in +n and listed in the day sheet.
-    list.filter(it => it.first <= last && it.last >= f).sort((a, b) => a.tier - b.tier || b.score - a.score || a.first - b.first).forEach(it => {
+    list.filter(it => !it.ongoing && it.first <= last && it.last >= f).sort((a, b) => a.tier - b.tier || b.score - a.score || a.first - b.first).forEach(it => {
       const days = []; for (let d = Math.max(f, it.first); d <= Math.min(last, it.last); d++) if (it.open(d)) days.push(d);
       if (!days.length) return;
-      const si = it.last - it.first <= 21 ? slots.findIndex(s => days.every(d => !s.has(d))) : -1;
+      const si = slots.findIndex(s => days.every(d => !s.has(d)));
       if (si > -1) days.forEach(d => slots[si].set(d, it)); else days.forEach(d => extra.set(d, (extra.get(d) || 0) + 1));
       days.forEach(d => (perDay[d] = perDay[d] || []).push(it));
     });
+    const focusDay = state.calSel != null && state.calSel >= f && state.calSel <= last ? state.calSel : (TODAY >= f && TODAY <= last ? TODAY : (k === 0 ? f : -1));
     let c = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(x => `<div class="dow">${x}</div>`).join("");
     for (let i = 0; i < lead; i++) c += `<div class="day blank"></div>`;
     for (let i = 0; i < dim; i++) {
       const d = f + i, cnt = (perDay[d] || []).length;
       const pips = slots.map(s => { const it = s.get(d); if (!it) return `<span class="pip" style="visibility:hidden"></span>`; const multi = it.first !== it.last && !it.daysSet; const cont = multi && it.open(d - 1) && d > f, contN = multi && it.open(d + 1) && d < last; return `<span class="pip ${multi ? "bar" : ""} ${multi && !cont ? "f" : ""} ${multi && !contN ? "l" : ""}" style="--pc:${LANEBY[it.lane].c}"></span>`; }).join("");
-      c += `<button class="day ${d < TODAY ? "past" : ""} ${[0,6].includes(wd(d)) ? "we" : ""} ${d === TODAY ? "today" : ""}" data-cday="${d}" aria-pressed="${d === state.calSel}" aria-label="${fmtW(d)}: ${cnt} ${cnt === 1 ? "entry" : "entries"}${onSaleDays.has(d) ? ", tickets on sale" : ""}" tabindex="${d === (state.calSel ?? TODAY) ? 0 : -1}"><span class="n ${onSaleDays.has(d) ? "ring" : ""}">${i + 1}</span>${extra.get(d) ? `<span class="more">+${extra.get(d)}</span>` : ""}<span class="pips">${pips}</span></button>`;
+      c += `<button class="day ${d < TODAY ? "past" : ""} ${[0,6].includes(wd(d)) ? "we" : ""} ${d === TODAY ? "today" : ""}" data-cday="${d}" aria-pressed="${d === state.calSel}" aria-label="${fmtW(d)}: ${cnt} ${cnt === 1 ? "entry" : "entries"}${onSaleDays.has(d) ? ", tickets on sale" : ""}" tabindex="${d === focusDay ? 0 : -1}"><span class="n ${onSaleDays.has(d) ? "ring" : ""}">${i + 1}</span>${extra.get(d) ? `<span class="more">+${extra.get(d)}</span>` : ""}<span class="pips">${pips}</span></button>`;
     }
-    html += `<div class="month"><h3 class="disp" style="margin:0 0 6px;font-size:1.05rem">${MONL[mo]} ${y}</h3><div class="g7">${c}</div></div>`;
+    html += `<div class="month">${n > 1 ? `<h3 class="disp" style="margin:0 0 6px;font-size:1.05rem">${MONL[mo]} ${y}</h3>` : ""}<div class="g7">${c}</div></div>`;
   }
   $("months").innerHTML = html;
   $("months").querySelectorAll("[data-cday]").forEach(b => b.addEventListener("click", () => { state.calSel = +b.dataset.cday; openDay(state.calSel, list); }));
 }
 function calStep(months) { let [y, m] = state.calYM; m += months; while (m < 0) { m += 12; y--; } while (m > 11) { m -= 12; y++; } state.calYM = [y, m]; renderCal(); }
 function openDay(d, list) {
-  const items = (list || live().filter(forSel).filter(nearOk).filter(it => laneOk(it, state.calLanes))).filter(it => it.open(d)).sort((a, b) => b.score - a.score);
+  const all = (list || calList()).filter(it => it.open(d)).sort((a, b) => b.score - a.score), items = all.filter(it => !it.ongoing), ong = all.filter(it => it.ongoing);
   const fs = $("fsheet"); fs.className = "sheet bottom";
-  fs.innerHTML = `<div class="shead"><span class="stitle">${fmtW(d)} ${fromDn(d).getUTCFullYear()}<span class="muted" style="font-weight:500"> · ${plural(items.length, "entry").replace("entrys", "entries")}</span></span><button class="btn sm" id="fdone">Close</button></div><div class="sbody" style="padding-bottom:16px">${items.length ? `<div class="list">${items.map(it => card(it)).join("")}</div>` : `<div class="empty">Nothing on this day with the current filters.</div>`}</div>`;
+  fs.innerHTML = `<div class="shead"><span class="stitle">${fmtW(d)} ${fromDn(d).getUTCFullYear()}<span class="muted" style="font-weight:500"> · ${plural(items.length, "entry").replace("entrys", "entries")}${ong.length ? ` + ${ong.length} ongoing` : ""}</span></span><button class="btn sm" id="fdone">Close</button></div><div class="sbody" style="padding-bottom:16px">${items.length ? `<div class="list">${items.map(it => card(it)).join("")}</div>` : `<div class="empty">Nothing starts or runs only on this day with the current filters.</div>`}${ong.length ? `<h3 class="sub">Ongoing that day</h3><div class="list">${ong.map(it => card(it, { compact: true })).join("")}</div>` : ""}</div>`;
   wire(fs); fs.querySelector("#fdone").addEventListener("click", closeSheets); showSheet(fs, "#fdone");
   document.querySelectorAll("[data-cday]").forEach(b => b.setAttribute("aria-pressed", +b.dataset.cday === d));
 }
@@ -699,22 +823,24 @@ $("months").addEventListener("keydown", e => {
 });
 $("calPrev").addEventListener("click", () => calStep(-1)); $("calNext").addEventListener("click", () => calStep(1));
 $("calToday").addEventListener("click", () => { const t = fromDn(TODAY); state.calYM = [t.getUTCFullYear(), t.getUTCMonth()]; state.calSel = TODAY; renderCal(); });
+$("cm-week").addEventListener("click", () => { state.calMode = "week"; save("calMode", "week"); renderCal(); });
+$("cm-month").addEventListener("click", () => { state.calMode = "month"; save("calMode", "month"); renderCal(); });
 
 /* ================= BROWSE ================= */
 const SORTS = { score: (a, b) => b.score - a.score || a.first - b.first, date: (a, b) => Math.max(a.first, TODAY) - Math.max(b.first, TODAY) || b.score - a.score, distance: (a, b) => (a.driveMin ?? 999) - (b.driveMin ?? 999) || b.score - a.score, newest: (a, b) => String(b.addedOn).localeCompare(String(a.addedOn)) || b.score - a.score };
 function browseList(noSearch) {
   const q = norm(state.q);
-  return live().filter(forSel).filter(nearOk).filter(it => laneOk(it, state.lanes) && (!state.kinds.size || state.kinds.has(it.kind)) && (!state.countries.size || state.countries.has(it.country)) && (it.driveMin == null || it.driveMin <= state.drive) && (!state.tier || it.tier <= state.tier) && (!state.status || it.status === state.status) && (!state.month || monthKey(it)) && (noSearch || !q || it.hay.includes(q))).sort(SORTS[state.sort]);
+  return live().filter(forSel).filter(nearOk).filter(onlyOk).filter(it => laneOk(it, state.lanes) && (!state.kinds.size || state.kinds.has(it.kind)) && (!state.countries.size || state.countries.has(it.country)) && (it.driveMin == null || it.driveMin <= state.drive) && (!state.tier || it.tier <= state.tier) && (!state.status || it.status === state.status) && (!state.month || monthKey(it)) && (noSearch || !q || it.hay.includes(q))).sort(SORTS[state.sort]);
 }
 function monthKey(it) { const [y, m] = state.month.split("-").map(Number); const f = Date.UTC(y, m - 1, 1) / DAY, l = Date.UTC(y, m, 0) / DAY; return it.first <= l && it.last >= f; }
-function activeFilterCount() { return state.kinds.size + state.countries.size + (state.drive < 300 ? 1 : 0) + (state.tier ? 1 : 0) + (state.status ? 1 : 0) + (state.month ? 1 : 0); }
+function activeFilterCount() { return state.kinds.size + state.countries.size + state.only.size + (state.drive < 300 ? 1 : 0) + (state.tier ? 1 : 0) + (state.status ? 1 : 0) + (state.month ? 1 : 0); }
 function renderBrowse() {
   const all = live().filter(forSel).filter(nearOk); const counts = {}; all.forEach(it => counts[it.lane] = (counts[it.lane] || 0) + 1);
   laneChips($("browseLanes"), state.lanes, renderBrowse, counts);
   const list = browseList();
   $("bcount").textContent = `${list.length} of ${all.length}`;
   $("sort").value = state.sort;
-  $("blist").innerHTML = groupedList(list, { empty: "No entries match. Clear a filter or widen the drive time." }); wire($("blist"));
+  $("blist").innerHTML = state.sort === "score" ? groupedList(list, { empty: "No entries match. Clear a filter or widen the drive time." }) : (list.length ? `<p class="muted" style="font-size:.85rem;margin:6px 0 8px">Flat list, ${{ date: "soonest first", distance: "nearest first", newest: "newest first" }[state.sort]}. Best match groups by lane and time.</p><div class="list">${list.map(it => card(it)).join("")}</div>` : `<div class="empty">No entries match.</div>`); wire($("blist"));
   const n = activeFilterCount(); $("fcount").textContent = n ? ` · ${n}` : "";
 }
 function openFilters() {
@@ -726,6 +852,7 @@ function openFilters() {
     <div><h3>Kind</h3><div class="wrapchips">${Object.keys(KIND).filter(k => ITEMS.some(it => it.kind === k)).map(k => `<button class="chip" data-fk="${k}" aria-pressed="${state.kinds.has(k)}">${KIND[k]}</button>`).join("")}</div></div>
     <div><h3>Country</h3><div class="wrapchips">${Object.keys(COUNTRY).filter(c => ITEMS.some(it => it.country === c)).map(c => `<button class="chip" data-fc="${c}" aria-pressed="${state.countries.has(c)}">${COUNTRY[c]}</button>`).join("")}</div></div>
     <div><h3>Tier</h3><div class="seg" role="group">${[[0,"All"],[1,"Tier 1"],[2,"Tier 1 and 2"]].map(([v,l]) => `<button data-ftier="${v}" aria-pressed="${state.tier === v}">${l}</button>`).join("")}</div></div>
+    <div><h3>Show only</h3><div class="wrapchips">${[["free","Free"],["under50","Under 50 euro"],["learning","Learning (Alma)"]].map(([v,l]) => `<button class="chip" data-fo="${v}" aria-pressed="${state.only.has(v)}">${l}</button>`).join("")}</div></div>
     <div><h3>Status</h3><div class="wrapchips">${[["","Any"],["onsale","On sale"],["announced","Announced"],["tbd","Projected"],["soldout","Sold out"]].map(([v,l]) => `<button class="chip" data-fs="${v}" aria-pressed="${state.status === v}">${l}</button>`).join("")}</div></div>
     <div><h3>Month</h3><select id="fmonth"><option value="">Any month</option>${months.map(m => `<option value="${m}" ${state.month === m ? "selected" : ""}>${MONL[+m.slice(5) - 1]} ${m.slice(0, 4)}</option>`).join("")}</select></div>
   </div>`;
@@ -735,9 +862,10 @@ function openFilters() {
   press("[data-fk]", b => { const k = b.dataset.fk; state.kinds.has(k) ? state.kinds.delete(k) : state.kinds.add(k); b.setAttribute("aria-pressed", state.kinds.has(k)); });
   press("[data-fc]", b => { const c = b.dataset.fc; state.countries.has(c) ? state.countries.delete(c) : state.countries.add(c); b.setAttribute("aria-pressed", state.countries.has(c)); });
   press("[data-ftier]", b => { state.tier = +b.dataset.ftier; fs.querySelectorAll("[data-ftier]").forEach(x => x.setAttribute("aria-pressed", x === b)); });
+  press("[data-fo]", b => { const v = b.dataset.fo; state.only.has(v) ? state.only.delete(v) : state.only.add(v); save("only", state.only); b.setAttribute("aria-pressed", state.only.has(v)); });
   press("[data-fs]", b => { state.status = b.dataset.fs; fs.querySelectorAll("[data-fs]").forEach(x => x.setAttribute("aria-pressed", x === b)); });
   fs.querySelector("#fmonth").addEventListener("change", e => { state.month = e.target.value; refresh(); });
-  fs.querySelector("#freset").addEventListener("click", () => { state.kinds.clear(); state.countries.clear(); state.drive = 300; save("drive", 300); state.tier = 0; state.status = ""; state.month = ""; openFilters(); });
+  fs.querySelector("#freset").addEventListener("click", () => { state.kinds.clear(); state.countries.clear(); state.only.clear(); save("only", state.only); state.drive = 300; save("drive", 300); state.tier = 0; state.status = ""; state.month = ""; openFilters(); });
   fs.querySelector("#fdone").addEventListener("click", closeSheets);
   refresh(); showSheet(fs, "#fdone");
 }
@@ -760,20 +888,23 @@ function renderMap() {
   const list = mapList();
   const evs = list.filter(it => it.type === "e"), byVenue = {};
   list.filter(it => it.type === "c").forEach(it => { const k = it.venueObj.id || it.venue; (byVenue[k] = byVenue[k] || { v: it.venueObj, items: [] }).items.push(it); });
-  if (!vb) vb = fitVB(list);
+  if (!vb) vb = fitVB(list.filter(it => it.driveMin != null && it.driveMin <= 180).length ? list.filter(it => it.driveMin != null && it.driveMin <= 180) : list);
   const svg = $("map"); svg.setAttribute("viewBox", vb.join(" "));
   const z = GEO.w / vb[2], sq = Math.sqrt(z);
   const rr = it => (it.tier === 1 ? 6.5 : it.tier === 2 ? 5 : 3.8) / sq, fs = 11 / sq;
   const [hx, hy] = P(HOME.lng, HOME.lat);
-  const labelled = evs.filter(it => z >= 2 ? it.tier <= 2 || z > 4 : it.tier === 1).slice(0, z > 3 ? 80 : 30);
+  // Labels: best first, and a label is dropped when its box would overlap one already placed.
+  const boxes = [], labelled = [];
+  evs.filter(it => z >= 2 ? it.tier <= 2 || z > 4 : it.tier === 1).sort((a, b) => b.score - a.score).forEach(it => { const [x, y] = P(it.lng, it.lat); const w = it.short.length * fs * 0.58, h = fs * 1.2, bx = [x + rr(it), y - h / 2, x + rr(it) + w, y + h / 2]; if (boxes.some(b => !(bx[2] < b[0] || bx[0] > b[2] || bx[3] < b[1] || bx[1] > b[3]))) return; boxes.push(bx); labelled.push(it); });
   svg.innerHTML = GEO.paths.map(p => `<path class="land ${["NL","BE","DE","LU","FR"].includes(p.id) ? "home" : ""}" d="${p.d}"/>`).join("")
-    + evs.slice().sort((a, b) => a.score - b.score).map(it => { const [x, y] = P(it.lng, it.lat); return `<circle class="pin ${state.mapSel === it.id ? "sel" : ""}" data-pin="${it.id}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${rr(it).toFixed(2)}" fill="${LANEBY[it.lane].c}"><title>${esc(it.name)}</title></circle>`; }).join("")
-    + Object.entries(byVenue).map(([k, g]) => { const [x, y] = P(g.v.lng, g.v.lat); const s = (5 + Math.min(4, g.items.length)) / sq; return `<rect class="pin" data-venue="${esc(k)}" x="${(x - s).toFixed(1)}" y="${(y - s).toFixed(1)}" width="${(2 * s).toFixed(1)}" height="${(2 * s).toFixed(1)}" transform="rotate(45 ${x.toFixed(1)} ${y.toFixed(1)})" fill="var(--l-music)"><title>${esc(g.v.name)}: ${g.items.length} shows</title></rect>`; }).join("")
+    + evs.slice().sort((a, b) => a.score - b.score).map(it => { const [x, y] = P(it.lng, it.lat); return `<circle class="pin ${state.mapSel === it.id ? "sel" : ""}" data-pin="${it.id}" tabindex="0" role="button" aria-label="${esc(it.name)}, ${esc(when(it))}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${rr(it).toFixed(2)}" fill="${LANEBY[it.lane].c}"><title>${esc(it.name)}</title></circle>`; }).join("")
+    + Object.entries(byVenue).map(([k, g]) => { const [x, y] = P(g.v.lng, g.v.lat); const s = (5 + Math.min(4, g.items.length)) / sq; return `<rect class="pin" data-venue="${esc(k)}" tabindex="0" role="button" aria-label="${esc(g.v.name)}, ${g.items.length} shows" x="${(x - s).toFixed(1)}" y="${(y - s).toFixed(1)}" width="${(2 * s).toFixed(1)}" height="${(2 * s).toFixed(1)}" transform="rotate(45 ${x.toFixed(1)} ${y.toFixed(1)})" fill="var(--l-music)"><title>${esc(g.v.name)}: ${g.items.length} shows</title></rect>`; }).join("")
     + labelled.map(it => { const [x, y] = P(it.lng, it.lat); return `<text class="lbl" x="${(x + rr(it) + 2 / sq).toFixed(1)}" y="${(y + fs * 0.35).toFixed(1)}" font-size="${fs.toFixed(2)}" style="stroke-width:${(3/sq).toFixed(2)}px">${esc(it.short)}</text>`; }).join("")
     + (z >= 2 ? Object.values(byVenue).map(g => { const [x, y] = P(g.v.lng, g.v.lat); return `<text class="lbl" x="${(x + 8 / sq).toFixed(1)}" y="${(y + fs * 0.35).toFixed(1)}" font-size="${fs.toFixed(2)}" style="stroke-width:${(3/sq).toFixed(2)}px">${esc(g.v.name)}</text>`; }).join("") : "")
     + `<path class="home-pin" d="${starPath(hx, hy, 9 / sq)}"><title>Hoensbroek</title></path>`;
-  svg.querySelectorAll("[data-pin]").forEach(c => c.addEventListener("click", e => { e.stopPropagation(); state.mapSel = c.dataset.pin; openDetail(c.dataset.pin); }));
-  svg.querySelectorAll("[data-venue]").forEach(c => c.addEventListener("click", e => { e.stopPropagation(); const g = byVenue[c.dataset.venue]; if (g.items.length === 1) openDetail(g.items[0].id); else openVenue(g); }));
+  const act = (el, fn) => { el.addEventListener("click", e => { e.stopPropagation(); fn(); }); el.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); fn(); } }); };
+  svg.querySelectorAll("[data-pin]").forEach(c => act(c, () => { state.mapSel = c.dataset.pin; openDetail(c.dataset.pin); }));
+  svg.querySelectorAll("[data-venue]").forEach(c => act(c, () => { const g = byVenue[c.dataset.venue]; if (g.items.length === 1) openDetail(g.items[0].id); else openVenue(g); }));
   $("maplegend").innerHTML = LANES.map(l => `<span><i style="--pc:${l.c}"></i>${l.label}</span>`).join("") + `<span><i class="sq" style="--pc:var(--l-music)"></i>Concert venue</span><span style="color:var(--urgent)">&#9733; Hoensbroek</span>`;
   $("mapcard").innerHTML = `<p class="muted" style="margin:0">${plural(evs.length, "event")} and ${Object.keys(byVenue).length} venues with ${plural(list.length - evs.length, "concert")}. Tap a marker for details; drag to pan; + and &minus; zoom.</p>`;
 }
@@ -786,17 +917,27 @@ function starPath(cx, cy, r) { let d = ""; for (let i = 0; i < 10; i++) { const 
 const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
 function zoom(f, cx, cy) { const [x, y, w, h] = vb; cx = cx == null ? x + w / 2 : cx; cy = cy == null ? y + h / 2 : cy; const nw = clamp(w / f, 40, GEO.w * 1.2), nh = nw * h / w; vb = [cx - (cx - x) * nw / w, cy - (cy - y) * nh / h, nw, nh]; renderMap(); }
 (function mapEvents() {
-  let drag = null; const svg = $("map");
-  svg.addEventListener("pointerdown", e => { if (e.target.dataset && (e.target.dataset.pin || e.target.dataset.venue)) return; drag = { x: e.clientX, y: e.clientY, vb: vb.slice(), moved: false }; svg.setPointerCapture(e.pointerId); });
-  svg.addEventListener("pointermove", e => { if (!drag) return; const box = svg.getBoundingClientRect(); const dx = (e.clientX - drag.x) * drag.vb[2] / box.width, dy = (e.clientY - drag.y) * drag.vb[3] / box.height; if (Math.abs(dx) + Math.abs(dy) > 1) drag.moved = true; vb = [drag.vb[0] - dx, drag.vb[1] - dy, drag.vb[2], drag.vb[3]]; svg.setAttribute("viewBox", vb.join(" ")); });
-  svg.addEventListener("pointerup", () => { if (drag && drag.moved) renderMap(); drag = null; });
+  let drag = null, pts = new Map(), pinch = null; const svg = $("map");
+  svg.addEventListener("pointerdown", e => { pts.set(e.pointerId, [e.clientX, e.clientY]); svg.setPointerCapture(e.pointerId); if (pts.size === 2) { const [a, b] = [...pts.values()]; pinch = { d: Math.hypot(a[0] - b[0], a[1] - b[1]), vb: vb.slice(), cx: (a[0] + b[0]) / 2, cy: (a[1] + b[1]) / 2 }; drag = null; return; } if (e.target.dataset && (e.target.dataset.pin || e.target.dataset.venue)) return; drag = { x: e.clientX, y: e.clientY, vb: vb.slice(), moved: false }; });
+  svg.addEventListener("pointermove", e => {
+    if (pts.has(e.pointerId)) pts.set(e.pointerId, [e.clientX, e.clientY]);
+    const box = svg.getBoundingClientRect();
+    if (pinch && pts.size === 2) { const [a, b] = [...pts.values()]; const d = Math.hypot(a[0] - b[0], a[1] - b[1]); const f = clamp(d / pinch.d, .3, 4); const [x, y, w, h] = pinch.vb; const nw = clamp(w / f, 40, GEO.w * 1.2), nh = nw * h / w; const cx = x + (pinch.cx - box.left) / box.width * w, cy = y + (pinch.cy - box.top) / box.height * h; vb = [cx - (cx - x) * nw / w, cy - (cy - y) * nh / h, nw, nh]; svg.setAttribute("viewBox", vb.join(" ")); return; }
+    if (!drag) return; const dx = (e.clientX - drag.x) * drag.vb[2] / box.width, dy = (e.clientY - drag.y) * drag.vb[3] / box.height; if (Math.abs(dx) + Math.abs(dy) > 1) drag.moved = true; vb = [drag.vb[0] - dx, drag.vb[1] - dy, drag.vb[2], drag.vb[3]]; svg.setAttribute("viewBox", vb.join(" "));
+  });
+  const up = e => { pts.delete(e.pointerId); if (pinch && pts.size < 2) { pinch = null; renderMap(); return; } if (drag && drag.moved) renderMap(); drag = null; };
+  svg.addEventListener("pointerup", up); svg.addEventListener("pointercancel", up);
   svg.addEventListener("wheel", e => { e.preventDefault(); const box = svg.getBoundingClientRect(); const cx = vb[0] + (e.clientX - box.left) / box.width * vb[2], cy = vb[1] + (e.clientY - box.top) / box.height * vb[3]; zoom(e.deltaY < 0 ? 1.25 : 0.8, cx, cy); }, { passive: false });
   $("zin").addEventListener("click", () => zoom(1.5)); $("zout").addEventListener("click", () => zoom(1 / 1.5)); $("zfit").addEventListener("click", () => { vb = fitVB(mapList()); renderMap(); });
 })();
 
 /* ================= PLAN ================= */
-const leaveBy = it => it.t0 == null || it.driveMin == null ? null : hm(it.t0 - it.driveMin - 30);
-function planItems() { return Object.keys(state.plan).filter(id => BYID[id]).map(id => BYID[id]).sort((a, b) => a.first - b.first || b.score - a.score); }
+// Leave-by only makes sense for a single day with a published start: start minus drive minus 30 minutes, never wrapped past midnight.
+const leaveBy = it => { if (it.t0 == null || it.driveMin == null || (it.first !== it.last && !it.daysSet)) return null; const m = it.t0 - it.driveMin - 30; return m < 0 ? null : hm(m); };
+function planItems() { return Object.keys(state.plan).filter(id => BYID[id] && BYID[id].last >= TODAY).sort((a, b) => BYID[a].first - BYID[b].first || BYID[b].score - BYID[a].score).map(id => BYID[id]); }
+function planGone() { return Object.keys(state.plan).filter(id => !BYID[id]).map(id => ({ id, ...(state.plan[id] || {}) })); }
+function beenItems() { return Object.keys(state.plan).filter(id => BYID[id] && BYID[id].last < TODAY).map(id => BYID[id]).sort((a, b) => b.first - a.first); }
+const shareUrl = () => (location.protocol === "https:" && !/claude/.test(location.hostname) ? location.origin + location.pathname : "__SITE__/") + "#g-" + planItems().map(it => it.id).join("--");
 function planChecks(items) {
   const out = [];
   items.forEach(it => {
@@ -818,26 +959,45 @@ function planChecks(items) {
 function renderPlan() {
   const items = planItems();
   $("plansub").textContent = plural(items.length, "entry").replace("entrys", "entries");
-  const hiddenIds = [...state.hidden].filter(id => BYID[id]);
+  const hiddenIds = [...state.hidden].filter(id => BYID[id]), gone = planGone(), been = beenItems();
   let h = "";
   const checks = planChecks(items);
+  gone.forEach(g => checks.push(`${g.name || g.id} is no longer in the data (removed after it ended or was cancelled).`));
   if (checks.length) h += `<div class="check"><h3>Check</h3><ul>${checks.map(c => `<li>${esc(c)}</li>`).join("")}</ul></div>`;
+  if (gone.length) h += `<div class="actions" style="margin-top:8px">${gone.map(g => `<button class="btn sm" data-forget="${esc(g.id)}">Forget ${esc((g.name || g.id).slice(0, 28))}</button>`).join("")}</div>`;
   if (!items.length) h += `<div class="empty" style="margin-top:10px">Your plan is empty. Tap the star on any entry to save it here.</div>`;
   else h += `<div class="list" style="margin-top:10px">${items.map(it => {
     const l = LANEBY[it.lane], st = statusWord(it), lb = leaveBy(it);
-    return `<div class="pitem" style="--lc:${l.c}"><div class="ph"><div><b>${esc(it.name)}</b><span class="sub">${esc(when(it))} · ${esc(place(it))} · ${isNear(it) ? "nearby, " : ""}${drive(it)}</span></div><button class="star btn sm" data-star="${it.id}" aria-pressed="true" aria-label="Remove from plan" style="border:1px solid var(--line);width:44px;color:var(--urgent)">${STAR.replace("<svg", '<svg style="width:20px;height:20px;fill:var(--urgent);stroke:var(--urgent)"')}</button></div>
+    return `<div class="pitem" style="--lc:${l.c}"><div class="ph"><div><b>${esc(it.name)}</b><span class="sub">${esc(when(it))} · ${esc(place(it))} · ${isNear(it) ? "nearby, " : ""}${drive(it)}${rsvpLine(it) ? " · " + esc(rsvpLine(it)) : ""}</span></div><button class="star btn sm" data-star="${it.id}" aria-pressed="true" aria-label="Remove from plan" style="border:1px solid var(--line);width:44px;color:var(--urgent)">${STAR.replace("<svg", '<svg style="width:20px;height:20px;fill:var(--urgent);stroke:var(--urgent)"')}</button></div>
       <div class="kv"><span>Status</span><span class="tag ${st.c}" style="justify-self:start">${esc(st.t)}${it.sellOutRisk ? " · " + it.sellOutRisk + " risk" : ""}</span><span>Leave by</span><span>${lb ? `<b>${lb}</b> for ${it.type === "c" ? "doors " + esc(it.doors) : esc(it.times)} (${drive(it)} plus 30 min)` : (it.times ? esc(it.times) + ", no start time to count back from" : "no start time published yet")}</span>${it.planBy && dn(it.planBy) >= TODAY ? `<span>Book by</span><span>${fmtW(dn(it.planBy))}</span>` : ""}${it.priceFrom != null ? `<span>From</span><span>&euro;${it.priceFrom}</span>` : ""}</div>
       <div class="actions"><a class="btn sm" href="${gmDir(it)}" target="_blank" rel="noopener">Drive</a><a class="btn sm" href="${gmTransit(it)}" target="_blank" rel="noopener">Transit</a>${it.ticketUrl ? `<a class="btn sm" href="${esc(it.ticketUrl)}" target="_blank" rel="noopener">Tickets</a>` : ""}<button class="btn sm" data-open="${it.id}">Details</button></div>
       <label class="muted" style="font-size:.85rem">Notes<textarea data-note="${it.id}" rows="2" placeholder="Who is coming, where to park, what to bring">${esc(state.notes[it.id] || "")}</textarea></label></div>`; }).join("")}</div>`;
-  h += `<div class="actions" style="margin-top:16px"><button class="btn pri" id="icsPlan" type="button" ${items.length ? "" : "disabled"}>Add to calendar (.ics)</button><button class="btn" id="pdfPlan" type="button" ${items.length ? "" : "disabled"}>Export plan as PDF</button><button class="btn" id="copyPlan" type="button" ${items.length ? "" : "disabled"}>Copy as text</button></div>`;
-  h += `<p class="muted" style="font-size:.85rem">The .ics file holds one all-day event per saved entry with a reminder the day before, plus a 09:00 reminder on each ticket on-sale date. Open it on your iPhone and add it to Calendar; that is the cross-device reminder path.</p>`;
+  h += `<div class="actions" style="margin-top:16px"><button class="btn pri" id="icsPlan" type="button" ${items.length ? "" : "disabled"}>Add to calendar (.ics)</button><button class="btn" id="sharePlan" type="button" ${items.length ? "" : "disabled"}>Share plan link</button><button class="btn" id="pdfPlan" type="button" ${items.length ? "" : "disabled"}>Export plan as PDF</button><button class="btn" id="copyPlan" type="button" ${items.length ? "" : "disabled"}>Copy as text</button></div>`;
+  h += `<p class="muted" style="font-size:.85rem">The .ics file holds one all-day event per saved entry with a reminder the day before, plus a 09:00 reminder on each ticket on-sale date. The share link opens this plan on another phone, read-only, with a button to save it all.</p>`;
+  h += `<h2 class="sec" style="font-size:1.1rem">Subscribe in Calendar<small>one-time setup per phone</small></h2><p class="muted" style="font-size:.88rem;margin:0 0 8px">Each feed holds tier 1 and 2 entries for one person, with a reminder the day before, a 09:00 alert on ticket on-sale dates and on book-by dates. It refreshes itself after every Wednesday run. On iPhone: Settings, Apps, Calendar, Accounts, Add Account, Other, Add Subscribed Calendar, then paste the address.</p><div class="actions">${["anne", "alma", "nick", "family", "tier1"].map(f => `<button class="btn sm" data-feed="${f}">${f === "tier1" ? "Tier 1 only" : PBY[f].label}</button>`).join("")}</div><p class="muted" id="feedUrl" style="font-size:.85rem;overflow-wrap:anywhere"></p>`;
+  if (been.length) {
+    const yr = fromDn(TODAY).getUTCFullYear(), inYear = been.filter(it => fromDn(it.first).getUTCFullYear() === yr && (state.diary[it.id] || {}).who && state.diary[it.id].who.length);
+    const km = Math.round(inYear.reduce((t, it) => t + (it.lat != null ? hav(HOME, it) * 2 : 0), 0)), countries = new Set(inYear.map(it => it.country)).size;
+    h += `<h2 class="sec" style="font-size:1.1rem">Been<small>${been.length} past from your plan</small></h2>`;
+    if (inYear.length) h += `<p class="muted" style="font-size:.88rem;margin:0 0 8px">${yr}: ${plural(inYear.length, "outing")}, ${plural(countries, "country").replace("countrys", "countries")}, about ${km} km driven.</p>`;
+    h += `<div class="list">${been.slice(0, 20).map(it => { const d = state.diary[it.id] || {}; return `<div class="pitem" style="--lc:${LANEBY[it.lane].c}"><div class="ph"><div><b>${esc(it.name)}</b><span class="sub">${esc(when(it))} · ${esc(place(it))}</span></div><button class="btn sm" data-star="${it.id}" aria-label="Remove from plan">Remove</button></div>
+      <div class="rsvp"><div class="row"><b style="--pc:var(--t2)">Went</b><span class="wrapchips">${PROFILES.map(p => `<button class="chip" style="--pc:${p.c};min-height:38px" data-went="${it.id}:${p.id}" aria-pressed="${(d.who || []).includes(p.id)}"><span class="pd"></span>${p.label}</button>`).join("")}</span></div>
+      <div class="row"><b style="--pc:var(--t2)">Rating</b><span class="seg">${[1,2,3,4,5].map(n => `<button data-rate="${it.id}:${n}" aria-pressed="${d.rating === n}" aria-label="${n} of 5">${n}</button>`).join("")}</span></div></div>
+      <label class="muted" style="font-size:.85rem">One line for the diary<textarea data-dnote="${it.id}" rows="1" placeholder="What stuck">${esc(d.note || "")}</textarea></label></div>`; }).join("")}</div>`;
+  }
   h += `<h2 class="sec" style="font-size:1.1rem">Hidden entries<small>${hiddenIds.length}</small></h2>`;
   h += hiddenIds.length ? `<div class="actions"><button class="btn sm" id="toggleHidden" aria-pressed="${state.showHidden}">${state.showHidden ? "Hide them again" : "Show hidden entries in lists"}</button></div><div class="list" style="margin-top:8px">${hiddenIds.map(id => `<div class="card compact" style="--lc:${LANEBY[BYID[id].lane].c}"><button class="cmain" data-open="${id}"><b>${esc(BYID[id].name)}</b><span class="meta"><span>${esc(when(BYID[id]))}</span><span class="pl">${esc(place(BYID[id]))}</span></span></button><button class="btn sm" data-unhide="${id}" style="margin:8px">Restore</button></div>`).join("")}</div>` : `<p class="muted" style="margin:0">Nothing hidden. "Not interested" on any entry hides it everywhere.</p>`;
   $("planBody").innerHTML = h; wire($("planBody"));
   $("planBody").querySelectorAll("[data-note]").forEach(t => t.addEventListener("input", () => { state.notes[t.dataset.note] = t.value; save("notes", state.notes); }));
   $("planBody").querySelectorAll("[data-unhide]").forEach(b => b.addEventListener("click", () => { hide(b.dataset.unhide, false); renderPlan(); }));
   const th = $("toggleHidden"); if (th) th.addEventListener("click", () => { state.showHidden = !state.showHidden; save("showHidden", state.showHidden); renderPlan(); });
-  if (items.length) { $("icsPlan").addEventListener("click", exportIcs); $("pdfPlan").addEventListener("click", () => exportPdf("plan")); $("copyPlan").addEventListener("click", copyPlan); }
+  if (items.length) { $("icsPlan").addEventListener("click", exportIcs); $("pdfPlan").addEventListener("click", () => exportPdf("plan")); $("copyPlan").addEventListener("click", copyPlan); $("sharePlan").addEventListener("click", async () => { const u = shareUrl(); try { if (navigator.share) { await navigator.share({ title: "Rondom plan", url: u }); return; } await navigator.clipboard.writeText(u); toast("Link copied"); } catch (e) { $("feedUrl").textContent = u; } }); }
+  $("planBody").querySelectorAll("[data-forget]").forEach(b => b.addEventListener("click", () => { delete state.plan[b.dataset.forget]; delete state.notes[b.dataset.forget]; save("plan", state.plan); save("notes", state.notes); renderBadges(); renderPlan(); }));
+  $("planBody").querySelectorAll("[data-feed]").forEach(b => b.addEventListener("click", async () => { const u = `__SITE__/calendar/${b.dataset.feed}.ics`; $("feedUrl").innerHTML = `Address: <a href="${u.replace("https://", "webcal://")}">${u}</a>`; try { await navigator.clipboard.writeText(u); toast("Address copied"); } catch (e) {} }));
+  const setD = (id, fn) => { const d = state.diary[id] || { who: [], rating: null, note: "" }; fn(d); state.diary[id] = d; save("diary", state.diary); };
+  $("planBody").querySelectorAll("[data-went]").forEach(b => b.addEventListener("click", () => { const [id, p] = b.dataset.went.split(":"); setD(id, d => { d.who = d.who.includes(p) ? d.who.filter(x => x !== p) : [...d.who, p]; }); renderPlan(); }));
+  $("planBody").querySelectorAll("[data-rate]").forEach(b => b.addEventListener("click", () => { const [id, n] = b.dataset.rate.split(":"); setD(id, d => { d.rating = d.rating === +n ? null : +n; }); renderPlan(); }));
+  $("planBody").querySelectorAll("[data-dnote]").forEach(t => t.addEventListener("input", () => setD(t.dataset.dnote, d => { d.note = t.value; })));
 }
 function planText() { return planItems().map(it => `${when(it)}: ${it.name}, ${place(it)} (${drive(it)})${leaveBy(it) ? ", leave by " + leaveBy(it) : ""}${it.ticketUrl ? "\n  " + it.ticketUrl : ""}\n  ${gmSearch(it)}`).join("\n"); }
 async function copyPlan() {
@@ -856,7 +1016,9 @@ function buildIcs(items) {
     "BEGIN:VTIMEZONE", "TZID:Europe/Amsterdam", "BEGIN:DAYLIGHT", "TZOFFSETFROM:+0100", "TZOFFSETTO:+0200", "TZNAME:CEST", "DTSTART:19700329T020000", "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU", "END:DAYLIGHT", "BEGIN:STANDARD", "TZOFFSETFROM:+0200", "TZOFFSETTO:+0100", "TZNAME:CET", "DTSTART:19701025T030000", "RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU", "END:STANDARD", "END:VTIMEZONE"];
   items.forEach(it => {
     const desc = [it.why, `Drive ${drive(it)} from Hoensbroek.`, leaveBy(it) ? `Leave by ${leaveBy(it)}.` : null, it.times, it.ticketUrl ? "Tickets: " + it.ticketUrl : null, "Source: " + it.source, state.notes[it.id] ? "Notes: " + state.notes[it.id] : null].filter(Boolean).join("\n");
-    L.push("BEGIN:VEVENT", `UID:rondom-${it.id}@rondom`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${icsDate(it.first)}`, `DTEND;VALUE=DATE:${icsDate(it.last + 1)}`, `SUMMARY:${icsEsc(it.name)}`, `LOCATION:${icsEsc((it.venue ? it.venue + ", " : "") + it.city + ", " + COUNTRY[it.country])}`, `DESCRIPTION:${icsEsc(desc)}`, it.ticketUrl || it.source ? `URL:${it.ticketUrl || it.source}` : null, it.lat != null ? `GEO:${it.lat};${it.lng}` : null, "BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${icsEsc("Tomorrow: " + it.name)}`, "TRIGGER:-P1D", "END:VALARM", "END:VEVENT");
+    let a = it.first, b = it.last, label = it.name;
+    if (it.ongoing) { a = Math.max(it.first, TODAY); while (wd(a) !== 6 && a < it.last) a++; b = a; label = "Ongoing: " + it.name + " (until " + fmt(it.last) + ")"; }
+    L.push("BEGIN:VEVENT", `UID:rondom-${it.id}@rondom`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${icsDate(a)}`, `DTEND;VALUE=DATE:${icsDate(b + 1)}`, `SUMMARY:${icsEsc(label)}`, `LOCATION:${icsEsc((it.venue ? it.venue + ", " : "") + it.city + ", " + COUNTRY[it.country])}`, `DESCRIPTION:${icsEsc(desc)}`, it.ticketUrl || it.source ? `URL:${it.ticketUrl || it.source}` : null, it.lat != null ? `GEO:${it.lat};${it.lng}` : null, "BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${icsEsc("Tomorrow: " + it.name)}`, "TRIGGER:-P1D", "END:VALARM", "END:VEVENT");
     if (it.onSale && dn(it.onSale) >= TODAY) L.push("BEGIN:VEVENT", `UID:rondom-${it.id}-onsale@rondom`, `DTSTAMP:${stamp}`, `DTSTART;TZID=Europe/Amsterdam:${it.onSale.replace(/-/g, "")}T090000`, `DTEND;TZID=Europe/Amsterdam:${it.onSale.replace(/-/g, "")}T093000`, `SUMMARY:${icsEsc("Tickets on sale: " + it.name)}`, `DESCRIPTION:${icsEsc((it.sellOutRisk ? RISK[it.sellOutRisk] + ". " : "") + (it.ticketUrl || it.source || ""))}`, it.ticketUrl ? `URL:${it.ticketUrl}` : null, "BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${icsEsc("Tickets on sale now: " + it.name)}`, "TRIGGER:PT0M", "END:VALARM", "END:VEVENT");
   });
   L.push("END:VCALENDAR");
@@ -870,6 +1032,7 @@ async function exportIcs() {
 async function saveBlob(blob, fname) {
   try {
     if (downloads) { await downloads.save({ filename: fname, data: blob }); return toast("Saved " + fname); }
+    try { const file = new File([blob], fname, { type: blob.type }); if (navigator.canShare && navigator.canShare({ files: [file] })) { await navigator.share({ files: [file], title: fname }); return toast("Shared " + fname); } } catch (e) { if (e && e.name === "AbortError") return; }
     const url = URL.createObjectURL(blob), a = document.createElement("a"); a.href = url; a.download = fname; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 60000); toast("Downloaded " + fname);
   } catch (e) { toast(e && e.code === "declined" ? "Download cancelled." : "Export failed" + (e && e.message ? ": " + e.message : ".")); }
 }
@@ -879,14 +1042,21 @@ const gmSearch = it => `https://www.google.com/maps/search/?api=1&query=${encode
 const gmDir = it => `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent("Hoensbroek, Netherlands")}&destination=${it.lat},${it.lng}&travelmode=driving`;
 const gmTransit = it => `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent("Heerlen station")}&destination=${it.lat},${it.lng}&travelmode=transit`;
 let lastFocus = null;
-function showSheet(el, focusSel) { lastFocus = document.activeElement; $("scrim").hidden = false; el.hidden = false; el.scrollTop = 0; document.body.style.overflow = "hidden"; const f = el.querySelector(focusSel || "button"); if (f) f.focus({ preventScroll: true }); }
+const setInert = on => ["col", "top", "dpanel"].forEach(id => { const el = $(id); if (el) el.inert = on; }) || (document.querySelector(".tabs").inert = on);
+function showSheet(el, focusSel) { if (!lastFocus || $("sheet").hidden && $("fsheet").hidden) lastFocus = document.activeElement; $("scrim").hidden = false; el.hidden = false; el.scrollTop = 0; document.body.style.overflow = "hidden"; setInert(true); const f = el.querySelector(focusSel || "button"); if (f) f.focus({ preventScroll: true }); }
+let pushedDetail = false;
+// Close only the top sheet: a detail opened from a day list or a venue list returns to that list.
 function closeSheets(opts = {}) {
-  const wasDetail = !$("sheet").hidden;
-  $("sheet").hidden = true; $("fsheet").hidden = true; $("scrim").hidden = true; document.body.style.overflow = "";
-  if (wasDetail && /^#[ec]-/.test(location.hash)) history.replaceState(null, "", "#" + state.tab);
-  if (wasDetail) { state.detail = null; }
+  const detailOpen = !$("sheet").hidden, panelOpen = !$("fsheet").hidden;
+  if (detailOpen) {
+    if (pushedDetail && /^#[ec]-/.test(location.hash) && !opts.fromRoute) { pushedDetail = false; history.back(); return; }
+    $("sheet").hidden = true; state.detail = null; pushedDetail = false;
+    if (/^#[ec]-/.test(location.hash) && !opts.fromRoute) history.replaceState(null, "", "#" + state.tab);
+    if (panelOpen) { const f = $("fsheet").querySelector("button"); if (f) f.focus({ preventScroll: true }); return; }
+  } else if (panelOpen) $("fsheet").hidden = true;
+  $("scrim").hidden = true; document.body.style.overflow = ""; setInert(false);
   if (!opts.keep) render();
-  if (lastFocus && lastFocus.isConnected) lastFocus.focus({ preventScroll: true });
+  if (lastFocus && lastFocus.isConnected) lastFocus.focus({ preventScroll: true }); lastFocus = null;
 }
 $("scrim").addEventListener("click", () => closeSheets());
 document.addEventListener("keydown", e => { if (e.key === "Escape") { if (!$("sheet").hidden || !$("fsheet").hidden) closeSheets(); else if (isDesk() && state.detail) closeDetailPanel(); } });
@@ -905,8 +1075,8 @@ function detailHtml(it) {
     </div>
     <div class="dact">${it.ticketUrl ? `<a class="btn pri" href="${esc(it.ticketUrl)}" target="_blank" rel="noopener">Tickets</a>` : `<a class="btn pri" href="${esc(it.source)}" target="_blank" rel="noopener">Official page</a>`}<a class="btn" href="${gmSearch(it)}" target="_blank" rel="noopener">Google Maps</a><a class="btn" href="${gmDir(it)}" target="_blank" rel="noopener">Drive there</a><a class="btn" href="${gmTransit(it)}" target="_blank" rel="noopener">By train</a></div>
     <div class="dsec"><div class="facts">
-      <div><span>Dates</span><b>${esc(it.first === it.last ? fmtW(it.first) + " " + fromDn(it.first).getUTCFullYear() : fmtRange(it.first, it.last) + " " + fromDn(it.last).getUTCFullYear())}</b>${it.days && it.days.length ? `<div class="muted" style="font-size:.8rem">${it.days.length} dates: ${it.days.map(d => fmt(dn(d))).join(", ")}</div>` : ""}</div>
-      <div><span>${it.type === "c" ? "Doors" : "Times"}</span><b>${esc(it.type === "c" ? (it.doors || "n/a") : (it.times || "n/a"))}</b></div>
+      <div><span>Dates</span><b>${esc(it.first === it.last ? fmtW(it.first) + " " + fromDn(it.first).getUTCFullYear() : (fromDn(it.first).getUTCFullYear() === fromDn(it.last).getUTCFullYear() ? fmtRange(it.first, it.last) + " " + fromDn(it.last).getUTCFullYear() : fmtY(it.first) + " to " + fmtY(it.last)))}</b>${it.days && it.days.length ? `<div class="muted" style="font-size:.8rem">${it.days.length} dates: ${it.days.map(d => fmt(dn(d))).join(", ")}</div>` : ""}</div>
+      <div><span>${it.type === "c" ? "Doors" : "Times"}</span><b>${esc(it.type === "c" ? (it.doors || "n/a") : (it.times || "n/a"))}</b>${it.cityNote ? `<div class="muted" style="font-size:.8rem">${esc(it.cityNote)}</div>` : ""}</div>
       <div><span>Drive</span><b>${drive(it)}</b></div>
       <div><span>Leave by</span><b>${leaveBy(it) || "n/a"}</b></div>
       <div><span>Status</span><b>${esc(st.t)}</b>${it.sellOutRisk ? `<div class="muted" style="font-size:.8rem">${RISK[it.sellOutRisk]}</div>` : ""}</div>
@@ -920,12 +1090,17 @@ function detailHtml(it) {
     ${v ? `<div class="dsec"><h3>Venue</h3><div class="vcard"><b>${esc(v.name)}</b>, ${esc(v.city)}${v.capacity ? ` · capacity ${v.capacity.toLocaleString("en-GB")}` : ""}<div class="kv" style="margin-top:8px">${kv("Parking", esc(v.parking))}${kv("Train", esc(v.train))}${kv("Emissions zone", esc(v.lez))}</div></div></div>` : ""}
     ${(it.parking || it.train || (lezTxt && !v)) ? `<div class="dsec"><h3>Getting there</h3><div class="kv">${kv("Parking", esc(it.parking))}${kv("Train", esc(it.train))}${!v ? kv("Emissions zone", esc(lezTxt)) : ""}</div></div>` : ""}
     ${it.tags.length ? `<div class="dsec"><h3>Tags</h3><div class="dtags" style="margin:0">${it.tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div></div>` : ""}
+    <div class="dsec"><h3>Who is in</h3><div class="rsvp">${PROFILES.filter(p => p.id !== "family").map(p => `<div class="row"><b style="--pc:${p.c}">${p.label}</b><span class="seg" role="group" aria-label="${p.label}">${[["maybe","Maybe"],["in","In"]].map(([v,l]) => `<button data-rsvp="${p.id}:${v}" aria-pressed="${rsvpOf(it.id)[p.id] === v}">${l}</button>`).join("")}</span></div>`).join("")}</div></div>
+    ${nearby(it).length ? `<div class="dsec"><h3>While you are there</h3><p class="muted" style="font-size:.85rem;margin:0 0 8px">Within 25 km and on overlapping dates.</p><div class="list">${nearby(it).map(x => card(x, { compact: true })).join("")}</div></div>` : ""}
     <div class="dsec"><h3>Your take</h3><div class="actions"><button class="btn sm" data-like="${it.id}" aria-pressed="${!!liked}">${liked ? "Liked: more like this" : "More like this"}</button><button class="btn sm" data-hide2="${it.id}" aria-pressed="${state.hidden.has(it.id)}">${state.hidden.has(it.id) ? "Hidden: restore" : "Not interested"}</button></div>
       <label class="muted" style="font-size:.85rem;display:block;margin-top:10px">Notes<textarea data-note="${it.id}" rows="2" placeholder="Your notes stay on this device">${esc(state.notes[it.id] || "")}</textarea></label></div>
     <div class="dsec"><p class="muted" style="font-size:.85rem">${it.confidence === "confirmed" ? "Dates confirmed from the official source" : "Dates projected from the usual pattern; check before booking"}${it.verifiedOn ? `, checked ${esc(it.verifiedOn)}` : ""}. Added ${esc(it.addedOn || "")}. ${it.dateNote ? esc(it.dateNote) + " " : ""}Source: <a href="${esc(it.source)}" target="_blank" rel="noopener">${esc((it.source || "").replace(/^https?:\/\/(www\.)?/, "").split("/")[0])}</a></p></div>
   </div>`;
 }
+function nearby(it) { if (it.lat == null || it.driveMin == null || it.driveMin < 90) return []; return live().filter(x => x.id !== it.id && x.lat != null && hav(it, x) <= 25 && (x.ongoing || (x.first <= it.last + 1 && x.last >= it.first - 1))).sort((a, b) => b.score - a.score).slice(0, 3); }
 function wireDetail(root, it) {
+  root.querySelectorAll("[data-rsvp]").forEach(b => b.addEventListener("click", () => { const [p, v] = b.dataset.rsvp.split(":"); const r = state.rsvp[it.id] || {}; r[p] = r[p] === v ? null : v; state.rsvp[it.id] = r; save("rsvp", state.rsvp); openDetail(it.id, true); }));
+  wire(root);
   root.querySelector("[data-dclose]").addEventListener("click", () => isDesk() ? closeDetailPanel() : closeSheets());
   root.querySelector("[data-dstar]").addEventListener("click", () => toggleStar(it.id));
   root.querySelector("[data-like]").addEventListener("click", () => { const on = !(state.likes.lanes[it.lane] && it.tags.every(t => state.likes.tags[t])); state.likes.lanes[it.lane] = on; it.tags.forEach(t => state.likes.tags[t] = on); save("likes", state.likes); rescore(); toast(on ? "Noted. Similar entries score higher." : "Preference removed."); openDetail(it.id, true); });
@@ -936,7 +1111,7 @@ function openDetail(id, rerender) {
   const it = BYID[id]; if (!it) return;
   state.detail = id;
   const hash = (it.type === "c" ? "#c-" : "#e-") + id;
-  if (location.hash !== hash) history.pushState(null, "", hash);
+  if (location.hash !== hash) { if (/^#[ec]-/.test(location.hash)) history.replaceState(null, "", hash); else { history.pushState(null, "", hash); pushedDetail = true; } }
   if (isDesk()) {
     const p = $("dpanel"); p.innerHTML = detailHtml(it); wireDetail(p, it);
     document.querySelectorAll(".card.sel").forEach(c => c.classList.remove("sel")); document.querySelectorAll(`[data-open="${id}"]`).forEach(b => { const c = b.closest(".card"); if (c) c.classList.add("sel"); });
@@ -955,9 +1130,11 @@ function openSettings() {
   <div class="fs-body">
     <div><h3>How much each person counts</h3><p class="muted" style="margin:0 0 10px;font-size:.88rem">Scales the profile match in the score (10 points per person, up to 20). 1x is the default.</p>${PROFILES.map(p => `<div class="slider"><span style="color:${p.c};font-weight:600">${p.label}</span><input type="range" min="0.5" max="2" step="0.25" value="${state.weights[p.id] ?? 1}" data-w="${p.id}" aria-label="${p.label} weight"><span class="num" id="w-${p.id}">${state.weights[p.id] ?? 1}x</span></div>`).join("")}</div>
     <div><h3>Your data</h3><p class="muted" style="margin:0 0 10px;font-size:.88rem">Plan, notes, hidden entries, likes, weights and what you have seen. Stored only in this browser. Export to move it to another device.</p><div class="actions"><button class="btn" id="expJson">Export as JSON</button><label class="btn" for="impJson">Import JSON<input id="impJson" type="file" accept="application/json,.json" class="sr"></label><button class="btn" id="resetAll">Reset everything</button></div></div>
+    <div><h3>Follows</h3><p class="muted" style="margin:0 0 10px;font-size:.88rem">Artists, venues or words to watch, one per line, per person. Matching entries score higher and appear under "New for you". Kept on this device.</p>${PROFILES.map(p => `<label style="display:block;margin-bottom:8px"><span style="color:${p.c};font-weight:600">${p.label}</span><textarea data-follow="${p.id}" rows="2" placeholder="${p.id === "alma" ? "Stray Kids, ATEEZ, Ziggo Dome" : p.id === "nick" ? "Sanicole, Lanxess Arena, Rush" : "Names to watch"}">${esc((state.follows[p.id] || []).join("\n"))}</textarea></label>`).join("")}</div>
     <div><h3>New tab</h3><div class="actions"><button class="btn" id="markAll">Mark all as seen</button></div></div>
     <div><p class="muted" style="font-size:.85rem;margin:0">Rondom ${esc(META.version)}, data checked ${esc(META.checked)}, built ${esc(META.built)}.</p></div>
   </div>`;
+  fs.querySelectorAll("[data-follow]").forEach(t => t.addEventListener("input", () => { state.follows[t.dataset.follow] = t.value.split(/[\n,]/).map(x => x.trim()).filter(Boolean); save("follows", state.follows); FOLLOWS = followsOf(); rescore(); }));
   fs.querySelectorAll("[data-w]").forEach(r => r.addEventListener("input", () => { state.weights[r.dataset.w] = +r.value; $("w-" + r.dataset.w).textContent = r.value + "x"; save("weights", state.weights); rescore(); }));
   fs.querySelector("#expJson").addEventListener("click", () => { const data = {}; ALLKEYS.forEach(k => { const v = localStorage.getItem(k); if (v != null) data[k] = JSON.parse(v); }); saveBlob(new Blob([JSON.stringify({ app: "rondom", exported: isoOf(TODAY), data }, null, 1)], { type: "application/json" }), `Rondom-data-${isoOf(TODAY)}.json`); });
   fs.querySelector("#impJson").addEventListener("change", async e => { const f = e.target.files[0]; if (!f) return; try { const j = JSON.parse(await f.text()); const data = j.data || j; let n = 0; Object.entries(data).forEach(([k, v]) => { if (ALLKEYS.includes(k)) { localStorage.setItem(k, JSON.stringify(v)); n++; } }); toast(`Imported ${n} keys. Reloading.`); setTimeout(() => location.reload(), 800); } catch (err) { toast("That file is not a Rondom export."); } });
@@ -972,6 +1149,7 @@ $("settings2").addEventListener("click", openSettings);
 const TABS = ["home", "new", "calendar", "browse", "map", "plan"];
 const VIEW = { home: "v-home", new: "v-new", calendar: "v-cal", browse: "v-browse", map: "v-map", plan: "v-plan" };
 function setTab(t, push = true) {
+  rendered = true;
   if (state.tab === "new" && t !== "new") { markSeenAll(); renderBadges(); }
   state.tab = t;
   document.querySelectorAll("[data-tab]").forEach(b => { if (b.dataset.tab === t) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current"); });
@@ -996,13 +1174,22 @@ let qT; $("q").addEventListener("input", e => { clearTimeout(qT); qT = setTimeou
 $("sort").addEventListener("change", e => { state.sort = e.target.value; save("sort", state.sort); renderBrowse(); });
 $("pdfAll").addEventListener("click", () => exportPdf("all"));
 window.addEventListener("scroll", () => { if (state.tab === "home") $("top").classList.toggle("slim", window.scrollY > 60); }, { passive: true });
-let rT; window.addEventListener("resize", () => { clearTimeout(rT); rT = setTimeout(() => { vb = null; if (state.detail && isDesk() && !$("sheet").hidden) { $("sheet").hidden = true; $("scrim").hidden = true; document.body.style.overflow = ""; } render(); if (state.detail) openDetail(state.detail, true); }, 150); });
+let rT, lastW = window.innerWidth; window.addEventListener("resize", () => { if (window.innerWidth === lastW) return; lastW = window.innerWidth; clearTimeout(rT); rT = setTimeout(() => { vb = null; if (state.detail && isDesk() && !$("sheet").hidden) { $("sheet").hidden = true; $("scrim").hidden = true; document.body.style.overflow = ""; } render(); if (state.detail) openDetail(state.detail, true); }, 150); });
+let rendered = false;
 function route() {
   const h = location.hash.slice(1);
   const m = /^([ec])-(.+)$/.exec(h);
-  if (m && BYID[m[2]]) { if (state.detail !== m[2] || (!isDesk() && $("sheet").hidden)) openDetail(m[2]); return; }
-  if (!$("sheet").hidden) { $("sheet").hidden = true; $("scrim").hidden = true; document.body.style.overflow = ""; state.detail = null; }
+  if (m && BYID[m[2]]) { if (!rendered) setTab(state.tab, false); if (state.detail !== m[2] || (!isDesk() && $("sheet").hidden)) openDetail(m[2]); return; }
+  if (h.startsWith("g-")) { if (!rendered) setTab("plan", false); openShared(h.slice(2).split("--").filter(id => BYID[id])); return; }
+  if (!$("sheet").hidden) closeSheets({ fromRoute: true, keep: true });
   setTab(TABS.includes(h) ? h : state.tab, false);
+}
+function openShared(ids) {
+  const fs = $("fsheet"); fs.className = "sheet bottom";
+  fs.innerHTML = `<div class="shead"><span class="stitle">Shared plan<span class="muted" style="font-weight:500"> · ${plural(ids.length, "entry").replace("entrys", "entries")}</span></span><button class="btn sm pri" id="saveAll">Save all</button><button class="btn sm" id="fdone">Close</button></div><div class="sbody" style="padding-bottom:16px">${ids.length ? `<div class="list">${ids.map(id => card(BYID[id])).join("")}</div>` : `<div class="empty">This link holds no entries that are still in the data.</div>`}</div>`;
+  wire(fs); fs.querySelector("#fdone").addEventListener("click", () => { history.replaceState(null, "", "#plan"); closeSheets(); });
+  fs.querySelector("#saveAll").addEventListener("click", () => { ids.forEach(id => { if (!inPlan(id)) toggleStar(id); }); history.replaceState(null, "", "#plan"); closeSheets(); toast(`Saved ${ids.length} entries to your plan`); });
+  showSheet(fs, "#saveAll");
 }
 window.addEventListener("hashchange", route);
 route();
@@ -1017,9 +1204,11 @@ if (__PWA__ && "serviceWorker" in navigator && location.protocol === "https:") w
 function ascii(s) { return String(s == null ? "" : s).replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/·/g, "|").replace(/[^\x00-\xFF–—€]/g, ""); }
 const INK = [24,30,36], MUTE = [96,106,116], LINE = [214,218,222], ACC = [196,128,10];
 const LANEPDF = { fest: [220,100,50], music: [120,80,200], mil: [30,150,90], sport: [20,140,160], cult: [190,140,20] };
+function loadPdf() { return window.jspdf ? Promise.resolve() : new Promise((res, rej) => { const sc = document.createElement("script"); sc.src = "__JSPDF_SRC__"; sc.onload = res; sc.onerror = rej; document.head.appendChild(sc); }); }
 async function exportPdf(kind) {
   const list = kind === "plan" ? planItems() : browseList();
   if (!list.length) return toast("Nothing to export.");
+  try { await loadPdf(); } catch (e) {}
   if (!window.jspdf) return toast("The PDF library did not load. Check your connection and reload.");
   toast("Building PDF..."); await new Promise(r => setTimeout(r, 30));
   try {

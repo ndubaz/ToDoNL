@@ -6,7 +6,7 @@
   "kind": "museum",
   "city": "Oberhausen",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.4893,
   "lng": 6.862,
   "start": "2026-03-20",
@@ -43,7 +43,8 @@
   "driveMin": 85,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "kunstpalast-niki-de-saint-phalle-2026",
@@ -52,7 +53,7 @@
   "kind": "museum",
   "city": "Düsseldorf",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.233,
   "lng": 6.7728,
   "start": "2026-09-10",
@@ -88,7 +89,8 @@
   "driveMin": 65,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "stedelijk-yayoi-kusama-2026",
@@ -135,7 +137,8 @@
   "driveMin": 165,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "10:00"
  },
  {
   "id": "k20-franz-marc-2026",
@@ -144,7 +147,7 @@
   "kind": "museum",
   "city": "Düsseldorf",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.227,
   "lng": 6.7733,
   "start": "2026-09-12",
@@ -179,7 +182,8 @@
   "driveMin": 65,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "nrw-forum-asia-pop-2026",
@@ -188,7 +192,7 @@
   "kind": "museum",
   "city": "Düsseldorf",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.2345,
   "lng": 6.7747,
   "start": "2026-09-17",
@@ -225,7 +229,8 @@
   "driveMin": 65,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "bozar-william-kentridge-2026",
@@ -234,7 +239,7 @@
   "kind": "museum",
   "city": "Brussels",
   "country": "BE",
-  "region": "Brussels-Capital",
+  "region": "Brussels",
   "lat": 50.845,
   "lng": 4.3597,
   "start": "2026-09-18",
@@ -268,7 +273,8 @@
   "driveMin": 90,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "designmuseum-cosplay-2026",
@@ -313,7 +319,8 @@
   "driveMin": 95,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "hart-chez-matisse-2026",
@@ -356,7 +363,8 @@
   "driveMin": 165,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "10:00"
  },
  {
   "id": "museum-ludwig-along-the-color-line-2026",
@@ -365,7 +373,7 @@
   "kind": "museum",
   "city": "Köln",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.9393,
   "lng": 6.9603,
   "start": "2026-10-03",
@@ -400,7 +408,8 @@
   "driveMin": 65,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "laboverie-impressionnisme-belge-2026",
@@ -443,7 +452,8 @@
   "driveMin": 45,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "rijksmuseum-de-kooning-2026",
@@ -486,7 +496,8 @@
   "driveMin": 165,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "09:00"
  },
  {
   "id": "mauritshuis-thyssen-bornemisza-2026",
@@ -531,7 +542,8 @@
   "driveMin": 170,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "13:00"
  },
  {
   "id": "vgm-whistler-2026",
@@ -574,7 +586,51 @@
   "driveMin": 165,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "09:00"
+ },
+ {
+  "id": "festival-film-italien-villerupt-2026",
+  "name": "Festival du Film Italien de Villerupt",
+  "short": "Film italien Villerupt",
+  "kind": "culture",
+  "city": "Villerupt",
+  "country": "FR",
+  "region": "Grand Est",
+  "lat": 49.4675,
+  "lng": 5.9308,
+  "cityNote": "Also screens in Esch-sur-Alzette and Dudelange (LU)",
+  "start": "2026-10-23",
+  "end": "2026-11-08",
+  "startTime": null,
+  "venue": "Cinemas in Villerupt plus Kulturfabrik Esch and CNA Dudelange",
+  "tier": 2,
+  "for": [
+   "nick",
+   "family"
+  ],
+  "confidence": "projected",
+  "source": "https://festival-villerupt.com/",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://festival-villerupt.com/",
+  "priceFrom": null,
+  "ticketNote": "Tickets sold at the venues, subject to availability",
+  "highlights": "The 49th edition of the largest Italian film festival in France screens new Italian cinema and retrospectives on both sides of the Luxembourg border.",
+  "tip": "Only the last weekend remains; pick screenings in Esch or Dudelange to keep the drive short.",
+  "dateNote": "Dates 23 Oct to 8 Nov 2026 come from a Luxembourg listings page; the official site could not be read during research.",
+  "tags": [
+   "indoor",
+   "ticketed",
+   "art",
+   "italian"
+  ],
+  "why": "The biggest celebration of Italian cinema in France sits right on the Luxembourg border.",
+  "driveMin": 165,
+  "planBy": null,
+  "addedOn": "2026-11-04"
  },
  {
   "id": "kunsthal-signac-2026",
@@ -617,7 +673,8 @@
   "driveMin": 155,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "kmska-ossip-zadkine-2026",
@@ -660,7 +717,8 @@
   "driveMin": 85,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "venue": "Koelnmesse",
@@ -677,7 +735,7 @@
   "kind": "culture",
   "city": "Köln",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.9466,
   "lng": 6.9833,
   "start": "2026-11-05",
@@ -701,7 +759,8 @@
   "driveMin": 70,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "jumping-indoor-maastricht-2026",
@@ -710,7 +769,7 @@
   "kind": "sport",
   "city": "Maastricht",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 50.839,
   "lng": 5.714,
   "start": "2026-11-05",
@@ -742,7 +801,8 @@
   "driveMin": 25,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "glow-eindhoven-2026",
@@ -791,7 +851,8 @@
   "driveMin": 75,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "18:30"
  },
  {
   "times": "19:00-02:00",
@@ -833,7 +894,8 @@
   "driveMin": 165,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "19:00"
  },
  {
   "times": "Special Last Post around 11:00; evening Last Post 20:00; Great War Remembered concert 17:00",
@@ -849,7 +911,7 @@
   "name": "Armistice Day at the Menin Gate, Ypres",
   "short": "Armistice Day Ypres",
   "kind": "military",
-  "city": "Ieper (Ypres)",
+  "city": "Ieper",
   "country": "BE",
   "region": "West Flanders",
   "lat": 50.852,
@@ -868,7 +930,6 @@
   "tags": [
    "commemoration",
    "history",
-   "free",
    "outdoor",
    "music"
   ],
@@ -876,7 +937,103 @@
   "driveMin": 170,
   "planBy": null,
   "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "cityNote": "Ypres",
+  "startTime": null
+ },
+ {
+  "id": "het-grote-songfestivalfeest-2026",
+  "name": "Het Grote Songfestivalfeest 2026",
+  "short": "Songfestivalfeest",
+  "kind": "culture",
+  "city": "Amsterdam",
+  "country": "NL",
+  "region": "Noord-Holland",
+  "lat": 52.3133,
+  "lng": 4.9375,
+  "start": "2026-11-13",
+  "end": "2026-11-13",
+  "startTime": null,
+  "venue": "Ziggo Dome",
+  "tier": 2,
+  "for": [
+   "alma",
+   "anne",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://hetgrotesongfestivalfeest.nl/en",
+  "status": "onsale",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://hetgrotesongfestivalfeest.nl/en",
+  "priceFrom": null,
+  "ticketNote": "Tickets via Ticketmaster from the official site; the organiser warns they sell out quickly",
+  "highlights": "Twenty-six Eurovision stars, among them Kaarija, Baby Lasagna, Johnny Logan, Alexander Rybak, Tommy Cash, Sandra Kim and Maggie MacNeal, sing their contest hits in one arena show.",
+  "tip": "Book now rather than later; the Ziggo Dome is a short walk from Amsterdam Bijlmer ArenA station.",
+  "train": "Amsterdam Bijlmer ArenA station, 5 minutes on foot",
+  "lez": "Amsterdam has an environmental zone for older diesel cars",
+  "tags": [
+   "indoor",
+   "ticketed",
+   "music",
+   "teens",
+   "eurovision"
+  ],
+  "why": "The biggest Eurovision reunion show in Europe puts two dozen contest stars on one stage in one night.",
+  "driveMin": 155,
+  "planBy": null,
+  "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04"
+ },
+ {
+  "id": "rwth-wissenschaftsnacht-2026",
+  "name": "RWTH Wissenschaftsnacht 5 vor 12 (Aachen science night)",
+  "short": "RWTH Science Night",
+  "kind": "other",
+  "city": "Aachen",
+  "country": "DE",
+  "region": "NRW",
+  "lat": 50.7795,
+  "lng": 6.067,
+  "start": "2026-11-13",
+  "end": "2026-11-13",
+  "times": "From 18:00",
+  "startTime": "18:00",
+  "venue": "RWTH campus around the C.A.R.L. lecture hall building, Claßenstraße 11",
+  "tier": 2,
+  "for": [
+   "alma",
+   "nick",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.rwth-aachen.de/cms/root/wir/rwth-events/oeffentlichkeitswirksame-wissenschaftsev/~befecf/rwth-wissenschaftsnacht-5-vor-12-/?lidx=1",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "ticketNote": "No ticket information on the official page; past editions were free",
+  "highlights": "More than 30 lectures and shows plus exhibits, guided tours, an escape room, a concert, a physics fair, a science slam and a high-voltage show, with around 6,000 visitors last year.",
+  "tip": "Arrive at 18:00 for the shows with limited seats and keep the high-voltage show for later in the evening; programme in German.",
+  "parking": "Parkhaus Wüllnerstraße or the university car parks around Templergraben",
+  "train": "Aachen Hbf, then bus to Technische Hochschule",
+  "lez": "Aachen Umweltzone: green sticker required",
+  "tags": [
+   "learning",
+   "free",
+   "teens",
+   "indoor"
+  ],
+  "why": "A big-university science night with live shows and labs, 30 minutes from home on a Friday evening.",
+  "cityNote": "Aachen, about 30 minutes by car",
+  "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "driveMin": 25,
+  "planBy": null
  },
  {
   "id": "k21-thomas-schuette-2026",
@@ -885,7 +1042,7 @@
   "kind": "museum",
   "city": "Düsseldorf",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.2175,
   "lng": 6.7813,
   "start": "2026-11-14",
@@ -918,7 +1075,8 @@
   "driveMin": 65,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "11:00-20:00 (31 Dec 11:00-18:00); closed 24-25 Dec and 1 Jan",
@@ -934,7 +1092,7 @@
   "kind": "culture",
   "city": "Brühl",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.7983,
   "lng": 6.8797,
   "start": "2026-11-14",
@@ -959,7 +1117,8 @@
   "driveMin": 60,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "11:00"
  },
  {
   "times": "Live on NPO 3 from 12:00",
@@ -974,7 +1133,7 @@
   "name": "Landelijke intocht Sinterklaas",
   "short": "Intocht Sinterklaas",
   "kind": "culture",
-  "city": "Grave (Land van Cuijk)",
+  "city": "Grave",
   "country": "NL",
   "region": "Noord-Brabant",
   "lat": 51.758,
@@ -1000,7 +1159,103 @@
   "why": "The national Sinterklaas arrival happens only an hour from home this year.",
   "driveMin": 105,
   "planBy": null,
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "cityNote": "Land van Cuijk",
+  "startTime": null
+ },
+ {
+  "id": "um-bachelors-open-day-nov-2026",
+  "name": "Maastricht University Bachelor's Open Day",
+  "short": "UM Bachelor Open Day",
+  "kind": "other",
+  "city": "Maastricht",
+  "country": "NL",
+  "region": "Limburg (NL)",
+  "lat": 50.848,
+  "lng": 5.69,
+  "start": "2026-11-14",
+  "end": "2026-11-14",
+  "times": "09:30-16:30",
+  "startTime": "09:30",
+  "venue": "Maastricht University, several faculty buildings",
+  "tier": 3,
+  "for": [
+   "alma",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.maastrichtuniversity.nl/bachelors-open-day",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.maastrichtuniversity.nl/bachelors-open-day",
+  "priceFrom": null,
+  "ticketNote": "Free, register online",
+  "highlights": "Every faculty opens its doors with sample lectures, student talks and campus tours, most of them in English.",
+  "tip": "Register online first, pick two or three programme talks and leave time for the inner-city faculties; times vary by faculty.",
+  "parking": null,
+  "train": "Maastricht station",
+  "lez": "none",
+  "tags": [
+   "learning",
+   "free",
+   "teens",
+   "indoor"
+  ],
+  "why": "An English-language university 25 minutes away is a low-key way for a curious 14-year-old to see what studying looks like.",
+  "cityNote": "Maastricht, about 25 minutes by car",
+  "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "driveMin": 25,
+  "planBy": null
+ },
+ {
+  "id": "dag-van-de-wetenschap-2026",
+  "name": "Dag van de Wetenschap 2026 (Flanders science day)",
+  "short": "Dag van de Wetenschap",
+  "kind": "other",
+  "city": "Genk",
+  "country": "BE",
+  "region": "Limburg (BE)",
+  "lat": 50.965,
+  "lng": 5.5,
+  "start": "2026-11-15",
+  "end": "2026-11-15",
+  "times": null,
+  "startTime": null,
+  "venue": "UHasselt, T2-campus Genk, Cosmodrome Genk and other Limburg locations",
+  "tier": 2,
+  "for": [
+   "alma",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.dagvandewetenschap.be/",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.dagvandewetenschap.be/activiteiten",
+  "priceFrom": null,
+  "ticketNote": "Programme and any registration on dagvandewetenschap.be",
+  "highlights": "The sixteenth edition of Flanders' biggest science day: universities, labs, companies and museums open their doors with experiments, demonstrations and workshops; in Limburg the organisers include Hasselt University, the T2-campus and the Cosmodrome in Genk.",
+  "tip": "Filter the official programme by province Limburg once it is published and pick one campus rather than driving between cities.",
+  "parking": null,
+  "train": null,
+  "lez": "none",
+  "tags": [
+   "learning",
+   "free",
+   "teens",
+   "kids"
+  ],
+  "why": "Hundreds of hands-on science activities across Belgian Limburg, 45 minutes from home.",
+  "cityNote": "Genk and Hasselt, about 45 minutes by car",
+  "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "driveMin": 30,
+  "planBy": null
  },
  {
   "onSale": null,
@@ -1040,7 +1295,8 @@
   "driveMin": 105,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "pba-lille-turner-2026",
@@ -1082,6 +1338,49 @@
   "why": "Turner loans at a €7 ticket price, in a city that makes a good winter weekend.",
   "driveMin": 165,
   "planBy": "2026-11-06",
+  "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "startTime": "14:00"
+ },
+ {
+  "id": "colapesce-dimartino-iic-bruxelles-2026",
+  "name": "Colapesce Dimartino live in duo",
+  "short": "Colapesce Dimartino",
+  "kind": "culture",
+  "city": "Brussels",
+  "country": "BE",
+  "region": "Brussels",
+  "lat": 50.8265,
+  "lng": 4.362,
+  "start": "2026-11-23",
+  "end": "2026-11-23",
+  "startTime": null,
+  "venue": "Istituto Italiano di Cultura, Rue de Livourne 38",
+  "tier": 3,
+  "for": [
+   "nick",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://iicbruxelles.esteri.it/it/gli_eventi/calendario/",
+  "status": "announced",
+  "annual": false,
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": "https://iicbruxelles.esteri.it/it/gli_eventi/calendario/",
+  "priceFrom": null,
+  "ticketNote": "Registration through the Istituto; its other November concert is already sold out",
+  "highlights": "The Sicilian duo behind the Sanremo hit Musica leggerissima play an acoustic set of two guitars and two voices at the Italian Cultural Institute.",
+  "tip": "Register as soon as the Istituto opens bookings; the room is small and its concerts fill up fast.",
+  "train": "Louise metro station, 10 minutes on foot",
+  "tags": [
+   "indoor",
+   "music",
+   "italian"
+  ],
+  "why": "A rare intimate show by two Sanremo favourites, right in Brussels.",
+  "driveMin": 95,
+  "planBy": null,
   "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04"
  },
@@ -1132,7 +1431,8 @@
   "driveMin": 165,
   "planBy": "2026-11-05",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "16:30"
  },
  {
   "days": [
@@ -1165,7 +1465,7 @@
   "kind": "culture",
   "city": "Sevenum",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 51.3966,
   "lng": 5.997,
   "start": "2026-11-28",
@@ -1190,7 +1490,8 @@
   "driveMin": 70,
   "planBy": "2026-11-14",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "kunstmuseum-bonn-jacques-tilly-2026",
@@ -1199,7 +1500,7 @@
   "kind": "museum",
   "city": "Bonn",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.7165,
   "lng": 7.118,
   "start": "2026-11-29",
@@ -1235,7 +1536,8 @@
   "driveMin": 80,
   "planBy": "2026-11-15",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "bundeskunsthalle-vanguardistas-2026",
@@ -1244,7 +1546,7 @@
   "kind": "museum",
   "city": "Bonn",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.7158,
   "lng": 7.1197,
   "start": "2026-12-04",
@@ -1279,7 +1581,56 @@
   "driveMin": 80,
   "planBy": "2026-11-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "10:00"
+ },
+ {
+  "id": "dae-bachelor-open-day-2026",
+  "name": "Design Academy Eindhoven Bachelor Open Day",
+  "short": "DAE Open Day",
+  "kind": "culture",
+  "city": "Eindhoven",
+  "country": "NL",
+  "region": "Noord-Brabant",
+  "lat": 51.4395,
+  "lng": 5.472,
+  "start": "2026-12-11",
+  "end": "2026-12-11",
+  "times": null,
+  "startTime": null,
+  "venue": "Design Academy Eindhoven, Emmasingel 14",
+  "tier": 3,
+  "for": [
+   "alma",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.designacademy.nl/",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.designacademy.nl/",
+  "priceFrom": null,
+  "ticketNote": "Free; check the academy site for registration",
+  "highlights": "A full day of talks and tours through the studios of one of the world's leading design schools; a lighter 'Explore the Bachelors' discovery day runs on 27 November 2026.",
+  "tip": "Combine with the Van Abbemuseum or the Philips Museum five minutes away; the academy sits in the former Philips Witte Dame building.",
+  "parking": "Q-Park Witte Dame",
+  "train": "Eindhoven Centraal, 10 minute walk",
+  "lez": "none",
+  "tags": [
+   "learning",
+   "art",
+   "free",
+   "teens",
+   "indoor"
+  ],
+  "why": "A real look inside a top design school for a 14-year-old who draws, an hour from home.",
+  "cityNote": "Eindhoven, about 1 hour by car",
+  "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "driveMin": 75,
+  "planBy": "2026-11-27"
  },
  {
   "times": "Museum sites 09:30-18:00; town programme Saturday",
@@ -1292,11 +1643,11 @@
   "annual": true,
   "id": "nuts-weekend-bastogne-2026",
   "name": "Nuts Weekend Bastogne 2026 (Battle of the Bulge commemoration)",
-  "short": "Nuts Weekend Bastogne",
+  "short": "Nuts Weekend 2026",
   "kind": "military",
   "city": "Bastogne",
   "country": "BE",
-  "region": "Wallonia (Luxembourg)",
+  "region": "Luxembourg (BE)",
   "lat": 50.0063,
   "lng": 5.7372,
   "start": "2026-12-11",
@@ -1324,7 +1675,8 @@
   "driveMin": 105,
   "planBy": "2026-11-27",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "cyclocross-world-cup-antwerpen-2026",
@@ -1333,7 +1685,7 @@
   "kind": "sport",
   "city": "Antwerpen",
   "country": "BE",
-  "region": "Flanders (Antwerp)",
+  "region": "Antwerp",
   "lat": 51.222,
   "lng": 4.385,
   "start": "2026-12-19",
@@ -1364,7 +1716,8 @@
   "driveMin": 95,
   "planBy": "2026-12-05",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "cyclocross-world-cup-koksijde-2026",
@@ -1373,7 +1726,7 @@
   "kind": "sport",
   "city": "Koksijde",
   "country": "BE",
-  "region": "Flanders (West Flanders)",
+  "region": "West Flanders",
   "lat": 51.115,
   "lng": 2.65,
   "start": "2026-12-20",
@@ -1405,7 +1758,8 @@
   "driveMin": 180,
   "planBy": "2026-12-06",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "superprestige-heusden-zolder-2026",
@@ -1414,7 +1768,7 @@
   "kind": "sport",
   "city": "Heusden-Zolder",
   "country": "BE",
-  "region": "Flanders (Limburg)",
+  "region": "Flanders",
   "lat": 51.052,
   "lng": 5.258,
   "start": "2026-12-25",
@@ -1447,7 +1801,8 @@
   "dateNote": "Friday 25 December 2026 per the published 2026-27 Belgian cyclocross calendar (Sporza); the organiser's site could not be reached from this session to confirm.",
   "driveMin": 50,
   "planBy": "2026-12-11",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "jumping-mechelen-2026",
@@ -1456,7 +1811,7 @@
   "kind": "sport",
   "city": "Mechelen",
   "country": "BE",
-  "region": "Flanders (Antwerp)",
+  "region": "Antwerp",
   "lat": 51.0376,
   "lng": 4.4983,
   "start": "2026-12-26",
@@ -1487,7 +1842,8 @@
   "dateNote": "26-30 December 2026 per ClipMyHorse event listings; the organiser's site could not be reached from this session, dates follow the fixed 26-30 December pattern of every edition.",
   "driveMin": 95,
   "planBy": "2026-12-05",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "cyclocross-world-cup-namur-2026",
@@ -1496,7 +1852,7 @@
   "kind": "sport",
   "city": "Namur",
   "country": "BE",
-  "region": "Wallonia (Namur)",
+  "region": "Namur",
   "lat": 50.4578,
   "lng": 4.863,
   "start": "2026-12-27",
@@ -1530,16 +1886,17 @@
   "driveMin": 85,
   "planBy": "2026-12-13",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "13:40"
  },
  {
   "id": "superprestige-diegem-2026",
   "name": "Superprestige Diegem 2026",
   "short": "Night cross Diegem",
   "kind": "sport",
-  "city": "Diegem (Machelen)",
+  "city": "Diegem",
   "country": "BE",
-  "region": "Flanders (Flemish Brabant)",
+  "region": "Flemish Brabant",
   "lat": 50.895,
   "lng": 4.438,
   "start": "2026-12-30",
@@ -1573,7 +1930,9 @@
   "dateNote": "Wednesday 30 December 2026 per the published 2026-27 Belgian cyclocross calendar (Sporza); the organiser's site could not be reached from this session to confirm.",
   "driveMin": 85,
   "planBy": "2026-12-16",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "cityNote": "Machelen",
+  "startTime": null
  },
  {
   "id": "nationale-vuurwerk-rotterdam-2026",
@@ -1620,7 +1979,8 @@
   "dateNote": "Projected: the show is held every 31 December at the Erasmusbrug; the official site still showed the 2025/2026 edition at research time.",
   "driveMin": 150,
   "planBy": "2026-12-17",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": "22:30"
  },
  {
   "id": "cyclocross-world-cup-zonhoven-2027",
@@ -1629,7 +1989,7 @@
   "kind": "sport",
   "city": "Zonhoven",
   "country": "BE",
-  "region": "Flanders (Limburg)",
+  "region": "Flanders",
   "lat": 50.9906,
   "lng": 5.3689,
   "start": "2027-01-03",
@@ -1662,7 +2022,8 @@
   "driveMin": 35,
   "planBy": "2026-12-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "bommelsfeesten-ronse-2027",
@@ -1671,7 +2032,7 @@
   "kind": "spectacle",
   "city": "Ronse",
   "country": "BE",
-  "region": "Oost-Vlaanderen",
+  "region": "East Flanders",
   "lat": 50.7467,
   "lng": 3.6006,
   "start": "2027-01-09",
@@ -1706,7 +2067,8 @@
   "driveMin": 150,
   "planBy": "2026-12-26",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "ihf-handball-world-championship-cologne-2027",
@@ -1715,7 +2077,7 @@
   "kind": "sport",
   "city": "Köln",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.9384,
   "lng": 6.983,
   "start": "2027-01-20",
@@ -1736,7 +2098,7 @@
   "sellOutRisk": "high",
   "ticketUrl": "https://www.eventim.de/campaign/ihf2027-m",
   "priceFrom": null,
-  "ticketNote": "Germany's main-round and knockout matchdays are sold out; tickets for non-German main-round days in Cologne were still available at the last sales phase.",
+  "ticketNote": "Germany's main-round and knockout matchdays are sold out.",
   "highlights": "Two main-round groups, all quarter-finals, both semi-finals and the final of the handball World Championship in Cologne's 19,000-seat arena, the loudest handball venue in the world.",
   "tip": "Buy a main-round day ticket for three games in a row; the Cologne arena is next to Deutz station, so take the train.",
   "train": "Köln Messe/Deutz station is beside the arena, 45 minutes from Aachen.",
@@ -1750,7 +2112,8 @@
   "driveMin": 65,
   "planBy": "2026-12-21",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "cyclocross-world-cup-hoogerheide-2027",
@@ -1791,7 +2154,57 @@
   "driveMin": 105,
   "planBy": "2027-01-10",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "13:40"
+ },
+ {
+  "id": "kunstakademie-duesseldorf-rundgang-2027",
+  "name": "Kunstakademie Düsseldorf Winterrundgang 2027",
+  "short": "Rundgang Kunstakademie",
+  "kind": "culture",
+  "city": "Düsseldorf",
+  "country": "DE",
+  "region": "NRW",
+  "lat": 51.2302,
+  "lng": 6.773,
+  "start": "2027-01-27",
+  "end": "2027-01-31",
+  "times": "10:00-20:00",
+  "startTime": "10:00",
+  "venue": "Kunstakademie Düsseldorf, Eiskellerstraße 1",
+  "tier": 2,
+  "for": [
+   "alma",
+   "nick",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.kunstakademie-duesseldorf.de/rundgang/winterrundgang-2026-2027",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "ticketNote": "Free, no registration needed",
+  "highlights": "Once a year the whole academy opens its studios: every class shows what its students made this semester, from painting and sculpture to video and stage design, with the students on hand to talk.",
+  "tip": "Go on a weekday for space to look; the weekend is packed, and the building has many floors so allow two to three hours.",
+  "parking": null,
+  "train": "Düsseldorf Hbf, then tram to Tonhalle/Ehrenhof or a 15 minute walk through the Altstadt",
+  "lez": "Düsseldorf Umweltzone: green sticker required",
+  "tags": [
+   "learning",
+   "art",
+   "free",
+   "indoor",
+   "teens"
+  ],
+  "why": "One of Germany's most famous art academies lets a 14-year-old who draws walk through hundreds of real student studios for free.",
+  "cityNote": "Düsseldorf, about 1 hour 15 by car",
+  "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "driveMin": 65,
+  "planBy": "2027-01-13"
  },
  {
   "id": "uci-cyclocross-world-championships-ostend-2027",
@@ -1800,7 +2213,7 @@
   "kind": "sport",
   "city": "Oostende",
   "country": "BE",
-  "region": "Flanders (West Flanders)",
+  "region": "West Flanders",
   "lat": 51.2185,
   "lng": 2.8935,
   "start": "2027-01-29",
@@ -1836,6 +2249,53 @@
   "driveMin": 160,
   "planBy": "2027-01-08",
   "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "startTime": null
+ },
+ {
+  "id": "luxembourg-song-contest-2027",
+  "name": "Luxembourg Song Contest 2027",
+  "short": "Luxembourg Song Final",
+  "kind": "culture",
+  "city": "Esch-sur-Alzette",
+  "country": "LU",
+  "region": "Luxembourg",
+  "lat": 49.5008,
+  "lng": 5.9469,
+  "start": "2027-01-30",
+  "end": "2027-01-30",
+  "startTime": "18:00",
+  "venue": "Rockhal",
+  "tier": 2,
+  "for": [
+   "alma",
+   "anne",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://rockhal.lu/agenda-en/",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": "https://rockhal.lu/agenda-en/",
+  "priceFrom": null,
+  "ticketNote": "Rockhal lists it as on sale soon; the 2024 edition sold out with a waiting list",
+  "highlights": "RTL stages its live national final in the Rockhal main hall: the acts competing to represent Luxembourg at Eurovision 2027, guest stars and a full TV production.",
+  "tip": "Join the Rockhal waiting list now so you hear the moment tickets go on sale.",
+  "parking": "Belval parking garages next to the Rockhal",
+  "train": "Belval-Universite station, 5 minutes on foot",
+  "tags": [
+   "indoor",
+   "ticketed",
+   "music",
+   "teens",
+   "eurovision"
+  ],
+  "why": "A full Eurovision-style live TV final within two and a half hours of home.",
+  "driveMin": 160,
+  "planBy": "2026-12-31",
+  "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04"
  },
  {
@@ -1845,7 +2305,7 @@
   "kind": "spectacle",
   "city": "Köln",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.9375,
   "lng": 6.9603,
   "start": "2027-02-04",
@@ -1890,7 +2350,8 @@
   "dateNote": "Rosenmontag 2027 falls on 8 February and Weiberfastnacht on 4 February by the carnival calendar; the Festkomitee site lists the Zug but had not yet published the 2027 start time or route at research time.",
   "driveMin": 65,
   "planBy": "2027-01-21",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "abn-amro-open-rotterdam-2027",
@@ -1932,7 +2393,8 @@
   "driveMin": 150,
   "planBy": "2027-01-16",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "aalst-carnaval-2027",
@@ -1941,7 +2403,7 @@
   "kind": "spectacle",
   "city": "Aalst",
   "country": "BE",
-  "region": "Oost-Vlaanderen",
+  "region": "East Flanders",
   "lat": 50.9378,
   "lng": 4.0402,
   "start": "2027-02-07",
@@ -1982,7 +2444,8 @@
   "dateNote": "2027 dates projected from the carnival calendar (Sunday to Tuesday before Ash Wednesday, 7-9 Feb 2027) and the 2026 programme times on aalst.be; 2027 programme not yet published.",
   "driveMin": 110,
   "planBy": "2027-01-24",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "carnaval-de-binche-2027",
@@ -2036,7 +2499,8 @@
   "driveMin": 120,
   "planBy": "2027-01-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "vastelaovend-maastricht-2027",
@@ -2045,7 +2509,7 @@
   "kind": "spectacle",
   "city": "Maastricht",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 50.8486,
   "lng": 5.688,
   "start": "2027-02-07",
@@ -2088,7 +2552,8 @@
   "driveMin": 30,
   "planBy": "2027-01-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "rosenmontagszug-aachen-2027",
@@ -2097,7 +2562,7 @@
   "kind": "spectacle",
   "city": "Aachen",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.7753,
   "lng": 6.0839,
   "start": "2027-02-08",
@@ -2132,7 +2597,8 @@
   "dateNote": "2027 date projected from the carnival calendar (Rosenmontag 8 Feb 2027) and the 2026 edition, which ran on Rosenmontag from 11:11; the FestAusschuss had not published 2027 details at research time.",
   "driveMin": 25,
   "planBy": "2027-01-25",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": "11:11"
  },
  {
   "id": "rosenmontagszug-duesseldorf-2027",
@@ -2141,7 +2607,7 @@
   "kind": "spectacle",
   "city": "Düsseldorf",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.2254,
   "lng": 6.7763,
   "start": "2027-02-08",
@@ -2177,7 +2643,8 @@
   "driveMin": 65,
   "planBy": "2027-01-25",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "12:30"
  },
  {
   "id": "bright-brussels-2027",
@@ -2186,7 +2653,7 @@
   "kind": "spectacle",
   "city": "Brussels",
   "country": "BE",
-  "region": "Brussels-Capital Region",
+  "region": "Brussels",
   "lat": 50.8503,
   "lng": 4.3517,
   "start": "2027-02-11",
@@ -2224,7 +2691,8 @@
   "dateNote": "11-14 February 2027 announced in press and by visit.brussels partners; the official visit.brussels page still showed the 2026 edition at research time.",
   "driveMin": 95,
   "planBy": "2027-01-28",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "vgm-eva-gonzales-2027",
@@ -2267,7 +2735,8 @@
   "driveMin": 165,
   "planBy": "2027-01-13",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "09:00"
  },
  {
   "id": "kunstpalast-vivian-maier-2027",
@@ -2276,7 +2745,7 @@
   "kind": "museum",
   "city": "Düsseldorf",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.233,
   "lng": 6.7728,
   "start": "2027-02-17",
@@ -2312,7 +2781,8 @@
   "driveMin": 65,
   "planBy": "2027-02-03",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "staedel-welcome-to-paradise-2027",
@@ -2356,7 +2826,8 @@
   "driveMin": 175,
   "planBy": "2027-02-03",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "omloop-het-nieuwsblad-2027",
@@ -2365,7 +2836,7 @@
   "kind": "sport",
   "city": "Gent",
   "country": "BE",
-  "region": "Flanders (East Flanders)",
+  "region": "East Flanders",
   "lat": 51.0543,
   "lng": 3.7174,
   "start": "2027-02-27",
@@ -2396,7 +2867,8 @@
   "driveMin": 130,
   "planBy": "2027-02-13",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "18:00-00:00",
@@ -2436,7 +2908,8 @@
   "driveMin": 145,
   "planBy": "2027-02-13",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "18:00"
  },
  {
   "id": "stedelijk-luc-tuymans-2027",
@@ -2478,7 +2951,8 @@
   "driveMin": 165,
   "planBy": "2027-02-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "10:00"
  },
  {
   "id": "the-dutch-masters-indoor-brabant-2027",
@@ -2517,7 +2991,8 @@
   "driveMin": 95,
   "planBy": "2027-02-18",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "11:00-19:00",
@@ -2535,7 +3010,7 @@
   "kind": "culture",
   "city": "Maastricht",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 50.8372,
   "lng": 5.7155,
   "start": "2027-03-13",
@@ -2560,7 +3035,8 @@
   "driveMin": 25,
   "planBy": "2027-02-27",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "11:00"
  },
  {
   "id": "kunstpalast-escher-2027",
@@ -2569,7 +3045,7 @@
   "kind": "museum",
   "city": "Düsseldorf",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.233,
   "lng": 6.7728,
   "start": "2027-03-17",
@@ -2606,7 +3082,8 @@
   "driveMin": 65,
   "planBy": "2027-02-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "08:00-19:00, last entry 18:15",
@@ -2650,7 +3127,8 @@
   "driveNote": "Tier 1 radius exception: just over three hours",
   "planBy": "2027-02-25",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "08:00"
  },
  {
   "id": "voorlinden-olafur-eliasson-2027",
@@ -2697,7 +3175,8 @@
   "driveMin": 180,
   "planBy": "2027-02-27",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "11:00"
  },
  {
   "id": "paaspop-2027",
@@ -2738,7 +3217,8 @@
   "driveMin": 95,
   "planBy": "2027-02-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "gent-wevelgem-2027",
@@ -2747,7 +3227,7 @@
   "kind": "sport",
   "city": "Wevelgem",
   "country": "BE",
-  "region": "Flanders (West Flanders)",
+  "region": "West Flanders",
   "lat": 50.801,
   "lng": 3.175,
   "start": "2027-03-28",
@@ -2779,6 +3259,54 @@
   "driveMin": 155,
   "planBy": "2027-03-14",
   "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "startTime": null
+ },
+ {
+  "id": "eurovision-in-concert-2027",
+  "name": "Eurovision in Concert 2027",
+  "short": "Eurovision in Concert",
+  "kind": "culture",
+  "city": "Amsterdam",
+  "country": "NL",
+  "region": "Noord-Holland",
+  "lat": 52.3123,
+  "lng": 4.944,
+  "start": "2027-04-03",
+  "end": "2027-04-03",
+  "startTime": null,
+  "venue": "AFAS Live",
+  "tier": 2,
+  "for": [
+   "alma",
+   "anne",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://eurovisioninconcert.nl/nl/tickets",
+  "status": "onsale",
+  "annual": true,
+  "onSale": "2026-10-09",
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://eurovisioninconcert.nl/nl/tickets",
+  "priceFrom": null,
+  "ticketNote": "Regular sale opened 9 Oct 2026 via Ticketmaster; OGAE members had a discounted pre-sale",
+  "highlights": "The official Eurovision pre-party: most of the 2027 contestants perform their entries live in Amsterdam five weeks before the contest in Burgas.",
+  "tip": "Check availability early; the show sells well once the Eurovision line-up is complete in March.",
+  "train": "Amsterdam Bijlmer ArenA station, next to the venue",
+  "lez": "Amsterdam has an environmental zone for older diesel cars",
+  "tags": [
+   "indoor",
+   "ticketed",
+   "music",
+   "teens",
+   "eurovision",
+   "fan-event"
+  ],
+  "why": "The only place within the radius to see nearly the whole Eurovision 2027 line-up live on one stage.",
+  "driveMin": 155,
+  "planBy": "2027-03-13",
+  "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04"
  },
  {
@@ -2788,7 +3316,7 @@
   "kind": "sport",
   "city": "Oudenaarde",
   "country": "BE",
-  "region": "Flanders (East Flanders)",
+  "region": "East Flanders",
   "lat": 50.8441,
   "lng": 3.609,
   "start": "2027-04-03",
@@ -2826,7 +3354,8 @@
   "driveMin": 140,
   "planBy": "2027-03-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "onSale": null,
@@ -2841,7 +3370,7 @@
   "kind": "culture",
   "city": "Maastricht",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 50.8459,
   "lng": 5.7007,
   "start": "2027-04-09",
@@ -2861,13 +3390,15 @@
    "music",
    "indoor",
    "ticketed",
-   "teens"
+   "teens",
+   "learning"
   ],
   "why": "Maastricht's museums after dark, with music and performances, a short drive from home.",
   "driveMin": 25,
   "planBy": "2027-03-19",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "nn-marathon-rotterdam-2027",
@@ -2912,7 +3443,8 @@
   "driveMin": 155,
   "planBy": "2027-03-27",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "premier-league-darts-rotterdam-2027",
@@ -2955,7 +3487,8 @@
   "dateNote": "Thursday 15 April 2027 per the PDC's 2027 Premier League schedule as reported by Sky Sports and others on 25 September 2026; the pdc.tv page could not be read from this session.",
   "driveMin": 150,
   "planBy": "2027-03-16",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "Fri 14:00 to Sun 20:00",
@@ -2997,7 +3530,8 @@
   "driveMin": 170,
   "planBy": "2027-03-26",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "14:00"
  },
  {
   "id": "amstel-gold-race-2027",
@@ -3006,7 +3540,7 @@
   "kind": "sport",
   "city": "Valkenburg aan de Geul",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 50.8653,
   "lng": 5.831,
   "start": "2027-04-17",
@@ -3044,7 +3578,8 @@
   "driveMin": 15,
   "planBy": "2027-04-03",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "dateNote": "The 80th parade drives on Saturday 17 April 2027; the official 'Corso 2027' programme runs 14-18 April with float-building days and an illuminated parade in Noordwijkerhout on the Friday evening.",
@@ -3058,9 +3593,9 @@
   "name": "Bloemencorso Bollenstreek",
   "short": "Bloemencorso",
   "kind": "culture",
-  "city": "Noordwijk to Haarlem (via Lisse)",
+  "city": "Noordwijk to Haarlem",
   "country": "NL",
-  "region": "Zuid-Holland / Noord-Holland",
+  "region": "Zuid-Holland",
   "lat": 52.2574,
   "lng": 4.5571,
   "start": "2027-04-17",
@@ -3087,7 +3622,9 @@
   "driveNote": "Tier 1 radius exception: just over three hours",
   "planBy": "2027-04-03",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "cityNote": "via Lisse",
+  "startTime": null
  },
  {
   "id": "c-o-pop-koeln-2027",
@@ -3096,7 +3633,7 @@
   "kind": "festival",
   "city": "Köln",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.951,
   "lng": 6.914,
   "start": "2027-04-21",
@@ -3130,7 +3667,8 @@
   "driveMin": 65,
   "planBy": "2027-04-07",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "fleche-wallonne-2027",
@@ -3139,7 +3677,7 @@
   "kind": "sport",
   "city": "Huy",
   "country": "BE",
-  "region": "Wallonia (Liège)",
+  "region": "Liège",
   "lat": 50.5186,
   "lng": 5.2399,
   "start": "2027-04-21",
@@ -3171,7 +3709,8 @@
   "driveMin": 70,
   "planBy": "2027-04-07",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "Dawn service 06:00 at Buttes New British Cemetery; Tyne Cot 09:30; Menin Gate 11:00 (2026 pattern)",
@@ -3187,7 +3726,7 @@
   "name": "Anzac Day Dawn Service, Polygon Wood and Menin Gate 2027",
   "short": "Anzac Day Ypres",
   "kind": "military",
-  "city": "Zonnebeke / Ieper",
+  "city": "Zonnebeke",
   "country": "BE",
   "region": "West Flanders",
   "lat": 50.859,
@@ -3212,7 +3751,9 @@
   "why": "A dawn service in a WWI wood is a rare, atmospheric commemoration for a military professional.",
   "driveMin": 170,
   "planBy": "2027-04-11",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "cityNote": "Zonnebeke / Ieper",
+  "startTime": null
  },
  {
   "id": "liege-bastogne-liege-2027",
@@ -3221,7 +3762,7 @@
   "kind": "sport",
   "city": "Liège",
   "country": "BE",
-  "region": "Wallonia (Liège)",
+  "region": "Liège",
   "lat": 50.6326,
   "lng": 5.5797,
   "start": "2027-04-25",
@@ -3254,7 +3795,8 @@
   "driveMin": 45,
   "planBy": "2027-04-11",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "onSale": null,
@@ -3298,7 +3840,57 @@
   "driveNote": "Tier 1 radius exception: just over three hours",
   "planBy": "2027-04-13",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
+ },
+ {
+  "id": "atelier-in-beeld-2027",
+  "name": "Atelier in Beeld 2027 (open artist studios, Flanders)",
+  "short": "Atelier in Beeld",
+  "kind": "culture",
+  "city": "Hasselt",
+  "country": "BE",
+  "region": "Limburg (BE)",
+  "lat": 50.9307,
+  "lng": 5.3378,
+  "start": "2027-05-01",
+  "end": "2027-05-02",
+  "times": "11:00-18:00",
+  "startTime": "11:00",
+  "venue": "Artist studios across Flanders and Brussels; Belgian Limburg has hundreds",
+  "tier": 2,
+  "for": [
+   "alma",
+   "nick",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.kunstwerkt.be/atelierinbeeld/over",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "ticketNote": "Free",
+  "highlights": "More than 2,500 visual artists open their studios for one weekend; visitors see where and how the work is made and can talk to the makers. Artists register from 23 November to 13 December 2026, the public map follows in spring.",
+  "tip": "Use the online map in April to pick five or six studios around Hasselt, Genk or Maaseik and cycle between them.",
+  "parking": null,
+  "train": null,
+  "lez": "none",
+  "tags": [
+   "learning",
+   "art",
+   "free",
+   "teens",
+   "outdoor"
+  ],
+  "why": "A free weekend of walking into real painters' and illustrators' studios 45 minutes from home.",
+  "cityNote": "Belgian Limburg, 30 to 60 minutes by car depending on the studios",
+  "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "driveMin": 45,
+  "planBy": "2027-04-17"
  },
  {
   "id": "eschborn-frankfurt-2027",
@@ -3339,7 +3931,8 @@
   "driveMin": 170,
   "planBy": "2027-04-17",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "rhein-in-flammen-bonn-2027",
@@ -3348,7 +3941,7 @@
   "kind": "spectacle",
   "city": "Bonn",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.7098,
   "lng": 7.1336,
   "start": "2027-05-01",
@@ -3385,7 +3978,8 @@
   "dateNote": "2027 date projected from the first-Saturday-of-May pattern (2 May 2026 on the official site); Bonn 2027 was not yet listed while the other 2027 Rhein in Flammen dates were.",
   "driveMin": 80,
   "planBy": "2027-04-17",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "ruhrfestspiele-2027",
@@ -3394,7 +3988,7 @@
   "kind": "culture",
   "city": "Recklinghausen",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.609,
   "lng": 7.201,
   "start": "2027-05-01",
@@ -3427,7 +4021,8 @@
   "dateNote": "Official site states '1 May to mid-June 2027'; end date 13 June projected (2026 ran 1 May to 13 June).",
   "driveMin": 110,
   "planBy": "2027-04-10",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "Ceremony from about 19:45; two minutes' silence 20:00",
@@ -3469,7 +4064,8 @@
   "driveMin": 170,
   "planBy": "2027-04-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "venue": "Arloterrein, Roermond",
@@ -3486,7 +4082,7 @@
   "kind": "military",
   "city": "Roermond",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 51.195,
   "lng": 5.99,
   "start": "2027-05-05",
@@ -3513,7 +4109,8 @@
   "why": "Limburg's own free Liberation Day festival, 30 minutes from home, with live bands for everyone.",
   "driveMin": 45,
   "planBy": "2027-04-21",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "National capitulation commemoration around midday, defilé from early afternoon (2025 pattern: 12:30)",
@@ -3557,7 +4154,8 @@
   "why": "The Netherlands' liberation parade, with allied and even German troops marching past the veterans, on the day itself.",
   "driveMin": 125,
   "planBy": "2027-04-21",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "heilig-bloedprocessie-brugge-2027",
@@ -3566,7 +4164,7 @@
   "kind": "spectacle",
   "city": "Brugge",
   "country": "BE",
-  "region": "West-Vlaanderen",
+  "region": "West Flanders",
   "lat": 51.2085,
   "lng": 3.227,
   "start": "2027-05-06",
@@ -3604,7 +4202,8 @@
   "driveMin": 155,
   "planBy": "2027-04-15",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "14:30"
  },
  {
   "id": "kattenstoet-ieper-2027",
@@ -3613,7 +4212,7 @@
   "kind": "spectacle",
   "city": "Ieper",
   "country": "BE",
-  "region": "West-Vlaanderen",
+  "region": "West Flanders",
   "lat": 50.851,
   "lng": 2.8857,
   "start": "2027-05-09",
@@ -3650,7 +4249,8 @@
   "dateNote": "Projected: the Kattenstoet is held every three years on the second Sunday of May (last edition 12 May 2024), which gives 9 May 2027; the official site was unreachable at research time, confirm before travelling.",
   "driveMin": 170,
   "planBy": "2027-04-18",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "Wed 13:00-23:00, Thu 12:00-23:00, Fri 13:00-23:00",
@@ -3694,16 +4294,17 @@
   "driveMin": 170,
   "planBy": "2027-04-28",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "13:00"
  },
  {
   "id": "wec-6-hours-of-spa-2027",
   "name": "FIA WEC TotalEnergies 6 Hours of Spa-Francorchamps 2027",
   "short": "WEC 6h Spa",
   "kind": "sport",
-  "city": "Stavelot (Spa-Francorchamps)",
+  "city": "Stavelot",
   "country": "BE",
-  "region": "Wallonia (Liège)",
+  "region": "Liège",
   "lat": 50.4372,
   "lng": 5.9714,
   "start": "2027-05-13",
@@ -3736,7 +4337,9 @@
   "driveMin": 70,
   "planBy": "2027-04-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "cityNote": "Spa-Francorchamps",
+  "startTime": null
  },
  {
   "id": "extrema-outdoor-belgium-2027",
@@ -3775,7 +4378,8 @@
   "driveMin": 35,
   "planBy": "2027-04-23",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "iihf-world-championship-duesseldorf-2027",
@@ -3784,7 +4388,7 @@
   "kind": "sport",
   "city": "Düsseldorf",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.2614,
   "lng": 6.7332,
   "start": "2027-05-14",
@@ -3820,7 +4424,8 @@
   "driveMin": 70,
   "planBy": "2027-04-23",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "Fri 17:00-23:00, Sat 14:00-00:30, Sun 12:00-01:00, Mon 12:00-19:00",
@@ -3862,7 +4467,8 @@
   "driveMin": 80,
   "planBy": "2027-04-30",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "17:00"
  },
  {
   "venue": "Oorlogsmuseum Overloon",
@@ -3906,7 +4512,8 @@
   "driveMin": 85,
   "planBy": "2027-02-08",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "nuits-botanique-2027",
@@ -3915,7 +4522,7 @@
   "kind": "festival",
   "city": "Brussels",
   "country": "BE",
-  "region": "Brussels-Capital",
+  "region": "Brussels",
   "lat": 50.855,
   "lng": 4.367,
   "start": "2027-05-15",
@@ -3949,7 +4556,8 @@
   "driveMin": 90,
   "planBy": "2027-04-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "stedelijk-marc-chagall-2027",
@@ -3992,7 +4600,8 @@
   "driveMin": 165,
   "planBy": "2027-04-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "10:00"
  },
  {
   "venue": "Rheinuferpromenade and Burgplatz",
@@ -4009,7 +4618,7 @@
   "kind": "culture",
   "city": "Düsseldorf",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.2277,
   "lng": 6.7716,
   "start": "2027-05-22",
@@ -4031,13 +4640,16 @@
    "free",
    "teens",
    "music",
-   "food"
+   "food",
+   "learning",
+   "art"
   ],
   "why": "A free day of Japanese pop culture ending in a river fireworks show, which suits Alma and Anne equally.",
   "driveMin": 60,
   "planBy": "2027-05-08",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "doudou-mons-2027",
@@ -4085,7 +4697,8 @@
   "driveMin": 125,
   "planBy": "2027-04-23",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "adac-24h-nuerburgring-2027",
@@ -4128,7 +4741,8 @@
   "driveMin": 105,
   "planBy": "2027-05-13",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "klangvokal-dortmund-2027",
@@ -4137,7 +4751,7 @@
   "kind": "culture",
   "city": "Dortmund",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.515,
   "lng": 7.465,
   "start": "2027-05-27",
@@ -4175,7 +4789,8 @@
   "driveMin": 115,
   "planBy": "2027-05-13",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "Usually 16:00, followed by wreath-laying in Henri-Chapelle village at 18:00",
@@ -4191,9 +4806,9 @@
   "name": "Memorial Day Ceremony, Henri-Chapelle American Cemetery",
   "short": "Memorial Day Hombourg",
   "kind": "military",
-  "city": "Hombourg (Plombières)",
+  "city": "Hombourg",
   "country": "BE",
-  "region": "Wallonia (Liège)",
+  "region": "Liège",
   "lat": 50.696,
   "lng": 5.896,
   "start": "2027-05-29",
@@ -4216,7 +4831,9 @@
   "why": "A second American Memorial Day ceremony 30 minutes from home, smaller and more intimate than Margraten.",
   "driveMin": 45,
   "planBy": "2027-05-15",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "cityNote": "Plombières",
+  "startTime": "16:00"
  },
  {
   "times": "Ceremony usually around 15:00",
@@ -4234,7 +4851,7 @@
   "kind": "military",
   "city": "Margraten",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 50.8194,
   "lng": 5.806,
   "start": "2027-05-30",
@@ -4259,7 +4876,8 @@
   "why": "The largest American Memorial Day ceremony in Europe is 20 minutes from home and JFC Brunssum always takes part.",
   "driveMin": 25,
   "planBy": "2027-05-16",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "holland-festival-2027",
@@ -4300,7 +4918,56 @@
   "dateNote": "2027 dates projected from the 2026 edition (3 to 28 June 2026) and the June pattern; the official site blocks automated reading and the Muziekgebouw confirms only 'June 2027, 80th edition'.",
   "driveMin": 170,
   "planBy": "2027-05-13",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
+ },
+ {
+  "id": "antwerp-academy-fashion-show-2027",
+  "name": "SHOW 2027, Royal Academy of Fine Arts Antwerp Fashion Department",
+  "short": "SHOW Antwerp Academy",
+  "kind": "culture",
+  "city": "Antwerp",
+  "country": "BE",
+  "region": "Flanders",
+  "lat": 51.2318,
+  "lng": 4.4055,
+  "start": "2027-06-04",
+  "end": "2027-06-05",
+  "times": null,
+  "startTime": null,
+  "venue": "Waagnatie, Rijnkaai 150 (2026 venue)",
+  "tier": 1,
+  "for": [
+   "alma",
+   "anne"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.ap-arts.be/en/show-fashion-dept",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.showww.be",
+  "priceFrom": null,
+  "ticketNote": "2026 prices were 25 EUR standing, 45 EUR seated; 2027 sale not yet open",
+  "highlights": "The annual graduation runway show of the fashion school that produced the Antwerp Six, around 5,000 guests and the collections of every year group, held during the Antwerp Fashion Festival.",
+  "tip": "Tickets appear on showww.be in spring; doors opened at 18:00 with the first show at 19:30 in 2026, so plan a late return or a hotel.",
+  "parking": null,
+  "train": "Antwerpen-Centraal, then tram or a 25 minute walk to the Eilandje",
+  "lez": "Antwerp LEZ: register foreign cars online before entering",
+  "tags": [
+   "learning",
+   "art",
+   "teens",
+   "ticketed",
+   "indoor"
+  ],
+  "why": "A world-famous fashion academy shows its students' collections, the closest thing to a real fashion week for a teenager who draws and designs.",
+  "cityNote": "Antwerp, about 1 hour 45 by car",
+  "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "driveMin": 85,
+  "planBy": "2027-05-14"
  },
  {
   "id": "rock-am-ring-2027",
@@ -4341,14 +5008,15 @@
   "driveMin": 110,
   "planBy": "2027-05-05",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "libema-open-2027",
   "name": "Libéma Open 2027",
   "short": "Libéma Open",
   "kind": "sport",
-  "city": "Rosmalen ('s-Hertogenbosch)",
+  "city": "Rosmalen",
   "country": "NL",
   "region": "Noord-Brabant",
   "lat": 51.726,
@@ -4380,7 +5048,9 @@
   "driveMin": 100,
   "planBy": "2027-05-22",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "cityNote": "'s-Hertogenbosch",
+  "startTime": null
  },
  {
   "times": "A single Saturday in June, usually 10:00-18:00",
@@ -4390,15 +5060,15 @@
   "ticketUrl": null,
   "priceFrom": null,
   "ticketNote": "Free",
-  "dateNote": "Held every year on a Saturday in June (2026: 6 June); the 2027 date and sites are not yet announced. Start/end give the window, not the event length.",
+  "dateNote": "Held every year on a Saturday in June (2026: 6 June); the 2027 date and sites are not yet announced. Start/end give the window, not the event length. The start and end dates are a search window, not an event run; the real date is one Saturday in June.",
   "annual": true,
   "id": "tag-der-bundeswehr-2027",
   "name": "Tag der Bundeswehr 2027 (open day, NRW/Rhineland site to be announced)",
   "short": "Tag der Bundeswehr",
   "kind": "military",
-  "city": "Köln (site TBA)",
+  "city": "Köln",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.865,
   "lng": 7.14,
   "start": "2027-06-05",
@@ -4423,7 +5093,9 @@
   "why": "The Bundeswehr's annual open day draws 340,000 visitors and usually has a site within an hour or two of home.",
   "driveMin": 75,
   "planBy": "2027-05-22",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "cityNote": "site TBA",
+  "startTime": null
  },
  {
   "venue": "Nationaal Herdenkingspark Roermond (2026 venue; 2027 venue to be confirmed)",
@@ -4440,7 +5112,7 @@
   "kind": "military",
   "city": "Roermond",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 51.189,
   "lng": 5.989,
   "start": "2027-06-12",
@@ -4467,7 +5139,8 @@
   "driveMin": 40,
   "planBy": "2027-05-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "fiba-womens-eurobasket-antwerp-2027",
@@ -4476,7 +5149,7 @@
   "kind": "sport",
   "city": "Antwerpen",
   "country": "BE",
-  "region": "Flanders (Antwerp)",
+  "region": "Antwerp",
   "lat": 51.2306,
   "lng": 4.442,
   "start": "2027-06-16",
@@ -4509,7 +5182,8 @@
   "driveMin": 80,
   "planBy": "2027-05-26",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "dateNote": "The Belgian edition runs 17-21 June 2027 across the French-speaking communes including Liège and Brussels; the biggest free stages are on the weekend of 19-20 June.",
@@ -4523,9 +5197,9 @@
   "name": "Fête de la Musique (Liège and Brussels)",
   "short": "Fête de la Musique",
   "kind": "culture",
-  "city": "Liège / Brussels",
+  "city": "Liège",
   "country": "BE",
-  "region": "Wallonia / Brussels-Capital",
+  "region": "Wallonia",
   "lat": 50.645,
   "lng": 5.5735,
   "start": "2027-06-17",
@@ -4550,7 +5224,9 @@
   "driveMin": 45,
   "planBy": "2027-06-03",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "cityNote": "Liège / Brussels",
+  "startTime": null
  },
  {
   "id": "graspop-metal-meeting-2027",
@@ -4591,7 +5267,8 @@
   "driveMin": 75,
   "planBy": "2026-11-14",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "nuerburgring-100-jahre-fan-event-2027",
@@ -4634,7 +5311,8 @@
   "driveMin": 105,
   "planBy": "2027-06-04",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "pinkpop-2027",
@@ -4643,7 +5321,7 @@
   "kind": "festival",
   "city": "Landgraaf",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 50.883,
   "lng": 6.044,
   "start": "2027-06-18",
@@ -4677,7 +5355,8 @@
   "driveMin": 15,
   "planBy": "2027-05-19",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "paris-air-show-2027",
@@ -4730,7 +5409,8 @@
   "driveMin": 270,
   "planBy": "2027-05-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "rheingau-musik-festival-2027",
@@ -4772,7 +5452,8 @@
   "driveMin": 165,
   "planBy": "2027-05-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "venue": "Scheveningen harbour",
@@ -4787,7 +5468,7 @@
   "name": "Vlaggetjesdag Scheveningen",
   "short": "Vlaggetjesdag",
   "kind": "food",
-  "city": "Den Haag (Scheveningen)",
+  "city": "Den Haag",
   "country": "NL",
   "region": "Zuid-Holland",
   "lat": 52.1018,
@@ -4814,7 +5495,9 @@
   "why": "The one day the Dutch herring tradition becomes a harbour-wide party with ships, costumes and the fleet at sea.",
   "driveMin": 180,
   "planBy": "2027-06-05",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "cityNote": "Scheveningen",
+  "startTime": null
  },
  {
   "days": [
@@ -4864,16 +5547,17 @@
   "driveMin": 155,
   "planBy": "2027-06-08",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "crowdstrike-24-hours-of-spa-2027",
   "name": "CrowdStrike 24 Hours of Spa 2027",
   "short": "24h of Spa",
   "kind": "sport",
-  "city": "Stavelot (Spa-Francorchamps)",
+  "city": "Stavelot",
   "country": "BE",
-  "region": "Wallonia (Liège)",
+  "region": "Liège",
   "lat": 50.4372,
   "lng": 5.9714,
   "start": "2027-06-24",
@@ -4908,7 +5592,9 @@
   "driveMin": 70,
   "planBy": "2027-06-10",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "cityNote": "Spa-Francorchamps",
+  "startTime": null
  },
  {
   "id": "sunrise-festival-2027",
@@ -4948,7 +5634,8 @@
   "driveMin": 80,
   "planBy": "2027-06-03",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "chio-aachen-2027",
@@ -4957,7 +5644,7 @@
   "kind": "sport",
   "city": "Aachen",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.8003,
   "lng": 6.09,
   "start": "2027-06-25",
@@ -4993,7 +5680,8 @@
   "driveMin": 25,
   "planBy": "2027-06-04",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "couleur-cafe-2027",
@@ -5002,7 +5690,7 @@
   "kind": "festival",
   "city": "Brussels",
   "country": "BE",
-  "region": "Brussels-Capital",
+  "region": "Brussels",
   "lat": 50.896,
   "lng": 4.339,
   "start": "2027-06-25",
@@ -5038,7 +5726,8 @@
   "dateNote": "2027 dates projected from the pattern (last weekend of June: 26-28 June 2026, 27-29 June 2025); official site has not published the 2027 dates as of 4 Nov 2026 although early bird tickets have already sold.",
   "driveMin": 90,
   "planBy": "2027-06-04",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "dutch-tt-assen-2027",
@@ -5086,7 +5775,8 @@
   "driveNote": "Tier 1 radius exception: just over three hours",
   "planBy": "2027-05-26",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "extraschicht-2027",
@@ -5095,7 +5785,7 @@
   "kind": "spectacle",
   "city": "Essen",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.4861,
   "lng": 7.045,
   "start": "2027-06-26",
@@ -5132,7 +5822,8 @@
   "driveMin": 95,
   "planBy": "2027-06-12",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "onSale": null,
@@ -5145,9 +5836,9 @@
   "name": "Garnaalfeesten Oostduinkerke",
   "short": "Garnaalfeesten",
   "kind": "food",
-  "city": "Oostduinkerke (Koksijde)",
+  "city": "Oostduinkerke",
   "country": "BE",
-  "region": "West-Vlaanderen",
+  "region": "West Flanders",
   "lat": 51.115,
   "lng": 2.68,
   "start": "2027-06-26",
@@ -5174,7 +5865,9 @@
   "driveMin": 175,
   "planBy": "2027-06-12",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "cityNote": "Koksijde",
+  "startTime": null
  },
  {
   "times": "10:00-17:00",
@@ -5221,7 +5914,8 @@
   "driveMin": 170,
   "planBy": "2027-06-12",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "10:00"
  },
  {
   "venue": "Memorial 1815, Lion's Mound and Hougoumont Farm, Route du Lion",
@@ -5239,7 +5933,7 @@
   "kind": "military",
   "city": "Braine-l'Alleud",
   "country": "BE",
-  "region": "Wallonia (Walloon Brabant)",
+  "region": "Walloon Brabant",
   "lat": 50.678,
   "lng": 4.405,
   "start": "2027-06-26",
@@ -5264,7 +5958,8 @@
   "why": "Thousands of re-enactors camp and fight on the real Waterloo battlefield on the anniversary weekend.",
   "driveMin": 95,
   "planBy": "2027-06-05",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "werchter-boutique-2027",
@@ -5305,7 +6000,8 @@
   "driveMin": 70,
   "planBy": "2027-06-05",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "days": [
@@ -5327,7 +6023,7 @@
   "kind": "culture",
   "city": "Brussels",
   "country": "BE",
-  "region": "Brussels-Capital",
+  "region": "Brussels",
   "lat": 50.8467,
   "lng": 4.3525,
   "start": "2027-06-30",
@@ -5354,7 +6050,8 @@
   "why": "Europe's grandest Renaissance pageant on the Grand-Place, with 1,400 costumed participants and cavalry.",
   "driveMin": 95,
   "planBy": "2027-06-09",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": "19:30"
  },
  {
   "id": "gent-jazz-2027",
@@ -5395,7 +6092,8 @@
   "driveMin": 125,
   "planBy": "2027-06-10",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "les-ardentes-2027",
@@ -5436,7 +6134,8 @@
   "driveMin": 40,
   "planBy": "2027-06-01",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "rock-werchter-2027",
@@ -5478,7 +6177,8 @@
   "driveMin": 70,
   "planBy": "2027-06-01",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "down-the-rabbit-hole-2027",
@@ -5519,7 +6219,8 @@
   "driveMin": 110,
   "planBy": "2027-06-02",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "summerjam-2027",
@@ -5528,7 +6229,7 @@
   "kind": "festival",
   "city": "Köln",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.015,
   "lng": 6.904,
   "start": "2027-07-02",
@@ -5561,7 +6262,8 @@
   "driveMin": 65,
   "planBy": "2027-06-11",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "14:00"
  },
  {
   "id": "wish-outdoor-2027",
@@ -5602,7 +6304,8 @@
   "dateNote": "2027 dates projected from the first-weekend-of-July pattern (4-6 July 2025); official site only says 'we are looking ahead to 2027'.",
   "driveMin": 80,
   "planBy": "2027-06-11",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "rhein-in-flammen-ruedesheim-bingen-2027",
@@ -5646,7 +6349,8 @@
   "driveMin": 155,
   "planBy": "2027-06-19",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "dour-festival-2027",
@@ -5686,7 +6390,8 @@
   "driveMin": 135,
   "planBy": "2027-06-16",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "adac-truck-grand-prix-2027",
@@ -5731,7 +6436,8 @@
   "driveMin": 105,
   "planBy": "2027-06-25",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "awakenings-festival-2027",
@@ -5771,7 +6477,8 @@
   "driveMin": 100,
   "planBy": "2027-06-18",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "bospop-2027",
@@ -5780,7 +6487,7 @@
   "kind": "festival",
   "city": "Weert",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 51.242,
   "lng": 5.693,
   "start": "2027-07-09",
@@ -5811,7 +6518,8 @@
   "driveMin": 50,
   "planBy": "2027-06-18",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "venue": "Messe Düsseldorf",
@@ -5827,7 +6535,7 @@
   "kind": "culture",
   "city": "Düsseldorf",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.265,
   "lng": 6.739,
   "start": "2027-07-09",
@@ -5853,7 +6561,58 @@
   "driveMin": 70,
   "planBy": "2027-06-09",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
+ },
+ {
+  "id": "dokomi-duesseldorf-2027",
+  "name": "DoKomi 2027 (anime, manga and Japan expo)",
+  "short": "DoKomi Düsseldorf",
+  "kind": "festival",
+  "city": "Düsseldorf",
+  "country": "DE",
+  "region": "NRW",
+  "lat": 51.265,
+  "lng": 6.739,
+  "start": "2027-07-09",
+  "end": "2027-07-11",
+  "times": "Fri 13:00-20:00, Sat 10:00-20:00, Sun 10:00-18:00",
+  "startTime": "13:00",
+  "venue": "Messe Düsseldorf, Stockumer Kirchstraße 61",
+  "tier": 1,
+  "for": [
+   "alma",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://dokomi.de/en/event/when-and-where",
+  "status": "onsale",
+  "annual": true,
+  "onSale": "2026-11-01",
+  "sellOutRisk": "high",
+  "ticketUrl": "https://dokomi.de/en/tickets",
+  "priceFrom": 39,
+  "ticketNote": "Friday 39, Saturday 45, Sunday 42, weekend 72 EUR until 31 Dec 2026, then a few euros more; online only, no box office",
+  "highlights": "Germany's largest anime and Japan expo: drawing and workshop programme, cosplay contests, artist alley, music stages including K-pop and J-pop dance, and games halls across the Messe.",
+  "tip": "Buy the Saturday or weekend ticket before the year-end price rise, bring sketchbook and water, and arrive by 09:30 for the queue.",
+  "parking": "Messe car parks P1 to P5, pre-booking online",
+  "train": "Düsseldorf Hbf, then U78 to Messe Ost/Stockumer Kirchstraße",
+  "lez": "Düsseldorf Umweltzone: green sticker required",
+  "tags": [
+   "learning",
+   "art",
+   "teens",
+   "kpop",
+   "fan-event",
+   "ticketed",
+   "indoor"
+  ],
+  "why": "The biggest manga and anime weekend in Germany, with drawing workshops and K-pop dance stages, an hour and a quarter from home.",
+  "cityNote": "Düsseldorf, about 1 hour 15 by car",
+  "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "driveMin": 70,
+  "planBy": "2027-06-09"
  },
  {
   "id": "north-sea-jazz-2027",
@@ -5874,7 +6633,7 @@
    "family"
   ],
   "confidence": "confirmed",
-  "source": "http://www.northseajazz.com/nl/",
+  "source": "https://www.northseajazz.com/nl/",
   "status": "announced",
   "annual": true,
   "onSale": null,
@@ -5894,7 +6653,8 @@
   "driveMin": 150,
   "planBy": "2027-06-18",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "fetes-de-gayant-douai-2027",
@@ -5944,7 +6704,8 @@
   "dateNote": "2027 dates projected from the fixed rule (Sunday after 5 July plus the two following days; 2026 edition ran 12-14 July); official programme not yet published.",
   "driveMin": 175,
   "planBy": "2027-06-27",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "francofolies-de-spa-2027",
@@ -5966,7 +6727,7 @@
   ],
   "confidence": "projected",
   "source": "https://www.francofolies.be/",
-  "status": "onsale",
+  "status": "tbd",
   "annual": true,
   "onSale": null,
   "sellOutRisk": "medium",
@@ -5979,14 +6740,14 @@
    "music",
    "outdoor",
    "ticketed",
-   "free",
    "teens"
   ],
   "why": "A charming francophone pop festival an hour away with lots of free street stages for the family.",
   "dateNote": "Dates 16-18 July 2027 (open-air formula) come from the festival's 25 Sep 2026 newsletter as reported by info-lux.com on 3 Oct 2026; the official site could not be read directly.",
   "driveMin": 60,
   "planBy": "2027-06-25",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "gentse-feesten-2027",
@@ -6033,7 +6794,8 @@
   "driveMin": 125,
   "planBy": "2027-07-02",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "parookaville-2027",
@@ -6042,7 +6804,7 @@
   "kind": "festival",
   "city": "Weeze",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.602,
   "lng": 6.142,
   "start": "2027-07-16",
@@ -6077,7 +6839,8 @@
   "driveMin": 95,
   "planBy": "2027-06-16",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "rheinkirmes-duesseldorf-2027",
@@ -6086,7 +6849,7 @@
   "kind": "spectacle",
   "city": "Düsseldorf",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.2316,
   "lng": 6.7609,
   "start": "2027-07-16",
@@ -6125,7 +6888,8 @@
   "driveMin": 65,
   "planBy": "2027-07-02",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "tilburgse-kermis-2027",
@@ -6170,7 +6934,8 @@
   "driveMin": 95,
   "planBy": "2027-07-02",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "tomorrowland-2027",
@@ -6222,7 +6987,8 @@
   "dateNote": "2027 dates projected from the festival's fixed pattern (third and fourth weekends of July: 17-19 and 24-26 July 2026, 18-20 and 25-27 July 2025); official site could not be fetched and has not announced 2027 dates as of 4 Nov 2026.",
   "driveMin": 95,
   "planBy": "2027-06-16",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "train": "Nijmegen station is in the festival zone",
@@ -6265,7 +7031,8 @@
   "driveMin": 110,
   "planBy": "2027-07-03",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "Walkers start 04:00-07:00 daily; Via Gladiola finish Friday from early afternoon",
@@ -6310,7 +7077,8 @@
   "driveMin": 110,
   "planBy": "2027-06-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "Park festivities 10:00-20:00; military and civil parade 16:00; concert and fireworks 21:00 (2026 pattern)",
@@ -6330,7 +7098,7 @@
   "kind": "military",
   "city": "Brussels",
   "country": "BE",
-  "region": "Brussels-Capital",
+  "region": "Brussels",
   "lat": 50.842,
   "lng": 4.362,
   "start": "2027-07-21",
@@ -6359,16 +7127,17 @@
   "why": "Belgium's biggest military parade plus a drone and fireworks finale in one free day, under two hours away.",
   "driveMin": 90,
   "planBy": "2027-07-07",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "f1-belgian-grand-prix-2027",
   "name": "Formula 1 Belgian Grand Prix 2027",
   "short": "F1 Belgian GP",
   "kind": "sport",
-  "city": "Stavelot (Spa-Francorchamps)",
+  "city": "Stavelot",
   "country": "BE",
-  "region": "Wallonia (Liège)",
+  "region": "Liège",
   "lat": 50.4372,
   "lng": 5.9714,
   "start": "2027-07-23",
@@ -6405,7 +7174,9 @@
   "driveMin": 70,
   "planBy": "2027-06-23",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "cityNote": "Spa-Francorchamps",
+  "startTime": null
  },
  {
   "id": "foire-de-libramont-2027",
@@ -6414,7 +7185,7 @@
   "kind": "spectacle",
   "city": "Libramont-Chevigny",
   "country": "BE",
-  "region": "Luxembourg (province)",
+  "region": "Luxembourg",
   "lat": 49.925,
   "lng": 5.38,
   "start": "2027-07-23",
@@ -6449,7 +7220,8 @@
   "driveMin": 125,
   "planBy": "2027-07-09",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "solar-weekend-2027",
@@ -6458,7 +7230,7 @@
   "kind": "festival",
   "city": "Roermond",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 51.2,
   "lng": 5.97,
   "start": "2027-07-29",
@@ -6493,7 +7265,8 @@
   "driveMin": 45,
   "planBy": "2027-06-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "juicy-beats-2027",
@@ -6502,7 +7275,7 @@
   "kind": "festival",
   "city": "Dortmund",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.495,
   "lng": 7.476,
   "start": "2027-07-30",
@@ -6534,7 +7307,8 @@
   "driveMin": 110,
   "planBy": "2027-07-09",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "koelner-lichter-2027",
@@ -6543,7 +7317,7 @@
   "kind": "spectacle",
   "city": "Köln",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.942,
   "lng": 6.968,
   "start": "2027-07-31",
@@ -6582,7 +7356,8 @@
   "driveMin": 70,
   "planBy": "2027-07-10",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "cranger-kirmes-2027",
@@ -6591,7 +7366,7 @@
   "kind": "spectacle",
   "city": "Herne",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.5395,
   "lng": 7.1285,
   "start": "2027-08-05",
@@ -6631,7 +7406,8 @@
   "driveMin": 100,
   "planBy": "2027-07-22",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "theaterfestival-boulevard-2027",
@@ -6674,7 +7450,8 @@
   "driveMin": 95,
   "planBy": "2027-07-22",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "ronquieres-festival-2027",
@@ -6715,7 +7492,8 @@
   "driveMin": 115,
   "planBy": "2027-07-16",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "venue": "Prinsengracht and Amstel",
@@ -6760,7 +7538,8 @@
   "driveMin": 170,
   "planBy": "2027-07-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "meyboom-brussels-2027",
@@ -6769,7 +7548,7 @@
   "kind": "spectacle",
   "city": "Brussels",
   "country": "BE",
-  "region": "Brussels-Capital Region",
+  "region": "Brussels",
   "lat": 50.8528,
   "lng": 4.359,
   "start": "2027-08-09",
@@ -6807,7 +7586,8 @@
   "driveMin": 90,
   "planBy": "2027-07-26",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "13:00"
  },
  {
   "id": "belmot-oldtimer-grand-prix-2027",
@@ -6849,7 +7629,8 @@
   "dateNote": "2027 dates projected from the mid-August pattern and a third-party listing of 13-15 August 2027; the organiser's contract runs to 2028 but nuerburgring.de has not yet published the 2027 dates.",
   "driveMin": 105,
   "planBy": "2027-07-30",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "venue": "Schlossplatz, Marktkirche and Dern'sches Gelände",
@@ -6891,7 +7672,8 @@
   "driveMin": 160,
   "planBy": "2027-07-30",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "ruhrtriennale-2027",
@@ -6900,7 +7682,7 @@
   "kind": "culture",
   "city": "Bochum",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.481,
   "lng": 7.201,
   "start": "2027-08-13",
@@ -6933,7 +7715,8 @@
   "dateNote": "2027 dates projected from the usual mid-August to late-September window (2025: 21 Aug to 21 Sep); official site has not published them.",
   "driveMin": 95,
   "planBy": "2027-07-23",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "rhein-in-flammen-koblenz-2027",
@@ -6980,7 +7763,8 @@
   "driveMin": 110,
   "planBy": "2027-07-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "renewi-tour-2027",
@@ -6989,7 +7773,7 @@
   "kind": "sport",
   "city": "Leuven",
   "country": "BE",
-  "region": "Flanders (Flemish Brabant)",
+  "region": "Flemish Brabant",
   "lat": 50.8798,
   "lng": 4.7005,
   "start": "2027-08-18",
@@ -7020,7 +7804,8 @@
   "dateNote": "2027 dates projected from the 2026 edition (19-23 August) and the UCI calendar slot of 18-22 August 2027; stage towns not yet announced on the organiser site.",
   "driveMin": 70,
   "planBy": "2027-08-04",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "pukkelpop-2027",
@@ -7063,7 +7848,8 @@
   "driveMin": 40,
   "planBy": "2027-07-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "knokke-heist-vuurwerkfestival-2027",
@@ -7072,7 +7858,7 @@
   "kind": "spectacle",
   "city": "Knokke-Heist",
   "country": "BE",
-  "region": "West-Vlaanderen",
+  "region": "West Flanders",
   "lat": 51.3515,
   "lng": 3.2855,
   "start": "2027-08-20",
@@ -7107,7 +7893,8 @@
   "dateNote": "Official page confirms August 2027 with shows at 22:00 but not the four show dates; the span given covers the usual last two weeks of August (2024 shows were 16, 18, 20 and 22 August). Update when the dates are published.",
   "driveMin": 150,
   "planBy": "2027-08-06",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": "22:00"
  },
  {
   "id": "lowlands-2027",
@@ -7152,7 +7939,8 @@
   "driveNote": "Tier 1 radius exception: just over three hours",
   "planBy": "2027-07-21",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "schueberfouer-luxembourg-2027",
@@ -7197,7 +7985,8 @@
   "driveMin": 160,
   "planBy": "2027-08-06",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "12:00"
  },
  {
   "id": "ducasse-d-ath-2027",
@@ -7248,7 +8037,8 @@
   "dateNote": "visitath.be states the Ducasse is held on the fourth Sunday of August, which gives Sunday 22 August 2027 with the Saturday and Monday around it; 2027 programme not yet published.",
   "driveMin": 135,
   "planBy": "2027-08-07",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "dateNote": "2027 date projected from the annual pattern (third Saturday of August: 2024 was 17 Aug, 2025 16 Aug). Official site was unreachable at research time.",
@@ -7287,7 +8077,8 @@
   "why": "The only day of the year to eat mussels on the quay where they are landed and sail out to the mussel beds.",
   "driveMin": 125,
   "planBy": "2027-08-07",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "venue": "Koelnmesse",
@@ -7305,7 +8096,7 @@
   "kind": "culture",
   "city": "Köln",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.9466,
   "lng": 6.9833,
   "start": "2027-08-23",
@@ -7330,7 +8121,8 @@
   "driveMin": 70,
   "planBy": "2027-07-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "ballonfiesta-barneveld-2027",
@@ -7382,7 +8174,8 @@
   "driveMin": 150,
   "planBy": "2027-08-11",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "16:30"
  },
  {
   "days": [
@@ -7434,7 +8227,8 @@
   "driveMin": 165,
   "planBy": "2027-08-12",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "venue": "Vrijthof",
@@ -7451,7 +8245,7 @@
   "kind": "food",
   "city": "Maastricht",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 50.849,
   "lng": 5.6878,
   "start": "2027-08-26",
@@ -7477,7 +8271,8 @@
   "driveMin": 25,
   "planBy": "2027-08-12",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "zomerparkfeest-venlo-2027",
@@ -7486,7 +8281,7 @@
   "kind": "festival",
   "city": "Venlo",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 51.368,
   "lng": 6.172,
   "start": "2027-08-26",
@@ -7521,7 +8316,8 @@
   "driveMin": 60,
   "planBy": "2027-08-12",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "18:00"
  },
  {
   "id": "cultura-nova-heerlen-2027",
@@ -7530,7 +8326,7 @@
   "kind": "culture",
   "city": "Heerlen",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 50.888,
   "lng": 5.98,
   "start": "2027-08-27",
@@ -7564,7 +8360,8 @@
   "driveMin": 10,
   "planBy": "2027-08-13",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "mysteryland-2027",
@@ -7605,7 +8402,8 @@
   "driveMin": 175,
   "planBy": "2026-11-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "10:00-17:00",
@@ -7648,7 +8446,8 @@
   "driveMin": 145,
   "planBy": "2027-08-14",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "10:00"
  },
  {
   "onSale": null,
@@ -7691,7 +8490,8 @@
   "driveMin": 140,
   "planBy": "2027-08-19",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "venue": "Grand-Place",
@@ -7708,7 +8508,7 @@
   "kind": "food",
   "city": "Brussels",
   "country": "BE",
-  "region": "Brussels-Capital",
+  "region": "Brussels",
   "lat": 50.8467,
   "lng": 4.3525,
   "start": "2027-09-03",
@@ -7734,7 +8534,8 @@
   "driveMin": 95,
   "planBy": "2027-08-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "vredefeesten-sint-niklaas-2027",
@@ -7743,7 +8544,7 @@
   "kind": "aviation",
   "city": "Sint-Niklaas",
   "country": "BE",
-  "region": "Oost-Vlaanderen",
+  "region": "East Flanders",
   "lat": 51.1657,
   "lng": 4.1434,
   "start": "2027-09-03",
@@ -7783,7 +8584,8 @@
   "dateNote": "2027 dates projected from the annual pattern (first weekend of September: 4-6 Sep 2026, 5-7 Sep 2025); the official site only says 'tot volgend jaar'. Expect Fri 3 to Sun 5 September 2027.",
   "driveMin": 100,
   "planBy": "2027-08-20",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "warsteiner-montgolfiade-2027",
@@ -7792,7 +8594,7 @@
   "kind": "aviation",
   "city": "Warstein",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.4444,
   "lng": 8.3486,
   "start": "2027-09-03",
@@ -7828,7 +8630,8 @@
   "dateNote": "2027 dates projected from the fixed nine-day format running from the Friday before the first September weekend to the following Saturday (29 Aug-6 Sep 2025, 30 Aug-7 Sep 2024); the official site still shows the 2025 edition and the fetched pages gave no 2026/2027 dates. Verify before planning.",
   "driveMin": 155,
   "planBy": "2027-08-20",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "venue": "Sportpark Hartenstein, Oosterbeek",
@@ -7870,7 +8673,8 @@
   "driveMin": 125,
   "planBy": "2027-08-21",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "train": "Lille-Flandres and Lille-Europe stations are in the braderie zone",
@@ -7910,7 +8714,8 @@
   "driveMin": 165,
   "planBy": "2027-08-21",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "venue": "Oorlogsmuseum Overloon",
@@ -7952,7 +8757,8 @@
   "driveMin": 85,
   "planBy": "2027-08-21",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "venue": "Grand-Place Mons and surrounding villages",
@@ -7969,7 +8775,7 @@
   "kind": "military",
   "city": "Mons",
   "country": "BE",
-  "region": "Wallonia (Hainaut)",
+  "region": "Hainaut",
   "lat": 50.4542,
   "lng": 3.952,
   "start": "2027-09-04",
@@ -7995,7 +8801,8 @@
   "why": "The largest gathering of running Sherman tanks in Europe rolling through a city centre.",
   "driveMin": 125,
   "planBy": "2027-08-21",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "corso-zundert-2027",
@@ -8043,7 +8850,8 @@
   "dateNote": "2027 dates projected from the fixed pattern (first Sunday of September plus Monday; 2026 edition 6-7 September); official site had not yet listed 2027 at research time.",
   "driveMin": 110,
   "planBy": "2027-08-06",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "Evening shows 20:00; weekend matinees 14:00 (2026 pattern)",
@@ -8087,7 +8895,8 @@
   "why": "The national military tattoo is a full evening of bands and drill that the whole family enjoys.",
   "driveMin": 100,
   "planBy": "2027-08-19",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "days": [
@@ -8143,7 +8952,8 @@
   "tierException": true,
   "driveNote": "Tier 1 radius exception: just over three hours",
   "planBy": "2027-08-27",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "puetzchens-markt-bonn-2027",
@@ -8152,7 +8962,7 @@
   "kind": "spectacle",
   "city": "Bonn",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.738,
   "lng": 7.143,
   "start": "2027-09-10",
@@ -8188,7 +8998,8 @@
   "driveMin": 80,
   "planBy": "2027-08-27",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "12:00"
  },
  {
   "venue": "BMCC, Beursplein 1",
@@ -8205,7 +9016,7 @@
   "kind": "food",
   "city": "Brugge",
   "country": "BE",
-  "region": "West-Vlaanderen",
+  "region": "West Flanders",
   "lat": 51.2022,
   "lng": 3.2185,
   "start": "2027-09-11",
@@ -8229,7 +9040,8 @@
   "why": "A Belgian beer festival inside one of the most beautiful cities in Europe, close enough for a day trip.",
   "driveMin": 150,
   "planBy": "2027-08-21",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "dateNote": "2027 dates projected from the fixed pattern (second weekend of September; 2026 was 12-13 September). Theme not yet announced.",
@@ -8243,9 +9055,9 @@
   "name": "Open Monumentendag",
   "short": "Open Monumentendag",
   "kind": "culture",
-  "city": "Nationwide (Maastricht and Heerlen locally)",
+  "city": "Maastricht",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 50.8514,
   "lng": 5.691,
   "start": "2027-09-11",
@@ -8269,7 +9081,9 @@
   "why": "A free weekend to walk into buildings that are closed the rest of the year.",
   "driveMin": 25,
   "planBy": "2027-08-28",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "cityNote": "Nationwide; Maastricht and Heerlen locally",
+  "startTime": null
  },
  {
   "id": "rhein-in-flammen-oberwesel-2027",
@@ -8315,7 +9129,8 @@
   "driveMin": 130,
   "planBy": "2027-08-28",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "sanicole-airshow-2027",
@@ -8324,7 +9139,7 @@
   "kind": "aviation",
   "city": "Hechtel-Eksel",
   "country": "BE",
-  "region": "Limburg (Flanders)",
+  "region": "Limburg (BE)",
   "lat": 51.1203,
   "lng": 5.3072,
   "start": "2027-09-11",
@@ -8365,7 +9180,8 @@
   "driveMin": 50,
   "planBy": "2027-08-21",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "onSale": null,
@@ -8378,9 +9194,9 @@
   "name": "Tag des offenen Denkmals",
   "short": "Offenes Denkmal DE",
   "kind": "culture",
-  "city": "Nationwide (Aachen and Köln locally)",
+  "city": "Aachen",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 50.7753,
   "lng": 6.0839,
   "start": "2027-09-12",
@@ -8405,7 +9221,9 @@
   "driveMin": 25,
   "planBy": "2027-08-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "cityNote": "Nationwide; Aachen and Köln locally",
+  "startTime": null
  },
  {
   "times": "Sunday memorial service 11:00 at Arnhem Oosterbeek War Cemetery; Driel Polish commemoration Saturday 15:00; Arnhem Airborne Monument Friday 19:15",
@@ -8421,7 +9239,7 @@
   "name": "Airborne Commemorations Arnhem-Oosterbeek-Driel 2027 (83rd Battle of Arnhem)",
   "short": "Airborne Weekend",
   "kind": "military",
-  "city": "Oosterbeek / Arnhem",
+  "city": "Oosterbeek",
   "country": "NL",
   "region": "Gelderland",
   "lat": 51.993,
@@ -8448,7 +9266,9 @@
   "why": "A whole weekend of Market Garden ceremonies, convoys and bands around Arnhem, where Nick's profession meets history.",
   "driveMin": 135,
   "planBy": "2027-09-03",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "cityNote": "Oosterbeek / Arnhem",
+  "startTime": null
  },
  {
   "times": "Evening (2026: 20:30-22:00)",
@@ -8492,7 +9312,8 @@
   "why": "A big free spectacle of music, dance and film at the bridge too far, with the city's commemoration weekend around it.",
   "driveMin": 130,
   "planBy": "2027-09-03",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "fetes-de-wallonie-namur-2027",
@@ -8543,7 +9364,8 @@
   "dateNote": "Official site states the festival falls on the third weekend of September each year (2026 edition ran up to 21 September); 2027 projected as 17-19 September.",
   "driveMin": 85,
   "planBy": "2027-09-03",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "musica-sacra-maastricht-2027",
@@ -8552,7 +9374,7 @@
   "kind": "culture",
   "city": "Maastricht",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 50.849,
   "lng": 5.688,
   "start": "2027-09-17",
@@ -8584,7 +9406,8 @@
   "dateNote": "2027 dates projected from the third-weekend-of-September pattern (18 to 20 Sep 2026); official site has not announced 2027.",
   "driveMin": 25,
   "planBy": "2027-09-03",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "Grounds roughly 09:00-16:00; main commemoration late morning (2026: 11:30-12:30)",
@@ -8628,7 +9451,8 @@
   "driveMin": 130,
   "planBy": "2027-09-04",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "lichtjesroute-eindhoven-2027",
@@ -8674,7 +9498,8 @@
   "driveMin": 75,
   "planBy": "2027-09-04",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": "19:00"
  },
  {
   "id": "rhein-in-flammen-st-goar-2027",
@@ -8718,7 +9543,8 @@
   "driveMin": 125,
   "planBy": "2027-09-04",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "10:00-17:00",
@@ -8760,7 +9586,8 @@
   "why": "A gentle family way into the Market Garden weekend with jeep rides on the real battlefield.",
   "driveMin": 110,
   "planBy": "2027-09-05",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": "10:00"
  },
  {
   "times": "Daytime ceremony at the Waalcrossing monument; Sunset March at sunset on De Oversteek bridge",
@@ -8801,7 +9628,8 @@
   "why": "A small but powerful American ceremony where Nick's own army is always represented.",
   "driveMin": 110,
   "planBy": "2027-09-06",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "Royal procession around 13:00, balcony scene around 14:00",
@@ -8844,16 +9672,17 @@
   "why": "A full royal and military procession with cavalry, bands and a flypast, on a weekday you can plan around.",
   "driveMin": 170,
   "planBy": "2027-09-07",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "spa-six-hours-2027",
   "name": "Spa Six Hours 2027",
   "short": "Spa Six Hours",
   "kind": "sport",
-  "city": "Stavelot (Spa-Francorchamps)",
+  "city": "Stavelot",
   "country": "BE",
-  "region": "Wallonia (Liège)",
+  "region": "Liège",
   "lat": 50.4372,
   "lng": 5.9714,
   "start": "2027-09-24",
@@ -8886,7 +9715,9 @@
   "driveMin": 70,
   "planBy": "2027-09-10",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "cityNote": "Spa-Francorchamps",
+  "startTime": null
  },
  {
   "id": "nederlandse-dansdagen-2027",
@@ -8895,7 +9726,7 @@
   "kind": "culture",
   "city": "Maastricht",
   "country": "NL",
-  "region": "Limburg",
+  "region": "Limburg (NL)",
   "lat": 50.849,
   "lng": 5.688,
   "start": "2027-10-01",
@@ -8928,7 +9759,55 @@
   "dateNote": "2027 dates projected from the first-week-of-October pattern (2 to 8 Oct 2026, 3 to 9 Oct 2025); official site has not published 2027 dates.",
   "driveMin": 25,
   "planBy": "2027-09-17",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
+ },
+ {
+  "id": "weekend-van-de-wetenschap-maastricht-2027",
+  "name": "Weekend van de Wetenschap 2027, Maastricht University",
+  "short": "Weekend v/d Wetenschap",
+  "kind": "other",
+  "city": "Maastricht",
+  "country": "NL",
+  "region": "Limburg (NL)",
+  "lat": 50.8357,
+  "lng": 5.6997,
+  "start": "2027-10-02",
+  "end": "2027-10-02",
+  "times": "12:00-16:00 (2026 hours)",
+  "startTime": "12:00",
+  "venue": "Faculty of Science and Engineering, Duboisdomein 30, and other UM sites",
+  "tier": 2,
+  "for": [
+   "alma",
+   "family"
+  ],
+  "confidence": "projected",
+  "source": "https://www.maastrichtuniversity.nl/events/weekend-van-de-wetenschap-2026",
+  "status": "tbd",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "ticketNote": "Registration needed for some lab tours",
+  "highlights": "The national science weekend in Maastricht: in 2026 the university ran an Einstein Telescope pathfinder lab visit, a laser maze, a science market with robots, a comic-making workshop, VR, a mock court and MUMC+ lab tours for children.",
+  "tip": "The programme appears at the start of September; book the limited lab tours then and start at Duboisdomein 30.",
+  "parking": "Randwyck car parks near MUMC+",
+  "train": "Maastricht Randwyck station",
+  "lez": "none",
+  "tags": [
+   "learning",
+   "free",
+   "teens",
+   "kids"
+  ],
+  "why": "A free afternoon of real labs and experiments at the university 25 minutes from home.",
+  "dateNote": "2027 date projected from the national pattern (first full weekend of October; 2026 edition was Saturday 3 October in Maastricht).",
+  "cityNote": "Maastricht, about 25 minutes by car",
+  "addedOn": "2026-11-04",
+  "driveMin": 30,
+  "planBy": "2027-09-18"
  },
  {
   "id": "asml-marathon-eindhoven-2027",
@@ -8973,7 +9852,8 @@
   "driveMin": 75,
   "planBy": "2027-09-25",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "motocross-of-nations-assen-2027",
@@ -9020,7 +9900,8 @@
   "driveNote": "Tier 1 radius exception: just over three hours",
   "planBy": "2027-09-18",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "id": "tcs-amsterdam-marathon-2027",
@@ -9061,7 +9942,8 @@
   "dateNote": "2027 date projected from the fixed third-Sunday-of-October pattern (18 October 2026); the organiser site did not respond from this session.",
   "driveMin": 160,
   "planBy": "2027-10-03",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": "09:00"
  },
  {
   "id": "amsterdam-dance-event-2027",
@@ -9100,7 +9982,100 @@
   "driveMin": 170,
   "planBy": "2027-09-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
+ },
+ {
+  "id": "festival-film-italien-villerupt-2027",
+  "name": "Festival du Film Italien de Villerupt",
+  "short": "Film italien Villerupt",
+  "kind": "culture",
+  "city": "Villerupt",
+  "country": "FR",
+  "region": "Grand Est",
+  "lat": 49.4675,
+  "lng": 5.9308,
+  "cityNote": "Also screens in Esch-sur-Alzette and Dudelange (LU)",
+  "start": "2027-10-22",
+  "end": "2027-11-07",
+  "startTime": null,
+  "venue": "Cinemas in Villerupt plus Kulturfabrik Esch and CNA Dudelange",
+  "tier": 2,
+  "for": [
+   "nick",
+   "family"
+  ],
+  "confidence": "projected",
+  "source": "https://festival-villerupt.com/",
+  "status": "tbd",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://festival-villerupt.com/",
+  "priceFrom": null,
+  "ticketNote": "Tickets sold at the venues, subject to availability",
+  "highlights": "The 50th edition of the largest Italian film festival in France screens new Italian cinema and retrospectives on both sides of the Luxembourg border.",
+  "tip": "Watch for the programme in September; the Esch and Dudelange screenings are the closest to home.",
+  "dateNote": "2027 dates projected from the 2026 pattern (last Friday of October to the second Sunday of November); confirm in September 2027.",
+  "tags": [
+   "indoor",
+   "ticketed",
+   "art",
+   "italian"
+  ],
+  "why": "The 50th anniversary edition of the biggest Italian film festival outside Italy, an hour past Luxembourg.",
+  "driveMin": 165,
+  "planBy": "2027-10-08",
+  "addedOn": "2026-11-04"
+ },
+ {
+  "id": "jan-van-eyck-open-studios-2027",
+  "name": "Jan van Eyck Academie Open Studios 2027",
+  "short": "Van Eyck Open Studios",
+  "kind": "culture",
+  "city": "Maastricht",
+  "country": "NL",
+  "region": "Limburg (NL)",
+  "lat": 50.8447,
+  "lng": 5.6935,
+  "start": "2027-10-22",
+  "end": "2027-10-24",
+  "times": null,
+  "startTime": null,
+  "venue": "Jan van Eyck Academie, Academieplein 1",
+  "tier": 2,
+  "for": [
+   "alma",
+   "nick",
+   "family"
+  ],
+  "confidence": "projected",
+  "source": "https://janvaneyck.nl/calendar/open-studios-2026",
+  "status": "tbd",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://janvaneyck.nl/calendar/open-studios-2026",
+  "priceFrom": null,
+  "ticketNote": "Ticketed in 2026; proceeds fund the participant grant",
+  "highlights": "Around 40 artists, designers and writers from the international post-academic residency open their studios for one weekend, with talks, performances and the labs (print, wood, photo) running.",
+  "tip": "Go on the Saturday afternoon, take the ground-floor labs first and ask the residents about their work; most speak English.",
+  "parking": "Q-Park Vrijthof or street parking in the Villapark",
+  "train": "Maastricht station, 15 minute walk",
+  "lez": "none",
+  "tags": [
+   "learning",
+   "art",
+   "teens",
+   "ticketed",
+   "indoor"
+  ],
+  "why": "The only time of year the famous Maastricht residency shows its studios, a short drive from home.",
+  "dateNote": "2027 dates projected from the pattern: 24-26 October 2025 and 23-25 October 2026 (Friday to Sunday, fourth weekend of October).",
+  "cityNote": "Maastricht, about 25 minutes by car",
+  "addedOn": "2026-11-04",
+  "driveMin": 25,
+  "planBy": "2027-10-08"
  },
  {
   "id": "kunstsammlung-atelier-fernand-leger-2027",
@@ -9109,7 +10084,7 @@
   "kind": "museum",
   "city": "Düsseldorf",
   "country": "DE",
-  "region": "Nordrhein-Westfalen",
+  "region": "NRW",
   "lat": 51.227,
   "lng": 6.7733,
   "start": "2027-10-22",
@@ -9144,7 +10119,57 @@
   "driveMin": 65,
   "planBy": "2027-10-08",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
+ },
+ {
+  "id": "dae-graduation-show-2027",
+  "name": "Design Academy Eindhoven Graduation Show 2027 (Dutch Design Week)",
+  "short": "DAE Graduation Show",
+  "kind": "culture",
+  "city": "Eindhoven",
+  "country": "NL",
+  "region": "Noord-Brabant",
+  "lat": 51.4431,
+  "lng": 5.479,
+  "start": "2027-10-23",
+  "end": "2027-10-31",
+  "times": null,
+  "startTime": null,
+  "venue": null,
+  "tier": 1,
+  "for": [
+   "alma",
+   "nick",
+   "family"
+  ],
+  "confidence": "projected",
+  "source": "https://ddw.nl/en",
+  "status": "tbd",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://ddw.nl/en",
+  "priceFrom": null,
+  "ticketNote": "A Dutch Design Week wristband was required in 2026",
+  "highlights": "Over 200 graduation projects from one of the world's best-known design schools, shown in a big central venue as the anchor of Dutch Design Week, with hundreds of other exhibitions across the city.",
+  "tip": "Buy the DDW wristband online, come on a weekday and start at the Graduation Show before walking to Strijp-S.",
+  "parking": null,
+  "train": "Eindhoven Centraal; the 2026 venue was next to the station",
+  "lez": "none",
+  "tags": [
+   "learning",
+   "art",
+   "teens",
+   "ticketed",
+   "indoor"
+  ],
+  "why": "The most inspiring design show in the country for a 14-year-old who draws, an hour from home.",
+  "dateNote": "Dutch Design Week 2027 is confirmed for 23-31 October 2027 on ddw.nl; the Graduation Show itself is not yet announced but has run during DDW every year (2026 venue: Station, Professor Doctor Dorgelolaan 2).",
+  "cityNote": "Eindhoven, about 1 hour by car",
+  "addedOn": "2026-11-04",
+  "driveMin": 75,
+  "planBy": "2027-10-09"
  },
  {
   "train": "Eindhoven Centraal, then shuttle buses",
@@ -9187,7 +10212,8 @@
   "driveMin": 75,
   "planBy": "2027-10-09",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "venue": "Flanders Expo",
@@ -9204,7 +10230,7 @@
   "kind": "culture",
   "city": "Gent",
   "country": "BE",
-  "region": "Oost-Vlaanderen",
+  "region": "East Flanders",
   "lat": 51.0197,
   "lng": 3.6974,
   "start": "2027-10-30",
@@ -9229,7 +10255,8 @@
   "why": "The largest comic con in Belgium is a natural fan-event weekend for Alma.",
   "driveMin": 120,
   "planBy": "2027-10-09",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  },
  {
   "times": "19:00-02:00",
@@ -9271,7 +10298,8 @@
   "why": "A night of museums turned into clubs is the kind of teen-friendly spectacle Alma would enjoy.",
   "driveMin": 165,
   "planBy": "2027-10-07",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": "19:00"
  },
  {
   "venue": "Bastogne War Museum and town centre",
@@ -9284,11 +10312,11 @@
   "annual": true,
   "id": "nuts-weekend-bastogne-2027",
   "name": "Nuts Weekend Bastogne 2027 (Battle of the Bulge commemoration)",
-  "short": "Nuts Weekend Bastogne",
+  "short": "Nuts Weekend 2027",
   "kind": "military",
   "city": "Bastogne",
   "country": "BE",
-  "region": "Wallonia (Luxembourg)",
+  "region": "Luxembourg (BE)",
   "lat": 50.0063,
   "lng": 5.7372,
   "start": "2027-12-10",
@@ -9315,6 +10343,7 @@
   "why": "Bastogne's Battle of the Bulge weekend is the Ardennes' biggest WWII commemoration and only 90 minutes from home.",
   "driveMin": 105,
   "planBy": "2027-11-26",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "startTime": null
  }
 ]

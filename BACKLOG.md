@@ -7,6 +7,7 @@ Bugs, shortcuts and unverified items. Fixed in one batch when Nick says "execute
 - Cross-device sync of plan and notes (currently per device, JSON export/import only).
 
 ## Repo and deployment
+- Fixed in 2.0 (4 Nov 2026): every finding of the 1.1 audit except the two noted under Code.
 - The app was built in `ndubaz/ToDoNL` (the repo attached to the build session; the session could not create `ndubaz/Rondom`). Rename the repo to Rondom on GitHub if you want the name to match; Vercel follows renames.
 - `main` was created from the first build branch `claude/serene-clarke-rx8vgi`. Set `main` as the default branch in GitHub settings if it is not.
 
@@ -20,8 +21,18 @@ Bugs, shortcuts and unverified items. Fixed in one batch when Nick says "execute
 - Prices null where ticket pages are JavaScript-only: Graspop, Lowlands, Pukkelpop, North Sea Jazz, Rock am Ring, Paaspop, Kölner Lichter, Libramont, several museums (Mauritshuis, Kunsthal, La Boverie, Museum Ludwig) and all Beat-venue concerts.
 - The brief's assumptions that turned out wrong and were corrected in the data: Maastricht carnival 2027 is 7 to 9 Feb (not 14 to 16); Sanicole's Sunset Airshow is on the Saturday; Paris Air Show 2027 is 14 to 20 Jun (public days 19 and 20 Jun); the Dutch GP ended with 2026; Marinedagen moved to 2028; Parkpop ended in 2023; World Gymnastics 2027 is in Chengdu, not Rotterdam; Eurovision 2027 is in Burgas.
 
+## Added 4 Nov 2026 (2.0 research)
+- Eros Ramazzotti at Forest National 14 Apr 2028 is projected: the Beat venue sites redirect to a login, so the date comes from the tour announcement. Ziggo Dome Amsterdam 2028 date not visible yet (the 2027 leg moved to 2028).
+- Laura Pausini Ziggo Dome 24 Nov 2027 is projected (venue agenda is script-rendered, laurapausini.com tour page 404).
+- Festival du Film Italien de Villerupt dates come from a Luxembourg listings page (official site returned an empty page).
+- Kunstbende Limburg 2027 dropped: kunstbende.nl pages did not load; worth adding when the regional round is announced (usually March, Sittard).
+- ESA ESTEC Open Day 2027 dropped for radius (185 min, tier 1 would need `tierException`; ask Nick).
+- Sanremo 2027 winners' tour (Paris date in the week of 16 Feb 2027) and Belgian Eurosong 2027 final: re-check in February.
+- Not found with dated pages: SCHUNCK Heerlen teen courses (agenda is script-rendered; the programme PDF was not read), Bonnefanten teen workshops, Kunstpalast and Aachen museum holiday courses for 2027, K-pop dance and manga workshops, Bokrijk craft weekend 2027.
+- Four Stade de France French rap shows were removed because nobody in the household fits; the validator now refuses an empty `for`.
+
 ## Code
-- Concert tier is derived from sell-out risk when the entry has no `tier`. The weekly refresh may set `tier` explicitly on stadium shows.
 - Plan conflicts consider only entries spanning 3 days or fewer; long-running exhibitions never clash.
-- The calendar draws pip rows only for runs of 21 days or fewer; longer runs count in the "+n" badge and appear in the day sheet.
 - Deep links to the Browse filters (kind, country, month) are not in the hash; only tabs and entries are.
+- Pinch zoom on the map uses two pointers; trackpad pinch on desktop is not handled (wheel zoom is).
+- Follows match by substring on name, venue, city and tags; a short word like "Ro" matches too much. Use names.

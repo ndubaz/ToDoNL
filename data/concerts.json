@@ -19,10 +19,12 @@
   "confidence": "confirmed",
   "source": "https://www.afas-dome.be/evenement/niall-horan-55630211",
   "tour": "Dinner Party Live On Tour",
-  "note": "Tomorrow night; tickets still available at time of research.",
+  "note": null,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Dinner Party Live On Tour at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "the-kid-laroi-afas-live-2026-11-05",
@@ -46,7 +48,9 @@
   "note": "Supports WizTheMc 19:30 and Nate Sib 20:15, LAROI 21:15.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "A Perfect World Tour at AFAS Live, Amsterdam."
  },
  {
   "id": "niall-horan-accor-2026-11-06",
@@ -71,7 +75,9 @@
   "note": null,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Dinner Party Live On Tour at Accor Arena, Paris."
  },
  {
   "id": "korn-ziggo-2026-11-08",
@@ -95,7 +101,9 @@
   "note": "Architects as special guest; Korn on stage 21:25.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Euro Tour 2026 at Ziggo Dome, Amsterdam."
  },
  {
   "id": "world-of-hans-zimmer-lanxess-2026-11-08",
@@ -120,7 +128,9 @@
   "note": "Orchestral film-music spectacle; show 19:30.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "A New Dimension at Lanxess Arena, Köln."
  },
  {
   "id": "korn-sportpaleis-2026-11-09",
@@ -144,7 +154,9 @@
   "note": "Waiting list open, only scattered tickets left.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "EURO TOUR 2026 at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "andre-rieu-lanxess-2026-11-13",
@@ -168,7 +180,9 @@
   "note": "Show 19:30.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Die große Deutschlandtour 2026 at Lanxess Arena, Köln."
  },
  {
   "id": "world-of-hans-zimmer-palais-12-2026-11-13",
@@ -193,7 +207,9 @@
   "note": "Show 20:00; Greenhouse Talent lists last tickets. Same production plays AFAS Dome on 29 Apr 2027.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "A New Dimension at ING Arena (Palais 12), Brussels."
  },
  {
   "id": "hatsune-miku-palais-12-2026-11-14",
@@ -217,7 +233,9 @@
   "note": "Virtual-singer hologram concert, show 20:00; Greenhouse Talent lists last tickets.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "HATSUNE MIKU EXPO 2026 EUROPE at ING Arena (Palais 12), Brussels."
  },
  {
   "id": "hatsune-miku-afas-live-2026-11-15",
@@ -241,7 +259,9 @@
   "note": "Virtual vocaloid idol with live band and hologram show.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at AFAS Live, Amsterdam."
  },
  {
   "id": "pitbull-westfalenhalle-2026-11-16",
@@ -266,7 +286,9 @@
   "note": null,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "I'm Back at Westfalenhalle, Dortmund."
  },
  {
   "id": "taemin-adidas-arena-2026-11-16",
@@ -296,7 +318,9 @@
   "driveMin": 265,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "LiMiNaL Tour at adidas arena, Paris."
  },
  {
   "id": "the-prodigy-meh-2026-11-18",
@@ -321,7 +345,9 @@
   "note": "Standard tickets via Eventim; VIP tickets on the venue page.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at Mitsubishi Electric Halle, Düsseldorf."
  },
  {
   "id": "zelo-p60-2026-11-18",
@@ -340,7 +366,7 @@
   ],
   "status": "onsale",
   "onSale": null,
-  "sellOutRisk": "medium",
+  "sellOutRisk": "high",
   "ticketUrl": "https://my.weezevent.com/zelo-unbound-tour-in-europe-2026-amsterdam",
   "priceFrom": 45,
   "confidence": "confirmed",
@@ -351,7 +377,9 @@
   "driveMin": 160,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "UNBOUND TOUR IN EUROPE 2026 at P60, Amstelveen."
  },
  {
   "id": "h1ghr-season-q-factory-2026-11-20",
@@ -370,7 +398,7 @@
   ],
   "status": "onsale",
   "onSale": null,
-  "sellOutRisk": "medium",
+  "sellOutRisk": "high",
   "ticketUrl": "https://q-factory.com/nl/events/h1ghr-season-in-europe-uk-2026",
   "priceFrom": 50,
   "confidence": "confirmed",
@@ -381,7 +409,9 @@
   "driveMin": 165,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "2026 H1GHR SEASON in EUROPE & UK at Q-Factory, Amsterdam."
  },
  {
   "id": "night-of-the-proms-sportpaleis-2026-11-21",
@@ -406,7 +436,9 @@
   "note": "Also Fri 20 Nov 20:30 and Sun 22 Nov 15:00; big pop-meets-orchestra production.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Night of the Proms 2026 at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "papa-roach-lanxess-2026-11-21",
@@ -430,7 +462,9 @@
   "note": "Show 19:00.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Rise of the Roach at Lanxess Arena, Köln."
  },
  {
   "id": "westlife-ziggo-2026-11-23",
@@ -454,7 +488,9 @@
   "note": "25th-anniversary tour; show 20:00.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "25 The Anniversary World Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "taemin-afas-live-2026-11-24",
@@ -478,7 +514,9 @@
   "note": "SHINee soloist; regular sale runs via Onion Productions, prices from EUR 85 (CAT 2) excluding fees.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "TAEMIN 2nd World Tour at AFAS Live, Amsterdam."
  },
  {
   "id": "westlife-sportpaleis-2026-11-24",
@@ -502,7 +540,9 @@
   "note": "Extra tickets released by Greenhouse Talent.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Westlife 25: The Anniversary World Tour at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "westlife-lanxess-2026-11-25",
@@ -527,7 +567,9 @@
   "note": "Show 19:00.",
   "planBy": "2026-11-04",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "25 The Anniversary World Tour at Lanxess Arena, Köln."
  },
  {
   "id": "noah-kahan-lanxess-2026-11-26",
@@ -548,10 +590,12 @@
   "confidence": "confirmed",
   "source": "https://www.lanxess-arena.de/events-tickets/eventkalender",
   "tour": "The Great Divide Tour",
-  "note": "Only premium tickets (from 129 EUR) still listed on the arena page.",
+  "note": "Only premium tickets were listed on the arena page at the last check.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Great Divide Tour at Lanxess Arena, Köln."
  },
  {
   "id": "the-script-ziggo-2026-11-26",
@@ -575,7 +619,9 @@
   "note": "Two nights (26 and 27 Nov); show 20:00.",
   "planBy": "2026-11-05",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Man In The Arena Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "muse-pldefense-2026-11-27",
@@ -600,7 +646,9 @@
   "note": "Big-production arena show; venue now branded Plenitude Arena.",
   "planBy": "2026-11-06",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at Plenitude Arena (Paris La Défense Arena), Nanterre."
  },
  {
   "id": "the-prodigy-forest-national-2026-11-27",
@@ -624,7 +672,9 @@
   "note": "Waiting list open; nearly sold out.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "European Tour 2026 at Forest National, Brussels."
  },
  {
   "id": "the-prodigy-ziggo-2026-11-28",
@@ -649,7 +699,9 @@
   "note": "Show 19:45.",
   "planBy": "2026-11-07",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "European Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "the-script-lotto-arena-2026-11-28",
@@ -673,7 +725,9 @@
   "note": null,
   "planBy": "2026-11-07",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Man In The Arena Tour at Lotto Arena, Antwerp."
  },
  {
   "id": "transmission-gelredome-2026-11-28",
@@ -697,7 +751,9 @@
   "note": "Trance mega-show with huge laser and video production in the roofed stadium; sold out, expected end 23:00.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at GelreDome, Arnhem, a stadium show."
  },
  {
   "id": "muse-ziggo-2026-11-29",
@@ -722,7 +778,9 @@
   "note": "First of two nights; big-production arena show starting 20:00.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Wow! Signal Europa Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "muse-ziggo-2026-11-30",
@@ -747,7 +805,9 @@
   "note": "Second night; show 20:00.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Wow! Signal Europa Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "noah-kahan-ziggo-2026-12-01",
@@ -772,7 +832,9 @@
   "note": "Two nights (1 and 2 Dec); regular tickets gone, only VIP packages left.",
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Great Divide Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "bryan-adams-rockhal-2026-12-04",
@@ -796,7 +858,9 @@
   "note": "Sold out, waiting list only.",
   "planBy": "2026-11-04",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at Rockhal, Esch-sur-Alzette."
  },
  {
   "id": "night-of-the-proms-lanxess-2026-12-04",
@@ -821,7 +885,9 @@
   "note": "Also 5 December; show 20:00.",
   "planBy": "2026-11-13",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Klassik trifft Pop 2026 at Lanxess Arena, Köln."
  },
  {
   "id": "andre-rieu-kerst-mecc-2026-12-11",
@@ -846,7 +912,9 @@
   "note": "Christmas concert with the Johann Strauss Orchestra at 19:30, one of six MECC dates 11-13 and 18-20 Dec.",
   "planBy": "2026-11-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Kerst met André Rieu 2026 at MECC Maastricht, Maastricht."
  },
  {
   "id": "andre-rieu-kerst-mecc-2026-12-12",
@@ -871,7 +939,9 @@
   "note": "Christmas concert with the Johann Strauss Orchestra at 19:30, one of six MECC dates 11-13 and 18-20 Dec.",
   "planBy": "2026-11-21",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Kerst met André Rieu 2026 at MECC Maastricht, Maastricht."
  },
  {
   "id": "anyma-pldefense-2026-12-12",
@@ -895,7 +965,9 @@
   "note": "Anyma's audiovisual show is a giant-screen spectacle rather than a plain DJ set.",
   "planBy": "2026-11-21",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at Plenitude Arena (Paris La Défense Arena), Nanterre."
  },
  {
   "id": "andre-rieu-kerst-mecc-2026-12-13",
@@ -920,7 +992,9 @@
   "note": "Christmas concert with the Johann Strauss Orchestra at 19:30, one of six MECC dates 11-13 and 18-20 Dec.",
   "planBy": "2026-11-22",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Kerst met André Rieu 2026 at MECC Maastricht, Maastricht."
  },
  {
   "id": "andre-rieu-kerst-mecc-2026-12-18",
@@ -945,7 +1019,9 @@
   "note": "Christmas concert with the Johann Strauss Orchestra at 19:30, one of six MECC dates 11-13 and 18-20 Dec.",
   "planBy": "2026-11-27",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Kerst met André Rieu 2026 at MECC Maastricht, Maastricht."
  },
  {
   "id": "andre-rieu-kerst-mecc-2026-12-19",
@@ -970,7 +1046,9 @@
   "note": "Christmas concert with the Johann Strauss Orchestra at 19:30, one of six MECC dates 11-13 and 18-20 Dec.",
   "planBy": "2026-11-28",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Kerst met André Rieu 2026 at MECC Maastricht, Maastricht."
  },
  {
   "id": "lord-of-the-rings-in-concert-forest-national-2026-12-19",
@@ -994,7 +1072,9 @@
   "note": "Film screened with live orchestra and choir; second show Sun 20 Dec 19:00.",
   "planBy": "2026-11-28",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at Forest National, Brussels."
  },
  {
   "id": "andre-rieu-kerst-mecc-2026-12-20",
@@ -1019,7 +1099,9 @@
   "note": "Christmas concert with the Johann Strauss Orchestra at 19:30, one of six MECC dates 11-13 and 18-20 Dec.",
   "planBy": "2026-11-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Kerst met André Rieu 2026 at MECC Maastricht, Maastricht."
  },
  {
   "id": "disney-in-concert-ziggo-2026-12-20",
@@ -1043,7 +1125,9 @@
   "note": "Matinee at 15:00 and evening show at 19:00 with orchestra and film footage.",
   "planBy": "2026-12-06",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 3,
+  "why": "Wonderful Worlds at Ziggo Dome, Amsterdam."
  },
  {
   "id": "morrissey-forest-national-2026-12-31",
@@ -1067,7 +1151,9 @@
   "note": "New Year's Eve show in Brussels.",
   "planBy": "2026-12-10",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "In Concert - New Year's Eve 2026 at Forest National, Brussels."
  },
  {
   "id": "andre-rieu-ziggo-2027-01-09",
@@ -1092,7 +1178,9 @@
   "note": "Maastricht's waltz king plays his New Year concert at 19:00.",
   "planBy": "2026-12-19",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Nieuwjaarsconcert 2027 at Ziggo Dome, Amsterdam."
  },
  {
   "id": "andre-rieu-sportpaleis-2027-01-10",
@@ -1117,7 +1205,9 @@
   "note": null,
   "planBy": "2026-12-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "André Rieu in Antwerpen 2027 at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "die-fantastischen-vier-lanxess-2027-01-12",
@@ -1140,6 +1230,44 @@
   "tour": "Der letzte Bus",
   "note": "Farewell tour; extra show 11 January; only premium tickets (from 199 EUR) listed, regular tickets likely gone.",
   "planBy": "2026-12-13",
+  "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Der letzte Bus at Lanxess Arena, Köln."
+ },
+ {
+  "id": "ludovico-einaudi-grand-palais-2027-01-14",
+  "artist": "Ludovico Einaudi",
+  "short": "Einaudi Grand Palais",
+  "venueId": null,
+  "venueName": "Grand Palais",
+  "city": "Paris",
+  "country": "FR",
+  "lat": 48.8661,
+  "lng": 2.3125,
+  "driveMin": 275,
+  "date": "2027-01-14",
+  "doors": null,
+  "genre": "classical",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "tier": 2,
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": "https://tickets.collector-live.fr/",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://tickets.collector-live.fr/",
+  "tour": "Solo piano",
+  "note": "Solo piano under the glass roof of the Nef at 20:00; booking is open at Collector, the official ticketing partner.",
+  "tags": [
+   "italian"
+  ],
+  "why": "Solo piano at Grand Palais, Paris.",
+  "planBy": "2026-12-15",
   "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04"
  },
@@ -1165,7 +1293,9 @@
   "note": "Only Benelux date; show 20:00, tickets from EUR 61.71 via Mojo/Ticketmaster, promoter page already shows a sold-out label so check Ticketmaster for returns.",
   "planBy": "2026-12-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "aespa LIVE TOUR - SYNK : COMPLæXITY at Ziggo Dome, Amsterdam."
  },
  {
   "id": "aespa-accor-2027-02-02",
@@ -1189,7 +1319,9 @@
   "note": "Listed by Live Nation France as on sale via Ticketmaster; the Accor Arena site loads its agenda dynamically so the venue page could not be read.",
   "planBy": "2027-01-03",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "aespa LIVE TOUR - SYNK : COMPLAEXITY at Accor Arena, Paris."
  },
  {
   "id": "five-finger-death-punch-forest-national-2027-02-08",
@@ -1213,7 +1345,9 @@
   "note": null,
   "planBy": "2027-01-18",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "20th Anniversary World Tour at Forest National, Brussels."
  },
  {
   "id": "role-model-afas-live-2027-02-13",
@@ -1237,7 +1371,9 @@
   "note": "Two nights (13 and 14 Feb), show 20:00.",
   "planBy": "2027-01-23",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at AFAS Live, Amsterdam."
  },
  {
   "id": "role-model-forest-national-2027-02-15",
@@ -1261,7 +1397,9 @@
   "note": "Teen-pop favourite; standing floor.",
   "planBy": "2027-01-25",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Chuck On Tour at Forest National, Brussels."
  },
  {
   "id": "electric-callboy-forest-national-2027-02-16",
@@ -1286,7 +1424,9 @@
   "note": "Party-metal show with heavy production.",
   "planBy": "2027-01-26",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "TANZNEID WORLD TOUR at Forest National, Brussels."
  },
  {
   "id": "disney-descendants-zombies-lanxess-2027-02-18",
@@ -1311,7 +1451,9 @@
   "note": "Disney Channel teen-pop arena tour; doors 17:30, show 19:00; only premium price (142 EUR) shown.",
   "planBy": "2027-01-28",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Worlds Collide Concert Tour at Lanxess Arena, Köln."
  },
  {
   "id": "disney-descendants-zombies-ziggo-2027-02-19",
@@ -1336,7 +1478,9 @@
   "note": "Disney Channel teen-musical cast tour; show 20:00.",
   "planBy": "2027-01-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Worlds Collide Concert Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "editors-sportpaleis-2027-02-19",
@@ -1360,7 +1504,9 @@
   "note": "Also plays Rockhal Luxembourg on 15 Feb 2027.",
   "planBy": "2027-01-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "james-blunt-forest-national-2027-02-19",
@@ -1384,7 +1530,9 @@
   "note": "Also plays Rockhal Luxembourg on 17 Feb 2027.",
   "planBy": "2027-01-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Airplane Mode Tour at Forest National, Brussels."
  },
  {
   "id": "rush-pldefense-2027-02-19",
@@ -1408,7 +1556,9 @@
   "note": "Only French date of the reunion tour.",
   "planBy": "2027-01-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Fifty Something Tour at Plenitude Arena (Paris La Défense Arena), Nanterre."
  },
  {
   "id": "charli-xcx-ziggo-2027-02-22",
@@ -1433,7 +1583,9 @@
   "note": "Show 20:00.",
   "planBy": "2027-01-23",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Music, Fashion, Film Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "rush-ziggo-2027-02-23",
@@ -1457,7 +1609,9 @@
   "note": "Reunion tour, only Dutch date; show 20:00.",
   "planBy": "2027-01-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Fifty Something Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "royal-blood-lotto-arena-2027-02-25",
@@ -1481,7 +1635,9 @@
   "note": null,
   "planBy": "2027-02-04",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at Lotto Arena, Antwerp."
  },
  {
   "id": "a-state-of-trance-ahoy-2027-02-26",
@@ -1505,7 +1661,9 @@
   "note": "Armin van Buuren's trance festival takes over all of Ahoy on Fri 26 (18:30-01:00) and Sat 27 Feb (from 22:00).",
   "planBy": "2027-01-27",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "A State of Trance 2027 at Rotterdam Ahoy, Rotterdam."
  },
  {
   "id": "electric-callboy-westfalenhalle-2027-02-27",
@@ -1530,7 +1688,9 @@
   "note": "Party-metalcore arena show.",
   "planBy": "2027-02-06",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Tanzneid World Tour at Westfalenhalle, Dortmund."
  },
  {
   "id": "enhypen-pldefense-2027-02-27",
@@ -1554,7 +1714,9 @@
   "note": "Sold out; show 20:00; the venue (now called Plenitude Arena) offers an official resale and alert list.",
   "planBy": "2027-01-28",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "ENHYPEN WORLD TOUR 'BLOOD SAGA' at Plenitude Arena (Paris La Défense Arena), Nanterre."
  },
  {
   "id": "manowar-rwa-2027-02-27",
@@ -1578,7 +1740,9 @@
   "note": "Show 20:00.",
   "planBy": "2027-02-06",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Kings Of Metal Fighting The World Tour 2027 at Rudolf Weber-Arena, Oberhausen."
  },
  {
   "id": "kenshi-yonezu-ziggo-2027-02-28",
@@ -1602,7 +1766,9 @@
   "note": "Japanese superstar (Chainsaw Man, Lemon); show 20:00.",
   "planBy": "2027-02-07",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "KENSHI YONEZU 2026-2027 WORLD TOUR / GHOST at Ziggo Dome, Amsterdam."
  },
  {
   "id": "rush-lanxess-2027-02-28",
@@ -1626,7 +1792,9 @@
   "note": "Only German date of the reunion tour; show 20:00.",
   "planBy": "2027-01-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Fifty Something Euro 2027 Tour at Lanxess Arena, Köln."
  },
  {
   "id": "enhypen-ziggo-2027-03-02",
@@ -1650,7 +1818,9 @@
   "note": "Only Benelux stop of the BLOOD SAGA tour; show starts 20:00.",
   "planBy": "2027-01-31",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "ENHYPEN WORLD TOUR 'BLOOD SAGA' at Ziggo Dome, Amsterdam."
  },
  {
   "id": "kool-and-the-gang-lanxess-2027-03-09",
@@ -1675,7 +1845,9 @@
   "note": "Show 20:00.",
   "planBy": "2027-02-16",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at Lanxess Arena, Köln."
  },
  {
   "id": "teddy-swims-lanxess-2027-03-13",
@@ -1699,7 +1871,9 @@
   "note": "Also 14 March; only premium tickets (from 199 EUR) listed.",
   "planBy": "2027-02-11",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The UGLY Tour at Lanxess Arena, Köln."
  },
  {
   "id": "teddy-swims-ziggo-2027-03-16",
@@ -1724,7 +1898,9 @@
   "note": "Three nights (16, 17 and 18 Mar); show 20:00.",
   "planBy": "2027-02-23",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "THE UGLY TOUR at Ziggo Dome, Amsterdam."
  },
  {
   "id": "angele-palais-12-2027-03-20",
@@ -1750,7 +1926,9 @@
   "note": "Sold out; try the Rockhal Belval open air on 20 Jun 2027 instead.",
   "planBy": "2027-02-18",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Instinct Tour at ING Arena (Palais 12), Brussels."
  },
  {
   "id": "angele-palais-12-2027-03-21",
@@ -1776,7 +1954,9 @@
   "note": "Sold out; second Brussels night.",
   "planBy": "2027-02-19",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Instinct Tour at ING Arena (Palais 12), Brussels."
  },
  {
   "id": "olivia-rodrigo-ziggo-2027-03-23",
@@ -1801,7 +1981,9 @@
   "note": "First of four Amsterdam nights; show 19:30.",
   "planBy": "2027-02-21",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Unraveled Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "olivia-rodrigo-ziggo-2027-03-24",
@@ -1826,7 +2008,9 @@
   "note": "Second of four nights; show 19:30.",
   "planBy": "2027-02-22",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Unraveled Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "teddy-swims-sportpaleis-2027-03-26",
@@ -1851,7 +2035,9 @@
   "note": "Second show Sat 27 Mar; waiting list open on both nights.",
   "planBy": "2027-02-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The UGLY Tour at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "olivia-rodrigo-ziggo-2027-03-27",
@@ -1876,7 +2062,9 @@
   "note": "Third of four nights; show 19:30.",
   "planBy": "2027-02-25",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Unraveled Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "olivia-rodrigo-ziggo-2027-03-28",
@@ -1901,7 +2089,9 @@
   "note": "Fourth night, Sunday, doors 17:30 and show 19:30.",
   "planBy": "2027-02-26",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Unraveled Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "suzan-freek-sportpaleis-2027-04-03",
@@ -1925,29 +2115,9 @@
   "note": "Ticket sale starts Fri 6 Nov 2026 at 10:00.",
   "planBy": "2026-11-13",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
- },
- {
-  "id": "niska-stade-de-france-2027-04-10",
-  "artist": "Niska",
-  "short": "Niska SdF",
-  "venueId": "stade-de-france",
-  "date": "2027-04-10",
-  "doors": null,
-  "genre": "hiphop",
-  "for": [],
-  "status": "onsale",
-  "onSale": null,
-  "sellOutRisk": "medium",
-  "ticketUrl": "https://www.stadefrance.com/fr/billetterie/niska",
-  "priceFrom": null,
-  "confidence": "confirmed",
-  "source": "https://www.stadefrance.com/fr/billetteries/concerts",
-  "tour": null,
-  "note": "French rap stadium run of up to three nights (9 to 11 April; the venue lists the dates inconsistently).",
-  "planBy": "2027-03-20",
-  "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "ateez-ziggo-2027-04-12",
@@ -1971,7 +2141,9 @@
   "note": "Amsterdam 12 April and Antwerp 17 April 2027 were announced by KQ Entertainment on 12 Oct 2026; venue and sale date not yet published, Ziggo Dome expected.",
   "dateNote": "Date from the KQ Entertainment tour announcement as reported 12 Oct 2026; venue not confirmed and the show is not yet on the Ziggo Dome agenda.",
   "planBy": "2027-03-13",
-  "addedOn": "2026-11-04"
+  "addedOn": "2026-11-04",
+  "tier": 1,
+  "why": "ATEEZ 2027 World Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "gracie-abrams-sportpaleis-2027-04-15",
@@ -1996,7 +2168,9 @@
   "note": "First of two Antwerp nights; support Samia.",
   "planBy": "2027-03-16",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Look at My Life Tour at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "gracie-abrams-sportpaleis-2027-04-16",
@@ -2021,7 +2195,9 @@
   "note": "Second Antwerp night; support Samia.",
   "planBy": "2027-03-17",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Look at My Life Tour at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "sofiane-pamart-stade-de-france-2027-04-17",
@@ -2045,7 +2221,9 @@
   "note": "Pianist's first stadium show, a big-production piano spectacle.",
   "planBy": "2027-03-27",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at Stade de France, Saint-Denis, a stadium show."
  },
  {
   "id": "thirty-seconds-to-mars-lanxess-2027-04-21",
@@ -2070,7 +2248,9 @@
   "note": "Only premium price (129 EUR) shown on the arena page.",
   "planBy": "2027-03-31",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "A Beautiful Lie vs This Is War at Lanxess Arena, Köln."
  },
  {
   "id": "olivia-rodrigo-pldefense-2027-04-23",
@@ -2094,29 +2274,9 @@
   "note": "Both nights (23 and 24 April, 20:00) sold out; alert list on the venue page.",
   "planBy": "2027-03-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
- },
- {
-  "id": "sch-stade-de-france-2027-04-23",
-  "artist": "SCH",
-  "short": "SCH SdF",
-  "venueId": "stade-de-france",
-  "date": "2027-04-23",
-  "doors": null,
-  "genre": "hiphop",
-  "for": [],
-  "status": "onsale",
-  "onSale": null,
-  "sellOutRisk": "medium",
-  "ticketUrl": "https://www.stadefrance.com/fr/billetterie/sch",
-  "priceFrom": null,
-  "confidence": "confirmed",
-  "source": "https://www.stadefrance.com/fr/billetteries/concerts",
-  "tour": null,
-  "note": "French rap; also 24 April.",
-  "planBy": "2027-04-02",
-  "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Unraveled Tour at Plenitude Arena (Paris La Défense Arena), Nanterre."
  },
  {
   "id": "thirty-seconds-to-mars-lotto-arena-2027-04-23",
@@ -2141,7 +2301,9 @@
   "note": "Plays both classic albums in full.",
   "planBy": "2027-04-02",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "A Beautiful Lie vs This Is War at Lotto Arena, Antwerp."
  },
  {
   "id": "roxy-dekker-jca-2027-04-24",
@@ -2166,7 +2328,9 @@
   "note": "Biggest show of her career; the ArenA sold out within minutes.",
   "planBy": "2027-03-25",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at Johan Cruijff ArenA, Amsterdam, a stadium show."
  },
  {
   "id": "sabaton-ahoy-2027-04-24",
@@ -2190,7 +2354,9 @@
   "note": "Military-history power metal with tank stage set; show 20:00.",
   "planBy": "2027-04-03",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at Rotterdam Ahoy, Rotterdam."
  },
  {
   "id": "simple-minds-lanxess-2027-04-28",
@@ -2214,7 +2380,9 @@
   "note": "Show 20:00.",
   "planBy": "2027-04-07",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "European Tour - Live 2027 at Lanxess Arena, Köln."
  },
  {
   "id": "world-of-hans-zimmer-ziggo-2027-04-28",
@@ -2239,7 +2407,9 @@
   "note": "Orchestral film-music spectacle; show 20:00.",
   "planBy": "2027-04-07",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "A New Dimension at Ziggo Dome, Amsterdam."
  },
  {
   "id": "die-aerzte-lanxess-2027-04-29",
@@ -2263,7 +2433,9 @@
   "note": "Three Cologne nights 29 April to 1 May; doors 18:00; only premium tickets listed, regular likely sold out.",
   "planBy": "2027-03-30",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Eine Gänsehaut nach dem andern! Tour 2027 at Lanxess Arena, Köln."
  },
  {
   "id": "world-of-hans-zimmer-sportpaleis-2027-04-29",
@@ -2288,7 +2460,9 @@
   "note": "Orchestral film-music spectacle with large video projections.",
   "planBy": "2027-04-08",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "A New Dimension at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "u2-stade-de-france-2027-05-05",
@@ -2313,7 +2487,9 @@
   "note": "General sale Friday 6 November 10:00; tickets from 35 EUR.",
   "planBy": "2026-11-06",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "The Greatest Show On Earth World Tour at Stade de France, Saint-Denis, a stadium show."
  },
  {
   "id": "gracie-abrams-ziggo-2027-05-07",
@@ -2337,7 +2513,9 @@
   "note": "Three nights (7, 8 and 10 May); show 20:00.",
   "planBy": "2027-04-07",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Look at My Life Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "celine-dion-pldefense-2027-05-08",
@@ -2362,7 +2540,9 @@
   "note": "Residency of about ten shows between 8 and 29 May 2027; individual dates not listed and tickets only through registered-fan sales windows.",
   "planBy": "2027-04-08",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Céline Dion Paris 2027 at Plenitude Arena (Paris La Défense Arena), Nanterre."
  },
  {
   "id": "u2-stade-de-france-2027-05-08",
@@ -2387,7 +2567,9 @@
   "note": "Second Paris date; general sale Friday 6 November 10:00.",
   "planBy": "2026-11-06",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "The Greatest Show On Earth World Tour at Stade de France, Saint-Denis, a stadium show."
  },
  {
   "id": "angele-afas-live-2027-05-11",
@@ -2412,7 +2594,9 @@
   "note": "Belgian pop star touring her third album.",
   "planBy": "2027-04-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at AFAS Live, Amsterdam."
  },
  {
   "id": "suzan-freek-ziggo-2027-05-14",
@@ -2436,7 +2620,9 @@
   "note": "Six Ziggo Dome shows 14-23 May; sale starts 6 Nov 2026 at 09:00 via Paylogic.",
   "planBy": "2026-11-13",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live in de Ziggo Dome 2027 at Ziggo Dome, Amsterdam."
  },
  {
   "id": "scorpions-westfalenhalle-2027-05-15",
@@ -2460,7 +2646,9 @@
   "note": null,
   "planBy": "2027-04-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Welttournee 2027 at Westfalenhalle, Dortmund."
  },
  {
   "id": "hilary-duff-forest-national-2027-05-16",
@@ -2485,7 +2673,9 @@
   "note": "Waiting list open; nostalgia-heavy demand.",
   "planBy": "2027-04-16",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "the lucky me tour at Forest National, Brussels."
  },
  {
   "id": "sombr-sportpaleis-2027-05-16",
@@ -2509,7 +2699,9 @@
   "note": "Waiting list already open; Gen-Z favourite upgraded to the arena.",
   "planBy": "2027-04-16",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "You Are The Reason Tour at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "andrea-bocelli-lanxess-2027-05-20",
@@ -2534,29 +2726,9 @@
   "note": "Show 19:30.",
   "planBy": "2027-04-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
- },
- {
-  "id": "kaaris-stade-de-france-2027-05-22",
-  "artist": "Kaaris",
-  "short": "Kaaris SdF",
-  "venueId": "stade-de-france",
-  "date": "2027-05-22",
-  "doors": null,
-  "genre": "hiphop",
-  "for": [],
-  "status": "onsale",
-  "onSale": null,
-  "sellOutRisk": "medium",
-  "ticketUrl": "https://www.stadefrance.com/fr/billetterie/kaaris",
-  "priceFrom": null,
-  "confidence": "confirmed",
-  "source": "https://www.stadefrance.com/fr/billetteries/concerts",
-  "tour": null,
-  "note": "French rap stadium show.",
-  "planBy": "2027-05-01",
-  "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Romanza World Tour 2027 at Lanxess Arena, Köln."
  },
  {
   "id": "sombr-lanxess-2027-05-23",
@@ -2580,7 +2752,9 @@
   "note": "Gen-Z pop breakout; extra show 24 May added; only premium price (149 EUR) shown.",
   "planBy": "2027-04-23",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "You Are The Reason Tour at Lanxess Arena, Köln."
  },
  {
   "id": "rod-stewart-ziggo-2027-05-28",
@@ -2604,7 +2778,9 @@
   "note": "Billed as The Final Encore; show 20:00.",
   "planBy": "2027-05-07",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Final Encore at Ziggo Dome, Amsterdam."
  },
  {
   "id": "toppers-jca-2027-05-28",
@@ -2629,7 +2805,9 @@
   "note": "Annual dress-up stadium party, first of two nights; ticket sale not yet listed on the ArenA page.",
   "planBy": "2027-05-07",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Toppers in Concert 2027 at Johan Cruijff ArenA, Amsterdam, a stadium show."
  },
  {
   "id": "rod-stewart-sportpaleis-2027-05-29",
@@ -2653,29 +2831,9 @@
   "note": "Billed as a farewell tour.",
   "planBy": "2027-05-08",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
- },
- {
-  "id": "sdm-stade-de-france-2027-05-29",
-  "artist": "SDM",
-  "short": "SDM SdF",
-  "venueId": "stade-de-france",
-  "date": "2027-05-29",
-  "doors": null,
-  "genre": "hiphop",
-  "for": [],
-  "status": "soldout",
-  "onSale": null,
-  "sellOutRisk": "high",
-  "ticketUrl": "https://www.stadefrance.com/fr/billetterie/sdm",
-  "priceFrom": null,
-  "confidence": "confirmed",
-  "source": "https://www.stadefrance.com/fr/billetteries/concerts",
-  "tour": null,
-  "note": "French rap; 29 and 30 May both marked complet.",
-  "planBy": "2027-04-29",
-  "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Final Encore at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "toppers-jca-2027-05-29",
@@ -2700,7 +2858,9 @@
   "note": "Second night of Toppers in Concert 2027.",
   "planBy": "2027-05-08",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Toppers in Concert 2027 at Johan Cruijff ArenA, Amsterdam, a stadium show."
  },
  {
   "id": "sombr-ziggo-2027-05-31",
@@ -2724,7 +2884,9 @@
   "note": "Two nights (31 May and 1 Jun); show 20:00.",
   "planBy": "2027-05-01",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "You Are The Reason Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "nickelback-forest-national-2027-06-05",
@@ -2748,7 +2910,9 @@
   "note": null,
   "planBy": "2027-05-15",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Everything Under The Sun Tour at Forest National, Brussels."
  },
  {
   "id": "u2-jca-2027-06-05",
@@ -2774,7 +2938,9 @@
   "note": "First of two ArenA nights with Wolf Alice as support; presale starts 5 Nov 2026 at 10:00.",
   "planBy": "2026-11-05",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "The Greatest Show On Earth World Tour at Johan Cruijff ArenA, Amsterdam, a stadium show."
  },
  {
   "id": "u2-jca-2027-06-06",
@@ -2800,7 +2966,9 @@
   "note": "Second ArenA night; presale starts 5 Nov 2026 at 10:00.",
   "planBy": "2026-11-05",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "The Greatest Show On Earth World Tour at Johan Cruijff ArenA, Amsterdam, a stadium show."
  },
  {
   "id": "nickelback-ziggo-2027-06-07",
@@ -2824,7 +2992,9 @@
   "note": "Show 20:00.",
   "planBy": "2027-05-17",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Everything Under The Sun Tour at Ziggo Dome, Amsterdam."
  },
  {
   "id": "tame-impala-ahoy-2027-06-07",
@@ -2849,7 +3019,9 @@
   "note": "Three nights (7, 8 and 9 June) with Wet Leg as special guest; show 19:15.",
   "planBy": "2027-05-17",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Deadbeat EU/UK Tour at Rotterdam Ahoy, Rotterdam."
  },
  {
   "id": "nickelback-lanxess-2027-06-09",
@@ -2873,7 +3045,9 @@
   "note": "Show 18:30; only premium price (149 EUR) shown.",
   "planBy": "2027-05-19",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Everything Under The Sun at Lanxess Arena, Köln."
  },
  {
   "id": "kraftklub-rheinenergie-2027-06-11",
@@ -2903,7 +3077,9 @@
   "driveMin": 55,
   "planBy": "2027-05-21",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at RheinEnergieStadion, Köln, a stadium show."
  },
  {
   "id": "querbeat-rheinenergie-2027-06-12",
@@ -2933,7 +3109,9 @@
   "driveMin": 55,
   "planBy": "2027-05-22",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at RheinEnergieStadion, Köln, a stadium show."
  },
  {
   "id": "hayley-williams-forest-national-2027-06-14",
@@ -2958,7 +3136,9 @@
   "note": "Paramore frontwoman solo show, promoted by Greenhouse Talent.",
   "planBy": "2027-05-15",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "THE HAYLEY WILLIAMS SHOW at Forest National, Brussels."
  },
  {
   "id": "blink-182-pldefense-2027-06-15",
@@ -2982,7 +3162,9 @@
   "note": "Show 20:00; general sale opened 26 June 2026.",
   "planBy": "2027-05-25",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at Plenitude Arena (Paris La Défense Arena), Nanterre."
  },
  {
   "id": "sting-rockhal-2027-06-15",
@@ -3007,7 +3189,9 @@
   "note": "Open Air Belval, outdoors next to the Rockhal.",
   "planBy": "2027-05-25",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at Rockhal, Esch-sur-Alzette."
  },
  {
   "id": "hayley-williams-afas-live-2027-06-17",
@@ -3032,7 +3216,9 @@
   "note": "Paramore singer solo show; sold out.",
   "planBy": "2027-05-18",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "The Hayley Williams Show at AFAS Live, Amsterdam."
  },
  {
   "id": "tame-impala-lanxess-2027-06-17",
@@ -3057,7 +3243,9 @@
   "note": "Three nights 17 to 19 June; doors 18:00, show 19:15; only premium price (149 EUR) shown.",
   "planBy": "2027-05-18",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Deadbeat EU/UK Tour 2027 at Lanxess Arena, Köln."
  },
  {
   "id": "herbert-groenemeyer-veltins-2027-06-19",
@@ -3087,7 +3275,9 @@
   "driveMin": 100,
   "planBy": "2027-05-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Arena Tour 2027 at Veltins-Arena, Gelsenkirchen, a stadium show."
  },
  {
   "id": "qmusic-foute-party-gelredome-2027-06-19",
@@ -3112,7 +3302,9 @@
   "note": "Snollebollekes, Paul Elstak, Cascada, Jan Smit and more, show 20:00-23:00; early-bird tiers already sold out.",
   "planBy": "2027-05-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at GelreDome, Arnhem, a stadium show."
  },
  {
   "id": "scooter-rheinenergie-2027-06-19",
@@ -3143,7 +3335,9 @@
   "driveMin": 55,
   "planBy": "2027-05-29",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at RheinEnergieStadion, Köln, a stadium show."
  },
  {
   "id": "angele-rockhal-2027-06-20",
@@ -3169,7 +3363,9 @@
   "note": "Open Air Belval; the Brussels arena dates are already sold out.",
   "planBy": "2027-05-21",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Instinct Tour at Rockhal, Esch-sur-Alzette."
  },
  {
   "id": "scorpions-ahoy-2027-06-20",
@@ -3193,7 +3389,9 @@
   "note": "Newly announced; show 20:00.",
   "planBy": "2027-05-30",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Love, Peace & Rock 'n Roll Tour 2027 at Rotterdam Ahoy, Rotterdam."
  },
  {
   "id": "herbert-groenemeyer-lanxess-2027-06-21",
@@ -3217,7 +3415,9 @@
   "note": "Extra Cologne dates 21 and 22 June after the 5 June show sold out of regular tickets.",
   "planBy": "2027-05-22",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Arena Tour 2027 at Lanxess Arena, Köln."
  },
  {
   "id": "simply-red-sportpaleis-2027-06-22",
@@ -3242,7 +3442,9 @@
   "note": null,
   "planBy": "2027-06-01",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Summer Funk '27 at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "jack-johnson-forest-national-2027-06-26",
@@ -3266,7 +3468,9 @@
   "note": null,
   "planBy": "2027-06-05",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "SURFILMUSIC TOUR 2027 at Forest National, Brussels."
  },
  {
   "id": "take-that-afas-live-2027-06-27",
@@ -3291,7 +3495,9 @@
   "note": "Tickets via Eventim.",
   "planBy": "2027-06-06",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Live at AFAS Live, Amsterdam."
  },
  {
   "id": "die-toten-hosen-veltins-2027-06-29",
@@ -3321,7 +3527,9 @@
   "driveMin": 100,
   "planBy": "2027-05-30",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Trink aus! Wir müssen gehen Tour 2026/27 at Veltins-Arena, Gelsenkirchen, a stadium show."
  },
  {
   "id": "karol-g-pldefense-2027-07-01",
@@ -3346,7 +3554,9 @@
   "note": null,
   "planBy": "2027-06-01",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Viajando por el Mundo Tropitour at Plenitude Arena (Paris La Défense Arena), Nanterre."
  },
  {
   "id": "die-80er-live-rheinenergie-2027-07-03",
@@ -3377,7 +3587,9 @@
   "driveMin": 55,
   "planBy": "2027-06-12",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at RheinEnergieStadion, Köln, a stadium show."
  },
  {
   "id": "toto-sportpaleis-2027-07-05",
@@ -3401,7 +3613,9 @@
   "note": null,
   "planBy": "2027-06-14",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "50th Anniversary Tour at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
   "id": "karol-g-jca-2027-07-10",
@@ -3426,7 +3640,9 @@
   "note": "First ArenA show for the Latin superstar; tickets via Ticketmaster.",
   "planBy": "2027-06-19",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Viajando Por El Mundo Tropitour at Johan Cruijff ArenA, Amsterdam, a stadium show."
  },
  {
   "id": "harry-styles-pldefense-2027-07-16",
@@ -3451,7 +3667,9 @@
   "note": "Also 17 July; support Caroline Polachek; on sale since 14 September 2026, expect limited availability.",
   "planBy": "2027-06-16",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Together, Together Tour at Plenitude Arena (Paris La Défense Arena), Nanterre."
  },
  {
   "id": "oasis-jca-2027-07-16",
@@ -3476,7 +3694,9 @@
   "note": "Sold out; only hospitality packages remain, see oasisinet.com.",
   "planBy": "2027-06-16",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Oasis Live '27 at Johan Cruijff ArenA, Amsterdam, a stadium show."
  },
  {
   "id": "karol-g-merkur-2027-07-17",
@@ -3507,7 +3727,9 @@
   "driveMin": 70,
   "planBy": "2027-06-17",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Viajando por el Mundo Tropitour at Merkur Spiel-Arena, Düsseldorf, a stadium show."
  },
  {
   "id": "oasis-jca-2027-07-17",
@@ -3532,7 +3754,9 @@
   "note": "Second night, sold out; only hospitality packages remain.",
   "planBy": "2027-06-17",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Oasis Live '27 at Johan Cruijff ArenA, Amsterdam, a stadium show."
  },
  {
   "id": "oasis-stade-de-france-2027-07-20",
@@ -3556,7 +3780,9 @@
   "note": "Paris dates were moved to 20 and 23 July 2027; tickets from 35 EUR.",
   "planBy": "2027-06-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at Stade de France, Saint-Denis, a stadium show."
  },
  {
   "id": "harry-styles-pldefense-2027-07-23",
@@ -3581,7 +3807,9 @@
   "note": "Also 24 July; these two dates were added after strong demand.",
   "planBy": "2027-06-23",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Together, Together Tour at Plenitude Arena (Paris La Défense Arena), Nanterre."
  },
  {
   "id": "oasis-stade-de-france-2027-07-23",
@@ -3605,7 +3833,9 @@
   "note": "Second Paris date; tickets from 35 EUR.",
   "planBy": "2027-06-23",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at Stade de France, Saint-Denis, a stadium show."
  },
  {
   "id": "clouseau-king-baudouin-2027-08-04",
@@ -3635,7 +3865,9 @@
   "driveMin": 90,
   "planBy": "2027-07-05",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at King Baudouin Stadium, Brussels, a stadium show."
  },
  {
   "id": "clouseau-king-baudouin-2027-08-06",
@@ -3665,7 +3897,9 @@
   "driveMin": 90,
   "planBy": "2027-07-07",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at King Baudouin Stadium, Brussels, a stadium show."
  },
  {
   "id": "clouseau-king-baudouin-2027-08-07",
@@ -3686,7 +3920,7 @@
   "confidence": "confirmed",
   "source": "https://www.greenhousetalent.com/benl/agenda/clouseau",
   "tour": null,
-  "note": "Third show added after the first two sold out; tickets still available.",
+  "note": "Third show added after the first two sold out.",
   "venueName": "King Baudouin Stadium",
   "city": "Brussels",
   "lat": 50.895,
@@ -3695,7 +3929,9 @@
   "driveMin": 90,
   "planBy": "2027-07-08",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at King Baudouin Stadium, Brussels, a stadium show."
  },
  {
   "id": "ole-auf-schalke-veltins-2027-10-02",
@@ -3725,6 +3961,38 @@
   "driveMin": 100,
   "planBy": "2027-09-18",
   "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "tier": 1,
+  "why": "Live at Veltins-Arena, Gelsenkirchen, a stadium show."
+ },
+ {
+  "id": "il-volo-forest-national-2027-10-10",
+  "artist": "Il Volo",
+  "short": "Il Volo",
+  "venueId": "forest-national",
+  "date": "2027-10-10",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "tier": 2,
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.vorst-nationaal.be/en/event/il-volo-e78c4726",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.ilvolomusic.com/tour",
+  "tour": "Il Volo World Tour 2027",
+  "note": "The Italian pop-opera trio closes its European autumn leg with Brussels, Dusseldorf and Frankfurt dates.",
+  "tags": [
+   "italian"
+  ],
+  "why": "Il Volo World Tour 2027 at Forest National, Brussels.",
+  "planBy": "2027-09-19",
+  "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04"
  },
  {
@@ -3750,6 +4018,68 @@
   "note": "Laser and light spectacle from the electronic pioneer.",
   "planBy": "2027-09-20",
   "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Oxygene & Beyond Tour at Forest National, Brussels."
+ },
+ {
+  "id": "il-volo-psd-bank-dome-2027-10-13",
+  "artist": "Il Volo",
+  "short": "Il Volo",
+  "venueId": "psd-bank-dome",
+  "date": "2027-10-13",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "tier": 2,
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.eventim.de/artist/il-volo/",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.ilvolomusic.com/tour",
+  "tour": "Il Volo World Tour 2027",
+  "note": "Closest Il Volo date to home, about an hour from Hoensbroek.",
+  "tags": [
+   "italian"
+  ],
+  "why": "Il Volo World Tour 2027 at PSD Bank Dome, Düsseldorf.",
+  "planBy": "2027-09-22",
+  "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04"
+ },
+ {
+  "id": "il-volo-festhalle-2027-10-20",
+  "artist": "Il Volo",
+  "short": "Il Volo",
+  "venueId": "festhalle-frankfurt",
+  "date": "2027-10-20",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "tier": 2,
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.eventim.de/artist/il-volo/",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.ilvolomusic.com/tour",
+  "tour": "Il Volo World Tour 2027",
+  "note": null,
+  "tags": [
+   "italian"
+  ],
+  "why": "Il Volo World Tour 2027 at Festhalle, Frankfurt.",
+  "planBy": "2027-09-29",
+  "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04"
  },
  {
@@ -3774,7 +4104,9 @@
   "note": "Rammstein frontman's solo show; show 20:00.",
   "planBy": "2027-10-07",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "World Tour 2027 at Rudolf Weber-Arena, Oberhausen."
  },
  {
   "id": "laura-pausini-forest-national-2027-11-18",
@@ -3798,7 +4130,9 @@
   "note": null,
   "planBy": "2027-10-28",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Io Canto / Yo Canto World Tour 2026/2027 at Forest National, Brussels."
  },
  {
   "id": "andre-rieu-lanxess-2027-11-20",
@@ -3822,6 +4156,126 @@
   "note": "Listed on the arena calendar without a ticket link yet.",
   "planBy": "2027-10-30",
   "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04",
+  "tier": 2,
+  "why": "Die große Deutschlandtour 2027 at Lanxess Arena, Köln."
+ },
+ {
+  "id": "laura-pausini-ziggo-2027-11-24",
+  "artist": "Laura Pausini",
+  "short": "Laura Pausini",
+  "venueId": "ziggo-dome",
+  "date": "2027-11-24",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "tier": 2,
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.ziggodome.nl/agenda/",
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://www.ziggodome.nl/agenda/",
+  "tour": "Io Canto World Tour 2026/2027",
+  "note": "Announced as the closing night of the Io Canto World Tour; the Ziggo Dome and TicketOne pages could not be read during research, so confirm the date on the venue site.",
+  "tags": [
+   "italian"
+  ],
+  "why": "Io Canto World Tour 2026/2027 at Ziggo Dome, Amsterdam.",
+  "planBy": "2027-11-03",
+  "addedOn": "2026-11-04"
+ },
+ {
+  "id": "eros-ramazzotti-psd-bank-dome-2028-04-01",
+  "artist": "Eros Ramazzotti",
+  "short": "Eros Ramazzotti",
+  "venueId": "psd-bank-dome",
+  "date": "2028-04-01",
+  "doors": "18:30",
+  "genre": "pop",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "tier": 2,
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://fkpscorpio.de/en/artists/detail/eros-ramazzotti/",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://fkpscorpio.de/en/artists/detail/eros-ramazzotti/",
+  "tour": "Una Storia Importante World Tour",
+  "note": "Rescheduled from 8 Apr 2027 by promoter FKP Scorpio; show starts 20:00 and 2027 tickets stay valid.",
+  "tags": [
+   "italian"
+  ],
+  "why": "Una Storia Importante World Tour at PSD Bank Dome, Düsseldorf.",
+  "planBy": "2028-03-11",
+  "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04"
+ },
+ {
+  "id": "eros-ramazzotti-rockhal-2028-04-08",
+  "artist": "Eros Ramazzotti",
+  "short": "Eros Ramazzotti",
+  "venueId": "rockhal",
+  "date": "2028-04-08",
+  "doors": "18:30",
+  "genre": "pop",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "tier": 2,
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": "https://rockhal.lu/agenda-en/",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://rockhal.lu/agenda-en/",
+  "tour": "Una Storia Importante World Tour",
+  "note": "The 2027 European leg moved to 2028; Rockhal now lists Saturday 8 Apr 2028. His 2023 Rockhal show sold out.",
+  "tags": [
+   "italian"
+  ],
+  "why": "Una Storia Importante World Tour at Rockhal, Esch-sur-Alzette.",
+  "planBy": "2028-03-09",
+  "addedOn": "2026-11-04",
+  "verifiedOn": "2026-11-04"
+ },
+ {
+  "id": "eros-ramazzotti-forest-national-2028-04-14",
+  "artist": "Eros Ramazzotti",
+  "short": "Eros Ramazzotti",
+  "venueId": "forest-national",
+  "date": "2028-04-14",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "tier": 2,
+  "status": "tbd",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": "https://www.forest-national.be/en/event/eros-ramazzotti-bb0a5177",
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://www.forest-national.be/en/event/eros-ramazzotti-bb0a5177",
+  "tour": "Una Storia Importante World Tour",
+  "note": "Moved from the originally announced 4 Apr 2027; the venue page sits behind a login redirect, so re-check the date before buying. The venue page could not be read; the date comes from the tour announcement.",
+  "tags": [
+   "italian"
+  ],
+  "why": "Una Storia Importante World Tour at Forest National, Brussels.",
+  "planBy": "2028-03-15",
+  "addedOn": "2026-11-04"
  }
 ]
