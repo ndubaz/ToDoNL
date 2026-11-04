@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rondom</title>
+<meta name="description" content="Events worth the drive from Hoensbroek: festivals, concerts, military and aviation days, sport and exhibitions, with picks, a calendar and your plan.">
+<!--PWA-->
+<meta name="theme-color" content="#0b1518">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Rondom">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<!--/PWA-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+/* Rondom: a radar for weekends worth the drive. Dark only. Near-black blue-green ground, one warm accent for "act now",
+   one cool accent for "new", a fixed color per lane, a small hue per person. Body text stays at 7:1 or better. */
+:root {
+  --bg: #0b1518; --s1: #111f23; --s2: #17282d; --s3: #1f353b; --line: #2b434a;
+  --t1: #f2f5f1; --t2: #cdd8d5; --t3: #a2b4b1;
+  --urgent: #ffb454; --urgent-ink: #221400; --new: #7de0ff; --new-ink: #02191d;
+  --anne: #ff6b9d; --alma: #7cb8ff; --nick: #b5c951; --family: #efe6c9;
+  --l-fest: #ff8a5b; --l-music: #b388ff; --l-mil: #3ecf8e; --l-sport: #35c4d6; --l-cult: #f6c445;
+  --ok: #7fdca8; --warn: #ffc875; --bad: #ff8585;
+  --display: "Bricolage Grotesque", "Avenir Next", "Helvetica Neue", sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", sans-serif;
+  --r: 14px; --tabh: 64px; --rail: 0px;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { font-size: 16px; -webkit-text-size-adjust: 100%; scroll-padding-top: 70px; }
+html, body { margin: 0; background: var(--bg); }
+body { color: var(--t1); font-family: var(--body); line-height: 1.5; -webkit-font-smoothing: antialiased; padding-bottom: calc(var(--tabh) + env(safe-area-inset-bottom) + 24px); overflow-x: hidden; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+a { color: var(--new); text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--urgent); outline-offset: 2px; border-radius: 6px; }
+.wrap { max-width: 1280px; margin: 0 auto; padding: 0 max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left)); }
+.num { font-variant-numeric: tabular-nums; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.muted { color: var(--t3); }
+h1, h2, h3, .disp { font-family: var(--display); font-weight: 700; letter-spacing: -.01em; }
+
+/* ===== Header: full title block on Home, slim bar elsewhere and on scroll ===== */
+.top { position: sticky; top: 0; z-index: 40; background: rgba(11,21,24,.96); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid transparent; }
+.top.slim { border-bottom-color: var(--line); }
+.slimbar { display: flex; align-items: center; gap: 10px; height: 52px; padding-top: env(safe-area-inset-top); }
+.slimbar img { width: 28px; height: 28px; border-radius: 8px; }
+.slimbar .nm { font-family: var(--display); font-weight: 700; font-size: 1.1rem; flex: 1; }
+.iconbtn { border: 1px solid var(--line); background: var(--s1); border-radius: 12px; min-width: 44px; height: 44px; padding: 0 12px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; font-weight: 600; color: var(--t2); }
+.iconbtn svg { width: 20px; height: 20px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.hero { position: relative; overflow: hidden; margin: 6px 0 2px; padding: 22px 0 18px; isolation: isolate; }
+.hero .glow { position: absolute; inset: -40% -10% auto auto; width: 520px; height: 520px; z-index: -1; pointer-events: none; }
+.hero .radial { position: absolute; left: -20%; top: -60%; width: 70%; height: 220%; z-index: -2; background: radial-gradient(closest-side, rgba(53,196,214,.16), rgba(53,196,214,0)); pointer-events: none; }
+.hero .tb { display: grid; grid-template-columns: 44px 1fr; gap: 14px; align-items: center; }
+.hero img { width: 44px; height: 44px; border-radius: 12px; }
+.hero h1 { font-size: 2rem; line-height: 1; margin: 0; font-variation-settings: "opsz" 96; }
+.hero p { margin: 4px 0 0; color: var(--t2); font-size: .95rem; }
+.top.slim .hero { display: none; }
+.top:not(.slim) .slimbar { display: none; }
+
+/* ===== Tabs ===== */
+.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 45; background: rgba(11,21,24,.97); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom); }
+.tabs .wrap { display: grid; grid-template-columns: repeat(6, 1fr); height: var(--tabh); padding: 0 4px; }
+.tabs button { border: 0; background: none; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; color: var(--t3); font-size: .7rem; font-weight: 600; letter-spacing: .02em; position: relative; min-width: 44px; }
+.tabs svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.tabs button[aria-current="page"] { color: var(--urgent); }
+.tabs button[aria-current="page"]::before { content: ""; position: absolute; top: 0; left: 30%; right: 30%; height: 3px; border-radius: 0 0 3px 3px; background: var(--urgent); }
+.badge { position: absolute; top: 7px; left: calc(50% + 6px); background: var(--new); color: var(--new-ink); font-size: .66rem; min-width: 17px; height: 17px; border-radius: 9px; display: grid; place-items: center; padding: 0 4px; font-weight: 700; }
+.badge[hidden] { display: none; }
+.badge.t1::after { content: ""; position: absolute; right: -3px; top: -3px; width: 7px; height: 7px; border-radius: 50%; background: var(--urgent); border: 1.5px solid var(--bg); }
+@keyframes pulse { 0% { transform: scale(1); } 40% { transform: scale(1.5); } 100% { transform: scale(1); } }
+@media (prefers-reduced-motion: no-preference) { .badge.pulse { animation: pulse .7s ease-out 1; } }
+
+main { padding-top: 8px; }
+.view[hidden] { display: none !important; }
+h2.sec { font-size: 1.3rem; margin: 26px 0 10px; line-height: 1.15; text-wrap: balance; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+h2.sec small { font-family: var(--body); font-weight: 500; font-size: .85rem; color: var(--t3); }
+h2.sec a { font-family: var(--body); font-weight: 500; font-size: .85rem; margin-left: auto; }
+h3.sub { font-family: var(--body); font-size: .74rem; letter-spacing: .12em; text-transform: uppercase; color: var(--t3); margin: 16px 0 8px; font-weight: 600; }
+h2.lane { font-size: 1.15rem; margin: 24px 0 4px; padding-left: 12px; border-left: 4px solid var(--lc, var(--t3)); line-height: 1.2; }
+.lead { color: var(--t2); margin: 4px 0 0; }
+.empty { border: 1px dashed var(--line); border-radius: var(--r); padding: 20px; color: var(--t2); text-align: center; }
+
+/* ===== Chips and controls ===== */
+.fstrip { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 8px 0 4px; }
+.chip { border: 1px solid var(--line); background: var(--s1); color: var(--t2); border-radius: 999px; padding: 7px 13px; font-size: .88rem; font-weight: 600; min-height: 38px; display: inline-flex; align-items: center; gap: 7px; }
+.chip[aria-pressed="true"] { background: var(--t1); color: var(--bg); border-color: var(--t1); }
+.chip .pd { width: 10px; height: 10px; border-radius: 50%; background: var(--pc); flex: none; }
+.chip[aria-pressed="true"] .pd { outline: 2px solid var(--bg); }
+.chip.lane[aria-pressed="true"] { background: var(--lc); border-color: var(--lc); color: #07140f; }
+.seg { display: inline-flex; background: var(--s1); border: 1px solid var(--line); border-radius: 999px; padding: 3px; max-width: 100%; overflow-x: auto; }
+.seg button { border: 0; background: none; border-radius: 999px; padding: 7px 12px; font-weight: 600; font-size: .86rem; color: var(--t2); min-height: 36px; white-space: nowrap; }
+.seg button[aria-pressed="true"] { background: var(--urgent); color: var(--urgent-ink); }
+.search { display: flex; gap: 8px; margin-top: 6px; }
+.search input { flex: 1; min-width: 0; background: var(--s1); border: 1px solid var(--line); border-radius: 12px; padding: 11px 14px; font-size: 1rem; color: var(--t1); }
+.search input::placeholder { color: var(--t3); }
+select { background: var(--s1); border: 1px solid var(--line); border-radius: 12px; padding: 9px 12px; color: var(--t1); font-size: .95rem; max-width: 100%; min-height: 44px; }
+textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; color: var(--t1); min-height: 64px; resize: vertical; }
+.btn { border: 1px solid var(--line); background: var(--s2); border-radius: 12px; padding: 10px 14px; font-weight: 600; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; color: var(--t1); }
+.btn.pri { background: var(--urgent); border-color: var(--urgent); color: var(--urgent-ink); }
+.btn.sm { min-height: 36px; padding: 6px 11px; font-size: .86rem; }
+.btn[aria-pressed="true"] { border-color: var(--new); color: var(--new); }
+.btn:disabled { opacity: .55; cursor: progress; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.tag { display: inline-flex; align-items: center; gap: 5px; font-size: .78rem; font-weight: 600; padding: 2px 9px; border-radius: 999px; background: var(--s3); color: var(--t2); white-space: nowrap; }
+.tag.ok { color: var(--ok); } .tag.warn { color: var(--warn); } .tag.bad { color: var(--bad); } .tag.new { color: var(--new); } .tag.mute { color: var(--t3); }
+.tag.urgent { background: var(--urgent); color: var(--urgent-ink); }
+.pdots { display: inline-flex; gap: 4px; align-items: center; }
+.pdots i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; background: var(--pc); }
+
+/* ===== Cards: lane bar, name, why, date and drive, profile dots, one status word ===== */
+.list { display: grid; gap: 8px; }
+.card { display: grid; grid-template-columns: 1fr auto; background: var(--s1); border: 1px solid var(--line); border-left: 5px solid var(--lc, var(--t3)); border-radius: var(--r); overflow: hidden; }
+.card.sel { border-color: var(--t1); border-left-color: var(--lc); }
+.cmain { border: 0; background: none; text-align: left; padding: 11px 6px 11px 12px; min-width: 0; display: grid; gap: 3px; color: var(--t1); }
+.cmain:hover { background: var(--s2); }
+.cmain b { font-size: 1.02rem; line-height: 1.3; display: block; }
+.cmain .why { color: var(--t2); font-size: .9rem; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.cmain .meta { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: .86rem; color: var(--t2); margin-top: 3px; }
+.cmain .meta .d { color: var(--t1); font-weight: 600; }
+.card .star { border: 0; background: none; width: 50px; display: grid; place-items: center; color: var(--t3); border-left: 1px solid var(--line); }
+.card .star svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.8; }
+.card .star[aria-pressed="true"] { color: var(--urgent); }
+.card .star[aria-pressed="true"] svg { fill: var(--urgent); }
+.card.compact .why { display: none; }
+.card .reason { font-size: .8rem; color: var(--t3); }
+.card .reason b { color: var(--new); font-weight: 600; }
+.pick { border: 1px solid var(--line); background: linear-gradient(180deg, var(--s2), var(--s1)); border-radius: var(--r); overflow: hidden; }
+.pick .plab { font-size: .74rem; letter-spacing: .1em; text-transform: uppercase; color: var(--t3); font-weight: 600; padding: 9px 12px 0; }
+.pick .plab b { color: var(--pc, var(--t1)); }
+.pick .card { border: 0; border-left: 5px solid var(--lc); border-radius: 0; background: none; }
+.strip { display: flex; gap: 10px; overflow-x: auto; padding: 4px 2px 10px; scroll-snap-type: x proximity; scrollbar-width: thin; }
+.act { flex: 0 0 240px; scroll-snap-align: start; border: 1px solid var(--line); border-top: 4px solid var(--urgent); background: var(--s1); border-radius: 12px; padding: 10px 12px; text-align: left; display: grid; gap: 4px; align-content: start; }
+.act .ad { font-family: var(--display); font-size: 1.1rem; color: var(--urgent); line-height: 1.1; }
+.act b { font-size: .95rem; line-height: 1.3; }
+.act .as { color: var(--t2); font-size: .84rem; }
+.row2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+
+/* ===== New tab rows ===== */
+.nrow { background: var(--s1); border: 1px solid var(--line); border-left: 5px solid var(--lc); border-radius: var(--r); padding: 10px 12px; display: grid; gap: 6px; }
+.nrow .nt { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: start; }
+.nrow .nb { display: flex; gap: 6px; flex-wrap: wrap; }
+.nrow .nb button { min-height: 36px; }
+
+/* ===== Calendar ===== */
+.calhead { display: flex; align-items: center; gap: 8px; margin: 8px 0; }
+.calhead h3 { margin: 0; font-size: 1.2rem; flex: 1; }
+.months { display: grid; gap: 20px; }
+.g7 { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 3px; }
+.dow { text-align: center; font-size: .7rem; font-weight: 600; letter-spacing: .08em; color: var(--t3); padding-bottom: 2px; }
+.day { min-height: 60px; border-radius: 8px; border: 1px solid var(--line); background: var(--s1); padding: 4px 4px 5px; display: flex; flex-direction: column; gap: 2px; position: relative; text-align: left; color: var(--t2); }
+.day.blank { visibility: hidden; }
+.day.past { opacity: .45; }
+.day.we { background: var(--s2); }
+.day .n { font-size: .8rem; line-height: 1; font-weight: 600; font-variant-numeric: tabular-nums; width: 20px; height: 20px; display: grid; place-items: center; border-radius: 50%; }
+.day.today .n { background: var(--urgent); color: var(--urgent-ink); }
+.day .n.ring { box-shadow: 0 0 0 2px var(--new); }
+.day .pips { display: grid; gap: 2px; margin-top: auto; }
+.day .pip { height: 5px; border-radius: 3px; background: var(--pc); width: 5px; }
+.day .pip.bar { width: auto; margin: 0 -5px; border-radius: 0; }
+.day .pip.bar.f { margin-left: 0; border-radius: 3px 0 0 3px; }
+.day .pip.bar.l { margin-right: 0; border-radius: 0 3px 3px 0; }
+.day .pip.bar.f.l { border-radius: 3px; }
+.day .more { position: absolute; right: 4px; top: 4px; font-size: .66rem; color: var(--t3); font-weight: 600; }
+.day[aria-pressed="true"] { outline: 2px solid var(--t1); outline-offset: 1px; }
+.legend { display: flex; flex-wrap: wrap; gap: 10px 14px; color: var(--t2); font-size: .82rem; margin: 8px 0 4px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; background: var(--pc); }
+.legend i.ring { background: none; box-shadow: 0 0 0 2px var(--new); }
+
+/* ===== Map ===== */
+.mapbox { position: relative; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; background: #08121a; touch-action: none; }
+.mapbox svg { display: block; width: 100%; height: min(68vh, 640px); }
+.mapbox .land { fill: #13232b; stroke: #30464f; stroke-width: .6; vector-effect: non-scaling-stroke; }
+.mapbox .land.home { fill: #182a33; }
+.mapbox .pin { stroke: var(--bg); stroke-width: 1.2; vector-effect: non-scaling-stroke; cursor: pointer; }
+.mapbox .pin.sel { stroke: var(--t1); stroke-width: 2.5; }
+.mapbox .lbl { fill: var(--t1); font-family: var(--body); font-weight: 600; paint-order: stroke; stroke: #08121a; stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
+.mapbox .home-pin { fill: var(--urgent); }
+.mapctl { position: absolute; right: 10px; top: 10px; display: flex; flex-direction: column; gap: 6px; }
+.mapctl button { width: 44px; height: 44px; border-radius: 12px; border: 1px solid var(--line); background: rgba(17,31,35,.95); font-size: 1.3rem; font-weight: 700; color: var(--t1); }
+.maplegend { display: flex; gap: 14px; flex-wrap: wrap; color: var(--t2); font-size: .84rem; margin-top: 8px; }
+.maplegend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; background: var(--pc); }
+.maplegend i.sq { border-radius: 2px; transform: rotate(45deg); }
+
+/* ===== Plan ===== */
+.pitem { background: var(--s1); border: 1px solid var(--line); border-left: 5px solid var(--lc); border-radius: var(--r); padding: 12px 14px; display: grid; gap: 10px; }
+.pitem .ph { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: start; }
+.pitem .ph b { display: block; font-size: 1.05rem; line-height: 1.3; }
+.pitem .ph .sub { color: var(--t2); font-size: .88rem; }
+.pitem .kv { display: grid; grid-template-columns: 96px 1fr; gap: 4px 10px; font-size: .9rem; }
+.pitem .kv span:nth-child(odd) { color: var(--t3); }
+.check { border: 1px solid var(--warn); border-radius: var(--r); padding: 12px 14px; background: rgba(255,200,117,.07); }
+.check h3 { margin: 0 0 6px; font-size: 1rem; color: var(--warn); }
+.check ul { margin: 0; padding-left: 18px; color: var(--t2); }
+.check li + li { margin-top: 4px; }
+
+/* ===== Sheets (mobile detail, filters, day list, settings) ===== */
+.scrim { position: fixed; inset: 0; background: rgba(3,8,10,.74); z-index: 60; }
+.sheet { position: fixed; z-index: 61; inset: 0; background: var(--bg); overflow-y: auto; overscroll-behavior: contain; padding-bottom: calc(30px + env(safe-area-inset-bottom)); }
+.sheet.bottom { inset: auto 0 0 0; max-height: 82vh; border-radius: 18px 18px 0 0; border-top: 1px solid var(--line); }
+.sheet[hidden], .scrim[hidden] { display: none; }
+.shead { position: sticky; top: 0; z-index: 2; background: rgba(11,21,24,.97); border-bottom: 1px solid var(--line); padding: calc(10px + env(safe-area-inset-top)) 16px 10px; display: flex; align-items: center; gap: 10px; }
+.sheet.bottom .shead { padding-top: 10px; }
+.shead .stitle { flex: 1; min-width: 0; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sbody { padding: 16px 16px 0; }
+.fs-body { padding: 18px 16px; display: grid; gap: 22px; }
+.fs-body h3 { margin: 0 0 8px; font-family: var(--body); font-size: .76rem; letter-spacing: .12em; text-transform: uppercase; color: var(--t3); font-weight: 600; }
+.wrapchips { display: flex; flex-wrap: wrap; gap: 8px; }
+.slider { display: grid; grid-template-columns: 70px 1fr 44px; gap: 10px; align-items: center; }
+.slider input { width: 100%; accent-color: var(--urgent); }
+
+/* ===== Detail ===== */
+.dh h2 { font-size: 1.75rem; line-height: 1.1; margin: 6px 0 0; text-wrap: balance; }
+.dh .where { color: var(--t2); margin-top: 4px; }
+.dh .why { font-size: 1.08rem; color: var(--t1); margin: 12px 0 0; line-height: 1.45; }
+.dtags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.dact { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 16px; }
+.dact .btn { text-align: center; padding: 10px 8px; }
+.dsec { margin-top: 22px; }
+.dsec h3 { font-family: var(--body); font-size: .76rem; letter-spacing: .12em; text-transform: uppercase; color: var(--t3); margin: 0 0 8px; font-weight: 600; }
+.dsec p { margin: 0; color: var(--t2); }
+.dsec p + p { margin-top: 8px; }
+.facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
+.facts > div { background: var(--s1); padding: 9px 12px; min-width: 0; }
+.facts span { display: block; font-size: .72rem; color: var(--t3); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+.facts b { font-weight: 600; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.kv { display: grid; gap: 8px; }
+.kv > div { display: grid; grid-template-columns: 100px 1fr; gap: 10px; }
+.kv .k { color: var(--t3); font-size: .88rem; }
+.kv .v { color: var(--t2); }
+.vcard { border: 1px solid var(--line); border-radius: var(--r); padding: 12px; background: var(--s1); }
+.toast { position: fixed; left: 50%; bottom: calc(var(--tabh) + env(safe-area-inset-bottom) + 14px); transform: translateX(-50%); z-index: 80; background: var(--t1); color: var(--bg); font-weight: 600; padding: 11px 16px; border-radius: 12px; max-width: calc(100vw - 32px); box-shadow: 0 10px 30px rgba(0,0,0,.5); }
+.toast[hidden] { display: none; }
+.foot { margin-top: 34px; color: var(--t3); font-size: .85rem; border-top: 1px solid var(--line); padding-top: 14px; }
+.foot p { margin: 6px 0; max-width: 72ch; }
+
+/* ===== Desktop: left rail, two columns, two months ===== */
+.layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; align-items: start; }
+#dpanel { display: none; }
+@media (min-width: 900px) {
+  :root { --rail: 200px; }
+  body { padding-bottom: 32px; padding-left: var(--rail); }
+  .tabs { left: 0; right: auto; top: 0; bottom: 0; width: var(--rail); border-top: 0; border-right: 1px solid var(--line); padding: 0; }
+  .tabs .wrap { display: flex; flex-direction: column; height: auto; padding: 84px 10px 0; gap: 2px; }
+  .tabs button { flex-direction: row; justify-content: flex-start; gap: 12px; padding: 0 12px; min-height: 46px; font-size: .95rem; border-radius: 10px; }
+  .tabs button[aria-current="page"] { background: var(--s2); }
+  .tabs button[aria-current="page"]::before { top: 20%; bottom: 20%; left: 0; right: auto; width: 3px; height: auto; border-radius: 0 3px 3px 0; }
+  .badge { position: static; margin-left: auto; }
+  .top .wrap, main.wrap { max-width: 1280px; }
+  .layout.two { grid-template-columns: minmax(0, 1fr) minmax(360px, 440px); }
+  #dpanel { display: block; position: sticky; top: 64px; max-height: calc(100vh - 80px); overflow-y: auto; border: 1px solid var(--line); border-radius: var(--r); background: var(--s1); }
+  #dpanel .shead { position: sticky; padding-top: 10px; background: var(--s1); }
+  #dpanel .sbody { padding-bottom: 20px; }
+  #dpanel .ph { padding: 30px 16px; color: var(--t3); text-align: center; }
+  .sheet.detail { display: none !important; }
+  .months { grid-template-columns: 1fr 1fr; }
+  .mapbox svg { height: calc(100vh - 150px); }
+  .toast { bottom: 24px; left: calc(50% + var(--rail) / 2); }
+  .sheet.bottom { inset: auto auto 0 var(--rail); width: 560px; border-radius: 18px 18px 0 0; }
+  .sheet:not(.bottom):not(.detail) { inset: 0 0 0 auto; width: 520px; border-left: 1px solid var(--line); }
+}
+</style>
+</head>
+<body>
+<header class="top" id="top">
+  <div class="wrap">
+    <div class="slimbar"><img src="__ICON_SRC__" alt="" width="28" height="28"><span class="nm">Rondom</span><button class="iconbtn" id="settings2" aria-label="Settings"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button></div>
+    <div class="hero" id="hero">
+      <div class="radial"></div>
+      <svg class="glow" viewBox="0 0 520 520" aria-hidden="true">
+        <defs><linearGradient id="hsw" gradientUnits="userSpaceOnUse" x1="440" y1="200" x2="270" y2="90"><stop offset="0" stop-color="#ffb454" stop-opacity=".45"/><stop offset="1" stop-color="#ffb454" stop-opacity="0"/></linearGradient></defs>
+        <g fill="none" stroke="#35c4d6" stroke-opacity=".22"><circle cx="260" cy="260" r="70" stroke-width="2"/><circle cx="260" cy="260" r="130" stroke-width="1.6"/><circle cx="260" cy="260" r="190" stroke-width="1.2"/><circle cx="260" cy="260" r="250" stroke-width="1"/></g>
+        <path d="M260 260L260 10A250 250 0 0 1 495 174Z" fill="url(#hsw)"/>
+        <path d="M260 260L495 174" stroke="#ffb454" stroke-opacity=".6" stroke-width="2"/>
+      </svg>
+      <div class="tb"><img src="__ICON_SRC__" alt="" width="44" height="44"><div><h1>Rondom</h1><p>Weekends worth the drive, within three hours of Hoensbroek.</p></div></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+ <div class="layout" id="layout">
+  <div id="col">
+  <!-- HOME -->
+  <section class="view" id="v-home" aria-label="Home">
+    <div class="fstrip" id="profiles" role="group" aria-label="Who is going"></div>
+    <div id="homeBody"></div>
+    <footer class="foot" id="foot"></footer>
+  </section>
+
+  <!-- NEW -->
+  <section class="view" id="v-new" aria-label="New" hidden>
+    <h2 class="sec">New since your last visit<small id="newsub"></small></h2>
+    <div id="newBody"></div>
+  </section>
+
+  <!-- CALENDAR -->
+  <section class="view" id="v-cal" aria-label="Calendar" hidden>
+    <div class="fstrip" id="calLanes" role="group" aria-label="Lanes"></div>
+    <div class="calhead"><button class="iconbtn" id="calPrev" aria-label="Previous month">&larr;</button><h3 id="calTitle"></h3><button class="btn sm" id="calToday">Today</button><button class="iconbtn" id="calNext" aria-label="Next month">&rarr;</button></div>
+    <div class="legend" id="calLegend"></div>
+    <div class="months" id="months"></div>
+    <p class="muted" style="font-size:.85rem;margin-top:10px">Tap a day for its list. Bars are multi-day events, dots are single days, a ring marks a ticket on-sale date for a saved or tier 1 entry. Arrow keys move between days.</p>
+  </section>
+
+  <!-- BROWSE -->
+  <section class="view" id="v-browse" aria-label="Browse" hidden>
+    <div class="search"><label class="sr" for="q">Search</label><input id="q" type="search" placeholder="Search name, city, venue or tag" autocomplete="off"><button class="iconbtn" id="openFilters" aria-label="Filters">Filters<span id="fcount"></span></button></div>
+    <div class="fstrip" id="browseLanes" role="group" aria-label="Lanes"></div>
+    <div class="fstrip"><label class="muted" for="sort">Sort</label><select id="sort"><option value="score">Best match</option><option value="date">Date</option><option value="distance">Nearest first</option><option value="newest">Newest</option></select><span class="muted" id="bcount"></span></div>
+    <div id="blist"></div>
+    <div class="actions" style="margin-top:16px"><button class="btn" id="pdfAll" type="button">Export this list as PDF</button></div>
+  </section>
+
+  <!-- MAP -->
+  <section class="view" id="v-map" aria-label="Map" hidden>
+    <div class="fstrip" id="mapLanes" role="group" aria-label="Lanes"></div>
+    <div class="mapbox" id="mapbox">
+      <svg id="map" role="img" aria-label="Map of events and venues"></svg>
+      <div class="mapctl"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">&minus;</button><button id="zfit" aria-label="Show all" style="font-size:.8rem">All</button></div>
+    </div>
+    <div class="maplegend" id="maplegend"></div>
+    <div id="mapcard" style="margin-top:10px"></div>
+  </section>
+
+  <!-- PLAN -->
+  <section class="view" id="v-plan" aria-label="Plan" hidden>
+    <h2 class="sec">Your plan<small id="plansub"></small></h2>
+    <div id="planBody"></div>
+  </section>
+  </div>
+  <aside id="dpanel" aria-label="Details"><div class="ph">Select an entry to see its details here.</div></aside>
+ </div>
+</main>
+
+<nav class="tabs" aria-label="Sections">
+  <div class="wrap">
+    <button data-tab="home" aria-current="page"><svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg>Home</button>
+    <button data-tab="new"><svg viewBox="0 0 24 24"><path d="M6 17V11a6 6 0 0 1 12 0v6l1.5 2h-15z"/><path d="M10 21h4"/></svg>New<span class="badge" id="nbadge" hidden></span></button>
+    <button data-tab="calendar"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>Calendar</button>
+    <button data-tab="browse"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Browse</button>
+    <button data-tab="map"><svg viewBox="0 0 24 24"><path d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.3"/></svg>Map</button>
+    <button data-tab="plan"><svg viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.8l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg>Plan<span class="badge" id="pbadge" hidden></span></button>
+  </div>
+</nav>
+
+<div class="scrim" id="scrim" hidden></div>
+<div class="sheet detail" id="sheet" role="dialog" aria-modal="true" aria-label="Details" hidden></div>
+<div class="sheet" id="fsheet" role="dialog" aria-modal="true" aria-label="Panel" hidden></div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="__JSPDF_SRC__" defer></script>
+<script>
+const EVENTS = __EVENTS__;
+const CONCERTS = __CONCERTS__;
+const VENUES = __VENUES__;
+const GEO = __GEO__;
+const META = __META__;
+
+/* ================= helpers ================= */
+const DAY = 86400000;
+const dn = s => { const [y,m,d] = s.split("-").map(Number); return Date.UTC(y, m-1, d) / DAY; };
+const fromDn = n => new Date(n * DAY);
+const isoOf = n => fromDn(n).toISOString().slice(0,10);
+const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const MONL = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const DOW = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const wd = n => fromDn(n).getUTCDay();
+const fmt = n => { const d = fromDn(n); return d.getUTCDate() + " " + MON[d.getUTCMonth()]; };
+const fmtY = n => fmt(n) + " " + fromDn(n).getUTCFullYear();
+const fmtW = n => DOW[wd(n)] + " " + fmt(n);
+const fmtRange = (a,b) => a === b ? fmtW(a) : (fromDn(a).getUTCMonth() === fromDn(b).getUTCMonth() ? fromDn(a).getUTCDate() + " to " + fmt(b) : fmt(a) + " to " + fmt(b));
+const NOW = new Date();
+const TODAY = Date.UTC(NOW.getFullYear(), NOW.getMonth(), NOW.getDate()) / DAY;
+const COUNTRY = { NL: "Netherlands", BE: "Belgium", DE: "Germany", LU: "Luxembourg", FR: "France" };
+const $ = id => document.getElementById(id);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+const norm = s => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+const drive = it => it.driveMin == null ? "drive n/a" : it.driveMin < 60 ? `${it.driveMin} min` : `${Math.floor(it.driveMin/60)} h ${String(it.driveMin%60).padStart(2,"0")}`;
+const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+const hm = x => { x = ((x % 1440) + 1440) % 1440; return String(Math.floor(x/60)).padStart(2,"0") + ":" + String(x%60).padStart(2,"0"); };
+const store = { get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} } };
+function toast(msg) { const t = $("toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => t.hidden = true, 2400); }
+function hav(a, b) { const R = 6371, r = x => x * Math.PI / 180; const dLa = r(b.lat - a.lat), dLo = r(b.lng - a.lng); const h = Math.sin(dLa/2)**2 + Math.cos(r(a.lat))*Math.cos(r(b.lat))*Math.sin(dLo/2)**2; return 2 * R * Math.asin(Math.sqrt(h)); }
+const isDesk = () => matchMedia("(min-width: 900px)").matches;
+const reduced = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ================= vocabulary ================= */
+const LANES = [
+  { id: "fest", label: "Festivals and spectacle", kinds: ["festival", "spectacle"], c: "var(--l-fest)" },
+  { id: "music", label: "Concerts and K-pop", kinds: ["concert", "kpop"], c: "var(--l-music)" },
+  { id: "mil", label: "Military and aviation", kinds: ["military", "aviation"], c: "var(--l-mil)" },
+  { id: "sport", label: "Sport", kinds: ["sport"], c: "var(--l-sport)" },
+  { id: "cult", label: "Museums, food and culture", kinds: ["museum", "food", "culture", "other"], c: "var(--l-cult)" }
+];
+const LANEBY = Object.fromEntries(LANES.map(l => [l.id, l]));
+const laneOf = k => (LANES.find(l => l.kinds.includes(k)) || LANES[4]).id;
+const KIND = { festival: "Festival", spectacle: "Spectacle", concert: "Concert", kpop: "K-pop", museum: "Exhibition", food: "Food", culture: "Culture", military: "Military", aviation: "Aviation", sport: "Sport", other: "Event" };
+const PROFILES = [{ id: "anne", label: "Anne", c: "var(--anne)" }, { id: "alma", label: "Alma", c: "var(--alma)" }, { id: "nick", label: "Nick", c: "var(--nick)" }, { id: "family", label: "Family", c: "var(--family)" }];
+const PBY = Object.fromEntries(PROFILES.map(p => [p.id, p]));
+const TIERT = { 1: "Tier 1: plan the weekend around it", 2: "Tier 2: a good day trip", 3: "Tier 3: go if free" };
+const RISK = { high: "High sell-out risk", medium: "Medium sell-out risk", low: "Low sell-out risk" };
+
+/* ================= data prep ================= */
+const VBY = Object.fromEntries(VENUES.map(v => [v.id, v]));
+const ITEMS = [];
+function firstTime(s) { const r = /(\d{1,2})[:.h](\d{2})/.exec(s || ""); return r ? (+r[1]) * 60 + (+r[2]) : null; }
+EVENTS.forEach(e => {
+  const it = { ...e, type: "e", first: dn(e.start), last: dn(e.end), lane: laneOf(e.kind), tags: e.tags || [], for: e.for || [], annual: !!e.annual };
+  if (e.days && e.days.length) it.daysSet = new Set(e.days.map(dn));
+  it.open = d => it.daysSet ? it.daysSet.has(d) : d >= it.first && d <= it.last;
+  it.t0 = firstTime(e.times);
+  it.hay = norm([e.name, e.city, e.short, e.region, e.venue, COUNTRY[e.country], KIND[e.kind], ...(e.tags || [])].join(" "));
+  ITEMS.push(it);
+});
+CONCERTS.forEach(c => {
+  const v = VBY[c.venueId] || { id: null, name: c.venueName || "Venue", city: c.city, country: c.country, lat: c.lat, lng: c.lng, driveMin: c.driveMin, capacity: null };
+  const d = dn(c.date);
+  const it = { ...c, type: "c", name: c.artist, kind: c.genre === "kpop" ? "kpop" : "concert", lane: "music", start: c.date, end: c.date, first: d, last: d, venueObj: v, venue: v.name, city: v.city || c.city, country: v.country || c.country, lat: v.lat ?? c.lat, lng: v.lng ?? c.lng, driveMin: c.driveMin ?? v.driveMin, tags: c.tags || [], for: c.for || [], annual: false, times: c.doors ? "Doors " + c.doors : null };
+  it.tier = c.tier || (c.sellOutRisk === "high" ? 1 : c.sellOutRisk === "medium" ? 2 : 3);
+  it.why = c.note || ((c.tour ? c.tour + " at " : "") + v.name + (v.city ? ", " + v.city : ""));
+  it.open = x => x === d;
+  it.t0 = firstTime(c.doors);
+  it.hay = norm([c.artist, c.short, v.name, v.city, c.tour, c.genre, COUNTRY[it.country], ...(c.tags || [])].join(" "));
+  ITEMS.push(it);
+});
+const BYID = Object.fromEntries(ITEMS.map(it => [it.id, it]));
+const HOME = { lat: 50.9128, lng: 5.9268 };
+
+/* ================= state ================= */
+const K = { profiles: "out-profiles", plan: "out-plan", notes: "out-notes", hidden: "out-hidden", likes: "out-likes", weights: "out-weights", lastSeen: "out-lastSeen", seen: "out-seen", newCount: "out-newCount", drive: "out-drive", sort: "out-sort", showHidden: "out-showHidden" };
+const ALLKEYS = Object.values(K);
+const state = {
+  tab: "home",
+  profiles: new Set(store.get(K.profiles, PROFILES.map(p => p.id))),
+  plan: store.get(K.plan, {}), notes: store.get(K.notes, {}),
+  hidden: new Set(store.get(K.hidden, [])), likes: store.get(K.likes, { lanes: {}, tags: {} }),
+  weights: store.get(K.weights, { anne: 1, alma: 1, nick: 1, family: 1 }),
+  lastSeen: store.get(K.lastSeen, null), seen: new Set(store.get(K.seen, [])),
+  showHidden: store.get(K.showHidden, false),
+  drive: store.get(K.drive, 300), sort: store.get(K.sort, "score"),
+  q: "", lanes: new Set(), kinds: new Set(), countries: new Set(), tier: 0, status: "", month: "",
+  calYM: null, calSel: null, calLanes: new Set(), mapLanes: new Set(), mapSel: null, detail: null, nextWeekend: false
+};
+if (!state.lastSeen) { state.lastSeen = isoOf(TODAY); store.set(K.lastSeen, state.lastSeen); }
+const save = (k, v) => store.set(K[k], v instanceof Set ? [...v] : v);
+const inPlan = id => Object.prototype.hasOwnProperty.call(state.plan, id);
+
+/* ================= scoring (computed at load and on every change, never stored) ================= */
+const TIERPTS = { 1: 60, 2: 35, 3: 15 };
+function rescore() {
+  const nSel = state.profiles.size;
+  ITEMS.forEach(it => {
+    const r = [];
+    let s = TIERPTS[it.tier] || 15; r.push(`Tier ${it.tier}`);
+    const span = it.type === "c" ? 300 : 180;
+    const prox = it.driveMin == null ? 0 : Math.max(0, 25 * (1 - it.driveMin / span)); s += prox; r.push(drive(it));
+    let pm = 0; const names = [];
+    it.for.forEach(p => { if (state.profiles.has(p)) { pm += 10 * (state.weights[p] ?? 1); names.push(PBY[p] ? PBY[p].label : p); } });
+    pm = Math.min(20, pm); s += pm; if (names.length) r.push("for " + names.join(", "));
+    if (it.planBy) { const d = dn(it.planBy) - TODAY; if (d >= 0 && d <= 14) { s += 10; r.push("book by " + fmt(dn(it.planBy))); } else if (d > 14 && d <= 30) { s += 5; r.push("book by " + fmt(dn(it.planBy))); } }
+    if (it.addedOn && TODAY - dn(it.addedOn) <= 14) { s += 5; r.push("new this week"); }
+    if (it.annual && fromDn(it.first).getUTCMonth() === fromDn(TODAY).getUTCMonth()) { s += 5; r.push("in season"); }
+    let like = (state.likes.lanes[it.lane] ? 2 : 0); it.tags.forEach(t => { if (state.likes.tags[t]) like += 2; }); like = Math.min(10, like); if (like) { s += like; r.push("like your picks"); }
+    if (it.status === "soldout") { s -= 15; r.push("sold out"); }
+    if (it.status === "cancelled") s -= 100;
+    if (state.hidden.has(it.id)) s -= 30;
+    it.score = Math.round(s); it.reason = r; it.nSel = nSel;
+  });
+}
+
+/* ================= time buckets and weekends ================= */
+function weekendFrom(d) { let f = d; while (wd(f) !== 5) f++; if (wd(d) === 6) f = d - 1; else if (wd(d) === 0) f = d - 2; return [f, f + 2]; }
+const THISWE = weekendFrom(TODAY), NEXTWE = [THISWE[0] + 7, THISWE[1] + 7];
+const monthEnd = d => { const x = fromDn(d); return Date.UTC(x.getUTCFullYear(), x.getUTCMonth() + 1, 0) / DAY; };
+const BUCKETS = [["we", "This weekend", THISWE[0], THISWE[1]], ["nwe", "Next weekend", NEXTWE[0], NEXTWE[1]], ["mo", "This month", TODAY, monthEnd(TODAY)], ["q", "Next 3 months", TODAY, TODAY + 92], ["later", "Later", TODAY, 1e9]];
+const touches = (it, a, b) => { const s = Math.max(it.first, a), e = Math.min(it.last, b); if (s > e) return false; if (!it.daysSet) return true; for (let d = s; d <= e; d++) if (it.daysSet.has(d)) return true; return false; };
+function bucketOf(it) { for (const b of BUCKETS) if (touches(it, b[2], b[3])) return b[0]; return "later"; }
+const live = () => ITEMS.filter(it => it.last >= TODAY && it.status !== "cancelled" && (state.showHidden || !state.hidden.has(it.id)));
+const forSel = it => state.profiles.size === PROFILES.length || !it.for.length || it.for.some(p => state.profiles.has(p));
+
+/* ================= components ================= */
+const STAR = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.8l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg>`;
+const pdots = it => `<span class="pdots" aria-label="For ${it.for.map(p => PBY[p]?.label || p).join(", ")}">${it.for.map(p => `<i style="--pc:${PBY[p]?.c || "var(--t3)"}" title="${esc(PBY[p]?.label || p)}"></i>`).join("")}</span>`;
+function statusWord(it) {
+  if (it.status === "cancelled") return { c: "bad", t: "Cancelled" };
+  if (it.status === "soldout") return { c: "bad", t: "Sold out" };
+  const free = it.priceFrom === 0 || (it.priceFrom == null && (/^free/i.test(it.ticketNote || "") || it.tags.includes("free")));
+  if (free) return { c: "ok", t: "Free" };
+  if (it.status === "onsale") { if (it.sellOutRisk === "high") return { c: "warn", t: "Selling fast" }; if (it.planBy && dn(it.planBy) - TODAY <= 14) return { c: "warn", t: "Book now" }; return { c: "ok", t: "On sale" }; }
+  if (it.onSale && dn(it.onSale) >= TODAY) return { c: "new", t: "On sale " + fmt(dn(it.onSale)) };
+  if (it.status === "tbd") return { c: "mute", t: "Projected" };
+  return { c: "mute", t: "Announced" };
+}
+function when(it) {
+  if (it.first === it.last) return fmtW(it.first) + (it.type === "c" && it.doors ? " " + it.doors : "");
+  if (it.first < TODAY) return "runs until " + fmt(it.last);
+  return fmtRange(it.first, it.last);
+}
+function card(it, o = {}) {
+  const st = statusWord(it), l = LANEBY[it.lane];
+  return `<div class="card ${o.compact ? "compact" : ""} ${state.detail === it.id ? "sel" : ""}" style="--lc:${l.c}"><button class="cmain" data-open="${it.id}"><b>${esc(it.name)}</b><span class="why">${esc(it.why || "")}</span><span class="meta"><span class="d">${esc(when(it))}</span><span>${drive(it)}</span>${pdots(it)}<span class="tag ${st.c}">${esc(st.t)}</span></span>${o.reason ? `<span class="reason">${esc(o.reason)}</span>` : ""}</button><button class="star" data-star="${it.id}" aria-pressed="${inPlan(it.id)}" aria-label="${inPlan(it.id) ? "Remove from" : "Save to"} plan">${STAR}</button></div>`;
+}
+const reasonLine = it => it.reason.join(", ");
+function groupedList(items, o = {}) {
+  if (!items.length) return `<div class="empty">${o.empty || "Nothing matches."}</div>`;
+  let h = "";
+  LANES.forEach(l => {
+    const li = items.filter(it => it.lane === l.id); if (!li.length) return;
+    h += `<h2 class="lane" style="--lc:${l.c}">${l.label}<small class="muted" style="font-family:var(--body);font-size:.8rem;font-weight:500;margin-left:8px">${li.length}</small></h2>`;
+    BUCKETS.forEach(b => {
+      const bi = li.filter(it => bucketOf(it) === b[0]); if (!bi.length) return;
+      h += `<h3 class="sub">${b[1]}</h3><div class="list">${bi.map(it => card(it, o)).join("")}</div>`;
+    });
+  });
+  return h;
+}
+function wire(root) {
+  root.querySelectorAll("[data-open]").forEach(b => b.addEventListener("click", () => openDetail(b.dataset.open)));
+  root.querySelectorAll("[data-star]").forEach(b => b.addEventListener("click", e => { e.stopPropagation(); toggleStar(b.dataset.star); }));
+}
+function toggleStar(id) {
+  if (inPlan(id)) { delete state.plan[id]; toast("Removed from your plan"); } else { state.plan[id] = { added: isoOf(TODAY) }; toast("Saved to your plan"); }
+  save("plan", state.plan); renderBadges();
+  document.querySelectorAll(`[data-star="${id}"]`).forEach(b => { b.setAttribute("aria-pressed", inPlan(id)); b.setAttribute("aria-label", (inPlan(id) ? "Remove from" : "Save to") + " plan"); });
+  const ds = document.querySelector(`[data-dstar="${id}"]`); if (ds) { ds.className = "btn " + (inPlan(id) ? "pri" : ""); ds.textContent = inPlan(id) ? "In your plan" : "Save to plan"; }
+  if (state.tab === "plan") renderPlan();
+}
+function newItems() { return ITEMS.filter(it => it.addedOn && it.addedOn > state.lastSeen && !state.seen.has(it.id) && it.last >= TODAY && !state.hidden.has(it.id)); }
+function changedItems() { return ITEMS.filter(it => it.changedOn && it.changedOn > state.lastSeen && !state.seen.has(it.id)); }
+function renderBadges() {
+  const n = Object.keys(state.plan).length; $("pbadge").hidden = !n; $("pbadge").textContent = n;
+  const nw = newItems(), nc = changedItems().filter(it => !nw.includes(it)), total = nw.length + nc.length;
+  const b = $("nbadge"); b.hidden = !total; b.textContent = total > 99 ? "99+" : total; b.classList.toggle("t1", nw.some(it => it.tier === 1));
+  return total;
+}
+function profileChips(container, onChange) {
+  container.innerHTML = PROFILES.map(p => `<button class="chip" data-prof="${p.id}" aria-pressed="${state.profiles.has(p.id)}" style="--pc:${p.c}"><span class="pd"></span>${p.label}</button>`).join("");
+  container.querySelectorAll("[data-prof]").forEach(b => b.addEventListener("click", () => { const p = b.dataset.prof; if (state.profiles.has(p)) { if (state.profiles.size > 1) state.profiles.delete(p); } else state.profiles.add(p); save("profiles", state.profiles); rescore(); onChange(); }));
+}
+function laneChips(container, set, onChange, counts) {
+  container.innerHTML = LANES.map(l => `<button class="chip lane" data-lane="${l.id}" aria-pressed="${set.has(l.id)}" style="--lc:${l.c}"><span class="pd" style="--pc:${l.c}"></span>${l.label.split(" ")[0]}${counts ? ` <span class="muted">${counts[l.id] || 0}</span>` : ""}</button>`).join("");
+  container.querySelectorAll("[data-lane]").forEach(b => b.addEventListener("click", () => { const l = b.dataset.lane; set.has(l) ? set.delete(l) : set.add(l); onChange(); }));
+}
+const laneOk = (it, set) => !set.size || set.has(it.lane);
+
+/* ================= HOME ================= */
+function picks(list) {
+  const shown = new Set(), out = [];
+  const pickWeekend = (we) => {
+    const cands = list.filter(it => touches(it, we[0], we[1])).sort((a, b) => b.score - a.score);
+    if (!cands.length || cands[0].score < 50) return null;
+    const res = [], lanes = new Set();
+    cands.forEach(it => { if (res.length < 3 && !lanes.has(it.lane)) { res.push(it); lanes.add(it.lane); } });
+    cands.forEach(it => { if (res.length < 3 && !res.includes(it)) res.push(it); });
+    return res;
+  };
+  let we = pickWeekend(THISWE), weLabel = "This weekend", none = false;
+  if (!we) { none = true; we = pickWeekend(NEXTWE) || []; weLabel = "Next weekend"; }
+  we.forEach(it => shown.add(it.id));
+  PROFILES.filter(p => state.profiles.has(p.id)).forEach(p => {
+    const it = list.filter(x => x.for.includes(p.id) && !shown.has(x.id) && x.first <= TODAY + 60).sort((a, b) => b.score - a.score)[0];
+    if (it) { shown.add(it.id); out.push({ label: `For ${p.label}`, c: p.c, it }); }
+  });
+  const ahead = list.filter(it => it.tier === 1 && it.planBy && dn(it.planBy) >= TODAY && !shown.has(it.id)).sort((a, b) => dn(a.planBy) - dn(b.planBy))[0];
+  return { we, weLabel, none, prof: out, ahead };
+}
+function aheadReason(it) {
+  const bits = [];
+  if (it.onSale && dn(it.onSale) >= TODAY) bits.push(`Tickets go on sale ${fmt(dn(it.onSale))}`); else if (it.status === "onsale") bits.push("Tickets are on sale now"); else bits.push(`Act by ${fmt(dn(it.planBy))}`);
+  if (it.sellOutRisk) bits.push(RISK[it.sellOutRisk].toLowerCase());
+  return bits.join(", ") + ".";
+}
+function renderHome() {
+  profileChips($("profiles"), render);
+  const list = live().filter(forSel).sort((a, b) => b.score - a.score || a.first - b.first);
+  const p = picks(list);
+  let h = `<h2 class="sec">Picks<small>chosen by score, one per lane where possible</small></h2>`;
+  if (p.none) h += `<p class="lead" style="margin-bottom:8px">Nothing worth the drive this weekend. Here is next weekend.</p>`;
+  if (p.we.length) h += `<h3 class="sub">${p.weLabel}, ${fmtRange(p.none ? NEXTWE[0] : THISWE[0], p.none ? NEXTWE[1] : THISWE[1])}</h3><div class="list">${p.we.map(it => card(it, { reason: reasonLine(it) })).join("")}</div>`;
+  else h += `<div class="empty">No weekend picks with the current profiles.</div>`;
+  if (p.prof.length) h += `<div class="row2" style="margin-top:12px">${p.prof.map(x => `<div class="pick"><div class="plab"><b style="--pc:${x.c}">${x.label}</b>: next 60 days</div>${card(x.it, { reason: reasonLine(x.it) })}</div>`).join("")}</div>`;
+  if (p.ahead) h += `<div class="pick" style="margin-top:12px"><div class="plab"><b style="--pc:var(--urgent)">Plan ahead</b>: ${esc(aheadReason(p.ahead))}</div>${card(p.ahead, { reason: reasonLine(p.ahead) })}</div>`;
+  // Act now strip
+  const act = live().filter(it => (it.planBy && dn(it.planBy) >= TODAY && dn(it.planBy) <= TODAY + 14) || (it.onSale && dn(it.onSale) >= TODAY && dn(it.onSale) <= TODAY + 14)).map(it => ({ it, d: Math.min(it.planBy && dn(it.planBy) >= TODAY ? dn(it.planBy) : 1e9, it.onSale && dn(it.onSale) >= TODAY ? dn(it.onSale) : 1e9) })).sort((a, b) => a.d - b.d || b.it.score - a.it.score);
+  h += `<h2 class="sec">Act now<small>on-sale and book-by dates in the next 14 days</small></h2>`;
+  h += act.length ? `<div class="strip">${act.map(({ it, d }) => `<button class="act" data-open="${it.id}"><span class="ad">${fmtW(d)}</span><b>${esc(it.name)}</b><span class="as">${it.onSale && dn(it.onSale) === d ? "Tickets on sale" : "Book by this date"}${it.sellOutRisk ? " · " + it.sellOutRisk + " risk" : ""}</span><span class="as">${esc(when(it))} · ${drive(it)}</span></button>`).join("")}</div>` : `<div class="empty">Nothing to book in the next two weeks.</div>`;
+  // New this week
+  const nw = live().filter(it => it.addedOn && TODAY - dn(it.addedOn) <= 7).sort((a, b) => a.tier - b.tier || b.score - a.score);
+  h += `<h2 class="sec">New this week<small>${nw.length} added</small><a href="#new">All new</a></h2>`;
+  h += nw.length ? `<div class="list">${nw.slice(0, 5).map(it => card(it, { compact: true })).join("")}</div>` : `<div class="empty">No new entries this week.</div>`;
+  // Next 30 days
+  const n30 = list.filter(it => it.tier <= 2 && it.first <= TODAY + 30).sort((a, b) => Math.max(a.first, TODAY) - Math.max(b.first, TODAY) || b.score - a.score);
+  h += `<h2 class="sec">Next 30 days<small>tier 1 and 2</small></h2>`;
+  h += n30.length ? `<div class="list">${n30.map(it => card(it, { compact: true })).join("")}</div>` : `<div class="empty">Nothing in the next 30 days for these profiles.</div>`;
+  $("homeBody").innerHTML = h; wire($("homeBody"));
+  $("homeBody").querySelector("a[href='#new']").addEventListener("click", e => { e.preventDefault(); setTab("new"); });
+  $("foot").innerHTML = `<p><b>Rondom ${esc(META.version)}</b>, data checked ${esc(META.checked)}. ${ITEMS.length} entries: ${EVENTS.length} events and ${CONCERTS.length} concerts.</p><p><b>How picks work.</b> Score = tier (60, 35 or 15) + proximity (up to 25) + a match for each selected person (10 each, up to 20) + urgency (10 if you must act within 14 days) + newness (5) + season (5), minus penalties for sold out or hidden entries. Every pick shows its reasons.</p><p>Your plan, notes, hidden entries and settings live only in this browser and are not synced between devices. Export them from the settings panel.</p>${__PWA__ ? "<p><b>Use it like an app.</b> On iPhone: Share, then Add to Home Screen. It keeps working offline once opened.</p>" : ""}<div class="actions" style="margin-top:10px"><button class="btn sm" id="openSettings">Settings and export</button></div>`;
+  $("openSettings").addEventListener("click", openSettings);
+}
+
+/* ================= NEW ================= */
+function renderNew() {
+  const nw = newItems(), ch = changedItems();
+  const week = nw.filter(it => TODAY - dn(it.addedOn) <= 7), month = nw.filter(it => TODAY - dn(it.addedOn) > 7);
+  const sortN = a => a.sort((x, y) => x.tier - y.tier || y.score - x.score);
+  $("newsub").textContent = `last visit ${fmtY(dn(state.lastSeen))}`;
+  const row = (it, extra = "") => { const l = LANEBY[it.lane], st = statusWord(it); return `<div class="nrow" style="--lc:${l.c}"><div class="nt"><button class="cmain" style="padding:0" data-open="${it.id}"><b>${it.tier === 1 ? `<span class="tag urgent" style="margin-right:6px">Tier 1</span>` : ""}${esc(it.name)}</b><span class="why">${esc(it.why || "")}</span><span class="meta"><span class="d">${esc(when(it))}</span><span>${drive(it)}</span>${pdots(it)}<span class="tag ${st.c}">${esc(st.t)}</span></span>${extra}</button></div><div class="nb"><button class="btn sm ${inPlan(it.id) ? "pri" : ""}" data-star="${it.id}" aria-pressed="${inPlan(it.id)}">${inPlan(it.id) ? "In plan" : "Save to plan"}</button><button class="btn sm" data-seen="${it.id}">Mark seen</button><button class="btn sm" data-hide="${it.id}">Not interested</button></div></div>`; };
+  let h = "";
+  const sec = (title, items, extraFn) => { if (!items.length) return; h += `<h2 class="sec">${title}<small>${items.length}</small></h2>`; LANES.forEach(l => { const li = items.filter(it => it.lane === l.id); if (li.length) h += `<h3 class="sub" style="color:${l.c}">${l.label}</h3><div class="list">${li.map(it => row(it, extraFn ? extraFn(it) : "")).join("")}</div>`; }); };
+  sec("Added this week", sortN(week)); sec("Added in the last 30 days", sortN(month));
+  sec("Changed", ch.sort((a, b) => b.changedOn.localeCompare(a.changedOn)), it => `<span class="reason">Status changed ${fmt(dn(it.changedOn))}: ${esc(it.prevStatus || "unknown")} to <b>${esc(it.status)}</b></span>`);
+  if (!h) h = `<div class="empty">Nothing new since ${fmtY(dn(state.lastSeen))}. The data refreshes every Wednesday.</div><div class="actions" style="margin-top:12px"><button class="btn" id="showAllNew">Show everything added in the last 30 days</button></div>`;
+  $("newBody").innerHTML = h; wire($("newBody"));
+  $("newBody").querySelectorAll("[data-seen]").forEach(b => b.addEventListener("click", () => { state.seen.add(b.dataset.seen); save("seen", state.seen); renderBadges(); renderNew(); }));
+  $("newBody").querySelectorAll("[data-hide]").forEach(b => b.addEventListener("click", () => { hide(b.dataset.hide); renderNew(); }));
+  const sa = $("showAllNew"); if (sa) sa.addEventListener("click", () => { state.lastSeen = isoOf(TODAY - 30); state.seen.clear(); save("seen", state.seen); renderNew(); });
+}
+function hide(id, on = true) { on ? state.hidden.add(id) : state.hidden.delete(id); save("hidden", state.hidden); rescore(); renderBadges(); toast(on ? "Hidden. Undo in Plan, under hidden entries." : "Entry restored"); }
+function markSeenAll() { state.lastSeen = isoOf(TODAY); save("lastSeen", state.lastSeen); }
+
+/* ================= CALENDAR ================= */
+function renderCal() {
+  if (!state.calYM) { const t = fromDn(TODAY); state.calYM = [t.getUTCFullYear(), t.getUTCMonth()]; }
+  laneChips($("calLanes"), state.calLanes, renderCal);
+  $("calLegend").innerHTML = LANES.map(l => `<span><i style="--pc:${l.c}"></i>${l.label}</span>`).join("") + `<span><i class="ring"></i>Tickets on sale</span>`;
+  const list = live().filter(forSel).filter(it => laneOk(it, state.calLanes)).sort((a, b) => a.first - b.first || b.score - a.score);
+  const n = isDesk() ? 2 : 1;
+  const [y0, m0] = state.calYM;
+  $("calTitle").textContent = n === 1 ? `${MONL[m0]} ${y0}` : `${MONL[m0]} ${y0} and ${MONL[(m0 + 1) % 12]} ${m0 === 11 ? y0 + 1 : y0}`;
+  const onSaleDays = new Set(); ITEMS.forEach(it => { if (it.onSale && (inPlan(it.id) || it.tier === 1) && it.last >= TODAY) onSaleDays.add(dn(it.onSale)); });
+  let html = "";
+  for (let k = 0; k < n; k++) {
+    const y = m0 + k > 11 ? y0 + 1 : y0, mo = (m0 + k) % 12;
+    const f = Date.UTC(y, mo, 1) / DAY, dim = new Date(Date.UTC(y, mo + 1, 0)).getUTCDate(), lead = (wd(f) + 6) % 7, last = f + dim - 1;
+    // slot assignment: items touching this month get a stable row (0..2) across their days; the rest count as +n
+    const slots = [new Map(), new Map(), new Map()], extra = new Map(), perDay = {};
+    list.filter(it => it.first <= last && it.last >= f).forEach(it => {
+      const days = []; for (let d = Math.max(f, it.first); d <= Math.min(last, it.last); d++) if (it.open(d)) days.push(d);
+      if (!days.length) return;
+      const si = slots.findIndex(s => days.every(d => !s.has(d)));
+      if (si > -1) days.forEach(d => slots[si].set(d, it)); else days.forEach(d => extra.set(d, (extra.get(d) || 0) + 1));
+      days.forEach(d => (perDay[d] = perDay[d] || []).push(it));
+    });
+    let c = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(x => `<div class="dow">${x}</div>`).join("");
+    for (let i = 0; i < lead; i++) c += `<div class="day blank"></div>`;
+    for (let i = 0; i < dim; i++) {
+      const d = f + i, cnt = (perDay[d] || []).length;
+      const pips = slots.map(s => { const it = s.get(d); if (!it) return `<span class="pip" style="visibility:hidden"></span>`; const multi = it.first !== it.last && !it.daysSet; const cont = multi && it.open(d - 1) && d > f, contN = multi && it.open(d + 1) && d < last; return `<span class="pip ${multi ? "bar" : ""} ${multi && !cont ? "f" : ""} ${multi && !contN ? "l" : ""}" style="--pc:${LANEBY[it.lane].c}"></span>`; }).join("");
+      c += `<button class="day ${d < TODAY ? "past" : ""} ${[0,6].includes(wd(d)) ? "we" : ""} ${d === TODAY ? "today" : ""}" data-cday="${d}" aria-pressed="${d === state.calSel}" aria-label="${fmtW(d)}: ${cnt} ${cnt === 1 ? "entry" : "entries"}${onSaleDays.has(d) ? ", tickets on sale" : ""}" tabindex="${d === (state.calSel ?? TODAY) ? 0 : -1}"><span class="n ${onSaleDays.has(d) ? "ring" : ""}">${i + 1}</span>${extra.get(d) ? `<span class="more">+${extra.get(d)}</span>` : ""}<span class="pips">${pips}</span></button>`;
+    }
+    html += `<div class="month"><h3 class="disp" style="margin:0 0 6px;font-size:1.05rem">${MONL[mo]} ${y}</h3><div class="g7">${c}</div></div>`;
+  }
+  $("months").innerHTML = html;
+  $("months").querySelectorAll("[data-cday]").forEach(b => b.addEventListener("click", () => { state.calSel = +b.dataset.cday; openDay(state.calSel, list); }));
+}
+function calStep(months) { let [y, m] = state.calYM; m += months; while (m < 0) { m += 12; y--; } while (m > 11) { m -= 12; y++; } state.calYM = [y, m]; renderCal(); }
+function openDay(d, list) {
+  const items = (list || live().filter(forSel).filter(it => laneOk(it, state.calLanes))).filter(it => it.open(d)).sort((a, b) => b.score - a.score);
+  const fs = $("fsheet"); fs.className = "sheet bottom";
+  fs.innerHTML = `<div class="shead"><span class="stitle">${fmtW(d)} ${fromDn(d).getUTCFullYear()}<span class="muted" style="font-weight:500"> · ${plural(items.length, "entry").replace("entrys", "entries")}</span></span><button class="btn sm" id="fdone">Close</button></div><div class="sbody" style="padding-bottom:16px">${items.length ? `<div class="list">${items.map(it => card(it)).join("")}</div>` : `<div class="empty">Nothing on this day with the current filters.</div>`}</div>`;
+  wire(fs); fs.querySelector("#fdone").addEventListener("click", closeSheets); showSheet(fs, "#fdone");
+  document.querySelectorAll("[data-cday]").forEach(b => b.setAttribute("aria-pressed", +b.dataset.cday === d));
+}
+$("months").addEventListener("keydown", e => {
+  const cur = e.target.closest("[data-cday]"); if (!cur) return;
+  const delta = { ArrowLeft: -1, ArrowRight: 1, ArrowUp: -7, ArrowDown: 7 }[e.key]; if (!delta) return;
+  e.preventDefault(); const d = +cur.dataset.cday + delta; state.calSel = d;
+  let b = $("months").querySelector(`[data-cday="${d}"]`);
+  if (!b) { calStep(delta < 0 ? -1 : 1); b = $("months").querySelector(`[data-cday="${d}"]`); }
+  if (b) { $("months").querySelectorAll("[data-cday]").forEach(x => x.tabIndex = -1); b.tabIndex = 0; b.focus(); }
+});
+$("calPrev").addEventListener("click", () => calStep(-1)); $("calNext").addEventListener("click", () => calStep(1));
+$("calToday").addEventListener("click", () => { const t = fromDn(TODAY); state.calYM = [t.getUTCFullYear(), t.getUTCMonth()]; state.calSel = TODAY; renderCal(); });
+
+/* ================= BROWSE ================= */
+const SORTS = { score: (a, b) => b.score - a.score || a.first - b.first, date: (a, b) => Math.max(a.first, TODAY) - Math.max(b.first, TODAY) || b.score - a.score, distance: (a, b) => (a.driveMin ?? 999) - (b.driveMin ?? 999) || b.score - a.score, newest: (a, b) => String(b.addedOn).localeCompare(String(a.addedOn)) || b.score - a.score };
+function browseList(noSearch) {
+  const q = norm(state.q);
+  return live().filter(forSel).filter(it => laneOk(it, state.lanes) && (!state.kinds.size || state.kinds.has(it.kind)) && (!state.countries.size || state.countries.has(it.country)) && (it.driveMin == null || it.driveMin <= state.drive) && (!state.tier || it.tier <= state.tier) && (!state.status || it.status === state.status) && (!state.month || monthKey(it)) && (noSearch || !q || it.hay.includes(q))).sort(SORTS[state.sort]);
+}
+function monthKey(it) { const [y, m] = state.month.split("-").map(Number); const f = Date.UTC(y, m - 1, 1) / DAY, l = Date.UTC(y, m, 0) / DAY; return it.first <= l && it.last >= f; }
+function activeFilterCount() { return state.kinds.size + state.countries.size + (state.drive < 300 ? 1 : 0) + (state.tier ? 1 : 0) + (state.status ? 1 : 0) + (state.month ? 1 : 0); }
+function renderBrowse() {
+  const all = live().filter(forSel); const counts = {}; all.forEach(it => counts[it.lane] = (counts[it.lane] || 0) + 1);
+  laneChips($("browseLanes"), state.lanes, renderBrowse, counts);
+  const list = browseList();
+  $("bcount").textContent = `${list.length} of ${all.length}`;
+  $("sort").value = state.sort;
+  $("blist").innerHTML = groupedList(list, { empty: "No entries match. Clear a filter or widen the drive time." }); wire($("blist"));
+  const n = activeFilterCount(); $("fcount").textContent = n ? ` · ${n}` : "";
+}
+function openFilters() {
+  const months = []; for (let i = 0; i < 13; i++) { const t = fromDn(TODAY); const d = new Date(Date.UTC(t.getUTCFullYear(), t.getUTCMonth() + i, 1)); months.push(`${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, "0")}`); }
+  const fs = $("fsheet"); fs.className = "sheet";
+  fs.innerHTML = `<div class="shead"><span class="stitle">Filters</span><button class="btn sm" id="freset">Reset</button><button class="btn sm pri" id="fdone">Show results</button></div>
+  <div class="fs-body">
+    <div><h3>Maximum drive from Hoensbroek</h3><div class="seg" role="group">${[[60,"1 h"],[120,"2 h"],[180,"3 h"],[300,"5 h (concerts)"]].map(([v,l]) => `<button data-fdrive="${v}" aria-pressed="${state.drive === v}">${l}</button>`).join("")}</div></div>
+    <div><h3>Kind</h3><div class="wrapchips">${Object.keys(KIND).filter(k => ITEMS.some(it => it.kind === k)).map(k => `<button class="chip" data-fk="${k}" aria-pressed="${state.kinds.has(k)}">${KIND[k]}</button>`).join("")}</div></div>
+    <div><h3>Country</h3><div class="wrapchips">${Object.keys(COUNTRY).filter(c => ITEMS.some(it => it.country === c)).map(c => `<button class="chip" data-fc="${c}" aria-pressed="${state.countries.has(c)}">${COUNTRY[c]}</button>`).join("")}</div></div>
+    <div><h3>Tier</h3><div class="seg" role="group">${[[0,"All"],[1,"Tier 1"],[2,"Tier 1 and 2"]].map(([v,l]) => `<button data-ftier="${v}" aria-pressed="${state.tier === v}">${l}</button>`).join("")}</div></div>
+    <div><h3>Status</h3><div class="wrapchips">${[["","Any"],["onsale","On sale"],["announced","Announced"],["tbd","Projected"],["soldout","Sold out"]].map(([v,l]) => `<button class="chip" data-fs="${v}" aria-pressed="${state.status === v}">${l}</button>`).join("")}</div></div>
+    <div><h3>Month</h3><select id="fmonth"><option value="">Any month</option>${months.map(m => `<option value="${m}" ${state.month === m ? "selected" : ""}>${MONL[+m.slice(5) - 1]} ${m.slice(0, 4)}</option>`).join("")}</select></div>
+  </div>`;
+  const refresh = () => { $("fdone").textContent = `Show ${browseList(true).length} entries`; };
+  const press = (sel, fn) => fs.querySelectorAll(sel).forEach(b => b.addEventListener("click", () => { fn(b); refresh(); }));
+  press("[data-fdrive]", b => { state.drive = +b.dataset.fdrive; save("drive", state.drive); fs.querySelectorAll("[data-fdrive]").forEach(x => x.setAttribute("aria-pressed", x === b)); });
+  press("[data-fk]", b => { const k = b.dataset.fk; state.kinds.has(k) ? state.kinds.delete(k) : state.kinds.add(k); b.setAttribute("aria-pressed", state.kinds.has(k)); });
+  press("[data-fc]", b => { const c = b.dataset.fc; state.countries.has(c) ? state.countries.delete(c) : state.countries.add(c); b.setAttribute("aria-pressed", state.countries.has(c)); });
+  press("[data-ftier]", b => { state.tier = +b.dataset.ftier; fs.querySelectorAll("[data-ftier]").forEach(x => x.setAttribute("aria-pressed", x === b)); });
+  press("[data-fs]", b => { state.status = b.dataset.fs; fs.querySelectorAll("[data-fs]").forEach(x => x.setAttribute("aria-pressed", x === b)); });
+  fs.querySelector("#fmonth").addEventListener("change", e => { state.month = e.target.value; refresh(); });
+  fs.querySelector("#freset").addEventListener("click", () => { state.kinds.clear(); state.countries.clear(); state.drive = 300; save("drive", 300); state.tier = 0; state.status = ""; state.month = ""; openFilters(); });
+  fs.querySelector("#fdone").addEventListener("click", closeSheets);
+  refresh(); showSheet(fs, "#fdone");
+}
+
+/* ================= MAP ================= */
+const P = (lon, lat) => [(lon - GEO.bb.lon0) * GEO.c * GEO.k, (GEO.bb.lat0 - lat) * GEO.k];
+let vb = null;
+function mapList() { return live().filter(forSel).filter(it => laneOk(it, state.mapLanes) && it.lat != null); }
+function fitVB(list) {
+  const pts = list.map(m => P(m.lng, m.lat)).concat([P(HOME.lng, HOME.lat)]);
+  let x0 = Math.min(...pts.map(p => p[0])), x1 = Math.max(...pts.map(p => p[0])), y0 = Math.min(...pts.map(p => p[1])), y1 = Math.max(...pts.map(p => p[1]));
+  if (pts.length < 2) { x0 -= 150; x1 += 150; y0 -= 150; y1 += 150; }
+  const pad = 30; x0 -= pad; y0 -= pad; x1 += pad; y1 += pad;
+  const box = $("mapbox").getBoundingClientRect(), ar = (box.width || 360) / (isDesk() ? Math.max(300, window.innerHeight - 150) : Math.min(window.innerHeight * 0.68, 640));
+  let w = x1 - x0, hh = y1 - y0; if (w / hh < ar) { const nw = hh * ar; x0 -= (nw - w) / 2; w = nw; } else { const nh = w / ar; y0 -= (nh - hh) / 2; hh = nh; }
+  return [x0, y0, w, hh];
+}
+function renderMap() {
+  laneChips($("mapLanes"), state.mapLanes, () => { vb = null; renderMap(); });
+  const list = mapList();
+  const evs = list.filter(it => it.type === "e"), byVenue = {};
+  list.filter(it => it.type === "c").forEach(it => { const k = it.venueObj.id || it.venue; (byVenue[k] = byVenue[k] || { v: it.venueObj, items: [] }).items.push(it); });
+  if (!vb) vb = fitVB(list);
+  const svg = $("map"); svg.setAttribute("viewBox", vb.join(" "));
+  const z = GEO.w / vb[2], sq = Math.sqrt(z);
+  const rr = it => (it.tier === 1 ? 6.5 : it.tier === 2 ? 5 : 3.8) / sq, fs = 11 / sq;
+  const [hx, hy] = P(HOME.lng, HOME.lat);
+  const labelled = evs.filter(it => z >= 2 ? it.tier <= 2 || z > 4 : it.tier === 1).slice(0, z > 3 ? 80 : 30);
+  svg.innerHTML = GEO.paths.map(p => `<path class="land ${["NL","BE","DE","LU","FR"].includes(p.id) ? "home" : ""}" d="${p.d}"/>`).join("")
+    + evs.slice().sort((a, b) => a.score - b.score).map(it => { const [x, y] = P(it.lng, it.lat); return `<circle class="pin ${state.mapSel === it.id ? "sel" : ""}" data-pin="${it.id}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${rr(it).toFixed(2)}" fill="${LANEBY[it.lane].c}"><title>${esc(it.name)}</title></circle>`; }).join("")
+    + Object.entries(byVenue).map(([k, g]) => { const [x, y] = P(g.v.lng, g.v.lat); const s = (5 + Math.min(4, g.items.length)) / sq; return `<rect class="pin" data-venue="${esc(k)}" x="${(x - s).toFixed(1)}" y="${(y - s).toFixed(1)}" width="${(2 * s).toFixed(1)}" height="${(2 * s).toFixed(1)}" transform="rotate(45 ${x.toFixed(1)} ${y.toFixed(1)})" fill="var(--l-music)"><title>${esc(g.v.name)}: ${g.items.length} shows</title></rect>`; }).join("")
+    + labelled.map(it => { const [x, y] = P(it.lng, it.lat); return `<text class="lbl" x="${(x + rr(it) + 2 / sq).toFixed(1)}" y="${(y + fs * 0.35).toFixed(1)}" font-size="${fs.toFixed(2)}" style="stroke-width:${(3/sq).toFixed(2)}px">${esc(it.short)}</text>`; }).join("")
+    + (z >= 2 ? Object.values(byVenue).map(g => { const [x, y] = P(g.v.lng, g.v.lat); return `<text class="lbl" x="${(x + 8 / sq).toFixed(1)}" y="${(y + fs * 0.35).toFixed(1)}" font-size="${fs.toFixed(2)}" style="stroke-width:${(3/sq).toFixed(2)}px">${esc(g.v.name)}</text>`; }).join("") : "")
+    + `<path class="home-pin" d="${starPath(hx, hy, 9 / sq)}"><title>Hoensbroek</title></path>`;
+  svg.querySelectorAll("[data-pin]").forEach(c => c.addEventListener("click", e => { e.stopPropagation(); state.mapSel = c.dataset.pin; openDetail(c.dataset.pin); }));
+  svg.querySelectorAll("[data-venue]").forEach(c => c.addEventListener("click", e => { e.stopPropagation(); const g = byVenue[c.dataset.venue]; if (g.items.length === 1) openDetail(g.items[0].id); else openVenue(g); }));
+  $("maplegend").innerHTML = LANES.map(l => `<span><i style="--pc:${l.c}"></i>${l.label}</span>`).join("") + `<span><i class="sq" style="--pc:var(--l-music)"></i>Concert venue</span><span style="color:var(--urgent)">&#9733; Hoensbroek</span>`;
+  $("mapcard").innerHTML = `<p class="muted" style="margin:0">${plural(evs.length, "event")} and ${Object.keys(byVenue).length} venues with ${plural(list.length - evs.length, "concert")}. Tap a marker for details; drag to pan; + and &minus; zoom.</p>`;
+}
+function openVenue(g) {
+  const fs = $("fsheet"); fs.className = "sheet bottom";
+  fs.innerHTML = `<div class="shead"><span class="stitle">${esc(g.v.name)}, ${esc(g.v.city)}</span><button class="btn sm" id="fdone">Close</button></div><div class="sbody" style="padding-bottom:16px"><div class="list">${g.items.sort((a, b) => a.first - b.first).map(it => card(it)).join("")}</div></div>`;
+  wire(fs); fs.querySelector("#fdone").addEventListener("click", closeSheets); showSheet(fs, "#fdone");
+}
+function starPath(cx, cy, r) { let d = ""; for (let i = 0; i < 10; i++) { const a = -Math.PI / 2 + i * Math.PI / 5, rad = i % 2 ? r * 0.45 : r; d += (i ? "L" : "M") + (cx + rad * Math.cos(a)).toFixed(1) + " " + (cy + rad * Math.sin(a)).toFixed(1); } return d + "Z"; }
+const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
+function zoom(f, cx, cy) { const [x, y, w, h] = vb; cx = cx == null ? x + w / 2 : cx; cy = cy == null ? y + h / 2 : cy; const nw = clamp(w / f, 40, GEO.w * 1.2), nh = nw * h / w; vb = [cx - (cx - x) * nw / w, cy - (cy - y) * nh / h, nw, nh]; renderMap(); }
+(function mapEvents() {
+  let drag = null; const svg = $("map");
+  svg.addEventListener("pointerdown", e => { if (e.target.dataset && (e.target.dataset.pin || e.target.dataset.venue)) return; drag = { x: e.clientX, y: e.clientY, vb: vb.slice(), moved: false }; svg.setPointerCapture(e.pointerId); });
+  svg.addEventListener("pointermove", e => { if (!drag) return; const box = svg.getBoundingClientRect(); const dx = (e.clientX - drag.x) * drag.vb[2] / box.width, dy = (e.clientY - drag.y) * drag.vb[3] / box.height; if (Math.abs(dx) + Math.abs(dy) > 1) drag.moved = true; vb = [drag.vb[0] - dx, drag.vb[1] - dy, drag.vb[2], drag.vb[3]]; svg.setAttribute("viewBox", vb.join(" ")); });
+  svg.addEventListener("pointerup", () => { if (drag && drag.moved) renderMap(); drag = null; });
+  svg.addEventListener("wheel", e => { e.preventDefault(); const box = svg.getBoundingClientRect(); const cx = vb[0] + (e.clientX - box.left) / box.width * vb[2], cy = vb[1] + (e.clientY - box.top) / box.height * vb[3]; zoom(e.deltaY < 0 ? 1.25 : 0.8, cx, cy); }, { passive: false });
+  $("zin").addEventListener("click", () => zoom(1.5)); $("zout").addEventListener("click", () => zoom(1 / 1.5)); $("zfit").addEventListener("click", () => { vb = fitVB(mapList()); renderMap(); });
+})();
+
+/* ================= PLAN ================= */
+const leaveBy = it => it.t0 == null || it.driveMin == null ? null : hm(it.t0 - it.driveMin - 30);
+function planItems() { return Object.keys(state.plan).filter(id => BYID[id]).map(id => BYID[id]).sort((a, b) => a.first - b.first || b.score - a.score); }
+function planChecks(items) {
+  const out = [];
+  items.forEach(it => {
+    if (it.status === "cancelled") out.push(`${it.name} is cancelled.`);
+    else if (it.status === "soldout") out.push(`${it.name} is sold out.`);
+    if (it.planBy && dn(it.planBy) < TODAY && it.status === "announced") out.push(`${it.name}: the book-by date (${fmt(dn(it.planBy))}) has passed and it is still only announced. Check tickets.`);
+    if (it.last < TODAY) out.push(`${it.name} is over.`);
+  });
+  for (let i = 0; i < items.length; i++) for (let j = i + 1; j < items.length; j++) {
+    const a = items[i], b = items[j]; if (a.lat == null || b.lat == null) continue;
+    let same = false; for (let d = Math.max(a.first, b.first, TODAY); d <= Math.min(a.last, b.last); d++) if (a.open(d) && b.open(d)) { same = true; break; }
+    if (!same) continue;
+    const est = Math.round(hav(a, b) / 75 * 60);
+    if (est > 90) out.push(`${a.name} and ${b.name} fall on the same day and sit about ${est} min apart by road.`);
+  }
+  return out;
+}
+function renderPlan() {
+  const items = planItems();
+  $("plansub").textContent = plural(items.length, "entry").replace("entrys", "entries");
+  const hiddenIds = [...state.hidden].filter(id => BYID[id]);
+  let h = "";
+  const checks = planChecks(items);
+  if (checks.length) h += `<div class="check"><h3>Check</h3><ul>${checks.map(c => `<li>${esc(c)}</li>`).join("")}</ul></div>`;
+  if (!items.length) h += `<div class="empty" style="margin-top:10px">Your plan is empty. Tap the star on any entry to save it here.</div>`;
+  else h += `<div class="list" style="margin-top:10px">${items.map(it => {
+    const l = LANEBY[it.lane], st = statusWord(it), lb = leaveBy(it);
+    return `<div class="pitem" style="--lc:${l.c}"><div class="ph"><div><b>${esc(it.name)}</b><span class="sub">${esc(when(it))} · ${esc(it.city)} · ${drive(it)}</span></div><button class="star btn sm" data-star="${it.id}" aria-pressed="true" aria-label="Remove from plan" style="border:1px solid var(--line);width:44px;color:var(--urgent)">${STAR.replace("<svg", '<svg style="width:20px;height:20px;fill:var(--urgent);stroke:var(--urgent)"')}</button></div>
+      <div class="kv"><span>Status</span><span class="tag ${st.c}" style="justify-self:start">${esc(st.t)}${it.sellOutRisk ? " · " + it.sellOutRisk + " risk" : ""}</span><span>Leave by</span><span>${lb ? `<b>${lb}</b> for ${it.type === "c" ? "doors " + esc(it.doors) : esc(it.times)} (${drive(it)} plus 30 min)` : (it.times ? esc(it.times) + ", no start time to count back from" : "no start time published yet")}</span>${it.planBy ? `<span>Book by</span><span>${fmtW(dn(it.planBy))}</span>` : ""}${it.priceFrom != null ? `<span>From</span><span>&euro;${it.priceFrom}</span>` : ""}</div>
+      <div class="actions"><a class="btn sm" href="${gmDir(it)}" target="_blank" rel="noopener">Drive</a><a class="btn sm" href="${gmTransit(it)}" target="_blank" rel="noopener">Transit</a>${it.ticketUrl ? `<a class="btn sm" href="${esc(it.ticketUrl)}" target="_blank" rel="noopener">Tickets</a>` : ""}<button class="btn sm" data-open="${it.id}">Details</button></div>
+      <label class="muted" style="font-size:.85rem">Notes<textarea data-note="${it.id}" rows="2" placeholder="Who is coming, where to park, what to bring">${esc(state.notes[it.id] || "")}</textarea></label></div>`; }).join("")}</div>`;
+  h += `<div class="actions" style="margin-top:16px"><button class="btn pri" id="icsPlan" type="button" ${items.length ? "" : "disabled"}>Add to calendar (.ics)</button><button class="btn" id="pdfPlan" type="button" ${items.length ? "" : "disabled"}>Export plan as PDF</button><button class="btn" id="copyPlan" type="button" ${items.length ? "" : "disabled"}>Copy as text</button></div>`;
+  h += `<p class="muted" style="font-size:.85rem">The .ics file holds one all-day event per saved entry with a reminder the day before, plus a 09:00 reminder on each ticket on-sale date. Open it on your iPhone and add it to Calendar; that is the cross-device reminder path.</p>`;
+  h += `<h2 class="sec" style="font-size:1.1rem">Hidden entries<small>${hiddenIds.length}</small></h2>`;
+  h += hiddenIds.length ? `<div class="actions"><button class="btn sm" id="toggleHidden" aria-pressed="${state.showHidden}">${state.showHidden ? "Hide them again" : "Show hidden entries in lists"}</button></div><div class="list" style="margin-top:8px">${hiddenIds.map(id => `<div class="card compact" style="--lc:${LANEBY[BYID[id].lane].c}"><button class="cmain" data-open="${id}"><b>${esc(BYID[id].name)}</b><span class="meta"><span>${esc(when(BYID[id]))}</span></span></button><button class="btn sm" data-unhide="${id}" style="margin:8px">Restore</button></div>`).join("")}</div>` : `<p class="muted" style="margin:0">Nothing hidden. "Not interested" on any entry hides it everywhere.</p>`;
+  $("planBody").innerHTML = h; wire($("planBody"));
+  $("planBody").querySelectorAll("[data-note]").forEach(t => t.addEventListener("input", () => { state.notes[t.dataset.note] = t.value; save("notes", state.notes); }));
+  $("planBody").querySelectorAll("[data-unhide]").forEach(b => b.addEventListener("click", () => { hide(b.dataset.unhide, false); renderPlan(); }));
+  const th = $("toggleHidden"); if (th) th.addEventListener("click", () => { state.showHidden = !state.showHidden; save("showHidden", state.showHidden); renderPlan(); });
+  if (items.length) { $("icsPlan").addEventListener("click", exportIcs); $("pdfPlan").addEventListener("click", () => exportPdf("plan")); $("copyPlan").addEventListener("click", copyPlan); }
+}
+function planText() { return planItems().map(it => `${when(it)}: ${it.name}, ${it.city} (${drive(it)})${leaveBy(it) ? ", leave by " + leaveBy(it) : ""}${it.ticketUrl ? "\n  " + it.ticketUrl : ""}\n  ${gmSearch(it)}`).join("\n"); }
+async function copyPlan() {
+  const txt = "Rondom plan\n\n" + planText();
+  try { await navigator.clipboard.writeText(txt); toast("Plan copied"); }
+  catch (e) { const fs = $("fsheet"); fs.className = "sheet"; fs.innerHTML = `<div class="shead"><span class="stitle">Copy your plan</span><button class="btn sm pri" id="fdone">Done</button></div><div class="fs-body"><textarea style="min-height:50vh">${esc(txt)}</textarea></div>`; fs.querySelector("#fdone").addEventListener("click", closeSheets); showSheet(fs, "#fdone"); }
+}
+
+/* ================= ICS ================= */
+const icsEsc = s => String(s == null ? "" : s).replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
+const icsDate = n => isoOf(n).replace(/-/g, "");
+function fold(line) { const out = []; let s = line; while (s.length > 73) { out.push(s.slice(0, 73)); s = " " + s.slice(73); } out.push(s); return out.join("\r\n"); }
+function buildIcs(items) {
+  const stamp = new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z";
+  const L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Rondom//Plan//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:Rondom plan", "X-WR-TIMEZONE:Europe/Amsterdam",
+    "BEGIN:VTIMEZONE", "TZID:Europe/Amsterdam", "BEGIN:DAYLIGHT", "TZOFFSETFROM:+0100", "TZOFFSETTO:+0200", "TZNAME:CEST", "DTSTART:19700329T020000", "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU", "END:DAYLIGHT", "BEGIN:STANDARD", "TZOFFSETFROM:+0200", "TZOFFSETTO:+0100", "TZNAME:CET", "DTSTART:19701025T030000", "RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU", "END:STANDARD", "END:VTIMEZONE"];
+  items.forEach(it => {
+    const desc = [it.why, `Drive ${drive(it)} from Hoensbroek.`, leaveBy(it) ? `Leave by ${leaveBy(it)}.` : null, it.times, it.ticketUrl ? "Tickets: " + it.ticketUrl : null, "Source: " + it.source, state.notes[it.id] ? "Notes: " + state.notes[it.id] : null].filter(Boolean).join("\n");
+    L.push("BEGIN:VEVENT", `UID:rondom-${it.id}@rondom`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${icsDate(it.first)}`, `DTEND;VALUE=DATE:${icsDate(it.last + 1)}`, `SUMMARY:${icsEsc(it.name)}`, `LOCATION:${icsEsc((it.venue ? it.venue + ", " : "") + it.city + ", " + COUNTRY[it.country])}`, `DESCRIPTION:${icsEsc(desc)}`, it.ticketUrl || it.source ? `URL:${it.ticketUrl || it.source}` : null, it.lat != null ? `GEO:${it.lat};${it.lng}` : null, "BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${icsEsc("Tomorrow: " + it.name)}`, "TRIGGER:-P1D", "END:VALARM", "END:VEVENT");
+    if (it.onSale && dn(it.onSale) >= TODAY) L.push("BEGIN:VEVENT", `UID:rondom-${it.id}-onsale@rondom`, `DTSTAMP:${stamp}`, `DTSTART;TZID=Europe/Amsterdam:${it.onSale.replace(/-/g, "")}T090000`, `DTEND;TZID=Europe/Amsterdam:${it.onSale.replace(/-/g, "")}T093000`, `SUMMARY:${icsEsc("Tickets on sale: " + it.name)}`, `DESCRIPTION:${icsEsc((it.sellOutRisk ? RISK[it.sellOutRisk] + ". " : "") + (it.ticketUrl || it.source || ""))}`, it.ticketUrl ? `URL:${it.ticketUrl}` : null, "BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${icsEsc("Tickets on sale now: " + it.name)}`, "TRIGGER:PT0M", "END:VALARM", "END:VEVENT");
+  });
+  L.push("END:VCALENDAR");
+  return L.filter(Boolean).map(fold).join("\r\n") + "\r\n";
+}
+async function exportIcs() {
+  const items = planItems(); if (!items.length) return toast("Your plan is empty.");
+  const blob = new Blob([buildIcs(items)], { type: "text/calendar;charset=utf-8" });
+  await saveBlob(blob, "Rondom-plan.ics");
+}
+async function saveBlob(blob, fname) {
+  try {
+    if (downloads) { await downloads.save({ filename: fname, data: blob }); return toast("Saved " + fname); }
+    const url = URL.createObjectURL(blob), a = document.createElement("a"); a.href = url; a.download = fname; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 60000); toast("Downloaded " + fname);
+  } catch (e) { toast(e && e.code === "declined" ? "Download cancelled." : "Export failed" + (e && e.message ? ": " + e.message : ".")); }
+}
+
+/* ================= DETAIL ================= */
+const gmSearch = it => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((it.venue ? it.venue + ", " : it.name + ", ") + it.city)}`;
+const gmDir = it => `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent("Hoensbroek, Netherlands")}&destination=${it.lat},${it.lng}&travelmode=driving`;
+const gmTransit = it => `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent("Heerlen station")}&destination=${it.lat},${it.lng}&travelmode=transit`;
+let lastFocus = null;
+function showSheet(el, focusSel) { lastFocus = document.activeElement; $("scrim").hidden = false; el.hidden = false; el.scrollTop = 0; document.body.style.overflow = "hidden"; const f = el.querySelector(focusSel || "button"); if (f) f.focus({ preventScroll: true }); }
+function closeSheets(opts = {}) {
+  const wasDetail = !$("sheet").hidden;
+  $("sheet").hidden = true; $("fsheet").hidden = true; $("scrim").hidden = true; document.body.style.overflow = "";
+  if (wasDetail && /^#[ec]-/.test(location.hash)) history.replaceState(null, "", "#" + state.tab);
+  if (wasDetail) { state.detail = null; }
+  if (!opts.keep) render();
+  if (lastFocus && lastFocus.isConnected) lastFocus.focus({ preventScroll: true });
+}
+$("scrim").addEventListener("click", () => closeSheets());
+document.addEventListener("keydown", e => { if (e.key === "Escape") { if (!$("sheet").hidden || !$("fsheet").hidden) closeSheets(); else if (isDesk() && state.detail) closeDetailPanel(); } });
+function closeDetailPanel() { state.detail = null; $("dpanel").innerHTML = `<div class="ph">Select an entry to see its details here.</div>`; if (/^#[ec]-/.test(location.hash)) history.replaceState(null, "", "#" + state.tab); document.querySelectorAll(".card.sel").forEach(c => c.classList.remove("sel")); }
+function detailHtml(it) {
+  const st = statusWord(it), l = LANEBY[it.lane], v = it.venueObj;
+  const kv = (k, val) => val ? `<div><span class="k">${k}</span><span class="v">${val}</span></div>` : "";
+  const lezTxt = it.lez || (v && v.lez) || null;
+  const liked = state.likes.lanes[it.lane] && it.tags.every(t => state.likes.tags[t]);
+  return `<div class="shead"><button class="iconbtn" data-dclose aria-label="Close details">&larr;</button><span class="stitle">${esc(it.name)}</span><button class="btn sm ${inPlan(it.id) ? "pri" : ""}" data-dstar="${it.id}">${inPlan(it.id) ? "In your plan" : "Save to plan"}</button></div>
+  <div class="sbody">
+    <div class="dh"><div class="dtags" style="margin:0"><span class="tag" style="color:${l.c}"><span class="pdots"><i style="--pc:${l.c}"></i></span>${KIND[it.kind]}</span><span class="tag">${TIERT[it.tier]}</span><span class="tag ${st.c}">${esc(st.t)}</span>${it.confidence === "projected" ? `<span class="tag warn">Dates projected</span>` : ""}</div>
+      <h2>${esc(it.name)}</h2><div class="where">${it.venue ? esc(it.venue) + ", " : ""}${esc(it.city)}${it.region && it.region !== it.city ? ", " + esc(it.region) : ""}, ${COUNTRY[it.country] || esc(it.country)}</div>
+      ${it.why ? `<p class="why">${esc(it.why)}</p>` : ""}
+      <div class="dtags">${it.for.map(p => `<span class="tag"><span class="pdots"><i style="--pc:${PBY[p]?.c}"></i></span>${esc(PBY[p]?.label || p)}</span>`).join("")}</div>
+    </div>
+    <div class="dact">${it.ticketUrl ? `<a class="btn pri" href="${esc(it.ticketUrl)}" target="_blank" rel="noopener">Tickets</a>` : `<a class="btn pri" href="${esc(it.source)}" target="_blank" rel="noopener">Official page</a>`}<a class="btn" href="${gmSearch(it)}" target="_blank" rel="noopener">Google Maps</a><a class="btn" href="${gmDir(it)}" target="_blank" rel="noopener">Drive there</a><a class="btn" href="${gmTransit(it)}" target="_blank" rel="noopener">By train</a></div>
+    <div class="dsec"><div class="facts">
+      <div><span>Dates</span><b>${esc(it.first === it.last ? fmtW(it.first) + " " + fromDn(it.first).getUTCFullYear() : fmtRange(it.first, it.last) + " " + fromDn(it.last).getUTCFullYear())}</b>${it.days && it.days.length ? `<div class="muted" style="font-size:.8rem">${it.days.length} dates: ${it.days.map(d => fmt(dn(d))).join(", ")}</div>` : ""}</div>
+      <div><span>${it.type === "c" ? "Doors" : "Times"}</span><b>${esc(it.type === "c" ? (it.doors || "n/a") : (it.times || "n/a"))}</b></div>
+      <div><span>Drive</span><b>${drive(it)}</b></div>
+      <div><span>Leave by</span><b>${leaveBy(it) || "n/a"}</b></div>
+      <div><span>Status</span><b>${esc(st.t)}</b>${it.sellOutRisk ? `<div class="muted" style="font-size:.8rem">${RISK[it.sellOutRisk]}</div>` : ""}</div>
+      <div><span>Price from</span><b>${it.priceFrom != null ? "&euro;" + it.priceFrom : (it.ticketNote ? esc(it.ticketNote) : "n/a")}</b>${it.priceFrom != null && it.ticketNote ? `<div class="muted" style="font-size:.8rem">${esc(it.ticketNote)}</div>` : ""}</div>
+      <div><span>On sale</span><b>${it.onSale ? fmtW(dn(it.onSale)) : (it.status === "onsale" ? "Now" : "n/a")}</b></div>
+      <div><span>Book by</span><b>${it.planBy ? fmtW(dn(it.planBy)) : "n/a"}</b></div>
+    </div></div>
+    ${it.highlights ? `<div class="dsec"><h3>What happens</h3><p>${esc(it.highlights)}</p></div>` : ""}
+    ${it.tip ? `<div class="dsec"><h3>Tip</h3><p>${esc(it.tip)}</p></div>` : ""}
+    ${it.tour ? `<div class="dsec"><h3>Tour</h3><p>${esc(it.tour)}</p></div>` : ""}
+    ${v ? `<div class="dsec"><h3>Venue</h3><div class="vcard"><b>${esc(v.name)}</b>, ${esc(v.city)}${v.capacity ? ` · capacity ${v.capacity.toLocaleString("en-GB")}` : ""}<div class="kv" style="margin-top:8px">${kv("Parking", esc(v.parking))}${kv("Train", esc(v.train))}${kv("Emissions zone", esc(v.lez))}</div></div></div>` : ""}
+    ${(it.parking || it.train || (lezTxt && !v)) ? `<div class="dsec"><h3>Getting there</h3><div class="kv">${kv("Parking", esc(it.parking))}${kv("Train", esc(it.train))}${!v ? kv("Emissions zone", esc(lezTxt)) : ""}</div></div>` : ""}
+    ${it.tags.length ? `<div class="dsec"><h3>Tags</h3><div class="dtags" style="margin:0">${it.tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div></div>` : ""}
+    <div class="dsec"><h3>Your take</h3><div class="actions"><button class="btn sm" data-like="${it.id}" aria-pressed="${!!liked}">${liked ? "Liked: more like this" : "More like this"}</button><button class="btn sm" data-hide2="${it.id}" aria-pressed="${state.hidden.has(it.id)}">${state.hidden.has(it.id) ? "Hidden: restore" : "Not interested"}</button></div>
+      <label class="muted" style="font-size:.85rem;display:block;margin-top:10px">Notes<textarea data-note="${it.id}" rows="2" placeholder="Your notes stay on this device">${esc(state.notes[it.id] || "")}</textarea></label></div>
+    <div class="dsec"><p class="muted" style="font-size:.85rem">${it.confidence === "confirmed" ? "Dates confirmed from the official source" : "Dates projected from the usual pattern; check before booking"}${it.verifiedOn ? `, checked ${esc(it.verifiedOn)}` : ""}. Added ${esc(it.addedOn || "")}. ${it.dateNote ? esc(it.dateNote) + " " : ""}Source: <a href="${esc(it.source)}" target="_blank" rel="noopener">${esc((it.source || "").replace(/^https?:\/\/(www\.)?/, "").split("/")[0])}</a></p></div>
+  </div>`;
+}
+function wireDetail(root, it) {
+  root.querySelector("[data-dclose]").addEventListener("click", () => isDesk() ? closeDetailPanel() : closeSheets());
+  root.querySelector("[data-dstar]").addEventListener("click", () => toggleStar(it.id));
+  root.querySelector("[data-like]").addEventListener("click", () => { const on = !(state.likes.lanes[it.lane] && it.tags.every(t => state.likes.tags[t])); state.likes.lanes[it.lane] = on; it.tags.forEach(t => state.likes.tags[t] = on); save("likes", state.likes); rescore(); toast(on ? "Noted. Similar entries score higher." : "Preference removed."); openDetail(it.id, true); });
+  root.querySelector("[data-hide2]").addEventListener("click", () => { hide(it.id, !state.hidden.has(it.id)); openDetail(it.id, true); });
+  root.querySelector("[data-note]").addEventListener("input", e => { state.notes[it.id] = e.target.value; save("notes", state.notes); });
+}
+function openDetail(id, rerender) {
+  const it = BYID[id]; if (!it) return;
+  state.detail = id;
+  const hash = (it.type === "c" ? "#c-" : "#e-") + id;
+  if (location.hash !== hash) history.pushState(null, "", hash);
+  if (isDesk()) {
+    const p = $("dpanel"); p.innerHTML = detailHtml(it); wireDetail(p, it);
+    document.querySelectorAll(".card.sel").forEach(c => c.classList.remove("sel")); document.querySelectorAll(`[data-open="${id}"]`).forEach(b => { const c = b.closest(".card"); if (c) c.classList.add("sel"); });
+    if (!rerender) p.scrollTop = 0;
+    $("layout").classList.add("two");
+  } else {
+    const s = $("sheet"); s.innerHTML = detailHtml(it); wireDetail(s, it);
+    if (s.hidden) showSheet(s, "[data-dclose]");
+  }
+}
+
+/* ================= SETTINGS ================= */
+function openSettings() {
+  const fs = $("fsheet"); fs.className = "sheet";
+  fs.innerHTML = `<div class="shead"><span class="stitle">Settings and export</span><button class="btn sm pri" id="fdone">Done</button></div>
+  <div class="fs-body">
+    <div><h3>How much each person counts</h3><p class="muted" style="margin:0 0 10px;font-size:.88rem">Scales the profile match in the score (10 points per person, up to 20). 1x is the default.</p>${PROFILES.map(p => `<div class="slider"><span style="color:${p.c};font-weight:600">${p.label}</span><input type="range" min="0.5" max="2" step="0.25" value="${state.weights[p.id] ?? 1}" data-w="${p.id}" aria-label="${p.label} weight"><span class="num" id="w-${p.id}">${state.weights[p.id] ?? 1}x</span></div>`).join("")}</div>
+    <div><h3>Your data</h3><p class="muted" style="margin:0 0 10px;font-size:.88rem">Plan, notes, hidden entries, likes, weights and what you have seen. Stored only in this browser. Export to move it to another device.</p><div class="actions"><button class="btn" id="expJson">Export as JSON</button><label class="btn" for="impJson">Import JSON<input id="impJson" type="file" accept="application/json,.json" class="sr"></label><button class="btn" id="resetAll">Reset everything</button></div></div>
+    <div><h3>New tab</h3><div class="actions"><button class="btn" id="markAll">Mark all as seen</button></div></div>
+    <div><p class="muted" style="font-size:.85rem;margin:0">Rondom ${esc(META.version)}, data checked ${esc(META.checked)}, built ${esc(META.built)}.</p></div>
+  </div>`;
+  fs.querySelectorAll("[data-w]").forEach(r => r.addEventListener("input", () => { state.weights[r.dataset.w] = +r.value; $("w-" + r.dataset.w).textContent = r.value + "x"; save("weights", state.weights); rescore(); }));
+  fs.querySelector("#expJson").addEventListener("click", () => { const data = {}; ALLKEYS.forEach(k => { const v = localStorage.getItem(k); if (v != null) data[k] = JSON.parse(v); }); saveBlob(new Blob([JSON.stringify({ app: "rondom", exported: isoOf(TODAY), data }, null, 1)], { type: "application/json" }), `Rondom-data-${isoOf(TODAY)}.json`); });
+  fs.querySelector("#impJson").addEventListener("change", async e => { const f = e.target.files[0]; if (!f) return; try { const j = JSON.parse(await f.text()); const data = j.data || j; let n = 0; Object.entries(data).forEach(([k, v]) => { if (ALLKEYS.includes(k)) { localStorage.setItem(k, JSON.stringify(v)); n++; } }); toast(`Imported ${n} keys. Reloading.`); setTimeout(() => location.reload(), 800); } catch (err) { toast("That file is not a Rondom export."); } });
+  fs.querySelector("#resetAll").addEventListener("click", () => { const b = fs.querySelector("#resetAll"); if (b.dataset.c) { ALLKEYS.forEach(k => localStorage.removeItem(k)); location.reload(); } else { b.dataset.c = "1"; b.textContent = "Tap again to erase everything"; } });
+  fs.querySelector("#markAll").addEventListener("click", () => { markSeenAll(); state.seen.clear(); save("seen", state.seen); renderBadges(); toast("Marked as seen"); });
+  fs.querySelector("#fdone").addEventListener("click", closeSheets);
+  showSheet(fs, "#fdone");
+}
+$("settings2").addEventListener("click", openSettings);
+
+/* ================= routing and shell ================= */
+const TABS = ["home", "new", "calendar", "browse", "map", "plan"];
+const VIEW = { home: "v-home", new: "v-new", calendar: "v-cal", browse: "v-browse", map: "v-map", plan: "v-plan" };
+function setTab(t, push = true) {
+  if (state.tab === "new" && t !== "new") { markSeenAll(); renderBadges(); }
+  state.tab = t;
+  document.querySelectorAll("[data-tab]").forEach(b => { if (b.dataset.tab === t) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current"); });
+  Object.entries(VIEW).forEach(([k, id]) => $(id).hidden = k !== t);
+  if (push && location.hash !== "#" + t) history.replaceState(null, "", "#" + t);
+  $("top").classList.toggle("slim", t !== "home" || window.scrollY > 60);
+  $("layout").classList.toggle("two", isDesk() && (t === "browse" || t === "calendar" || !!state.detail));
+  render(); window.scrollTo(0, 0);
+}
+function render() {
+  rescore(); renderBadges();
+  if (state.tab === "home") renderHome();
+  else if (state.tab === "new") renderNew();
+  else if (state.tab === "calendar") renderCal();
+  else if (state.tab === "browse") renderBrowse();
+  else if (state.tab === "map") renderMap();
+  else if (state.tab === "plan") renderPlan();
+}
+document.querySelectorAll("[data-tab]").forEach(b => b.addEventListener("click", () => setTab(b.dataset.tab)));
+$("openFilters").addEventListener("click", openFilters);
+let qT; $("q").addEventListener("input", e => { clearTimeout(qT); qT = setTimeout(() => { state.q = e.target.value.trim(); renderBrowse(); }, 140); });
+$("sort").addEventListener("change", e => { state.sort = e.target.value; save("sort", state.sort); renderBrowse(); });
+$("pdfAll").addEventListener("click", () => exportPdf("all"));
+window.addEventListener("scroll", () => { if (state.tab === "home") $("top").classList.toggle("slim", window.scrollY > 60); }, { passive: true });
+let rT; window.addEventListener("resize", () => { clearTimeout(rT); rT = setTimeout(() => { vb = null; if (state.detail && isDesk() && !$("sheet").hidden) { $("sheet").hidden = true; $("scrim").hidden = true; document.body.style.overflow = ""; } render(); if (state.detail) openDetail(state.detail, true); }, 150); });
+function route() {
+  const h = location.hash.slice(1);
+  const m = /^([ec])-(.+)$/.exec(h);
+  if (m && BYID[m[2]]) { if (state.detail !== m[2] || (!isDesk() && $("sheet").hidden)) openDetail(m[2]); return; }
+  if (!$("sheet").hidden) { $("sheet").hidden = true; $("scrim").hidden = true; document.body.style.overflow = ""; state.detail = null; }
+  setTab(TABS.includes(h) ? h : state.tab, false);
+}
+window.addEventListener("hashchange", route);
+route();
+if (!location.hash) setTab("home", true);
+// The New badge pulses once when the count rose since the last visit. Nothing else animates.
+(() => { const n = renderBadges(), prev = store.get(K.newCount, 0); if (n > prev && !reduced()) $("nbadge").classList.add("pulse"); store.set(K.newCount, n); })();
+let downloads = null;
+(async () => { try { if (window.claude && claude.use) downloads = await claude.use("downloads"); } catch (e) {} })();
+if (__PWA__ && "serviceWorker" in navigator && location.protocol === "https:") window.addEventListener("load", () => navigator.serviceWorker.register("/sw.js").catch(() => {}));
+
+/* ================= PDF ================= */
+function ascii(s) { return String(s == null ? "" : s).replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/·/g, "|").replace(/[^\x00-\xFF–—€]/g, ""); }
+const INK = [24,30,36], MUTE = [96,106,116], LINE = [214,218,222], ACC = [196,128,10];
+const LANEPDF = { fest: [220,100,50], music: [120,80,200], mil: [30,150,90], sport: [20,140,160], cult: [190,140,20] };
+async function exportPdf(kind) {
+  const list = kind === "plan" ? planItems() : browseList();
+  if (!list.length) return toast("Nothing to export.");
+  if (!window.jspdf) return toast("The PDF library did not load. Check your connection and reload.");
+  toast("Building PDF..."); await new Promise(r => setTimeout(r, 30));
+  try {
+    const { jsPDF } = window.jspdf; const doc = new jsPDF({ unit: "mm", format: "a4" });
+    const W = doc.internal.pageSize.getWidth(), H = doc.internal.pageSize.getHeight();
+    const title = kind === "plan" ? "Rondom: your plan" : "Rondom: events worth the drive";
+    const header = (cont) => { doc.setFont("helvetica", "bold"); doc.setFontSize(15); doc.setTextColor(...INK); doc.text(ascii(title + (cont ? " (continued)" : "")), 12, 15); doc.setFont("helvetica", "normal"); doc.setFontSize(7.8); doc.setTextColor(...MUTE); doc.text(ascii(`From Hoensbroek | ${list.length} entries | data checked ${META.checked}`), 12, 20.5); doc.setDrawColor(...ACC); doc.setLineWidth(.7); doc.line(12, 23, W - 12, 23); };
+    header(false); let y = 29;
+    list.forEach(it => {
+      const L = [`${when(it)} | ${it.city}, ${COUNTRY[it.country] || it.country} | ${drive(it)} | ${statusWord(it).t}${it.priceFrom != null ? " | from EUR " + it.priceFrom : ""}${leaveBy(it) ? " | leave by " + leaveBy(it) : ""}`];
+      if (it.why) L.push(it.why);
+      if (it.planBy || it.onSale) L.push([it.onSale ? "On sale " + fmtY(dn(it.onSale)) : null, it.planBy ? "book by " + fmtY(dn(it.planBy)) : null, it.sellOutRisk ? it.sellOutRisk + " sell-out risk" : null].filter(Boolean).join(", "));
+      if (kind === "plan" && state.notes[it.id]) L.push("Notes: " + state.notes[it.id]);
+      if (it.tip && kind === "plan") L.push("Tip: " + it.tip);
+      L.push((it.ticketUrl ? "Tickets: " + it.ticketUrl + "  " : "") + "Map: " + gmSearch(it));
+      doc.setFontSize(7.2); const body = L.flatMap(t => doc.splitTextToSize(ascii(t), W - 24 - 8));
+      const hgt = 6 + body.length * 3.1 + 3;
+      if (y + hgt > H - 11) { doc.addPage(); header(true); y = 29; }
+      doc.setFillColor(...(LANEPDF[it.lane] || MUTE)); doc.rect(12, y, 1.3, hgt - 3, "F");
+      doc.setFont("helvetica", "bold"); doc.setFontSize(9.5); doc.setTextColor(...INK); doc.text(ascii(it.name), 16, y + 4);
+      doc.setFont("helvetica", "normal"); doc.setFontSize(7.2); doc.setTextColor(...MUTE); doc.text(ascii(`${KIND[it.kind]} | tier ${it.tier}`), W - 12, y + 4, { align: "right" });
+      doc.setTextColor(56,62,68); body.forEach((t, j) => doc.text(t, 16, y + 8 + j * 3.1));
+      y += hgt;
+    });
+    const n = doc.internal.getNumberOfPages(); for (let i = 1; i <= n; i++) { doc.setPage(i); doc.setFontSize(6.8); doc.setTextColor(...MUTE); doc.text(ascii(`Rondom | page ${i} of ${n} | projected dates need a check on the official page before you book.`), 12, H - 6); }
+    await saveBlob(doc.output("blob"), kind === "plan" ? "Rondom-plan.pdf" : "Rondom-list.pdf");
+  } catch (e) { toast("PDF export failed" + (e && e.message ? ": " + e.message : ".")); }
+}
+</script>
+</body>
+</html>

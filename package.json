@@ -1,0 +1,14 @@
+{
+  "name": "rondom",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Rondom: events worth a drive from Hoensbroek, as a phone-first static web app.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "artifact": "node scripts/build.mjs --artifact",
+    "triage": "node scripts/triage.mjs --days 45 --max 80",
+    "serve": "node scripts/build.mjs && npx --yes serve public"
+  },
+  "engines": { "node": ">=18" }
+}

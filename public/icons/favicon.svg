@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Rondom: range rings around home, one radar sweep. Safe zone for maskable icons is the inner 80% circle (r 204); everything that matters sits inside r 196. -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="46%" r="62%">
+      <stop offset="0" stop-color="#14343a"/>
+      <stop offset="1" stop-color="#0b1518"/>
+    </radialGradient>
+    <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="430" y1="196" x2="262" y2="92">
+      <stop offset="0" stop-color="#ffb454" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#ffb454" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ffb454" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g fill="none" stroke="#45d4e6" stroke-linecap="round">
+    <circle cx="256" cy="256" r="190" stroke-width="6" opacity=".38"/>
+    <circle cx="256" cy="256" r="130" stroke-width="7" opacity=".62"/>
+    <circle cx="256" cy="256" r="70" stroke-width="8" opacity=".9"/>
+    <path d="M256 70V48M256 464v-22M70 256H48M464 256h-22" stroke-width="7" opacity=".55"/>
+  </g>
+  <path d="M256 256L256 66A190 190 0 0 1 434.6 191.1Z" fill="url(#sweep)"/>
+  <path d="M256 256L434.6 191.1" stroke="#ffb454" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="256" cy="256" r="24" fill="#ffb454"/>
+  <circle cx="256" cy="256" r="24" fill="none" stroke="#0b1518" stroke-width="5"/>
+  <circle cx="348" cy="164" r="12" fill="#45d4e6"/>
+  <circle cx="178" cy="356" r="9" fill="#45d4e6" opacity=".8"/>
+  <circle cx="124" cy="206" r="7" fill="#45d4e6" opacity=".55"/>
+</svg>
