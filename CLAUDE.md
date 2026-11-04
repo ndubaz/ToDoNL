@@ -27,8 +27,8 @@ npx serve public                    # local preview
 
 - **GitHub:** `ndubaz/ToDoNL`, branch `main`. Vercel auto-deploys every push to `main`.
 - **Vercel:** Hobby account `ndubaz-5533`, team id `team_O5dGajZMxTjDlfCmwOIKjT5w`, project `todonl`. If no project is linked to the repo, link it with the Vercel MCP `create_git_project` (repo `ndubaz/ToDoNL`, that team id).
-- **claude.ai artifact:** see the line "Artifact URL" at the bottom of this file; it is filled in after the first publish. Republish with `dist/artifact.html`; keep its title and the `downloads` capability (the PDF and ICS exports use it).
-- **Scheduled task:** "Rondom weekly refresh", every Wednesday 02:30 Europe/Amsterdam, prompt "Open the repo ndubaz/ToDoNL on main and follow docs/UPDATE.md exactly."
+- **claude.ai artifact:** https://claude.ai/artifact/MwmFC7k4pnbxmz8YgtCswb. Republish with `dist/artifact.html`; keep its title and the `downloads` capability (the PDF and ICS exports use it).
+- **Scheduled task:** "Rondom weekly refresh" (trigger id `trig_01XLn8g4zex7pgu9Nwvy4EPx`), every Wednesday 02:30 Europe/Amsterdam, prompt "Open the repo ndubaz/ToDoNL on main and follow docs/UPDATE.md exactly."
 
 ## Data schema
 
@@ -70,4 +70,4 @@ Browser storage keys all start with `out-` (`out-plan`, `out-notes`, `out-hidden
 - UI copy: plain English, active voice, no em dashes inside sentences, DD Mon YYYY dates, 24-hour clock, no emoji, no official-looking markers.
 - Commits end with the attribution lines Claude Code provides.
 
-Artifact URL: (filled in after the first publish)
+Artifact URL: https://claude.ai/artifact/MwmFC7k4pnbxmz8YgtCswb (published 4 Nov 2026 from dist/artifact.html with the `downloads` capability)

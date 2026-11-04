@@ -88,7 +88,14 @@ let html = tpl
   .replaceAll("__ICON_SRC__", ARTIFACT ? iconData : "/icons/favicon.svg")
   .replace("__JSPDF_SRC__", ARTIFACT ? "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" : "/vendor/jspdf-2.5.1.umd.min.js")
   .replaceAll("__PWA__", ARTIFACT ? "false" : "true");
-if (ARTIFACT) html = html.replace(/<!--PWA-->[\s\S]*?<!--\/PWA-->\n?/, "");
+if (ARTIFACT) {
+  // The claude.ai artifact host wraps the file in its own document skeleton (doctype, charset, viewport, reset), so the artifact build ships only the page content.
+  html = html.replace(/<!--PWA-->[\s\S]*?<!--\/PWA-->\n?/, "")
+    .replace(/^<!DOCTYPE html>\s*<html[^>]*>\s*<head>\s*/i, "")
+    .replace(/<meta charset="utf-8">\s*/i, "").replace(/<meta name="viewport"[^>]*>\s*/i, "")
+    .replace(/<title>Rondom<\/title>/, '<title>Rondom</title>\n<meta name="claude:viewport-fit-sides" content="cover">')
+    .replace(/<\/head>\s*<body>\s*/i, "").replace(/\s*<\/body>\s*<\/html>\s*$/i, "\n");
+}
 
 const counts = {}; events.forEach(e => counts[e.kind] = (counts[e.kind] || 0) + 1); concerts.forEach(c => { const k = c.genre === "kpop" ? "kpop" : "concert"; counts[k] = (counts[k] || 0) + 1; });
 const projected = events.filter(e => e.confidence === "projected").length + concerts.filter(c => c.confidence === "projected").length;

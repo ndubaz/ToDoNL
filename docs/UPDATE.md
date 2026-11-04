@@ -40,7 +40,7 @@ Both must pass. If validation fails, fix the data; never weaken the validator.
 1. **Changelog:** add a dated section at the top of `data/CHANGELOG.md`: added (by kind, naming every tier 1 entry and every K-pop, military or aviation entry), status changes (old to new), corrected dates (old to new), removed, rotation run, what could not be verified.
 2. **Backlog:** add unverified items and blocked hosts to `BACKLOG.md`.
 3. **Git:** commit `data/`, `public/` and the docs with the message `Weekly refresh YYYY-MM-DD` and the attribution lines, then push to `main`. Vercel redeploys automatically. If the push is refused, say so in the report and continue.
-4. **claude.ai artifact:** republish the artifact named in `CLAUDE.md` with `dist/artifact.html`. Keep its title and capabilities.
+4. **claude.ai artifact:** republish https://claude.ai/artifact/MwmFC7k4pnbxmz8YgtCswb with `dist/artifact.html` (Artifact tool, `url` set to that link). Keep its title and capabilities.
 5. **Vercel:** if no project is linked to the repo, create it with `create_git_project` (repo `ndubaz/ToDoNL`, team `team_O5dGajZMxTjDlfCmwOIKjT5w`).
 
 ## 7. Report
