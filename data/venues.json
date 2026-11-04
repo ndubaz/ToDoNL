@@ -71,7 +71,7 @@
  },
  {
   "id": "sportpaleis-antwerp",
-  "name": "Sportpaleis",
+  "name": "AFAS Dome (Sportpaleis)",
   "city": "Antwerp",
   "country": "BE",
   "lat": 51.2301,
@@ -81,7 +81,7 @@
   "parking": "Paid car parks around the venue fill early; P+R Merksem and tram is easier",
   "train": "Antwerpen-Centraal, then tram 2, 3, 5 or 6 to Sportpaleis",
   "lez": "LEZ: register your foreign car online before entering Antwerp",
-  "listingsUrl": "https://www.sportpaleis.be/nl/kalender"
+  "listingsUrl": "https://www.afas-dome.be/nl/kalender"
  },
  {
   "id": "lotto-arena",
@@ -95,7 +95,7 @@
   "parking": "Shares the Sportpaleis car parks",
   "train": "Antwerpen-Centraal, then tram 2, 3, 5 or 6 to Sportpaleis",
   "lez": "LEZ: register your foreign car online before entering Antwerp",
-  "listingsUrl": "https://www.sportpaleis.be/nl/kalender"
+  "listingsUrl": "https://www.lotto-arena.be/nl/kalender"
  },
  {
   "id": "forest-national",
@@ -109,7 +109,7 @@
   "parking": "Small paid car park on site; street parking is scarce",
   "train": "Bruxelles-Midi, then train or tram to Vorst-Zuid / Forest-Midi",
   "lez": "LEZ: register your foreign car online before entering Brussels",
-  "listingsUrl": "https://www.forest-national.be/en/agenda"
+  "listingsUrl": "https://www.forest-national.be/nl/kalender"
  },
  {
   "id": "palais-12",
@@ -123,7 +123,7 @@
   "parking": "Parking C at Heysel, paid",
   "train": "Metro 6 to Heysel",
   "lez": "LEZ: register your foreign car online before entering Brussels",
-  "listingsUrl": "https://www.ing-arena.be/en/agenda"
+  "listingsUrl": "https://ing.arena.brussels/en/agenda"
  },
  {
   "id": "lanxess-arena",
