@@ -112,6 +112,9 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
 .tag { display: inline-flex; align-items: center; gap: 5px; font-size: .78rem; font-weight: 600; padding: 2px 9px; border-radius: 999px; background: var(--s3); color: var(--t2); white-space: nowrap; }
 .tag.ok { color: var(--ok); } .tag.warn { color: var(--warn); } .tag.bad { color: var(--bad); } .tag.new { color: var(--new); } .tag.mute { color: var(--t3); }
 .tag.urgent { background: var(--urgent); color: var(--urgent-ink); }
+.tag.near { background: none; border: 1px solid var(--t3); color: var(--t1); padding: 1px 8px; }
+.tag.near svg, .chip.nearchip svg { width: 12px; height: 12px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.chip.nearchip svg { width: 15px; height: 15px; }
 .pdots { display: inline-flex; gap: 4px; align-items: center; }
 .pdots i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; background: var(--pc); }
 
@@ -436,7 +439,7 @@ const BYID = Object.fromEntries(ITEMS.map(it => [it.id, it]));
 const HOME = { lat: 50.9128, lng: 5.9268 };
 
 /* ================= state ================= */
-const K = { profiles: "out-profiles", plan: "out-plan", notes: "out-notes", hidden: "out-hidden", likes: "out-likes", weights: "out-weights", lastSeen: "out-lastSeen", seen: "out-seen", newCount: "out-newCount", drive: "out-drive", sort: "out-sort", showHidden: "out-showHidden" };
+const K = { near: "out-near", profiles: "out-profiles", plan: "out-plan", notes: "out-notes", hidden: "out-hidden", likes: "out-likes", weights: "out-weights", lastSeen: "out-lastSeen", seen: "out-seen", newCount: "out-newCount", drive: "out-drive", sort: "out-sort", showHidden: "out-showHidden" };
 const ALLKEYS = Object.values(K);
 const state = {
   tab: "home",
@@ -445,7 +448,7 @@ const state = {
   hidden: new Set(store.get(K.hidden, [])), likes: store.get(K.likes, { lanes: {}, tags: {} }),
   weights: store.get(K.weights, { anne: 1, alma: 1, nick: 1, family: 1 }),
   lastSeen: store.get(K.lastSeen, null), seen: new Set(store.get(K.seen, [])),
-  showHidden: store.get(K.showHidden, false),
+  showHidden: store.get(K.showHidden, false), near: store.get(K.near, false),
   drive: store.get(K.drive, 300), sort: store.get(K.sort, "score"),
   q: "", lanes: new Set(), kinds: new Set(), countries: new Set(), tier: 0, status: "", month: "",
   calYM: null, calSel: null, calLanes: new Set(), mapLanes: new Set(), mapSel: null, detail: null, nextWeekend: false
@@ -485,6 +488,17 @@ const BUCKETS = [["we", "This weekend", THISWE[0], THISWE[1]], ["nwe", "Next wee
 const touches = (it, a, b) => { const s = Math.max(it.first, a), e = Math.min(it.last, b); if (s > e) return false; if (!it.daysSet) return true; for (let d = s; d <= e; d++) if (it.daysSet.has(d)) return true; return false; };
 function bucketOf(it) { for (const b of BUCKETS) if (touches(it, b[2], b[3])) return b[0]; return "later"; }
 const live = () => ITEMS.filter(it => it.last >= TODAY && it.status !== "cancelled" && (state.showHidden || !state.hidden.has(it.id)));
+// Nearby: Parkstad, Maastricht, Sittard, Valkenburg and Aachen all sit within 30 minutes; Zonhoven and Hasselt do not.
+const NEAR = 30;
+const isNear = it => it.driveMin != null && it.driveMin <= NEAR;
+const nearOk = it => !state.near || isNear(it);
+const HOUSE = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7v9H4z"/></svg>`;
+const driveTag = it => isNear(it) ? `<span class="tag near">${HOUSE}Nearby, ${drive(it)}</span>` : `<span>${drive(it)}</span>`;
+function nearChip(container, onChange) {
+  const b = document.createElement("button"); b.className = "chip nearchip"; b.setAttribute("aria-pressed", state.near); b.innerHTML = `${HOUSE}Nearby only`; b.title = "Within 30 minutes: Parkstad, Maastricht, Sittard, Aachen";
+  b.addEventListener("click", () => { state.near = !state.near; save("near", state.near); vb = null; onChange(); });
+  container.appendChild(b);
+}
 const forSel = it => state.profiles.size === PROFILES.length || !it.for.length || it.for.some(p => state.profiles.has(p));
 
 /* ================= components ================= */
@@ -509,7 +523,7 @@ function when(it) {
 }
 function card(it, o = {}) {
   const st = statusWord(it), l = LANEBY[it.lane];
-  return `<div class="card ${o.compact ? "compact" : ""} ${state.detail === it.id ? "sel" : ""}" style="--lc:${l.c}"><button class="cmain" data-open="${it.id}"><b>${esc(it.name)}</b><span class="why">${esc(it.why || "")}</span><span class="meta"><span class="d">${esc(when(it))}</span><span class="pl">${esc(place(it))}</span><span>${drive(it)}</span>${pdots(it)}<span class="tag ${st.c}">${esc(st.t)}</span></span>${o.reason ? `<span class="reason">${esc(o.reason)}</span>` : ""}</button><button class="star" data-star="${it.id}" aria-pressed="${inPlan(it.id)}" aria-label="${inPlan(it.id) ? "Remove from" : "Save to"} plan">${STAR}</button></div>`;
+  return `<div class="card ${o.compact ? "compact" : ""} ${state.detail === it.id ? "sel" : ""}" style="--lc:${l.c}"><button class="cmain" data-open="${it.id}"><b>${esc(it.name)}</b><span class="why">${esc(it.why || "")}</span><span class="meta"><span class="d">${esc(when(it))}</span><span class="pl">${esc(place(it))}</span>${driveTag(it)}${pdots(it)}<span class="tag ${st.c}">${esc(st.t)}</span></span>${o.reason ? `<span class="reason">${esc(o.reason)}</span>` : ""}</button><button class="star" data-star="${it.id}" aria-pressed="${inPlan(it.id)}" aria-label="${inPlan(it.id) ? "Remove from" : "Save to"} plan">${STAR}</button></div>`;
 }
 const reasonLine = it => it.reason.join(", ");
 function groupedList(items, o = {}) {
@@ -547,10 +561,12 @@ function renderBadges() {
 function profileChips(container, onChange) {
   container.innerHTML = PROFILES.map(p => `<button class="chip" data-prof="${p.id}" aria-pressed="${state.profiles.has(p.id)}" style="--pc:${p.c}"><span class="pd"></span>${p.label}</button>`).join("");
   container.querySelectorAll("[data-prof]").forEach(b => b.addEventListener("click", () => { const p = b.dataset.prof; if (state.profiles.has(p)) { if (state.profiles.size > 1) state.profiles.delete(p); } else state.profiles.add(p); save("profiles", state.profiles); rescore(); onChange(); }));
+  nearChip(container, onChange);
 }
 function laneChips(container, set, onChange, counts) {
   container.innerHTML = LANES.map(l => `<button class="chip lane" data-lane="${l.id}" aria-pressed="${set.has(l.id)}" style="--lc:${l.c}"><span class="pd" style="--pc:${l.c}"></span>${l.shortLabel}${counts ? ` <span class="muted">${counts[l.id] || 0}</span>` : ""}</button>`).join("");
   container.querySelectorAll("[data-lane]").forEach(b => b.addEventListener("click", () => { const l = b.dataset.lane; set.has(l) ? set.delete(l) : set.add(l); onChange(); }));
+  nearChip(container, onChange);
 }
 const laneOk = (it, set) => !set.size || set.has(it.lane);
 
@@ -583,20 +599,20 @@ function aheadReason(it) {
 }
 function renderHome() {
   profileChips($("profiles"), render);
-  const list = live().filter(forSel).sort((a, b) => b.score - a.score || a.first - b.first);
+  const list = live().filter(forSel).filter(nearOk).sort((a, b) => b.score - a.score || a.first - b.first);
   const p = picks(list);
   let h = `<h2 class="sec">Picks<small>chosen by score, one per lane where possible</small></h2>`;
-  if (p.none) h += `<p class="lead" style="margin-bottom:8px">Nothing worth the drive this weekend. Here is next weekend.</p>`;
+  if (p.none) h += `<p class="lead" style="margin-bottom:8px">Nothing worth the drive this weekend${state.near ? " within 30 minutes" : ""}. Here is next weekend.</p>`;
   if (p.we.length) h += `<h3 class="sub">${p.weLabel}, ${fmtRange(p.none ? NEXTWE[0] : THISWE[0], p.none ? NEXTWE[1] : THISWE[1])}</h3><div class="list">${p.we.map(it => card(it, { reason: reasonLine(it) })).join("")}</div>`;
   else h += `<div class="empty">No weekend picks with the current profiles.</div>`;
   if (p.prof.length) h += `<div class="row2" style="margin-top:12px">${p.prof.map(x => `<div class="pick"><div class="plab"><b style="--pc:${x.c}">${x.label}</b>: next 60 days</div>${card(x.it, { reason: reasonLine(x.it) })}</div>`).join("")}</div>`;
   if (p.ahead) h += `<div class="pick" style="margin-top:12px"><div class="plab"><b style="--pc:var(--urgent)">Plan ahead</b>: ${esc(aheadReason(p.ahead))}</div>${card(p.ahead, { reason: reasonLine(p.ahead) })}</div>`;
   // Act now strip
-  const act = live().filter(it => (it.planBy && dn(it.planBy) >= TODAY && dn(it.planBy) <= TODAY + 14) || (it.onSale && dn(it.onSale) >= TODAY && dn(it.onSale) <= TODAY + 14)).map(it => ({ it, d: Math.min(it.planBy && dn(it.planBy) >= TODAY ? dn(it.planBy) : 1e9, it.onSale && dn(it.onSale) >= TODAY ? dn(it.onSale) : 1e9) })).sort((a, b) => a.d - b.d || b.it.score - a.it.score);
+  const act = live().filter(nearOk).filter(it => (it.planBy && dn(it.planBy) >= TODAY && dn(it.planBy) <= TODAY + 14) || (it.onSale && dn(it.onSale) >= TODAY && dn(it.onSale) <= TODAY + 14)).map(it => ({ it, d: Math.min(it.planBy && dn(it.planBy) >= TODAY ? dn(it.planBy) : 1e9, it.onSale && dn(it.onSale) >= TODAY ? dn(it.onSale) : 1e9) })).sort((a, b) => a.d - b.d || b.it.score - a.it.score);
   h += `<h2 class="sec">Act now<small>on-sale and book-by dates in the next 14 days</small></h2>`;
-  h += act.length ? `<div class="strip">${act.map(({ it, d }) => `<button class="act" data-open="${it.id}"><span class="ad">${fmtW(d)}</span><b>${esc(it.name)}</b><span class="as">${it.onSale && dn(it.onSale) === d ? "Tickets on sale" : "Book by this date"}${it.sellOutRisk ? " · " + it.sellOutRisk + " risk" : ""}</span><span class="as">${esc(when(it))} · ${esc(place(it))} · ${drive(it)}</span></button>`).join("")}</div>` : `<div class="empty">Nothing to book in the next two weeks.</div>`;
+  h += act.length ? `<div class="strip">${act.map(({ it, d }) => `<button class="act" data-open="${it.id}"><span class="ad">${fmtW(d)}</span><b>${esc(it.name)}</b><span class="as">${it.onSale && dn(it.onSale) === d ? "Tickets on sale" : "Book by this date"}${it.sellOutRisk ? " · " + it.sellOutRisk + " risk" : ""}</span><span class="as">${esc(when(it))} · ${esc(place(it))} · ${isNear(it) ? "nearby, " : ""}${drive(it)}</span></button>`).join("")}</div>` : `<div class="empty">Nothing to book in the next two weeks.</div>`;
   // New this week
-  const nw = live().filter(it => it.addedOn && TODAY - dn(it.addedOn) <= 7).sort((a, b) => a.tier - b.tier || b.score - a.score);
+  const nw = live().filter(nearOk).filter(it => it.addedOn && TODAY - dn(it.addedOn) <= 7).sort((a, b) => a.tier - b.tier || b.score - a.score);
   h += `<h2 class="sec">New this week<small>${nw.length} added</small><a href="#new">All new</a></h2>`;
   h += nw.length ? `<div class="list">${nw.slice(0, 5).map(it => card(it, { compact: true })).join("")}</div>` : `<div class="empty">No new entries this week.</div>`;
   // Next 30 days
@@ -615,7 +631,7 @@ function renderNew() {
   const week = nw.filter(it => TODAY - dn(it.addedOn) <= 7), month = nw.filter(it => TODAY - dn(it.addedOn) > 7);
   const sortN = a => a.sort((x, y) => x.tier - y.tier || y.score - x.score);
   $("newsub").textContent = `last visit ${fmtY(dn(state.lastSeen))}`;
-  const row = (it, extra = "") => { const l = LANEBY[it.lane], st = statusWord(it); return `<div class="nrow" style="--lc:${l.c}"><div class="nt"><button class="cmain" style="padding:0" data-open="${it.id}"><b>${it.tier === 1 ? `<span class="tag urgent" style="margin-right:6px">Tier 1</span>` : ""}${esc(it.name)}</b><span class="why">${esc(it.why || "")}</span><span class="meta"><span class="d">${esc(when(it))}</span><span class="pl">${esc(place(it))}</span><span>${drive(it)}</span>${pdots(it)}<span class="tag ${st.c}">${esc(st.t)}</span></span>${extra}</button></div><div class="nb"><button class="btn sm ${inPlan(it.id) ? "pri" : ""}" data-star="${it.id}" aria-pressed="${inPlan(it.id)}">${inPlan(it.id) ? "In plan" : "Save to plan"}</button><button class="btn sm" data-seen="${it.id}">Mark seen</button><button class="btn sm" data-hide="${it.id}">Not interested</button></div></div>`; };
+  const row = (it, extra = "") => { const l = LANEBY[it.lane], st = statusWord(it); return `<div class="nrow" style="--lc:${l.c}"><div class="nt"><button class="cmain" style="padding:0" data-open="${it.id}"><b>${it.tier === 1 ? `<span class="tag urgent" style="margin-right:6px">Tier 1</span>` : ""}${esc(it.name)}</b><span class="why">${esc(it.why || "")}</span><span class="meta"><span class="d">${esc(when(it))}</span><span class="pl">${esc(place(it))}</span>${driveTag(it)}${pdots(it)}<span class="tag ${st.c}">${esc(st.t)}</span></span>${extra}</button></div><div class="nb"><button class="btn sm ${inPlan(it.id) ? "pri" : ""}" data-star="${it.id}" aria-pressed="${inPlan(it.id)}">${inPlan(it.id) ? "In plan" : "Save to plan"}</button><button class="btn sm" data-seen="${it.id}">Mark seen</button><button class="btn sm" data-hide="${it.id}">Not interested</button></div></div>`; };
   let h = "";
   const sec = (title, items, extraFn) => { if (!items.length) return; h += `<h2 class="sec">${title}<small>${items.length}</small></h2>`; LANES.forEach(l => { const li = items.filter(it => it.lane === l.id); if (li.length) h += `<h3 class="sub" style="color:${l.c}">${l.label}</h3><div class="list">${li.map(it => row(it, extraFn ? extraFn(it) : "")).join("")}</div>`; }); };
   sec("Added this week", sortN(week)); sec("Added in the last 30 days", sortN(month));
@@ -634,7 +650,7 @@ function renderCal() {
   if (!state.calYM) { const t = fromDn(TODAY); state.calYM = [t.getUTCFullYear(), t.getUTCMonth()]; }
   laneChips($("calLanes"), state.calLanes, renderCal);
   $("calLegend").innerHTML = LANES.map(l => `<span><i style="--pc:${l.c}"></i>${l.label}</span>`).join("") + `<span><i class="ring"></i>Tickets on sale</span>`;
-  const list = live().filter(forSel).filter(it => laneOk(it, state.calLanes)).sort((a, b) => a.first - b.first || b.score - a.score);
+  const list = live().filter(forSel).filter(nearOk).filter(it => laneOk(it, state.calLanes)).sort((a, b) => a.first - b.first || b.score - a.score);
   const n = isDesk() ? 2 : 1;
   const [y0, m0] = state.calYM;
   $("calTitle").textContent = n === 1 ? `${MONL[m0]} ${y0}` : `${MONL[m0]} ${y0} and ${MONL[(m0 + 1) % 12]} ${m0 === 11 ? y0 + 1 : y0}`;
@@ -667,7 +683,7 @@ function renderCal() {
 }
 function calStep(months) { let [y, m] = state.calYM; m += months; while (m < 0) { m += 12; y--; } while (m > 11) { m -= 12; y++; } state.calYM = [y, m]; renderCal(); }
 function openDay(d, list) {
-  const items = (list || live().filter(forSel).filter(it => laneOk(it, state.calLanes))).filter(it => it.open(d)).sort((a, b) => b.score - a.score);
+  const items = (list || live().filter(forSel).filter(nearOk).filter(it => laneOk(it, state.calLanes))).filter(it => it.open(d)).sort((a, b) => b.score - a.score);
   const fs = $("fsheet"); fs.className = "sheet bottom";
   fs.innerHTML = `<div class="shead"><span class="stitle">${fmtW(d)} ${fromDn(d).getUTCFullYear()}<span class="muted" style="font-weight:500"> · ${plural(items.length, "entry").replace("entrys", "entries")}</span></span><button class="btn sm" id="fdone">Close</button></div><div class="sbody" style="padding-bottom:16px">${items.length ? `<div class="list">${items.map(it => card(it)).join("")}</div>` : `<div class="empty">Nothing on this day with the current filters.</div>`}</div>`;
   wire(fs); fs.querySelector("#fdone").addEventListener("click", closeSheets); showSheet(fs, "#fdone");
@@ -688,12 +704,12 @@ $("calToday").addEventListener("click", () => { const t = fromDn(TODAY); state.c
 const SORTS = { score: (a, b) => b.score - a.score || a.first - b.first, date: (a, b) => Math.max(a.first, TODAY) - Math.max(b.first, TODAY) || b.score - a.score, distance: (a, b) => (a.driveMin ?? 999) - (b.driveMin ?? 999) || b.score - a.score, newest: (a, b) => String(b.addedOn).localeCompare(String(a.addedOn)) || b.score - a.score };
 function browseList(noSearch) {
   const q = norm(state.q);
-  return live().filter(forSel).filter(it => laneOk(it, state.lanes) && (!state.kinds.size || state.kinds.has(it.kind)) && (!state.countries.size || state.countries.has(it.country)) && (it.driveMin == null || it.driveMin <= state.drive) && (!state.tier || it.tier <= state.tier) && (!state.status || it.status === state.status) && (!state.month || monthKey(it)) && (noSearch || !q || it.hay.includes(q))).sort(SORTS[state.sort]);
+  return live().filter(forSel).filter(nearOk).filter(it => laneOk(it, state.lanes) && (!state.kinds.size || state.kinds.has(it.kind)) && (!state.countries.size || state.countries.has(it.country)) && (it.driveMin == null || it.driveMin <= state.drive) && (!state.tier || it.tier <= state.tier) && (!state.status || it.status === state.status) && (!state.month || monthKey(it)) && (noSearch || !q || it.hay.includes(q))).sort(SORTS[state.sort]);
 }
 function monthKey(it) { const [y, m] = state.month.split("-").map(Number); const f = Date.UTC(y, m - 1, 1) / DAY, l = Date.UTC(y, m, 0) / DAY; return it.first <= l && it.last >= f; }
 function activeFilterCount() { return state.kinds.size + state.countries.size + (state.drive < 300 ? 1 : 0) + (state.tier ? 1 : 0) + (state.status ? 1 : 0) + (state.month ? 1 : 0); }
 function renderBrowse() {
-  const all = live().filter(forSel); const counts = {}; all.forEach(it => counts[it.lane] = (counts[it.lane] || 0) + 1);
+  const all = live().filter(forSel).filter(nearOk); const counts = {}; all.forEach(it => counts[it.lane] = (counts[it.lane] || 0) + 1);
   laneChips($("browseLanes"), state.lanes, renderBrowse, counts);
   const list = browseList();
   $("bcount").textContent = `${list.length} of ${all.length}`;
@@ -729,7 +745,7 @@ function openFilters() {
 /* ================= MAP ================= */
 const P = (lon, lat) => [(lon - GEO.bb.lon0) * GEO.c * GEO.k, (GEO.bb.lat0 - lat) * GEO.k];
 let vb = null;
-function mapList() { return live().filter(forSel).filter(it => laneOk(it, state.mapLanes) && it.lat != null); }
+function mapList() { return live().filter(forSel).filter(nearOk).filter(it => laneOk(it, state.mapLanes) && it.lat != null); }
 function fitVB(list) {
   const pts = list.map(m => P(m.lng, m.lat)).concat([P(HOME.lng, HOME.lat)]);
   let x0 = Math.min(...pts.map(p => p[0])), x1 = Math.max(...pts.map(p => p[0])), y0 = Math.min(...pts.map(p => p[1])), y1 = Math.max(...pts.map(p => p[1]));
@@ -809,7 +825,7 @@ function renderPlan() {
   if (!items.length) h += `<div class="empty" style="margin-top:10px">Your plan is empty. Tap the star on any entry to save it here.</div>`;
   else h += `<div class="list" style="margin-top:10px">${items.map(it => {
     const l = LANEBY[it.lane], st = statusWord(it), lb = leaveBy(it);
-    return `<div class="pitem" style="--lc:${l.c}"><div class="ph"><div><b>${esc(it.name)}</b><span class="sub">${esc(when(it))} · ${esc(place(it))} · ${drive(it)}</span></div><button class="star btn sm" data-star="${it.id}" aria-pressed="true" aria-label="Remove from plan" style="border:1px solid var(--line);width:44px;color:var(--urgent)">${STAR.replace("<svg", '<svg style="width:20px;height:20px;fill:var(--urgent);stroke:var(--urgent)"')}</button></div>
+    return `<div class="pitem" style="--lc:${l.c}"><div class="ph"><div><b>${esc(it.name)}</b><span class="sub">${esc(when(it))} · ${esc(place(it))} · ${isNear(it) ? "nearby, " : ""}${drive(it)}</span></div><button class="star btn sm" data-star="${it.id}" aria-pressed="true" aria-label="Remove from plan" style="border:1px solid var(--line);width:44px;color:var(--urgent)">${STAR.replace("<svg", '<svg style="width:20px;height:20px;fill:var(--urgent);stroke:var(--urgent)"')}</button></div>
       <div class="kv"><span>Status</span><span class="tag ${st.c}" style="justify-self:start">${esc(st.t)}${it.sellOutRisk ? " · " + it.sellOutRisk + " risk" : ""}</span><span>Leave by</span><span>${lb ? `<b>${lb}</b> for ${it.type === "c" ? "doors " + esc(it.doors) : esc(it.times)} (${drive(it)} plus 30 min)` : (it.times ? esc(it.times) + ", no start time to count back from" : "no start time published yet")}</span>${it.planBy && dn(it.planBy) >= TODAY ? `<span>Book by</span><span>${fmtW(dn(it.planBy))}</span>` : ""}${it.priceFrom != null ? `<span>From</span><span>&euro;${it.priceFrom}</span>` : ""}</div>
       <div class="actions"><a class="btn sm" href="${gmDir(it)}" target="_blank" rel="noopener">Drive</a><a class="btn sm" href="${gmTransit(it)}" target="_blank" rel="noopener">Transit</a>${it.ticketUrl ? `<a class="btn sm" href="${esc(it.ticketUrl)}" target="_blank" rel="noopener">Tickets</a>` : ""}<button class="btn sm" data-open="${it.id}">Details</button></div>
       <label class="muted" style="font-size:.85rem">Notes<textarea data-note="${it.id}" rows="2" placeholder="Who is coming, where to park, what to bring">${esc(state.notes[it.id] || "")}</textarea></label></div>`; }).join("")}</div>`;

@@ -33,7 +33,7 @@ vercel.json             Build settings and headers
 
 ## How it picks
 
-Every entry gets a score in the browser: tier (60, 35 or 15), proximity (up to 25), a match for each selected person (10 each, up to 20), urgency (10 if you must act within 14 days), newness (5) and season (5), minus penalties for sold out or hidden entries. Home shows the three best picks for the coming weekend (one per lane where possible), one pick per person for the next 60 days, and the tier 1 entry with the nearest book-by date. Each pick shows its reasons. "Not interested" hides an entry; "More like this" lifts similar entries; the settings panel weights each person.
+Every entry gets a score in the browser: tier (60, 35 or 15), proximity (up to 25), a match for each selected person (10 each, up to 20), urgency (10 if you must act within 14 days), newness (5) and season (5), minus penalties for sold out or hidden entries. Home shows the three best picks for the coming weekend (one per lane where possible), one pick per person for the next 60 days, and the tier 1 entry with the nearest book-by date. Each pick shows its reasons. Entries within 30 minutes (Parkstad, Maastricht, Sittard, Aachen) carry a "Nearby" tag, and the "Nearby only" chip filters every view to them. "Not interested" hides an entry; "More like this" lifts similar entries; the settings panel weights each person.
 
 ## Update the data
 

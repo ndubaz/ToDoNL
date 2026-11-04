@@ -50,7 +50,9 @@ npx serve public                    # local preview
 
 Score = tier points (60 / 35 / 15) + proximity (max 25, linear to 180 min; concerts to 300) + profile match (10 per selected person in `for`, scaled by the weight sliders, max 20) + urgency (10 if `planBy` within 14 days, 5 within 30) + novelty (5 if `addedOn` within 14 days) + season fit (5 if `annual` and the event month is the current month) + likes (2 per liked lane or tag, max 10). Penalties: sold out -15, cancelled -100 (shown only under Changed), hidden -30. Every list uses lane (five fixed kind groups with fixed colors) then time bucket (this weekend, next weekend, this month, next 3 months, later) then rank. Weekends run Friday to Sunday. Picks on Home show their reasons.
 
-Browser storage keys all start with `out-` (`out-plan`, `out-notes`, `out-hidden`, `out-likes`, `out-weights`, `out-profiles`, `out-lastSeen`, `out-seen`, `out-showHidden`, `out-drive`, `out-sort`, `out-newCount`). The service worker cache prefix is `out-`.
+Nearby means `driveMin` of 30 or less (Parkstad, Maastricht, Sittard, Valkenburg, Aachen): cards show a "Nearby" tag and a persisted "Nearby only" toggle (`out-near`) filters Home, Browse, Calendar and Map.
+
+Browser storage keys all start with `out-` (`out-near`, `out-plan`, `out-notes`, `out-hidden`, `out-likes`, `out-weights`, `out-profiles`, `out-lastSeen`, `out-seen`, `out-showHidden`, `out-drive`, `out-sort`, `out-newCount`). The service worker cache prefix is `out-`.
 
 ## Rules for editing data
 
