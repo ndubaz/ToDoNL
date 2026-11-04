@@ -275,7 +275,7 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
     <div class="hero" id="hero">
       <div class="radial"></div>
       <svg class="glow" viewBox="0 0 520 520" aria-hidden="true">
-        <defs><linearGradient id="hsw" gradientUnits="userSpaceOnUse" x1="440" y1="200" x2="270" y2="90"><stop offset="0" stop-color="#ffb454" stop-opacity=".45"/><stop offset="1" stop-color="#ffb454" stop-opacity="0"/></linearGradient></defs>
+        <defs><linearGradient id="hsw" gradientUnits="userSpaceOnUse" x1="440" y1="200" x2="270" y2="90"><stop offset="0" stop-color="#ffb454" stop-opacity=".3"/><stop offset="1" stop-color="#ffb454" stop-opacity="0"/></linearGradient></defs>
         <g fill="none" stroke="#35c4d6" stroke-opacity=".22"><circle cx="260" cy="260" r="70" stroke-width="2"/><circle cx="260" cy="260" r="130" stroke-width="1.6"/><circle cx="260" cy="260" r="190" stroke-width="1.2"/><circle cx="260" cy="260" r="250" stroke-width="1"/></g>
         <path d="M260 260L260 10A250 250 0 0 1 495 174Z" fill="url(#hsw)"/>
         <path d="M260 260L495 174" stroke="#ffb454" stroke-opacity=".6" stroke-width="2"/>
@@ -394,11 +394,11 @@ const reduced = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 /* ================= vocabulary ================= */
 const LANES = [
-  { id: "fest", label: "Festivals and spectacle", kinds: ["festival", "spectacle"], c: "var(--l-fest)" },
-  { id: "music", label: "Concerts and K-pop", kinds: ["concert", "kpop"], c: "var(--l-music)" },
-  { id: "mil", label: "Military and aviation", kinds: ["military", "aviation"], c: "var(--l-mil)" },
-  { id: "sport", label: "Sport", kinds: ["sport"], c: "var(--l-sport)" },
-  { id: "cult", label: "Museums, food and culture", kinds: ["museum", "food", "culture", "other"], c: "var(--l-cult)" }
+  { id: "fest", label: "Festivals and spectacle", shortLabel: "Festivals", kinds: ["festival", "spectacle"], c: "var(--l-fest)" },
+  { id: "music", label: "Concerts and K-pop", shortLabel: "Concerts", kinds: ["concert", "kpop"], c: "var(--l-music)" },
+  { id: "mil", label: "Military and aviation", shortLabel: "Military", kinds: ["military", "aviation"], c: "var(--l-mil)" },
+  { id: "sport", label: "Sport", shortLabel: "Sport", kinds: ["sport"], c: "var(--l-sport)" },
+  { id: "cult", label: "Museums, food and culture", shortLabel: "Culture", kinds: ["museum", "food", "culture", "other"], c: "var(--l-cult)" }
 ];
 const LANEBY = Object.fromEntries(LANES.map(l => [l.id, l]));
 const laneOf = k => (LANES.find(l => l.kinds.includes(k)) || LANES[4]).id;
@@ -546,7 +546,7 @@ function profileChips(container, onChange) {
   container.querySelectorAll("[data-prof]").forEach(b => b.addEventListener("click", () => { const p = b.dataset.prof; if (state.profiles.has(p)) { if (state.profiles.size > 1) state.profiles.delete(p); } else state.profiles.add(p); save("profiles", state.profiles); rescore(); onChange(); }));
 }
 function laneChips(container, set, onChange, counts) {
-  container.innerHTML = LANES.map(l => `<button class="chip lane" data-lane="${l.id}" aria-pressed="${set.has(l.id)}" style="--lc:${l.c}"><span class="pd" style="--pc:${l.c}"></span>${l.label.split(" ")[0]}${counts ? ` <span class="muted">${counts[l.id] || 0}</span>` : ""}</button>`).join("");
+  container.innerHTML = LANES.map(l => `<button class="chip lane" data-lane="${l.id}" aria-pressed="${set.has(l.id)}" style="--lc:${l.c}"><span class="pd" style="--pc:${l.c}"></span>${l.shortLabel}${counts ? ` <span class="muted">${counts[l.id] || 0}</span>` : ""}</button>`).join("");
   container.querySelectorAll("[data-lane]").forEach(b => b.addEventListener("click", () => { const l = b.dataset.lane; set.has(l) ? set.delete(l) : set.add(l); onChange(); }));
 }
 const laneOk = (it, set) => !set.size || set.has(it.lane);
@@ -599,7 +599,7 @@ function renderHome() {
   // Next 30 days
   const n30 = list.filter(it => it.tier <= 2 && it.first <= TODAY + 30).sort((a, b) => Math.max(a.first, TODAY) - Math.max(b.first, TODAY) || b.score - a.score);
   h += `<h2 class="sec">Next 30 days<small>tier 1 and 2</small></h2>`;
-  h += n30.length ? `<div class="list">${n30.map(it => card(it, { compact: true })).join("")}</div>` : `<div class="empty">Nothing in the next 30 days for these profiles.</div>`;
+  h += n30.length ? `<div class="list">${n30.slice(0, 20).map(it => card(it, { compact: true })).join("")}</div>${n30.length > 20 ? `<p class="muted" style="font-size:.88rem">Plus ${n30.length - 20} more in the next 30 days. Browse has the full list.</p>` : ""}` : `<div class="empty">Nothing in the next 30 days for these profiles.</div>`;
   $("homeBody").innerHTML = h; wire($("homeBody"));
   $("homeBody").querySelector("a[href='#new']").addEventListener("click", e => { e.preventDefault(); setTab("new"); });
   $("foot").innerHTML = `<p><b>Rondom ${esc(META.version)}</b>, data checked ${esc(META.checked)}. ${ITEMS.length} entries: ${EVENTS.length} events and ${CONCERTS.length} concerts.</p><p><b>How picks work.</b> Score = tier (60, 35 or 15) + proximity (up to 25) + a match for each selected person (10 each, up to 20) + urgency (10 if you must act within 14 days) + newness (5) + season (5), minus penalties for sold out or hidden entries. Every pick shows its reasons.</p><p>Your plan, notes, hidden entries and settings live only in this browser and are not synced between devices. Export them from the settings panel.</p>${__PWA__ ? "<p><b>Use it like an app.</b> On iPhone: Share, then Add to Home Screen. It keeps working offline once opened.</p>" : ""}<div class="actions" style="margin-top:10px"><button class="btn sm" id="openSettings">Settings and export</button></div>`;
@@ -642,10 +642,11 @@ function renderCal() {
     const f = Date.UTC(y, mo, 1) / DAY, dim = new Date(Date.UTC(y, mo + 1, 0)).getUTCDate(), lead = (wd(f) + 6) % 7, last = f + dim - 1;
     // slot assignment: items touching this month get a stable row (0..2) across their days; the rest count as +n
     const slots = [new Map(), new Map(), new Map()], extra = new Map(), perDay = {};
-    list.filter(it => it.first <= last && it.last >= f).forEach(it => {
+    // Pip rows go to short runs (21 days or fewer), best tier and score first; long runs are counted in +n and listed in the day sheet.
+    list.filter(it => it.first <= last && it.last >= f).sort((a, b) => a.tier - b.tier || b.score - a.score || a.first - b.first).forEach(it => {
       const days = []; for (let d = Math.max(f, it.first); d <= Math.min(last, it.last); d++) if (it.open(d)) days.push(d);
       if (!days.length) return;
-      const si = slots.findIndex(s => days.every(d => !s.has(d)));
+      const si = it.last - it.first <= 21 ? slots.findIndex(s => days.every(d => !s.has(d))) : -1;
       if (si > -1) days.forEach(d => slots[si].set(d, it)); else days.forEach(d => extra.set(d, (extra.get(d) || 0) + 1));
       days.forEach(d => (perDay[d] = perDay[d] || []).push(it));
     });
@@ -787,6 +788,7 @@ function planChecks(items) {
   });
   for (let i = 0; i < items.length; i++) for (let j = i + 1; j < items.length; j++) {
     const a = items[i], b = items[j]; if (a.lat == null || b.lat == null) continue;
+    if (a.last - a.first > 3 || b.last - b.first > 3) continue; // long runs are flexible; only short events can clash
     let same = false; for (let d = Math.max(a.first, b.first, TODAY); d <= Math.min(a.last, b.last); d++) if (a.open(d) && b.open(d)) { same = true; break; }
     if (!same) continue;
     const est = Math.round(hav(a, b) / 75 * 60);
@@ -805,7 +807,7 @@ function renderPlan() {
   else h += `<div class="list" style="margin-top:10px">${items.map(it => {
     const l = LANEBY[it.lane], st = statusWord(it), lb = leaveBy(it);
     return `<div class="pitem" style="--lc:${l.c}"><div class="ph"><div><b>${esc(it.name)}</b><span class="sub">${esc(when(it))} · ${esc(it.city)} · ${drive(it)}</span></div><button class="star btn sm" data-star="${it.id}" aria-pressed="true" aria-label="Remove from plan" style="border:1px solid var(--line);width:44px;color:var(--urgent)">${STAR.replace("<svg", '<svg style="width:20px;height:20px;fill:var(--urgent);stroke:var(--urgent)"')}</button></div>
-      <div class="kv"><span>Status</span><span class="tag ${st.c}" style="justify-self:start">${esc(st.t)}${it.sellOutRisk ? " · " + it.sellOutRisk + " risk" : ""}</span><span>Leave by</span><span>${lb ? `<b>${lb}</b> for ${it.type === "c" ? "doors " + esc(it.doors) : esc(it.times)} (${drive(it)} plus 30 min)` : (it.times ? esc(it.times) + ", no start time to count back from" : "no start time published yet")}</span>${it.planBy ? `<span>Book by</span><span>${fmtW(dn(it.planBy))}</span>` : ""}${it.priceFrom != null ? `<span>From</span><span>&euro;${it.priceFrom}</span>` : ""}</div>
+      <div class="kv"><span>Status</span><span class="tag ${st.c}" style="justify-self:start">${esc(st.t)}${it.sellOutRisk ? " · " + it.sellOutRisk + " risk" : ""}</span><span>Leave by</span><span>${lb ? `<b>${lb}</b> for ${it.type === "c" ? "doors " + esc(it.doors) : esc(it.times)} (${drive(it)} plus 30 min)` : (it.times ? esc(it.times) + ", no start time to count back from" : "no start time published yet")}</span>${it.planBy && dn(it.planBy) >= TODAY ? `<span>Book by</span><span>${fmtW(dn(it.planBy))}</span>` : ""}${it.priceFrom != null ? `<span>From</span><span>&euro;${it.priceFrom}</span>` : ""}</div>
       <div class="actions"><a class="btn sm" href="${gmDir(it)}" target="_blank" rel="noopener">Drive</a><a class="btn sm" href="${gmTransit(it)}" target="_blank" rel="noopener">Transit</a>${it.ticketUrl ? `<a class="btn sm" href="${esc(it.ticketUrl)}" target="_blank" rel="noopener">Tickets</a>` : ""}<button class="btn sm" data-open="${it.id}">Details</button></div>
       <label class="muted" style="font-size:.85rem">Notes<textarea data-note="${it.id}" rows="2" placeholder="Who is coming, where to park, what to bring">${esc(state.notes[it.id] || "")}</textarea></label></div>`; }).join("")}</div>`;
   h += `<div class="actions" style="margin-top:16px"><button class="btn pri" id="icsPlan" type="button" ${items.length ? "" : "disabled"}>Add to calendar (.ics)</button><button class="btn" id="pdfPlan" type="button" ${items.length ? "" : "disabled"}>Export plan as PDF</button><button class="btn" id="copyPlan" type="button" ${items.length ? "" : "disabled"}>Copy as text</button></div>`;
@@ -891,7 +893,7 @@ function detailHtml(it) {
       <div><span>Status</span><b>${esc(st.t)}</b>${it.sellOutRisk ? `<div class="muted" style="font-size:.8rem">${RISK[it.sellOutRisk]}</div>` : ""}</div>
       <div><span>Price from</span><b>${it.priceFrom != null ? "&euro;" + it.priceFrom : (it.ticketNote ? esc(it.ticketNote) : "n/a")}</b>${it.priceFrom != null && it.ticketNote ? `<div class="muted" style="font-size:.8rem">${esc(it.ticketNote)}</div>` : ""}</div>
       <div><span>On sale</span><b>${it.onSale ? fmtW(dn(it.onSale)) : (it.status === "onsale" ? "Now" : "n/a")}</b></div>
-      <div><span>Book by</span><b>${it.planBy ? fmtW(dn(it.planBy)) : "n/a"}</b></div>
+      <div><span>Book by</span><b>${it.planBy && dn(it.planBy) >= TODAY ? fmtW(dn(it.planBy)) : (it.status === "onsale" ? "Any time, tickets are on sale" : "n/a")}</b></div>
     </div></div>
     ${it.highlights ? `<div class="dsec"><h3>What happens</h3><p>${esc(it.highlights)}</p></div>` : ""}
     ${it.tip ? `<div class="dsec"><h3>Tip</h3><p>${esc(it.tip)}</p></div>` : ""}
