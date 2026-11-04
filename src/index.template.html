@@ -125,6 +125,7 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
 .cmain .why { color: var(--t2); font-size: .9rem; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .cmain .meta { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: .86rem; color: var(--t2); margin-top: 3px; }
 .cmain .meta .d { color: var(--t1); font-weight: 600; }
+.cmain .meta .pl { color: var(--t2); }
 .card .star { border: 0; background: none; width: 50px; display: grid; place-items: center; color: var(--t3); border-left: 1px solid var(--line); }
 .card .star svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.8; }
 .card .star[aria-pressed="true"] { color: var(--urgent); }
@@ -499,6 +500,8 @@ function statusWord(it) {
   if (it.status === "tbd") return { c: "mute", t: "Projected" };
   return { c: "mute", t: "Announced" };
 }
+// One place string for every list: venue (concerts always, events when short), city, country code outside NL.
+function place(it) { const v = it.type === "c" ? it.venue : (it.venue && it.venue.length <= 32 ? it.venue : null); return (v ? v + ", " : "") + it.city + (it.country && it.country !== "NL" ? " (" + it.country + ")" : ""); }
 function when(it) {
   if (it.first === it.last) return fmtW(it.first) + (it.type === "c" && it.doors ? " " + it.doors : "");
   if (it.first < TODAY) return "runs until " + fmt(it.last);
@@ -506,7 +509,7 @@ function when(it) {
 }
 function card(it, o = {}) {
   const st = statusWord(it), l = LANEBY[it.lane];
-  return `<div class="card ${o.compact ? "compact" : ""} ${state.detail === it.id ? "sel" : ""}" style="--lc:${l.c}"><button class="cmain" data-open="${it.id}"><b>${esc(it.name)}</b><span class="why">${esc(it.why || "")}</span><span class="meta"><span class="d">${esc(when(it))}</span><span>${drive(it)}</span>${pdots(it)}<span class="tag ${st.c}">${esc(st.t)}</span></span>${o.reason ? `<span class="reason">${esc(o.reason)}</span>` : ""}</button><button class="star" data-star="${it.id}" aria-pressed="${inPlan(it.id)}" aria-label="${inPlan(it.id) ? "Remove from" : "Save to"} plan">${STAR}</button></div>`;
+  return `<div class="card ${o.compact ? "compact" : ""} ${state.detail === it.id ? "sel" : ""}" style="--lc:${l.c}"><button class="cmain" data-open="${it.id}"><b>${esc(it.name)}</b><span class="why">${esc(it.why || "")}</span><span class="meta"><span class="d">${esc(when(it))}</span><span class="pl">${esc(place(it))}</span><span>${drive(it)}</span>${pdots(it)}<span class="tag ${st.c}">${esc(st.t)}</span></span>${o.reason ? `<span class="reason">${esc(o.reason)}</span>` : ""}</button><button class="star" data-star="${it.id}" aria-pressed="${inPlan(it.id)}" aria-label="${inPlan(it.id) ? "Remove from" : "Save to"} plan">${STAR}</button></div>`;
 }
 const reasonLine = it => it.reason.join(", ");
 function groupedList(items, o = {}) {
@@ -591,7 +594,7 @@ function renderHome() {
   // Act now strip
   const act = live().filter(it => (it.planBy && dn(it.planBy) >= TODAY && dn(it.planBy) <= TODAY + 14) || (it.onSale && dn(it.onSale) >= TODAY && dn(it.onSale) <= TODAY + 14)).map(it => ({ it, d: Math.min(it.planBy && dn(it.planBy) >= TODAY ? dn(it.planBy) : 1e9, it.onSale && dn(it.onSale) >= TODAY ? dn(it.onSale) : 1e9) })).sort((a, b) => a.d - b.d || b.it.score - a.it.score);
   h += `<h2 class="sec">Act now<small>on-sale and book-by dates in the next 14 days</small></h2>`;
-  h += act.length ? `<div class="strip">${act.map(({ it, d }) => `<button class="act" data-open="${it.id}"><span class="ad">${fmtW(d)}</span><b>${esc(it.name)}</b><span class="as">${it.onSale && dn(it.onSale) === d ? "Tickets on sale" : "Book by this date"}${it.sellOutRisk ? " · " + it.sellOutRisk + " risk" : ""}</span><span class="as">${esc(when(it))} · ${drive(it)}</span></button>`).join("")}</div>` : `<div class="empty">Nothing to book in the next two weeks.</div>`;
+  h += act.length ? `<div class="strip">${act.map(({ it, d }) => `<button class="act" data-open="${it.id}"><span class="ad">${fmtW(d)}</span><b>${esc(it.name)}</b><span class="as">${it.onSale && dn(it.onSale) === d ? "Tickets on sale" : "Book by this date"}${it.sellOutRisk ? " · " + it.sellOutRisk + " risk" : ""}</span><span class="as">${esc(when(it))} · ${esc(place(it))} · ${drive(it)}</span></button>`).join("")}</div>` : `<div class="empty">Nothing to book in the next two weeks.</div>`;
   // New this week
   const nw = live().filter(it => it.addedOn && TODAY - dn(it.addedOn) <= 7).sort((a, b) => a.tier - b.tier || b.score - a.score);
   h += `<h2 class="sec">New this week<small>${nw.length} added</small><a href="#new">All new</a></h2>`;
@@ -612,7 +615,7 @@ function renderNew() {
   const week = nw.filter(it => TODAY - dn(it.addedOn) <= 7), month = nw.filter(it => TODAY - dn(it.addedOn) > 7);
   const sortN = a => a.sort((x, y) => x.tier - y.tier || y.score - x.score);
   $("newsub").textContent = `last visit ${fmtY(dn(state.lastSeen))}`;
-  const row = (it, extra = "") => { const l = LANEBY[it.lane], st = statusWord(it); return `<div class="nrow" style="--lc:${l.c}"><div class="nt"><button class="cmain" style="padding:0" data-open="${it.id}"><b>${it.tier === 1 ? `<span class="tag urgent" style="margin-right:6px">Tier 1</span>` : ""}${esc(it.name)}</b><span class="why">${esc(it.why || "")}</span><span class="meta"><span class="d">${esc(when(it))}</span><span>${drive(it)}</span>${pdots(it)}<span class="tag ${st.c}">${esc(st.t)}</span></span>${extra}</button></div><div class="nb"><button class="btn sm ${inPlan(it.id) ? "pri" : ""}" data-star="${it.id}" aria-pressed="${inPlan(it.id)}">${inPlan(it.id) ? "In plan" : "Save to plan"}</button><button class="btn sm" data-seen="${it.id}">Mark seen</button><button class="btn sm" data-hide="${it.id}">Not interested</button></div></div>`; };
+  const row = (it, extra = "") => { const l = LANEBY[it.lane], st = statusWord(it); return `<div class="nrow" style="--lc:${l.c}"><div class="nt"><button class="cmain" style="padding:0" data-open="${it.id}"><b>${it.tier === 1 ? `<span class="tag urgent" style="margin-right:6px">Tier 1</span>` : ""}${esc(it.name)}</b><span class="why">${esc(it.why || "")}</span><span class="meta"><span class="d">${esc(when(it))}</span><span class="pl">${esc(place(it))}</span><span>${drive(it)}</span>${pdots(it)}<span class="tag ${st.c}">${esc(st.t)}</span></span>${extra}</button></div><div class="nb"><button class="btn sm ${inPlan(it.id) ? "pri" : ""}" data-star="${it.id}" aria-pressed="${inPlan(it.id)}">${inPlan(it.id) ? "In plan" : "Save to plan"}</button><button class="btn sm" data-seen="${it.id}">Mark seen</button><button class="btn sm" data-hide="${it.id}">Not interested</button></div></div>`; };
   let h = "";
   const sec = (title, items, extraFn) => { if (!items.length) return; h += `<h2 class="sec">${title}<small>${items.length}</small></h2>`; LANES.forEach(l => { const li = items.filter(it => it.lane === l.id); if (li.length) h += `<h3 class="sub" style="color:${l.c}">${l.label}</h3><div class="list">${li.map(it => row(it, extraFn ? extraFn(it) : "")).join("")}</div>`; }); };
   sec("Added this week", sortN(week)); sec("Added in the last 30 days", sortN(month));
@@ -806,21 +809,21 @@ function renderPlan() {
   if (!items.length) h += `<div class="empty" style="margin-top:10px">Your plan is empty. Tap the star on any entry to save it here.</div>`;
   else h += `<div class="list" style="margin-top:10px">${items.map(it => {
     const l = LANEBY[it.lane], st = statusWord(it), lb = leaveBy(it);
-    return `<div class="pitem" style="--lc:${l.c}"><div class="ph"><div><b>${esc(it.name)}</b><span class="sub">${esc(when(it))} · ${esc(it.city)} · ${drive(it)}</span></div><button class="star btn sm" data-star="${it.id}" aria-pressed="true" aria-label="Remove from plan" style="border:1px solid var(--line);width:44px;color:var(--urgent)">${STAR.replace("<svg", '<svg style="width:20px;height:20px;fill:var(--urgent);stroke:var(--urgent)"')}</button></div>
+    return `<div class="pitem" style="--lc:${l.c}"><div class="ph"><div><b>${esc(it.name)}</b><span class="sub">${esc(when(it))} · ${esc(place(it))} · ${drive(it)}</span></div><button class="star btn sm" data-star="${it.id}" aria-pressed="true" aria-label="Remove from plan" style="border:1px solid var(--line);width:44px;color:var(--urgent)">${STAR.replace("<svg", '<svg style="width:20px;height:20px;fill:var(--urgent);stroke:var(--urgent)"')}</button></div>
       <div class="kv"><span>Status</span><span class="tag ${st.c}" style="justify-self:start">${esc(st.t)}${it.sellOutRisk ? " · " + it.sellOutRisk + " risk" : ""}</span><span>Leave by</span><span>${lb ? `<b>${lb}</b> for ${it.type === "c" ? "doors " + esc(it.doors) : esc(it.times)} (${drive(it)} plus 30 min)` : (it.times ? esc(it.times) + ", no start time to count back from" : "no start time published yet")}</span>${it.planBy && dn(it.planBy) >= TODAY ? `<span>Book by</span><span>${fmtW(dn(it.planBy))}</span>` : ""}${it.priceFrom != null ? `<span>From</span><span>&euro;${it.priceFrom}</span>` : ""}</div>
       <div class="actions"><a class="btn sm" href="${gmDir(it)}" target="_blank" rel="noopener">Drive</a><a class="btn sm" href="${gmTransit(it)}" target="_blank" rel="noopener">Transit</a>${it.ticketUrl ? `<a class="btn sm" href="${esc(it.ticketUrl)}" target="_blank" rel="noopener">Tickets</a>` : ""}<button class="btn sm" data-open="${it.id}">Details</button></div>
       <label class="muted" style="font-size:.85rem">Notes<textarea data-note="${it.id}" rows="2" placeholder="Who is coming, where to park, what to bring">${esc(state.notes[it.id] || "")}</textarea></label></div>`; }).join("")}</div>`;
   h += `<div class="actions" style="margin-top:16px"><button class="btn pri" id="icsPlan" type="button" ${items.length ? "" : "disabled"}>Add to calendar (.ics)</button><button class="btn" id="pdfPlan" type="button" ${items.length ? "" : "disabled"}>Export plan as PDF</button><button class="btn" id="copyPlan" type="button" ${items.length ? "" : "disabled"}>Copy as text</button></div>`;
   h += `<p class="muted" style="font-size:.85rem">The .ics file holds one all-day event per saved entry with a reminder the day before, plus a 09:00 reminder on each ticket on-sale date. Open it on your iPhone and add it to Calendar; that is the cross-device reminder path.</p>`;
   h += `<h2 class="sec" style="font-size:1.1rem">Hidden entries<small>${hiddenIds.length}</small></h2>`;
-  h += hiddenIds.length ? `<div class="actions"><button class="btn sm" id="toggleHidden" aria-pressed="${state.showHidden}">${state.showHidden ? "Hide them again" : "Show hidden entries in lists"}</button></div><div class="list" style="margin-top:8px">${hiddenIds.map(id => `<div class="card compact" style="--lc:${LANEBY[BYID[id].lane].c}"><button class="cmain" data-open="${id}"><b>${esc(BYID[id].name)}</b><span class="meta"><span>${esc(when(BYID[id]))}</span></span></button><button class="btn sm" data-unhide="${id}" style="margin:8px">Restore</button></div>`).join("")}</div>` : `<p class="muted" style="margin:0">Nothing hidden. "Not interested" on any entry hides it everywhere.</p>`;
+  h += hiddenIds.length ? `<div class="actions"><button class="btn sm" id="toggleHidden" aria-pressed="${state.showHidden}">${state.showHidden ? "Hide them again" : "Show hidden entries in lists"}</button></div><div class="list" style="margin-top:8px">${hiddenIds.map(id => `<div class="card compact" style="--lc:${LANEBY[BYID[id].lane].c}"><button class="cmain" data-open="${id}"><b>${esc(BYID[id].name)}</b><span class="meta"><span>${esc(when(BYID[id]))}</span><span class="pl">${esc(place(BYID[id]))}</span></span></button><button class="btn sm" data-unhide="${id}" style="margin:8px">Restore</button></div>`).join("")}</div>` : `<p class="muted" style="margin:0">Nothing hidden. "Not interested" on any entry hides it everywhere.</p>`;
   $("planBody").innerHTML = h; wire($("planBody"));
   $("planBody").querySelectorAll("[data-note]").forEach(t => t.addEventListener("input", () => { state.notes[t.dataset.note] = t.value; save("notes", state.notes); }));
   $("planBody").querySelectorAll("[data-unhide]").forEach(b => b.addEventListener("click", () => { hide(b.dataset.unhide, false); renderPlan(); }));
   const th = $("toggleHidden"); if (th) th.addEventListener("click", () => { state.showHidden = !state.showHidden; save("showHidden", state.showHidden); renderPlan(); });
   if (items.length) { $("icsPlan").addEventListener("click", exportIcs); $("pdfPlan").addEventListener("click", () => exportPdf("plan")); $("copyPlan").addEventListener("click", copyPlan); }
 }
-function planText() { return planItems().map(it => `${when(it)}: ${it.name}, ${it.city} (${drive(it)})${leaveBy(it) ? ", leave by " + leaveBy(it) : ""}${it.ticketUrl ? "\n  " + it.ticketUrl : ""}\n  ${gmSearch(it)}`).join("\n"); }
+function planText() { return planItems().map(it => `${when(it)}: ${it.name}, ${place(it)} (${drive(it)})${leaveBy(it) ? ", leave by " + leaveBy(it) : ""}${it.ticketUrl ? "\n  " + it.ticketUrl : ""}\n  ${gmSearch(it)}`).join("\n"); }
 async function copyPlan() {
   const txt = "Rondom plan\n\n" + planText();
   try { await navigator.clipboard.writeText(txt); toast("Plan copied"); }
@@ -1010,7 +1013,7 @@ async function exportPdf(kind) {
     const header = (cont) => { doc.setFont("helvetica", "bold"); doc.setFontSize(15); doc.setTextColor(...INK); doc.text(ascii(title + (cont ? " (continued)" : "")), 12, 15); doc.setFont("helvetica", "normal"); doc.setFontSize(7.8); doc.setTextColor(...MUTE); doc.text(ascii(`From Hoensbroek | ${list.length} entries | data checked ${META.checked}`), 12, 20.5); doc.setDrawColor(...ACC); doc.setLineWidth(.7); doc.line(12, 23, W - 12, 23); };
     header(false); let y = 29;
     list.forEach(it => {
-      const L = [`${when(it)} | ${it.city}, ${COUNTRY[it.country] || it.country} | ${drive(it)} | ${statusWord(it).t}${it.priceFrom != null ? " | from EUR " + it.priceFrom : ""}${leaveBy(it) ? " | leave by " + leaveBy(it) : ""}`];
+      const L = [`${when(it)} | ${place(it)} | ${drive(it)} | ${statusWord(it).t}${it.priceFrom != null ? " | from EUR " + it.priceFrom : ""}${leaveBy(it) ? " | leave by " + leaveBy(it) : ""}`];
       if (it.why) L.push(it.why);
       if (it.planBy || it.onSale) L.push([it.onSale ? "On sale " + fmtY(dn(it.onSale)) : null, it.planBy ? "book by " + fmtY(dn(it.planBy)) : null, it.sellOutRisk ? it.sellOutRisk + " sell-out risk" : null].filter(Boolean).join(", "));
       if (kind === "plan" && state.notes[it.id]) L.push("Notes: " + state.notes[it.id]);
