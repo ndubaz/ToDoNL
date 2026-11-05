@@ -467,6 +467,32 @@
   "why": "Rise of the Roach at Lanxess Arena, Köln."
  },
  {
+  "id": "tayc-afas-live-2026-11-22",
+  "artist": "TAYC",
+  "short": "TAYC",
+  "venueId": "afas-live",
+  "date": "2026-11-22",
+  "doors": "18:30",
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": "https://www.afaslive.nl/agenda/tayc",
+  "priceFrom": 59.9,
+  "confidence": "confirmed",
+  "source": "https://www.afaslive.nl/agenda/tayc",
+  "tour": "JOŸA Tour",
+  "note": "Ticketmaster sale is open; price from EUR 59.90 including service fees.",
+  "planBy": null,
+  "addedOn": "2026-11-05",
+  "verifiedOn": "2026-11-05",
+  "tier": 1,
+  "why": "JOŸA Tour at AFAS Live, Amsterdam."
+ },
+ {
   "id": "westlife-ziggo-2026-11-23",
   "artist": "Westlife",
   "short": "Westlife",
@@ -3048,6 +3074,34 @@
   "verifiedOn": "2026-11-04",
   "tier": 2,
   "why": "Everything Under The Sun at Lanxess Arena, Köln."
+ },
+ {
+  "id": "u2-jca-2027-06-09",
+  "artist": "U2",
+  "short": "U2",
+  "venueId": "johan-cruijff-arena",
+  "date": "2027-06-09",
+  "doors": null,
+  "genre": "rock",
+  "for": [
+   "nick",
+   "anne",
+   "family"
+  ],
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": "https://www.johancruijffarena.nl/en/calendar/467001-u2/",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.johancruijffarena.nl/en/calendar/467001-u2/",
+  "tour": "The Greatest Show On Earth World Tour",
+  "note": "Third ArenA night, listed on the venue calendar next to 5 and 6 Jun; the listing gives no on-sale date, so check the 5 Nov 10:00 presale and the 6 Nov general sale.",
+  "planBy": "2027-05-10",
+  "addedOn": "2026-11-05",
+  "verifiedOn": "2026-11-05",
+  "tier": 1,
+  "why": "The Greatest Show On Earth World Tour at Johan Cruijff ArenA, Amsterdam, a third stadium night."
  },
  {
   "id": "kraftklub-rheinenergie-2027-06-11",

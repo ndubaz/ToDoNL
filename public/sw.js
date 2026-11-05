@@ -1,5 +1,5 @@
 // Offline support: the app shell is cached on first visit, so Rondom opens on a weak signal at the venue.
-const CACHE = "out-a7e66002f5";
+const CACHE = "out-c0f46cabb4";
 const SHELL = ["/", "/index.html", "/vendor/jspdf-2.5.1.umd.min.js", "/manifest.webmanifest", "/icons/icon-192.png", "/icons/icon-512.png", "/icons/apple-touch-icon.png", "/icons/favicon.svg"];
 
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });

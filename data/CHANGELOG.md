@@ -1,5 +1,10 @@
 # Data changelog
 
+## 2026-11-05: Weekly refresh (recovered from the routine's first run)
+- The scheduled task fired once as a test. Its session ran the full procedure but could not push (no repository access), so its commit was lost; its artifact version kept the data, from which these additions were recovered.
+- Added: Kanal Centre Pompidou opening, Brussels (from 28 Nov 2026); Winterlights Luxembourg (from 20 Nov 2026); U2 third Johan Cruijff ArenA night (9 Jun 2027); Tayc at AFAS Live (22 Nov 2026).
+- No status or date changes. Rotation: A (NL) plus BE sweep.
+
 ## 2026-11-04: v2.0.0
 - Added 17 events and 8 concerts: Eurovision-related (Het Grote Songfestivalfeest 13 Nov 2026, Eurovision in Concert 3 Apr 2027, Luxembourg Song Contest 30 Jan 2027), Italian artists (Eros Ramazzotti 2028 at PSD Bank Dome, Rockhal and Forest National, Il Volo Oct 2027 at Forest National, PSD Bank Dome and Festhalle, Ludovico Einaudi Grand Palais 14 Jan 2027, Laura Pausini Ziggo Dome 24 Nov 2027 projected, Colapesce Dimartino at IIC Brussels, Villerupt Italian film festival), learning experiences for Alma (Kunstakademie Düsseldorf Rundgang, Antwerp Academy fashion show, DAE graduation show and open day, Maastricht University open day, Dag van de Wetenschap, RWTH science night, Jan van Eyck open studios, Weekend van de Wetenschap, Atelier in Beeld, DoKomi); the `learning` tag was added to Japan-Tag and Museumnacht Maastricht.
 - Removed four Stade de France French rap shows (for nobody in the household).

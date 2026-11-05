@@ -7,6 +7,7 @@ Bugs, shortcuts and unverified items. Fixed in one batch when Nick says "execute
 - Cross-device sync of plan and notes (currently per device, JSON export/import only).
 
 ## Repo and deployment
+- The weekly routine is bound to the build session because a routine made from the session tool carries no repository and cannot push (verified 5 Nov 2026: 403 on push). A routine created in the claude.ai UI with the repo selected would run in a clean session each week; switch when convenient.
 - Fixed in 2.0 (4 Nov 2026): every finding of the 1.1 audit except the two noted under Code.
 - The app was built in `ndubaz/ToDoNL` (the repo attached to the build session; the session could not create `ndubaz/Rondom`). Rename the repo to Rondom on GitHub if you want the name to match; Vercel follows renames.
 - `main` was created from the first build branch `claude/serene-clarke-rx8vgi`. Set `main` as the default branch in GitHub settings if it is not.

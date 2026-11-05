@@ -28,7 +28,7 @@ npx serve public                    # local preview
 - **GitHub:** `ndubaz/ToDoNL`, branch `main`. Vercel auto-deploys every push to `main`.
 - **Vercel:** Hobby account `ndubaz-5533`, team id `team_O5dGajZMxTjDlfCmwOIKjT5w`, project `todonl`. If no project is linked to the repo, link it with the Vercel MCP `create_git_project` (repo `ndubaz/ToDoNL`, that team id).
 - **claude.ai artifact:** https://claude.ai/artifact/MwmFC7k4pnbxmz8YgtCswb. Republish with `dist/artifact.html`; keep its title and the `downloads` capability (the PDF and ICS exports use it).
-- **Scheduled task:** "Rondom weekly refresh" (trigger id `trig_01XLn8g4zex7pgu9Nwvy4EPx`), every Wednesday 02:30 Europe/Amsterdam, prompt "Open the repo ndubaz/ToDoNL on main and follow docs/UPDATE.md exactly."
+- **Scheduled task:** "Rondom weekly refresh (in-session)" (trigger id `trig_01J7Ymw4HiJeuPgzPtqkYdz7`), every Wednesday 02:30 Europe/Amsterdam. It fires into the build session `session_017vVwDJ2yeAwx9iEmSZQrir`, which holds push access to the repo; a fresh-session routine created from this tool gets no repository and its push is refused with 403. To move the task to a fresh session, create it in the claude.ai routines UI with `ndubaz/ToDoNL` selected as the repository and this environment, then delete the in-session one.
 
 ## Data schema
 
