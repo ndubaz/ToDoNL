@@ -2,6 +2,13 @@
 
 Runs every Wednesday at 02:30 Europe/Amsterdam as a Claude Code scheduled task. It adds new shows and events, confirms what is coming up, flips statuses, and redeploys. Budget: about 25 web searches and 80 page fetches. Prefer fetching the `source` URL and the venue's own agenda over searching. Never invent dates. Null when unknown.
 
+## 0. Get the repo
+If `/home/user/ToDoNL` (or any checkout of `ndubaz/ToDoNL`) is not in the working directory, attach it with the `add_repo` tool (owner `ndubaz`, repo `ToDoNL`, access `push`), run the clone command it returns, then `register_repo_root`. Then:
+```
+git fetch origin main && git checkout -B main origin/main
+```
+All work and the final push go to `main`. If the message says "dry run", do steps 0, 1 and 5 only, change nothing, commit nothing, run `git push --dry-run origin main`, and report what worked.
+
 ## 1. Triage
 ```
 node scripts/triage.mjs --days 45 --max 80
@@ -36,13 +43,13 @@ For each entry in `soon`, `projected` and `stale`, in that order: fetch `source`
 node scripts/build.mjs
 node scripts/build.mjs --artifact
 ```
-Both must pass. If validation fails, fix the data; never weaken the validator.
+Both must pass. If validation fails, fix the data; never weaken the validator. The validator refuses: unknown `region` names (the allowed list is `REGIONS` in `scripts/build.mjs`; Belgian and Dutch Limburg are `Limburg (BE)` and `Limburg (NL)`), duplicate `short` labels within a year, a `source` that is not https, `startTime` or `doors` not in HH:MM, an empty `for`, `confidence: projected` together with `status: onsale`, a `free` tag with a price, and relative-time wording ("tomorrow", "still available") in text fields. A null `driveMin` is tolerated for entries added in the last 7 days and fails after that, so run `node scripts/drive-times.mjs` and, if the OSRM router is down, leave `driveMin: null`, note it in BACKLOG.md and let the next run fill it.
 
 ## 6. Record and publish
 1. **Changelog:** add a dated section at the top of `data/CHANGELOG.md`: added (by kind, naming every tier 1 entry and every K-pop, military or aviation entry), status changes (old to new), corrected dates (old to new), removed, rotation run, what could not be verified.
 2. **Backlog:** add unverified items and blocked hosts to `BACKLOG.md`.
 3. **Git:** commit `data/`, `public/` and the docs with the message `Weekly refresh YYYY-MM-DD` and the attribution lines, then push to `main`. Vercel redeploys automatically. If the push is refused, say so in the report and continue.
-4. **claude.ai artifact:** republish https://claude.ai/artifact/MwmFC7k4pnbxmz8YgtCswb with `dist/artifact.html` (Artifact tool, `url` set to that link). Keep its title and capabilities.
+4. **claude.ai artifact:** first call the Artifact tool with `action: "read"` and `url` https://claude.ai/artifact/MwmFC7k4pnbxmz8YgtCswb (a publish without a prior read is refused), then publish `dist/artifact.html` with that `url`. Keep its title and capabilities; do not pass `capabilities`.
 5. **Vercel:** if no project is linked to the repo, create it with `create_git_project` (repo `ndubaz/ToDoNL`, team `team_O5dGajZMxTjDlfCmwOIKjT5w`).
 
 ## 7. Report
