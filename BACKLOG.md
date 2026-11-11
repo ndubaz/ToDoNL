@@ -32,6 +32,12 @@ Bugs, shortcuts and unverified items. Fixed in one batch when Nick says "execute
 - Not found with dated pages: SCHUNCK Heerlen teen courses (agenda is script-rendered; the programme PDF was not read), Bonnefanten teen workshops, Kunstpalast and Aachen museum holiday courses for 2027, K-pop dance and manga workshops, Bokrijk craft weekend 2027.
 - Four Stade de France French rap shows were removed because nobody in the household fits; the validator now refuses an empty `for`.
 
+## From the 11 Nov 2026 refresh
+- Leads without an official page: TXT "STEAL THE WIND" Amsterdam 10 Jun, Antwerp 12 Jun, Köln 14 Jun 2027 (tier 1 for Alma if confirmed); EVNNE at Kantine Köln 19 Feb 2027; PSD Bank Dome 2027 shows (Five Finger Death Punch 26 Jan, Rod Stewart 3 Jun, Don Omar 27 Jun, Fontaines D.C. 24 Aug, Foreigner 16 Oct); Westfalenhalle die ärzte 12 to 14 Apr 2027; Céline Dion Plenitude Arena May 2027 (no individual dates published); aespa Accor Arena 2 Feb 2027 possibly sold out (listings site only); Veilchendienstagszug Mönchengladbach 9 Feb 2027 (organizer site unreachable); Christmas Garden Köln, Winterlichter Schloss Rheydt, Parkleuchten Grugapark 2027, Schlossleuchten Drachenburg 2027 (no reachable official dates).
+- Sinterklaas intocht Grave 14 Nov 2026: only press sources; NTR and municipality pages did not confirm.
+- Hosts blocked or broken for the refresh: psdbankdome.de (bad TLS certificate), westfalenhalle.de and festhalle.de (503), tomorrowland.com, superprestige.be, jumpingmechelen.com, kattenstoet.be (503), hollandfestival.nl (403), mkv-mg.de.
+- 48 of the 91 new concerts are tier 3 arena shows; if Nick finds the concert lane too noisy, raise the bar in UPDATE.md step 2 to tier 1 and 2 only.
+
 ## Code
 - Plan conflicts consider only entries spanning 3 days or fewer; long-running exhibitions never clash.
 - Deep links to the Browse filters (kind, country, month) are not in the hash; only tabs and entries are.

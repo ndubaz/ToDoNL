@@ -590,49 +590,6 @@
   "startTime": "09:00"
  },
  {
-  "id": "festival-film-italien-villerupt-2026",
-  "name": "Festival du Film Italien de Villerupt",
-  "short": "Film italien Villerupt",
-  "kind": "culture",
-  "city": "Villerupt",
-  "country": "FR",
-  "region": "Grand Est",
-  "lat": 49.4675,
-  "lng": 5.9308,
-  "cityNote": "Also screens in Esch-sur-Alzette and Dudelange (LU)",
-  "start": "2026-10-23",
-  "end": "2026-11-08",
-  "startTime": null,
-  "venue": "Cinemas in Villerupt plus Kulturfabrik Esch and CNA Dudelange",
-  "tier": 2,
-  "for": [
-   "nick",
-   "family"
-  ],
-  "confidence": "projected",
-  "source": "https://festival-villerupt.com/",
-  "status": "announced",
-  "annual": true,
-  "onSale": null,
-  "sellOutRisk": "low",
-  "ticketUrl": "https://festival-villerupt.com/",
-  "priceFrom": null,
-  "ticketNote": "Tickets sold at the venues, subject to availability",
-  "highlights": "The 49th edition of the largest Italian film festival in France screens new Italian cinema and retrospectives on both sides of the Luxembourg border.",
-  "tip": "Only the last weekend remains; pick screenings in Esch or Dudelange to keep the drive short.",
-  "dateNote": "Dates 23 Oct to 8 Nov 2026 come from a Luxembourg listings page; the official site could not be read during research.",
-  "tags": [
-   "indoor",
-   "ticketed",
-   "art",
-   "italian"
-  ],
-  "why": "The biggest celebration of Italian cinema in France sits right on the Luxembourg border.",
-  "driveMin": 165,
-  "planBy": null,
-  "addedOn": "2026-11-04"
- },
- {
   "id": "kunsthal-signac-2026",
   "name": "Signac: Symphony of Colours (Kunsthal Rotterdam)",
   "short": "Signac Kunsthal",
@@ -721,90 +678,6 @@
   "startTime": null
  },
  {
-  "venue": "Koelnmesse",
-  "train": "Köln Messe/Deutz station is at the fair entrance",
-  "onSale": null,
-  "sellOutRisk": "low",
-  "ticketUrl": "https://www.artcologne.de/",
-  "priceFrom": null,
-  "ticketNote": "Day tickets online; an ART COLOGNE ticket also admits you to the Kölner Museumsnacht on 7 November",
-  "annual": true,
-  "id": "art-cologne-2026",
-  "name": "ART COLOGNE",
-  "short": "Art Cologne",
-  "kind": "culture",
-  "city": "Köln",
-  "country": "DE",
-  "region": "NRW",
-  "lat": 50.9466,
-  "lng": 6.9833,
-  "start": "2026-11-05",
-  "end": "2026-11-08",
-  "tier": 2,
-  "for": [
-   "nick",
-   "family"
-  ],
-  "confidence": "confirmed",
-  "source": "https://www.artcologne.de/",
-  "status": "onsale",
-  "highlights": "The 59th edition of the world's oldest art fair: galleries of modern and contemporary art from around the world, combined on Saturday 7 November with the Cologne Museum Night.",
-  "tip": "Go on Saturday 7 November, see the fair from 11:00 and use the same ticket for the Museumsnacht in the evening.",
-  "tags": [
-   "art",
-   "indoor",
-   "ticketed"
-  ],
-  "why": "The oldest art fair in the world, an hour away, with a free museum night thrown in this weekend.",
-  "driveMin": 70,
-  "planBy": null,
-  "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
-  "startTime": null
- },
- {
-  "id": "jumping-indoor-maastricht-2026",
-  "name": "Jumping Indoor Maastricht 2026",
-  "short": "Jumping Maastricht",
-  "kind": "sport",
-  "city": "Maastricht",
-  "country": "NL",
-  "region": "Limburg (NL)",
-  "lat": 50.839,
-  "lng": 5.714,
-  "start": "2026-11-05",
-  "end": "2026-11-08",
-  "times": "Thu 5: JIM Cup finals and Limburgse Avond; Fri 6: CSI4* and Driving World Cup warm-up; Sat 7: Jimmy Afternoon 13:00-15:30, Big Tour 19:30, Driving World Cup final 21:45; Sun 8: Grand Prix of Maastricht 14:30",
-  "venue": "MECC Maastricht",
-  "tier": 2,
-  "for": [
-   "family"
-  ],
-  "confidence": "confirmed",
-  "source": "https://www.jumpingindoormaastricht.com/programma/",
-  "status": "onsale",
-  "annual": true,
-  "onSale": null,
-  "sellOutRisk": "low",
-  "ticketUrl": "https://www.ticketcrew.nl/tickets/jim",
-  "priceFrom": null,
-  "ticketNote": "Day tickets via Ticketcrew; Saturday evening and Sunday Grand Prix are the premium sessions.",
-  "highlights": "A CSI4* show jumping week with the FEI Driving World Cup four-in-hand final on Saturday night, the Grand Prix of Maastricht on Sunday and a family 'Jimmy Afternoon' with pony classes and a meet and greet on Saturday.",
-  "tip": "Take the Saturday afternoon family session and stay for the floodlit Driving World Cup at 21:45; MECC is 15 minutes from home.",
-  "lez": "none",
-  "tags": [
-   "indoor",
-   "ticketed",
-   "kids"
-  ],
-  "why": "Top-level show jumping and the carriage-driving World Cup, 15 minutes from home.",
-  "driveMin": 25,
-  "planBy": null,
-  "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
-  "startTime": null
- },
- {
   "id": "glow-eindhoven-2026",
   "name": "GLOW Eindhoven 2026",
   "short": "GLOW Eindhoven",
@@ -855,49 +728,6 @@
   "startTime": "18:30"
  },
  {
-  "times": "19:00-02:00",
-  "onSale": null,
-  "sellOutRisk": "high",
-  "ticketUrl": "https://museumnacht.amsterdam/",
-  "priceFrom": null,
-  "ticketNote": "Standard tickets sold out; last-minute tickets only for Uitpas holders while stocks last",
-  "annual": true,
-  "id": "museumnacht-amsterdam-2026",
-  "name": "Museumnacht Amsterdam",
-  "short": "Museumnacht A'dam",
-  "kind": "culture",
-  "city": "Amsterdam",
-  "country": "NL",
-  "region": "Noord-Holland",
-  "lat": 52.358,
-  "lng": 4.8818,
-  "start": "2026-11-07",
-  "end": "2026-11-07",
-  "tier": 2,
-  "for": [
-   "alma",
-   "family"
-  ],
-  "confidence": "confirmed",
-  "source": "https://www.iamsterdam.com/en/whats-on/calendar/festivals/events/museumnacht-amsterdam",
-  "status": "soldout",
-  "highlights": "Dozens of Amsterdam museums open until 2:00 with DJs, performances and workshops on one ticket.",
-  "tip": "This edition is sold out; set a reminder for ticket sales for the 2027 edition in early autumn.",
-  "tags": [
-   "art",
-   "music",
-   "indoor",
-   "ticketed",
-   "teens"
-  ],
-  "why": "A night of museums turned into clubs is the kind of teen-friendly spectacle Alma would enjoy.",
-  "driveMin": 165,
-  "planBy": null,
-  "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
-  "startTime": "19:00"
- },
- {
   "times": "Special Last Post around 11:00; evening Last Post 20:00; Great War Remembered concert 17:00",
   "venue": "Menin Gate Memorial and St Martin's Cathedral",
   "onSale": null,
@@ -937,7 +767,7 @@
   "driveMin": 170,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-11",
   "cityNote": "Ypres",
   "startTime": null
  },
@@ -985,7 +815,7 @@
   "driveMin": 155,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "rwth-wissenschaftsnacht-2026",
@@ -1031,7 +861,7 @@
   "why": "A big-university science night with live shows and labs, 30 minutes from home on a Friday evening.",
   "cityNote": "Aachen, about 30 minutes by car",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-11",
   "driveMin": 25,
   "planBy": null
  },
@@ -1075,7 +905,7 @@
   "driveMin": 65,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-11",
   "startTime": null
  },
  {
@@ -1117,7 +947,7 @@
   "driveMin": 60,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-11",
   "startTime": "11:00"
  },
  {
@@ -1161,7 +991,8 @@
   "planBy": null,
   "addedOn": "2026-11-04",
   "cityNote": "Land van Cuijk",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "um-bachelors-open-day-nov-2026",
@@ -1253,7 +1084,7 @@
   "why": "Hundreds of hands-on science activities across Belgian Limburg, 45 minutes from home.",
   "cityNote": "Genk and Hasselt, about 45 minutes by car",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-11",
   "driveMin": 30,
   "planBy": null
  },
@@ -1295,7 +1126,7 @@
   "driveMin": 105,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-11",
   "startTime": null
  },
  {
@@ -1337,9 +1168,9 @@
   ],
   "why": "Turner loans at a €7 ticket price, in a city that makes a good winter weekend.",
   "driveMin": 165,
-  "planBy": "2026-11-06",
+  "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-11",
   "startTime": "14:00"
  },
  {
@@ -1353,7 +1184,7 @@
   "priceFrom": null,
   "driveMin": 155,
   "addedOn": "2026-11-05",
-  "verifiedOn": "2026-11-05",
+  "verifiedOn": "2026-11-11",
   "startTime": null,
   "sellOutRisk": "low",
   "id": "winterlights-luxembourg-2026",
@@ -1383,7 +1214,7 @@
    "outdoor"
   ],
   "why": "Luxembourg City's winter-lights Christmas market, a day trip inside the radius.",
-  "planBy": "2026-11-06",
+  "planBy": null,
   "dateNote": "Dates confirmed on 5 Nov"
  },
  {
@@ -1473,9 +1304,9 @@
   ],
   "why": "A world-class light festival that works as a winter weekend trip and combines a free canal walk with a boat tour.",
   "driveMin": 165,
-  "planBy": "2026-11-05",
+  "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-11",
   "startTime": "16:30"
  },
  {
@@ -1489,7 +1320,7 @@
   "priceFrom": null,
   "driveMin": 90,
   "addedOn": "2026-11-05",
-  "verifiedOn": "2026-11-05",
+  "verifiedOn": "2026-11-11",
   "startTime": null,
   "sellOutRisk": "medium",
   "id": "kanal-centre-pompidou-opening-2026",
@@ -1520,7 +1351,7 @@
    "ticketed"
   ],
   "why": "The opening of Brussels' new Centre Pompidou partner museum, with ten exhibitions on art and architecture.",
-  "planBy": "2026-11-07",
+  "planBy": null,
   "dateNote": "Dates confirmed on 5 Nov"
  },
  {
@@ -1674,6 +1505,52 @@
   "startTime": "10:00"
  },
  {
+  "id": "german-film-comic-con-dortmund-2026",
+  "name": "German Film & Comic Con Dortmund, Winter Edition 2026",
+  "short": "Comic Con Dortmund",
+  "kind": "culture",
+  "city": "Dortmund",
+  "country": "DE",
+  "region": "NRW",
+  "lat": 51.4919,
+  "lng": 7.4553,
+  "start": "2026-12-05",
+  "end": "2026-12-06",
+  "times": "10:00-18:00 both days, early-bird entry from 09:00",
+  "startTime": "10:00",
+  "venue": "Messe Dortmund, Halls 4 to 7",
+  "tier": 2,
+  "for": [
+   "alma",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.messe-dortmund.de/en/trade-fair-calendar/trade-fair-calendar/trade-fair-details/german-film-comic-con-dortmund-2026/",
+  "status": "onsale",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://germanfilmcomiccon.com/",
+  "priceFrom": null,
+  "ticketNote": "Day and weekend tickets through the organizer's Eventbrite shop; photo and autograph sessions cost extra",
+  "highlights": "Around 50,000 visitors, international film and TV guests, artists' alley, cosplay contests and dealers' halls across four halls of the Westfalenhallen.",
+  "tip": "Buy the early-bird ticket to get in at 09:00 and book any photo session in advance; parking at the Westfalenhallen fills by mid-morning.",
+  "train": "Dortmund Signal Iduna Park station or U45 to Westfalenhallen",
+  "lez": "Dortmund Umweltzone: green sticker required",
+  "tags": [
+   "indoor",
+   "ticketed",
+   "teens",
+   "kids"
+  ],
+  "why": "The biggest cosplay and film convention in western Germany, a good winter day out for Alma under two hours away.",
+  "dateNote": null,
+  "driveMin": 110,
+  "addedOn": "2026-11-11",
+  "verifiedOn": "2026-11-11",
+  "planBy": "2026-11-14"
+ },
+ {
   "id": "dae-bachelor-open-day-2026",
   "name": "Design Academy Eindhoven Bachelor Open Day",
   "short": "DAE Open Day",
@@ -1764,7 +1641,7 @@
   "driveMin": 105,
   "planBy": "2026-11-27",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-11",
   "startTime": null
  },
  {
@@ -2069,7 +1946,8 @@
   "driveMin": 150,
   "planBy": "2026-12-17",
   "addedOn": "2026-11-04",
-  "startTime": "22:30"
+  "startTime": "22:30",
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "cyclocross-world-cup-zonhoven-2027",
@@ -2201,8 +2079,56 @@
   "driveMin": 65,
   "planBy": "2026-12-21",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-11",
   "startTime": null
+ },
+ {
+  "id": "boot-duesseldorf-2027",
+  "name": "boot Düsseldorf 2027",
+  "short": "boot Düsseldorf",
+  "kind": "culture",
+  "city": "Düsseldorf",
+  "cityNote": "Messe Düsseldorf, Halls 1 to 17",
+  "country": "DE",
+  "region": "NRW",
+  "lat": 51.2648,
+  "lng": 6.7397,
+  "start": "2027-01-23",
+  "end": "2027-01-31",
+  "times": "Daily; opening hours are published on boot.com",
+  "startTime": null,
+  "venue": "Messe Düsseldorf",
+  "tier": 2,
+  "for": [
+   "family",
+   "nick"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.boot.com/en/Media_News/Press/Press_Material/Press_Releases/Cast_off_for_boot_D%C3%BCsseldorf_2027",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.boot.com/",
+  "priceFrom": null,
+  "ticketNote": "Day tickets only through the boot.com e-ticket shop",
+  "highlights": "The world's largest boat and water sports show: nearly 1,500 exhibitors from dinghies to superyachts, an XXL pool for surfing and paddling in Hall 12, diving in Hall 13, houseboats and charters in Hall 14 and stage shows all week.",
+  "tip": "Take the train to Düsseldorf Messe/Arena and go on a weekday if you can; the try-out pools and the big yachts in the first halls draw the longest queues at the weekend.",
+  "train": "Messe Ost/Stockumer Kirchstrasse by U78 from Düsseldorf Hbf",
+  "lez": "Düsseldorf Umweltzone: green sticker required",
+  "tags": [
+   "indoor",
+   "ticketed",
+   "ships",
+   "kids",
+   "teens"
+  ],
+  "why": "Nine days of yachts, try-out pools and water sports an hour from home, the biggest show of its kind anywhere.",
+  "dateNote": null,
+  "driveMin": 70,
+  "addedOn": "2026-11-11",
+  "verifiedOn": "2026-11-11",
+  "planBy": "2027-01-09"
  },
  {
   "id": "cyclocross-world-cup-hoogerheide-2027",
@@ -2415,7 +2341,7 @@
    "family"
   ],
   "confidence": "projected",
-  "source": "https://www.koelnerkarneval.de/rosenmontagszug/",
+  "source": "https://www.koelnerkarneval.de/",
   "status": "tbd",
   "annual": true,
   "onSale": null,
@@ -2440,7 +2366,8 @@
   "driveMin": 65,
   "planBy": "2027-01-21",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "abn-amro-open-rotterdam-2027",
@@ -2534,7 +2461,8 @@
   "driveMin": 110,
   "planBy": "2027-01-24",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "carnaval-de-binche-2027",
@@ -2645,6 +2573,53 @@
   "startTime": null
  },
  {
+  "id": "mainzer-rosenmontagszug-2027",
+  "name": "Mainzer Rosenmontagszug 2027",
+  "short": "Mainz Rosenmontag",
+  "kind": "spectacle",
+  "city": "Mainz",
+  "country": "DE",
+  "region": "Rheinland-Pfalz",
+  "lat": 49.9992,
+  "lng": 8.2731,
+  "start": "2027-02-08",
+  "end": "2027-02-08",
+  "times": "Parade from 11:11 through the city centre (route and timing to be published)",
+  "startTime": null,
+  "venue": "Mainz city centre, from the Neustadt to the Schillerplatz",
+  "tier": 2,
+  "for": [
+   "anne",
+   "family"
+  ],
+  "confidence": "projected",
+  "source": "https://www.mainzer-fastnacht.de/",
+  "status": "tbd",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.mainzer-fastnacht.de/",
+  "priceFrom": null,
+  "ticketNote": "Free along the route; grandstand seats sold separately",
+  "highlights": "The third of Germany's great Rosenmontag parades after Cologne and Düsseldorf: seven kilometres of political floats, guards in historic uniforms, marching bands and half a million spectators in the Rhineland-Palatinate capital.",
+  "tip": "Only worth it if the Cologne or Düsseldorf parades are not an option; park and ride from Mainz-Kastel or take the train to Mainz Hbf, and bring a bag for the sweets.",
+  "train": "Mainz Hbf; the centre is closed to cars on Rosenmontag",
+  "lez": "Mainz Umweltzone: green sticker required",
+  "tags": [
+   "parade",
+   "outdoor",
+   "free",
+   "music",
+   "kids",
+   "teens"
+  ],
+  "why": "Mainz is the home of political carnival and its Rosenmontag parade is the most satirical of the big three, a long but possible day trip.",
+  "dateNote": "Rosenmontag 2027 falls on 8 February by the carnival calendar; the official Mainz Fastnacht site lists the 2027 campaign and a Rosenmontag countdown but had not published the 2027 parade start time or route at research time.",
+  "driveMin": 165,
+  "addedOn": "2026-11-11",
+  "planBy": "2027-01-25"
+ },
+ {
   "id": "rosenmontagszug-aachen-2027",
   "name": "Rosenmontagszug Aachen 2027",
   "short": "Aachen Rosenmontag",
@@ -2687,7 +2662,8 @@
   "driveMin": 25,
   "planBy": "2027-01-25",
   "addedOn": "2026-11-04",
-  "startTime": "11:11"
+  "startTime": "11:11",
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "rosenmontagszug-duesseldorf-2027",
@@ -2781,7 +2757,8 @@
   "driveMin": 95,
   "planBy": "2027-01-28",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "vgm-eva-gonzales-2027",
@@ -2826,6 +2803,53 @@
   "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04",
   "startTime": "09:00"
+ },
+ {
+  "id": "istaf-indoor-duesseldorf-2027",
+  "name": "ISTAF Indoor Düsseldorf 2027",
+  "short": "ISTAF Indoor",
+  "kind": "sport",
+  "city": "Düsseldorf",
+  "country": "DE",
+  "region": "NRW",
+  "lat": 51.2616,
+  "lng": 6.7334,
+  "start": "2027-02-13",
+  "end": "2027-02-13",
+  "times": "Afternoon session; the 2027 schedule is published on duesseldorf.istaf-indoor.de",
+  "startTime": null,
+  "venue": "PSD Bank Dome",
+  "tier": 2,
+  "for": [
+   "family",
+   "nick"
+  ],
+  "confidence": "confirmed",
+  "source": "https://duesseldorf.istaf-indoor.de/",
+  "status": "onsale",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.ticket-onlineshop.com/ols/istaf/de/indoor-duesseldorf/channel/shop/index",
+  "priceFrom": null,
+  "ticketNote": "Tickets in the ISTAF online shop",
+  "highlights": "Indoor athletics as an arena show: 60 m sprints and hurdles, women's long jump, men's pole vault and a 60 m para sprint, with the athletes competing right in front of the stands and laser and flame effects between events.",
+  "tip": "Sit on the long side near the finish line for the sprints; the whole programme fits into one afternoon.",
+  "train": "U78 or U79 to Merkur Spiel-Arena/Messe Nord",
+  "lez": "Düsseldorf Umweltzone: green sticker required",
+  "tags": [
+   "indoor",
+   "ticketed",
+   "running",
+   "kids",
+   "teens"
+  ],
+  "why": "World-class sprinters and pole vaulters compete a few metres from your seat, an hour from Hoensbroek.",
+  "dateNote": null,
+  "driveMin": 70,
+  "addedOn": "2026-11-11",
+  "verifiedOn": "2026-11-11",
+  "planBy": "2027-01-30"
  },
  {
   "id": "kunstpalast-vivian-maier-2027",
@@ -3124,7 +3148,7 @@
   "driveMin": 25,
   "planBy": "2027-02-27",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-11",
   "startTime": "11:00"
  },
  {
@@ -3173,6 +3197,51 @@
   "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04",
   "startTime": null
+ },
+ {
+  "id": "equitana-essen-2027",
+  "name": "EQUITANA 2027",
+  "short": "Equitana Essen",
+  "kind": "sport",
+  "city": "Essen",
+  "country": "DE",
+  "region": "NRW",
+  "lat": 51.4305,
+  "lng": 6.9974,
+  "start": "2027-03-18",
+  "end": "2027-03-24",
+  "times": "10:00-18:30 (Wed 24 Mar to 18:00)",
+  "startTime": null,
+  "venue": "Messe Essen",
+  "tier": 2,
+  "for": [
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.equitana.com/",
+  "status": "onsale",
+  "annual": false,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.equitana.com/",
+  "priceFrom": null,
+  "ticketNote": "Day tickets and HOP TOP Show tickets in separate shops on equitana.com",
+  "highlights": "The world's largest equestrian fair, held every two years: over 1,000 horses, 650 exhibitors from 40 countries across seven halls, breed shows and demonstrations all day and the HOP TOP evening show.",
+  "tip": "Pick one day and book the HOP TOP Show for the evening; arrive at opening time because the show rings fill quickly.",
+  "train": "Essen Messe/Gruga by tram 107 or U11 from Essen Hbf",
+  "lez": "Essen Umweltzone: green sticker required",
+  "tags": [
+   "indoor",
+   "ticketed",
+   "kids",
+   "teens"
+  ],
+  "why": "The biggest horse show on the planet comes to Essen only every second year, 85 minutes from home.",
+  "dateNote": null,
+  "driveMin": 85,
+  "addedOn": "2026-11-11",
+  "verifiedOn": "2026-11-11",
+  "planBy": "2027-03-04"
  },
  {
   "times": "08:00-19:00, last entry 18:15",
@@ -3447,6 +3516,52 @@
   "startTime": null
  },
  {
+  "id": "art-duesseldorf-2027",
+  "name": "Art Düsseldorf 2027",
+  "short": "Art Düsseldorf",
+  "kind": "culture",
+  "city": "Düsseldorf",
+  "cityNote": "Areal Böhler, on the Meerbusch border",
+  "country": "DE",
+  "region": "NRW",
+  "lat": 51.2609,
+  "lng": 6.7081,
+  "start": "2027-04-09",
+  "end": "2027-04-11",
+  "times": "Opening hours to be published on art-dus.de",
+  "startTime": null,
+  "venue": "Areal Böhler",
+  "tier": 3,
+  "for": [
+   "alma",
+   "nick"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.art-dus.de/",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.art-dus.de/",
+  "priceFrom": null,
+  "ticketNote": "Day tickets online closer to the fair",
+  "highlights": "Around 100 galleries of modern and contemporary art in the industrial halls of the old Böhler steelworks, with a talks programme and plenty of large-scale pieces.",
+  "tip": "Saturday afternoon is the busiest; go Sunday morning and combine it with the Kunstpalast or K20 in town.",
+  "lez": "Düsseldorf Umweltzone: green sticker required",
+  "tags": [
+   "art",
+   "indoor",
+   "ticketed",
+   "teens"
+  ],
+  "why": "A compact contemporary art fair in a dramatic steelworks setting, an hour away and a good first art fair for a 14-year-old.",
+  "dateNote": null,
+  "driveMin": 70,
+  "addedOn": "2026-11-11",
+  "verifiedOn": "2026-11-11",
+  "planBy": "2027-03-26"
+ },
+ {
   "onSale": null,
   "sellOutRisk": "medium",
   "ticketUrl": "https://www.museumnachtmaastricht.nl/",
@@ -3488,6 +3603,52 @@
   "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04",
   "startTime": null
+ },
+ {
+  "id": "nacht-der-kuenste-duesseldorf-2027",
+  "name": "Nacht der Künste Düsseldorf 2027",
+  "short": "Nacht der Künste Ddorf",
+  "kind": "culture",
+  "city": "Düsseldorf",
+  "country": "DE",
+  "region": "NRW",
+  "lat": 51.2277,
+  "lng": 6.7735,
+  "start": "2027-04-10",
+  "end": "2027-04-10",
+  "times": "Evening to late night; times to be published",
+  "startTime": null,
+  "venue": "Museums, galleries, studios and off-spaces across the city",
+  "tier": 3,
+  "for": [
+   "alma",
+   "nick",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://nachtderkuenste.de/",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://nachtderkuenste.de/",
+  "priceFrom": null,
+  "ticketNote": "One ticket covers all venues and the shuttle buses; price to be published",
+  "highlights": "Düsseldorf's museum night under its new name: one evening ticket opens museums, academy studios, bunkers and off-spaces across the city with performances, workshops and shuttle buses between them.",
+  "tip": "Start at the Kunstpalast or K20 before 19:00 and use the shuttle loop to reach the smaller studios later; it falls on the same weekend as Art Düsseldorf.",
+  "lez": "Düsseldorf Umweltzone: green sticker required",
+  "tags": [
+   "art",
+   "indoor",
+   "ticketed",
+   "teens"
+  ],
+  "why": "An evening of open studios and museums for an art-minded teenager, an hour away and on the same weekend as Art Düsseldorf.",
+  "dateNote": null,
+  "driveMin": 65,
+  "addedOn": "2026-11-11",
+  "verifiedOn": "2026-11-11",
+  "planBy": "2027-03-27"
  },
  {
   "id": "nn-marathon-rotterdam-2027",
@@ -3554,9 +3715,9 @@
    "family",
    "alma"
   ],
-  "confidence": "projected",
+  "confidence": "confirmed",
   "source": "https://www.pdc.tv/premier-league-darts",
-  "status": "tbd",
+  "status": "announced",
   "annual": true,
   "onSale": null,
   "sellOutRisk": "high",
@@ -3573,11 +3734,14 @@
    "teens"
   ],
   "why": "Littler and Van Gerwen in the loudest darts crowd in the world, 90 minutes away.",
-  "dateNote": "Thursday 15 April 2027 per the PDC's 2027 Premier League schedule as reported by Sky Sports and others on 25 September 2026; the pdc.tv page could not be read from this session.",
+  "dateNote": "Thursday 15 April 2027 at Rotterdam Ahoy per the PDC Premier League schedule page, whose ticket links point to the 2027 edition; sale status and prices not shown there.",
   "driveMin": 150,
   "planBy": "2027-03-16",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11",
+  "prevStatus": "tbd",
+  "changedOn": "2026-11-11"
  },
  {
   "times": "Fri 14:00 to Sun 20:00",
@@ -3888,6 +4052,52 @@
   "startTime": null
  },
  {
+  "id": "musikparade-koeln-2027",
+  "name": "Musikparade 2027: Europe's largest military and brass music tour, Köln",
+  "short": "Musikparade Köln",
+  "kind": "military",
+  "city": "Köln",
+  "country": "DE",
+  "region": "NRW",
+  "lat": 50.9384,
+  "lng": 6.983,
+  "start": "2027-04-25",
+  "end": "2027-04-25",
+  "times": "Doors 14:30, show 16:00",
+  "startTime": "16:00",
+  "venue": "LANXESS arena",
+  "tier": 2,
+  "for": [
+   "nick",
+   "anne"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.mvp.de/koeln/veranstaltungen/europas-groesste-tournee-der-militaer-und-blasmusik-25-04-2027/",
+  "status": "onsale",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.mvp.de/koeln/veranstaltungen/europas-groesste-tournee-der-militaer-und-blasmusik-25-04-2027/",
+  "priceFrom": 56.9,
+  "ticketNote": "Tickets through Reservix from 56.90 EUR",
+  "highlights": "More than 400 musicians from seven nations fill the arena floor with marching formations, pipes and drums, military bands and show choreography under a full light rig.",
+  "tip": "Book seats on the lower tier facing the long side to see the marching formations; the same tour stops at the Grugahalle Essen on 25 February and the Arena Trier on 26 February 2027.",
+  "train": "Köln Messe/Deutz station is next to the arena",
+  "lez": "Köln Umweltzone: green sticker required",
+  "tags": [
+   "tattoo",
+   "music",
+   "indoor",
+   "ticketed"
+  ],
+  "why": "The closest thing to a full military tattoo in an arena, an hour from home.",
+  "dateNote": null,
+  "driveMin": 65,
+  "addedOn": "2026-11-11",
+  "verifiedOn": "2026-11-11",
+  "planBy": "2027-04-11"
+ },
+ {
   "onSale": null,
   "sellOutRisk": "low",
   "ticketUrl": null,
@@ -4068,7 +4278,8 @@
   "driveMin": 80,
   "planBy": "2027-04-17",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "ruhrfestspiele-2027",
@@ -4111,7 +4322,8 @@
   "driveMin": 110,
   "planBy": "2027-04-10",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "times": "Ceremony from about 19:45; two minutes' silence 20:00",
@@ -4515,6 +4727,50 @@
   "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04",
   "startTime": null
+ },
+ {
+  "id": "moers-festival-2027",
+  "name": "moers festival 2027",
+  "short": "moers festival",
+  "kind": "festival",
+  "city": "Moers",
+  "country": "DE",
+  "region": "NRW",
+  "lat": 51.4516,
+  "lng": 6.6265,
+  "start": "2027-05-14",
+  "end": "2027-05-17",
+  "times": "Pentecost weekend, Friday to Monday; festival village from midday, concerts into the night",
+  "startTime": null,
+  "venue": "Festival hall and festival village on the Kastellplatz",
+  "tier": 2,
+  "for": [
+   "nick",
+   "family"
+  ],
+  "confidence": "projected",
+  "source": "https://www.moers-festival.de/en/",
+  "status": "tbd",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://tickets.moers-festival.de/",
+  "priceFrom": null,
+  "ticketNote": "Early-bird festival passes announced; the festival village and park stages are free",
+  "highlights": "One of Europe's longest-running experimental jazz and improvised music festivals, the 56th edition in 2027, with ticketed hall concerts and a free festival village, open-air stages and camping in the castle park.",
+  "tip": "The free village and park programme is enough for a family afternoon; buy a hall pass only if the line-up, published in spring, has names you want.",
+  "lez": "none",
+  "tags": [
+   "music",
+   "outdoor",
+   "free",
+   "ticketed"
+  ],
+  "why": "A world-renowned adventurous music festival with a free park programme, 75 minutes away on the Pentecost weekend.",
+  "dateNote": "2027 dates projected from the fixed Pentecost pattern (held every Pentecost since 1972; Pentecost Sunday 2027 is 16 May); the official site confirms a 56th edition in 2027 and early-bird ticketing but had not published the dates at research time.",
+  "driveMin": 75,
+  "addedOn": "2026-11-11",
+  "planBy": "2027-04-30"
  },
  {
   "times": "Fri 17:00-23:00, Sat 14:00-00:30, Sun 12:00-01:00, Mon 12:00-19:00",
@@ -4966,7 +5222,8 @@
   "driveMin": 25,
   "planBy": "2027-05-16",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "holland-festival-2027",
@@ -5342,8 +5599,8 @@
   "onSale": "2026-11-14",
   "sellOutRisk": "high",
   "ticketUrl": "https://www.graspop.be/",
-  "priceFrom": null,
-  "ticketNote": "General sale Sat 14 Nov 2026 10:00 (Mastercard presale from 12 Nov); 2026 combi was 319 EUR, day ticket 135 EUR",
+  "priceFrom": 139,
+  "ticketNote": "General sale online via Ticketmaster from Sat 14 Nov 2026 10:00 (Mastercard presale 12 Nov 10:00 to 14 Nov 09:00); combi 320 EUR, day ticket 139 EUR, camping 40 EUR",
   "highlights": "Europe's friendliest big metal festival celebrates its 30th edition with Faith No More, Evanescence, Parkway Drive, Slash and Mötley Crüe as the closing act.",
   "tip": "Be in the Ticketmaster queue before 10:00 on 14 November; combi tickets and the Friday usually go first.",
   "tags": [
@@ -5356,7 +5613,7 @@
   "driveMin": 75,
   "planBy": "2026-11-14",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-11",
   "startTime": null
  },
  {
@@ -5816,7 +6073,8 @@
   "driveMin": 90,
   "planBy": "2027-06-04",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "dutch-tt-assen-2027",
@@ -6836,7 +7094,8 @@
   "driveMin": 60,
   "planBy": "2027-06-25",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "gentse-feesten-2027",
@@ -7217,7 +7476,8 @@
   "driveMin": 90,
   "planBy": "2027-07-07",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "f1-belgian-grand-prix-2027",
@@ -7983,7 +8243,8 @@
   "driveMin": 150,
   "planBy": "2027-08-06",
   "addedOn": "2026-11-04",
-  "startTime": "22:00"
+  "startTime": "22:00",
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "lowlands-2027",
@@ -8127,7 +8388,8 @@
   "driveMin": 135,
   "planBy": "2027-08-07",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "dateNote": "2027 date projected from the annual pattern (third Saturday of August: 2024 was 17 Aug, 2025 16 Aug). Official site was unreachable at research time.",
@@ -8491,7 +8753,7 @@
   "driveMin": 175,
   "planBy": "2026-11-24",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-11",
   "startTime": null
  },
  {
@@ -8697,7 +8959,7 @@
   ],
   "confidence": "projected",
   "source": "https://www.warsteiner-wim.de/",
-  "status": "tbd",
+  "status": "cancelled",
   "annual": true,
   "onSale": null,
   "sellOutRisk": "low",
@@ -8716,11 +8978,14 @@
    "beer"
   ],
   "why": "The biggest balloon gathering within reach of home, with two Night Glow weekends in a row.",
-  "dateNote": "2027 dates projected from the fixed nine-day format running from the Friday before the first September weekend to the following Saturday (29 Aug-6 Sep 2025, 30 Aug-7 Sep 2024); the official site still shows the 2025 edition and the fetched pages gave no 2026/2027 dates. Verify before planning.",
+  "dateNote": "The organiser announced on its website on 10 November 2026 that the Warsteiner Internationale Montgolfiade will not take place in 2027.",
   "driveMin": 155,
   "planBy": "2027-08-20",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11",
+  "prevStatus": "tbd",
+  "changedOn": "2026-11-11"
  },
  {
   "venue": "Sportpark Hartenstein, Oosterbeek",
@@ -8940,7 +9205,8 @@
   "driveMin": 110,
   "planBy": "2027-08-06",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "times": "Evening shows 20:00; weekend matinees 14:00 (2026 pattern)",
@@ -8985,7 +9251,8 @@
   "driveMin": 100,
   "planBy": "2027-08-19",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "days": [
@@ -9042,7 +9309,8 @@
   "driveNote": "Tier 1 radius exception: just over three hours",
   "planBy": "2027-08-27",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  },
  {
   "id": "puetzchens-markt-bonn-2027",
@@ -10258,7 +10526,8 @@
   "cityNote": "Eindhoven, about 1 hour by car",
   "addedOn": "2026-11-04",
   "driveMin": 75,
-  "planBy": "2027-10-09"
+  "planBy": "2027-10-09",
+  "verifiedOn": "2026-11-11"
  },
  {
   "train": "Eindhoven Centraal, then shuttle buses",
@@ -10433,6 +10702,7 @@
   "driveMin": 105,
   "planBy": "2027-11-26",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-11"
  }
 ]

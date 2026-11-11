@@ -26,9 +26,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:rondom-gasometer-mythos-wald-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: Mythos Wald / Forest Worlds (Gasometer Oberhausen) (unti
  l Sun 28 Nov)
 LOCATION:Gasometer Oberhausen\, Oberhausen\, DE
@@ -42,9 +42,9 @@ GEO:51.4893;6.862
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-kunstpalast-niki-de-saint-phalle-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: Niki de Saint Phalle: Dream Machine (Kunstpalast) (until
   Sun 7 Feb)
 LOCATION:Kunstpalast\, Düsseldorf\, DE
@@ -57,9 +57,9 @@ GEO:51.233;6.7728
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-stedelijk-yayoi-kusama-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: Yayoi Kusama retrospective (Stedelijk) (until Sun 17 Jan
  )
 LOCATION:Stedelijk Museum\, Amsterdam\, NL
@@ -73,9 +73,9 @@ GEO:52.358;4.8797
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-k20-franz-marc-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: Franz Marc (K20 Düsseldorf) (until Sun 24 Jan)
 LOCATION:K20 Kunstsammlung NRW\, Düsseldorf\, DE
 DESCRIPTION:Blue horses and yellow cows that children recognise\, in one 
@@ -87,9 +87,9 @@ GEO:51.227;6.7733
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nrw-forum-asia-pop-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: ASIA POP (NRW-Forum Düsseldorf) (until Sun 23 May)
 LOCATION:NRW-Forum\, Düsseldorf\, DE
 DESCRIPTION:A whole exhibition on fandom and K-pop with a karaoke room\, 
@@ -101,9 +101,9 @@ GEO:51.2345;6.7747
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bozar-william-kentridge-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: William Kentridge: I am not me\, the horse is not mine (
  Bozar) (until Sun 7 Mar)
 LOCATION:Bozar\, Centre for Fine Arts\, Brussels\, BE
@@ -117,9 +117,9 @@ GEO:50.845;4.3597
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-designmuseum-cosplay-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: Cosplay: the exhibition (Design Museum Den Bosch) (until
   Sun 21 Mar)
 LOCATION:Design Museum Den Bosch\, 's-Hertogenbosch\, NL
@@ -132,9 +132,9 @@ GEO:51.6885;5.3045
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-hart-chez-matisse-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: Chez Matisse: Masterpieces from Centre Pompidou (H'ART) 
  (until Sun 14 Feb)
 LOCATION:H'ART Museum\, Amsterdam\, NL
@@ -148,9 +148,9 @@ GEO:52.3672;4.9024
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-museum-ludwig-along-the-color-line-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: Along the Color Line: 50 years Museum Ludwig (until Sun 
  7 Mar)
 LOCATION:Museum Ludwig\, Köln\, DE
@@ -164,9 +164,9 @@ GEO:50.9393;6.9603
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-laboverie-impressionnisme-belge-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: L'Impressionnisme\, une histoire belge (La Boverie Liège
  ) (until Mon 29 Mar)
 LOCATION:La Boverie\, Liège\, BE
@@ -180,9 +180,9 @@ GEO:50.632;5.5775
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rijksmuseum-de-kooning-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: Willem de Kooning at work (Rijksmuseum) (until Sun 17 Ja
  n)
 LOCATION:Rijksmuseum\, Amsterdam\, NL
@@ -196,9 +196,9 @@ GEO:52.36;4.8852
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-mauritshuis-thyssen-bornemisza-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: Thyssen-Bornemisza x Mauritshuis: Masterpieces from Madr
  id (until Sun 17 Jan)
 LOCATION:Mauritshuis\, The Hague\, NL
@@ -212,9 +212,9 @@ GEO:52.0805;4.3144
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vgm-whistler-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: Whistler. Dandy and Disruptor (Van Gogh Museum) (until S
  un 10 Jan)
 LOCATION:Van Gogh Museum\, Amsterdam\, NL
@@ -227,31 +227,10 @@ DESCRIPTION:A Whistler retrospective has never been shown in the Netherla
 GEO:52.3584;4.8811
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-festival-film-italien-villerupt-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261109
-SUMMARY:Festival du Film Italien de Villerupt
-LOCATION:Cinemas in Villerupt plus Kulturfabrik Esch and CNA Dudelange\, 
- Villerupt\, FR
-DESCRIPTION:The biggest celebration of Italian cinema in France sits righ
- t on the Luxembourg border.\nDrive about 165 min from Hoensbroek.\nlow s
- ell-out risk.\nTickets: https://festival-villerupt.com/\nSource: https:/
- /festival-villerupt.com/\nOpen in Rondom: https://todonl.vercel.app/#e-f
- estival-film-italien-villerupt-2026
-URL:https://festival-villerupt.com/
-GEO:49.4675;5.9308
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tomorrow: Festival du Film Italien de Villerupt
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:rondom-kunsthal-signac-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: Signac: Symphony of Colours (Kunsthal Rotterdam) (until 
  Sun 28 Feb)
 LOCATION:Kunsthal Rotterdam\, Rotterdam\, NL
@@ -265,9 +244,9 @@ GEO:51.912;4.4722
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-kmska-ossip-zadkine-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: Ossip Zadkine and Belgium (KMSKA Antwerp) (until Sun 18 
  Apr)
 LOCATION:KMSKA\, Antwerp\, BE
@@ -279,48 +258,8 @@ DESCRIPTION:The reopened KMSKA is one of Europe's finest museum buildings
 GEO:51.2093;4.394
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-art-cologne-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261109
-SUMMARY:ART COLOGNE
-LOCATION:Koelnmesse\, Köln\, DE
-DESCRIPTION:The oldest art fair in the world\, an hour away\, with a free
-  museum night thrown in this weekend.\nDrive about 70 min from Hoensbroe
- k.\nlow sell-out risk.\nTickets: https://www.artcologne.de/\nSource: htt
- ps://www.artcologne.de/\nOpen in Rondom: https://todonl.vercel.app/#e-ar
- t-cologne-2026
-URL:https://www.artcologne.de/
-GEO:50.9466;6.9833
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tomorrow: ART COLOGNE
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:rondom-jumping-indoor-maastricht-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261109
-SUMMARY:Jumping Indoor Maastricht 2026
-LOCATION:MECC Maastricht\, Maastricht\, NL
-DESCRIPTION:Top-level show jumping and the carriage-driving World Cup\, 1
- 5 minutes from home.\nDrive about 25 min from Hoensbroek.\nlow sell-out 
- risk.\nTickets: https://www.ticketcrew.nl/tickets/jim\nSource: https://w
- ww.jumpingindoormaastricht.com/programma/\nOpen in Rondom: https://todon
- l.vercel.app/#e-jumping-indoor-maastricht-2026
-URL:https://www.ticketcrew.nl/tickets/jim
-GEO:50.839;5.714
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tomorrow: Jumping Indoor Maastricht 2026
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:rondom-glow-eindhoven-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261115
 SUMMARY:GLOW Eindhoven 2026
@@ -339,29 +278,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-museumnacht-amsterdam-2026@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Museumnacht Amsterdam
-LOCATION:Amsterdam\, NL
-DESCRIPTION:A night of museums turned into clubs is the kind of teen-frie
- ndly spectacle Alma would enjoy.\nDrive about 165 min from Hoensbroek.\n
- high sell-out risk.\nTickets: https://museumnacht.amsterdam/\nSource: ht
- tps://www.iamsterdam.com/en/whats-on/calendar/festivals/events/museumnac
- ht-amsterdam\nOpen in Rondom: https://todonl.vercel.app/#e-museumnacht-a
- msterdam-2026
-URL:https://museumnacht.amsterdam/
-GEO:52.358;4.8818
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tomorrow: Museumnacht Amsterdam
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:rondom-het-grote-songfestivalfeest-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Het Grote Songfestivalfeest 2026
@@ -381,7 +299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rwth-wissenschaftsnacht-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:RWTH Wissenschaftsnacht 5 vor 12 (Aachen science night)
@@ -406,7 +324,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-phantasialand-wintertraum-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Ongoing: Phantasialand Wintertraum (until Sun 24 Jan)
@@ -421,7 +339,7 @@ GEO:50.7983;6.8797
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-sinterklaas-intocht-grave-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Landelijke intocht Sinterklaas
@@ -443,7 +361,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-dag-van-de-wetenschap-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Dag van de Wetenschap 2026 (Flanders science day)
@@ -464,7 +382,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-winter-efteling-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Ongoing: Winter Efteling (until Sun 31 Jan)
@@ -478,7 +396,7 @@ GEO:51.65;5.0489
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-pba-lille-turner-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Ongoing: Voyage à l'anglaise: William Turner and the Grand Tour (
@@ -491,24 +409,8 @@ DESCRIPTION:Turner loans at a €7 ticket price\, in a city that makes a go
 GEO:50.631;3.0627
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-pba-lille-turner-2026-planby@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;TZID=Europe/Amsterdam:20261106T090000
-DTEND;TZID=Europe/Amsterdam:20261106T093000
-SUMMARY:Book by today: Voyage à l'anglaise: William Turner and the Grand 
- Tour (Lille)
-DESCRIPTION:low sell-out risk. https://pba.lille.fr/
-URL:https://pba.lille.fr/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Book today: Voyage à l'anglaise: William Turner and the Grand
-  Tour (Lille)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:rondom-winterlights-luxembourg-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Ongoing: Winterlights Luxembourg City (Christmas market) (until S
@@ -522,22 +424,8 @@ DESCRIPTION:Luxembourg City's winter-lights Christmas market\, a day trip
 GEO:49.6112;6.1306
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-winterlights-luxembourg-2026-planby@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;TZID=Europe/Amsterdam:20261106T090000
-DTEND;TZID=Europe/Amsterdam:20261106T093000
-SUMMARY:Book by today: Winterlights Luxembourg City (Christmas market)
-DESCRIPTION:low sell-out risk. https://www.visitluxembourg.com/letzebuerg
- er-chreschtmaart
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Book today: Winterlights Luxembourg City (Christmas market)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:rondom-amsterdam-light-festival-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Ongoing: Amsterdam Light Festival 2026-27 (Edition 15) (until Sun
@@ -553,23 +441,8 @@ DESCRIPTION:A world-class light festival that works as a winter weekend t
 GEO:52.3676;4.9041
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-amsterdam-light-festival-2026-planby@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;TZID=Europe/Amsterdam:20261105T090000
-DTEND;TZID=Europe/Amsterdam:20261105T093000
-SUMMARY:Book by today: Amsterdam Light Festival 2026-27 (Edition 15)
-DESCRIPTION:medium sell-out risk. https://amsterdamlightfestival.com/nl/t
- ickets
-URL:https://amsterdamlightfestival.com/nl/tickets
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Book today: Amsterdam Light Festival 2026-27 (Edition 15)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:rondom-kanal-centre-pompidou-opening-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Kanal-Centre Pompidou opening weekend
@@ -588,22 +461,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-kanal-centre-pompidou-opening-2026-planby@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;TZID=Europe/Amsterdam:20261107T090000
-DTEND;TZID=Europe/Amsterdam:20261107T093000
-SUMMARY:Book by today: Kanal-Centre Pompidou opening weekend
-DESCRIPTION:medium sell-out risk. https://kanal.brussels/en
-URL:https://kanal.brussels/en
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Book today: Kanal-Centre Pompidou opening weekend
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:rondom-kunstmuseum-bonn-jacques-tilly-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Ongoing: Jacques Tilly: Resistance on Parade (Kunstmuseum Bonn) (
@@ -619,7 +478,7 @@ GEO:50.7165;7.118
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-kunstmuseum-bonn-jacques-tilly-2026-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261115T090000
 DTEND;TZID=Europe/Amsterdam:20261115T093000
 SUMMARY:Book by today: Jacques Tilly: Resistance on Parade (Kunstmuseum B
@@ -635,7 +494,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bundeskunsthalle-vanguardistas-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Ongoing: Vanguardistas: 100 Years of Latin American Women Artists
@@ -651,7 +510,7 @@ GEO:50.7158;7.1197
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bundeskunsthalle-vanguardistas-2026-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261120T090000
 DTEND;TZID=Europe/Amsterdam:20261120T093000
 SUMMARY:Book by today: Vanguardistas: 100 Years of Latin American Women A
@@ -667,8 +526,47 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rondom-german-film-comic-con-dortmund-2026@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:German Film & Comic Con Dortmund\, Winter Edition 2026
+LOCATION:Messe Dortmund\, Halls 4 to 7\, Dortmund\, DE
+DESCRIPTION:The biggest cosplay and film convention in western Germany\, 
+ a good winter day out for Alma under two hours away.\nDrive about 110 mi
+ n from Hoensbroek.\nmedium sell-out risk.\nTickets: https://germanfilmco
+ miccon.com/\nSource: https://www.messe-dortmund.de/en/trade-fair-calenda
+ r/trade-fair-calendar/trade-fair-details/german-film-comic-con-dortmund-
+ 2026/\nOpen in Rondom: https://todonl.vercel.app/#e-german-film-comic-co
+ n-dortmund-2026
+URL:https://germanfilmcomiccon.com/
+GEO:51.4919;7.4553
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: German Film & Comic Con Dortmund\, Winter Edition 2
+ 026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-german-film-comic-con-dortmund-2026-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20261114T090000
+DTEND;TZID=Europe/Amsterdam:20261114T093000
+SUMMARY:Book by today: German Film & Comic Con Dortmund\, Winter Edition 
+ 2026
+DESCRIPTION:medium sell-out risk. https://germanfilmcomiccon.com/
+URL:https://germanfilmcomiccon.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: German Film & Comic Con Dortmund\, Winter Edition
+  2026
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rondom-nuts-weekend-bastogne-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261214
 SUMMARY:Nuts Weekend Bastogne 2026 (Battle of the Bulge commemoration)
@@ -691,7 +589,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nuts-weekend-bastogne-2026-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261127T090000
 DTEND;TZID=Europe/Amsterdam:20261127T093000
 SUMMARY:Book by today: Nuts Weekend Bastogne 2026 (Battle of the Bulge co
@@ -708,7 +606,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-jumping-mechelen-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261231
 SUMMARY:Jumping Mechelen 2026 (Vlaanderens Kerstjumping)
@@ -728,7 +626,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-jumping-mechelen-2026-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261205T090000
 DTEND;TZID=Europe/Amsterdam:20261205T093000
 SUMMARY:Book by today: Jumping Mechelen 2026 (Vlaanderens Kerstjumping)
@@ -742,7 +640,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-cyclocross-world-cup-namur-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:UCI Cyclo-cross World Cup Namur 2026
@@ -763,7 +661,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-cyclocross-world-cup-namur-2026-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261213T090000
 DTEND;TZID=Europe/Amsterdam:20261213T093000
 SUMMARY:Book by today: UCI Cyclo-cross World Cup Namur 2026
@@ -778,7 +676,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-superprestige-diegem-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Superprestige Diegem 2026
@@ -798,7 +696,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-superprestige-diegem-2026-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261216T090000
 DTEND;TZID=Europe/Amsterdam:20261216T093000
 SUMMARY:Book by today: Superprestige Diegem 2026
@@ -812,7 +710,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nationale-vuurwerk-rotterdam-2026@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Het Nationale Vuurwerk Rotterdam 2026 (New Year's Eve)
@@ -835,7 +733,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nationale-vuurwerk-rotterdam-2026-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261217T090000
 DTEND;TZID=Europe/Amsterdam:20261217T093000
 SUMMARY:Book by today: Het Nationale Vuurwerk Rotterdam 2026 (New Year's 
@@ -851,7 +749,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-cyclocross-world-cup-zonhoven-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:UCI Cyclo-cross World Cup Zonhoven 2027
@@ -872,7 +770,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-cyclocross-world-cup-zonhoven-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261220T090000
 DTEND;TZID=Europe/Amsterdam:20261220T093000
 SUMMARY:Book by today: UCI Cyclo-cross World Cup Zonhoven 2027
@@ -887,7 +785,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bommelsfeesten-ronse-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270112
 SUMMARY:Bommelsfeesten Ronse 2027
@@ -907,7 +805,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bommelsfeesten-ronse-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261226T090000
 DTEND;TZID=Europe/Amsterdam:20261226T093000
 SUMMARY:Book by today: Bommelsfeesten Ronse 2027
@@ -921,7 +819,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ihf-handball-world-championship-cologne-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270201
 SUMMARY:IHF Men's Handball World Championship 2027 (Cologne)
@@ -943,7 +841,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ihf-handball-world-championship-cologne-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261221T090000
 DTEND;TZID=Europe/Amsterdam:20261221T093000
 SUMMARY:Book by today: IHF Men's Handball World Championship 2027 (Cologn
@@ -958,8 +856,43 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rondom-boot-duesseldorf-2027@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270201
+SUMMARY:boot Düsseldorf 2027
+LOCATION:Messe Düsseldorf\, Düsseldorf\, DE
+DESCRIPTION:Nine days of yachts\, try-out pools and water sports an hour 
+ from home\, the biggest show of its kind anywhere.\nDrive about 70 min f
+ rom Hoensbroek.\nlow sell-out risk.\nTickets: https://www.boot.com/\nSou
+ rce: https://www.boot.com/en/Media_News/Press/Press_Material/Press_Relea
+ ses/Cast_off_for_boot_D%C3%BCsseldorf_2027\nOpen in Rondom: https://todo
+ nl.vercel.app/#e-boot-duesseldorf-2027
+URL:https://www.boot.com/
+GEO:51.2648;6.7397
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: boot Düsseldorf 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-boot-duesseldorf-2027-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20270109T090000
+DTEND;TZID=Europe/Amsterdam:20270109T093000
+SUMMARY:Book by today: boot Düsseldorf 2027
+DESCRIPTION:low sell-out risk. https://www.boot.com/
+URL:https://www.boot.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: boot Düsseldorf 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rondom-kunstakademie-duesseldorf-rundgang-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270201
 SUMMARY:Kunstakademie Düsseldorf Winterrundgang 2027
@@ -981,7 +914,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-kunstakademie-duesseldorf-rundgang-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270113T090000
 DTEND;TZID=Europe/Amsterdam:20270113T093000
 SUMMARY:Book by today: Kunstakademie Düsseldorf Winterrundgang 2027
@@ -995,7 +928,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-uci-cyclocross-world-championships-ostend-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270201
 SUMMARY:UCI Cyclo-cross World Championships 2027 Ostend
@@ -1017,7 +950,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-uci-cyclocross-world-championships-ostend-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270108T090000
 DTEND;TZID=Europe/Amsterdam:20270108T093000
 SUMMARY:Book by today: UCI Cyclo-cross World Championships 2027 Ostend
@@ -1032,7 +965,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-luxembourg-song-contest-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Luxembourg Song Contest 2027
@@ -1052,7 +985,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-luxembourg-song-contest-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261231T090000
 DTEND;TZID=Europe/Amsterdam:20261231T093000
 SUMMARY:Book by today: Luxembourg Song Contest 2027
@@ -1066,7 +999,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-koelner-karneval-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270210
 SUMMARY:Kölner Karneval 2027: Weiberfastnacht to Rosenmontagszug
@@ -1074,9 +1007,8 @@ LOCATION:Altstadt\, Heumarkt and the Rosenmontag route\, Köln\, DE
 DESCRIPTION:The Cologne Rosenmontag parade is the one carnival spectacle 
  in Europe that matches Anne's taste for scale\, just over an hour away.\
  nDrive about 65 min from Hoensbroek.\nlow sell-out risk.\nTickets: https
- ://www.koelnerkarneval.de/\nSource: https://www.koelnerkarneval.de/rosen
- montagszug/\nOpen in Rondom: https://todonl.vercel.app/#e-koelner-karnev
- al-2027
+ ://www.koelnerkarneval.de/\nSource: https://www.koelnerkarneval.de/\nOpe
+ n in Rondom: https://todonl.vercel.app/#e-koelner-karneval-2027
 URL:https://www.koelnerkarneval.de/
 GEO:50.9375;6.9603
 BEGIN:VALARM
@@ -1088,7 +1020,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-koelner-karneval-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270121T090000
 DTEND;TZID=Europe/Amsterdam:20270121T093000
 SUMMARY:Book by today: Kölner Karneval 2027: Weiberfastnacht to Rosenmont
@@ -1104,7 +1036,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-abn-amro-open-rotterdam-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270215
 SUMMARY:ABN AMRO Open 2027
@@ -1124,7 +1056,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-abn-amro-open-rotterdam-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270116T090000
 DTEND;TZID=Europe/Amsterdam:20270116T093000
 SUMMARY:Book by today: ABN AMRO Open 2027
@@ -1138,7 +1070,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-aalst-carnaval-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270210
 SUMMARY:Aalst Carnaval 2027
@@ -1158,7 +1090,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-aalst-carnaval-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270124T090000
 DTEND;TZID=Europe/Amsterdam:20270124T093000
 SUMMARY:Book by today: Aalst Carnaval 2027
@@ -1172,7 +1104,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-carnaval-de-binche-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270210
 SUMMARY:Carnaval de Binche 2027
@@ -1192,7 +1124,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-carnaval-de-binche-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270124T090000
 DTEND;TZID=Europe/Amsterdam:20270124T093000
 SUMMARY:Book by today: Carnaval de Binche 2027
@@ -1206,7 +1138,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vastelaovend-maastricht-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270210
 SUMMARY:Vastelaovend Maastricht 2027 (Carnival)
@@ -1227,7 +1159,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vastelaovend-maastricht-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270124T090000
 DTEND;TZID=Europe/Amsterdam:20270124T093000
 SUMMARY:Book by today: Vastelaovend Maastricht 2027 (Carnival)
@@ -1240,8 +1172,44 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rondom-mainzer-rosenmontagszug-2027@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:Mainzer Rosenmontagszug 2027
+LOCATION:Mainz city centre\, from the Neustadt to the Schillerplatz\, Mai
+ nz\, DE
+DESCRIPTION:Mainz is the home of political carnival and its Rosenmontag p
+ arade is the most satirical of the big three\, a long but possible day t
+ rip.\nDrive about 165 min from Hoensbroek.\nlow sell-out risk.\nTickets:
+  https://www.mainzer-fastnacht.de/\nSource: https://www.mainzer-fastnach
+ t.de/\nOpen in Rondom: https://todonl.vercel.app/#e-mainzer-rosenmontags
+ zug-2027
+URL:https://www.mainzer-fastnacht.de/
+GEO:49.9992;8.2731
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Mainzer Rosenmontagszug 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-mainzer-rosenmontagszug-2027-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20270125T090000
+DTEND;TZID=Europe/Amsterdam:20270125T093000
+SUMMARY:Book by today: Mainzer Rosenmontagszug 2027
+DESCRIPTION:low sell-out risk. https://www.mainzer-fastnacht.de/
+URL:https://www.mainzer-fastnacht.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Mainzer Rosenmontagszug 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rondom-rosenmontagszug-aachen-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 SUMMARY:Rosenmontagszug Aachen 2027
@@ -1261,7 +1229,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rosenmontagszug-aachen-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270125T090000
 DTEND;TZID=Europe/Amsterdam:20270125T093000
 SUMMARY:Book by today: Rosenmontagszug Aachen 2027
@@ -1275,7 +1243,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rosenmontagszug-duesseldorf-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 SUMMARY:Rosenmontagszug Düsseldorf 2027
@@ -1297,7 +1265,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rosenmontagszug-duesseldorf-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270125T090000
 DTEND;TZID=Europe/Amsterdam:20270125T093000
 SUMMARY:Book by today: Rosenmontagszug Düsseldorf 2027
@@ -1312,7 +1280,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bright-brussels-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270215
 SUMMARY:Bright Brussels Festival 2027
@@ -1332,7 +1300,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bright-brussels-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270128T090000
 DTEND;TZID=Europe/Amsterdam:20270128T093000
 SUMMARY:Book by today: Bright Brussels Festival 2027
@@ -1347,7 +1315,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vgm-eva-gonzales-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:Ongoing: Eva Gonzalès. A New Perspective (Van Gogh Museum) (until
@@ -1363,7 +1331,7 @@ GEO:52.3584;4.8811
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vgm-eva-gonzales-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270113T090000
 DTEND;TZID=Europe/Amsterdam:20270113T093000
 SUMMARY:Book by today: Eva Gonzalès. A New Perspective (Van Gogh Museum)
@@ -1377,8 +1345,46 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rondom-istaf-indoor-duesseldorf-2027@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:ISTAF Indoor Düsseldorf 2027
+LOCATION:PSD Bank Dome\, Düsseldorf\, DE
+DESCRIPTION:World-class sprinters and pole vaulters compete a few metres 
+ from your seat\, an hour from Hoensbroek.\nDrive about 70 min from Hoens
+ broek.\nlow sell-out risk.\nTickets: https://www.ticket-onlineshop.com/o
+ ls/istaf/de/indoor-duesseldorf/channel/shop/index\nSource: https://duess
+ eldorf.istaf-indoor.de/\nOpen in Rondom: https://todonl.vercel.app/#e-is
+ taf-indoor-duesseldorf-2027
+URL:https://www.ticket-onlineshop.com/ols/istaf/de/indoor-duesseldorf/cha
+ nnel/shop/index
+GEO:51.2616;6.7334
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ISTAF Indoor Düsseldorf 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-istaf-indoor-duesseldorf-2027-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20270130T090000
+DTEND;TZID=Europe/Amsterdam:20270130T093000
+SUMMARY:Book by today: ISTAF Indoor Düsseldorf 2027
+DESCRIPTION:low sell-out risk. https://www.ticket-onlineshop.com/ols/ista
+ f/de/indoor-duesseldorf/channel/shop/index
+URL:https://www.ticket-onlineshop.com/ols/istaf/de/indoor-duesseldorf/cha
+ nnel/shop/index
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: ISTAF Indoor Düsseldorf 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rondom-kunstpalast-vivian-maier-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:Ongoing: Vivian Maier: Close-up (Kunstpalast) (until Sun 6 Jun)
@@ -1392,7 +1398,7 @@ GEO:51.233;6.7728
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-kunstpalast-vivian-maier-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270203T090000
 DTEND;TZID=Europe/Amsterdam:20270203T093000
 SUMMARY:Book by today: Vivian Maier: Close-up (Kunstpalast)
@@ -1406,7 +1412,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-staedel-welcome-to-paradise-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:Ongoing: Welcome to Paradise (Städel Frankfurt) (until Sun 27 Jun
@@ -1422,7 +1428,7 @@ GEO:50.103;8.674
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-staedel-welcome-to-paradise-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270203T090000
 DTEND;TZID=Europe/Amsterdam:20270203T093000
 SUMMARY:Book by today: Welcome to Paradise (Städel Frankfurt)
@@ -1436,7 +1442,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-the-dutch-masters-indoor-brabant-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270315
 SUMMARY:The Dutch Masters (Indoor Brabant) 2027
@@ -1456,7 +1462,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-the-dutch-masters-indoor-brabant-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270218T090000
 DTEND;TZID=Europe/Amsterdam:20270218T093000
 SUMMARY:Book by today: The Dutch Masters (Indoor Brabant) 2027
@@ -1470,7 +1476,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-tefaf-maastricht-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270319
 SUMMARY:TEFAF Maastricht
@@ -1490,7 +1496,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-tefaf-maastricht-2027-onsale@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261115T090000
 DTEND;TZID=Europe/Amsterdam:20261115T093000
 SUMMARY:Tickets on sale: TEFAF Maastricht
@@ -1505,7 +1511,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-kunstpalast-escher-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:Ongoing: M.C. Escher and the Fascination of Seeing (Kunstpalast) 
@@ -1521,7 +1527,7 @@ GEO:51.233;6.7728
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-kunstpalast-escher-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270224T090000
 DTEND;TZID=Europe/Amsterdam:20270224T093000
 SUMMARY:Book by today: M.C. Escher and the Fascination of Seeing (Kunstpa
@@ -1536,8 +1542,42 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rondom-equitana-essen-2027@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270325
+SUMMARY:EQUITANA 2027
+LOCATION:Messe Essen\, Essen\, DE
+DESCRIPTION:The biggest horse show on the planet comes to Essen only ever
+ y second year\, 85 minutes from home.\nDrive about 85 min from Hoensbroe
+ k.\nlow sell-out risk.\nTickets: https://www.equitana.com/\nSource: http
+ s://www.equitana.com/\nOpen in Rondom: https://todonl.vercel.app/#e-equi
+ tana-essen-2027
+URL:https://www.equitana.com/
+GEO:51.4305;6.9974
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: EQUITANA 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-equitana-essen-2027-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20270304T090000
+DTEND;TZID=Europe/Amsterdam:20270304T093000
+SUMMARY:Book by today: EQUITANA 2027
+DESCRIPTION:low sell-out risk. https://www.equitana.com/
+URL:https://www.equitana.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: EQUITANA 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rondom-keukenhof-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:Ongoing: Keukenhof 2027 (until Sun 9 May)
@@ -1551,7 +1591,7 @@ GEO:52.2697;4.5462
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-keukenhof-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270225T090000
 DTEND;TZID=Europe/Amsterdam:20270225T093000
 SUMMARY:Book by today: Keukenhof 2027
@@ -1565,7 +1605,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-voorlinden-olafur-eliasson-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:Ongoing: Olafur Eliasson (Museum Voorlinden) (until Sun 5 Sep)
@@ -1579,7 +1619,7 @@ GEO:52.1326;4.3706
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-voorlinden-olafur-eliasson-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270227T090000
 DTEND;TZID=Europe/Amsterdam:20270227T093000
 SUMMARY:Book by today: Olafur Eliasson (Museum Voorlinden)
@@ -1593,7 +1633,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-paaspop-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270329
 SUMMARY:Paaspop 2027
@@ -1613,7 +1653,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-paaspop-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270224T090000
 DTEND;TZID=Europe/Amsterdam:20270224T093000
 SUMMARY:Book by today: Paaspop 2027
@@ -1627,7 +1667,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-eurovision-in-concert-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:Eurovision in Concert 2027
@@ -1647,7 +1687,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-eurovision-in-concert-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270313T090000
 DTEND;TZID=Europe/Amsterdam:20270313T093000
 SUMMARY:Book by today: Eurovision in Concert 2027
@@ -1662,7 +1702,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ronde-van-vlaanderen-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270405
 SUMMARY:Ronde van Vlaanderen 2027
@@ -1683,7 +1723,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ronde-van-vlaanderen-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270320T090000
 DTEND;TZID=Europe/Amsterdam:20270320T093000
 SUMMARY:Book by today: Ronde van Vlaanderen 2027
@@ -1697,7 +1737,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nn-marathon-rotterdam-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270412
 SUMMARY:NN Marathon Rotterdam 2027
@@ -1718,7 +1758,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nn-marathon-rotterdam-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270327T090000
 DTEND;TZID=Europe/Amsterdam:20270327T093000
 SUMMARY:Book by today: NN Marathon Rotterdam 2027
@@ -1732,7 +1772,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-premier-league-darts-rotterdam-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 SUMMARY:Premier League Darts 2027 Rotterdam
@@ -1752,7 +1792,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-premier-league-darts-rotterdam-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270316T090000
 DTEND;TZID=Europe/Amsterdam:20270316T093000
 SUMMARY:Book by today: Premier League Darts 2027 Rotterdam
@@ -1766,7 +1806,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-amstel-gold-race-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270419
 SUMMARY:Amstel Gold Race 2027
@@ -1786,7 +1826,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-amstel-gold-race-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270403T090000
 DTEND;TZID=Europe/Amsterdam:20270403T093000
 SUMMARY:Book by today: Amstel Gold Race 2027
@@ -1800,7 +1840,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bloemencorso-bollenstreek-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:Bloemencorso Bollenstreek
@@ -1820,7 +1860,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bloemencorso-bollenstreek-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270403T090000
 DTEND;TZID=Europe/Amsterdam:20270403T093000
 SUMMARY:Book by today: Bloemencorso Bollenstreek
@@ -1833,7 +1873,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-liege-bastogne-liege-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:Liège-Bastogne-Liège 2027
@@ -1853,7 +1893,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-liege-bastogne-liege-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270411T090000
 DTEND;TZID=Europe/Amsterdam:20270411T093000
 SUMMARY:Book by today: Liège-Bastogne-Liège 2027
@@ -1867,7 +1907,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-koningsdag-lelystad-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Koningsdag 2027 with the Royal Family
@@ -1888,7 +1928,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-koningsdag-lelystad-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270413T090000
 DTEND;TZID=Europe/Amsterdam:20270413T093000
 SUMMARY:Book by today: Koningsdag 2027 with the Royal Family
@@ -1902,7 +1942,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-atelier-in-beeld-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270503
 SUMMARY:Atelier in Beeld 2027 (open artist studios\, Flanders)
@@ -1923,7 +1963,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-atelier-in-beeld-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270417T090000
 DTEND;TZID=Europe/Amsterdam:20270417T093000
 SUMMARY:Book by today: Atelier in Beeld 2027 (open artist studios\, Fland
@@ -1939,7 +1979,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rhein-in-flammen-bonn-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:Rhein in Flammen Bonn 2027
@@ -1960,7 +2000,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rhein-in-flammen-bonn-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270417T090000
 DTEND;TZID=Europe/Amsterdam:20270417T093000
 SUMMARY:Book by today: Rhein in Flammen Bonn 2027
@@ -1975,7 +2015,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nationale-dodenherdenking-dam-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270504
 DTEND;VALUE=DATE:20270505
 SUMMARY:Nationale Herdenking op de Dam 2027
@@ -1994,7 +2034,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nationale-dodenherdenking-dam-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270420T090000
 DTEND;TZID=Europe/Amsterdam:20270420T093000
 SUMMARY:Book by today: Nationale Herdenking op de Dam 2027
@@ -2007,7 +2047,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bevrijdingsfestival-limburg-roermond-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270506
 SUMMARY:Bevrijdingsfestival Limburg 2027
@@ -2027,7 +2067,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bevrijdingsfestival-limburg-roermond-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270421T090000
 DTEND;TZID=Europe/Amsterdam:20270421T093000
 SUMMARY:Book by today: Bevrijdingsfestival Limburg 2027
@@ -2040,7 +2080,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vrijheidsdefile-wageningen-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270506
 SUMMARY:Vrijheidsdefilé Wageningen 2027 (Liberation Day parade)
@@ -2061,7 +2101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vrijheidsdefile-wageningen-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270421T090000
 DTEND;TZID=Europe/Amsterdam:20270421T093000
 SUMMARY:Book by today: Vrijheidsdefilé Wageningen 2027 (Liberation Day pa
@@ -2076,7 +2116,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-heilig-bloedprocessie-brugge-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270507
 SUMMARY:Heilig Bloedprocessie Brugge 2027
@@ -2096,7 +2136,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-heilig-bloedprocessie-brugge-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270415T090000
 DTEND;TZID=Europe/Amsterdam:20270415T093000
 SUMMARY:Book by today: Heilig Bloedprocessie Brugge 2027
@@ -2110,7 +2150,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-kattenstoet-ieper-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:Kattenstoet Ieper 2027
@@ -2130,7 +2170,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-kattenstoet-ieper-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270418T090000
 DTEND;TZID=Europe/Amsterdam:20270418T093000
 SUMMARY:Book by today: Kattenstoet Ieper 2027
@@ -2144,7 +2184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rollende-keukens-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270512
 DTEND;VALUE=DATE:20270517
 SUMMARY:Het Weekend van de Rollende Keukens
@@ -2165,7 +2205,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rollende-keukens-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270428T090000
 DTEND;TZID=Europe/Amsterdam:20270428T093000
 SUMMARY:Book by today: Het Weekend van de Rollende Keukens
@@ -2179,7 +2219,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-iihf-world-championship-duesseldorf-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270514
 DTEND;VALUE=DATE:20270531
 SUMMARY:IIHF Ice Hockey World Championship 2027 (Düsseldorf)
@@ -2202,7 +2242,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-iihf-world-championship-duesseldorf-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270423T090000
 DTEND;TZID=Europe/Amsterdam:20270423T093000
 SUMMARY:Book by today: IIHF Ice Hockey World Championship 2027 (Düsseldor
@@ -2218,8 +2258,43 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rondom-moers-festival-2027@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270518
+SUMMARY:moers festival 2027
+LOCATION:Festival hall and festival village on the Kastellplatz\, Moers\,
+  DE
+DESCRIPTION:A world-renowned adventurous music festival with a free park 
+ programme\, 75 minutes away on the Pentecost weekend.\nDrive about 75 mi
+ n from Hoensbroek.\nlow sell-out risk.\nTickets: https://tickets.moers-f
+ estival.de/\nSource: https://www.moers-festival.de/en/\nOpen in Rondom: 
+ https://todonl.vercel.app/#e-moers-festival-2027
+URL:https://tickets.moers-festival.de/
+GEO:51.4516;6.6265
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: moers festival 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-moers-festival-2027-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20270430T090000
+DTEND;TZID=Europe/Amsterdam:20270430T093000
+SUMMARY:Book by today: moers festival 2027
+DESCRIPTION:low sell-out risk. https://tickets.moers-festival.de/
+URL:https://tickets.moers-festival.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: moers festival 2027
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rondom-weinmarkt-der-ahr-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270514
 DTEND;VALUE=DATE:20270518
 SUMMARY:Weinmarkt der Ahr
@@ -2240,7 +2315,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-weinmarkt-der-ahr-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270430T090000
 DTEND;TZID=Europe/Amsterdam:20270430T093000
 SUMMARY:Book by today: Weinmarkt der Ahr
@@ -2254,7 +2329,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-militracks-overloon-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270517
 SUMMARY:Militracks 2027
@@ -2274,7 +2349,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-militracks-overloon-2027-onsale@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270201T090000
 DTEND;TZID=Europe/Amsterdam:20270201T093000
 SUMMARY:Tickets on sale: Militracks 2027
@@ -2289,7 +2364,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-stedelijk-marc-chagall-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:Ongoing: Becoming Marc Chagall (Stedelijk) (until Sun 29 Aug)
@@ -2304,7 +2379,7 @@ GEO:52.358;4.8797
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-stedelijk-marc-chagall-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270424T090000
 DTEND;TZID=Europe/Amsterdam:20270424T093000
 SUMMARY:Book by today: Becoming Marc Chagall (Stedelijk)
@@ -2319,7 +2394,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-japan-tag-duesseldorf-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
 SUMMARY:Japan-Tag Düsseldorf/NRW
@@ -2340,7 +2415,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-japan-tag-duesseldorf-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270508T090000
 DTEND;TZID=Europe/Amsterdam:20270508T093000
 SUMMARY:Book by today: Japan-Tag Düsseldorf/NRW
@@ -2354,7 +2429,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-doudou-mons-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:Ducasse de Mons (Doudou) 2027
@@ -2374,7 +2449,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-doudou-mons-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270423T090000
 DTEND;TZID=Europe/Amsterdam:20270423T093000
 SUMMARY:Book by today: Ducasse de Mons (Doudou) 2027
@@ -2388,7 +2463,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-adac-24h-nuerburgring-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270527
 DTEND;VALUE=DATE:20270531
 SUMMARY:ADAC RAVENOL 24h Nürburgring 2027
@@ -2409,7 +2484,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-adac-24h-nuerburgring-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270513T090000
 DTEND;TZID=Europe/Amsterdam:20270513T093000
 SUMMARY:Book by today: ADAC RAVENOL 24h Nürburgring 2027
@@ -2423,7 +2498,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-memorial-day-margraten-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270530
 DTEND;VALUE=DATE:20270531
 SUMMARY:Memorial Day Ceremony\, Netherlands American Cemetery Margraten
@@ -2444,7 +2519,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-memorial-day-margraten-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270516T090000
 DTEND;TZID=Europe/Amsterdam:20270516T093000
 SUMMARY:Book by today: Memorial Day Ceremony\, Netherlands American Cemet
@@ -2459,7 +2534,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rock-am-ring-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270604
 DTEND;VALUE=DATE:20270607
 SUMMARY:Rock am Ring 2027
@@ -2479,7 +2554,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rock-am-ring-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270505T090000
 DTEND;TZID=Europe/Amsterdam:20270505T093000
 SUMMARY:Book by today: Rock am Ring 2027
@@ -2493,7 +2568,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-libema-open-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270614
 SUMMARY:Libéma Open 2027
@@ -2513,7 +2588,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-libema-open-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270522T090000
 DTEND;TZID=Europe/Amsterdam:20270522T093000
 SUMMARY:Book by today: Libéma Open 2027
@@ -2527,7 +2602,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-tag-der-bundeswehr-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270627
 SUMMARY:Tag der Bundeswehr 2027 (open day\, NRW/Rhineland site to be anno
@@ -2550,7 +2625,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-tag-der-bundeswehr-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270522T090000
 DTEND;TZID=Europe/Amsterdam:20270522T093000
 SUMMARY:Book by today: Tag der Bundeswehr 2027 (open day\, NRW/Rhineland 
@@ -2566,7 +2641,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-fiba-womens-eurobasket-antwerp-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270616
 DTEND;VALUE=DATE:20270628
 SUMMARY:FIBA Women's EuroBasket 2027 (Antwerp group phase)
@@ -2587,7 +2662,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-fiba-womens-eurobasket-antwerp-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270526T090000
 DTEND;TZID=Europe/Amsterdam:20270526T093000
 SUMMARY:Book by today: FIBA Women's EuroBasket 2027 (Antwerp group phase)
@@ -2603,7 +2678,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-fete-de-la-musique-belgium-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270622
 SUMMARY:Fête de la Musique (Liège and Brussels)
@@ -2622,7 +2697,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-fete-de-la-musique-belgium-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270603T090000
 DTEND;TZID=Europe/Amsterdam:20270603T093000
 SUMMARY:Book by today: Fête de la Musique (Liège and Brussels)
@@ -2635,7 +2710,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-graspop-metal-meeting-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270621
 SUMMARY:Graspop Metal Meeting 2027
@@ -2655,7 +2730,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-graspop-metal-meeting-2027-onsale@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261114T090000
 DTEND;TZID=Europe/Amsterdam:20261114T093000
 SUMMARY:Tickets on sale: Graspop Metal Meeting 2027
@@ -2669,7 +2744,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nuerburgring-100-jahre-fan-event-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270619
 SUMMARY:100 Jahre Nürburgring Fan Event
@@ -2688,7 +2763,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nuerburgring-100-jahre-fan-event-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270604T090000
 DTEND;TZID=Europe/Amsterdam:20270604T093000
 SUMMARY:Book by today: 100 Jahre Nürburgring Fan Event
@@ -2702,7 +2777,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-pinkpop-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270621
 SUMMARY:Pinkpop 2027
@@ -2722,7 +2797,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-pinkpop-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270519T090000
 DTEND;TZID=Europe/Amsterdam:20270519T093000
 SUMMARY:Book by today: Pinkpop 2027
@@ -2736,7 +2811,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-paris-air-show-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270621
 SUMMARY:International Paris Air Show 2027 (Salon du Bourget)\, public day
@@ -2759,7 +2834,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-paris-air-show-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270529T090000
 DTEND;TZID=Europe/Amsterdam:20270529T093000
 SUMMARY:Book by today: International Paris Air Show 2027 (Salon du Bourge
@@ -2775,7 +2850,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vlaggetjesdag-scheveningen-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270620
 SUMMARY:Vlaggetjesdag Scheveningen
@@ -2795,7 +2870,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vlaggetjesdag-scheveningen-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270605T090000
 DTEND;TZID=Europe/Amsterdam:20270605T093000
 SUMMARY:Book by today: Vlaggetjesdag Scheveningen
@@ -2808,7 +2883,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-luxembourg-national-day-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270622
 DTEND;VALUE=DATE:20270624
 SUMMARY:Luxembourg National Day 2027 (Fête nationale)
@@ -2829,7 +2904,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-luxembourg-national-day-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270608T090000
 DTEND;TZID=Europe/Amsterdam:20270608T093000
 SUMMARY:Book by today: Luxembourg National Day 2027 (Fête nationale)
@@ -2843,7 +2918,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-crowdstrike-24-hours-of-spa-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270624
 DTEND;VALUE=DATE:20270628
 SUMMARY:CrowdStrike 24 Hours of Spa 2027
@@ -2863,7 +2938,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-crowdstrike-24-hours-of-spa-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270610T090000
 DTEND;TZID=Europe/Amsterdam:20270610T093000
 SUMMARY:Book by today: CrowdStrike 24 Hours of Spa 2027
@@ -2877,7 +2952,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-chio-aachen-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270705
 SUMMARY:CHIO Aachen 2027
@@ -2899,7 +2974,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-chio-aachen-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270604T090000
 DTEND;TZID=Europe/Amsterdam:20270604T093000
 SUMMARY:Book by today: CHIO Aachen 2027
@@ -2915,7 +2990,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-couleur-cafe-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270628
 SUMMARY:Couleur Café 2027
@@ -2935,7 +3010,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-couleur-cafe-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270604T090000
 DTEND;TZID=Europe/Amsterdam:20270604T093000
 SUMMARY:Book by today: Couleur Café 2027
@@ -2949,7 +3024,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-dutch-tt-assen-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270628
 SUMMARY:MotoGP Dutch TT Assen 2027
@@ -2969,7 +3044,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-dutch-tt-assen-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270526T090000
 DTEND;TZID=Europe/Amsterdam:20270526T093000
 SUMMARY:Book by today: MotoGP Dutch TT Assen 2027
@@ -2984,7 +3059,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-extraschicht-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270627
 SUMMARY:ExtraSchicht 2027: Nacht der Industriekultur
@@ -3005,7 +3080,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-extraschicht-2027-onsale@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270311T090000
 DTEND;TZID=Europe/Amsterdam:20270311T093000
 SUMMARY:Tickets on sale: ExtraSchicht 2027: Nacht der Industriekultur
@@ -3021,7 +3096,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-garnaalfeesten-oostduinkerke-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270628
 SUMMARY:Garnaalfeesten Oostduinkerke
@@ -3041,7 +3116,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-garnaalfeesten-oostduinkerke-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270612T090000
 DTEND;TZID=Europe/Amsterdam:20270612T093000
 SUMMARY:Book by today: Garnaalfeesten Oostduinkerke
@@ -3054,7 +3129,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nederlandse-veteranendag-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270627
 SUMMARY:Nederlandse Veteranendag 2027
@@ -3074,7 +3149,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nederlandse-veteranendag-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270612T090000
 DTEND;TZID=Europe/Amsterdam:20270612T093000
 SUMMARY:Book by today: Nederlandse Veteranendag 2027
@@ -3088,7 +3163,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-waterloo-commemoration-weekend-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270628
 SUMMARY:Waterloo 1815 Commemoration Weekend 2027 (bivouacs and re-enactme
@@ -3111,7 +3186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-waterloo-commemoration-weekend-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270605T090000
 DTEND;TZID=Europe/Amsterdam:20270605T093000
 SUMMARY:Book by today: Waterloo 1815 Commemoration Weekend 2027 (bivouacs
@@ -3128,7 +3203,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-werchter-boutique-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270627
 SUMMARY:Werchter Boutique 2027
@@ -3148,7 +3223,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-werchter-boutique-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270605T090000
 DTEND;TZID=Europe/Amsterdam:20270605T093000
 SUMMARY:Book by today: Werchter Boutique 2027
@@ -3162,7 +3237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ommegang-brussels-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270703
 SUMMARY:Ommegang Brussels
@@ -3183,7 +3258,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ommegang-brussels-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270609T090000
 DTEND;TZID=Europe/Amsterdam:20270609T093000
 SUMMARY:Book by today: Ommegang Brussels
@@ -3197,7 +3272,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-les-ardentes-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270705
 SUMMARY:Les Ardentes 2027
@@ -3217,7 +3292,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-les-ardentes-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270601T090000
 DTEND;TZID=Europe/Amsterdam:20270601T093000
 SUMMARY:Book by today: Les Ardentes 2027
@@ -3231,7 +3306,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rock-werchter-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270705
 SUMMARY:Rock Werchter 2027
@@ -3251,7 +3326,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rock-werchter-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270601T090000
 DTEND;TZID=Europe/Amsterdam:20270601T093000
 SUMMARY:Book by today: Rock Werchter 2027
@@ -3265,7 +3340,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-down-the-rabbit-hole-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270702
 DTEND;VALUE=DATE:20270705
 SUMMARY:Down The Rabbit Hole 2027
@@ -3285,7 +3360,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-down-the-rabbit-hole-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270602T090000
 DTEND;TZID=Europe/Amsterdam:20270602T093000
 SUMMARY:Book by today: Down The Rabbit Hole 2027
@@ -3299,7 +3374,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-summerjam-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270702
 DTEND;VALUE=DATE:20270705
 SUMMARY:Summerjam Festival 2027
@@ -3319,7 +3394,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-summerjam-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270611T090000
 DTEND;TZID=Europe/Amsterdam:20270611T093000
 SUMMARY:Book by today: Summerjam Festival 2027
@@ -3333,7 +3408,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rhein-in-flammen-ruedesheim-bingen-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270704
 SUMMARY:Rhein in Flammen Rüdesheim/Bingen 2027
@@ -3355,7 +3430,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rhein-in-flammen-ruedesheim-bingen-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270619T090000
 DTEND;TZID=Europe/Amsterdam:20270619T093000
 SUMMARY:Book by today: Rhein in Flammen Rüdesheim/Bingen 2027
@@ -3370,7 +3445,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-dour-festival-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270707
 DTEND;VALUE=DATE:20270712
 SUMMARY:Dour Festival 2027
@@ -3390,7 +3465,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-dour-festival-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270616T090000
 DTEND;TZID=Europe/Amsterdam:20270616T093000
 SUMMARY:Book by today: Dour Festival 2027
@@ -3404,7 +3479,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-adac-truck-grand-prix-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270712
 SUMMARY:Int. Shell ADAC Truck Grand Prix 2027
@@ -3425,7 +3500,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-adac-truck-grand-prix-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270625T090000
 DTEND;TZID=Europe/Amsterdam:20270625T093000
 SUMMARY:Book by today: Int. Shell ADAC Truck Grand Prix 2027
@@ -3439,7 +3514,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bospop-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270712
 SUMMARY:Bospop 2027
@@ -3458,7 +3533,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bospop-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270618T090000
 DTEND;TZID=Europe/Amsterdam:20270618T093000
 SUMMARY:Book by today: Bospop 2027
@@ -3472,7 +3547,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-dokomi-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270712
 SUMMARY:DoKomi
@@ -3491,7 +3566,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-dokomi-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270609T090000
 DTEND;TZID=Europe/Amsterdam:20270609T093000
 SUMMARY:Book by today: DoKomi
@@ -3505,7 +3580,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-dokomi-duesseldorf-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270712
 SUMMARY:DoKomi 2027 (anime\, manga and Japan expo)
@@ -3525,7 +3600,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-dokomi-duesseldorf-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270609T090000
 DTEND;TZID=Europe/Amsterdam:20270609T093000
 SUMMARY:Book by today: DoKomi 2027 (anime\, manga and Japan expo)
@@ -3539,7 +3614,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-north-sea-jazz-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270712
 SUMMARY:NN North Sea Jazz Festival 2027
@@ -3559,7 +3634,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-north-sea-jazz-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270618T090000
 DTEND;TZID=Europe/Amsterdam:20270618T093000
 SUMMARY:Book by today: NN North Sea Jazz Festival 2027
@@ -3573,7 +3648,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-fetes-de-gayant-douai-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270711
 DTEND;VALUE=DATE:20270714
 SUMMARY:Fêtes de Gayant Douai 2027
@@ -3593,7 +3668,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-fetes-de-gayant-douai-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270627T090000
 DTEND;TZID=Europe/Amsterdam:20270627T093000
 SUMMARY:Book by today: Fêtes de Gayant Douai 2027
@@ -3607,7 +3682,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-francofolies-de-spa-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270719
 SUMMARY:Francofolies de Spa 2027
@@ -3627,7 +3702,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-francofolies-de-spa-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270625T090000
 DTEND;TZID=Europe/Amsterdam:20270625T093000
 SUMMARY:Book by today: Francofolies de Spa 2027
@@ -3641,7 +3716,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-gentse-feesten-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270726
 SUMMARY:Gentse Feesten 2027
@@ -3661,7 +3736,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-gentse-feesten-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270702T090000
 DTEND;TZID=Europe/Amsterdam:20270702T093000
 SUMMARY:Book by today: Gentse Feesten 2027
@@ -3675,7 +3750,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-parookaville-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270719
 SUMMARY:Parookaville 2027
@@ -3695,7 +3770,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-parookaville-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270616T090000
 DTEND;TZID=Europe/Amsterdam:20270616T093000
 SUMMARY:Book by today: Parookaville 2027
@@ -3709,7 +3784,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rheinkirmes-duesseldorf-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270726
 SUMMARY:Rheinkirmes Düsseldorf 2027 (Grösste Kirmes am Rhein)
@@ -3732,7 +3807,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rheinkirmes-duesseldorf-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270702T090000
 DTEND;TZID=Europe/Amsterdam:20270702T093000
 SUMMARY:Book by today: Rheinkirmes Düsseldorf 2027 (Grösste Kirmes am Rhe
@@ -3750,7 +3825,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-tilburgse-kermis-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270726
 SUMMARY:Tilburgse Kermis 2027
@@ -3770,7 +3845,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-tilburgse-kermis-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270702T090000
 DTEND;TZID=Europe/Amsterdam:20270702T093000
 SUMMARY:Book by today: Tilburgse Kermis 2027
@@ -3784,7 +3859,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-tomorrowland-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270726
 SUMMARY:Tomorrowland 2027
@@ -3804,7 +3879,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-tomorrowland-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270616T090000
 DTEND;TZID=Europe/Amsterdam:20270616T093000
 SUMMARY:Book by today: Tomorrowland 2027
@@ -3818,7 +3893,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vierdaagsefeesten-nijmegen-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270717
 DTEND;VALUE=DATE:20270724
 SUMMARY:Vierdaagsefeesten Nijmegen
@@ -3838,7 +3913,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vierdaagsefeesten-nijmegen-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270703T090000
 DTEND;TZID=Europe/Amsterdam:20270703T093000
 SUMMARY:Book by today: Vierdaagsefeesten Nijmegen
@@ -3851,7 +3926,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vierdaagse-nijmegen-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270720
 DTEND;VALUE=DATE:20270724
 SUMMARY:Nijmeegse Vierdaagse 2027 (109th Four Days Marches)
@@ -3872,7 +3947,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vierdaagse-nijmegen-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270620T090000
 DTEND;TZID=Europe/Amsterdam:20270620T093000
 SUMMARY:Book by today: Nijmeegse Vierdaagse 2027 (109th Four Days Marches
@@ -3888,7 +3963,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-belgian-national-day-brussels-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270721
 DTEND;VALUE=DATE:20270722
 SUMMARY:Belgian National Day Parade and Fireworks\, Brussels 2027
@@ -3910,7 +3985,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-belgian-national-day-brussels-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270707T090000
 DTEND;TZID=Europe/Amsterdam:20270707T093000
 SUMMARY:Book by today: Belgian National Day Parade and Fireworks\, Brusse
@@ -3925,7 +4000,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-f1-belgian-grand-prix-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270723
 DTEND;VALUE=DATE:20270726
 SUMMARY:Formula 1 Belgian Grand Prix 2027
@@ -3946,7 +4021,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-f1-belgian-grand-prix-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270623T090000
 DTEND;TZID=Europe/Amsterdam:20270623T093000
 SUMMARY:Book by today: Formula 1 Belgian Grand Prix 2027
@@ -3961,7 +4036,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-foire-de-libramont-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270723
 DTEND;VALUE=DATE:20270727
 SUMMARY:Foire de Libramont 2027
@@ -3982,7 +4057,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-foire-de-libramont-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270709T090000
 DTEND;TZID=Europe/Amsterdam:20270709T093000
 SUMMARY:Book by today: Foire de Libramont 2027
@@ -3996,7 +4071,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-solar-weekend-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270729
 DTEND;VALUE=DATE:20270802
 SUMMARY:Solar Weekend Festival 2027
@@ -4016,7 +4091,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-solar-weekend-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270629T090000
 DTEND;TZID=Europe/Amsterdam:20270629T093000
 SUMMARY:Book by today: Solar Weekend Festival 2027
@@ -4030,7 +4105,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-koelner-lichter-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270801
 SUMMARY:Kölner Lichter 2027
@@ -4051,7 +4126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-koelner-lichter-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270710T090000
 DTEND;TZID=Europe/Amsterdam:20270710T093000
 SUMMARY:Book by today: Kölner Lichter 2027
@@ -4065,7 +4140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-cranger-kirmes-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270805
 DTEND;VALUE=DATE:20270816
 SUMMARY:Cranger Kirmes Herne 2027
@@ -4086,7 +4161,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-cranger-kirmes-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270722T090000
 DTEND;TZID=Europe/Amsterdam:20270722T093000
 SUMMARY:Book by today: Cranger Kirmes Herne 2027
@@ -4100,7 +4175,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-theaterfestival-boulevard-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270805
 DTEND;VALUE=DATE:20270816
 SUMMARY:Theaterfestival Boulevard 2027
@@ -4121,7 +4196,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-theaterfestival-boulevard-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270722T090000
 DTEND;TZID=Europe/Amsterdam:20270722T093000
 SUMMARY:Book by today: Theaterfestival Boulevard 2027
@@ -4135,7 +4210,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ronquieres-festival-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270806
 DTEND;VALUE=DATE:20270809
 SUMMARY:Ronquières Festival 2027
@@ -4155,7 +4230,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ronquieres-festival-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270716T090000
 DTEND;TZID=Europe/Amsterdam:20270716T093000
 SUMMARY:Book by today: Ronquières Festival 2027
@@ -4169,7 +4244,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-pride-amsterdam-canal-parade-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270807
 DTEND;VALUE=DATE:20270808
 SUMMARY:Pride Amsterdam Canal Parade
@@ -4188,7 +4263,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-pride-amsterdam-canal-parade-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270724T090000
 DTEND;TZID=Europe/Amsterdam:20270724T093000
 SUMMARY:Book by today: Pride Amsterdam Canal Parade
@@ -4201,7 +4276,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rheingauer-weinwoche-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270813
 DTEND;VALUE=DATE:20270823
 SUMMARY:Rheingauer Weinwoche
@@ -4223,7 +4298,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rheingauer-weinwoche-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270730T090000
 DTEND;TZID=Europe/Amsterdam:20270730T093000
 SUMMARY:Book by today: Rheingauer Weinwoche
@@ -4237,7 +4312,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rhein-in-flammen-koblenz-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270814
 DTEND;VALUE=DATE:20270815
 SUMMARY:Rhein in Flammen Koblenz 2027
@@ -4259,7 +4334,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rhein-in-flammen-koblenz-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270724T090000
 DTEND;TZID=Europe/Amsterdam:20270724T093000
 SUMMARY:Book by today: Rhein in Flammen Koblenz 2027
@@ -4274,7 +4349,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-pukkelpop-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270819
 DTEND;VALUE=DATE:20270823
 SUMMARY:Pukkelpop 2027
@@ -4294,7 +4369,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-pukkelpop-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270720T090000
 DTEND;TZID=Europe/Amsterdam:20270720T093000
 SUMMARY:Book by today: Pukkelpop 2027
@@ -4308,7 +4383,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-knokke-heist-vuurwerkfestival-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270820
 DTEND;VALUE=DATE:20270830
 SUMMARY:International Fireworks Festival Knokke-Heist 2027
@@ -4330,7 +4405,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-knokke-heist-vuurwerkfestival-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270806T090000
 DTEND;TZID=Europe/Amsterdam:20270806T093000
 SUMMARY:Book by today: International Fireworks Festival Knokke-Heist 2027
@@ -4347,7 +4422,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-lowlands-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270820
 DTEND;VALUE=DATE:20270823
 SUMMARY:Lowlands 2027
@@ -4367,7 +4442,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-lowlands-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270721T090000
 DTEND;TZID=Europe/Amsterdam:20270721T093000
 SUMMARY:Book by today: Lowlands 2027
@@ -4381,7 +4456,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-schueberfouer-luxembourg-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270820
 DTEND;VALUE=DATE:20270909
 SUMMARY:Schueberfouer Luxembourg 2027
@@ -4401,7 +4476,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-schueberfouer-luxembourg-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270806T090000
 DTEND;TZID=Europe/Amsterdam:20270806T093000
 SUMMARY:Book by today: Schueberfouer Luxembourg 2027
@@ -4415,7 +4490,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ducasse-d-ath-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270821
 DTEND;VALUE=DATE:20270824
 SUMMARY:Ducasse d'Ath 2027
@@ -4435,7 +4510,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ducasse-d-ath-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270807T090000
 DTEND;TZID=Europe/Amsterdam:20270807T093000
 SUMMARY:Book by today: Ducasse d'Ath 2027
@@ -4449,7 +4524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-mosseldag-yerseke-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270821
 DTEND;VALUE=DATE:20270822
 SUMMARY:Mosseldag Yerseke
@@ -4468,7 +4543,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-mosseldag-yerseke-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270807T090000
 DTEND;TZID=Europe/Amsterdam:20270807T093000
 SUMMARY:Book by today: Mosseldag Yerseke
@@ -4481,7 +4556,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-gamescom-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270823
 DTEND;VALUE=DATE:20270830
 SUMMARY:gamescom
@@ -4501,7 +4576,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-gamescom-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270724T090000
 DTEND;TZID=Europe/Amsterdam:20270724T093000
 SUMMARY:Book by today: gamescom
@@ -4516,7 +4591,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ballonfiesta-barneveld-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270825
 DTEND;VALUE=DATE:20270829
 SUMMARY:Ballonfiësta Barneveld 2027
@@ -4537,7 +4612,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ballonfiesta-barneveld-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270811T090000
 DTEND;TZID=Europe/Amsterdam:20270811T093000
 SUMMARY:Book by today: Ballonfiësta Barneveld 2027
@@ -4551,7 +4626,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-mainzer-weinmarkt-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270826
 DTEND;VALUE=DATE:20270906
 SUMMARY:Mainzer Weinmarkt
@@ -4570,7 +4645,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-mainzer-weinmarkt-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270812T090000
 DTEND;TZID=Europe/Amsterdam:20270812T093000
 SUMMARY:Book by today: Mainzer Weinmarkt
@@ -4583,7 +4658,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-preuvenemint-maastricht-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270826
 DTEND;VALUE=DATE:20270830
 SUMMARY:'t Preuvenemint Maastricht
@@ -4602,7 +4677,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-preuvenemint-maastricht-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270812T090000
 DTEND;TZID=Europe/Amsterdam:20270812T093000
 SUMMARY:Book by today: 't Preuvenemint Maastricht
@@ -4615,7 +4690,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-cultura-nova-heerlen-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270827
 DTEND;VALUE=DATE:20270906
 SUMMARY:Cultura Nova 2027
@@ -4636,7 +4711,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-cultura-nova-heerlen-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270813T090000
 DTEND;TZID=Europe/Amsterdam:20270813T093000
 SUMMARY:Book by today: Cultura Nova 2027
@@ -4650,7 +4725,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-soesterberg-zomeroffensief-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270828
 DTEND;VALUE=DATE:20270830
 SUMMARY:Soesterberg Zomeroffensief 2027
@@ -4671,7 +4746,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-soesterberg-zomeroffensief-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270814T090000
 DTEND;TZID=Europe/Amsterdam:20270814T093000
 SUMMARY:Book by today: Soesterberg Zomeroffensief 2027
@@ -4685,7 +4760,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-weinfest-der-mittelmosel-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270902
 DTEND;VALUE=DATE:20270907
 SUMMARY:Weinfest der Mittelmosel
@@ -4705,7 +4780,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-weinfest-der-mittelmosel-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270819T090000
 DTEND;TZID=Europe/Amsterdam:20270819T093000
 SUMMARY:Book by today: Weinfest der Mittelmosel
@@ -4719,7 +4794,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-belgian-beer-weekend-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270906
 SUMMARY:Belgian Beer Weekend
@@ -4739,7 +4814,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-belgian-beer-weekend-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270820T090000
 DTEND;TZID=Europe/Amsterdam:20270820T093000
 SUMMARY:Book by today: Belgian Beer Weekend
@@ -4752,7 +4827,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vredefeesten-sint-niklaas-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270906
 SUMMARY:Vredefeesten Sint-Niklaas 2027 (balloon festival on the Grote Mar
@@ -4774,7 +4849,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-vredefeesten-sint-niklaas-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270820T090000
 DTEND;TZID=Europe/Amsterdam:20270820T093000
 SUMMARY:Book by today: Vredefeesten Sint-Niklaas 2027 (balloon festival o
@@ -4788,43 +4863,8 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-warsteiner-montgolfiade-2027@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20270903
-DTEND;VALUE=DATE:20270912
-SUMMARY:Warsteiner Internationale Montgolfiade 2027
-LOCATION:Montgolfiade grounds at the Warsteiner brewery\, Warstein\, Wars
- tein\, DE
-DESCRIPTION:The biggest balloon gathering within reach of home\, with two
-  Night Glow weekends in a row.\nDrive about 155 min from Hoensbroek.\nlo
- w sell-out risk.\nTickets: https://www.warsteiner-wim.de/\nSource: https
- ://www.warsteiner-wim.de/\nOpen in Rondom: https://todonl.vercel.app/#e-
- warsteiner-montgolfiade-2027
-URL:https://www.warsteiner-wim.de/
-GEO:51.4444;8.3486
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tomorrow: Warsteiner Internationale Montgolfiade 2027
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:rondom-warsteiner-montgolfiade-2027-planby@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;TZID=Europe/Amsterdam:20270820T090000
-DTEND;TZID=Europe/Amsterdam:20270820T093000
-SUMMARY:Book by today: Warsteiner Internationale Montgolfiade 2027
-DESCRIPTION:low sell-out risk. https://www.warsteiner-wim.de/
-URL:https://www.warsteiner-wim.de/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Book today: Warsteiner Internationale Montgolfiade 2027
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:rondom-airborne-wandeltocht-oosterbeek-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270904
 DTEND;VALUE=DATE:20270905
 SUMMARY:80th Airborne Wandeltocht Oosterbeek
@@ -4844,7 +4884,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-airborne-wandeltocht-oosterbeek-2027-onsale@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270501T090000
 DTEND;TZID=Europe/Amsterdam:20270501T093000
 SUMMARY:Tickets on sale: 80th Airborne Wandeltocht Oosterbeek
@@ -4858,7 +4898,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-braderie-de-lille-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270904
 DTEND;VALUE=DATE:20270906
 SUMMARY:Braderie de Lille
@@ -4878,7 +4918,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-braderie-de-lille-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270821T090000
 DTEND;TZID=Europe/Amsterdam:20270821T093000
 SUMMARY:Book by today: Braderie de Lille
@@ -4891,7 +4931,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-tanks-in-town-mons-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270904
 DTEND;VALUE=DATE:20270906
 SUMMARY:Tanks in Town Mons 2027
@@ -4910,7 +4950,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-tanks-in-town-mons-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270821T090000
 DTEND;TZID=Europe/Amsterdam:20270821T093000
 SUMMARY:Book by today: Tanks in Town Mons 2027
@@ -4923,7 +4963,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-corso-zundert-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270905
 DTEND;VALUE=DATE:20270907
 SUMMARY:Corso Zundert 2027
@@ -4943,7 +4983,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-corso-zundert-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270806T090000
 DTEND;TZID=Europe/Amsterdam:20270806T093000
 SUMMARY:Book by today: Corso Zundert 2027
@@ -4957,7 +4997,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nationale-taptoe-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270909
 DTEND;VALUE=DATE:20270913
 SUMMARY:Nationale Taptoe 2027
@@ -4977,7 +5017,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nationale-taptoe-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270819T090000
 DTEND;TZID=Europe/Amsterdam:20270819T093000
 SUMMARY:Book by today: Nationale Taptoe 2027
@@ -4992,7 +5032,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-duerkheimer-wurstmarkt-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270910
 DTEND;VALUE=DATE:20270921
 SUMMARY:Dürkheimer Wurstmarkt
@@ -5012,7 +5052,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-duerkheimer-wurstmarkt-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270827T090000
 DTEND;TZID=Europe/Amsterdam:20270827T093000
 SUMMARY:Book by today: Dürkheimer Wurstmarkt
@@ -5025,7 +5065,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-puetzchens-markt-bonn-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270910
 DTEND;VALUE=DATE:20270915
 SUMMARY:Pützchens Markt Bonn 2027
@@ -5048,7 +5088,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-puetzchens-markt-bonn-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270827T090000
 DTEND;TZID=Europe/Amsterdam:20270827T093000
 SUMMARY:Book by today: Pützchens Markt Bonn 2027
@@ -5064,7 +5104,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-brugs-bierfestival-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270911
 DTEND;VALUE=DATE:20270913
 SUMMARY:Brugs Bierfestival
@@ -5084,7 +5124,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-brugs-bierfestival-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270821T090000
 DTEND;TZID=Europe/Amsterdam:20270821T093000
 SUMMARY:Book by today: Brugs Bierfestival
@@ -5097,7 +5137,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rhein-in-flammen-oberwesel-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270911
 DTEND;VALUE=DATE:20270912
 SUMMARY:Rhein in Flammen Oberwesel 2027
@@ -5118,7 +5158,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rhein-in-flammen-oberwesel-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270828T090000
 DTEND;TZID=Europe/Amsterdam:20270828T093000
 SUMMARY:Book by today: Rhein in Flammen Oberwesel 2027
@@ -5133,7 +5173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-sanicole-airshow-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270911
 DTEND;VALUE=DATE:20270913
 SUMMARY:International Sanicole Airshow 2027
@@ -5154,7 +5194,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-sanicole-airshow-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270821T090000
 DTEND;TZID=Europe/Amsterdam:20270821T093000
 SUMMARY:Book by today: International Sanicole Airshow 2027
@@ -5168,7 +5208,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bridge-to-liberation-arnhem-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270917
 DTEND;VALUE=DATE:20270918
 SUMMARY:Bridge to Liberation Experience 2027
@@ -5188,7 +5228,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-bridge-to-liberation-arnhem-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270903T090000
 DTEND;TZID=Europe/Amsterdam:20270903T093000
 SUMMARY:Book by today: Bridge to Liberation Experience 2027
@@ -5201,7 +5241,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-fetes-de-wallonie-namur-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270917
 DTEND;VALUE=DATE:20270920
 SUMMARY:Fêtes de Wallonie Namur 2027
@@ -5221,7 +5261,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-fetes-de-wallonie-namur-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270903T090000
 DTEND;TZID=Europe/Amsterdam:20270903T093000
 SUMMARY:Book by today: Fêtes de Wallonie Namur 2027
@@ -5235,7 +5275,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-airborne-luchtlandingen-ginkelse-heide-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270919
 SUMMARY:Airborne Luchtlandingen en Herdenking Ginkelse Heide 2027
@@ -5256,7 +5296,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-airborne-luchtlandingen-ginkelse-heide-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270904T090000
 DTEND;TZID=Europe/Amsterdam:20270904T093000
 SUMMARY:Book by today: Airborne Luchtlandingen en Herdenking Ginkelse Hei
@@ -5271,7 +5311,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-lichtjesroute-eindhoven-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270919
 SUMMARY:Ongoing: Lichtjesroute Eindhoven 2027 (until Sun 10 Oct)
@@ -5286,7 +5326,7 @@ GEO:51.4416;5.4697
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-lichtjesroute-eindhoven-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270904T090000
 DTEND;TZID=Europe/Amsterdam:20270904T093000
 SUMMARY:Book by today: Lichtjesroute Eindhoven 2027
@@ -5300,7 +5340,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rhein-in-flammen-st-goar-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270919
 SUMMARY:Rhein in Flammen St. Goar/St. Goarshausen 2027
@@ -5322,7 +5362,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-rhein-in-flammen-st-goar-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270904T090000
 DTEND;TZID=Europe/Amsterdam:20270904T093000
 SUMMARY:Book by today: Rhein in Flammen St. Goar/St. Goarshausen 2027
@@ -5337,7 +5377,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-prinsjesdag-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270921
 DTEND;VALUE=DATE:20270922
 SUMMARY:Prinsjesdag
@@ -5357,7 +5397,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-prinsjesdag-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270907T090000
 DTEND;TZID=Europe/Amsterdam:20270907T093000
 SUMMARY:Book by today: Prinsjesdag
@@ -5371,7 +5411,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-weekend-van-de-wetenschap-maastricht-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271002
 DTEND;VALUE=DATE:20271003
 SUMMARY:Weekend van de Wetenschap 2027\, Maastricht University
@@ -5394,7 +5434,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-weekend-van-de-wetenschap-maastricht-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270918T090000
 DTEND;TZID=Europe/Amsterdam:20270918T093000
 SUMMARY:Book by today: Weekend van de Wetenschap 2027\, Maastricht Univer
@@ -5410,7 +5450,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-motocross-of-nations-assen-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271009
 DTEND;VALUE=DATE:20271011
 SUMMARY:Monster Energy FIM Motocross of Nations 2027 Assen
@@ -5431,7 +5471,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-motocross-of-nations-assen-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270918T090000
 DTEND;TZID=Europe/Amsterdam:20270918T093000
 SUMMARY:Book by today: Monster Energy FIM Motocross of Nations 2027 Assen
@@ -5447,7 +5487,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-festival-film-italien-villerupt-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271022
 DTEND;VALUE=DATE:20271108
 SUMMARY:Festival du Film Italien de Villerupt
@@ -5468,7 +5508,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-festival-film-italien-villerupt-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20271008T090000
 DTEND;TZID=Europe/Amsterdam:20271008T093000
 SUMMARY:Book by today: Festival du Film Italien de Villerupt
@@ -5482,7 +5522,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-jan-van-eyck-open-studios-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271022
 DTEND;VALUE=DATE:20271025
 SUMMARY:Jan van Eyck Academie Open Studios 2027
@@ -5502,7 +5542,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-jan-van-eyck-open-studios-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20271008T090000
 DTEND;TZID=Europe/Amsterdam:20271008T093000
 SUMMARY:Book by today: Jan van Eyck Academie Open Studios 2027
@@ -5517,7 +5557,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-kunstsammlung-atelier-fernand-leger-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271023
 DTEND;VALUE=DATE:20271024
 SUMMARY:Ongoing: Atelier Fernand Léger (Kunstsammlung NRW) (until Sat 25 
@@ -5532,7 +5572,7 @@ GEO:51.227;6.7733
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-kunstsammlung-atelier-fernand-leger-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20271008T090000
 DTEND;TZID=Europe/Amsterdam:20271008T093000
 SUMMARY:Book by today: Atelier Fernand Léger (Kunstsammlung NRW)
@@ -5546,7 +5586,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-dae-graduation-show-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271023
 DTEND;VALUE=DATE:20271101
 SUMMARY:Design Academy Eindhoven Graduation Show 2027 (Dutch Design Week)
@@ -5566,7 +5606,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-dae-graduation-show-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20271009T090000
 DTEND;TZID=Europe/Amsterdam:20271009T093000
 SUMMARY:Book by today: Design Academy Eindhoven Graduation Show 2027 (Dut
@@ -5582,7 +5622,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-dutch-design-week-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271023
 DTEND;VALUE=DATE:20271101
 SUMMARY:Dutch Design Week
@@ -5602,7 +5642,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-dutch-design-week-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20271009T090000
 DTEND;TZID=Europe/Amsterdam:20271009T093000
 SUMMARY:Book by today: Dutch Design Week
@@ -5616,7 +5656,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-facts-gent-fall-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271030
 DTEND;VALUE=DATE:20271101
 SUMMARY:FACTS Convention Gent (fall edition)
@@ -5636,7 +5676,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-facts-gent-fall-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20271009T090000
 DTEND;TZID=Europe/Amsterdam:20271009T093000
 SUMMARY:Book by today: FACTS Convention Gent (fall edition)
@@ -5650,7 +5690,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-museumnacht-amsterdam-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271106
 DTEND;VALUE=DATE:20271107
 SUMMARY:Museumnacht Amsterdam
@@ -5670,7 +5710,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-museumnacht-amsterdam-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20271007T090000
 DTEND;TZID=Europe/Amsterdam:20271007T093000
 SUMMARY:Book by today: Museumnacht Amsterdam
@@ -5684,7 +5724,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nuts-weekend-bastogne-2027@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271210
 DTEND;VALUE=DATE:20271213
 SUMMARY:Nuts Weekend Bastogne 2027 (Battle of the Bulge commemoration)
@@ -5705,7 +5745,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-nuts-weekend-bastogne-2027-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20271126T090000
 DTEND;TZID=Europe/Amsterdam:20271126T093000
 SUMMARY:Book by today: Nuts Weekend Bastogne 2027 (Battle of the Bulge co
@@ -5720,71 +5760,8 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-niall-horan-sportpaleis-2026-11-05@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:Niall Horan
-LOCATION:AFAS Dome (Sportpaleis)\, Antwerp\, BE
-DESCRIPTION:Dinner Party Live On Tour at AFAS Dome (Sportpaleis)\, Antwer
- p.\nDrive about 80 min from Hoensbroek.\nmedium sell-out risk.\nTickets:
-  https://www.ticketmaster.be/event/286617099?language=nl-be&brand=afasdo
- me\nSource: https://www.afas-dome.be/evenement/niall-horan-55630211\nOpe
- n in Rondom: https://todonl.vercel.app/#c-niall-horan-sportpaleis-2026-1
- 1-05
-URL:https://www.ticketmaster.be/event/286617099?language=nl-be&brand=afas
- dome
-GEO:51.2301;4.442
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tomorrow: Niall Horan
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:rondom-niall-horan-accor-2026-11-06@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Niall Horan
-LOCATION:Accor Arena\, Paris\, FR
-DESCRIPTION:Dinner Party Live On Tour at Accor Arena\, Paris.\nDrive abou
- t 275 min from Hoensbroek.\nmedium sell-out risk.\nTickets: https://www.
- accorarena.com/en/events-and-tickets/niall-horan-dinner-party-live-on-to
- ur--e92a5\nSource: https://www.accorarena.com/en/events-and-tickets\nOpe
- n in Rondom: https://todonl.vercel.app/#c-niall-horan-accor-2026-11-06
-URL:https://www.accorarena.com/en/events-and-tickets/niall-horan-dinner-p
- arty-live-on-tour--e92a5
-GEO:48.8386;2.3786
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tomorrow: Niall Horan
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:rondom-world-of-hans-zimmer-lanxess-2026-11-08@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:The World of Hans Zimmer
-LOCATION:Lanxess Arena\, Köln\, DE
-DESCRIPTION:A New Dimension at Lanxess Arena\, Köln.\nDrive about 65 min 
- from Hoensbroek.\nmedium sell-out risk.\nTickets: https://www.lanxess-ar
- ena.de/eventdetail/1159\nSource: https://www.lanxess-arena.de/events-tic
- kets/eventkalender\nOpen in Rondom: https://todonl.vercel.app/#c-world-o
- f-hans-zimmer-lanxess-2026-11-08
-URL:https://www.lanxess-arena.de/eventdetail/1159
-GEO:50.9384;6.9831
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tomorrow: The World of Hans Zimmer
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:rondom-andre-rieu-lanxess-2026-11-13@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:André Rieu
@@ -5804,7 +5781,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-world-of-hans-zimmer-palais-12-2026-11-13@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:The World of Hans Zimmer
@@ -5824,7 +5801,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-pitbull-westfalenhalle-2026-11-16@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Pitbull
@@ -5844,7 +5821,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-night-of-the-proms-sportpaleis-2026-11-21@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Night of the Proms 2026
@@ -5866,7 +5843,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-westlife-ziggo-2026-11-23@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Westlife
@@ -5886,7 +5863,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-westlife-sportpaleis-2026-11-24@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Westlife
@@ -5908,7 +5885,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-westlife-lanxess-2026-11-25@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Westlife
@@ -5928,7 +5905,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-noah-kahan-lanxess-2026-11-26@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Noah Kahan
@@ -5948,7 +5925,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-the-script-ziggo-2026-11-26@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:The Script
@@ -5967,23 +5944,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-the-script-ziggo-2026-11-26-planby@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;TZID=Europe/Amsterdam:20261105T090000
-DTEND;TZID=Europe/Amsterdam:20261105T093000
-SUMMARY:Book by today: The Script
-DESCRIPTION:medium sell-out risk. https://www.ticketmaster.nl/event/15161
- 59579
-URL:https://www.ticketmaster.nl/event/1516159579
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Book today: The Script
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:rondom-the-script-lotto-arena-2026-11-28@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:The Script
@@ -6003,24 +5965,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-the-script-lotto-arena-2026-11-28-planby@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;TZID=Europe/Amsterdam:20261107T090000
-DTEND;TZID=Europe/Amsterdam:20261107T093000
-SUMMARY:Book by today: The Script
-DESCRIPTION:medium sell-out risk. https://www.ticketmaster.be/event/38692
- 6456?language=nl-be&brand=lottoarena
-URL:https://www.ticketmaster.be/event/386926456?language=nl-be&brand=lott
- oarena
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Book today: The Script
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:rondom-noah-kahan-ziggo-2026-12-01@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Noah Kahan
@@ -6028,7 +5974,7 @@ LOCATION:Ziggo Dome\, Amsterdam\, NL
 DESCRIPTION:The Great Divide Tour at Ziggo Dome\, Amsterdam.\nDrive about
   155 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https://www.eve
  ntim.nl/noapp/eventseries/2122382?affiliate=2FF\nSource: https://www.zig
- godome.nl/events/2d8e1392-3098-48d5-87a9-9f6c04195cfe\nOpen in Rondom: h
+ godome.nl/events/d59932a2-1b08-455d-9620-ecbedf045354\nOpen in Rondom: h
  ttps://todonl.vercel.app/#c-noah-kahan-ziggo-2026-12-01
 URL:https://www.eventim.nl/noapp/eventseries/2122382?affiliate=2FF
 GEO:52.3134;4.937
@@ -6039,8 +5985,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rondom-noah-kahan-ziggo-2026-12-02@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Noah Kahan
+LOCATION:Ziggo Dome\, Amsterdam\, NL
+DESCRIPTION:The Great Divide Tour at Ziggo Dome\, Amsterdam.\nDrive about
+  155 min from Hoensbroek.\nhigh sell-out risk.\nTickets: https://www.eve
+ ntim.nl/noapp/eventseries/2122382?affiliate=2FF\nSource: https://www.zig
+ godome.nl/events/d59932a2-1b08-455d-9620-ecbedf045354\nOpen in Rondom: h
+ ttps://todonl.vercel.app/#c-noah-kahan-ziggo-2026-12-02
+URL:https://www.eventim.nl/noapp/eventseries/2122382?affiliate=2FF
+GEO:52.3134;4.937
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Noah Kahan
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rondom-night-of-the-proms-lanxess-2026-12-04@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Night of the Proms
@@ -6060,7 +6026,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-night-of-the-proms-lanxess-2026-12-04-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261113T090000
 DTEND;TZID=Europe/Amsterdam:20261113T093000
 SUMMARY:Book by today: Night of the Proms
@@ -6075,7 +6041,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-kerst-mecc-2026-12-11@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:André Rieu
@@ -6095,7 +6061,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-kerst-mecc-2026-12-11-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261120T090000
 DTEND;TZID=Europe/Amsterdam:20261120T093000
 SUMMARY:Book by today: André Rieu
@@ -6110,7 +6076,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-kerst-mecc-2026-12-12@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:André Rieu
@@ -6130,7 +6096,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-kerst-mecc-2026-12-12-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261121T090000
 DTEND;TZID=Europe/Amsterdam:20261121T093000
 SUMMARY:Book by today: André Rieu
@@ -6145,7 +6111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-kerst-mecc-2026-12-13@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:André Rieu
@@ -6165,7 +6131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-kerst-mecc-2026-12-13-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261122T090000
 DTEND;TZID=Europe/Amsterdam:20261122T093000
 SUMMARY:Book by today: André Rieu
@@ -6180,7 +6146,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-kerst-mecc-2026-12-18@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:André Rieu
@@ -6200,7 +6166,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-kerst-mecc-2026-12-18-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261127T090000
 DTEND;TZID=Europe/Amsterdam:20261127T093000
 SUMMARY:Book by today: André Rieu
@@ -6215,7 +6181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-kerst-mecc-2026-12-19@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:André Rieu
@@ -6235,7 +6201,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-kerst-mecc-2026-12-19-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261128T090000
 DTEND;TZID=Europe/Amsterdam:20261128T093000
 SUMMARY:Book by today: André Rieu
@@ -6250,7 +6216,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-lord-of-the-rings-in-concert-forest-national-2026-12-19@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:The Lord of the Rings: The Fellowship of the Ring in Concert
@@ -6274,7 +6240,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rondom-lord-of-the-rings-in-concert-forest-national-2026-12-19-planby
  @rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261128T090000
 DTEND;TZID=Europe/Amsterdam:20261128T093000
 SUMMARY:Book by today: The Lord of the Rings: The Fellowship of the Ring 
@@ -6292,7 +6258,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-kerst-mecc-2026-12-20@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:André Rieu
@@ -6312,7 +6278,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-kerst-mecc-2026-12-20-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261129T090000
 DTEND;TZID=Europe/Amsterdam:20261129T093000
 SUMMARY:Book by today: André Rieu
@@ -6327,7 +6293,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-ziggo-2027-01-09@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:André Rieu
@@ -6347,7 +6313,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-ziggo-2027-01-09-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261219T090000
 DTEND;TZID=Europe/Amsterdam:20261219T093000
 SUMMARY:Book by today: André Rieu
@@ -6362,7 +6328,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-sportpaleis-2027-01-10@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:André Rieu
@@ -6384,7 +6350,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-sportpaleis-2027-01-10-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261220T090000
 DTEND;TZID=Europe/Amsterdam:20261220T093000
 SUMMARY:Book by today: André Rieu
@@ -6400,7 +6366,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ludovico-einaudi-grand-palais-2027-01-14@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Ludovico Einaudi
@@ -6419,7 +6385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ludovico-einaudi-grand-palais-2027-01-14-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20261215T090000
 DTEND;TZID=Europe/Amsterdam:20261215T093000
 SUMMARY:Book by today: Ludovico Einaudi
@@ -6433,7 +6399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-disney-descendants-zombies-lanxess-2027-02-18@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:Disney Descendants\, ZOMBIES & Camp Rock
@@ -6453,7 +6419,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-disney-descendants-zombies-lanxess-2027-02-18-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270128T090000
 DTEND;TZID=Europe/Amsterdam:20270128T093000
 SUMMARY:Book by today: Disney Descendants\, ZOMBIES & Camp Rock
@@ -6468,7 +6434,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-disney-descendants-zombies-ziggo-2027-02-19@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 SUMMARY:Disney Descendants\, ZOMBIES & Camp Rock
@@ -6488,7 +6454,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-disney-descendants-zombies-ziggo-2027-02-19-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270129T090000
 DTEND;TZID=Europe/Amsterdam:20270129T093000
 SUMMARY:Book by today: Disney Descendants\, ZOMBIES & Camp Rock
@@ -6503,7 +6469,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-james-blunt-forest-national-2027-02-19@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 SUMMARY:James Blunt
@@ -6525,7 +6491,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-james-blunt-forest-national-2027-02-19-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270129T090000
 DTEND;TZID=Europe/Amsterdam:20270129T093000
 SUMMARY:Book by today: James Blunt
@@ -6540,8 +6506,43 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rondom-james-blunt-ziggo-2027-02-20@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:James Blunt
+LOCATION:Ziggo Dome\, Amsterdam\, NL
+DESCRIPTION:Airplane Mode Tour at Ziggo Dome\, Amsterdam.\nDrive about 15
+ 5 min from Hoensbroek.\nmedium sell-out risk.\nTickets: https://www.even
+ tim.nl/noapp/eventseries/4220515?affiliate=2FF\nSource: https://www.zigg
+ odome.nl/events/ff8aca14-2e95-4e80-b80d-b7ee50d7fd4c\nOpen in Rondom: ht
+ tps://todonl.vercel.app/#c-james-blunt-ziggo-2027-02-20
+URL:https://www.eventim.nl/noapp/eventseries/4220515?affiliate=2FF
+GEO:52.3134;4.937
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: James Blunt
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-james-blunt-ziggo-2027-02-20-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20270130T090000
+DTEND;TZID=Europe/Amsterdam:20270130T093000
+SUMMARY:Book by today: James Blunt
+DESCRIPTION:medium sell-out risk. https://www.eventim.nl/noapp/eventserie
+ s/4220515?affiliate=2FF
+URL:https://www.eventim.nl/noapp/eventseries/4220515?affiliate=2FF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: James Blunt
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rondom-teddy-swims-lanxess-2027-03-13@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:Teddy Swims
@@ -6561,7 +6562,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-teddy-swims-lanxess-2027-03-13-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270211T090000
 DTEND;TZID=Europe/Amsterdam:20270211T093000
 SUMMARY:Book by today: Teddy Swims
@@ -6575,8 +6576,43 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rondom-teddy-swims-lanxess-2027-03-14@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Teddy Swims
+LOCATION:Lanxess Arena\, Köln\, DE
+DESCRIPTION:The UGLY Tour at Lanxess Arena\, Köln.\nDrive about 65 min fr
+ om Hoensbroek.\nmedium sell-out risk.\nTickets: https://www.lanxess-aren
+ a.de/veranstaltungsreihe/teddy-swims\nSource: https://www.lanxess-arena.
+ de/events-tickets/eventkalender\nOpen in Rondom: https://todonl.vercel.a
+ pp/#c-teddy-swims-lanxess-2027-03-14
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/teddy-swims
+GEO:50.9384;6.9831
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Teddy Swims
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-teddy-swims-lanxess-2027-03-14-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20270221T090000
+DTEND;TZID=Europe/Amsterdam:20270221T093000
+SUMMARY:Book by today: Teddy Swims
+DESCRIPTION:medium sell-out risk. https://www.lanxess-arena.de/veranstalt
+ ungsreihe/teddy-swims
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/teddy-swims
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Teddy Swims
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rondom-teddy-swims-ziggo-2027-03-16@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270317
 SUMMARY:Teddy Swims
@@ -6596,7 +6632,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-teddy-swims-ziggo-2027-03-16-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270223T090000
 DTEND;TZID=Europe/Amsterdam:20270223T093000
 SUMMARY:Book by today: Teddy Swims
@@ -6610,8 +6646,78 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rondom-teddy-swims-ziggo-2027-03-17@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Teddy Swims
+LOCATION:Ziggo Dome\, Amsterdam\, NL
+DESCRIPTION:The UGLY Tour at Ziggo Dome\, Amsterdam.\nDrive about 155 min
+  from Hoensbroek.\nmedium sell-out risk.\nTickets: https://www.ticketmas
+ ter.nl/artist/teddy-swims-tickets/1020380\nSource: https://www.ziggodome
+ .nl/events/e1392915-acb3-45db-ac0a-8641efe6444a\nOpen in Rondom: https:/
+ /todonl.vercel.app/#c-teddy-swims-ziggo-2027-03-17
+URL:https://www.ticketmaster.nl/artist/teddy-swims-tickets/1020380
+GEO:52.3134;4.937
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Teddy Swims
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-teddy-swims-ziggo-2027-03-17-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20270224T090000
+DTEND;TZID=Europe/Amsterdam:20270224T093000
+SUMMARY:Book by today: Teddy Swims
+DESCRIPTION:medium sell-out risk. https://www.ticketmaster.nl/artist/tedd
+ y-swims-tickets/1020380
+URL:https://www.ticketmaster.nl/artist/teddy-swims-tickets/1020380
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Teddy Swims
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-teddy-swims-ziggo-2027-03-18@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:Teddy Swims
+LOCATION:Ziggo Dome\, Amsterdam\, NL
+DESCRIPTION:The UGLY Tour at Ziggo Dome\, Amsterdam.\nDrive about 155 min
+  from Hoensbroek.\nmedium sell-out risk.\nTickets: https://www.ticketmas
+ ter.nl/artist/teddy-swims-tickets/1020380\nSource: https://www.ziggodome
+ .nl/events/e1392915-acb3-45db-ac0a-8641efe6444a\nOpen in Rondom: https:/
+ /todonl.vercel.app/#c-teddy-swims-ziggo-2027-03-18
+URL:https://www.ticketmaster.nl/artist/teddy-swims-tickets/1020380
+GEO:52.3134;4.937
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Teddy Swims
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-teddy-swims-ziggo-2027-03-18-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20270225T090000
+DTEND;TZID=Europe/Amsterdam:20270225T093000
+SUMMARY:Book by today: Teddy Swims
+DESCRIPTION:medium sell-out risk. https://www.ticketmaster.nl/artist/tedd
+ y-swims-tickets/1020380
+URL:https://www.ticketmaster.nl/artist/teddy-swims-tickets/1020380
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Teddy Swims
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rondom-angele-palais-12-2027-03-20@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:Angèle
@@ -6631,7 +6737,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-angele-palais-12-2027-03-20-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270218T090000
 DTEND;TZID=Europe/Amsterdam:20270218T093000
 SUMMARY:Book by today: Angèle
@@ -6646,7 +6752,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-angele-palais-12-2027-03-21@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:Angèle
@@ -6666,7 +6772,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-angele-palais-12-2027-03-21-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270219T090000
 DTEND;TZID=Europe/Amsterdam:20270219T093000
 SUMMARY:Book by today: Angèle
@@ -6681,7 +6787,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-teddy-swims-sportpaleis-2027-03-26@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Teddy Swims
@@ -6702,7 +6808,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-teddy-swims-sportpaleis-2027-03-26-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270224T090000
 DTEND;TZID=Europe/Amsterdam:20270224T093000
 SUMMARY:Book by today: Teddy Swims
@@ -6718,7 +6824,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-suzan-freek-sportpaleis-2027-04-03@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:Suzan & Freek
@@ -6737,23 +6843,23 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-suzan-freek-sportpaleis-2027-04-03-onsale@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;TZID=Europe/Amsterdam:20261106T090000
-DTEND;TZID=Europe/Amsterdam:20261106T093000
-SUMMARY:Tickets on sale: Suzan & Freek
+UID:rondom-suzan-freek-sportpaleis-2027-04-03-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20261113T090000
+DTEND;TZID=Europe/Amsterdam:20261113T093000
+SUMMARY:Book by today: Suzan & Freek
 DESCRIPTION:medium sell-out risk. https://www.afas-dome.be/evenement/suza
  n-freek-eb0391eb
 URL:https://www.afas-dome.be/evenement/suzan-freek-eb0391eb
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tickets on sale now: Suzan & Freek
+DESCRIPTION:Book today: Suzan & Freek
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-roxy-dekker-jca-2027-04-24@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:Roxy Dekker
@@ -6773,7 +6879,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-roxy-dekker-jca-2027-04-24-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270325T090000
 DTEND;TZID=Europe/Amsterdam:20270325T093000
 SUMMARY:Book by today: Roxy Dekker
@@ -6788,7 +6894,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-world-of-hans-zimmer-sportpaleis-2027-04-29@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:The World of Hans Zimmer
@@ -6810,7 +6916,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-world-of-hans-zimmer-sportpaleis-2027-04-29-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270408T090000
 DTEND;TZID=Europe/Amsterdam:20270408T093000
 SUMMARY:Book by today: The World of Hans Zimmer
@@ -6825,8 +6931,46 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rondom-the-world-of-hans-zimmer-rwa-2027-04-30@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:The World of Hans Zimmer
+LOCATION:Rudolf Weber-Arena\, Oberhausen\, DE
+DESCRIPTION:A New Dimension at Rudolf Weber-Arena\, Oberhausen.\nDrive ab
+ out 90 min from Hoensbroek.\nmedium sell-out risk.\nTickets: https://www
+ .rudolf-weber-arena.de/arena_events/the-world-of-hans-zimmer-2027/?event
+ date=734\nSource: https://www.rudolf-weber-arena.de/arena_events/the-wor
+ ld-of-hans-zimmer-2027/?eventdate=734\nOpen in Rondom: https://todonl.ve
+ rcel.app/#c-the-world-of-hans-zimmer-rwa-2027-04-30
+URL:https://www.rudolf-weber-arena.de/arena_events/the-world-of-hans-zimm
+ er-2027/?eventdate=734
+GEO:51.4903;6.8789
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: The World of Hans Zimmer
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-the-world-of-hans-zimmer-rwa-2027-04-30-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20270409T090000
+DTEND;TZID=Europe/Amsterdam:20270409T093000
+SUMMARY:Book by today: The World of Hans Zimmer
+DESCRIPTION:medium sell-out risk. https://www.rudolf-weber-arena.de/arena
+ _events/the-world-of-hans-zimmer-2027/?eventdate=734
+URL:https://www.rudolf-weber-arena.de/arena_events/the-world-of-hans-zimm
+ er-2027/?eventdate=734
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: The World of Hans Zimmer
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rondom-celine-dion-pldefense-2027-05-08@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Céline Dion
@@ -6847,7 +6991,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-celine-dion-pldefense-2027-05-08-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270408T090000
 DTEND;TZID=Europe/Amsterdam:20270408T093000
 SUMMARY:Book by today: Céline Dion
@@ -6862,7 +7006,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-angele-afas-live-2027-05-11@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270511
 DTEND;VALUE=DATE:20270512
 SUMMARY:Angèle
@@ -6881,7 +7025,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-angele-afas-live-2027-05-11-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270420T090000
 DTEND;TZID=Europe/Amsterdam:20270420T093000
 SUMMARY:Book by today: Angèle
@@ -6895,7 +7039,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-suzan-freek-ziggo-2027-05-14@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270514
 DTEND;VALUE=DATE:20270515
 SUMMARY:Suzan & Freek
@@ -6903,7 +7047,7 @@ LOCATION:Ziggo Dome\, Amsterdam\, NL
 DESCRIPTION:Live in de Ziggo Dome 2027 at Ziggo Dome\, Amsterdam.\nDrive 
  about 155 min from Hoensbroek.\nmedium sell-out risk.\nTickets: https://
  queue.paylogic.com/f6ef5e76fac0437fa819f0d3778175b5/\nSource: https://ww
- w.ziggodome.nl/events/cd0d7f37-933b-418c-9cf9-7aed670a19a7\nOpen in Rond
+ w.ziggodome.nl/events/66077c62-cd59-43f8-926b-884482ed6420\nOpen in Rond
  om: https://todonl.vercel.app/#c-suzan-freek-ziggo-2027-05-14
 URL:https://queue.paylogic.com/f6ef5e76fac0437fa819f0d3778175b5/
 GEO:52.3134;4.937
@@ -6914,23 +7058,23 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-suzan-freek-ziggo-2027-05-14-onsale@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;TZID=Europe/Amsterdam:20261106T090000
-DTEND;TZID=Europe/Amsterdam:20261106T093000
-SUMMARY:Tickets on sale: Suzan & Freek
+UID:rondom-suzan-freek-ziggo-2027-05-14-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20261113T090000
+DTEND;TZID=Europe/Amsterdam:20261113T093000
+SUMMARY:Book by today: Suzan & Freek
 DESCRIPTION:medium sell-out risk. https://queue.paylogic.com/f6ef5e76fac0
  437fa819f0d3778175b5/
 URL:https://queue.paylogic.com/f6ef5e76fac0437fa819f0d3778175b5/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tickets on sale now: Suzan & Freek
+DESCRIPTION:Book today: Suzan & Freek
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andrea-bocelli-lanxess-2027-05-20@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270520
 DTEND;VALUE=DATE:20270521
 SUMMARY:Andrea Bocelli
@@ -6950,7 +7094,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andrea-bocelli-lanxess-2027-05-20-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270429T090000
 DTEND;TZID=Europe/Amsterdam:20270429T093000
 SUMMARY:Book by today: Andrea Bocelli
@@ -6965,7 +7109,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-toppers-jca-2027-05-28@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270528
 DTEND;VALUE=DATE:20270529
 SUMMARY:De Toppers
@@ -6987,7 +7131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-toppers-jca-2027-05-28-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270507T090000
 DTEND;TZID=Europe/Amsterdam:20270507T093000
 SUMMARY:Book by today: De Toppers
@@ -7003,7 +7147,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-toppers-jca-2027-05-29@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:De Toppers
@@ -7025,7 +7169,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-toppers-jca-2027-05-29-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270508T090000
 DTEND;TZID=Europe/Amsterdam:20270508T093000
 SUMMARY:Book by today: De Toppers
@@ -7041,7 +7185,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-u2-jca-2027-06-05@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:U2
@@ -7060,23 +7204,23 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-u2-jca-2027-06-05-onsale@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;TZID=Europe/Amsterdam:20261105T090000
-DTEND;TZID=Europe/Amsterdam:20261105T093000
-SUMMARY:Tickets on sale: U2
+UID:rondom-u2-jca-2027-06-05-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20270506T090000
+DTEND;TZID=Europe/Amsterdam:20270506T093000
+SUMMARY:Book by today: U2
 DESCRIPTION:high sell-out risk. https://www.johancruijffarena.nl/en/calen
  dar/466110-u2/
 URL:https://www.johancruijffarena.nl/en/calendar/466110-u2/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tickets on sale now: U2
+DESCRIPTION:Book today: U2
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-u2-jca-2027-06-06@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:U2
@@ -7095,23 +7239,23 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rondom-u2-jca-2027-06-06-onsale@rondom
-DTSTAMP:20261105T110536Z
-DTSTART;TZID=Europe/Amsterdam:20261105T090000
-DTEND;TZID=Europe/Amsterdam:20261105T093000
-SUMMARY:Tickets on sale: U2
+UID:rondom-u2-jca-2027-06-06-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20270507T090000
+DTEND;TZID=Europe/Amsterdam:20270507T093000
+SUMMARY:Book by today: U2
 DESCRIPTION:high sell-out risk. https://www.johancruijffarena.nl/en/calen
  dar/466163-u2/
 URL:https://www.johancruijffarena.nl/en/calendar/466163-u2/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tickets on sale now: U2
+DESCRIPTION:Book today: U2
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-u2-jca-2027-06-09@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270609
 DTEND;VALUE=DATE:20270610
 SUMMARY:U2
@@ -7132,7 +7276,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-u2-jca-2027-06-09-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270510T090000
 DTEND;TZID=Europe/Amsterdam:20270510T093000
 SUMMARY:Book by today: U2
@@ -7147,7 +7291,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-querbeat-rheinenergie-2027-06-12@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Querbeat
@@ -7167,7 +7311,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-querbeat-rheinenergie-2027-06-12-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270522T090000
 DTEND;TZID=Europe/Amsterdam:20270522T093000
 SUMMARY:Book by today: Querbeat
@@ -7182,7 +7326,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-sting-rockhal-2027-06-15@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270615
 DTEND;VALUE=DATE:20270616
 SUMMARY:Sting
@@ -7201,7 +7345,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-sting-rockhal-2027-06-15-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270525T090000
 DTEND;TZID=Europe/Amsterdam:20270525T093000
 SUMMARY:Book by today: Sting
@@ -7215,7 +7359,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-qmusic-foute-party-gelredome-2027-06-19@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270620
 SUMMARY:Qmusic Foute Party - The Big One
@@ -7234,7 +7378,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-qmusic-foute-party-gelredome-2027-06-19-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270529T090000
 DTEND;TZID=Europe/Amsterdam:20270529T093000
 SUMMARY:Book by today: Qmusic Foute Party - The Big One
@@ -7248,7 +7392,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-angele-rockhal-2027-06-20@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270621
 SUMMARY:Angèle
@@ -7267,7 +7411,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-angele-rockhal-2027-06-20-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270521T090000
 DTEND;TZID=Europe/Amsterdam:20270521T093000
 SUMMARY:Book by today: Angèle
@@ -7281,7 +7425,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-simply-red-sportpaleis-2027-06-22@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270622
 DTEND;VALUE=DATE:20270623
 SUMMARY:Simply Red
@@ -7302,7 +7446,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-simply-red-sportpaleis-2027-06-22-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270601T090000
 DTEND;TZID=Europe/Amsterdam:20270601T093000
 SUMMARY:Book by today: Simply Red
@@ -7318,7 +7462,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-jack-johnson-forest-national-2027-06-26@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270627
 SUMMARY:Jack Johnson
@@ -7340,7 +7484,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-jack-johnson-forest-national-2027-06-26-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270605T090000
 DTEND;TZID=Europe/Amsterdam:20270605T093000
 SUMMARY:Book by today: Jack Johnson
@@ -7356,7 +7500,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-take-that-afas-live-2027-06-27@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270628
 SUMMARY:Take That
@@ -7375,7 +7519,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-take-that-afas-live-2027-06-27-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270606T090000
 DTEND;TZID=Europe/Amsterdam:20270606T093000
 SUMMARY:Book by today: Take That
@@ -7390,7 +7534,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-karol-g-pldefense-2027-07-01@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 SUMMARY:Karol G
@@ -7412,7 +7556,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-karol-g-pldefense-2027-07-01-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270601T090000
 DTEND;TZID=Europe/Amsterdam:20270601T093000
 SUMMARY:Book by today: Karol G
@@ -7428,7 +7572,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-karol-g-jca-2027-07-10@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270710
 DTEND;VALUE=DATE:20270711
 SUMMARY:KAROL G
@@ -7450,7 +7594,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-karol-g-jca-2027-07-10-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270619T090000
 DTEND;TZID=Europe/Amsterdam:20270619T093000
 SUMMARY:Book by today: KAROL G
@@ -7466,7 +7610,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-karol-g-merkur-2027-07-17@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270717
 DTEND;VALUE=DATE:20270718
 SUMMARY:Karol G
@@ -7486,7 +7630,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-karol-g-merkur-2027-07-17-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270617T090000
 DTEND;TZID=Europe/Amsterdam:20270617T093000
 SUMMARY:Book by today: Karol G
@@ -7501,7 +7645,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-clouseau-king-baudouin-2027-08-04@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270804
 DTEND;VALUE=DATE:20270805
 SUMMARY:Clouseau
@@ -7521,7 +7665,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-clouseau-king-baudouin-2027-08-04-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270705T090000
 DTEND;TZID=Europe/Amsterdam:20270705T093000
 SUMMARY:Book by today: Clouseau
@@ -7536,7 +7680,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-clouseau-king-baudouin-2027-08-06@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270806
 DTEND;VALUE=DATE:20270807
 SUMMARY:Clouseau
@@ -7556,7 +7700,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-clouseau-king-baudouin-2027-08-06-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270707T090000
 DTEND;TZID=Europe/Amsterdam:20270707T093000
 SUMMARY:Book by today: Clouseau
@@ -7571,7 +7715,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-clouseau-king-baudouin-2027-08-07@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20270807
 DTEND;VALUE=DATE:20270808
 SUMMARY:Clouseau
@@ -7591,7 +7735,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-clouseau-king-baudouin-2027-08-07-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270708T090000
 DTEND;TZID=Europe/Amsterdam:20270708T093000
 SUMMARY:Book by today: Clouseau
@@ -7606,7 +7750,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ole-auf-schalke-veltins-2027-10-02@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271002
 DTEND;VALUE=DATE:20271003
 SUMMARY:Olé auf Schalke 2027
@@ -7626,7 +7770,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-ole-auf-schalke-veltins-2027-10-02-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270918T090000
 DTEND;TZID=Europe/Amsterdam:20270918T093000
 SUMMARY:Book by today: Olé auf Schalke 2027
@@ -7641,7 +7785,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-il-volo-forest-national-2027-10-10@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271010
 DTEND;VALUE=DATE:20271011
 SUMMARY:Il Volo
@@ -7661,7 +7805,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-il-volo-forest-national-2027-10-10-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270919T090000
 DTEND;TZID=Europe/Amsterdam:20270919T093000
 SUMMARY:Book by today: Il Volo
@@ -7676,7 +7820,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-il-volo-psd-bank-dome-2027-10-13@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271013
 DTEND;VALUE=DATE:20271014
 SUMMARY:Il Volo
@@ -7696,7 +7840,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-il-volo-psd-bank-dome-2027-10-13-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270922T090000
 DTEND;TZID=Europe/Amsterdam:20270922T093000
 SUMMARY:Book by today: Il Volo
@@ -7710,7 +7854,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-il-volo-festhalle-2027-10-20@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271020
 DTEND;VALUE=DATE:20271021
 SUMMARY:Il Volo
@@ -7729,7 +7873,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-il-volo-festhalle-2027-10-20-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20270929T090000
 DTEND;TZID=Europe/Amsterdam:20270929T093000
 SUMMARY:Book by today: Il Volo
@@ -7743,7 +7887,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-laura-pausini-forest-national-2027-11-18@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271118
 DTEND;VALUE=DATE:20271119
 SUMMARY:Laura Pausini
@@ -7765,7 +7909,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-laura-pausini-forest-national-2027-11-18-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20271028T090000
 DTEND;TZID=Europe/Amsterdam:20271028T093000
 SUMMARY:Book by today: Laura Pausini
@@ -7781,7 +7925,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-lanxess-2027-11-20@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271120
 DTEND;VALUE=DATE:20271121
 SUMMARY:André Rieu
@@ -7801,7 +7945,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-andre-rieu-lanxess-2027-11-20-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20271030T090000
 DTEND;TZID=Europe/Amsterdam:20271030T093000
 SUMMARY:Book by today: André Rieu
@@ -7816,16 +7960,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-laura-pausini-ziggo-2027-11-24@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20271124
 DTEND;VALUE=DATE:20271125
 SUMMARY:Laura Pausini
 LOCATION:Ziggo Dome\, Amsterdam\, NL
 DESCRIPTION:Io Canto World Tour 2026/2027 at Ziggo Dome\, Amsterdam.\nDri
  ve about 155 min from Hoensbroek.\nmedium sell-out risk.\nTickets: https
- ://www.ziggodome.nl/agenda/\nSource: https://www.ziggodome.nl/agenda/\nO
- pen in Rondom: https://todonl.vercel.app/#c-laura-pausini-ziggo-2027-11-
- 24
+ ://www.ziggodome.nl/agenda/\nSource: https://www.ziggodome.nl/events/010
+ ea036-68d3-4f19-af1e-da70144b09c8\nOpen in Rondom: https://todonl.vercel
+ .app/#c-laura-pausini-ziggo-2027-11-24
 URL:https://www.ziggodome.nl/agenda/
 GEO:52.3134;4.937
 BEGIN:VALARM
@@ -7836,7 +7980,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-laura-pausini-ziggo-2027-11-24-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20271103T090000
 DTEND;TZID=Europe/Amsterdam:20271103T093000
 SUMMARY:Book by today: Laura Pausini
@@ -7850,7 +7994,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-eros-ramazzotti-psd-bank-dome-2028-04-01@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20280401
 DTEND;VALUE=DATE:20280402
 SUMMARY:Eros Ramazzotti
@@ -7870,7 +8014,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-eros-ramazzotti-psd-bank-dome-2028-04-01-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20280311T090000
 DTEND;TZID=Europe/Amsterdam:20280311T093000
 SUMMARY:Book by today: Eros Ramazzotti
@@ -7884,8 +8028,46 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rondom-eros-ramazzotti-ziggo-2028-04-05@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;VALUE=DATE:20280405
+DTEND;VALUE=DATE:20280406
+SUMMARY:Eros Ramazzotti
+LOCATION:Ziggo Dome\, Amsterdam\, NL
+DESCRIPTION:Una Storia Importante Tour at Ziggo Dome\, Amsterdam.\nDrive 
+ about 155 min from Hoensbroek.\nmedium sell-out risk.\nTickets: https://
+ www.eventim.nl/event/eros-ramazzotti-ziggo-dome-21254221/?affiliate=GAD\
+ nSource: https://www.ziggodome.nl/events/5f9d3197-00da-4a88-a79a-b6977b5
+ c5b0b\nOpen in Rondom: https://todonl.vercel.app/#c-eros-ramazzotti-zigg
+ o-2028-04-05
+URL:https://www.eventim.nl/event/eros-ramazzotti-ziggo-dome-21254221/?aff
+ iliate=GAD
+GEO:52.3134;4.937
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: Eros Ramazzotti
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rondom-eros-ramazzotti-ziggo-2028-04-05-planby@rondom
+DTSTAMP:20261111T015507Z
+DTSTART;TZID=Europe/Amsterdam:20280315T090000
+DTEND;TZID=Europe/Amsterdam:20280315T093000
+SUMMARY:Book by today: Eros Ramazzotti
+DESCRIPTION:medium sell-out risk. https://www.eventim.nl/event/eros-ramaz
+ zotti-ziggo-dome-21254221/?affiliate=GAD
+URL:https://www.eventim.nl/event/eros-ramazzotti-ziggo-dome-21254221/?aff
+ iliate=GAD
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book today: Eros Ramazzotti
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rondom-eros-ramazzotti-rockhal-2028-04-08@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20280408
 DTEND;VALUE=DATE:20280409
 SUMMARY:Eros Ramazzotti
@@ -7905,7 +8087,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-eros-ramazzotti-rockhal-2028-04-08-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20280309T090000
 DTEND;TZID=Europe/Amsterdam:20280309T093000
 SUMMARY:Book by today: Eros Ramazzotti
@@ -7919,7 +8101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-eros-ramazzotti-forest-national-2028-04-14@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;VALUE=DATE:20280414
 DTEND;VALUE=DATE:20280415
 SUMMARY:Eros Ramazzotti
@@ -7927,9 +8109,9 @@ LOCATION:Forest National\, Brussels\, BE
 DESCRIPTION:Una Storia Importante World Tour at Forest National\, Brussel
  s.\nDrive about 100 min from Hoensbroek.\nhigh sell-out risk.\nTickets: 
  https://www.forest-national.be/en/event/eros-ramazzotti-bb0a5177\nSource
- : https://www.forest-national.be/en/event/eros-ramazzotti-bb0a5177\nOpen
-  in Rondom: https://todonl.vercel.app/#c-eros-ramazzotti-forest-national
- -2028-04-14
+ : https://www.forest-national.be/evenement/eros-ramazzotti-bb0a5177\nOpe
+ n in Rondom: https://todonl.vercel.app/#c-eros-ramazzotti-forest-nationa
+ l-2028-04-14
 URL:https://www.forest-national.be/en/event/eros-ramazzotti-bb0a5177
 GEO:50.8092;4.323
 BEGIN:VALARM
@@ -7940,7 +8122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rondom-eros-ramazzotti-forest-national-2028-04-14-planby@rondom
-DTSTAMP:20261105T110536Z
+DTSTAMP:20261111T015507Z
 DTSTART;TZID=Europe/Amsterdam:20280315T090000
 DTEND;TZID=Europe/Amsterdam:20280315T093000
 SUMMARY:Book by today: Eros Ramazzotti
