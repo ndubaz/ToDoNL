@@ -7,7 +7,7 @@ Nick's phone-first web app for events worth a drive from Hoensbroek, NL (next to
 - `data/events.json` is the single source of truth for events. `data/concerts.json` holds concerts (separate radius), `data/venues.json` the tracked concert venues, `data/meta.json` the version and "data checked" date, `data/geo.json` the map outlines.
 - `src/index.template.html` is the whole app: HTML, CSS and vanilla JS. No framework, no npm dependencies. `src/sw.template.js` is the service worker.
 - `scripts/build.mjs` validates the data and builds `public/index.html` + `public/sw.js` (Vercel). With `--artifact`, it builds `dist/artifact.html` (claude.ai artifact, single file, icon inlined).
-- `scripts/triage.mjs` prints what the weekly refresh should re-check. `scripts/drive-times.mjs` fills `driveMin` from the OSRM router. `scripts/icons.mjs` renders the PNG icons from `public/icons/favicon.svg`.
+- `scripts/triage.mjs` prints what the weekly refresh should re-check. `scripts/apply-refresh.mjs` applies the refresh from JSON result files (removals, changes, additions, planBy, meta). `scripts/drive-times.mjs` fills `driveMin` from the OSRM router. `scripts/icons.mjs` renders the PNG icons from `public/icons/favicon.svg`.
 - `docs/UPDATE.md` is the weekly refresh procedure. Follow it exactly for scheduled runs.
 - `data/CHANGELOG.md` records data changes, newest first. `BACKLOG.md` lists bugs, shortcuts and unverified items; fix them in one batch when Nick says "execute the backlog".
 - `vercel.json` sets the build (`node scripts/build.mjs`), the output directory (`public`) and cache headers.
@@ -18,6 +18,7 @@ Nick's phone-first web app for events worth a drive from Hoensbroek, NL (next to
 node scripts/build.mjs              # build the Vercel site (run after every data edit; it fails on bad data)
 node scripts/build.mjs --artifact   # build the claude.ai artifact version
 node scripts/triage.mjs --days 45 --max 80
+node scripts/apply-refresh.mjs --dir <folder>   # apply a weekly refresh from the research JSON files (see docs/UPDATE.md step 5)
 node scripts/drive-times.mjs        # fill driveMin for entries where it is null (OSRM, rounded to 5 min)
 node scripts/icons.mjs              # re-render PNG icons after changing favicon.svg
 npx serve public                    # local preview

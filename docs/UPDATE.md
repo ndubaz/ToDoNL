@@ -37,7 +37,11 @@ For each entry in `soon`, `projected` and `stale`, in that order: fetch `source`
 - Cancelled: set `status: "cancelled"` with `changedOn`; keep the entry 30 days, then remove it (`removeCancelled` in triage lists those due). Remove entries in `removeExpired` (ended before today).
 
 ## 5. Edit and build
-- Edit `data/events.json` and `data/concerts.json` with a short Node script that loads, changes and writes the JSON. Keep `id`s stable. New entries get `addedOn` today and `driveMin: null`, then run `node scripts/drive-times.mjs`.
+- Collect the research results as JSON files in one folder (for example the scratchpad): `venue-new.json` and `discovery-concerts.json` (concert objects to add), `discovery-events.json` (event objects to add), `venue-changes.json` (`[{id, status, note, source}]`), `confirm-soon.json` and `confirm-projected.json` (`[{id, fetched, changes: {field: value}, note}]`). Then run:
+```
+node scripts/apply-refresh.mjs --dir <folder>
+```
+It removes ended entries and cancelled entries older than 30 days, applies the changes (status flips get `changedOn` and `prevStatus`, date changes get a `dateNote`, fetched entries get `verifiedOn`, it never downgrades confirmed to projected), adds the new entries with drive times from OSRM and `addedOn` today, recomputes `planBy` for every entry, sets `meta.json`, and prints a summary to paste into the changelog and the report. Anything it skips is listed under `failed`; fix the input or note it in BACKLOG.md. Keep `id`s stable. For a one-off edit outside this flow, use a short Node script, never a hand edit.
 - Set `data/meta.json` `checked` to today ("11 Nov 2026") and `built` to the ISO date.
 ```
 node scripts/build.mjs
