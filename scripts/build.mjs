@@ -132,6 +132,7 @@ if (ARTIFACT) {
     .replace(/<meta charset="utf-8">\s*/i, "").replace(/<meta name="viewport"[^>]*>\s*/i, "")
     .replace(/<title>Rondom<\/title>/, '<title>Rondom</title>\n<meta name="claude:viewport-fit-sides" content="cover">')
     .replace(/<\/head>\s*<body>\s*/i, "").replace(/\s*<\/body>\s*<\/html>\s*$/i, "\n");
+  html = html.replace("--sat: env(safe-area-inset-top, 0px);", "--sat: 0px;"); // the artifact host already pads the page by the top inset
 }
 
 /* ---------- ICS feeds: one per person plus tier 1, subscribed once on each phone ---------- */

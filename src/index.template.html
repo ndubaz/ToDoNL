@@ -32,7 +32,7 @@
   --ok: #7fdca8; --warn: #ffc875; --bad: #ffb3b3;
   --display: "Bricolage Grotesque", "Avenir Next", "Helvetica Neue", sans-serif;
   --body: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", sans-serif;
-  --r: 14px; --tabh: 64px; --rail: 0px;
+  --r: 14px; --tabh: 64px; --rail: 0px; --sat: env(safe-area-inset-top, 0px);
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -50,9 +50,9 @@ a { color: var(--new); text-underline-offset: 3px; }
 h1, h2, h3, .disp { font-family: var(--display); font-weight: 700; letter-spacing: -.01em; }
 
 /* ===== Header: full title block on Home, slim bar elsewhere and on scroll ===== */
-.top { position: sticky; top: 0; z-index: 40; background: rgba(11,21,24,.96); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid transparent; }
+.top { position: sticky; top: 0; z-index: 40; padding-top: var(--sat); background: rgba(11,21,24,.96); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid transparent; }
 .top.slim { border-bottom-color: var(--line); }
-.slimbar { display: flex; align-items: center; gap: 10px; height: 52px; padding-top: env(safe-area-inset-top); }
+.slimbar { display: flex; align-items: center; gap: 10px; height: 52px; }
 .slimbar img { width: 28px; height: 28px; border-radius: 8px; }
 .slimbar .nm { font-family: var(--display); font-weight: 700; font-size: 1.1rem; flex: 1; }
 .iconbtn { border: 1px solid var(--line); background: var(--s1); border-radius: 12px; min-width: 44px; height: 44px; padding: 0 12px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; font-weight: 600; color: var(--t2); }
@@ -151,8 +151,8 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
 .row2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
 
 /* ===== Updated line, heat strip, health card ===== */
-.upd { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; color: var(--t2); font-size: .86rem; margin: 6px 0 2px; }
-.upd .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--ok); flex: none; }
+.upd { display: block; color: var(--t2); font-size: .86rem; margin: 6px 0 2px; }
+.upd .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--ok); margin-right: 7px; vertical-align: -1px; }
 .upd .dot.warn { background: var(--warn); } .upd .dot.bad { background: var(--bad); }
 .heat { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 3px; margin: 10px 0 2px; }
 .heat button { border: 1px solid var(--line); background: var(--s1); border-radius: 7px; padding: 5px 0 4px; display: grid; gap: 2px; justify-items: center; color: var(--t2); min-height: 44px; }
@@ -245,9 +245,10 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
 /* ===== Sheets (mobile detail, filters, day list, settings) ===== */
 .scrim { position: fixed; inset: 0; background: rgba(3,8,10,.74); z-index: 60; }
 .sheet { position: fixed; z-index: 61; inset: 0; background: var(--bg); overflow-y: auto; overscroll-behavior: contain; padding-bottom: calc(30px + env(safe-area-inset-bottom)); }
+.sheet .shead { padding-top: calc(10px + var(--sat)); }
 .sheet.bottom { inset: auto 0 0 0; max-height: 82vh; border-radius: 18px 18px 0 0; border-top: 1px solid var(--line); }
 .sheet[hidden], .scrim[hidden] { display: none; }
-.shead { position: sticky; top: 0; z-index: 2; background: rgba(11,21,24,.97); border-bottom: 1px solid var(--line); padding: calc(10px + env(safe-area-inset-top)) 16px 10px; display: flex; align-items: center; gap: 10px; }
+.shead { position: sticky; top: 0; z-index: 2; background: rgba(11,21,24,.97); border-bottom: 1px solid var(--line); padding: 10px 16px; display: flex; align-items: center; gap: 10px; }
 .sheet.bottom .shead { padding-top: 10px; }
 .shead .stitle { flex: 1; min-width: 0; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .sbody { padding: 16px 16px 0; }
