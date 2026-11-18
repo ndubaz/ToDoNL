@@ -8,7 +8,7 @@ Nick's phone-first web app for events worth a drive from Hoensbroek, NL (next to
 - `src/index.template.html` is the whole app: HTML, CSS and vanilla JS. No framework, no npm dependencies. `src/sw.template.js` is the service worker.
 - `scripts/build.mjs` validates the data and builds `public/index.html` + `public/sw.js` (Vercel). With `--artifact`, it builds `dist/artifact.html` (claude.ai artifact, single file, icon inlined).
 - `scripts/triage.mjs` prints what the weekly refresh should re-check. `scripts/apply-refresh.mjs` applies the refresh from JSON result files (removals, changes, additions, planBy, meta). `scripts/drive-times.mjs` fills `driveMin` from the OSRM router. `scripts/icons.mjs` renders the PNG icons from `public/icons/favicon.svg`.
-- `docs/UPDATE.md` is the weekly refresh procedure. Follow it exactly for scheduled runs.
+- `docs/UPDATE.md` is the weekly refresh procedure. Follow it exactly for scheduled runs. `docs/ANTWERP.md` lists the Antwerp agenda pages for the standing Antwerp pass in every run.
 - `data/CHANGELOG.md` records data changes, newest first. `BACKLOG.md` lists bugs, shortcuts and unverified items; fix them in one batch when Nick says "execute the backlog".
 - `vercel.json` sets the build (`node scripts/build.mjs`), the output directory (`public`) and cache headers.
 

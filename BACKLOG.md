@@ -49,6 +49,13 @@ Bugs, shortcuts and unverified items. Fixed in one batch when Nick says "execute
 - Still open: TXT 2027 European cities (label says more information to come); superprestige.be and jumpingmechelen.com (the session network refuses both hosts: add them to the environment's allowed hosts, or accept the Sporza calendar as the basis and leave them projected); ville-dunkerque.fr (403 to automated clients; try `venue-browse.mjs` in January); the Beat venues and Accor Arena are not in `venue-feeds.mjs` yet (their data endpoints work by hand).
 - Radius decision for Nick: Main Square Festival Arras (195 min, tier 2) and the Saint-Nicolas parade in Nancy (240 min, tier 2) were skipped. Options are in the 18 Nov report.
 
+## Antwerp pass, 18 Nov 2026
+- Weak dates to confirm: Antwerp Pride 2027 (organizer still choosing the week), New Year's Eve fireworks 2026 (projected from last year's press release), Museumnacht 7 Aug 2027 (date from the Rubenshuis calendar, not the organizer), Bierpassie Weekend hours (last edition's), start times and prices for the Concertgebouw and Petrenko concerts (Antwerp Symphony site queues).
+- Not found with dates: Antwerpen Proeft (probably 6 to 9 May 2027), Cultuurmarkt, Borgerrio, Linkerwoofer, Fire Is Gold, Zomer van Antwerpen, Antwerp Fashion Festival, Stampe Fly-In 2027, any military or aviation open day, the 4 Sep liberation commemoration, Snijders&Rockoxhuis Rubens notebook show (two official start dates conflict), MAS "We are here" (end date conflict).
+- Not read: Opera Ballet Vlaanderen, Visit Mechelen, Hof van Busleyden, Kazerne Dossin, De Roma, Trix beyond its first page, Lier, Turnhout, Geel, Kalmthout. visit.antwerpen.be and antwerpen.be refuse automated clients; use the press rooms in docs/ANTWERP.md.
+- Il Volo at Forest National 10 Oct 2027 is not in the venue's listing (feed check); confirm or remove on 25 Nov.
+- Premier League Darts at AFAS Dome 25 Mar 2027 appears in the feed; not added (sport at a concert venue). Add if wanted.
+
 ## Code
 - Plan conflicts consider only entries spanning 3 days or fewer; long-running exhibitions never clash.
 - Deep links to the Browse filters (kind, country, month) are not in the hash; only tabs and entries are.
