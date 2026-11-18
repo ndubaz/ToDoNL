@@ -3,10 +3,14 @@
 // Output: { read: {venue: count}, failed: [...], candidates: [...], cancelled: [...] }. Candidates are raw listings
 // (venueId, title, date, doors, start, status, url, priceFrom); the refresh still judges each one against the bar
 // (K-pop, stadium, major international act) and writes the concert object. --all prints every listing, not only new ones.
-// Feeds: Ziggo Dome API, Lanxess JSON export, D.LIVE calendars (PSD Bank Dome, Mitsubishi Electric Halle),
+// Feeds: Ziggo Dome API, Lanxess JSON export, D.LIVE calendars (PSD Bank Dome, Mitsubishi Electric Halle), be-at venues
+// (AFAS Dome, Lotto Arena, Trixxo Arena Hasselt, Forest National),
 // Westfalenhalle event finder (HTML), Festhalle (Messe Frankfurt event API, read through headless Chromium).
 import { readFileSync, writeFileSync } from "node:fs";
 import { createRequire } from "node:module";
+import { execFileSync } from "node:child_process";
+import { mkdtempSync } from "node:fs";
+import { tmpdir } from "node:os";
 const root = new URL("..", import.meta.url);
 const args = process.argv.slice(2), ALL = args.includes("--all");
 const outFile = args.includes("--out") ? args[args.indexOf("--out") + 1] : null;
@@ -48,6 +52,23 @@ await feed("festhalle-frankfurt", async () => {
   for (const r of JSON.parse(body).result.hits) list.push({ venueId: "festhalle-frankfurt", title: r.eventname, sub: r.subtitle || "", kind: r.formatname, date: r.startdate, end: r.enddate, doors: null, start: null, status: r.cancelled === "Y" ? "canceled" : r.postponed === "Y" ? "postponed" : null, url: r.interneturl });
 });
 
+// be-at venues (AFAS Dome and Lotto Arena in Antwerp, Trixxo Arena in Hasselt, Forest National in Brussels): the pages redirect
+// plain clients to a login, but with a cookie jar the sitemap gives the event slugs and Next.js serves each event as JSON.
+const curl = (jar, u) => execFileSync("curl", ["-sSL", "-m", "40", "-c", jar, "-b", jar, u], { encoding: "utf8", maxBuffer: 64e6 });
+function beatDecode(arr) { const memo = new Map(); const g = i => { if (i < 0) return undefined; if (memo.has(i)) return memo.get(i); const n = arr[i]; let v; if (n[0] === 0) v = n[1]; else if (n[0] === 1) { v = []; memo.set(i, v); for (const j of n[1]) v.push(g(j)); return v; } else if (n[0] === 2) { v = {}; memo.set(i, v); for (const [k, j] of n[1]) v[g(k)] = g(j); return v; } memo.set(i, v); return v; }; return g(0); }
+for (const [venueId, host] of [["sportpaleis-antwerp", "www.afas-dome.be"], ["lotto-arena", "www.lotto-arena.be"], ["trixxo-arena", "www.trixxo-arena.be"], ["forest-national", "www.vorst-nationaal.be"]]) await feed(venueId, async () => {
+  const jar = mkdtempSync(tmpdir() + "/beat-") + "/cj.txt";
+  const home = curl(jar, `https://${host}/`); const build = (/"buildId":"([^"]+)"/.exec(home) || [])[1]; if (!build) throw new Error("no buildId (login wall)");
+  const slugs = [...new Set([...curl(jar, `https://${host}/sitemap.xml`).matchAll(/<loc>https:\/\/[^<]*?\/evenement\/([^<\/]+)</g)].map(m => m[1]))];
+  for (const slug of slugs) {
+    let d; try { d = JSON.parse(curl(jar, `https://${host}/_next/data/${build}/nl/evenement/${slug}.json`)); } catch (e) { continue; }
+    const pd = d.pageProps && d.pageProps.pageData; if (!pd) continue; const c = (Array.isArray(pd) ? beatDecode(pd) : pd).content || {};
+    if (c.eventTimeStatus === "ended") continue;
+    const dates = [...String(c.date || "").matchAll(/(\d{2})\.(\d{2})\.(\d{4})/g)].map(m => `${m[3]}-${m[2]}-${m[1]}`);
+    for (const date of dates) list.push({ venueId, title: c.name, sub: c.tourName || "", date, doors: null, start: null, status: c.statusCta && c.statusCta.label || null, url: `https://${host}/evenement/${slug}` });
+  }
+});
+
 const known = new Set(concerts.map(c => `${c.venueId}|${c.date}|${norm(c.artist).split(" ")[0]}`));
 const knownDay = new Set(concerts.map(c => `${c.venueId}|${c.date}`));
 const future = list.filter(x => x.date && x.date >= today);
@@ -57,7 +78,8 @@ const candidates = future.filter(x => !isCancel(x) && (ALL || !known.has(`${x.ve
 const cancelled = future.filter(x => /cancel|postpon/i.test(x.status || "")).map(x => { const c = concerts.find(c => c.venueId === x.venueId && c.date === x.date && norm(c.artist).split(" ")[0] === norm(x.title).split(" ")[0]); return c ? { id: c.id, venueStatus: x.status, url: x.url } : null; }).filter(Boolean);
 // Entries in the data that a fully read venue no longer lists at all.
 const full = new Set(Object.keys(read).filter(v => read[v] > 0));
-const missing = concerts.filter(c => full.has(c.venueId) && c.date >= today && !future.some(x => x.venueId === c.venueId && x.date === c.date)).map(c => ({ id: c.id, artist: c.artist, date: c.date, confidence: c.confidence }));
+const first = t => norm(t).split(" ").find(w => w.length > 2 && !["the", "die", "der", "les"].includes(w)) || norm(t);
+const missing = concerts.filter(c => full.has(c.venueId) && c.date >= today && !future.some(x => x.venueId === c.venueId && (x.date === c.date || first(x.title) === first(c.artist)))).map(c => ({ id: c.id, artist: c.artist, date: c.date, confidence: c.confidence }));
 const out = { today, read, failed, candidates, cancelled, missingFromVenue: missing };
 if (outFile) { writeFileSync(outFile, JSON.stringify(out, null, 1)); console.log(JSON.stringify({ read, failed, candidates: candidates.length, cancelled: cancelled.length, missingFromVenue: missing.length }, null, 1)); }
 else console.log(JSON.stringify(out, null, 1));
