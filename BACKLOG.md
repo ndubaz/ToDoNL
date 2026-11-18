@@ -38,6 +38,11 @@ Bugs, shortcuts and unverified items. Fixed in one batch when Nick says "execute
 - Hosts blocked or broken for the refresh: psdbankdome.de (bad TLS certificate), westfalenhalle.de and festhalle.de (503), tomorrowland.com, superprestige.be, jumpingmechelen.com, kattenstoet.be (503), hollandfestival.nl (403), mkv-mg.de.
 - 48 of the 91 new concerts are tier 3 arena shows; if Nick finds the concert lane too noisy, raise the bar in UPDATE.md step 2 to tier 1 and 2 only.
 
+## From the 18 Nov 2026 refresh
+- Unresolved leads: TXT June 2027 (Amsterdam, Antwerp, Köln; txtofficial.com blocked), EVNNE Kantine Köln 19 Feb 2027 (Eventim lists it, kantine.com does not), PSD Bank Dome 2027 (Five Finger Death Punch 26 Jan, Rod Stewart 3 Jun, Foreigner 16 Oct, Fontaines D.C. 24 Aug), Céline Dion Plenitude Arena May 2027 (no individual dates), ATEEZ Ziggo Dome 12 Apr 2027 (not on the venue agenda; drop if still absent on 2 Dec), Westlife 24 Nov 2026 may be at the Lotto Arena rather than AFAS Dome (unverified), FACTS Gent spring edition 3 to 4 Apr 2027 (not added; fall edition stays projected), Eurovision German final 2027 (February, no venue), Quatre Jours de Dunkerque and Ironman Frankfurt 2027 dates.
+- Dunkerque carnival 2027 is projected from the calendar pattern because ville-dunkerque.fr blocks the fetcher; confirm or drop in January.
+- Working venue-reading methods for the sweep (keep in UPDATE.md): Ziggo Dome API paginates with ?offset=N&limit=20 and detail needs a trailing slash; Lanxess has a JSON export at /events-tickets/eventkalender/export/JSON/out.json; Beat venues via sitemap slugs plus _next/data/<buildId>/<lang>/event/<slug>.json; Accor Arena full agenda at /en/events-and-tickets?view=calendar; ING Arena dates only on show pages.
+
 ## Code
 - Plan conflicts consider only entries spanning 3 days or fewer; long-running exhibitions never clash.
 - Deep links to the Browse filters (kind, country, month) are not in the hash; only tabs and entries are.
