@@ -18,6 +18,8 @@ Nick's phone-first web app for events worth a drive from Hoensbroek, NL (next to
 node scripts/build.mjs              # build the Vercel site (run after every data edit; it fails on bad data)
 node scripts/build.mjs --artifact   # build the claude.ai artifact version
 node scripts/triage.mjs --days 45 --max 80
+node scripts/venue-feeds.mjs --out <file>       # read six venue agendas from their data feeds; lists new, cancelled and missing shows
+node scripts/venue-browse.mjs <url> [--json]    # render a script-built page in headless Chromium (text or the JSON it fetched)
 node scripts/apply-refresh.mjs --dir <folder>   # apply a weekly refresh from the research JSON files (see docs/UPDATE.md step 5)
 node scripts/drive-times.mjs        # fill driveMin for entries where it is null (OSRM, rounded to 5 min)
 node scripts/icons.mjs              # re-render PNG icons after changing favicon.svg

@@ -1,6 +1,6 @@
 # Weekly data refresh
 
-Runs every Wednesday at 02:30 Europe/Amsterdam as a Claude Code scheduled task. It adds new shows and events, confirms what is coming up, flips statuses, and redeploys. Budget: about 25 web searches and 80 page fetches. Prefer fetching the `source` URL and the venue's own agenda over searching. Never invent dates. Null when unknown.
+Runs every Wednesday at 02:30 Europe/Amsterdam as a Claude Code scheduled task. It adds new shows and events, confirms what is coming up, flips statuses, and redeploys. Budget: about 25 web searches and 120 page fetches (the venue feeds are free, so spend the fetches on step 4; aim to reach every entry in `soon` and `projected`, which triage now orders oldest check first). Prefer fetching the `source` URL and the venue's own agenda over searching. Never invent dates. Null when unknown.
 
 ## 0. Get the repo
 If `/home/user/ToDoNL` (or any checkout of `ndubaz/ToDoNL`) is not in the working directory, attach it with the `add_repo` tool (owner `ndubaz`, repo `ToDoNL`, access `push`), run the clone command it returns, then `register_repo_root`. Then:
@@ -16,11 +16,23 @@ node scripts/triage.mjs --days 45 --max 80
 It prints `soon` (entries starting or going on sale in the next 45 days), `projected` (all), `stale` (not verified in 60 days), `removeExpired`, `removeCancelled` and the `venues` list with every `listingsUrl`.
 
 ## 2. Venue sweep
-Fetch every `listingsUrl` in `data/venues.json` (22 venues). Methods that work: Ziggo Dome JSON API (`/api/agenda/?offset=N&limit=20`, detail `/api/agenda/events/{id}/` with the trailing slash, includes minTicketPrice); Lanxess Arena JSON export (`/events-tickets/eventkalender/export/JSON/out.json`); Beat venues (afas-dome.be, lotto-arena.be, forest-national.be) via sitemap slugs and `_next/data/<buildId>/<lang>/event/<slug>.json` with a cookie jar, since their HTML redirects to a login; ING Arena show pages (the REST API gives titles only); Accor Arena at `/en/events-and-tickets?view=calendar`; Rockhal, Rudolf Weber-Arena, Plenitude Arena, Stade de France (`/fr/billetteries/concerts`), AFAS Live, Ahoy, GelreDome and Johan Cruijff ArenA read directly. PSD Bank Dome, Westfalenhallen and Festhalle fail on TLS or 503 and Mitsubishi Electric Halle and MECC are script-rendered: use the promoter pages (FKP Scorpio, Semmel, Live Nation, Handwerker Promotion, the Dortmund city calendar) for their leads, and say in the report when a venue could not be read. Add:
+Start with the feeds; they cost no research budget:
+```
+node scripts/venue-feeds.mjs --out <folder>/feeds.json
+```
+It reads Ziggo Dome (agenda API), Lanxess Arena (JSON export), PSD Bank Dome and Mitsubishi Electric Halle (D.LIVE calendar data), Westfalenhalle (event finder) and Festhalle Frankfurt (Messe Frankfurt event API through headless Chromium), and prints `candidates` (listings not in `data/concerts.json`), `cancelled` (venue marks an entry of ours cancelled or postponed) and `missingFromVenue` (an entry of ours the venue no longer lists: check it, and if it stays missing two runs in a row set it to cancelled or remove a projected one). Judge each candidate against the bar below and write the concert objects to `venue-new.json`.
+
+Then read the venues the script does not cover: the Beat venues (afas-dome.be, lotto-arena.be, forest-national.be) via sitemap slugs and `_next/data/<buildId>/<lang>/event/<slug>.json` with a cookie jar, since their HTML redirects to a login; ING Arena show pages (`https://ing.arena.brussels/shows/`); Accor Arena at `/en/events-and-tickets?view=calendar`; Rockhal, Rudolf Weber-Arena, Plenitude Arena, Stade de France (`/fr/billetteries/concerts`), AFAS Live, Ahoy, GelreDome, Johan Cruijff ArenA and MECC directly. For any page built by scripts that a plain fetch returns empty, render it:
+```
+node scripts/venue-browse.mjs <url> [--more "<load more text>"] [--json] [--out file]
+```
+It prints the rendered text, or with `--json` every JSON response the page fetched, which usually reveals a data endpoint to call directly next time (add it to `venue-feeds.mjs`). Check the domain before calling a host dead: the PSD Bank Dome lives at psd-bank-dome.de and the Westfalenhalle at westfalenhalle.de; the look-alike domains fail on TLS. Say in the report when a venue could not be read.
+
+Add:
 - every K-pop act regardless of size (genre `kpop`, `for: ["alma"]`, `sellOutRisk: "high"`), including fan events and conventions;
 - every stadium show;
 - arena shows by major international acts.
-Skip tribute acts, comedy, musicals, sport, small-club shows. New concerts get `addedOn` today, a `doors` time if the venue prints one, `onSale` when a sale date is in the future, `priceFrom` only when a regular price is printed, `ticketUrl`, `source` (the venue page), `tour`, `note`.
+Skip tribute acts, comedy, musicals, sport, small-club shows. New concerts get `addedOn` today, a `doors` time if the venue prints one, `onSale` when a sale date is in the future, `priceFrom` only when a regular price is printed, `ticketUrl`, `source` (the venue page), `tour`, `why`, `note`. When a label announces tour cities before venues exist, add the date as projected with `venueId: null`, the city centre as coordinates and a `dateNote`; move it to the venue once the venue lists it.
 
 ## 3. Discovery searches
 Run at least one search per category (spectacle, festival, K-pop, military, aviation, sport, museum, food, culture, Eurovision-related events such as pre-parties and national finals inside the radius, Italian artists on tour and Sanremo-related events, and learning experiences for Alma: art workshops, academy open days and Rundgänge, science nights, design and fashion shows; tag those `eurovision`, `italian` and `learning`) for the next 6 months, with the region focus rotating by week of the year (week number modulo 4): A = NL, B = BE and LU, C = NRW and RLP, D = France (Hauts-de-France, Grand Est) and Hessen. Log the rotation letter in the changelog. Research each lead on its official page; add it only when it clears the bar (would a family in Hoensbroek plan a day or weekend around it?) and sits inside the radius (events 180 min, concerts 300 min; tier 1 events up to 240 min with `tierException: true`). Depth follows proximity: inside 60 min anything that clears the bar, 60 to 120 min major regional events, beyond that tier 1 and 2 only.

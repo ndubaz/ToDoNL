@@ -12,8 +12,10 @@ const plus = n => new Date(Date.now() + n * 864e5).toISOString().slice(0, 10);
 const horizon = plus(DAYS), staleBefore = plus(-60);
 const all = [...events.map(e => ({ ...e, type: "event", first: e.start })), ...concerts.map(c => ({ ...c, type: "concert", name: c.artist, first: c.date, end: c.date }))].filter(x => x.end >= today && x.status !== "cancelled");
 const row = x => ({ id: x.id, type: x.type, name: x.name, first: x.first, end: x.end, status: x.status, confidence: x.confidence, onSale: x.onSale || null, planBy: x.planBy || null, verifiedOn: x.verifiedOn || null, source: x.source, ticketUrl: x.ticketUrl || null });
-const soon = all.filter(x => (x.first >= today && x.first <= horizon) || (x.onSale && x.onSale >= today && x.onSale <= horizon) || (x.planBy && x.planBy >= today && x.planBy <= horizon)).sort((a, b) => (a.onSale || a.first).localeCompare(b.onSale || b.first));
-const projected = all.filter(x => x.confidence === "projected").sort((a, b) => a.first.localeCompare(b.first));
+// Oldest check first, then soonest: an entry the last run could not reach goes to the front, so nothing starves.
+const age = x => x.verifiedOn || "0";
+const soon = all.filter(x => (x.first >= today && x.first <= horizon) || (x.onSale && x.onSale >= today && x.onSale <= horizon) || (x.planBy && x.planBy >= today && x.planBy <= horizon)).sort((a, b) => age(a).localeCompare(age(b)) || (a.onSale || a.first).localeCompare(b.onSale || b.first));
+const projected = all.filter(x => x.confidence === "projected").sort((a, b) => age(a).localeCompare(age(b)) || a.first.localeCompare(b.first));
 const stale = all.filter(x => !soon.includes(x) && !projected.includes(x) && (!x.verifiedOn || x.verifiedOn < staleBefore)).sort((a, b) => (a.verifiedOn || "0").localeCompare(b.verifiedOn || "0"));
 const expired = [...events, ...concerts].filter(x => (x.end || x.date) < today).map(x => x.id);
 const cancelledOld = [...events, ...concerts].filter(x => x.status === "cancelled" && x.changedOn && x.changedOn < plus(-30)).map(x => x.id);

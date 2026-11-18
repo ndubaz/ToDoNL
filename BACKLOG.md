@@ -43,6 +43,12 @@ Bugs, shortcuts and unverified items. Fixed in one batch when Nick says "execute
 - Dunkerque carnival 2027 is projected from the calendar pattern because ville-dunkerque.fr blocks the fetcher; confirm or drop in January.
 - Working venue-reading methods for the sweep (keep in UPDATE.md): Ziggo Dome API paginates with ?offset=N&limit=20 and detail needs a trailing slash; Lanxess has a JSON export at /events-tickets/eventkalender/export/JSON/out.json; Beat venues via sitemap slugs plus _next/data/<buildId>/<lang>/event/<slug>.json; Accor Arena full agenda at /en/events-and-tickets?view=calendar; ING Arena dates only on show pages.
 
+## Workarounds found 18 Nov 2026
+- Solved: PSD Bank Dome (wrong domain; real one psd-bank-dome.de), Mitsubishi Electric Halle (D.LIVE data endpoint), Westfalenhalle (westfalenhalle.de event finder), Festhalle (Messe Frankfurt API through the browser), tomorrowland.com (readable; no summer 2027 dates published yet), stalled confirmations (triage orders oldest check first; budget raised to 120 fetches). `scripts/venue-feeds.mjs` and `scripts/venue-browse.mjs` hold the methods.
+- ATEEZ 2027: the label announced Amsterdam 12 Apr, Köln 15 Apr and Antwerp 17 Apr without venues; all three are listed as projected with the city as the place. Move each to its venue when a venue page appears.
+- Still open: TXT 2027 European cities (label says more information to come); superprestige.be and jumpingmechelen.com (the session network refuses both hosts: add them to the environment's allowed hosts, or accept the Sporza calendar as the basis and leave them projected); ville-dunkerque.fr (403 to automated clients; try `venue-browse.mjs` in January); the Beat venues and Accor Arena are not in `venue-feeds.mjs` yet (their data endpoints work by hand).
+- Radius decision for Nick: Main Square Festival Arras (195 min, tier 2) and the Saint-Nicolas parade in Nancy (240 min, tier 2) were skipped. Options are in the 18 Nov report.
+
 ## Code
 - Plan conflicts consider only entries spanning 3 days or fewer; long-running exhibitions never clash.
 - Deep links to the Browse filters (kind, country, month) are not in the hash; only tabs and entries are.

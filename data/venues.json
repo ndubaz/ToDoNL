@@ -11,7 +11,7 @@
   "parking": "ArenA area car parks P1 and P2, pre-book on busy nights",
   "train": "Amsterdam Bijlmer ArenA station, 5 min walk",
   "lez": "Milieuzone: older diesels banned, check amsterdam.nl",
-  "listingsUrl": "https://www.ziggodome.nl/agenda/"
+  "listingsUrl": "https://www.ziggodome.nl/api/agenda/"
  },
  {
   "id": "afas-live",
@@ -137,7 +137,7 @@
   "parking": "Arena car parks P1 to P3, paid; book online for big shows",
   "train": "Direct train Heerlen to Köln Messe/Deutz via Aachen, 10 min walk",
   "lez": "Umweltzone: green sticker needed, foreign cars too",
-  "listingsUrl": "https://www.lanxess-arena.de/"
+  "listingsUrl": "https://www.lanxess-arena.de/events-tickets/eventkalender/export/JSON/out.json"
  },
  {
   "id": "psd-bank-dome",
@@ -151,7 +151,7 @@
   "parking": "Car parks on site, paid",
   "train": "S-Bahn to Düsseldorf-Rath, 10 min walk",
   "lez": "Umweltzone: green sticker needed, foreign cars too",
-  "listingsUrl": "https://www.psdbankdome.de/events"
+  "listingsUrl": "https://www.psd-bank-dome.de/events-tickets/eventkalender"
  },
  {
   "id": "mitsubishi-electric-halle",
@@ -165,7 +165,7 @@
   "parking": "Car park on site, paid",
   "train": "U-Bahn to Oberbilker Markt / Philipshalle",
   "lez": "Umweltzone: green sticker needed, foreign cars too",
-  "listingsUrl": "https://www.mitsubishi-electric-halle.de/"
+  "listingsUrl": "https://www.mitsubishi-electric-halle.de/events-tickets/eventkalender"
  },
  {
   "id": "westfalenhalle",
@@ -179,7 +179,7 @@
   "parking": "Westfalenhallen car parks, paid",
   "train": "Dortmund Hbf, then U45 or U46 to Westfalenhallen",
   "lez": "Umweltzone: green sticker needed, foreign cars too",
-  "listingsUrl": "https://www.westfalenhallen.de/veranstaltungen"
+  "listingsUrl": "https://www.westfalenhalle.de/events-tickets/eventfinder/"
  },
  {
   "id": "rudolf-weber-arena",
@@ -221,7 +221,7 @@
   "parking": "Messe car parks, paid",
   "train": "Frankfurt Hbf or Messe station, 10 min walk",
   "lez": "Umweltzone: green sticker needed, foreign cars too",
-  "listingsUrl": "https://www.festhalle.de/veranstaltungen"
+  "listingsUrl": "https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen.html"
  },
  {
   "id": "deutsche-bank-park",

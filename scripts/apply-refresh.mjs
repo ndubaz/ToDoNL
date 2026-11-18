@@ -52,7 +52,7 @@ const byId = {}; [...E, ...C].forEach(x => byId[x.id] = x);
 const DATEF = ["start", "end", "days", "date"];
 function applyChange(id, changes, note, fetched) {
   const x = byId[id]; if (!x) { summary.failed.push(`change for unknown id ${id}`); return; }
-  if (fetched !== false) { x.verifiedOn = TODAY; summary.verified++; }
+  if (fetched !== false) { x.verifiedOn = TODAY; summary.verified++; delete x.unreachableOn; } else x.unreachableOn = TODAY; // tried, page would not load
   if (!changes || !Object.keys(changes).length) return;
   if (changes.confidence === "projected" && x.confidence === "confirmed") delete changes.confidence; // never downgrade
   const isEvent = "start" in x;

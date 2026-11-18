@@ -118,6 +118,33 @@
   "why": "2026 H1GHR SEASON in EUROPE & UK at Q-Factory, Amsterdam."
  },
  {
+  "id": "hatsune-miku-psd-bank-dome-2026-11-20",
+  "artist": "Hatsune Miku",
+  "short": "Hatsune Miku",
+  "venueId": "psd-bank-dome",
+  "date": "2026-11-20",
+  "doors": "19:00",
+  "genre": "pop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.psd-bank-dome.de/event/hatsune-miku-20-11-2026",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.psd-bank-dome.de/event/hatsune-miku-20-11-2026",
+  "tour": "MIKU EXPO 2026 EUROPE",
+  "why": "MIKU EXPO 2026 EUROPE at PSD Bank Dome, Düsseldorf.",
+  "note": "Show starts 21:00.",
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": null
+ },
+ {
   "id": "night-of-the-proms-sportpaleis-2026-11-21",
   "artist": "Night of the Proms 2026",
   "short": "Night of the Proms",
@@ -169,6 +196,33 @@
   "verifiedOn": "2026-11-11",
   "tier": 2,
   "why": "Rise of the Roach at Lanxess Arena, Köln."
+ },
+ {
+  "id": "bob-dylan-festhalle-2026-11-22",
+  "artist": "Bob Dylan",
+  "short": "Bob Dylan",
+  "venueId": "festhalle-frankfurt",
+  "date": "2026-11-22",
+  "doors": null,
+  "genre": "rock",
+  "for": [
+   "nick"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": "https://festhalle.messefrankfurt.com/frankfurt/de/event-calendar/bob-dylan.html",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://festhalle.messefrankfurt.com/frankfurt/de/event-calendar/bob-dylan.html",
+  "tour": "Rough and Rowdy Ways",
+  "why": "Rough and Rowdy Ways at Festhalle, Frankfurt.",
+  "note": null,
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": null
  },
  {
   "id": "tayc-afas-live-2026-11-22",
@@ -250,6 +304,34 @@
   "planBy": null
  },
  {
+  "id": "muse-psd-bank-dome-2026-11-24",
+  "artist": "Muse",
+  "short": "Muse",
+  "venueId": "psd-bank-dome",
+  "date": "2026-11-24",
+  "doors": "19:00",
+  "genre": "rock",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": "https://www.psd-bank-dome.de/event/muse-24-11-2026",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.psd-bank-dome.de/event/muse-24-11-2026",
+  "tour": "The Wow! Signal Europa Tour",
+  "why": "The Wow! Signal Europa Tour at PSD Bank Dome, Düsseldorf.",
+  "note": "Show starts 20:30.",
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": null
+ },
+ {
   "id": "taemin-afas-live-2026-11-24",
   "artist": "TAEMIN",
   "short": "TAEMIN",
@@ -300,6 +382,34 @@
   "verifiedOn": "2026-11-04",
   "tier": 2,
   "why": "Westlife 25: The Anniversary World Tour at AFAS Dome (Sportpaleis), Antwerp."
+ },
+ {
+  "id": "muse-psd-bank-dome-2026-11-25",
+  "artist": "Muse",
+  "short": "Muse",
+  "venueId": "psd-bank-dome",
+  "date": "2026-11-25",
+  "doors": "19:00",
+  "genre": "rock",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": "https://www.psd-bank-dome.de/event/muse-25-11-2026",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.psd-bank-dome.de/event/muse-25-11-2026",
+  "tour": "The Wow! Signal Europa Tour",
+  "why": "The Wow! Signal Europa Tour at PSD Bank Dome, Düsseldorf.",
+  "note": "Show starts 20:30.",
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": null
  },
  {
   "id": "westlife-lanxess-2026-11-25",
@@ -730,6 +840,34 @@
   "planBy": "2026-11-19"
  },
  {
+  "id": "sarah-brightman-meh-2026-12-03",
+  "artist": "Sarah Brightman",
+  "short": "Sarah Brightman",
+  "venueId": "mitsubishi-electric-halle",
+  "date": "2026-12-03",
+  "doors": "20:00",
+  "genre": "classical",
+  "for": [
+   "anne",
+   "nick"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.mitsubishi-electric-halle.de/event/sarah-brightman-03-12-2026",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.mitsubishi-electric-halle.de/event/sarah-brightman-03-12-2026",
+  "tour": "CHRISTMAS SPECTACLE ‘A WINTER SYMPHONY’",
+  "why": "CHRISTMAS SPECTACLE ‘A WINTER SYMPHONY’ at Mitsubishi Electric Halle, Düsseldorf.",
+  "note": "Show starts 21:00.",
+  "tier": 3,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2026-11-19"
+ },
+ {
   "id": "beabadoobee-forest-national-2026-12-04",
   "artist": "beabadoobee",
   "short": "beabadoobee",
@@ -810,6 +948,33 @@
   "why": "Klassik trifft Pop 2026 at Lanxess Arena, Köln."
  },
  {
+  "id": "kehlani-psd-bank-dome-2026-12-05",
+  "artist": "Kehlani",
+  "short": "Kehlani",
+  "venueId": "psd-bank-dome",
+  "date": "2026-12-05",
+  "doors": "19:00",
+  "genre": "pop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.psd-bank-dome.de/event/kehlani-05-12-2026",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.psd-bank-dome.de/event/kehlani-05-12-2026",
+  "tour": "THE KEHLANI WORLD TOUR",
+  "why": "THE KEHLANI WORLD TOUR at PSD Bank Dome, Düsseldorf.",
+  "note": "Show starts 21:00.",
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": null
+ },
+ {
   "id": "kehlani-ziggo-2026-12-06",
   "artist": "Kehlani",
   "short": "Kehlani",
@@ -865,6 +1030,33 @@
   "planBy": "2026-11-18"
  },
  {
+  "id": "beabadoobee-meh-2026-12-07",
+  "artist": "beabadoobee",
+  "short": "beabadoobee",
+  "venueId": "mitsubishi-electric-halle",
+  "date": "2026-12-07",
+  "doors": "19:30",
+  "genre": "pop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.mitsubishi-electric-halle.de/event/beabadoobee",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.mitsubishi-electric-halle.de/event/beabadoobee",
+  "tour": "The Powerlines Tour",
+  "why": "The Powerlines Tour at Mitsubishi Electric Halle, Düsseldorf.",
+  "note": "Show starts 21:00.",
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": null
+ },
+ {
   "id": "phoebe-bridgers-ziggo-2026-12-07",
   "artist": "Phoebe Bridgers",
   "short": "Phoebe Bridgers",
@@ -893,6 +1085,34 @@
   "planBy": null,
   "prevStatus": "soldout",
   "changedOn": "2026-11-18"
+ },
+ {
+  "id": "phoebe-bridgers-psd-bank-dome-2026-12-08",
+  "artist": "Phoebe Bridgers",
+  "short": "Phoebe Bridgers",
+  "venueId": "psd-bank-dome",
+  "date": "2026-12-08",
+  "doors": "19:00",
+  "genre": "pop",
+  "for": [
+   "alma",
+   "anne"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.psd-bank-dome.de/event/phoebe-bridgers-08-12-2026",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.psd-bank-dome.de/event/phoebe-bridgers-08-12-2026",
+  "tour": "The Lost Tour 2026",
+  "why": "The Lost Tour 2026 at PSD Bank Dome, Düsseldorf.",
+  "note": "Show starts 21:00.",
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": null
  },
  {
   "id": "andre-rieu-kerst-mecc-2026-12-11",
@@ -1215,6 +1435,33 @@
   "why": "In Concert - New Year's Eve 2026 at Forest National, Brussels."
  },
  {
+  "id": "die-fantastischen-vier-westfalenhalle-2027-01-07",
+  "artist": "Die Fantastischen Vier",
+  "short": "Die Fantastischen Vier",
+  "venueId": "westfalenhalle",
+  "date": "2027-01-07",
+  "doors": null,
+  "genre": "hiphop",
+  "for": [
+   "nick"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.westfalenhalle.de/events-tickets/eventfinder/event-detail/die-fantastischen-vier/der-letzte-bus/",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.westfalenhalle.de/events-tickets/eventfinder/event-detail/die-fantastischen-vier/der-letzte-bus/",
+  "tour": null,
+  "why": "Live at Westfalenhalle, Dortmund.",
+  "note": null,
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2026-12-17"
+ },
+ {
   "id": "andre-rieu-ziggo-2027-01-09",
   "artist": "André Rieu",
   "short": "Rieu Nieuwjaar",
@@ -1439,6 +1686,33 @@
   "verifiedOn": "2026-11-18",
   "tier": 1,
   "why": "aespa LIVE TOUR - SYNK : COMPLæXITY at Ziggo Dome, Amsterdam."
+ },
+ {
+  "id": "five-finger-death-punch-psd-bank-dome-2027-01-26",
+  "artist": "Five Finger Death Punch",
+  "short": "Five Finger Death Punc",
+  "venueId": "psd-bank-dome",
+  "date": "2027-01-26",
+  "doors": "18:00",
+  "genre": "rock",
+  "for": [
+   "nick"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.psd-bank-dome.de/event/five-finger-death-punch-26-01-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.psd-bank-dome.de/event/five-finger-death-punch-26-01-2027",
+  "tour": "20th Anniversary World Tour",
+  "why": "20th Anniversary World Tour at PSD Bank Dome, Düsseldorf.",
+  "note": "Show starts 20:00.",
+  "tier": 3,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-01-12"
  },
  {
   "id": "ayra-starr-forest-national-2027-01-31",
@@ -1842,6 +2116,33 @@
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-11",
   "planBy": "2027-02-03"
+ },
+ {
+  "id": "role-model-meh-2027-02-17",
+  "artist": "Role Model",
+  "short": "Role Model",
+  "venueId": "mitsubishi-electric-halle",
+  "date": "2027-02-17",
+  "doors": "19:30",
+  "genre": "pop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.mitsubishi-electric-halle.de/event/role-model-presents-17-02-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.mitsubishi-electric-halle.de/event/role-model-presents-17-02-2027",
+  "tour": "Chuck on Tour",
+  "why": "Chuck on Tour at Mitsubishi Electric Halle, Düsseldorf.",
+  "note": "Show starts 21:00.",
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-01-27"
  },
  {
   "id": "disney-descendants-zombies-lanxess-2027-02-18",
@@ -2537,6 +2838,34 @@
   "planBy": "2027-02-17"
  },
  {
+  "id": "james-blunt-psd-bank-dome-2027-03-13",
+  "artist": "James Blunt",
+  "short": "James Blunt",
+  "venueId": "psd-bank-dome",
+  "date": "2027-03-13",
+  "doors": "19:30",
+  "genre": "pop",
+  "for": [
+   "anne",
+   "family"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.psd-bank-dome.de/event/james-blunt-13-03-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.psd-bank-dome.de/event/james-blunt-13-03-2027",
+  "tour": "Airplane Mode Tour",
+  "why": "Airplane Mode Tour at PSD Bank Dome, Düsseldorf.",
+  "note": "Show starts 21:00.",
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-02-20"
+ },
+ {
   "id": "teddy-swims-lanxess-2027-03-13",
   "artist": "Teddy Swims",
   "short": "Teddy Swims Köln",
@@ -2865,6 +3194,33 @@
   "why": "The Unraveled Tour at Ziggo Dome, Amsterdam."
  },
  {
+  "id": "megadeth-meh-2027-03-25",
+  "artist": "Megadeth",
+  "short": "Megadeth",
+  "venueId": "mitsubishi-electric-halle",
+  "date": "2027-03-25",
+  "doors": "19:30",
+  "genre": "rock",
+  "for": [
+   "nick"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.mitsubishi-electric-halle.de/event/megadeth-25-03-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.mitsubishi-electric-halle.de/event/megadeth-25-03-2027",
+  "tour": "Breakout: Hibernation Of The Nations EU Tour 2027",
+  "why": "Breakout: Hibernation Of The Nations EU Tour 2027 at Mitsubishi Electric Halle, Düsseldorf.",
+  "note": "Show starts 21:00.",
+  "tier": 3,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-03-11"
+ },
+ {
   "id": "tash-sultana-ziggo-2027-03-26",
   "artist": "Tash Sultana",
   "short": "Tash Sultana",
@@ -3084,29 +3440,35 @@
  {
   "id": "ateez-ziggo-2027-04-12",
   "artist": "ATEEZ",
-  "short": "ATEEZ",
-  "venueId": "ziggo-dome",
+  "short": "ATEEZ Amsterdam",
+  "venueId": null,
   "date": "2027-04-12",
   "doors": null,
   "genre": "kpop",
   "for": [
    "alma"
   ],
-  "status": "announced",
+  "status": "tbd",
   "onSale": null,
   "sellOutRisk": "high",
   "ticketUrl": "https://ateez.kqent.com/",
   "priceFrom": null,
   "confidence": "projected",
-  "source": "https://www.ziggodome.nl/api/agenda/aankomend/",
-  "tour": "ATEEZ 2027 World Tour",
-  "note": "Amsterdam 12 April and Antwerp 17 April 2027 were announced by KQ Entertainment on 12 Oct 2026; venue and sale date not yet published, Ziggo Dome expected.",
-  "dateNote": "Date from the KQ Entertainment tour announcement as reported 12 Oct 2026; venue not confirmed and the show is not yet on the Ziggo Dome agenda.",
+  "source": "https://www.koreatimes.co.kr/entertainment/k-pop/20261012/ateez-announces-2027-world-tour-sets-january-kickoff-in-incheon",
+  "tour": "ZERO TO ALL World Tour",
+  "note": "Date from the label tour announcement of 10 Oct 2026. It is not on the Ziggo Dome agenda; venue and ticket sale to follow.",
+  "dateNote": "Date from the KQ Entertainment tour announcement as reported in the press; no venue page exists yet.",
   "planBy": "2027-03-13",
   "addedOn": "2026-11-04",
   "tier": 1,
-  "why": "ATEEZ 2027 World Tour at Ziggo Dome, Amsterdam.",
-  "verifiedOn": "2026-11-11"
+  "why": "ATEEZ bring the ZERO TO ALL world tour to Amsterdam; the venue is not announced yet.",
+  "verifiedOn": "2026-11-11",
+  "venueName": "Amsterdam (venue to be announced)",
+  "city": "Amsterdam",
+  "country": "NL",
+  "lat": 52.3134,
+  "lng": 4.937,
+  "driveMin": 155
  },
  {
   "doors": "18:00",
@@ -3190,6 +3552,41 @@
   "planBy": "2027-03-15"
  },
  {
+  "id": "ateez-koeln-2027-04-15",
+  "artist": "ATEEZ",
+  "short": "ATEEZ Köln",
+  "venueId": null,
+  "venueName": "Köln (venue to be announced)",
+  "city": "Köln",
+  "country": "DE",
+  "lat": 50.9384,
+  "lng": 6.9831,
+  "date": "2027-04-15",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "tbd",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://www.koreatimes.co.kr/entertainment/k-pop/20261012/ateez-announces-2027-world-tour-sets-january-kickoff-in-incheon",
+  "tour": "ZERO TO ALL World Tour",
+  "why": "ATEEZ bring the ZERO TO ALL world tour to Köln; the venue is not announced yet.",
+  "note": "Date from the label tour announcement of 10 Oct 2026; venue and ticket sale to follow.",
+  "dateNote": "Date from the KQ Entertainment tour announcement as reported in the press; no venue page exists yet.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 70,
+  "addedOn": "2026-11-18",
+  "planBy": "2027-03-16"
+ },
+ {
   "id": "gracie-abrams-sportpaleis-2027-04-15",
   "artist": "Gracie Abrams",
   "short": "Gracie Abrams",
@@ -3242,6 +3639,41 @@
   "verifiedOn": "2026-11-04",
   "tier": 2,
   "why": "The Look at My Life Tour at AFAS Dome (Sportpaleis), Antwerp."
+ },
+ {
+  "id": "ateez-antwerp-2027-04-17",
+  "artist": "ATEEZ",
+  "short": "ATEEZ Antwerp",
+  "venueId": null,
+  "venueName": "Antwerp (venue to be announced)",
+  "city": "Antwerp",
+  "country": "BE",
+  "lat": 51.2301,
+  "lng": 4.442,
+  "date": "2027-04-17",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "tbd",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://www.koreatimes.co.kr/entertainment/k-pop/20261012/ateez-announces-2027-world-tour-sets-january-kickoff-in-incheon",
+  "tour": "ZERO TO ALL World Tour",
+  "why": "ATEEZ bring the ZERO TO ALL world tour to Antwerp; the venue is not announced yet.",
+  "note": "Date from the label tour announcement of 10 Oct 2026; venue and ticket sale to follow.",
+  "dateNote": "Date from the KQ Entertainment tour announcement as reported in the press; no venue page exists yet.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 80,
+  "addedOn": "2026-11-18",
+  "planBy": "2027-03-18"
  },
  {
   "id": "sofiane-pamart-stade-de-france-2027-04-17",
@@ -3323,6 +3755,35 @@
   "why": "The Unraveled Tour at Plenitude Arena (Paris La Défense Arena), Nanterre."
  },
  {
+  "id": "sabaton-psd-bank-dome-2027-04-23",
+  "artist": "Sabaton",
+  "short": "Sabaton",
+  "venueId": "psd-bank-dome",
+  "date": "2027-04-23",
+  "doors": "20:00",
+  "genre": "rock",
+  "for": [
+   "nick"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.psd-bank-dome.de/event/sabaton-23-04-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.psd-bank-dome.de/event/sabaton-23-04-2027",
+  "tour": "The Legendary Tour - Part 2",
+  "why": "The Legendary Tour - Part 2 at PSD Bank Dome, Düsseldorf.",
+  "note": "Show starts 21:00.",
+  "tier": 2,
+  "tags": [
+   "history"
+  ],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-04-02"
+ },
+ {
   "id": "thirty-seconds-to-mars-lotto-arena-2027-04-23",
   "artist": "Thirty Seconds To Mars",
   "short": "30 Seconds To Mars",
@@ -3348,6 +3809,33 @@
   "verifiedOn": "2026-11-04",
   "tier": 2,
   "why": "A Beautiful Lie vs This Is War at Lotto Arena, Antwerp."
+ },
+ {
+  "id": "die-arzte-psd-bank-dome-2027-04-24",
+  "artist": "die ärzte",
+  "short": "die ärzte",
+  "venueId": "psd-bank-dome",
+  "date": "2027-04-24",
+  "doors": "20:00",
+  "genre": "rock",
+  "for": [
+   "nick"
+  ],
+  "status": "soldout",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": "https://www.psd-bank-dome.de/event/die-aerzte-24-04-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.psd-bank-dome.de/event/die-aerzte-24-04-2027",
+  "tour": "EINE GÄNSEHAUT NACH DEM ANDERN!",
+  "why": "EINE GÄNSEHAUT NACH DEM ANDERN at PSD Bank Dome, Düsseldorf.",
+  "note": "The venue lists only VIP tickets.",
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-03-25"
  },
  {
   "id": "roxy-dekker-jca-2027-04-24",
@@ -4029,6 +4517,34 @@
   "why": "Welttournee 2027 at Westfalenhalle, Dortmund."
  },
  {
+  "id": "craig-david-meh-2027-05-16",
+  "artist": "Craig David",
+  "short": "Craig David",
+  "venueId": "mitsubishi-electric-halle",
+  "date": "2027-05-16",
+  "doors": "19:30",
+  "genre": "pop",
+  "for": [
+   "anne",
+   "family"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.mitsubishi-electric-halle.de/event/craig-david-16-05-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.mitsubishi-electric-halle.de/event/craig-david-16-05-2027",
+  "tour": "Born To Do It 25th Anniversary Tour",
+  "why": "Born To Do It 25th Anniversary Tour at Mitsubishi Electric Halle, Düsseldorf.",
+  "note": "Show starts 21:00.",
+  "tier": 3,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-05-02"
+ },
+ {
   "id": "hilary-duff-forest-national-2027-05-16",
   "artist": "Hilary Duff",
   "short": "Hilary Duff",
@@ -4136,6 +4652,33 @@
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-11",
   "planBy": "2027-04-18"
+ },
+ {
+  "id": "scorpions-festhalle-2027-05-19",
+  "artist": "Scorpions",
+  "short": "Scorpions",
+  "venueId": "festhalle-frankfurt",
+  "date": "2027-05-19",
+  "doors": null,
+  "genre": "rock",
+  "for": [
+   "nick"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://festhalle.messefrankfurt.com/frankfurt/de/event-calendar/scorpions.html",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://festhalle.messefrankfurt.com/frankfurt/de/event-calendar/scorpions.html",
+  "tour": "LOVE, PEACE & ROCK ´N´ ROLL TOUR 2027",
+  "why": "LOVE, PEACE & ROCK ´N´ ROLL TOUR 2027 at Festhalle, Frankfurt.",
+  "note": null,
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-04-28"
  },
  {
   "id": "andrea-bocelli-lanxess-2027-05-20",
@@ -4515,6 +5058,34 @@
   "why": "You Are The Reason Tour at Ziggo Dome, Amsterdam."
  },
  {
+  "id": "jorja-smith-meh-2027-06-01",
+  "artist": "Jorja Smith",
+  "short": "Jorja Smith",
+  "venueId": "mitsubishi-electric-halle",
+  "date": "2027-06-01",
+  "doors": "20:30",
+  "genre": "pop",
+  "for": [
+   "alma",
+   "anne"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.mitsubishi-electric-halle.de/event/jorja-smith-01-06-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.mitsubishi-electric-halle.de/event/jorja-smith-01-06-2027",
+  "tour": "10 Years of Jorja Smith",
+  "why": "10 Years of Jorja Smith at Mitsubishi Electric Halle, Düsseldorf.",
+  "note": "Show starts 22:00.",
+  "tier": 3,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-05-18"
+ },
+ {
   "id": "sombr-ziggo-2027-06-01",
   "artist": "SOMBR",
   "short": "Sombr",
@@ -4540,6 +5111,62 @@
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-11",
   "planBy": "2027-05-02"
+ },
+ {
+  "id": "rod-stewart-psd-bank-dome-2027-06-03",
+  "artist": "Rod Stewart",
+  "short": "Rod Stewart",
+  "venueId": "psd-bank-dome",
+  "date": "2027-06-03",
+  "doors": "20:30",
+  "genre": "rock",
+  "for": [
+   "nick",
+   "anne"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.psd-bank-dome.de/event/rod-stewart-03-06-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.psd-bank-dome.de/event/rod-stewart-03-06-2027",
+  "tour": "The Final Encore",
+  "why": "The Final Encore at PSD Bank Dome, Düsseldorf.",
+  "note": "Show starts 22:00.",
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-05-13"
+ },
+ {
+  "id": "herbert-gronemeyer-westfalenhalle-2027-06-04",
+  "artist": "Herbert Grönemeyer",
+  "short": "Herbert Grönemeyer",
+  "venueId": "westfalenhalle",
+  "date": "2027-06-04",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "ticketUrl": "https://www.westfalenhalle.de/events-tickets/eventfinder/event-detail/herbert-groenemyer/arena-tour-2027/",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.westfalenhalle.de/events-tickets/eventfinder/event-detail/herbert-groenemyer/arena-tour-2027/",
+  "tour": null,
+  "why": "Live at Westfalenhalle, Dortmund.",
+  "note": null,
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-05-05"
  },
  {
   "doors": null,
@@ -5657,6 +6284,33 @@
   "why": "Live at AFAS Live, Amsterdam."
  },
  {
+  "id": "slash-feat-myles-kennedy-and-t-meh-2027-06-28",
+  "artist": "Slash feat. Myles Kennedy and The Conspirators",
+  "short": "Slash feat. Myles Kenn",
+  "venueId": "mitsubishi-electric-halle",
+  "date": "2027-06-28",
+  "doors": "20:30",
+  "genre": "rock",
+  "for": [
+   "nick"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.mitsubishi-electric-halle.de/event/slash-feat-myles-kennedy-and-the-conspirators-28-06-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.mitsubishi-electric-halle.de/event/slash-feat-myles-kennedy-and-the-conspirators-28-06-2027",
+  "tour": "Flying Blind World Tour",
+  "why": "Flying Blind World Tour at Mitsubishi Electric Halle, Düsseldorf.",
+  "note": "Show starts 22:00.",
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-06-07"
+ },
+ {
   "id": "die-toten-hosen-veltins-2027-06-29",
   "artist": "Die Toten Hosen",
   "short": "Toten Hosen Schalke",
@@ -6292,6 +6946,33 @@
   "why": "Live at King Baudouin Stadium, Brussels, a stadium show."
  },
  {
+  "id": "fontaines-d-c-psd-bank-dome-2027-08-24",
+  "artist": "Fontaines D.C.",
+  "short": "Fontaines D.C.",
+  "venueId": "psd-bank-dome",
+  "date": "2027-08-24",
+  "doors": "20:00",
+  "genre": "rock",
+  "for": [
+   "nick"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.psd-bank-dome.de/event/fontaines-dc-24-08-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.psd-bank-dome.de/event/fontaines-dc-24-08-2027",
+  "tour": null,
+  "why": "Live at PSD Bank Dome, Düsseldorf.",
+  "note": "Show starts 22:00.",
+  "tier": 2,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-08-03"
+ },
+ {
   "id": "ronan-keating-lanxess-2027-09-03",
   "artist": "Ronan Keating",
   "short": "Ronan Keating",
@@ -6732,6 +7413,33 @@
   "verifiedOn": "2026-11-04"
  },
  {
+  "id": "foreigner-psd-bank-dome-2027-10-16",
+  "artist": "Foreigner",
+  "short": "Foreigner",
+  "venueId": "psd-bank-dome",
+  "date": "2027-10-16",
+  "doors": "20:00",
+  "genre": "rock",
+  "for": [
+   "nick"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.psd-bank-dome.de/event/foreigner-16-10-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.psd-bank-dome.de/event/foreigner-16-10-2027",
+  "tour": "50th Anniversary Tour",
+  "why": "50th Anniversary Tour at PSD Bank Dome, Düsseldorf.",
+  "note": "Show starts 22:00.",
+  "tier": 3,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-10-02"
+ },
+ {
   "id": "till-lindemann-afas-live-2027-10-17",
   "artist": "Till Lindemann",
   "short": "Till Lindemann",
@@ -6757,6 +7465,36 @@
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-11",
   "planBy": "2027-09-26"
+ },
+ {
+  "id": "gianna-nannini-festhalle-2027-10-18",
+  "artist": "Gianna Nannini",
+  "short": "Gianna Nannini",
+  "venueId": "festhalle-frankfurt",
+  "date": "2027-10-18",
+  "doors": null,
+  "genre": "rock",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://festhalle.messefrankfurt.com/frankfurt/de/event-calendar/gianna-nannini.html",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://festhalle.messefrankfurt.com/frankfurt/de/event-calendar/gianna-nannini.html",
+  "tour": "Giannagold – Celebration Tour – Live 2027",
+  "why": "Giannagold – Celebration Tour – Live 2027 at Festhalle, Frankfurt.",
+  "note": null,
+  "tier": 3,
+  "tags": [
+   "italian"
+  ],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-10-04"
  },
  {
   "id": "il-volo-festhalle-2027-10-20",
@@ -7070,6 +7808,33 @@
   "changedOn": "2026-11-18"
  },
  {
+  "id": "bruce-dickinson-meh-2027-11-24",
+  "artist": "Bruce Dickinson",
+  "short": "Bruce Dickinson",
+  "venueId": "mitsubishi-electric-halle",
+  "date": "2027-11-24",
+  "doors": "19:30",
+  "genre": "rock",
+  "for": [
+   "nick"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.mitsubishi-electric-halle.de/event/bruce-dickinson-24-11-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.mitsubishi-electric-halle.de/event/bruce-dickinson-24-11-2027",
+  "tour": "PsychoGod Tour 2027",
+  "why": "PsychoGod Tour 2027 at Mitsubishi Electric Halle, Düsseldorf.",
+  "note": "Show starts 21:00.",
+  "tier": 3,
+  "tags": [],
+  "addedOn": "2026-11-18",
+  "verifiedOn": "2026-11-18",
+  "planBy": "2027-11-10"
+ },
+ {
   "id": "laura-pausini-ziggo-2027-11-24",
   "artist": "Laura Pausini",
   "short": "Laura Pausini",
@@ -7205,7 +7970,7 @@
   "confidence": "confirmed",
   "source": "https://fkpscorpio.de/en/artists/detail/eros-ramazzotti/",
   "tour": "Una Storia Importante World Tour",
-  "note": "Rescheduled from 8 Apr 2027 by promoter FKP Scorpio; show starts 20:00 and 2027 tickets stay valid.",
+  "note": "The venue lists the new date as pending confirmation after the move from 8 Apr 2027.",
   "tags": [
    "italian"
   ],
