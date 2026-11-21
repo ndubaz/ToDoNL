@@ -1,0 +1,29 @@
+{
+ "about": "Acts and sources for scripts/tour-watch.mjs. Groups: kpop, kpop-adjacent, italian, eurovision-artist, eurovision-event. Short or common-word names match case-sensitively. Sources: kind venue (official agenda) or lead (aggregator or news; confirm elsewhere).",
+ "genreTags": [
+  { "group": "kpop", "pattern": "\\bk-?pop\\b" },
+  { "group": "eurovision", "pattern": "eurovision|songfestival|eurosong|vorentscheid" },
+  { "group": "italian", "pattern": "\\bitali(an|aans|enne|ano|enisch)\\b|sanremo" }
+ ],
+ "sources": [
+  { "id": "melkweg", "kind": "venue", "official": true, "city": "Amsterdam", "url": "https://www.melkweg.nl/en/agenda/", "mode": "browser", "scrolls": 14 },
+  { "id": "afas-live", "kind": "venue", "official": true, "city": "Amsterdam", "url": "https://www.afaslive.nl/agenda", "mode": "browser", "scrolls": 10 },
+  { "id": "013", "kind": "venue", "official": true, "city": "Tilburg", "url": "https://www.013.nl/programma", "mode": "browser", "scrolls": 12 },
+  { "id": "ab", "kind": "venue", "official": true, "city": "Brussels", "pages": { "pattern": "https://www.abconcerts.be/en/agenda?page={n}", "from": 1, "to": 26 }, "mode": "static" },
+  { "id": "de-roma", "kind": "venue", "official": true, "city": "Antwerp", "url": "https://www.deroma.be/en/agenda", "mode": "browser", "scrolls": 10 },
+  { "id": "trix", "kind": "venue", "official": true, "city": "Antwerp", "url": "https://www.trixonline.be/en/program", "mode": "browser", "scrolls": 10 },
+  { "id": "palladium", "kind": "venue", "official": true, "city": "Köln", "url": "https://www.palladium-koeln.de/events", "mode": "browser", "scrolls": 10 },
+  { "id": "e-werk", "kind": "venue", "official": true, "city": "Köln", "url": "https://www.e-werk-cologne.com/events", "mode": "browser", "scrolls": 10 },
+  { "id": "rockhal", "kind": "venue", "official": true, "city": "Esch-sur-Alzette", "url": "https://rockhal.lu/agenda-en/", "mode": "browser", "scrolls": 12 },
+  { "id": "zenith-paris", "kind": "venue", "official": true, "city": "Paris", "url": "https://www.le-zenith.com/", "mode": "browser", "scrolls": 8 },
+  { "id": "olympia-paris", "kind": "venue", "official": true, "city": "Paris", "url": "https://www.olympiahall.com/", "mode": "browser", "scrolls": 8 },
+  { "id": "adidas-arena", "kind": "venue", "official": true, "city": "Paris", "url": "https://www.adidasarena.com/programmation", "mode": "browser", "scrolls": 10 }
+ ],
+ "artists": [
+  { "name": "Stray Kids", "group": "kpop" }, { "name": "ATEEZ", "group": "kpop" }, { "name": "ENHYPEN", "group": "kpop" }, { "name": "SEVENTEEN", "group": "kpop" },
+  { "name": "TOMORROW X TOGETHER", "aliases": ["TXT"], "group": "kpop" }, { "name": "aespa", "group": "kpop" }, { "name": "Santos Bravos", "group": "kpop-adjacent" },
+  { "name": "KATSEYE", "group": "kpop-adjacent" }, { "name": "Olly", "group": "italian", "caseSensitive": true }, { "name": "Mahmood", "group": "italian" },
+  { "name": "Annalisa", "group": "italian" }, { "name": "Achille Lauro", "group": "italian" }, { "name": "Lucio Corsi", "group": "italian" },
+  { "name": "Kyle Alessandro", "group": "eurovision-artist" }, { "name": "Delta Goodrem", "group": "eurovision-artist" }, { "name": "Joost Klein", "aliases": ["Joost"], "group": "eurovision-artist" }
+ ]
+}
