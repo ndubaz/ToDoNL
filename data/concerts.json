@@ -1,150 +1,5 @@
 [
  {
-  "id": "interpol-bloc-party-forest-national-2026-11-18",
-  "artist": "Interpol + Bloc Party",
-  "short": "Interpol + Bloc Party",
-  "venueId": "forest-national",
-  "date": "2026-11-18",
-  "doors": "18:00",
-  "genre": "rock",
-  "for": [
-   "nick"
-  ],
-  "status": "onsale",
-  "onSale": null,
-  "sellOutRisk": "low",
-  "ticketUrl": "https://www.ticketmaster.be/event/661061282?language=nl-be&brand=fnvn",
-  "priceFrom": null,
-  "confidence": "confirmed",
-  "source": "https://www.forest-national.be/evenement/interpol-bloc-party-592191dd",
-  "tour": "EU Co-headline Tour",
-  "why": "EU Co-headline Tour at Forest National, Brussels.",
-  "note": null,
-  "tier": 3,
-  "tags": [],
-  "addedOn": "2026-11-11",
-  "verifiedOn": "2026-11-11",
-  "planBy": null
- },
- {
-  "id": "the-prodigy-meh-2026-11-18",
-  "artist": "The Prodigy",
-  "short": "Prodigy Düsseldorf",
-  "venueId": "mitsubishi-electric-halle",
-  "date": "2026-11-18",
-  "doors": null,
-  "genre": "electronic",
-  "for": [
-   "nick",
-   "anne"
-  ],
-  "status": "onsale",
-  "onSale": null,
-  "sellOutRisk": "medium",
-  "ticketUrl": "https://www.mitsubishi-electric-halle.de/",
-  "priceFrom": null,
-  "confidence": "confirmed",
-  "source": "https://www.mitsubishi-electric-halle.de/",
-  "tour": null,
-  "note": "Standard tickets via Eventim; VIP tickets on the venue page.",
-  "planBy": null,
-  "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-11",
-  "tier": 2,
-  "why": "Live at Mitsubishi Electric Halle, Düsseldorf."
- },
- {
-  "id": "zelo-p60-2026-11-18",
-  "artist": "ZELO",
-  "short": "ZELO",
-  "venueId": null,
-  "venueName": "P60",
-  "city": "Amstelveen",
-  "lat": 52.3012,
-  "lng": 4.8622,
-  "date": "2026-11-18",
-  "doors": "19:00",
-  "genre": "kpop",
-  "for": [
-   "alma"
-  ],
-  "status": "onsale",
-  "onSale": null,
-  "sellOutRisk": "high",
-  "ticketUrl": "https://my.weezevent.com/zelo-unbound-tour-in-europe-2026-amsterdam",
-  "priceFrom": 45,
-  "confidence": "confirmed",
-  "source": "https://p60.nl/2026/zelo/",
-  "tour": "UNBOUND TOUR IN EUROPE 2026",
-  "note": "Former B.A.P rapper in a 700-cap club; show starts 20:00, early-entry tickets EUR 60.",
-  "country": "NL",
-  "driveMin": 160,
-  "planBy": null,
-  "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
-  "tier": 1,
-  "why": "UNBOUND TOUR IN EUROPE 2026 at P60, Amstelveen."
- },
- {
-  "id": "h1ghr-season-q-factory-2026-11-20",
-  "artist": "pH-1, lIlBOI & Woodie Gochild (H1GHR SEASON)",
-  "short": "H1GHR Season",
-  "venueId": null,
-  "venueName": "Q-Factory",
-  "city": "Amsterdam",
-  "lat": 52.3556,
-  "lng": 4.9245,
-  "date": "2026-11-20",
-  "doors": "18:30",
-  "genre": "kpop",
-  "for": [
-   "alma"
-  ],
-  "status": "onsale",
-  "onSale": null,
-  "sellOutRisk": "high",
-  "ticketUrl": "https://q-factory.com/nl/events/h1ghr-season-in-europe-uk-2026",
-  "priceFrom": 50,
-  "confidence": "confirmed",
-  "source": "https://q-factory.com/nl/events/h1ghr-season-in-europe-uk-2026",
-  "tour": "2026 H1GHR SEASON in EUROPE & UK",
-  "note": "Korean hip-hop label showcase, show starts 19:30 in the Grote Zaal.",
-  "country": "NL",
-  "driveMin": 165,
-  "planBy": null,
-  "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
-  "tier": 1,
-  "why": "2026 H1GHR SEASON in EUROPE & UK at Q-Factory, Amsterdam."
- },
- {
-  "id": "hatsune-miku-psd-bank-dome-2026-11-20",
-  "artist": "Hatsune Miku",
-  "short": "Hatsune Miku",
-  "venueId": "psd-bank-dome",
-  "date": "2026-11-20",
-  "doors": "19:00",
-  "genre": "pop",
-  "for": [
-   "alma"
-  ],
-  "status": "onsale",
-  "onSale": null,
-  "sellOutRisk": "medium",
-  "ticketUrl": "https://www.psd-bank-dome.de/event/hatsune-miku-20-11-2026",
-  "priceFrom": null,
-  "confidence": "confirmed",
-  "source": "https://www.psd-bank-dome.de/event/hatsune-miku-20-11-2026",
-  "tour": "MIKU EXPO 2026 EUROPE",
-  "why": "MIKU EXPO 2026 EUROPE at PSD Bank Dome, Düsseldorf.",
-  "note": "Show starts 21:00.",
-  "tier": 2,
-  "tags": [],
-  "addedOn": "2026-11-18",
-  "verifiedOn": "2026-11-18",
-  "planBy": null
- },
- {
   "id": "night-of-the-proms-sportpaleis-2026-11-21",
   "artist": "Night of the Proms 2026",
   "short": "Night of the Proms",
@@ -382,6 +237,41 @@
   "verifiedOn": "2026-11-04",
   "tier": 2,
   "why": "Westlife 25: The Anniversary World Tour at AFAS Dome (Sportpaleis), Antwerp."
+ },
+ {
+  "id": "zelo-club-volta-2026-11-24",
+  "artist": "ZELO",
+  "short": "ZELO Köln",
+  "venueId": null,
+  "venueName": "Club Volta (Carlswerk)",
+  "city": "Köln",
+  "country": "DE",
+  "lat": 50.9663,
+  "lng": 7.0147,
+  "date": "2026-11-24",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "planBy": null,
+  "ticketUrl": "https://carlswerk-victoria.com/programm",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://carlswerk-victoria.com/programm",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "Unbound Tour",
+  "why": "Former B.A.P member ZELO plays a small club show in Köln.",
+  "note": "Listed in the Carlswerk Victoria / Club Volta programme; koeln.de lists 20:00 and EUR 55.15.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 75
  },
  {
   "id": "muse-psd-bank-dome-2026-11-25",
@@ -782,7 +672,7 @@
   "tags": [],
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-11",
-  "planBy": "2026-11-18"
+  "planBy": null
  },
  {
   "id": "noah-kahan-ziggo-2026-12-02",
@@ -837,7 +727,7 @@
   "tags": [],
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-11",
-  "planBy": "2026-11-19"
+  "planBy": null
  },
  {
   "id": "sarah-brightman-meh-2026-12-03",
@@ -865,7 +755,7 @@
   "tags": [],
   "addedOn": "2026-11-18",
   "verifiedOn": "2026-11-18",
-  "planBy": "2026-11-19"
+  "planBy": null
  },
  {
   "id": "beabadoobee-forest-national-2026-12-04",
@@ -892,7 +782,7 @@
   "tags": [],
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-11",
-  "planBy": "2026-11-20"
+  "planBy": null
  },
  {
   "id": "bryan-adams-rockhal-2026-12-04",
@@ -946,6 +836,41 @@
   "verifiedOn": "2026-11-18",
   "tier": 2,
   "why": "Klassik trifft Pop 2026 at Lanxess Arena, Köln."
+ },
+ {
+  "id": "verivery-ams-2026-12-04",
+  "artist": "VERIVERY",
+  "short": "VERIVERY Amsterdam",
+  "venueId": null,
+  "venueName": "Q-Factory",
+  "city": "Amsterdam",
+  "country": "NL",
+  "lat": 52.3586,
+  "lng": 4.9296,
+  "date": "2026-12-04",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-08-14",
+  "sellOutRisk": "high",
+  "planBy": null,
+  "ticketUrl": "https://heyhallyu.weticket.io/verivery-europe-tour-2026-give-me-five-keep-that-vibe-amsterdam",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.modone2025.com/tour",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "GIVE ME FIVE, KEEP THAT VIBE",
+  "why": "Jellyfish boy group VERIVERY play a standing club show in Amsterdam.",
+  "note": "Promoter Mod One lists the show (sale opened 14 Aug 2026; from EUR 25 on the promoter page, likely excluding fees). Show time 19:30 per promoter data; doors not stated.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 165
  },
  {
   "id": "kehlani-psd-bank-dome-2026-12-05",
@@ -1027,7 +952,42 @@
   "why": "A newly added Antwerp date of The Lost Tour after the Amsterdam show sold out.",
   "tier": 2,
   "verifiedOn": "2026-11-18",
-  "planBy": "2026-11-18"
+  "planBy": null
+ },
+ {
+  "id": "verivery-koeln-2026-12-06",
+  "artist": "VERIVERY",
+  "short": "VERIVERY Köln",
+  "venueId": null,
+  "venueName": "Carlswerk Victoria",
+  "city": "Köln",
+  "country": "DE",
+  "lat": 50.9663,
+  "lng": 7.0147,
+  "date": "2026-12-06",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-08-14",
+  "sellOutRisk": "high",
+  "planBy": null,
+  "ticketUrl": "https://www.eventim.de/event/verivery-europe-tour-2026-give-me-five-keep-that-vibe-carlswerk-victoria-22004370/",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.modone2025.com/tour",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "GIVE ME FIVE, KEEP THAT VIBE",
+  "why": "Jellyfish boy group VERIVERY play a standing club show in Köln.",
+  "note": "Promoter Mod One lists the show (sale opened 14 Aug 2026; from EUR 25 on the promoter page, likely excluding fees). Show time 19:30 per promoter data; doors not stated.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 75
  },
  {
   "id": "beabadoobee-meh-2026-12-07",
@@ -1135,11 +1095,81 @@
   "source": "https://www.mecc.nl/events/kerst-met-andre-rieu-2026/",
   "tour": "Kerst met André Rieu 2026",
   "note": "Christmas concert with the Johann Strauss Orchestra at 19:30, one of six MECC dates 11-13 and 18-20 Dec.",
-  "planBy": "2026-11-20",
+  "planBy": null,
   "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-18",
   "tier": 2,
   "why": "Kerst met André Rieu 2026 at MECC Maastricht, Maastricht."
+ },
+ {
+  "id": "newbeat-koeln-2026-12-11",
+  "artist": "NEWBEAT",
+  "short": "NEWBEAT Köln",
+  "venueId": null,
+  "venueName": "Die Kantine",
+  "city": "Köln",
+  "country": "DE",
+  "lat": 50.9937,
+  "lng": 6.9339,
+  "date": "2026-12-11",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-09-18",
+  "sellOutRisk": "high",
+  "planBy": null,
+  "ticketUrl": "https://www.qu-entertainment.com/newbeat",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.qu-entertainment.com/newbeat",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "1st Europe Tour: BREAK THE SOUND",
+  "why": "Rookie boy group NEWBEAT bring their first Europe tour to Köln.",
+  "note": "Promoter Q:U Entertainment; GA sale opened 18 Sep 2026. Amsterdam tickets via Heyhallyu/Weeztix per NL KPOP TOURS.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 65
+ },
+ {
+  "id": "verivery-paris-2026-12-11",
+  "artist": "VERIVERY",
+  "short": "VERIVERY Paris",
+  "venueId": null,
+  "venueName": "Bataclan",
+  "city": "Paris",
+  "country": "FR",
+  "lat": 48.8631,
+  "lng": 2.3708,
+  "date": "2026-12-11",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-08-14",
+  "sellOutRisk": "high",
+  "planBy": null,
+  "ticketUrl": "https://www.fnacspectacles.com/artist/verivery/",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.modone2025.com/tour",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "GIVE ME FIVE, KEEP THAT VIBE",
+  "why": "Jellyfish boy group VERIVERY play a standing club show in Paris.",
+  "note": "Promoter Mod One lists the show (sale opened 14 Aug 2026; from EUR 25 on the promoter page, likely excluding fees). Show time 19:30 per promoter data; doors not stated.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 275
  },
  {
   "id": "andre-rieu-kerst-mecc-2026-12-12",
@@ -1220,6 +1250,41 @@
   "verifiedOn": "2026-11-18",
   "tier": 2,
   "why": "Kerst met André Rieu 2026 at MECC Maastricht, Maastricht."
+ },
+ {
+  "id": "newbeat-paris-2026-12-15",
+  "artist": "NEWBEAT",
+  "short": "NEWBEAT Paris",
+  "venueId": null,
+  "venueName": "Café de la Danse",
+  "city": "Paris",
+  "country": "FR",
+  "lat": 48.8547,
+  "lng": 2.3741,
+  "date": "2026-12-15",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-09-18",
+  "sellOutRisk": "high",
+  "planBy": null,
+  "ticketUrl": "https://www.qu-entertainment.com/newbeat",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.qu-entertainment.com/newbeat",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "1st Europe Tour: BREAK THE SOUND",
+  "why": "Rookie boy group NEWBEAT bring their first Europe tour to Paris.",
+  "note": "Promoter Q:U Entertainment; GA sale opened 18 Sep 2026. Amsterdam tickets via Heyhallyu/Weeztix per NL KPOP TOURS.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 275
  },
  {
   "id": "ub40-ft-ali-campbell-ahoy-2026-12-15",
@@ -1329,7 +1394,7 @@
   "source": "https://www.mecc.nl/events/kerst-met-andre-rieu-2026/",
   "tour": "Kerst met André Rieu 2026",
   "note": "Christmas concert with the Johann Strauss Orchestra at 19:30, one of six MECC dates 11-13 and 18-20 Dec.",
-  "planBy": "2026-11-19",
+  "planBy": null,
   "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-18",
   "tier": 2,
@@ -1413,6 +1478,41 @@
   "verifiedOn": "2026-11-18",
   "tier": 3,
   "why": "Wonderful Worlds at Ziggo Dome, Amsterdam."
+ },
+ {
+  "id": "newbeat-ams-2026-12-21",
+  "artist": "NEWBEAT",
+  "short": "NEWBEAT Amsterdam",
+  "venueId": null,
+  "venueName": "Q-Factory",
+  "city": "Amsterdam",
+  "country": "NL",
+  "lat": 52.3586,
+  "lng": 4.9296,
+  "date": "2026-12-21",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-09-18",
+  "sellOutRisk": "high",
+  "planBy": "2026-11-21",
+  "ticketUrl": "https://www.qu-entertainment.com/newbeat",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.qu-entertainment.com/newbeat",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "1st Europe Tour: BREAK THE SOUND",
+  "why": "Rookie boy group NEWBEAT bring their first Europe tour to Amsterdam.",
+  "note": "Promoter Q:U Entertainment; GA sale opened 18 Sep 2026. Amsterdam tickets via Heyhallyu/Weeztix per NL KPOP TOURS.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 165
  },
  {
   "id": "amr-diab-rwa-2026-12-23",
@@ -1667,6 +1767,41 @@
   "planBy": "2027-01-01"
  },
  {
+  "id": "ntx-koeln-2027-01-15",
+  "artist": "NTX",
+  "short": "NTX Köln",
+  "venueId": null,
+  "venueName": "Die Kantine",
+  "city": "Köln",
+  "country": "DE",
+  "lat": 50.9937,
+  "lng": 6.9339,
+  "date": "2027-01-15",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-10-12",
+  "sellOutRisk": "high",
+  "planBy": "2026-12-16",
+  "ticketUrl": "https://www.qu-entertainment.com/ntx",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.qu-entertainment.com/ntx",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "2027 Europe Tour X:CONNECT",
+  "why": "Boy group NTX play an intimate club show in Köln.",
+  "note": "Promoter Q:U Entertainment; GA sale opened 12 Oct 2026.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 65
+ },
+ {
   "id": "nothing-but-thieves-ziggo-2027-01-16",
   "artist": "Nothing But Thieves",
   "short": "Nothing But Thieves",
@@ -1695,6 +1830,41 @@
   "planBy": "2027-01-02"
  },
  {
+  "id": "ntx-ams-2027-01-18",
+  "artist": "NTX",
+  "short": "NTX Amsterdam",
+  "venueId": null,
+  "venueName": "Q-Factory",
+  "city": "Amsterdam",
+  "country": "NL",
+  "lat": 52.3586,
+  "lng": 4.9296,
+  "date": "2027-01-18",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-10-12",
+  "sellOutRisk": "high",
+  "planBy": "2026-12-19",
+  "ticketUrl": "https://www.qu-entertainment.com/ntx",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.qu-entertainment.com/ntx",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "2027 Europe Tour X:CONNECT",
+  "why": "Boy group NTX play an intimate club show in Amsterdam.",
+  "note": "Promoter Q:U Entertainment; GA sale opened 12 Oct 2026.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 165
+ },
+ {
   "id": "aespa-ziggo-2027-01-19",
   "artist": "aespa",
   "short": "aespa",
@@ -1719,6 +1889,77 @@
   "verifiedOn": "2026-11-18",
   "tier": 1,
   "why": "aespa LIVE TOUR - SYNK : COMPLæXITY at Ziggo Dome, Amsterdam."
+ },
+ {
+  "id": "ntx-paris-2027-01-20",
+  "artist": "NTX",
+  "short": "NTX Paris",
+  "venueId": null,
+  "venueName": "Alhambra",
+  "city": "Paris",
+  "country": "FR",
+  "lat": 48.8694,
+  "lng": 2.3655,
+  "date": "2027-01-20",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-10-12",
+  "sellOutRisk": "high",
+  "planBy": "2026-12-21",
+  "ticketUrl": "https://www.qu-entertainment.com/ntx",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.qu-entertainment.com/ntx",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "2027 Europe Tour X:CONNECT",
+  "why": "Boy group NTX play an intimate club show in Paris.",
+  "note": "Promoter Q:U Entertainment; GA sale opened 12 Oct 2026.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 275
+ },
+ {
+  "id": "1verse-frankfurt-2027-01-22",
+  "artist": "1VERSE",
+  "short": "1VERSE Frankfurt",
+  "venueId": null,
+  "venueName": "Frankfurt (venue to be announced)",
+  "city": "Frankfurt am Main",
+  "country": "DE",
+  "lat": 50.1109,
+  "lng": 8.6821,
+  "date": "2027-01-22",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "announced",
+  "onSale": "2026-11-27",
+  "sellOutRisk": "high",
+  "planBy": "2026-11-27",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://www.kpopconcertseurope.com/post/1verse-2nd-world-tour-europe",
+  "addedOn": "2026-11-21",
+  "verifiedOn": null,
+  "tour": "1VERSE 2nd World Tour: Europe",
+  "why": "Boy group 1VERSE stop in Frankfurt on their second world tour; the venue is not announced.",
+  "note": "Ticket sale reported for 27 Nov 2026 13:00 CET. A Rotterdam date is listed without a date.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "dateNote": "Date from the Kpop Concerts Europe tour post (aggregator); organiser and venue not named, no official page found.",
+  "driveMin": 175
  },
  {
   "id": "five-finger-death-punch-psd-bank-dome-2027-01-26",
@@ -1746,6 +1987,42 @@
   "addedOn": "2026-11-18",
   "verifiedOn": "2026-11-18",
   "planBy": "2027-01-12"
+ },
+ {
+  "id": "1verse-paris-2027-01-28",
+  "artist": "1VERSE",
+  "short": "1VERSE Paris",
+  "venueId": null,
+  "venueName": "Paris (venue to be announced)",
+  "city": "Paris",
+  "country": "FR",
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "date": "2027-01-28",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "announced",
+  "onSale": "2026-11-27",
+  "sellOutRisk": "high",
+  "planBy": "2026-11-27",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://www.kpopconcertseurope.com/post/1verse-2nd-world-tour-europe",
+  "addedOn": "2026-11-21",
+  "verifiedOn": null,
+  "tour": "1VERSE 2nd World Tour: Europe",
+  "why": "Boy group 1VERSE stop in Paris on their second world tour; the venue is not announced.",
+  "note": "Ticket sale reported for 27 Nov 2026 13:00 CET. A Rotterdam date is listed without a date.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "dateNote": "Date from the Kpop Concerts Europe tour post (aggregator); organiser and venue not named, no official page found.",
+  "driveMin": 280
  },
  {
   "id": "ayra-starr-forest-national-2027-01-31",
@@ -1990,6 +2267,41 @@
   "planBy": "2027-01-24"
  },
  {
+  "id": "evnne-paris-2027-02-14",
+  "artist": "EVNNE",
+  "short": "EVNNE Paris",
+  "venueId": null,
+  "venueName": "Bataclan",
+  "city": "Paris",
+  "country": "FR",
+  "lat": 48.8631,
+  "lng": 2.3708,
+  "date": "2027-02-14",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-10-06",
+  "sellOutRisk": "high",
+  "planBy": "2027-01-15",
+  "ticketUrl": "https://www.modone2025.com/tour",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.modone2025.com/tour",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "Fan-concert ONE TAKE",
+  "why": "Jellyfish boy group EVNNE bring their fan concert to Paris.",
+  "note": "Promoter Mod One (Paris co-presented with Envol Production); sale opened 6 Oct 2026; from EUR 30 on the promoter page. Kantine lists doors 18:30, start 19:30 for Köln.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 275
+ },
+ {
   "id": "role-model-afas-live-2027-02-14",
   "artist": "Role Model",
   "short": "Role Model",
@@ -2122,6 +2434,41 @@
   "verifiedOn": "2026-11-04",
   "tier": 2,
   "why": "TANZNEID WORLD TOUR at Forest National, Brussels."
+ },
+ {
+  "id": "evnne-ams-2027-02-17",
+  "artist": "EVNNE",
+  "short": "EVNNE Amsterdam",
+  "venueId": null,
+  "venueName": "Q-Factory",
+  "city": "Amsterdam",
+  "country": "NL",
+  "lat": 52.3586,
+  "lng": 4.9296,
+  "date": "2027-02-17",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-10-06",
+  "sellOutRisk": "high",
+  "planBy": "2027-01-18",
+  "ticketUrl": "https://heyhallyu.weticket.io/evnne-one-take-fan-concert-one-take-in-amsterdam",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.modone2025.com/tour",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "Fan-concert ONE TAKE",
+  "why": "Jellyfish boy group EVNNE bring their fan concert to Amsterdam.",
+  "note": "Promoter Mod One (Paris co-presented with Envol Production); sale opened 6 Oct 2026; from EUR 30 on the promoter page. Kantine lists doors 18:30, start 19:30 for Köln.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 165
  },
  {
   "id": "james-blunt-rockhal-2027-02-17",
@@ -2312,6 +2659,41 @@
   "why": "Live at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
+  "id": "evnne-koeln-2027-02-19",
+  "artist": "EVNNE",
+  "short": "EVNNE Köln",
+  "venueId": null,
+  "venueName": "Die Kantine",
+  "city": "Köln",
+  "country": "DE",
+  "lat": 50.9937,
+  "lng": 6.9339,
+  "date": "2027-02-19",
+  "doors": "18:30",
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-10-06",
+  "sellOutRisk": "high",
+  "planBy": "2027-01-20",
+  "ticketUrl": "https://www.modone2025.com/tour",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://kantine.com/programm",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "Fan-concert ONE TAKE",
+  "why": "Jellyfish boy group EVNNE bring their fan concert to Köln.",
+  "note": "Promoter Mod One (Paris co-presented with Envol Production); sale opened 6 Oct 2026; from EUR 30 on the promoter page. Kantine lists doors 18:30, start 19:30 for Köln.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 65
+ },
+ {
   "id": "james-blunt-forest-national-2027-02-19",
   "artist": "James Blunt",
   "short": "James Blunt",
@@ -2471,6 +2853,41 @@
   "why": "Fifty Something Tour at Ziggo Dome, Amsterdam."
  },
  {
+  "id": "justb-bochum-2027-02-24",
+  "artist": "JUST B",
+  "short": "JUST B Bochum",
+  "venueId": null,
+  "venueName": "Zeche Bochum",
+  "city": "Bochum",
+  "country": "DE",
+  "lat": 51.4558,
+  "lng": 7.247,
+  "date": "2027-02-24",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-11-11",
+  "sellOutRisk": "high",
+  "planBy": "2027-01-25",
+  "ticketUrl": "https://www.modone2025.com/tour",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.modone2025.com/tour",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "KPOP RAVE Europe Tour 2027",
+  "why": "Boy group JUST B host a K-pop rave night in Bochum.",
+  "note": "Promoter Mod One; sale opened 11 Nov 2026; from EUR 40 on the promoter page. Show time 19:30 per promoter data (Amsterdam 20:00 per NL KPOP TOURS).",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 100
+ },
+ {
   "doors": null,
   "onSale": null,
   "priceFrom": null,
@@ -2577,6 +2994,41 @@
   "tier": 3,
   "verifiedOn": "2026-11-18",
   "planBy": "2027-02-05"
+ },
+ {
+  "id": "justb-paris-2027-02-26",
+  "artist": "JUST B",
+  "short": "JUST B Paris",
+  "venueId": null,
+  "venueName": "Bataclan",
+  "city": "Paris",
+  "country": "FR",
+  "lat": 48.8631,
+  "lng": 2.3708,
+  "date": "2027-02-26",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-11-11",
+  "sellOutRisk": "high",
+  "planBy": "2027-01-27",
+  "ticketUrl": "https://www.modone2025.com/tour",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.modone2025.com/tour",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "KPOP RAVE Europe Tour 2027",
+  "why": "Boy group JUST B host a K-pop rave night in Paris.",
+  "note": "Promoter Mod One; sale opened 11 Nov 2026; from EUR 40 on the promoter page. Show time 19:30 per promoter data (Amsterdam 20:00 per NL KPOP TOURS).",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 275
  },
  {
   "id": "royal-blood-afas-live-2027-02-26",
@@ -2823,6 +3275,41 @@
   "why": "ENHYPEN WORLD TOUR 'BLOOD SAGA' at Ziggo Dome, Amsterdam."
  },
  {
+  "id": "justb-ams-2027-03-03",
+  "artist": "JUST B",
+  "short": "JUST B Amsterdam",
+  "venueId": null,
+  "venueName": "Q-Factory",
+  "city": "Amsterdam",
+  "country": "NL",
+  "lat": 52.3586,
+  "lng": 4.9296,
+  "date": "2027-03-03",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-11-11",
+  "sellOutRisk": "high",
+  "planBy": "2027-02-01",
+  "ticketUrl": "https://heyhallyu.weticket.io/justb-kpop-rave-europe-tour-2027",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.modone2025.com/tour",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "KPOP RAVE Europe Tour 2027",
+  "why": "Boy group JUST B host a K-pop rave night in Amsterdam.",
+  "note": "Promoter Mod One; sale opened 11 Nov 2026; from EUR 40 on the promoter page. Show time 19:30 per promoter data (Amsterdam 20:00 per NL KPOP TOURS).",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 165
+ },
+ {
   "id": "kool-and-the-gang-afas-live-2027-03-08",
   "artist": "Kool & The Gang",
   "short": "Kool & The Gang",
@@ -2850,6 +3337,41 @@
   "planBy": "2027-02-22"
  },
  {
+  "id": "wild-wild-paris-2027-03-08",
+  "artist": "WILD WILD",
+  "short": "WILD WILD Paris",
+  "venueId": null,
+  "venueName": "Cabaret Sauvage",
+  "city": "Paris",
+  "country": "FR",
+  "lat": 48.8925,
+  "lng": 2.3925,
+  "date": "2027-03-08",
+  "doors": "19:30",
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-11-13",
+  "sellOutRisk": "high",
+  "planBy": "2027-02-06",
+  "ticketUrl": "https://shop.kineticvibe.net/en/events/wild-wild-paris-europe-tour-2027",
+  "priceFrom": 50,
+  "confidence": "confirmed",
+  "source": "https://shop.kineticvibe.net/en/events/wild-wild-paris-europe-tour-2027",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "WILD WILD TOUR 2027",
+  "why": "K-pop group WILD WILD return to Paris for a club show at Cabaret Sauvage.",
+  "note": "Promoter Kinetic Vibe; general standing EUR 50, Wild Wild Pit EUR 100.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 265
+ },
+ {
   "id": "kool-and-the-gang-lanxess-2027-03-09",
   "artist": "Kool & The Gang",
   "short": "Kool & The Gang",
@@ -2875,6 +3397,41 @@
   "verifiedOn": "2026-11-04",
   "tier": 2,
   "why": "Live at Lanxess Arena, Köln."
+ },
+ {
+  "id": "wild-wild-frankfurt-2027-03-09",
+  "artist": "WILD WILD",
+  "short": "WILD WILD Frankfurt",
+  "venueId": null,
+  "venueName": "Zoom",
+  "city": "Frankfurt am Main",
+  "country": "DE",
+  "lat": 50.1158,
+  "lng": 8.6838,
+  "date": "2027-03-09",
+  "doors": "19:30",
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-11-13",
+  "sellOutRisk": "high",
+  "planBy": "2027-02-07",
+  "ticketUrl": "https://shop.kineticvibe.net/en/events/wild-wild-frankurt-europe-tour-2027",
+  "priceFrom": 50,
+  "confidence": "confirmed",
+  "source": "https://shop.kineticvibe.net/en/events/wild-wild-frankurt-europe-tour-2027",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "WILD WILD TOUR 2027",
+  "why": "K-pop group WILD WILD play the Zoom club in Frankfurt.",
+  "note": "Promoter Kinetic Vibe; standing EUR 50, balcony EUR 70, pit EUR 100 (pit shown unavailable).",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 175
  },
  {
   "id": "manowar-sportpaleis-2027-03-10",
@@ -4960,7 +5517,7 @@
   "tags": [],
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-18",
-  "planBy": "2026-11-20",
+  "planBy": "2027-05-06",
   "prevStatus": "announced",
   "changedOn": "2026-11-18"
  },
@@ -5428,6 +5985,41 @@
   "why": "Deadbeat EU/UK Tour at Rotterdam Ahoy, Rotterdam."
  },
  {
+  "id": "txt-paris-2027-06-07",
+  "artist": "TOMORROW X TOGETHER",
+  "short": "TXT Paris",
+  "venueId": null,
+  "venueName": "Paris (venue to be announced)",
+  "city": "Paris",
+  "country": "FR",
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "date": "2027-06-07",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "planBy": "2027-05-08",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://ibighit.com/en/txt/tour/",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "STEAL THE WIND World Tour",
+  "why": "TXT bring the STEAL THE WIND world tour to Paris; the venue is not announced yet.",
+  "note": "Date and city from the official BIGHIT MUSIC tour page; venue shown as TBD and ticket sale not yet announced.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 280
+ },
+ {
   "id": "fall-out-boy-ziggo-2027-06-08",
   "artist": "Fall Out Boy",
   "short": "Fall Out Boy",
@@ -5453,7 +6045,7 @@
   "tags": [],
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-18",
-  "planBy": "2026-11-19",
+  "planBy": "2027-05-18",
   "prevStatus": "announced",
   "changedOn": "2026-11-18"
  },
@@ -5597,6 +6189,41 @@
   "changedOn": "2026-11-18"
  },
  {
+  "id": "txt-ams-2027-06-10",
+  "artist": "TOMORROW X TOGETHER",
+  "short": "TXT Amsterdam",
+  "venueId": null,
+  "venueName": "Amsterdam (venue to be announced)",
+  "city": "Amsterdam",
+  "country": "NL",
+  "lat": 52.3676,
+  "lng": 4.9041,
+  "date": "2027-06-10",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "planBy": "2027-05-11",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://ibighit.com/en/txt/tour/",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "STEAL THE WIND World Tour",
+  "why": "TXT bring the STEAL THE WIND world tour to Amsterdam; the venue is not announced yet.",
+  "note": "Date and city from the official BIGHIT MUSIC tour page; venue shown as TBD and ticket sale not yet announced.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 165
+ },
+ {
   "id": "kraftklub-rheinenergie-2027-06-11",
   "artist": "Kraftklub",
   "short": "Kraftklub",
@@ -5690,6 +6317,41 @@
   "why": "Live at RheinEnergieStadion, Köln, a stadium show."
  },
  {
+  "id": "txt-antwerp-2027-06-12",
+  "artist": "TOMORROW X TOGETHER",
+  "short": "TXT Antwerp",
+  "venueId": null,
+  "venueName": "Antwerp (venue to be announced)",
+  "city": "Antwerp",
+  "country": "BE",
+  "lat": 51.2194,
+  "lng": 4.4025,
+  "date": "2027-06-12",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "planBy": "2027-05-13",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://ibighit.com/en/txt/tour/",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "STEAL THE WIND World Tour",
+  "why": "TXT bring the STEAL THE WIND world tour to Antwerp; the venue is not announced yet.",
+  "note": "Date and city from the official BIGHIT MUSIC tour page; venue shown as TBD and ticket sale not yet announced.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 85
+ },
+ {
   "id": "fontaines-dc-rockhal-2027-06-13",
   "artist": "Fontaines D.C.",
   "short": "Fontaines D.C.",
@@ -5769,6 +6431,41 @@
   "verifiedOn": "2026-11-04",
   "tier": 2,
   "why": "THE HAYLEY WILLIAMS SHOW at Forest National, Brussels."
+ },
+ {
+  "id": "txt-koeln-2027-06-14",
+  "artist": "TOMORROW X TOGETHER",
+  "short": "TXT Köln",
+  "venueId": null,
+  "venueName": "Köln (venue to be announced)",
+  "city": "Köln",
+  "country": "DE",
+  "lat": 50.9384,
+  "lng": 6.9831,
+  "date": "2027-06-14",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "planBy": "2027-05-15",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://ibighit.com/en/txt/tour/",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "STEAL THE WIND World Tour",
+  "why": "TXT bring the STEAL THE WIND world tour to Köln; the venue is not announced yet.",
+  "note": "Date and city from the official BIGHIT MUSIC tour page; venue shown as TBD and ticket sale not yet announced.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "driveMin": 70
  },
  {
   "id": "blink-182-pldefense-2027-06-15",
@@ -6554,7 +7251,7 @@
   "tags": [],
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-18",
-  "planBy": "2026-11-20",
+  "planBy": "2027-06-14",
   "prevStatus": "announced",
   "changedOn": "2026-11-18"
  },
@@ -6610,7 +7307,7 @@
   "tags": [],
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-18",
-  "planBy": "2026-11-20",
+  "planBy": "2027-06-15",
   "prevStatus": "announced",
   "changedOn": "2026-11-18"
  },
@@ -6698,6 +7395,35 @@
   "verifiedOn": "2026-11-04",
   "tier": 1,
   "why": "Viajando Por El Mundo Tropitour at Johan Cruijff ArenA, Amsterdam, a stadium show."
+ },
+ {
+  "id": "stray-kids-pldefense-2027-07-10",
+  "artist": "Stray Kids",
+  "short": "Stray Kids Paris 2",
+  "venueId": "paris-la-defense-arena",
+  "date": "2027-07-10",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-11-19",
+  "sellOutRisk": "high",
+  "planBy": "2027-06-10",
+  "ticketUrl": "https://www.plenitudearena.com/en/event/stray-kids/",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.plenitudearena.com/en/event/stray-kids/",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "World Tour RUN IT",
+  "why": "Stray Kids add a second night of the RUN IT world tour at the Paris arena.",
+  "note": "Venue lists the show 9-10 Jul 2027. Lee Know is absent from the North American and European legs (military service).",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ]
  },
  {
   "id": "harry-styles-pldefense-2027-07-16",
@@ -6949,6 +7675,64 @@
   "planBy": "2027-06-24"
  },
  {
+  "id": "stray-kids-gelredome-2027-07-27",
+  "artist": "Stray Kids",
+  "short": "Stray Kids Arnhem",
+  "venueId": "gelredome",
+  "date": "2027-07-27",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-11-19",
+  "sellOutRisk": "high",
+  "planBy": "2027-06-27",
+  "ticketUrl": "https://www.mojo.nl/concerten/stray-kids",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.gelredome.nl/evenement/stray-kids-world-tour-run-it-arnhem",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "World Tour RUN IT",
+  "why": "Stray Kids play the RUN IT world tour at GelreDome in Arnhem, their closest stadium date.",
+  "note": "Promoter Mojo; general sale opened 19 Nov 2026 15:00 via Ticketmaster. Lee Know is absent (military service). Second Arnhem date added after demand.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ]
+ },
+ {
+  "id": "stray-kids-gelredome-2027-07-28",
+  "artist": "Stray Kids",
+  "short": "Stray Kids Arnhem",
+  "venueId": "gelredome",
+  "date": "2027-07-28",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "status": "onsale",
+  "onSale": "2026-11-19",
+  "sellOutRisk": "high",
+  "planBy": "2027-06-28",
+  "ticketUrl": "https://www.mojo.nl/concerten/stray-kids",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.gelredome.nl/evenement/stray-kids-world-tour-run-it-arnhem",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "World Tour RUN IT",
+  "why": "Stray Kids play the RUN IT world tour at GelreDome in Arnhem, their closest stadium date.",
+  "note": "Promoter Mojo; general sale opened 19 Nov 2026 15:00 via Ticketmaster. Lee Know is absent (military service). Second Arnhem date added after demand.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ]
+ },
+ {
   "id": "clouseau-king-baudouin-2027-08-04",
   "artist": "Clouseau",
   "short": "Clouseau stadium",
@@ -7181,7 +7965,7 @@
   "why": "The Netflix KPop Demon Hunters film comes to the arena as a live Golden World Tour show, a sure hit for a 14 year old.",
   "tier": 1,
   "verifiedOn": "2026-11-18",
-  "planBy": "2026-11-20"
+  "planBy": "2027-08-09"
  },
  {
   "doors": "17:30",
@@ -7212,7 +7996,7 @@
   "why": "The Netflix KPop Demon Hunters film comes to the arena as a live Golden World Tour show, a sure hit for a 14 year old.",
   "tier": 1,
   "verifiedOn": "2026-11-18",
-  "planBy": "2026-11-20"
+  "planBy": "2027-08-10"
  },
  {
   "id": "the-teskey-brothers-ziggo-2027-09-18",
@@ -7270,7 +8054,7 @@
   "why": "The only NRW date of the KPop Demon Hunters Golden World Tour, an hour from home in Köln.",
   "tier": 1,
   "verifiedOn": "2026-11-18",
-  "planBy": "2026-11-20"
+  "planBy": "2027-08-30"
  },
  {
   "doors": null,
@@ -7328,7 +8112,7 @@
   "why": "A Saturday matinee of the KPop Demon Hunters Golden World Tour in Brussels, promoted by GreenHouse Talent.",
   "tier": 1,
   "verifiedOn": "2026-11-18",
-  "planBy": "2026-11-20"
+  "planBy": "2027-09-02"
  },
  {
   "doors": null,
@@ -7359,7 +8143,7 @@
   "why": "The Saturday evening KPop Demon Hunters Golden World Tour show in Brussels, promoted by GreenHouse Talent.",
   "tier": 1,
   "verifiedOn": "2026-11-18",
-  "planBy": "2026-11-20"
+  "planBy": "2027-09-02"
  },
  {
   "id": "ole-auf-schalke-veltins-2027-10-02",
@@ -7458,7 +8242,7 @@
   "why": "The Paris stop of the KPop Demon Hunters Golden World Tour at the 40,000-seat Plenitude Arena.",
   "tier": 1,
   "verifiedOn": "2026-11-18",
-  "planBy": "2026-11-20"
+  "planBy": "2027-09-05"
  },
  {
   "id": "il-volo-forest-national-2027-10-10",

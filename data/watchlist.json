@@ -1,29 +1,1087 @@
 {
  "about": "Acts and sources for scripts/tour-watch.mjs. Groups: kpop, kpop-adjacent, italian, eurovision-artist, eurovision-event. Short or common-word names match case-sensitively. Sources: kind venue (official agenda) or lead (aggregator or news; confirm elsewhere).",
  "genreTags": [
-  { "group": "kpop", "pattern": "\\bk-?pop\\b" },
-  { "group": "eurovision", "pattern": "eurovision|songfestival|eurosong|vorentscheid" },
-  { "group": "italian", "pattern": "\\bitali(an|aans|enne|ano|enisch)\\b|sanremo" }
+  {
+   "group": "kpop",
+   "pattern": "\\bk-?pop\\b"
+  },
+  {
+   "group": "eurovision",
+   "pattern": "eurovision|songfestival|eurosong|vorentscheid"
+  },
+  {
+   "group": "italian",
+   "pattern": "\\bitali(an|aans|enne|ano|enisch)\\b|sanremo"
+  }
  ],
  "sources": [
-  { "id": "melkweg", "kind": "venue", "official": true, "city": "Amsterdam", "url": "https://www.melkweg.nl/en/agenda/", "mode": "browser", "scrolls": 14 },
-  { "id": "afas-live", "kind": "venue", "official": true, "city": "Amsterdam", "url": "https://www.afaslive.nl/agenda", "mode": "browser", "scrolls": 10 },
-  { "id": "013", "kind": "venue", "official": true, "city": "Tilburg", "url": "https://www.013.nl/programma", "mode": "browser", "scrolls": 12 },
-  { "id": "ab", "kind": "venue", "official": true, "city": "Brussels", "pages": { "pattern": "https://www.abconcerts.be/en/agenda?page={n}", "from": 1, "to": 26 }, "mode": "static" },
-  { "id": "de-roma", "kind": "venue", "official": true, "city": "Antwerp", "url": "https://www.deroma.be/en/agenda", "mode": "browser", "scrolls": 10 },
-  { "id": "trix", "kind": "venue", "official": true, "city": "Antwerp", "url": "https://www.trixonline.be/en/program", "mode": "browser", "scrolls": 10 },
-  { "id": "palladium", "kind": "venue", "official": true, "city": "Köln", "url": "https://www.palladium-koeln.de/events", "mode": "browser", "scrolls": 10 },
-  { "id": "e-werk", "kind": "venue", "official": true, "city": "Köln", "url": "https://www.e-werk-cologne.com/events", "mode": "browser", "scrolls": 10 },
-  { "id": "rockhal", "kind": "venue", "official": true, "city": "Esch-sur-Alzette", "url": "https://rockhal.lu/agenda-en/", "mode": "browser", "scrolls": 12 },
-  { "id": "zenith-paris", "kind": "venue", "official": true, "city": "Paris", "url": "https://www.le-zenith.com/", "mode": "browser", "scrolls": 8 },
-  { "id": "olympia-paris", "kind": "venue", "official": true, "city": "Paris", "url": "https://www.olympiahall.com/", "mode": "browser", "scrolls": 8 },
-  { "id": "adidas-arena", "kind": "venue", "official": true, "city": "Paris", "url": "https://www.adidasarena.com/programmation", "mode": "browser", "scrolls": 10 }
+  {
+   "id": "melkweg",
+   "kind": "venue",
+   "official": true,
+   "city": "Amsterdam",
+   "url": "https://www.melkweg.nl/en/agenda/",
+   "mode": "browser",
+   "scrolls": 14
+  },
+  {
+   "id": "afas-live",
+   "kind": "venue",
+   "official": true,
+   "city": "Amsterdam",
+   "url": "https://www.afaslive.nl/agenda",
+   "mode": "browser",
+   "scrolls": 10
+  },
+  {
+   "id": "013",
+   "kind": "venue",
+   "official": true,
+   "city": "Tilburg",
+   "url": "https://www.013.nl/programma",
+   "mode": "browser",
+   "scrolls": 12
+  },
+  {
+   "id": "ab",
+   "kind": "venue",
+   "official": true,
+   "city": "Brussels",
+   "pages": {
+    "pattern": "https://www.abconcerts.be/en/agenda?page={n}",
+    "from": 1,
+    "to": 26
+   },
+   "mode": "static"
+  },
+  {
+   "id": "de-roma",
+   "kind": "venue",
+   "official": true,
+   "city": "Antwerp",
+   "url": "https://www.deroma.be/en/agenda",
+   "mode": "browser",
+   "scrolls": 10
+  },
+  {
+   "id": "trix",
+   "kind": "venue",
+   "official": true,
+   "city": "Antwerp",
+   "url": "https://www.trixonline.be/en/program",
+   "mode": "browser",
+   "scrolls": 10
+  },
+  {
+   "id": "palladium",
+   "kind": "venue",
+   "official": true,
+   "city": "Köln",
+   "url": "https://www.palladium-koeln.de/events",
+   "mode": "browser",
+   "scrolls": 10
+  },
+  {
+   "id": "e-werk",
+   "kind": "venue",
+   "official": true,
+   "city": "Köln",
+   "url": "https://www.e-werk-cologne.com/events",
+   "mode": "browser",
+   "scrolls": 10
+  },
+  {
+   "id": "rockhal",
+   "kind": "venue",
+   "official": true,
+   "city": "Esch-sur-Alzette",
+   "url": "https://rockhal.lu/agenda-en/",
+   "mode": "browser",
+   "scrolls": 12
+  },
+  {
+   "id": "zenith-paris",
+   "kind": "venue",
+   "official": true,
+   "city": "Paris",
+   "url": "https://www.le-zenith.com/",
+   "mode": "browser",
+   "scrolls": 8
+  },
+  {
+   "id": "olympia-paris",
+   "kind": "venue",
+   "official": true,
+   "city": "Paris",
+   "url": "https://www.olympiahall.com/",
+   "mode": "browser",
+   "scrolls": 8
+  },
+  {
+   "id": "adidas-arena",
+   "kind": "venue",
+   "official": true,
+   "city": "Paris",
+   "url": "https://www.adidasarena.com/programmation",
+   "mode": "browser",
+   "scrolls": 10
+  },
+  {
+   "id": "modone-api",
+   "kind": "lead",
+   "official": true,
+   "url": "https://backend.modone2025.com/api/concerts",
+   "mode": "static",
+   "note": "Mod One promoter tour feed (JSON)"
+  },
+  {
+   "id": "qu-entertainment",
+   "kind": "lead",
+   "official": true,
+   "url": "https://www.qu-entertainment.com/",
+   "mode": "static"
+  },
+  {
+   "id": "kinetic-vibe",
+   "kind": "lead",
+   "official": true,
+   "url": "https://shop.kineticvibe.net/en/",
+   "mode": "static"
+  },
+  {
+   "id": "nlkpoptours",
+   "kind": "lead",
+   "official": false,
+   "url": "https://nlkpoptours.nl/",
+   "mode": "static"
+  },
+  {
+   "id": "kpopconcertseurope",
+   "kind": "lead",
+   "official": false,
+   "url": "https://www.kpopconcertseurope.com/",
+   "mode": "static"
+  },
+  {
+   "id": "soompi-2027",
+   "kind": "lead",
+   "official": false,
+   "url": "https://www.soompi.com/article/1880039wpp/2027-k-pop-tour-masterlist-concerts-fan-meetings-and-more",
+   "mode": "static"
+  },
+  {
+   "id": "kpophouse",
+   "kind": "lead",
+   "official": false,
+   "url": "https://kpophouse.eu/eu/blog",
+   "mode": "static"
+  },
+  {
+   "id": "sortiraparis-kpop",
+   "kind": "lead",
+   "official": false,
+   "url": "https://www.sortiraparis.com/en/articles/tag/k-pop",
+   "mode": "static"
+  },
+  {
+   "id": "mojo-kpop",
+   "kind": "lead",
+   "official": true,
+   "url": "https://www.mojo.nl/concerten",
+   "mode": "browser",
+   "scrolls": 10
+  },
+  {
+   "id": "kantine",
+   "kind": "venue",
+   "official": true,
+   "city": "Köln",
+   "url": "https://kantine.com/programm",
+   "mode": "browser",
+   "scrolls": 12
+  },
+  {
+   "id": "carlswerk",
+   "kind": "venue",
+   "official": true,
+   "city": "Köln",
+   "url": "https://carlswerk-victoria.com/programm",
+   "mode": "browser",
+   "scrolls": 12
+  },
+  {
+   "id": "plenitude-arena",
+   "kind": "venue",
+   "official": true,
+   "city": "Nanterre",
+   "url": "https://www.plenitudearena.com/en/",
+   "mode": "static"
+  },
+  {
+   "id": "kpopdemonhunters",
+   "kind": "lead",
+   "official": true,
+   "url": "https://kpopdemonhunterstour.com/",
+   "mode": "browser",
+   "scrolls": 4
+  }
  ],
  "artists": [
-  { "name": "Stray Kids", "group": "kpop" }, { "name": "ATEEZ", "group": "kpop" }, { "name": "ENHYPEN", "group": "kpop" }, { "name": "SEVENTEEN", "group": "kpop" },
-  { "name": "TOMORROW X TOGETHER", "aliases": ["TXT"], "group": "kpop" }, { "name": "aespa", "group": "kpop" }, { "name": "Santos Bravos", "group": "kpop-adjacent" },
-  { "name": "KATSEYE", "group": "kpop-adjacent" }, { "name": "Olly", "group": "italian", "caseSensitive": true }, { "name": "Mahmood", "group": "italian" },
-  { "name": "Annalisa", "group": "italian" }, { "name": "Achille Lauro", "group": "italian" }, { "name": "Lucio Corsi", "group": "italian" },
-  { "name": "Kyle Alessandro", "group": "eurovision-artist" }, { "name": "Delta Goodrem", "group": "eurovision-artist" }, { "name": "Joost Klein", "aliases": ["Joost"], "group": "eurovision-artist" }
+  {
+   "name": "Stray Kids",
+   "group": "kpop",
+   "aliases": [
+    "SKZ",
+    "STAY"
+   ],
+   "tourUrl": "https://www.livenation.com/artist/K8vZ917_YJf/stray-kids-events",
+   "tourMode": "browser"
+  },
+  {
+   "name": "ATEEZ",
+   "group": "kpop",
+   "aliases": [
+    "ATINY"
+   ],
+   "tourUrl": "https://ateez.kqent.com/",
+   "tourMode": "browser",
+   "caseSensitive": true
+  },
+  {
+   "name": "ENHYPEN",
+   "group": "kpop",
+   "aliases": [
+    "ENGENE"
+   ],
+   "tourUrl": "https://www.livenation.com/artist/K8vZ9175Oy7/enhypen-events",
+   "tourMode": "browser"
+  },
+  {
+   "name": "SEVENTEEN",
+   "group": "kpop",
+   "aliases": [
+    "SVT",
+    "CARAT"
+   ],
+   "tourUrl": "https://pledis.co.kr/artist/detail/seventeen/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "TOMORROW X TOGETHER",
+   "group": "kpop",
+   "aliases": [
+    "TXT"
+   ],
+   "tourUrl": "https://ibighit.com/en/txt/tour/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "aespa",
+   "group": "kpop",
+   "tourUrl": "https://www.smentertainment.com/artist/aespa/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Santos Bravos",
+   "group": "kpop-adjacent",
+   "tourUrl": "https://santosbravos.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "KATSEYE",
+   "group": "kpop-adjacent",
+   "aliases": [
+    "EYEKONS"
+   ]
+  },
+  {
+   "name": "Olly",
+   "group": "italian",
+   "caseSensitive": true
+  },
+  {
+   "name": "Mahmood",
+   "group": "italian"
+  },
+  {
+   "name": "Annalisa",
+   "group": "italian"
+  },
+  {
+   "name": "Achille Lauro",
+   "group": "italian"
+  },
+  {
+   "name": "Lucio Corsi",
+   "group": "italian"
+  },
+  {
+   "name": "Kyle Alessandro",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Delta Goodrem",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Joost Klein",
+   "aliases": [
+    "Joost"
+   ],
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "BTS",
+   "group": "kpop",
+   "aliases": [
+    "Bangtan Boys",
+    "Bangtan Sonyeondan"
+   ],
+   "tourUrl": "https://ibighit.com/en/bts/tour/",
+   "tourMode": "browser",
+   "caseSensitive": true
+  },
+  {
+   "name": "BTS members (solo)",
+   "group": "kpop",
+   "aliases": [
+    "Jin",
+    "SUGA",
+    "Agust D",
+    "j-hope",
+    "Jimin",
+    "Jung Kook",
+    "Jungkook"
+   ],
+   "tourUrl": "https://ibighit.com/en/bts/tour/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "CORTIS",
+   "group": "kpop",
+   "tourUrl": "https://ibighit.com/en/cortis/tour/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "SEVENTEEN units",
+   "group": "kpop",
+   "aliases": [
+    "BSS",
+    "BooSeokSoon",
+    "JxW",
+    "Jeonghan X Wonwoo",
+    "HxW",
+    "HOSHI X WOOZI",
+    "CxM",
+    "S.COUPS X MINGYU"
+   ],
+   "tourUrl": "https://pledis.co.kr/artist/detail/seventeen/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "TWS",
+   "group": "kpop",
+   "aliases": [
+    "TOURS"
+   ],
+   "tourUrl": "https://www.pledis.co.kr/artist/detail/tws/",
+   "tourMode": "browser",
+   "caseSensitive": true
+  },
+  {
+   "name": "ILLIT",
+   "group": "kpop",
+   "caseSensitive": true
+  },
+  {
+   "name": "BOYNEXTDOOR",
+   "group": "kpop",
+   "aliases": [
+    "BND",
+    "ONEDOOR"
+   ]
+  },
+  {
+   "name": "LE SSERAFIM",
+   "group": "kpop",
+   "aliases": [
+    "FEARNOT"
+   ]
+  },
+  {
+   "name": "NewJeans",
+   "group": "kpop",
+   "aliases": [
+    "NJZ"
+   ]
+  },
+  {
+   "name": "NCT 127",
+   "group": "kpop",
+   "tourUrl": "https://www.smentertainment.com/artist/nct-127/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "NCT DREAM",
+   "group": "kpop",
+   "tourUrl": "https://www.smentertainment.com/artist/nct-dream/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "NCT WISH",
+   "group": "kpop",
+   "tourUrl": "https://www.smentertainment.com/artist/nct-wish/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "WayV",
+   "group": "kpop",
+   "tourUrl": "https://www.smentertainment.com/artist/wayv/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "RIIZE",
+   "group": "kpop",
+   "aliases": [
+    "BRIIZE"
+   ],
+   "tourUrl": "https://www.smentertainment.com/artist/riize/",
+   "tourMode": "browser",
+   "caseSensitive": true
+  },
+  {
+   "name": "Hearts2Hearts",
+   "group": "kpop",
+   "aliases": [
+    "H2H"
+   ],
+   "tourUrl": "https://www.smentertainment.com/artist/hearts2hearts/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "SHINee / Key",
+   "group": "kpop",
+   "aliases": [
+    "Kim Kibum"
+   ],
+   "tourUrl": "https://www.smentertainment.com/artist/shinee/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "TAEMIN",
+   "group": "kpop",
+   "aliases": [
+    "Lee Taemin"
+   ]
+  },
+  {
+   "name": "TWICE",
+   "group": "kpop",
+   "aliases": [
+    "ONCE"
+   ],
+   "tourUrl": "https://www.livenation.com/artist/K8vZ917bhQ7/twice-events",
+   "tourMode": "browser",
+   "caseSensitive": true
+  },
+  {
+   "name": "ITZY",
+   "group": "kpop",
+   "aliases": [
+    "MIDZY"
+   ],
+   "tourUrl": "https://itzy.jype.com/",
+   "tourMode": "browser",
+   "caseSensitive": true
+  },
+  {
+   "name": "NMIXX",
+   "group": "kpop",
+   "aliases": [
+    "NSWER"
+   ],
+   "tourUrl": "https://nmixx.jype.com/",
+   "tourMode": "browser",
+   "caseSensitive": true
+  },
+  {
+   "name": "Xdinary Heroes",
+   "group": "kpop",
+   "tourUrl": "https://xdinaryheroes.jype.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "KickFlip",
+   "group": "kpop",
+   "tourUrl": "https://kickflip.jype.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "NEXZ",
+   "group": "kpop",
+   "tourUrl": "https://nexz.jype.com/",
+   "tourMode": "browser",
+   "caseSensitive": true
+  },
+  {
+   "name": "BLACKPINK",
+   "group": "kpop",
+   "aliases": [
+    "BLINK"
+   ]
+  },
+  {
+   "name": "JISOO",
+   "group": "kpop",
+   "aliases": [
+    "Kim Jisoo"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "JENNIE",
+   "group": "kpop",
+   "aliases": [
+    "Jennie Kim"
+   ]
+  },
+  {
+   "name": "LISA",
+   "group": "kpop",
+   "aliases": [
+    "Lalisa Manobal"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "ROSÉ",
+   "group": "kpop",
+   "aliases": [
+    "Rose",
+    "Roseanne Park"
+   ]
+  },
+  {
+   "name": "BABYMONSTER",
+   "group": "kpop",
+   "aliases": [
+    "BAEMON",
+    "MONSTIEZ"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "TREASURE",
+   "group": "kpop",
+   "aliases": [
+    "TEUME"
+   ]
+  },
+  {
+   "name": "BIGBANG",
+   "group": "kpop",
+   "aliases": [
+    "G-DRAGON",
+    "TAEYANG",
+    "DAESUNG"
+   ]
+  },
+  {
+   "name": "xikers",
+   "group": "kpop",
+   "aliases": [
+    "ROADY"
+   ]
+  },
+  {
+   "name": "ZEROBASEONE",
+   "group": "kpop",
+   "aliases": [
+    "ZB1",
+    "ZEROSE"
+   ],
+   "tourUrl": "https://wake-one.com/artist",
+   "tourMode": "browser"
+  },
+  {
+   "name": "izna",
+   "group": "kpop",
+   "tourUrl": "https://wake-one.com/artist",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Kep1er",
+   "group": "kpop",
+   "caseSensitive": true
+  },
+  {
+   "name": "MONSTA X",
+   "group": "kpop",
+   "aliases": [
+    "MONBEBE",
+    "Shownu",
+    "Minhyuk",
+    "Kihyun",
+    "Hyungwon",
+    "Joohoney",
+    "I.M"
+   ],
+   "tourUrl": "https://www.starship-ent.com/artist/monsta-x",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Wonho",
+   "group": "kpop"
+  },
+  {
+   "name": "IVE",
+   "group": "kpop",
+   "aliases": [
+    "DIVE"
+   ],
+   "tourUrl": "https://www.starship-ent.com/artist/ive",
+   "tourMode": "browser",
+   "caseSensitive": true
+  },
+  {
+   "name": "CRAVITY",
+   "group": "kpop",
+   "aliases": [
+    "LUVITY"
+   ],
+   "tourUrl": "https://www.starship-ent.com/artist/cravity",
+   "tourMode": "browser"
+  },
+  {
+   "name": "KiiiKiii",
+   "group": "kpop",
+   "tourUrl": "https://www.starship-ent.com/artist/kiiikiii",
+   "tourMode": "browser"
+  },
+  {
+   "name": "i-dle",
+   "group": "kpop",
+   "aliases": [
+    "(G)I-DLE",
+    "Neverland"
+   ]
+  },
+  {
+   "name": "THE BOYZ",
+   "group": "kpop",
+   "aliases": [
+    "THE B"
+   ]
+  },
+  {
+   "name": "P1Harmony",
+   "group": "kpop",
+   "aliases": [
+    "P1ece"
+   ]
+  },
+  {
+   "name": "AMPERS&ONE",
+   "group": "kpop"
+  },
+  {
+   "name": "N.Flying",
+   "group": "kpop"
+  },
+  {
+   "name": "ONEUS",
+   "group": "kpop",
+   "aliases": [
+    "TO MOON"
+   ],
+   "tourUrl": "https://www.modone2025.com/tour",
+   "tourMode": "browser",
+   "caseSensitive": true
+  },
+  {
+   "name": "ONEWE",
+   "group": "kpop",
+   "caseSensitive": true
+  },
+  {
+   "name": "MAMAMOO / Hwasa",
+   "group": "kpop",
+   "aliases": [
+    "Hwasa",
+    "Solar",
+    "Moonbyul",
+    "Wheein"
+   ]
+  },
+  {
+   "name": "Dreamcatcher",
+   "group": "kpop",
+   "aliases": [
+    "InSomnia"
+   ]
+  },
+  {
+   "name": "KISS OF LIFE",
+   "group": "kpop",
+   "aliases": [
+    "KIOF"
+   ]
+  },
+  {
+   "name": "Billlie",
+   "group": "kpop"
+  },
+  {
+   "name": "PURPLE KISS",
+   "group": "kpop",
+   "tourUrl": "https://www.purplekiss.co.kr/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "CIX",
+   "group": "kpop",
+   "caseSensitive": true
+  },
+  {
+   "name": "ATBO",
+   "group": "kpop",
+   "caseSensitive": true
+  },
+  {
+   "name": "DXMON",
+   "group": "kpop",
+   "caseSensitive": true
+  },
+  {
+   "name": "8TURN",
+   "group": "kpop",
+   "caseSensitive": true
+  },
+  {
+   "name": "EVNNE",
+   "group": "kpop",
+   "tourUrl": "https://www.modone2025.com/tour",
+   "tourMode": "browser",
+   "caseSensitive": true
+  },
+  {
+   "name": "VERIVERY",
+   "group": "kpop",
+   "aliases": [
+    "VERRERS"
+   ],
+   "tourUrl": "https://www.modone2025.com/tour",
+   "tourMode": "browser"
+  },
+  {
+   "name": "JUST B",
+   "group": "kpop",
+   "aliases": [
+    "JUSTB"
+   ],
+   "tourUrl": "https://www.modone2025.com/tour",
+   "tourMode": "browser"
+  },
+  {
+   "name": "NEWBEAT",
+   "group": "kpop",
+   "tourUrl": "https://www.qu-entertainment.com/newbeat"
+  },
+  {
+   "name": "NTX",
+   "group": "kpop",
+   "tourUrl": "https://www.qu-entertainment.com/ntx",
+   "caseSensitive": true
+  },
+  {
+   "name": "LUN8",
+   "group": "kpop",
+   "caseSensitive": true
+  },
+  {
+   "name": "POW",
+   "group": "kpop",
+   "caseSensitive": true
+  },
+  {
+   "name": "1VERSE",
+   "group": "kpop"
+  },
+  {
+   "name": "WILD WILD",
+   "group": "kpop",
+   "tourUrl": "https://shop.kineticvibe.net/en/events/wild-wild-paris-europe-tour-2027",
+   "caseSensitive": true
+  },
+  {
+   "name": "ZELO",
+   "group": "kpop",
+   "aliases": [
+    "Choi Junhong",
+    "ex-B.A.P"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "PENTAGON",
+   "group": "kpop"
+  },
+  {
+   "name": "ARTMS",
+   "group": "kpop",
+   "aliases": [
+    "LOONA members"
+   ],
+   "tourUrl": "https://www.modhaus.com/",
+   "tourMode": "browser",
+   "caseSensitive": true
+  },
+  {
+   "name": "tripleS",
+   "group": "kpop",
+   "tourUrl": "https://www.modhaus.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Loossemble",
+   "group": "kpop",
+   "aliases": [
+    "LOONA members"
+   ]
+  },
+  {
+   "name": "Jay Park",
+   "group": "kpop",
+   "aliases": [
+    "Park Jaebeom"
+   ],
+   "tourUrl": "https://www.morevision.kr/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "LNGSHOT",
+   "group": "kpop",
+   "tourUrl": "https://www.morevision.kr/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Jackson Wang",
+   "group": "kpop",
+   "tourUrl": "https://www.teamwang.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "pH-1 / H1GHR MUSIC",
+   "group": "kpop",
+   "aliases": [
+    "pH-1",
+    "Woodie Gochild",
+    "lIlBOI",
+    "H1GHR"
+   ]
+  },
+  {
+   "name": "DPR LIVE",
+   "group": "kpop",
+   "aliases": [
+    "DPR"
+   ],
+   "tourUrl": "https://dreamperfectregime.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "DPR IAN",
+   "group": "kpop",
+   "aliases": [
+    "Christian Yu"
+   ],
+   "tourUrl": "https://www.dprian.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Epik High",
+   "group": "kpop",
+   "aliases": [
+    "Tablo",
+    "Mithra Jin",
+    "Tukutz"
+   ],
+   "tourUrl": "https://www.epikhigh.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "BIBI",
+   "group": "kpop",
+   "aliases": [
+    "Kim Hyeong-seo"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "CL",
+   "group": "kpop",
+   "aliases": [
+    "Lee Chaerin"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "KARD",
+   "group": "kpop",
+   "caseSensitive": true
+  },
+  {
+   "name": "ALLDAY PROJECT",
+   "group": "kpop"
+  },
+  {
+   "name": "MEOVV",
+   "group": "kpop",
+   "caseSensitive": true
+  },
+  {
+   "name": "UNIS",
+   "group": "kpop",
+   "caseSensitive": true
+  },
+  {
+   "name": "QWER",
+   "group": "kpop",
+   "caseSensitive": true
+  },
+  {
+   "name": "TRENDZ",
+   "group": "kpop"
+  },
+  {
+   "name": "Can't Be Blue",
+   "group": "kpop"
+  },
+  {
+   "name": "Catch The Young",
+   "group": "kpop-adjacent"
+  },
+  {
+   "name": "Jooyoung",
+   "group": "kpop-adjacent"
+  },
+  {
+   "name": "oceanfromtheblue",
+   "group": "kpop-adjacent"
+  },
+  {
+   "name": "&TEAM",
+   "group": "kpop-adjacent",
+   "aliases": [
+    "andTEAM"
+   ],
+   "tourUrl": "https://www.andteam-official.jp/",
+   "caseSensitive": true
+  },
+  {
+   "name": "XG",
+   "group": "kpop-adjacent",
+   "aliases": [
+    "XGALX"
+   ],
+   "tourUrl": "https://www.xgalx.com/xg/",
+   "tourMode": "browser",
+   "caseSensitive": true
+  },
+  {
+   "name": "NiziU",
+   "group": "kpop-adjacent",
+   "tourUrl": "https://niziu.com/"
+  },
+  {
+   "name": "VCHA",
+   "group": "kpop-adjacent",
+   "caseSensitive": true
+  },
+  {
+   "name": "dear ALICE",
+   "group": "kpop-adjacent"
+  },
+  {
+   "name": "EXP Edition",
+   "group": "kpop-adjacent",
+   "tourUrl": "https://exp-edition.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "BLACKSWAN",
+   "group": "kpop-adjacent"
+  },
+  {
+   "name": "Hori7on",
+   "group": "kpop-adjacent"
+  },
+  {
+   "name": "ALL(H)OURS",
+   "group": "kpop-adjacent"
+  },
+  {
+   "name": "JO1",
+   "group": "kpop-adjacent",
+   "tourUrl": "https://jo1.jp/",
+   "caseSensitive": true
+  },
+  {
+   "name": "INI",
+   "group": "kpop-adjacent",
+   "tourUrl": "https://ini-official.com/",
+   "caseSensitive": true
+  },
+  {
+   "name": "BE:FIRST",
+   "group": "kpop-adjacent",
+   "tourUrl": "https://be-first.jp/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "KPop Demon Hunters Golden World Tour",
+   "group": "kpop-adjacent",
+   "aliases": [
+    "KPop Demon Hunters live",
+    "HUNTR/X",
+    "Saja Boys",
+    "Golden World Tour"
+   ],
+   "tourUrl": "https://kpopdemonhunterstour.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "KCON",
+   "group": "kpop-adjacent",
+   "aliases": [
+    "KCON Europe"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "KPOP.FLEX",
+   "group": "kpop-adjacent",
+   "aliases": [
+    "KPOP FLEX"
+   ]
+  },
+  {
+   "name": "Japan Expo Paris (K-pop stages)",
+   "group": "kpop-adjacent",
+   "aliases": [
+    "Japan Expo"
+   ],
+   "tourUrl": "https://paris.japan-expo.com/fr"
+  },
+  {
+   "name": "K-pop tribute shows",
+   "group": "kpop-adjacent",
+   "aliases": [
+    "K-Pop Showdown",
+    "K-Pop Sensations",
+    "K-Pop Forever",
+    "K-Pop Live"
+   ]
+  }
  ]
 }

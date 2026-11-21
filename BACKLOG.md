@@ -56,6 +56,10 @@ Bugs, shortcuts and unverified items. Fixed in one batch when Nick says "execute
 - Il Volo at Forest National 10 Oct 2027 is not in the venue's listing (feed check); confirm or remove on 25 Nov.
 - Premier League Darts at AFAS Dome 25 Mar 2027 appears in the feed; not added (sport at a concert venue). Add if wanted.
 
+## K-pop sweep, 21 Nov 2026
+- Not added (lower priority, Korean band and R&B rather than idol K-pop): Catch The Young 27 Nov 2026 Zonnehuis Amsterdam, Jooyoung 6 Dec 2026 Amsterdam (venue unknown), oceanfromtheblue 27 Mar 2027 Q-Factory. Add if Alma follows them.
+- K-pop sources that refuse automated clients: Ticketmaster (all countries), Eventim, Fnac Spectacles, Weverse notices, kpopofficial.com tag pages (429), KQ, Starship, SM and JYP artist pages (script shells), YG concert pages (dates in images). A Ticketmaster Discovery API key would open the biggest of these; see the 21 Nov report.
+
 ## Code
 - Plan conflicts consider only entries spanning 3 days or fewer; long-running exhibitions never clash.
 - Deep links to the Browse filters (kind, country, month) are not in the hash; only tabs and entries are.
