@@ -1,5 +1,8 @@
 # Data changelog
 
+## 2026-11-21: Tour radar seeded
+- data/tours.json holds 58 tours announced worldwide between 1 Sep and 21 Nov 2026: 23 K-pop and K-pop adjacent, 21 Italian, 1 Eurovision (Melodifestivalen 2027), 13 recommended (U2, Oasis, Foo Fighters, Fall Out Boy, Mariah Carey at Spa, Charli xcx, Rod Stewart, Hilary Duff, Nickelback, Sam Fender, Noah Kahan, Harry Styles, Bon Jovi). 19 confirmed from organiser pages, 39 from lead sources only.
+
 ## 2026-11-21: Italian and Eurovision sweep
 - Added 16 concerts and 1 event. Italian: Afterhours (Melkweg 12 Jan 2027, Brussels and Paris projected), Mannarino (La Madeleine Brussels 8 Mar, Melkweg 11 Mar, Paris projected), The Kolors (Batschkapp Frankfurt 11 Apr, La Madeleine 9 Oct, Den Atelier projected), and Italia 2027, the Sanremo 2027 winners' show at Accor Arena on 23 Feb 2027 (projected; no line-up or tickets yet). Eurovision: Kyle Alessandro (Melkweg 22 Jan, sold out), Delta Goodrem (Melkweg 7 Mar; Paris and Köln projected), Sarah Engels (Batschkapp 2 Apr; Köln projected), and the Amsterdam Calling fan party at the Melkweg on 2 Apr 2027, the night before Eurovision in Concert.
 - data/watchlist.json now holds 251 acts and 31 sources, including All Music Italia's 2027 tour list, Friends & Partners, La Madeleine, Batschkapp, Eurovoix and the Eurovision 2027 national-selection table.

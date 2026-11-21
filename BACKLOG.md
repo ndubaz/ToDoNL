@@ -65,6 +65,11 @@ Bugs, shortcuts and unverified items. Fixed in one batch when Nick says "execute
 - Blocked: eurovision.tv, eurovision.com, eurovisionworld.com, ebu.ch and Den Atelier (Cloudflare), rockol.it and TivoliVredenburg (403), TicketOne and Eventim (connection reset).
 - Check after 11 Dec 2026: the Sanremo 2027 cast, then each cast member's tour pages; after the festival, the Italia 2027 Paris show line-up and ticket sale.
 
+## Tour radar seed, 21 Nov 2026
+- 39 of 58 tours rest on lead sources (Billboard, Soompi, All Music Italia, Kpop Concerts Europe) because the official sites block automated reads or render dates by script. Upgrade them to confirmed as official pages are read.
+- No tours announced in the window by most Eurovision acts or K-pop-adjacent groups (Santos Bravos, XG, &TEAM, NiziU, JO1, INI, BE:FIRST, VCHA, dear ALICE); the radar lists those groups as they announce.
+- Conflicts left null: NEXZ Kuala Lumpur date, Stray Kids second nights in Paris, London and Munich (fan sites only), Rod Stewart mid-tour dates, Gigi D'Alessio European cities.
+
 ## Code
 - Plan conflicts consider only entries spanning 3 days or fewer; long-running exhibitions never clash.
 - Deep links to the Browse filters (kind, country, month) are not in the hash; only tabs and entries are.

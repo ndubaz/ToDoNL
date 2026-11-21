@@ -1,1 +1,3957 @@
-[]
+[
+  {
+    "id": "stray-kids-run-it-na-eu-2027",
+    "artist": "Stray Kids",
+    "group": "kpop",
+    "tour": "RUN IT World Tour (North America and Europe)",
+    "announcedOn": "2026-11-09",
+    "firstDate": "2027-05-16",
+    "lastDate": "2027-07-31",
+    "regions": [
+      "North America",
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Seattle",
+        "country": "US",
+        "date": "2027-05-16",
+        "venue": "Lumen Field"
+      },
+      {
+        "city": "Los Angeles",
+        "country": "US",
+        "date": "2027-05-29",
+        "venue": "SoFi Stadium"
+      },
+      {
+        "city": "East Rutherford",
+        "country": "US",
+        "date": "2027-06-29",
+        "venue": "MetLife Stadium"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-07-09",
+        "venue": "Plenitude Arena"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-07-13",
+        "venue": "Tottenham Hotspur Stadium"
+      },
+      {
+        "city": "Munich",
+        "country": "DE",
+        "date": "2027-07-17",
+        "venue": "Allianz Arena"
+      },
+      {
+        "city": "Vienna",
+        "country": "AT",
+        "date": "2027-07-21",
+        "venue": "Ernst-Happel-Stadion"
+      },
+      {
+        "city": "Barcelona",
+        "country": "ES",
+        "date": "2027-07-24",
+        "venue": "Estadi Olimpic Lluis Companys"
+      },
+      {
+        "city": "Arnhem",
+        "country": "NL",
+        "date": "2027-07-27",
+        "venue": "GelreDome"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-07-31",
+        "venue": "San Siro"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-11-19",
+    "source": "https://www.livenation.com/feature/straykids",
+    "confidence": "confirmed",
+    "for": [
+      "alma",
+      "family"
+    ],
+    "reason": null,
+    "note": "Lee Know sits out these legs for military service; second nights in Paris, London and Munich appear only on fan sites."
+  },
+  {
+    "id": "ateez-zero-to-all-2026",
+    "artist": "ATEEZ",
+    "group": "kpop",
+    "tour": "ZERO TO ALL",
+    "announcedOn": "2026-10-10",
+    "firstDate": null,
+    "lastDate": null,
+    "regions": [
+      "Asia",
+      "Europe",
+      "North America",
+      "Latin America"
+    ],
+    "stops": [
+      {
+        "city": "Incheon",
+        "country": "KR",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-03-31",
+        "venue": null
+      },
+      {
+        "city": "Lyon",
+        "country": "FR",
+        "date": "2027-04-04",
+        "venue": null
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2027-04-07",
+        "venue": null
+      },
+      {
+        "city": "Krakow",
+        "country": "PL",
+        "date": "2027-04-10",
+        "venue": null
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2027-04-12",
+        "venue": null
+      },
+      {
+        "city": "Cologne",
+        "country": "DE",
+        "date": "2027-04-15",
+        "venue": null
+      },
+      {
+        "city": "Antwerp",
+        "country": "BE",
+        "date": "2027-04-17",
+        "venue": null
+      }
+    ],
+    "europe": true,
+    "status": "announced",
+    "onSale": null,
+    "source": "https://www.soompi.com/article/1876803wpp/ateez-announces-stops-for-2027-world-tour-zero-to-all",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Only lead sources read: Soompi for the plan (Incheon in January, Japan, Europe, the Americas) and kpopconcertseurope.com for European dates; venues not yet named."
+  },
+  {
+    "id": "evnne-one-take-fan-concert-tour-2026",
+    "artist": "EVNNE",
+    "group": "kpop",
+    "tour": "ONE TAKE (fan-concert tour)",
+    "announcedOn": "2026-09-08",
+    "firstDate": "2026-11-21",
+    "lastDate": "2027-02-21",
+    "regions": [
+      "Asia",
+      "North America",
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Seoul",
+        "country": "KR",
+        "date": "2026-11-21",
+        "venue": null
+      },
+      {
+        "city": "Toronto",
+        "country": "CA",
+        "date": "2027-01-15",
+        "venue": "The Opera House"
+      },
+      {
+        "city": "Los Angeles",
+        "country": "US",
+        "date": "2027-02-04",
+        "venue": "The Vermont Hollywood"
+      },
+      {
+        "city": "Budapest",
+        "country": "HU",
+        "date": "2027-02-08",
+        "venue": "Dürer Kert"
+      },
+      {
+        "city": "Helsinki",
+        "country": "FI",
+        "date": "2027-02-11",
+        "venue": "Apollo Live Club"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-02-14",
+        "venue": "Bataclan"
+      },
+      {
+        "city": "Warsaw",
+        "country": "PL",
+        "date": "2027-02-16",
+        "venue": "Palladium"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2027-02-17",
+        "venue": "Q-Factory"
+      },
+      {
+        "city": "Cologne",
+        "country": "DE",
+        "date": "2027-02-19",
+        "venue": "Die Kantine"
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2027-02-21",
+        "venue": "Kesselhaus"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-10-05",
+    "source": "https://x.com/EVNNE_official/status/2101869046803333624",
+    "confidence": "confirmed",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Stops announced 21 Sep 2026; European venues from the promoter listing via kpopconcertseurope.com."
+  },
+  {
+    "id": "nexz-saucin-the-world-2026",
+    "artist": "NEXZ",
+    "group": "kpop",
+    "tour": "SAUCIN' THE WORLD",
+    "announcedOn": "2026-09-08",
+    "firstDate": "2026-10-17",
+    "lastDate": null,
+    "regions": [
+      "Asia"
+    ],
+    "stops": [
+      {
+        "city": "Seoul",
+        "country": "KR",
+        "date": "2026-10-17",
+        "venue": "Olympic Hall"
+      },
+      {
+        "city": "Hyogo",
+        "country": "JP",
+        "date": "2027-01-16",
+        "venue": "Kobe World Hall"
+      },
+      {
+        "city": "Aichi",
+        "country": "JP",
+        "date": "2027-01-23",
+        "venue": "Port Messe Nagoya"
+      },
+      {
+        "city": "Tokyo",
+        "country": "JP",
+        "date": "2027-01-30",
+        "venue": "Keio Arena"
+      },
+      {
+        "city": "Hong Kong",
+        "country": "HK",
+        "date": "2027-02-14",
+        "venue": "AsiaWorld-Expo Hall 5"
+      },
+      {
+        "city": "Taipei",
+        "country": "TW",
+        "date": "2027-02-20",
+        "venue": "Zepp New Taipei"
+      },
+      {
+        "city": "Singapore",
+        "country": "SG",
+        "date": "2027-04-24",
+        "venue": "The Star Theatre"
+      },
+      {
+        "city": "Kuala Lumpur",
+        "country": "MY",
+        "date": null,
+        "venue": "Zepp Kuala Lumpur"
+      }
+    ],
+    "europe": false,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://www.soompi.com/article/1879435wpp/nexz-announces-2027-dates-and-cities-for-1st-asia-tour-saucin-the-world",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Kuala Lumpur date differs between Soompi reports (20 May or 29 May 2027); JYP notice not read."
+  },
+  {
+    "id": "xlov-first-u-s-tour-2026",
+    "artist": "XLOV",
+    "group": "kpop",
+    "tour": "First U.S. tour",
+    "announcedOn": "2026-09-25",
+    "firstDate": "2026-12-03",
+    "lastDate": "2026-12-15",
+    "regions": [
+      "North America"
+    ],
+    "stops": [
+      {
+        "city": "Miami",
+        "country": "US",
+        "date": "2026-12-03",
+        "venue": null
+      },
+      {
+        "city": "New York",
+        "country": "US",
+        "date": "2026-12-05",
+        "venue": null
+      },
+      {
+        "city": "Chicago",
+        "country": "US",
+        "date": "2026-12-06",
+        "venue": null
+      },
+      {
+        "city": "Dallas",
+        "country": "US",
+        "date": "2026-12-09",
+        "venue": null
+      },
+      {
+        "city": "Los Angeles",
+        "country": "US",
+        "date": "2026-12-12",
+        "venue": null
+      },
+      {
+        "city": "San Francisco",
+        "country": "US",
+        "date": "2026-12-15",
+        "venue": null
+      }
+    ],
+    "europe": false,
+    "status": "tbd",
+    "onSale": null,
+    "source": "https://www.soompi.com/article/1873200wpp/xlov-announces-dates-and-cities-for-1st-u-s-tour",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Lead source only; ticket status not checked."
+  },
+  {
+    "id": "jxj-seventeen-jeonghan-and-joshua-journey-into-dreaming-2026",
+    "artist": "JxJ (SEVENTEEN Jeonghan and Joshua)",
+    "group": "kpop",
+    "tour": "JOURNEY INTO 'DREAMING'",
+    "announcedOn": "2026-09-28",
+    "firstDate": "2026-10-30",
+    "lastDate": "2027-02-21",
+    "regions": [
+      "Asia"
+    ],
+    "stops": [
+      {
+        "city": "Incheon",
+        "country": "KR",
+        "date": "2026-10-30",
+        "venue": "Inspire Arena"
+      },
+      {
+        "city": "Taipei",
+        "country": "TW",
+        "date": "2027-01-09",
+        "venue": "Taipei Arena"
+      },
+      {
+        "city": "Busan",
+        "country": "KR",
+        "date": "2027-01-30",
+        "venue": "BEXCO"
+      },
+      {
+        "city": "Hong Kong",
+        "country": "HK",
+        "date": "2027-02-20",
+        "venue": "AsiaWorld-Arena"
+      },
+      {
+        "city": "Macau",
+        "country": "MO",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Japan",
+        "country": "JP",
+        "date": null,
+        "venue": null
+      }
+    ],
+    "europe": false,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://x.com/pledis_17/status/2104435937027727476",
+    "confidence": "confirmed",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Japan and Macau dates not read; 2027 dates from the Soompi masterlist."
+  },
+  {
+    "id": "nct-wish-into-the-wish-face-our-wish-2027",
+    "artist": "NCT WISH",
+    "group": "kpop",
+    "tour": "INTO THE WISH : Face Our WISH",
+    "announcedOn": "2026-10-11",
+    "firstDate": "2027-01-15",
+    "lastDate": null,
+    "regions": [
+      "Asia"
+    ],
+    "stops": [
+      {
+        "city": "Seoul",
+        "country": "KR",
+        "date": "2027-01-15",
+        "venue": "Gocheok Sky Dome"
+      },
+      {
+        "city": "Kaohsiung",
+        "country": "TW",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Bangkok",
+        "country": "TH",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Manila",
+        "country": "PH",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Tokyo",
+        "country": "JP",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Hyogo",
+        "country": "JP",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Fukuoka",
+        "country": "JP",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Aichi",
+        "country": "JP",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Macau",
+        "country": "MO",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Taipei",
+        "country": "TW",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Jakarta",
+        "country": "ID",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Kuala Lumpur",
+        "country": "MY",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Hong Kong",
+        "country": "HK",
+        "date": null,
+        "venue": null
+      }
+    ],
+    "europe": false,
+    "status": "announced",
+    "onSale": null,
+    "source": "https://x.com/nctwishofficial/status/2109237663748522420",
+    "confidence": "confirmed",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Dates after Seoul not read."
+  },
+  {
+    "id": "kyuhyun-continue-2026",
+    "artist": "Kyuhyun",
+    "group": "kpop",
+    "tour": "CONTINUE",
+    "announcedOn": "2026-10-30",
+    "firstDate": "2026-12-18",
+    "lastDate": "2027-03-28",
+    "regions": [
+      "Asia"
+    ],
+    "stops": [
+      {
+        "city": "Seoul",
+        "country": "KR",
+        "date": "2026-12-18",
+        "venue": null
+      },
+      {
+        "city": "Bangkok",
+        "country": "TH",
+        "date": "2027-01-09",
+        "venue": null
+      },
+      {
+        "city": "Hong Kong",
+        "country": "HK",
+        "date": "2027-02-13",
+        "venue": null
+      },
+      {
+        "city": "Tokyo",
+        "country": "JP",
+        "date": "2027-02-21",
+        "venue": null
+      },
+      {
+        "city": "Taipei",
+        "country": "TW",
+        "date": "2027-02-27",
+        "venue": null
+      },
+      {
+        "city": "Hyogo",
+        "country": "JP",
+        "date": "2027-03-21",
+        "venue": null
+      },
+      {
+        "city": "Kaohsiung",
+        "country": "TW",
+        "date": "2027-03-27",
+        "venue": null
+      }
+    ],
+    "europe": false,
+    "status": "announced",
+    "onSale": null,
+    "source": "https://www.soompi.com/article/1882930wpp/kyuhyun-announces-dates-and-cities-for-new-asia-tour-continue",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Announced by his agency Antenna; read via Soompi and its masterlist only."
+  },
+  {
+    "id": "wonho-noche-2027",
+    "artist": "Wonho",
+    "group": "kpop",
+    "tour": "NOCHE",
+    "announcedOn": "2026-11-11",
+    "firstDate": "2027-01-09",
+    "lastDate": "2027-01-29",
+    "regions": [
+      "North America"
+    ],
+    "stops": [
+      {
+        "city": "Seattle",
+        "country": "US",
+        "date": "2027-01-09",
+        "venue": "Moore Theatre"
+      },
+      {
+        "city": "San Francisco",
+        "country": "US",
+        "date": "2027-01-11",
+        "venue": "The Fillmore"
+      },
+      {
+        "city": "Los Angeles",
+        "country": "US",
+        "date": "2027-01-13",
+        "venue": "The Novo"
+      },
+      {
+        "city": "Minneapolis",
+        "country": "US",
+        "date": "2027-01-16",
+        "venue": "The Fillmore Minneapolis"
+      },
+      {
+        "city": "Chicago",
+        "country": "US",
+        "date": "2027-01-18",
+        "venue": "Cermak Hall"
+      },
+      {
+        "city": "Dallas",
+        "country": "US",
+        "date": "2027-01-21",
+        "venue": "House of Blues"
+      },
+      {
+        "city": "Orlando",
+        "country": "US",
+        "date": "2027-01-23",
+        "venue": "The Vanguard"
+      },
+      {
+        "city": "Silver Spring",
+        "country": "US",
+        "date": "2027-01-25",
+        "venue": "The Fillmore Silver Spring"
+      },
+      {
+        "city": "Philadelphia",
+        "country": "US",
+        "date": "2027-01-27",
+        "venue": "Brooklyn Bowl Philadelphia"
+      },
+      {
+        "city": "New York",
+        "country": "US",
+        "date": "2027-01-29",
+        "venue": "Webster Hall"
+      }
+    ],
+    "europe": false,
+    "status": "onsale",
+    "onSale": "2026-11-13",
+    "source": "https://www.soompi.com/article/1885646wpp/wonho-announces-dates-and-cities-for-2027-world-tour-noche",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Billed as a world tour; only North American dates published."
+  },
+  {
+    "id": "exo-kase-kai-and-sehun-silent-city-2027",
+    "artist": "EXO-KASE (Kai and Sehun)",
+    "group": "kpop",
+    "tour": "SILENT CITY (fan-concert tour)",
+    "announcedOn": "2026-11-13",
+    "firstDate": "2027-01-09",
+    "lastDate": "2027-03-21",
+    "regions": [
+      "Asia"
+    ],
+    "stops": [
+      {
+        "city": "Seoul",
+        "country": "KR",
+        "date": "2027-01-09",
+        "venue": "Korea University Hwajeong Tiger Dome"
+      },
+      {
+        "city": "Kuala Lumpur",
+        "country": "MY",
+        "date": "2027-01-16",
+        "venue": "Idea Live"
+      },
+      {
+        "city": "Macau",
+        "country": "MO",
+        "date": "2027-01-23",
+        "venue": "Studio City Event Center"
+      },
+      {
+        "city": "Jakarta",
+        "country": "ID",
+        "date": "2027-01-30",
+        "venue": "Beach City International Stadium"
+      },
+      {
+        "city": "Tokyo",
+        "country": "JP",
+        "date": "2027-02-04",
+        "venue": "Tokyo Garden Theater"
+      },
+      {
+        "city": "Bangkok",
+        "country": "TH",
+        "date": "2027-02-13",
+        "venue": "Thunder Dome"
+      },
+      {
+        "city": "Taipei",
+        "country": "TW",
+        "date": "2027-02-20",
+        "venue": "Nangang Exhibition Center"
+      },
+      {
+        "city": "Manila",
+        "country": "PH",
+        "date": "2027-03-21",
+        "venue": "Smart Araneta Coliseum"
+      }
+    ],
+    "europe": false,
+    "status": "announced",
+    "onSale": "2026-11-25",
+    "source": "https://www.soompi.com/article/1886712wpp/exo-kase-announces-dates-and-cities-for-1st-fan-concert-tour-silent-city",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Seoul general sale from 25 Nov 2026; other dates from the Soompi masterlist."
+  },
+  {
+    "id": "taeyeon-f-l-y-2027",
+    "artist": "Taeyeon",
+    "group": "kpop",
+    "tour": "F.L.Y.",
+    "announcedOn": "2026-11-18",
+    "firstDate": "2027-01-15",
+    "lastDate": "2027-04-18",
+    "regions": [
+      "Asia"
+    ],
+    "stops": [
+      {
+        "city": "Seoul",
+        "country": "KR",
+        "date": "2027-01-15",
+        "venue": "KSPO Dome"
+      },
+      {
+        "city": "Macau",
+        "country": "MO",
+        "date": "2027-01-30",
+        "venue": "Galaxy Arena"
+      },
+      {
+        "city": "Bangkok",
+        "country": "TH",
+        "date": "2027-02-27",
+        "venue": "IMPACT Arena"
+      },
+      {
+        "city": "Hong Kong",
+        "country": "HK",
+        "date": "2027-03-27",
+        "venue": "Hong Kong Coliseum"
+      },
+      {
+        "city": "Taipei",
+        "country": "TW",
+        "date": "2027-04-03",
+        "venue": "Taipei Dome"
+      },
+      {
+        "city": "Tokyo",
+        "country": "JP",
+        "date": "2027-04-17",
+        "venue": "Keio Arena"
+      }
+    ],
+    "europe": false,
+    "status": "announced",
+    "onSale": null,
+    "source": "https://x.com/TAEYEONsmtown/status/2122917748699533726",
+    "confidence": "confirmed",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": null
+  },
+  {
+    "id": "wayv-born-this-way-us-2027",
+    "artist": "WayV",
+    "group": "kpop",
+    "tour": "BORN THIS Way (U.S. leg)",
+    "announcedOn": "2026-11-20",
+    "firstDate": "2027-02-04",
+    "lastDate": "2027-02-11",
+    "regions": [
+      "North America"
+    ],
+    "stops": [
+      {
+        "city": "Los Angeles",
+        "country": "US",
+        "date": "2027-02-04",
+        "venue": null
+      },
+      {
+        "city": "San Jose",
+        "country": "US",
+        "date": "2027-02-06",
+        "venue": null
+      },
+      {
+        "city": "Grand Prairie",
+        "country": "US",
+        "date": "2027-02-09",
+        "venue": null
+      },
+      {
+        "city": "New York",
+        "country": "US",
+        "date": "2027-02-11",
+        "venue": null
+      }
+    ],
+    "europe": false,
+    "status": "announced",
+    "onSale": null,
+    "source": "https://www.soompi.com/article/1888986wpp/wayv-announces-2027-u-s-tour-dates-and-cities-for-born-this-way",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "New U.S. leg of an existing tour; lead source only."
+  },
+  {
+    "id": "1verse-2nd-world-tour-europe-2027",
+    "artist": "1VERSE",
+    "group": "kpop",
+    "tour": "2nd World Tour: Europe",
+    "announcedOn": "2026-11-11",
+    "firstDate": "2027-01-16",
+    "lastDate": null,
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Helsinki",
+        "country": "FI",
+        "date": "2027-01-16",
+        "venue": null
+      },
+      {
+        "city": "Belgrade",
+        "country": "RS",
+        "date": "2027-01-19",
+        "venue": null
+      },
+      {
+        "city": "Frankfurt",
+        "country": "DE",
+        "date": "2027-01-22",
+        "venue": null
+      },
+      {
+        "city": "Munich",
+        "country": "DE",
+        "date": "2027-01-24",
+        "venue": null
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2027-01-26",
+        "venue": null
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-01-28",
+        "venue": null
+      },
+      {
+        "city": "Rotterdam",
+        "country": "NL",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Manchester",
+        "country": "GB",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-02-04",
+        "venue": null
+      },
+      {
+        "city": "Huskvarna",
+        "country": "SE",
+        "date": null,
+        "venue": null
+      }
+    ],
+    "europe": true,
+    "status": "announced",
+    "onSale": "2026-11-27",
+    "source": "https://www.kpopconcertseurope.com/post/1verse-2nd-world-tour-europe",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Fan-site listing only; announcement date is the first fan-site report; venues not named."
+  },
+  {
+    "id": "wild-wild-wild-wild-tour-2027-2027",
+    "artist": "WILD WILD",
+    "group": "kpop",
+    "tour": "WILD WILD TOUR 2027",
+    "announcedOn": "2026-11-09",
+    "firstDate": "2027-03-08",
+    "lastDate": "2027-03-20",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-03-08",
+        "venue": "Cabaret Sauvage"
+      },
+      {
+        "city": "Frankfurt",
+        "country": "DE",
+        "date": "2027-03-09",
+        "venue": "Zoom Saal"
+      },
+      {
+        "city": "Madrid",
+        "country": "ES",
+        "date": "2027-03-15",
+        "venue": "Capitol Theatre"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-03-18",
+        "venue": "Fabrique"
+      },
+      {
+        "city": "Wroclaw",
+        "country": "PL",
+        "date": "2027-03-20",
+        "venue": "Zaklete Rewiry"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-11-13",
+    "source": "https://www.kpopconcertseurope.com/post/wild-wild-tour-2027",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Promoter Kinetic Vibe; read via fan site only; announcement date is the first fan-site report."
+  },
+  {
+    "id": "ntx-x-connect-2027",
+    "artist": "NTX",
+    "group": "kpop",
+    "tour": "2027 Europe Tour X:CONNECT",
+    "announcedOn": "2026-10-06",
+    "firstDate": "2027-01-13",
+    "lastDate": "2027-01-31",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Munich",
+        "country": "DE",
+        "date": "2027-01-13",
+        "venue": "Backstage Halle"
+      },
+      {
+        "city": "Cologne",
+        "country": "DE",
+        "date": "2027-01-15",
+        "venue": "Kantine"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2027-01-18",
+        "venue": "Q-Factory"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-01-20",
+        "venue": "Alhambra"
+      },
+      {
+        "city": "Warsaw",
+        "country": "PL",
+        "date": "2027-01-23",
+        "venue": "Hybrydy"
+      },
+      {
+        "city": "Budapest",
+        "country": "HU",
+        "date": "2027-01-26",
+        "venue": "Dürer Kert"
+      },
+      {
+        "city": "Lisbon",
+        "country": "PT",
+        "date": "2027-01-28",
+        "venue": "Republica Da Musica"
+      },
+      {
+        "city": "Madrid",
+        "country": "ES",
+        "date": "2027-01-31",
+        "venue": "Revi Live"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-10-12",
+    "source": "https://www.kpopconcertseurope.com/post/ntx-2027-europe-tour-x-connect",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Fan-site listing only; announcement date is the first fan-site report."
+  },
+  {
+    "id": "just-b-k-pop-rave-europe-2027",
+    "artist": "Just B",
+    "group": "kpop",
+    "tour": "K-POP Rave in Europe 2027",
+    "announcedOn": "2026-11-03",
+    "firstDate": "2027-02-22",
+    "lastDate": "2027-03-09",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2027-02-22",
+        "venue": "Kesselhaus"
+      },
+      {
+        "city": "Bochum",
+        "country": "DE",
+        "date": "2027-02-24",
+        "venue": "Zeche"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-02-26",
+        "venue": "Bataclan"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-02-28",
+        "venue": "Scala"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2027-03-03",
+        "venue": "Q-Factory"
+      },
+      {
+        "city": "Lisbon",
+        "country": "PT",
+        "date": "2027-03-05",
+        "venue": "LAV Lisboa Ao Vivo"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-03-07",
+        "venue": "Magazzini Generali"
+      },
+      {
+        "city": "Warsaw",
+        "country": "PL",
+        "date": "2027-03-09",
+        "venue": "Palladium"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-11-10",
+    "source": "https://www.kpopconcertseurope.com/post/just-b-k-pop-rave-in-europe-2027",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Promoter Mod.one; read via fan site only; announcement date is the first fan-site report."
+  },
+  {
+    "id": "zelo-unbound-europe-2026",
+    "artist": "ZELO",
+    "group": "kpop",
+    "tour": "Unbound: The 1st European Live Show Tour",
+    "announcedOn": "2026-10-06",
+    "firstDate": "2026-11-14",
+    "lastDate": "2026-11-25",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Nantes",
+        "country": "FR",
+        "date": "2026-11-14",
+        "venue": "Art2Play"
+      },
+      {
+        "city": "Brussels",
+        "country": "BE",
+        "date": "2026-11-17",
+        "venue": "VK"
+      },
+      {
+        "city": "Amstelveen",
+        "country": "NL",
+        "date": "2026-11-18",
+        "venue": "P60"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2026-11-21",
+        "venue": "Alhambra"
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2026-11-22",
+        "venue": "Hole 44"
+      },
+      {
+        "city": "Cologne",
+        "country": "DE",
+        "date": "2026-11-24",
+        "venue": "Club Volta"
+      },
+      {
+        "city": "Warsaw",
+        "country": "PL",
+        "date": "2026-11-25",
+        "venue": "Proxima"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-10-10",
+    "source": "https://www.kpopconcertseurope.com/post/zelo-unbound-the-1st-european-live-show-tour",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Former B.A.P member; fan-site listing only."
+  },
+  {
+    "id": "jooyoung-90s-kids-europe-tour-2026-2026",
+    "artist": "Jooyoung",
+    "group": "kpop",
+    "tour": "90s Kids Europe Tour 2026",
+    "announcedOn": "2026-10-16",
+    "firstDate": "2026-12-04",
+    "lastDate": "2026-12-13",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2026-12-04",
+        "venue": "The Courtyard Theatre"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2026-12-06",
+        "venue": "Toekomstmuziek"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2026-12-08",
+        "venue": "La Dame de Canton"
+      },
+      {
+        "city": "Cardiff",
+        "country": "GB",
+        "date": "2026-12-10",
+        "venue": "Fuel Rock Club"
+      },
+      {
+        "city": "Munich",
+        "country": "DE",
+        "date": "2026-12-13",
+        "venue": "Strom"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-10-30",
+    "source": "https://www.kpopconcertseurope.com/post/jooyoung-90s-kids-europe-tour-2026",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Fan-site listing only."
+  },
+  {
+    "id": "catch-the-young-ignite-evolve-tour-2026-2026",
+    "artist": "Catch The Young",
+    "group": "kpop",
+    "tour": "Ignite Evolve Tour 2026",
+    "announcedOn": "2026-10-21",
+    "firstDate": "2026-11-22",
+    "lastDate": "2026-11-29",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2026-11-22",
+        "venue": "The Steel Yard"
+      },
+      {
+        "city": "Manchester",
+        "country": "GB",
+        "date": "2026-11-24",
+        "venue": "The Bread Shed"
+      },
+      {
+        "city": "Birmingham",
+        "country": "GB",
+        "date": "2026-11-25",
+        "venue": "The Castle and Falcon"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2026-11-27",
+        "venue": "Zonnehuis"
+      },
+      {
+        "city": "Frankfurt",
+        "country": "DE",
+        "date": "2026-11-29",
+        "venue": "Zoom"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-10-30",
+    "source": "https://www.kpopconcertseurope.com/post/catch-the-young-ignite-evolve-tour-2026",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Korean band; fan-site listing only."
+  },
+  {
+    "id": "newbeat-break-the-sound-2026",
+    "artist": "NEWBEAT",
+    "group": "kpop",
+    "tour": "Break The Sound",
+    "announcedOn": "2026-09-10",
+    "firstDate": "2026-12-07",
+    "lastDate": "2026-12-29",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Lisbon",
+        "country": "PT",
+        "date": "2026-12-07",
+        "venue": "Republica Da Musica"
+      },
+      {
+        "city": "Madrid",
+        "country": "ES",
+        "date": "2026-12-09",
+        "venue": "Revi Live"
+      },
+      {
+        "city": "Cologne",
+        "country": "DE",
+        "date": "2026-12-11",
+        "venue": "Kantine"
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2026-12-13",
+        "venue": "Hole 44"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2026-12-15",
+        "venue": "Cafe de la Danse"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2026-12-17",
+        "venue": "Legend Club Milano"
+      },
+      {
+        "city": "Warsaw",
+        "country": "PL",
+        "date": "2026-12-19",
+        "venue": "Proxima"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2026-12-21",
+        "venue": "Q-Factory"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2026-12-29",
+        "venue": "229"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-09-18",
+    "source": "https://www.kpopconcertseurope.com/post/newbeat-break-the-sound",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "First European tour; fan-site listing only."
+  },
+  {
+    "id": "mcnd-devil-youth-club-2026-in-europe-2026",
+    "artist": "MCND",
+    "group": "kpop",
+    "tour": "Devil Youth Club 2026 in Europe",
+    "announcedOn": "2026-09-04",
+    "firstDate": "2026-11-24",
+    "lastDate": "2026-12-09",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Warsaw",
+        "country": "PL",
+        "date": "2026-11-24",
+        "venue": "Proxima"
+      },
+      {
+        "city": "Prague",
+        "country": "CZ",
+        "date": "2026-11-26",
+        "venue": "Sasazu"
+      },
+      {
+        "city": "Budapest",
+        "country": "HU",
+        "date": "2026-11-30",
+        "venue": "Barba Negra"
+      },
+      {
+        "city": "Munich",
+        "country": "DE",
+        "date": "2026-12-02",
+        "venue": "Ampere"
+      },
+      {
+        "city": "Wroclaw",
+        "country": "PL",
+        "date": "2026-12-04",
+        "venue": "A2"
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2026-12-06",
+        "venue": "Hole44"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2026-12-08",
+        "venue": "Cafe de la Danse"
+      },
+      {
+        "city": "Lyon",
+        "country": "FR",
+        "date": "2026-12-09",
+        "venue": "La Rayonne"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-09-11",
+    "source": "https://www.kpopconcertseurope.com/post/mcnd-devil-youth-club-2026-in-europe",
+    "confidence": "projected",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "Promoter Studio Pav Europe; fan-site listing only."
+  },
+  {
+    "id": "kpop-demon-hunters-golden-world-tour-2027",
+    "artist": "KPop Demon Hunters",
+    "group": "kpop-adjacent",
+    "tour": "Golden World Tour",
+    "announcedOn": "2026-11-13",
+    "firstDate": "2027-06-05",
+    "lastDate": "2027-10-23",
+    "regions": [
+      "North America",
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Baltimore",
+        "country": "US",
+        "date": "2027-06-05",
+        "venue": "CFG Bank Arena"
+      },
+      {
+        "city": "Chicago",
+        "country": "US",
+        "date": "2027-06-19",
+        "venue": "United Center"
+      },
+      {
+        "city": "Los Angeles",
+        "country": "US",
+        "date": "2027-07-30",
+        "venue": "Crypto.com Arena"
+      },
+      {
+        "city": "Tacoma",
+        "country": "US",
+        "date": "2027-08-14",
+        "venue": "Tacoma Dome"
+      },
+      {
+        "city": "Zurich",
+        "country": "CH",
+        "date": "2027-09-01",
+        "venue": "Hallenstadion"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-09-04",
+        "venue": "Unipol Dome"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2027-09-08",
+        "venue": "Ziggo Dome"
+      },
+      {
+        "city": "Vienna",
+        "country": "AT",
+        "date": "2027-09-11",
+        "venue": "Wiener Stadthalle"
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2027-09-15",
+        "venue": "Uber Arena"
+      },
+      {
+        "city": "Hamburg",
+        "country": "DE",
+        "date": "2027-09-18",
+        "venue": "Barclays Arena"
+      },
+      {
+        "city": "Copenhagen",
+        "country": "DK",
+        "date": "2027-09-22",
+        "venue": "Royal Arena"
+      },
+      {
+        "city": "Oslo",
+        "country": "NO",
+        "date": "2027-09-25",
+        "venue": "Unity Arena"
+      },
+      {
+        "city": "Cologne",
+        "country": "DE",
+        "date": "2027-09-29",
+        "venue": "LANXESS Arena"
+      },
+      {
+        "city": "Brussels",
+        "country": "BE",
+        "date": "2027-10-02",
+        "venue": "ING Arena"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-10-05",
+        "venue": "Plenitude Arena"
+      },
+      {
+        "city": "Dublin",
+        "country": "IE",
+        "date": "2027-10-09",
+        "venue": "3Arena"
+      },
+      {
+        "city": "Glasgow",
+        "country": "GB",
+        "date": "2027-10-12",
+        "venue": "OVO Hydro"
+      },
+      {
+        "city": "Birmingham",
+        "country": "GB",
+        "date": "2027-10-16",
+        "venue": "Utilita Arena Birmingham"
+      },
+      {
+        "city": "Manchester",
+        "country": "GB",
+        "date": "2027-10-19",
+        "venue": "AO Arena"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-10-22",
+        "venue": "The O2"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-11-20",
+    "source": "https://www.kpopdemonhunterstour.com/",
+    "confidence": "confirmed",
+    "for": [
+      "alma",
+      "anne",
+      "family"
+    ],
+    "reason": null,
+    "note": "Netflix and AEG Presents arena show with live performers; Asia and Latin America dates to follow; Amsterdam, Brussels and Paris dates read from Billboard and the promoter listings."
+  },
+  {
+    "id": "katseye-wildworld-asia-oceania-2027",
+    "artist": "KATSEYE",
+    "group": "kpop-adjacent",
+    "tour": "THE WILDWORLD TOUR (Asia and Oceania 2027)",
+    "announcedOn": "2026-10-29",
+    "firstDate": "2027-01-27",
+    "lastDate": "2027-03-05",
+    "regions": [
+      "Asia",
+      "Oceania"
+    ],
+    "stops": [
+      {
+        "city": "Yokohama",
+        "country": "JP",
+        "date": "2027-01-27",
+        "venue": "Yokohama Arena"
+      },
+      {
+        "city": "Manila",
+        "country": "PH",
+        "date": "2027-01-29",
+        "venue": "SM Mall of Asia Arena"
+      },
+      {
+        "city": "Hong Kong",
+        "country": "HK",
+        "date": "2027-02-01",
+        "venue": "AsiaWorld-Arena"
+      },
+      {
+        "city": "Seoul",
+        "country": "KR",
+        "date": "2027-02-04",
+        "venue": "KSPO Dome"
+      },
+      {
+        "city": "Cebu",
+        "country": "PH",
+        "date": "2027-02-07",
+        "venue": "SM Seaside Cebu Arena"
+      },
+      {
+        "city": "Singapore",
+        "country": "SG",
+        "date": "2027-02-10",
+        "venue": "Singapore Indoor Stadium"
+      },
+      {
+        "city": "Bangkok",
+        "country": "TH",
+        "date": "2027-02-12",
+        "venue": "IMPACT Arena"
+      },
+      {
+        "city": "Taoyuan",
+        "country": "TW",
+        "date": "2027-02-14",
+        "venue": "Messe Taoyuan"
+      },
+      {
+        "city": "Melbourne",
+        "country": "AU",
+        "date": "2027-02-23",
+        "venue": "Rod Laver Arena"
+      },
+      {
+        "city": "Sydney",
+        "country": "AU",
+        "date": "2027-02-28",
+        "venue": "Afterpay Arena"
+      },
+      {
+        "city": "Auckland",
+        "country": "NZ",
+        "date": "2027-03-05",
+        "venue": "Spark Arena"
+      }
+    ],
+    "europe": false,
+    "status": "onsale",
+    "onSale": "2026-11-06",
+    "source": "https://www.katseye.world/",
+    "confidence": "confirmed",
+    "for": [
+      "alma"
+    ],
+    "reason": null,
+    "note": "HYBE x Geffen group; official site blocked automated reading, dates cross-checked with the Soompi masterlist; first Seoul concert."
+  },
+  {
+    "id": "mannarino-tour-europeo-2027-2027",
+    "artist": "Mannarino",
+    "group": "italian",
+    "tour": "Tour Europeo 2027",
+    "announcedOn": "2026-09-09",
+    "firstDate": "2027-02-27",
+    "lastDate": "2027-03-12",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Zurich",
+        "country": "CH",
+        "date": "2027-02-27",
+        "venue": "Volkshaus"
+      },
+      {
+        "city": "Barcelona",
+        "country": "ES",
+        "date": "2027-03-01",
+        "venue": "Sala Apolo"
+      },
+      {
+        "city": "Valencia",
+        "country": "ES",
+        "date": "2027-03-02",
+        "venue": "Sala Moon"
+      },
+      {
+        "city": "Malaga",
+        "country": "ES",
+        "date": "2027-03-04",
+        "venue": "Paris 15"
+      },
+      {
+        "city": "Madrid",
+        "country": "ES",
+        "date": "2027-03-05",
+        "venue": "Sala Chango"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-03-07",
+        "venue": "La Machine du Moulin Rouge"
+      },
+      {
+        "city": "Brussels",
+        "country": "BE",
+        "date": "2027-03-08",
+        "venue": "La Madeleine"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-03-09",
+        "venue": "O2 Shepherd's Bush Empire"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2027-03-11",
+        "venue": "Melkweg"
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2027-03-12",
+        "venue": "SO36"
+      }
+    ],
+    "europe": true,
+    "status": "announced",
+    "onSale": null,
+    "source": "https://www.allmusicitalia.it/tour/mannarino-tour-europeo-2027.html",
+    "confidence": "projected",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "Lead source only; organiser page not found."
+  },
+  {
+    "id": "the-kolors-europe-usa-canada-tour-2027-2027",
+    "artist": "The Kolors",
+    "group": "italian",
+    "tour": "Europe, USA & Canada Tour 2027",
+    "announcedOn": "2026-09-14",
+    "firstDate": "2027-04-05",
+    "lastDate": "2027-11-19",
+    "regions": [
+      "Europe",
+      "North America"
+    ],
+    "stops": [
+      {
+        "city": "Basel",
+        "country": "CH",
+        "date": "2027-04-05",
+        "venue": "Volkshaus"
+      },
+      {
+        "city": "Zurich",
+        "country": "CH",
+        "date": "2027-04-06",
+        "venue": "X-TRA"
+      },
+      {
+        "city": "Innsbruck",
+        "country": "AT",
+        "date": "2027-04-08",
+        "venue": "Music Hall Innsbruck"
+      },
+      {
+        "city": "Frankfurt",
+        "country": "DE",
+        "date": "2027-04-11",
+        "venue": "Batschkapp"
+      },
+      {
+        "city": "Munich",
+        "country": "DE",
+        "date": "2027-04-12",
+        "venue": "Kesselhaus"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-10-07",
+        "venue": "Shepherd's Bush Empire"
+      },
+      {
+        "city": "Brussels",
+        "country": "BE",
+        "date": "2027-10-09",
+        "venue": "La Madeleine"
+      },
+      {
+        "city": "Luxembourg",
+        "country": "LU",
+        "date": "2027-10-10",
+        "venue": "Den Atelier"
+      },
+      {
+        "city": "Barcelona",
+        "country": "ES",
+        "date": "2027-10-13",
+        "venue": "Sala Apolo"
+      },
+      {
+        "city": "Warsaw",
+        "country": "PL",
+        "date": "2027-10-16",
+        "venue": "Progresja"
+      },
+      {
+        "city": "Atlantic City",
+        "country": "US",
+        "date": "2027-11-06",
+        "venue": "Hard Rock Casino"
+      },
+      {
+        "city": "Boston",
+        "country": "US",
+        "date": "2027-11-07",
+        "venue": "Berklee Performance Center"
+      },
+      {
+        "city": "Chicago",
+        "country": "US",
+        "date": "2027-11-10",
+        "venue": "Des Plaines Theatre"
+      },
+      {
+        "city": "Montreal",
+        "country": "CA",
+        "date": "2027-11-12",
+        "venue": "Rialto Theatre"
+      },
+      {
+        "city": "Toronto",
+        "country": "CA",
+        "date": "2027-11-14",
+        "venue": "Casino Rama Resort"
+      },
+      {
+        "city": "Los Angeles",
+        "country": "US",
+        "date": "2027-11-19",
+        "venue": "Whisky a Go Go"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://www.allmusicitalia.it/tour/the-kolors-tour-2027-date-concerti.html",
+    "confidence": "projected",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "Eventim and Ticketcorner pages exist per the report but were not reachable here; first North American dates."
+  },
+  {
+    "id": "emma-live-2027-2027",
+    "artist": "Emma",
+    "group": "italian",
+    "tour": "LIVE 2027",
+    "announcedOn": "2026-09-15",
+    "firstDate": "2027-10-23",
+    "lastDate": "2027-10-29",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-10-23",
+        "venue": "Unipol Forum"
+      },
+      {
+        "city": "Padua",
+        "country": "IT",
+        "date": "2027-10-25",
+        "venue": "Kioene Arena"
+      },
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-10-27",
+        "venue": "Palazzo dello Sport"
+      },
+      {
+        "city": "Naples",
+        "country": "IT",
+        "date": "2027-10-29",
+        "venue": "Palapartenope"
+      }
+    ],
+    "europe": true,
+    "status": "announced",
+    "onSale": null,
+    "source": "https://www.friendsandpartners.it/index.php/in-tour/emma-live-2027",
+    "confidence": "confirmed",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "Italy only."
+  },
+  {
+    "id": "gue-rudeboy-live-2027",
+    "artist": "Guè",
+    "group": "italian",
+    "tour": "RUDEBOY LIVE 2027",
+    "announcedOn": "2026-09-18",
+    "firstDate": "2027-05-01",
+    "lastDate": "2027-05-22",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Jesolo",
+        "country": "IT",
+        "date": "2027-05-01",
+        "venue": "Palazzo del Turismo"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-05-07",
+        "venue": "Unipol Forum"
+      },
+      {
+        "city": "Naples",
+        "country": "IT",
+        "date": "2027-05-13",
+        "venue": "Palapartenope"
+      },
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-05-15",
+        "venue": "Palazzo dello Sport"
+      },
+      {
+        "city": "Bari",
+        "country": "IT",
+        "date": "2027-05-19",
+        "venue": "Palaflorio"
+      },
+      {
+        "city": "Florence",
+        "country": "IT",
+        "date": "2027-05-22",
+        "venue": "Nelson Mandela Forum"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://www.allmusicitalia.it/tour/gue-tour-2027-date-biglietti-concerti.html",
+    "confidence": "projected",
+    "for": [
+      "nick"
+    ],
+    "reason": null,
+    "note": "Italy only; TicketOne listings cited by the report were not reachable here."
+  },
+  {
+    "id": "alfa-tempo-al-tempo-tour-2027-2027",
+    "artist": "Alfa",
+    "group": "italian",
+    "tour": "Tempo al tempo tour 2027",
+    "announcedOn": "2026-09-23",
+    "firstDate": "2027-11-27",
+    "lastDate": "2027-12-13",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Bari",
+        "country": "IT",
+        "date": "2027-11-27",
+        "venue": "Palaflorio"
+      },
+      {
+        "city": "Florence",
+        "country": "IT",
+        "date": "2027-12-02",
+        "venue": "Nelson Mandela Forum"
+      },
+      {
+        "city": "Naples",
+        "country": "IT",
+        "date": "2027-12-04",
+        "venue": "Palapartenope"
+      },
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-12-06",
+        "venue": "Palazzo dello Sport"
+      },
+      {
+        "city": "Turin",
+        "country": "IT",
+        "date": "2027-12-13",
+        "venue": "Inalpi Arena"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-09-24",
+    "source": "https://www.allmusicitalia.it/tour/alfa-tempo-al-tempo-tour-2027-date-biglietti.html",
+    "confidence": "projected",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "Announced on stage at the Arena di Verona; Italy only."
+  },
+  {
+    "id": "antonello-venditti-palasport-2027-2027",
+    "artist": "Antonello Venditti",
+    "group": "italian",
+    "tour": "In questo mondo gli esseri più umani sono gli animali",
+    "announcedOn": "2026-09-09",
+    "firstDate": "2027-03-08",
+    "lastDate": "2027-05-22",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-03-08",
+        "venue": "Palazzo dello Sport"
+      },
+      {
+        "city": "Turin",
+        "country": "IT",
+        "date": "2027-04-09",
+        "venue": "Inalpi Arena"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-04-17",
+        "venue": "Unipol Forum"
+      },
+      {
+        "city": "Florence",
+        "country": "IT",
+        "date": "2027-05-08",
+        "venue": "Nelson Mandela Forum"
+      },
+      {
+        "city": "Messina",
+        "country": "IT",
+        "date": "2027-05-22",
+        "venue": "Pala Rescifina"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://www.friendsandpartners.it/index.php/in-tour/antonello-venditti-in-questo-mondo-gli-esseri-piu-umani-sono-gli-animali",
+    "confidence": "confirmed",
+    "for": [
+      "nick"
+    ],
+    "reason": null,
+    "note": "Eleven arena dates in Italy; sample listed."
+  },
+  {
+    "id": "marco-mengoni-allo-sbagliato-2026",
+    "artist": "Marco Mengoni",
+    "group": "italian",
+    "tour": "Allo Sbagliato (club residency)",
+    "announcedOn": "2026-09-22",
+    "firstDate": "2026-11-05",
+    "lastDate": "2026-12-19",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2026-11-05",
+        "venue": "Teatro Principe"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-09-28",
+    "source": "https://www.allmusicitalia.it/news/marco-mengoni-allo-sbagliato-direttore-creativo-milano.html",
+    "confidence": "projected",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "26 nights in one Milan club he curates; the project was teased in September 2026 before dates came out."
+  },
+  {
+    "id": "laura-pausini-io-canto-milano-2027-2027",
+    "artist": "Laura Pausini",
+    "group": "italian",
+    "tour": "IO CANTO World Tour (Milano 2027)",
+    "announcedOn": "2026-10-06",
+    "firstDate": "2027-12-02",
+    "lastDate": "2027-12-02",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-12-02",
+        "venue": "Unipol Dome"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-10-08",
+    "source": "https://www.friendsandpartners.it/index.php/in-tour/laura-pausini-io-canto-world-tour",
+    "confidence": "confirmed",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "One added arena date on the existing world tour, announced on stage in Milan."
+  },
+  {
+    "id": "gazzelle-palasport-2027-2027",
+    "artist": "Gazzelle",
+    "group": "italian",
+    "tour": "GAZZELLE PALASPORT 2027",
+    "announcedOn": "2026-10-12",
+    "firstDate": "2027-04-03",
+    "lastDate": "2027-04-29",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-04-03",
+        "venue": "Unipol Dome"
+      },
+      {
+        "city": "Turin",
+        "country": "IT",
+        "date": "2027-04-06",
+        "venue": "Inalpi Arena"
+      },
+      {
+        "city": "Padua",
+        "country": "IT",
+        "date": "2027-04-08",
+        "venue": "Padova Fiera"
+      },
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-04-10",
+        "venue": "Palazzo dello Sport"
+      },
+      {
+        "city": "Bologna",
+        "country": "IT",
+        "date": "2027-04-18",
+        "venue": "Unipol Arena"
+      },
+      {
+        "city": "Bari",
+        "country": "IT",
+        "date": "2027-04-23",
+        "venue": "Palaflorio"
+      },
+      {
+        "city": "Eboli",
+        "country": "IT",
+        "date": "2027-04-25",
+        "venue": "PalaSele"
+      },
+      {
+        "city": "Florence",
+        "country": "IT",
+        "date": "2027-04-29",
+        "venue": "Nelson Mandela Forum"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://www.allmusicitalia.it/tour/gazzelle-tour-2027.html",
+    "confidence": "projected",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "Twelve dates in Italy; two Rome nights sold out; organiser page not read."
+  },
+  {
+    "id": "settembre-tour-2027-2027",
+    "artist": "Settembre",
+    "group": "italian",
+    "tour": "Tour 2027",
+    "announcedOn": "2026-10-15",
+    "firstDate": "2027-03-02",
+    "lastDate": "2027-03-20",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-03-02",
+        "venue": "The Grace"
+      },
+      {
+        "city": "Pozzuoli",
+        "country": "IT",
+        "date": "2027-03-09",
+        "venue": "Duel Beat"
+      },
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-03-15",
+        "venue": "Largo Venue"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-03-20",
+        "venue": "Magazzini Generali"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://www.allmusicitalia.it/tour/settembre-tour-2027-date-biglietti-scaletta.html",
+    "confidence": "projected",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "Sanremo 2025 newcomer; London date added 19 Nov 2026; produced by Vivo Concerti."
+  },
+  {
+    "id": "fiorella-mannoia-anime-salve-2027-2027",
+    "artist": "Fiorella Mannoia",
+    "group": "italian",
+    "tour": "Fiorella canta Fabrizio e Ivano: Anime Salve",
+    "announcedOn": "2026-10-19",
+    "firstDate": "2027-04-08",
+    "lastDate": "2027-05-30",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Naples",
+        "country": "IT",
+        "date": "2027-04-08",
+        "venue": "Teatro Augusteo"
+      },
+      {
+        "city": "Padua",
+        "country": "IT",
+        "date": "2027-04-14",
+        "venue": "Gran Teatro Geox"
+      },
+      {
+        "city": "Sanremo",
+        "country": "IT",
+        "date": "2027-05-06",
+        "venue": "Teatro Ariston"
+      },
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-05-30",
+        "venue": "Auditorium Parco della Musica"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://www.friendsandpartners.it/index.php/in-tour/fiorella-mannoia-fiorella-canta-fabrizio-e-ivano-anime-salve",
+    "confidence": "confirmed",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "Twelve theatre dates in Italy; sample listed."
+  },
+  {
+    "id": "le-vibrazioni-club-tour-europe-2027",
+    "artist": "Le Vibrazioni",
+    "group": "italian",
+    "tour": "Club Tour 2026-2027 (Europe)",
+    "announcedOn": "2026-10-29",
+    "firstDate": "2027-03-25",
+    "lastDate": "2027-04-15",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2027-03-25",
+        "venue": "Bi Nuu"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-04-02",
+        "venue": "Colours Hoxton"
+      },
+      {
+        "city": "Glasgow",
+        "country": "GB",
+        "date": "2027-04-04",
+        "venue": "The Garage G2"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2027-04-11",
+        "venue": "Toekomstmuziek"
+      },
+      {
+        "city": "Barcelona",
+        "country": "ES",
+        "date": "2027-04-12",
+        "venue": "La Nau"
+      },
+      {
+        "city": "Madrid",
+        "country": "ES",
+        "date": "2027-04-13",
+        "venue": "Sala Nazca"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-04-14",
+        "venue": "La Bellevilloise"
+      },
+      {
+        "city": "Brussels",
+        "country": "BE",
+        "date": "2027-04-15",
+        "venue": "VK"
+      }
+    ],
+    "europe": true,
+    "status": "announced",
+    "onSale": null,
+    "source": "https://www.allmusicitalia.it/tour/le-vibrazioni-club-tour-date-concerti.html",
+    "confidence": "projected",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "European leg of the club tour; lead source only."
+  },
+  {
+    "id": "gigi-d-alessio-stadi-2027-2027",
+    "artist": "Gigi D'Alessio",
+    "group": "italian",
+    "tour": "Gigi Stadi 2027 and European tour",
+    "announcedOn": "2026-10-31",
+    "firstDate": "2027-05-22",
+    "lastDate": null,
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Verona",
+        "country": "IT",
+        "date": "2027-05-22",
+        "venue": "Arena di Verona"
+      },
+      {
+        "city": "Naples",
+        "country": "IT",
+        "date": "2027-06-05",
+        "venue": "Stadio Diego Armando Maradona"
+      },
+      {
+        "city": "Taranto",
+        "country": "IT",
+        "date": "2027-06-12",
+        "venue": "Stadio Erasmo Iacovone"
+      },
+      {
+        "city": "Messina",
+        "country": "IT",
+        "date": "2027-06-19",
+        "venue": "Stadio Franco Scoglio"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://www.allmusicitalia.it/tour/gigi-dalessio-concerti-2027-date-biglietti.html",
+    "confidence": "projected",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "Eight European cities planned for November 2027, not yet named."
+  },
+  {
+    "id": "tosca-feminae-a-teatro-2026",
+    "artist": "Tosca",
+    "group": "italian",
+    "tour": "Feminae a Teatro",
+    "announcedOn": "2026-11-04",
+    "firstDate": "2026-11-30",
+    "lastDate": "2027-04-30",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2026-11-30",
+        "venue": "Piccolo Teatro Strehler"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2026-12-21",
+        "venue": "Theatre des Abbesses"
+      },
+      {
+        "city": "Lisbon",
+        "country": "PT",
+        "date": "2027-03-08",
+        "venue": "Teatro Maria Matos"
+      },
+      {
+        "city": "Padua",
+        "country": "IT",
+        "date": "2027-04-30",
+        "venue": "Teatro Verdi"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://www.allmusicitalia.it/tour/tosca-feminae-a-teatro-tour-date.html",
+    "confidence": "projected",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "Twenty theatre dates; sample listed."
+  },
+  {
+    "id": "artie-5ive-vittoria-tour-palasport-2027-2027",
+    "artist": "Artie 5ive",
+    "group": "italian",
+    "tour": "Vittoria Tour Palasport 2027",
+    "announcedOn": "2026-11-10",
+    "firstDate": "2027-10-05",
+    "lastDate": "2027-10-26",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Genoa",
+        "country": "IT",
+        "date": "2027-10-05",
+        "venue": "Palateknoship"
+      },
+      {
+        "city": "Assago",
+        "country": "IT",
+        "date": "2027-10-11",
+        "venue": "Unipol Forum"
+      },
+      {
+        "city": "Casalecchio di Reno",
+        "country": "IT",
+        "date": "2027-10-17",
+        "venue": "Unipol Arena"
+      },
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-10-22",
+        "venue": "Palazzo dello Sport"
+      },
+      {
+        "city": "Naples",
+        "country": "IT",
+        "date": "2027-10-26",
+        "venue": "Palapartenope"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-11-12",
+    "source": "https://www.allmusicitalia.it/tour/artie-5ive-tour-2027.html",
+    "confidence": "projected",
+    "for": [
+      "nick"
+    ],
+    "reason": null,
+    "note": "Produced by Vivo Concerti; organiser page not read; Italy only."
+  },
+  {
+    "id": "tananai-tananai-live-tour-2027-2027",
+    "artist": "Tananai",
+    "group": "italian",
+    "tour": "Tananai Live Tour 2027",
+    "announcedOn": "2026-11-11",
+    "firstDate": "2027-05-21",
+    "lastDate": "2027-10-28",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Verona",
+        "country": "IT",
+        "date": "2027-05-21",
+        "venue": "Arena di Verona"
+      },
+      {
+        "city": "Ancona",
+        "country": "IT",
+        "date": "2027-10-08",
+        "venue": "Palaprometeo"
+      },
+      {
+        "city": "Bologna",
+        "country": "IT",
+        "date": "2027-10-10",
+        "venue": "Unipol Arena"
+      },
+      {
+        "city": "Turin",
+        "country": "IT",
+        "date": "2027-10-12",
+        "venue": "Inalpi Arena"
+      },
+      {
+        "city": "Florence",
+        "country": "IT",
+        "date": "2027-10-14",
+        "venue": "Nelson Mandela Forum"
+      },
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-10-19",
+        "venue": "Palazzo dello Sport"
+      },
+      {
+        "city": "Naples",
+        "country": "IT",
+        "date": "2027-10-24",
+        "venue": "Palapartenope"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-10-28",
+        "venue": "Unipol Dome"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://www.friendsandpartners.it/index.php/news/tananai-annuncia-il-suo-ritorno-sul-palco-con-il-tananai-live-tour-2027",
+    "confidence": "confirmed",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "First Arena di Verona show; Italy only."
+  },
+  {
+    "id": "nek-laura-non-ce-30th-2027",
+    "artist": "Nek",
+    "group": "italian",
+    "tour": "Laura non c'è 30th – Live",
+    "announcedOn": "2026-11-10",
+    "firstDate": "2027-04-17",
+    "lastDate": "2027-04-29",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Munich",
+        "country": "DE",
+        "date": "2027-04-17",
+        "venue": "Tonhalle Munchen"
+      },
+      {
+        "city": "Madrid",
+        "country": "ES",
+        "date": "2027-04-23",
+        "venue": "Sala Wagon"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-04-29",
+        "venue": "Magazzini Generali"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-11-10",
+    "source": "https://www.friendsandpartners.it/index.php/in-tour/nek-laura-non-ce",
+    "confidence": "confirmed",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "Announcement date is the ticket sale date; first press report 13 Nov 2026."
+  },
+  {
+    "id": "raf-infinito-2027-2027",
+    "artist": "Raf",
+    "group": "italian",
+    "tour": "INFINITO 2027 - THE CELEBRATION",
+    "announcedOn": "2026-11-11",
+    "firstDate": "2027-04-18",
+    "lastDate": "2027-10-14",
+    "regions": [
+      "Europe",
+      "North America"
+    ],
+    "stops": [
+      {
+        "city": "Brussels",
+        "country": "BE",
+        "date": "2027-04-18",
+        "venue": "La Madeleine"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-04-19",
+        "venue": "O2 Academy Islington"
+      },
+      {
+        "city": "Zurich",
+        "country": "CH",
+        "date": "2027-05-03",
+        "venue": "Papiersaal"
+      },
+      {
+        "city": "Munich",
+        "country": "DE",
+        "date": "2027-05-04",
+        "venue": "Ampere"
+      },
+      {
+        "city": "Frankfurt",
+        "country": "DE",
+        "date": "2027-05-06",
+        "venue": "Zoom Kantine"
+      },
+      {
+        "city": "Stuttgart",
+        "country": "DE",
+        "date": "2027-05-07",
+        "venue": "Im Wizemann Club"
+      },
+      {
+        "city": "Vienna",
+        "country": "AT",
+        "date": "2027-05-09",
+        "venue": "Szene Wien"
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2027-05-10",
+        "venue": "Frannz Club"
+      },
+      {
+        "city": "Miami",
+        "country": "US",
+        "date": "2027-05-22",
+        "venue": "Bandshell"
+      },
+      {
+        "city": "Montreal",
+        "country": "CA",
+        "date": "2027-05-28",
+        "venue": "Rialto Theater"
+      },
+      {
+        "city": "New York",
+        "country": "US",
+        "date": "2027-05-29",
+        "venue": "The Gramercy Theater"
+      },
+      {
+        "city": "Toronto",
+        "country": "CA",
+        "date": "2027-05-30",
+        "venue": "Casino Rama Theater"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-10-02",
+        "venue": "Unipol Forum"
+      },
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-10-09",
+        "venue": "Palazzo dello Sport"
+      },
+      {
+        "city": "Naples",
+        "country": "IT",
+        "date": "2027-10-14",
+        "venue": "Palapartenope"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-11-12",
+    "source": "https://www.friendsandpartners.it/index.php/in-tour/raf-infinito-2027-the-celebration",
+    "confidence": "confirmed",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "Italian arena dates were moved from 2026; foreign dates read from the allmusicitalia report."
+  },
+  {
+    "id": "diodato-teatri-2027-2027",
+    "artist": "Diodato",
+    "group": "italian",
+    "tour": "Ma non eravamo qui per amarci? Tour Teatri 2027",
+    "announcedOn": "2026-11-17",
+    "firstDate": "2027-11-06",
+    "lastDate": "2027-12-14",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Grosseto",
+        "country": "IT",
+        "date": "2027-11-06",
+        "venue": "Teatro Moderno"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-11-08",
+        "venue": "Teatro Arcimboldi"
+      },
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-11-29",
+        "venue": "Auditorium Conciliazione"
+      },
+      {
+        "city": "Parma",
+        "country": "IT",
+        "date": "2027-12-14",
+        "venue": "Teatro Regio"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-11-18",
+    "source": "https://magellanoconcerti.it/tour/239/diodato-ma-non-eravamo-qui-per-amarci-teatri-2027",
+    "confidence": "confirmed",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "Nineteen theatre dates in Italy; sample listed."
+  },
+  {
+    "id": "sfera-ebbasta-tour-stadi-2027-2027",
+    "artist": "Sfera Ebbasta",
+    "group": "italian",
+    "tour": "Tour Stadi 2027",
+    "announcedOn": "2026-11-20",
+    "firstDate": "2027-06-17",
+    "lastDate": "2027-07-16",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Naples",
+        "country": "IT",
+        "date": "2027-06-17",
+        "venue": "Stadio Diego Armando Maradona"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-07-16",
+        "venue": "San Siro"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-11-21",
+    "source": "https://www.vivoconcerti.com/roster/sfera-ebbasta/stadi-2027",
+    "confidence": "confirmed",
+    "for": [
+      "nick"
+    ],
+    "reason": null,
+    "note": "Follows his arena tour of January to March 2027."
+  },
+  {
+    "id": "sarah-toscano-live-tour-2027-2027",
+    "artist": "Sarah Toscano",
+    "group": "italian",
+    "tour": "Live Tour 2027",
+    "announcedOn": "2026-11-20",
+    "firstDate": "2027-11-05",
+    "lastDate": "2027-11-12",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-11-05",
+        "venue": "Fabrique"
+      },
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-11-12",
+        "venue": "Atlantico"
+      }
+    ],
+    "europe": true,
+    "status": "announced",
+    "onSale": "2026-11-23",
+    "source": "https://www.vivoconcerti.com/mag/notizie/sarah-toscano-torna-dal-vivo-nel-2027-con-due-show-nei-club",
+    "confidence": "confirmed",
+    "for": [
+      "nick",
+      "family"
+    ],
+    "reason": null,
+    "note": "Sanremo 2025 artist and Amici winner; tickets from 23 Nov 2026."
+  },
+  {
+    "id": "melodifestivalen-melodifestivalen-2027-2027",
+    "artist": "Melodifestivalen",
+    "group": "eurovision",
+    "tour": "Melodifestivalen 2027",
+    "announcedOn": "2026-09-17",
+    "firstDate": "2027-02-06",
+    "lastDate": "2027-03-13",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Karlstad",
+        "country": "SE",
+        "date": "2027-02-06",
+        "venue": "Lofbergs Arena"
+      },
+      {
+        "city": "Gothenburg",
+        "country": "SE",
+        "date": "2027-02-13",
+        "venue": "Scandinavium"
+      },
+      {
+        "city": "Malmo",
+        "country": "SE",
+        "date": "2027-02-20",
+        "venue": "Malmo Arena"
+      },
+      {
+        "city": "Halmstad",
+        "country": "SE",
+        "date": "2027-02-27",
+        "venue": "Halmstad Arena"
+      },
+      {
+        "city": "Norrkoping",
+        "country": "SE",
+        "date": "2027-03-06",
+        "venue": "Himmelstalundshallen"
+      },
+      {
+        "city": "Stockholm",
+        "country": "SE",
+        "date": "2027-03-13",
+        "venue": "Strawberry Arena"
+      }
+    ],
+    "europe": true,
+    "status": "announced",
+    "onSale": null,
+    "source": "https://esctoday.com/207873/sweden-melodifestivalen-2027-dates-and-host-cities-revealed/",
+    "confidence": "projected",
+    "for": [
+      "alma",
+      "anne",
+      "family"
+    ],
+    "reason": null,
+    "note": "Sweden's touring Eurovision selection shows; SVT announcement read via esctoday only."
+  },
+  {
+    "id": "harry-styles-together-together-2027-stadium-run-2027",
+    "artist": "Harry Styles",
+    "group": "recommended",
+    "tour": "Together, Together (2027 stadium run)",
+    "announcedOn": "2026-09-10",
+    "firstDate": "2027-04-02",
+    "lastDate": "2027-08-28",
+    "regions": [
+      "North America",
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Phoenix",
+        "country": "US",
+        "date": "2027-04-02",
+        "venue": "State Farm Stadium"
+      },
+      {
+        "city": "Chicago",
+        "country": "US",
+        "date": "2027-05-28",
+        "venue": "Soldier Field"
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2027-07-02",
+        "venue": "Flughafen Tempelhof"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-07-16",
+        "venue": "Plenitude Arena"
+      },
+      {
+        "city": "Madrid",
+        "country": "ES",
+        "date": "2027-07-30",
+        "venue": "Riyadh Air Metropolitano"
+      },
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-08-07",
+        "venue": "Circo Massimo"
+      },
+      {
+        "city": "Dublin",
+        "country": "IE",
+        "date": "2027-08-18",
+        "venue": "Croke Park"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-08-25",
+        "venue": "Wembley Stadium"
+      }
+    ],
+    "europe": true,
+    "status": "tbd",
+    "onSale": null,
+    "source": "https://www.hstyles.co.uk/",
+    "confidence": "projected",
+    "for": [
+      "alma",
+      "anne"
+    ],
+    "reason": "The biggest pop stadium run of 2027 and billed as the final cities of this tour, with 20 euro tickets in Europe.",
+    "note": "Official site did not show dates to an automated reader; dates from Billboard; on-sale varies by market."
+  },
+  {
+    "id": "charli-xcx-music-fashion-film-u-k-and-europe-2027-2027",
+    "artist": "Charli xcx",
+    "group": "recommended",
+    "tour": "Music, Fashion, Film (U.K. and Europe 2027)",
+    "announcedOn": "2026-09-11",
+    "firstDate": "2027-02-13",
+    "lastDate": "2027-02-24",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Dublin",
+        "country": "IE",
+        "date": "2027-02-13",
+        "venue": null
+      },
+      {
+        "city": "Glasgow",
+        "country": "GB",
+        "date": "2027-02-15",
+        "venue": null
+      },
+      {
+        "city": "Manchester",
+        "country": "GB",
+        "date": "2027-02-17",
+        "venue": null
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-02-19",
+        "venue": null
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2027-02-22",
+        "venue": null
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-02-24",
+        "venue": null
+      }
+    ],
+    "europe": true,
+    "status": "tbd",
+    "onSale": null,
+    "source": "https://www.charlixcx.com/",
+    "confidence": "projected",
+    "for": [
+      "alma",
+      "anne"
+    ],
+    "reason": "Short arena run with an Amsterdam date, about two hours from home, for a pop act Alma's age group follows.",
+    "note": "Official site blocked automated reading; dates from Billboard."
+  },
+  {
+    "id": "oasis-live-27-2027",
+    "artist": "Oasis",
+    "group": "recommended",
+    "tour": "Live '27",
+    "announcedOn": "2026-09-14",
+    "firstDate": "2027-05-21",
+    "lastDate": "2027-09-19",
+    "regions": [
+      "Europe",
+      "North America"
+    ],
+    "stops": [
+      {
+        "city": "Glasgow",
+        "country": "GB",
+        "date": "2027-05-21",
+        "venue": "Celtic Park"
+      },
+      {
+        "city": "Manchester",
+        "country": "GB",
+        "date": "2027-06-04",
+        "venue": "Etihad Stadium"
+      },
+      {
+        "city": "Munich",
+        "country": "DE",
+        "date": "2027-07-02",
+        "venue": "Allianz Arena"
+      },
+      {
+        "city": "Barcelona",
+        "country": "ES",
+        "date": "2027-07-10",
+        "venue": "Estadi Olimpic"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2027-07-16",
+        "venue": "Johan Cruijff ArenA"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-07-23",
+        "venue": "Stade de France"
+      },
+      {
+        "city": "Rome",
+        "country": "IT",
+        "date": "2027-07-29",
+        "venue": "Stadio Olimpico"
+      },
+      {
+        "city": "Las Vegas",
+        "country": "US",
+        "date": "2027-08-20",
+        "venue": "Allegiant Stadium"
+      },
+      {
+        "city": "Slane",
+        "country": "IE",
+        "date": "2027-09-04",
+        "venue": "Slane Castle"
+      },
+      {
+        "city": "Stevenage",
+        "country": "GB",
+        "date": "2027-09-11",
+        "venue": "Knebworth House"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://www.oasisinet.com/",
+    "confidence": "confirmed",
+    "for": [
+      "nick",
+      "anne"
+    ],
+    "reason": "First mainland Europe shows since 2009, including two nights in Amsterdam; a once-in-a-generation rock event.",
+    "note": "Tickets only through a registration ballot; no general sale; Boston also named."
+  },
+  {
+    "id": "hilary-duff-lucky-me-tour-2027-dates-2027",
+    "artist": "Hilary Duff",
+    "group": "recommended",
+    "tour": "Lucky Me Tour (2027 dates)",
+    "announcedOn": "2026-09-23",
+    "firstDate": "2027-01-22",
+    "lastDate": "2027-11-20",
+    "regions": [
+      "North America",
+      "Latin America",
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Madrid",
+        "country": "ES",
+        "date": "2027-05-07",
+        "venue": "Movistar Arena"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-05-10",
+        "venue": "Unipol Dome"
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2027-05-12",
+        "venue": "Velodrom"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-05-14",
+        "venue": "Zenith Paris"
+      },
+      {
+        "city": "Brussels",
+        "country": "BE",
+        "date": "2027-05-16",
+        "venue": "Forest National"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2027-05-17",
+        "venue": "Ziggo Dome"
+      },
+      {
+        "city": "Cologne",
+        "country": "DE",
+        "date": "2027-05-18",
+        "venue": "Lanxess Arena"
+      },
+      {
+        "city": "Copenhagen",
+        "country": "DK",
+        "date": "2027-05-20",
+        "venue": "Royal Arena"
+      },
+      {
+        "city": "Stockholm",
+        "country": "SE",
+        "date": "2027-05-22",
+        "venue": "Avicii Arena"
+      },
+      {
+        "city": "Sao Paulo",
+        "country": "BR",
+        "date": "2027-08-13",
+        "venue": "Espaco Unimed"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-10-02",
+    "source": "https://www.hilaryduff.com/live",
+    "confidence": "projected",
+    "for": [
+      "anne",
+      "alma"
+    ],
+    "reason": "Cologne, Brussels and Amsterdam all fall within a short drive, and the show suits a parent and teen together.",
+    "note": "Official page blocked automated reading; dates from Billboard; Rebecca Black supports in Europe."
+  },
+  {
+    "id": "rod-stewart-the-final-encore-europe-2027-2027",
+    "artist": "Rod Stewart",
+    "group": "recommended",
+    "tour": "The Final Encore (Europe 2027)",
+    "announcedOn": "2026-09-28",
+    "firstDate": "2027-04-23",
+    "lastDate": "2027-07-24",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Dublin",
+        "country": "IE",
+        "date": "2027-04-23",
+        "venue": "3Arena"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Antwerp",
+        "country": "BE",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Dusseldorf",
+        "country": "DE",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Munich",
+        "country": "DE",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Prague",
+        "country": "CZ",
+        "date": null,
+        "venue": null
+      },
+      {
+        "city": "Hannover",
+        "country": "DE",
+        "date": "2027-07-24",
+        "venue": "ZAG Arena"
+      }
+    ],
+    "europe": true,
+    "status": "tbd",
+    "onSale": null,
+    "source": "https://www.instagram.com/p/Dd0tWgKjUlc/",
+    "confidence": "projected",
+    "for": [
+      "nick",
+      "anne"
+    ],
+    "reason": "His last rock tour ever, with Antwerp and Dusseldorf in reach.",
+    "note": "Dates for middle stops not read; he cancelled late 2026 North American dates after a heart procedure."
+  },
+  {
+    "id": "nickelback-everything-under-the-sun-world-tour-2027",
+    "artist": "Nickelback",
+    "group": "recommended",
+    "tour": "Everything Under the Sun World Tour",
+    "announcedOn": "2026-10-09",
+    "firstDate": "2027-02-06",
+    "lastDate": null,
+    "regions": [
+      "North America",
+      "Europe",
+      "Oceania"
+    ],
+    "stops": [
+      {
+        "city": "Pittsburgh",
+        "country": "US",
+        "date": "2027-02-06",
+        "venue": "PPG Paints Arena"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-05-25",
+        "venue": "O2 Arena"
+      },
+      {
+        "city": "Brussels",
+        "country": "BE",
+        "date": "2027-06-05",
+        "venue": "Forest National"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2027-06-07",
+        "venue": "Ziggo Dome"
+      },
+      {
+        "city": "Cologne",
+        "country": "DE",
+        "date": "2027-06-09",
+        "venue": "Lanxess Arena"
+      },
+      {
+        "city": "Munich",
+        "country": "DE",
+        "date": "2027-06-19",
+        "venue": "Olympiahalle"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-06-23",
+        "venue": "Unipol Forum"
+      },
+      {
+        "city": "Copenhagen",
+        "country": "DK",
+        "date": "2027-07-13",
+        "venue": "Royal Arena"
+      }
+    ],
+    "europe": true,
+    "status": "tbd",
+    "onSale": null,
+    "source": "https://www.nickelback.com/tour",
+    "confidence": "projected",
+    "for": [
+      "nick"
+    ],
+    "reason": "Big rock arena tour with Brussels, Amsterdam and Cologne on consecutive dates in June.",
+    "note": "Official tour page refused automated reading; dates from Billboard; Australia in October 2027."
+  },
+  {
+    "id": "u2-carnaval-de-luz-presents-the-greatest-show-on-earth-2027",
+    "artist": "U2",
+    "group": "recommended",
+    "tour": "Carnaval De Luz Presents: The Greatest Show on Earth",
+    "announcedOn": "2026-10-15",
+    "firstDate": "2027-02-23",
+    "lastDate": null,
+    "regions": [
+      "Latin America",
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Mexico City",
+        "country": "MX",
+        "date": "2027-02-23",
+        "venue": "Estadio GNP Seguros"
+      },
+      {
+        "city": "Sao Paulo",
+        "country": "BR",
+        "date": "2027-03-10",
+        "venue": "Estadio MorumBIS"
+      },
+      {
+        "city": "Buenos Aires",
+        "country": "AR",
+        "date": "2027-03-23",
+        "venue": "Estadio River Plate"
+      },
+      {
+        "city": "Stockholm",
+        "country": "SE",
+        "date": "2027-04-26",
+        "venue": "Strawberry Arena"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-05-05",
+        "venue": "Stade de France"
+      },
+      {
+        "city": "Lisbon",
+        "country": "PT",
+        "date": "2027-05-27",
+        "venue": "Estadio da Luz"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2027-06-05",
+        "venue": "Johan Cruijff ArenA"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-06-18",
+        "venue": "Tottenham Hotspur Stadium"
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2027-06-30",
+        "venue": "Olympiastadion"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-07-05",
+        "venue": "Stadio San Siro"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://www.u2.com/tour",
+    "confidence": "confirmed",
+    "for": [
+      "nick",
+      "anne",
+      "family"
+    ],
+    "reason": "U2's first stadium tour since 2019, with two Amsterdam nights; a world-class spectacle for the whole family.",
+    "note": "European dates announced 29 Oct 2026; Spain and North America to follow."
+  },
+  {
+    "id": "bon-jovi-forever-tour-2027-stadium-dates-2027",
+    "artist": "Bon Jovi",
+    "group": "recommended",
+    "tour": "Forever Tour (2027 stadium dates)",
+    "announcedOn": "2026-10-19",
+    "firstDate": "2027-03-04",
+    "lastDate": "2027-08-04",
+    "regions": [
+      "Oceania",
+      "Europe",
+      "North America"
+    ],
+    "stops": [
+      {
+        "city": "Melbourne",
+        "country": "AU",
+        "date": "2027-03-04",
+        "venue": "Marvel Stadium"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-06-24",
+        "venue": "BST Hyde Park"
+      },
+      {
+        "city": "East Rutherford",
+        "country": "US",
+        "date": "2027-07-15",
+        "venue": "MetLife Stadium"
+      },
+      {
+        "city": "Toronto",
+        "country": "CA",
+        "date": "2027-08-04",
+        "venue": "Rogers Stadium"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": null,
+    "source": "https://bonjovi.com",
+    "confidence": "projected",
+    "for": [
+      "anne",
+      "nick"
+    ],
+    "reason": "Classic stadium rock that both parents know; the London Hyde Park show is the only European date.",
+    "note": "Official site not read; dates from Billboard."
+  },
+  {
+    "id": "sam-fender-proper-massive-stadium-tour-2027",
+    "artist": "Sam Fender",
+    "group": "recommended",
+    "tour": "Proper Massive Stadium Tour",
+    "announcedOn": "2026-10-21",
+    "firstDate": "2027-06-03",
+    "lastDate": "2027-07-17",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Newcastle",
+        "country": "GB",
+        "date": "2027-06-03",
+        "venue": "St. James' Park"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-06-18",
+        "venue": "Wembley Stadium"
+      },
+      {
+        "city": "Dublin",
+        "country": "IE",
+        "date": "2027-07-01",
+        "venue": "Marlay Park"
+      },
+      {
+        "city": "Werchter",
+        "country": "BE",
+        "date": "2027-07-03",
+        "venue": "Rock Werchter"
+      },
+      {
+        "city": "Manchester",
+        "country": "GB",
+        "date": "2027-07-17",
+        "venue": "Etihad Stadium"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-10-30",
+    "source": "https://www.samfender.com/",
+    "confidence": "projected",
+    "for": [
+      "nick",
+      "anne"
+    ],
+    "reason": "His first European festival headline slot is at Rock Werchter in Belgium.",
+    "note": "Official site blocked automated reading; dates from Billboard."
+  },
+  {
+    "id": "noah-kahan-the-last-of-the-bugs-world-tour-2027",
+    "artist": "Noah Kahan",
+    "group": "recommended",
+    "tour": "The Last of the Bugs World Tour",
+    "announcedOn": "2026-10-29",
+    "firstDate": "2027-04-24",
+    "lastDate": "2027-07-25",
+    "regions": [
+      "North America",
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Athens",
+        "country": "US",
+        "date": "2027-04-24",
+        "venue": "Sanford Stadium"
+      },
+      {
+        "city": "Groningen",
+        "country": "NL",
+        "date": "2027-07-01",
+        "venue": "Stadspark"
+      },
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "date": "2027-07-02",
+        "venue": "Waldbuhne"
+      },
+      {
+        "city": "Milan",
+        "country": "IT",
+        "date": "2027-07-04",
+        "venue": "I-Days"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-07-10",
+        "venue": "Hippodrome ParisLongchamp"
+      },
+      {
+        "city": "Dublin",
+        "country": "IE",
+        "date": "2027-07-17",
+        "venue": "Aviva Stadium"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-07-23",
+        "venue": "Wembley Stadium"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-11-12",
+    "source": "https://noahkahan.com/pages/tour",
+    "confidence": "projected",
+    "for": [
+      "anne",
+      "alma"
+    ],
+    "reason": "Singalong folk-pop stadium tour with a Netherlands date in Groningen.",
+    "note": "Official page did not show dates to an automated reader; dates from Billboard."
+  },
+  {
+    "id": "mariah-carey-firefly-europe-summer-2027-2027",
+    "artist": "Mariah Carey",
+    "group": "recommended",
+    "tour": "Firefly (Europe summer 2027)",
+    "announcedOn": "2026-11-09",
+    "firstDate": "2027-06-24",
+    "lastDate": "2027-07-20",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Sonderborg",
+        "country": "DK",
+        "date": "2027-06-24",
+        "venue": "Molleparken"
+      },
+      {
+        "city": "Exeter",
+        "country": "GB",
+        "date": "2027-06-27",
+        "venue": "Powderham Castle"
+      },
+      {
+        "city": "Cardiff",
+        "country": "GB",
+        "date": "2027-06-29",
+        "venue": "Cardiff Castle"
+      },
+      {
+        "city": "Oxfordshire",
+        "country": "GB",
+        "date": "2027-07-01",
+        "venue": "Blenheim Palace"
+      },
+      {
+        "city": "Stuttgart",
+        "country": "DE",
+        "date": null,
+        "venue": "Jazz Open Stuttgart"
+      },
+      {
+        "city": "Lucca",
+        "country": "IT",
+        "date": null,
+        "venue": "Lucca Summer Festival"
+      },
+      {
+        "city": "Spa",
+        "country": "BE",
+        "date": "2027-07-14",
+        "venue": "Francofolies de Spa"
+      },
+      {
+        "city": "Locarno",
+        "country": "CH",
+        "date": "2027-07-20",
+        "venue": "Moon and Stars"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-11-13",
+    "source": "https://www.instagram.com/p/Dff_gkZRBqL/",
+    "confidence": "projected",
+    "for": [
+      "anne",
+      "family"
+    ],
+    "reason": "Francofolies de Spa is under an hour from home, a rare chance to see a pop legend nearby.",
+    "note": "Dates from Billboard and her Instagram post; Scarborough also named."
+  },
+  {
+    "id": "fall-out-boy-twilight-of-the-punks-tour-2027",
+    "artist": "Fall Out Boy",
+    "group": "recommended",
+    "tour": "Twilight of the Punks Tour",
+    "announcedOn": "2026-11-09",
+    "firstDate": "2027-05-17",
+    "lastDate": "2027-08-26",
+    "regions": [
+      "Europe",
+      "North America"
+    ],
+    "stops": [
+      {
+        "city": "Prague",
+        "country": "CZ",
+        "date": "2027-05-17",
+        "venue": "O2 Arena"
+      },
+      {
+        "city": "Brussels",
+        "country": "BE",
+        "date": "2027-05-27",
+        "venue": "ING Arena"
+      },
+      {
+        "city": "Monchengladbach",
+        "country": "DE",
+        "date": "2027-05-28",
+        "venue": "SparkassenPark"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-06-05",
+        "venue": "Tottenham Hotspur Stadium"
+      },
+      {
+        "city": "Amsterdam",
+        "country": "NL",
+        "date": "2027-06-08",
+        "venue": "Ziggo Dome"
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "date": "2027-06-10",
+        "venue": "Accor Arena"
+      },
+      {
+        "city": "Lodz",
+        "country": "PL",
+        "date": "2027-06-13",
+        "venue": "Atlas Arena"
+      },
+      {
+        "city": "Chicago",
+        "country": "US",
+        "date": "2027-07-24",
+        "venue": "Soldier Field"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-11-12",
+    "source": "https://falloutboy.com/",
+    "confidence": "projected",
+    "for": [
+      "alma",
+      "nick"
+    ],
+    "reason": "Pop-punk arena tour with Monchengladbach, Brussels and Amsterdam all close to home.",
+    "note": "Official site did not show dates to an automated reader; dates from Billboard; North America runs 13 Jul to 26 Aug 2027."
+  },
+  {
+    "id": "foo-fighters-take-cover-2027-u-k-and-europe-2027",
+    "artist": "Foo Fighters",
+    "group": "recommended",
+    "tour": "Take Cover 2027 (U.K. and Europe)",
+    "announcedOn": "2026-11-16",
+    "firstDate": "2027-06-09",
+    "lastDate": "2027-09-18",
+    "regions": [
+      "Europe"
+    ],
+    "stops": [
+      {
+        "city": "Reykjavik",
+        "country": "IS",
+        "date": "2027-06-09",
+        "venue": "Nyja-Laugardalsholl"
+      },
+      {
+        "city": "Helsinki",
+        "country": "FI",
+        "date": "2027-06-12",
+        "venue": "Olympic Stadium"
+      },
+      {
+        "city": "Copenhagen",
+        "country": "DK",
+        "date": "2027-06-15",
+        "venue": "Valbyparken"
+      },
+      {
+        "city": "Dusseldorf",
+        "country": "DE",
+        "date": "2027-06-17",
+        "venue": "Merkur Spiel-Arena"
+      },
+      {
+        "city": "Werchter",
+        "country": "BE",
+        "date": "2027-06-19",
+        "venue": "Werchter Parklife"
+      },
+      {
+        "city": "Florence",
+        "country": "IT",
+        "date": "2027-06-25",
+        "venue": "Firenze Rocks"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "date": "2027-09-09",
+        "venue": "Wembley Stadium"
+      },
+      {
+        "city": "Dublin",
+        "country": "IE",
+        "date": "2027-09-18",
+        "venue": "Croke Park"
+      }
+    ],
+    "europe": true,
+    "status": "onsale",
+    "onSale": "2026-11-20",
+    "source": "https://www.foofighters.com/",
+    "confidence": "projected",
+    "for": [
+      "nick"
+    ],
+    "reason": "Stadium rock with Dusseldorf and Werchter both within two hours of Hoensbroek.",
+    "note": "Official tour page not read; dates from Billboard; U.K. on sale 20 Nov 2026."
+  }
+]
