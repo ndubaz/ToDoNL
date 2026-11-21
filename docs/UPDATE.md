@@ -40,6 +40,15 @@ Run at least one search per category (spectacle, festival, K-pop, military, avia
 ### Standing focus: Antwerp, every week
 Antwerp is 80 minutes away and gets its own pass in every run, whatever the rotation letter: two searches (one for events in the city and province in the next 3 months, one for newly announced exhibitions, festivals or fan events later in the horizon) and a read of the agenda pages listed in `docs/ANTWERP.md`. The two Antwerp arenas come from `venue-feeds.mjs`. Report Antwerp additions on their own line in the changelog.
 
+### Tour radar and the watch scan
+Run the watch scan, then fill the Tour radar:
+```
+node scripts/tour-watch.mjs --out <folder>/watch.json --feeds <folder>/feeds.json
+```
+It scans the mid-size venue agendas, the lead sites and each watchlist act's own tour page in `data/watchlist.json` for K-pop, K-pop-adjacent, Italian and Eurovision names and genre tags. `hits` and `genreHits` near home are concert or event candidates for step 2 (confirm each on an official page). `placeHits` show where each act's tour goes.
+
+For `data/tours.json`, record every tour announced since the last run by a watchlist act, worldwide, whether or not it comes near home, plus up to five recommended tours (big new tours a 14-year-old pop and K-pop fan or her parents would want to hear about, each with a `reason`). Use the official tour or label page as `source`; a lead-only tour gets `confidence: "projected"`. Update `status`, `onSale` and `stops` on tours already listed, and remove tours whose `lastDate` has passed. When a tour stop falls within reach, also add it to `data/concerts.json`. Add any act that tours often and suits the family to `data/watchlist.json`, with its tour page. Report new tours on their own line in the changelog and in the step 7 message.
+
 ## 4. Confirm the triaged entries
 For each entry in `soon`, `projected` and `stale`, in that order: fetch `source` (and the organizer site when it differs) and confirm dates, `days`, times, on-sale date, status and price from.
 - New official dates: set `start`, `end`, `days`, `confidence: "confirmed"`, `source`, `verifiedOn` today, `status` (`announced`, `onsale`, `soldout`) and `dateNote` ("Dates confirmed on D Mon" or "Dates corrected on D Mon").

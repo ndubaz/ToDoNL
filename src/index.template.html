@@ -183,6 +183,21 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
 .rsvp { display: grid; gap: 6px; }
 .rsvp .row { display: grid; grid-template-columns: 70px 1fr; gap: 8px; align-items: center; }
 .rsvp .row b { color: var(--pc); font-weight: 600; }
+/* ===== Tour radar (side feature; own classes only) ===== */
+.tabs button.railonly { display: none; }
+.tourlink { display: flex; align-items: center; gap: 10px; width: 100%; margin-top: 18px; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--r); background: var(--s1); color: var(--t1); text-align: left; min-height: 44px; }
+.tourlink b { font-family: var(--display); font-size: 1.05rem; }
+.tourlink span { color: var(--t2); font-size: .88rem; flex: 1; }
+.tourlink .tag { flex: none; }
+.tcard { background: var(--s1); border: 1px solid var(--line); border-left: 5px solid var(--tc, var(--t3)); border-radius: var(--r); padding: 12px 14px; display: grid; gap: 6px; }
+.tcard .th { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.tcard .th b { font-size: 1.05rem; }
+.tcard .tt { color: var(--t2); font-size: .92rem; }
+.tcard .tm { display: flex; flex-wrap: wrap; gap: 6px 10px; font-size: .86rem; color: var(--t2); align-items: center; }
+.tcard .stops { font-size: .86rem; color: var(--t2); }
+.tcard .near { font-size: .9rem; color: var(--t1); }
+.tcard .near a { color: var(--new); }
+.tcard .tl { font-size: .82rem; color: var(--t3); }
 /* ===== New tab rows ===== */
 .nrow { background: var(--s1); border: 1px solid var(--line); border-left: 5px solid var(--lc); border-radius: var(--r); padding: 10px 12px; display: grid; gap: 6px; }
 .nrow .nt { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: start; }
@@ -293,6 +308,7 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
   .tabs .wrap { display: flex; flex-direction: column; height: auto; padding: 84px 10px 0; gap: 2px; }
   .tabs button { flex-direction: row; justify-content: flex-start; gap: 12px; padding: 0 12px; min-height: 46px; font-size: .95rem; border-radius: 10px; }
   .tabs button[aria-current="page"] { background: var(--s2); }
+  .tabs button.railonly { display: flex; }
   .tabs button[aria-current="page"]::before { top: 20%; bottom: 20%; left: 0; right: auto; width: 3px; height: auto; border-radius: 0 3px 3px 0; }
   .badge { position: static; margin-left: auto; }
   .top .wrap, main.wrap { max-width: 1280px; }
@@ -376,6 +392,14 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
     <div id="mapcard" style="margin-top:10px"></div>
   </section>
 
+  <!-- TOUR RADAR -->
+  <section class="view" id="v-tours" aria-label="Tour radar" hidden>
+    <h2 class="sec">Tour radar<small id="toursub"></small></h2>
+    <p class="lead" style="margin-bottom:8px">Newly announced tours by the kinds of artists you follow, wherever they play. When a tour comes within reach it also appears in the rest of the app.</p>
+    <div class="fstrip" id="tourChips" role="group" aria-label="Tour filters"></div>
+    <div id="toursBody"></div>
+  </section>
+
   <!-- PLAN -->
   <section class="view" id="v-plan" aria-label="Plan" hidden>
     <h2 class="sec">Your plan<small id="plansub"></small></h2>
@@ -394,6 +418,7 @@ textarea { width: 100%; background: var(--s1); border: 1px solid var(--line); bo
     <button data-tab="browse"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Browse</button>
     <button data-tab="map"><svg viewBox="0 0 24 24"><path d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.3"/></svg>Map</button>
     <button data-tab="plan"><svg viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.8l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg>Plan<span class="badge" id="pbadge" hidden></span></button>
+    <button data-tab="tours" class="railonly"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 12L18 6.5M12 3.5v2M12 18.5v2M3.5 12h2M18.5 12h2"/></svg>Tour radar</button>
   </div>
 </nav>
 
@@ -408,6 +433,7 @@ const CONCERTS = __CONCERTS__;
 const VENUES = __VENUES__;
 const GEO = __GEO__;
 const META = __META__;
+const TOURS = __TOURS__;
 
 /* ================= helpers ================= */
 const DAY = 86400000;
@@ -485,7 +511,7 @@ const NOVELTY_SKIP = new Set(Object.keys(ADDED).filter(d => ADDED[d] > ITEMS.len
 const HOME = { lat: 50.9128, lng: 5.9268 };
 
 /* ================= state ================= */
-const K = { near: "out-near", follows: "out-follows", rsvp: "out-rsvp", diary: "out-diary", calMode: "out-calMode", only: "out-only", profiles: "out-profiles", plan: "out-plan", notes: "out-notes", hidden: "out-hidden", likes: "out-likes", weights: "out-weights", lastSeen: "out-lastSeen", seen: "out-seen", newCount: "out-newCount", drive: "out-drive", sort: "out-sort", showHidden: "out-showHidden" };
+const K = { toursSeen: "out-toursSeen", tourFilter: "out-tourFilter", near: "out-near", follows: "out-follows", rsvp: "out-rsvp", diary: "out-diary", calMode: "out-calMode", only: "out-only", profiles: "out-profiles", plan: "out-plan", notes: "out-notes", hidden: "out-hidden", likes: "out-likes", weights: "out-weights", lastSeen: "out-lastSeen", seen: "out-seen", newCount: "out-newCount", drive: "out-drive", sort: "out-sort", showHidden: "out-showHidden" };
 const ALLKEYS = Object.values(K);
 const state = {
   tab: "home",
@@ -714,6 +740,7 @@ function renderHome() {
   h += act.length ? `<div class="strip">${act.map(({ it, d }) => `<button class="act" data-open="${it.id}"><span class="ad">${fmtW(d)}</span><b>${esc(it.name)}</b><span class="as">${it.onSale && dn(it.onSale) === d ? "Tickets on sale" : "Book by this date"}${it.sellOutRisk ? " · " + it.sellOutRisk + " risk" : ""}</span><span class="as">${esc(when(it))} · ${esc(place(it))} · ${isNear(it) ? "nearby, " : ""}${drive(it)}</span></button>`).join("")}</div>` : `<div class="empty">Nothing to book in the next two weeks.</div>`;
   // New this week
   const nw = live().filter(nearOk).filter(it => it.addedOn && TODAY - dn(it.addedOn) <= 7).sort((a, b) => a.tier - b.tier || b.score - a.score);
+  h += tourLinkRow();
   h += `<h2 class="sec">New this week<small>${nw.length} added</small><a href="#new">All new</a></h2>`;
   h += nw.length ? `<div class="list">${nw.slice(0, 5).map(it => card(it, { compact: true })).join("")}</div>` : `<div class="empty">No new entries this week.</div>`;
   // Next 30 days
@@ -725,6 +752,7 @@ function renderHome() {
   h += healthCard();
   $("homeBody").innerHTML = h; wire($("homeBody"));
   $("homeBody").querySelector("a[href='#new']").addEventListener("click", e => { e.preventDefault(); setTab("new"); });
+  const tl = $("homeBody").querySelector("[data-tours]"); if (tl) tl.addEventListener("click", () => setTab("tours"));
   $("surprise").addEventListener("click", e => { e.preventDefault(); const it = surprise(list); if (it) { state.surprise = it.id; renderHome(); } else toast("Nothing to pick from."); });
   $("foot").innerHTML = `<p><b>Rondom ${esc(META.version)}</b>, data checked ${esc(META.checked)}. ${ITEMS.length} entries: ${EVENTS.length} events and ${CONCERTS.length} concerts.</p><p><b>How picks work.</b> Score = tier (60, 35 or 15) + proximity (up to 25) + a match for each selected person (10 each, up to 20) + urgency (10 if you must act within 14 days) + newness (5) + season (5), minus penalties for sold out or hidden entries. Every pick shows its reasons.</p><p>Your plan, notes, hidden entries and settings live only in this browser and are not synced between devices. Export them from the settings panel.</p>${__PWA__ ? "<p><b>Use it like an app.</b> On iPhone: Share, then Add to Home Screen. It keeps working offline once opened.</p>" : ""}<div class="actions" style="margin-top:10px"><button class="btn sm" id="openSettings">Settings and export</button></div>`;
   $("openSettings").addEventListener("click", openSettings);
@@ -1146,12 +1174,63 @@ function openSettings() {
 }
 $("settings2").addEventListener("click", openSettings);
 
+/* ================= TOUR RADAR (side feature) =================
+   Reads only TOURS and its own out-toursSeen / out-tourFilter keys. Never touches scoring, lists, the calendar,
+   the map, the New badge, feeds or exports. A tour links to a concert entry when the data already holds one. */
+const TGROUP = { kpop: { label: "K-pop", c: "var(--alma)" }, "kpop-adjacent": { label: "K-pop adjacent", c: "var(--alma)" }, italian: { label: "Italian", c: "var(--nick)" }, eurovision: { label: "Eurovision", c: "var(--anne)" }, recommended: { label: "Recommended", c: "var(--new)" }, favorite: { label: "Favourite", c: "var(--urgent)" } };
+const tourState = { f: store.get(K.tourFilter, "all"), europe: false, win: 90 };
+const tourSeenDate = () => store.get(K.toursSeen, null);
+function tourMarkSeen() { if (TOURS.length) store.set(K.toursSeen, TOURS[0].announcedOn); }
+const tourFollowed = t => FOLLOWS.some(f => norm(t.artist).includes(f.t) || norm(t.tour || "").includes(f.t));
+const tourNear = t => { const a = norm(t.artist).split(/[ (]/)[0]; return ITEMS.filter(it => it.last >= TODAY && norm(it.name).startsWith(a) && (!t.firstDate || it.first >= dn(t.firstDate) - 1) && (!t.lastDate || it.first <= dn(t.lastDate) + 1)); };
+const tourNew = t => { const s = tourSeenDate(); return s ? t.announcedOn > s : TODAY - dn(t.announcedOn) <= 14; };
+function tourList() {
+  return TOURS.filter(t => (!t.lastDate || dn(t.lastDate) >= TODAY) && TODAY - dn(t.announcedOn) <= tourState.win)
+    .filter(t => tourState.f === "all" || (tourState.f === "follow" ? tourFollowed(t) : t.group === tourState.f || (tourState.f === "kpop" && t.group === "kpop-adjacent")))
+    .filter(t => !tourState.europe || t.europe);
+}
+function tourLinkRow() {
+  if (!TOURS.length) return "";
+  const recent = TOURS.filter(t => TODAY - dn(t.announcedOn) <= 30 && (!t.lastDate || dn(t.lastDate) >= TODAY)), fresh = recent.filter(tourNew).length;
+  return `<button class="tourlink" data-tours><b>Tour radar</b><span>${plural(recent.length, "tour")} announced in the last 30 days, worldwide</span>${fresh ? `<span class="tag new">${fresh} new</span>` : ""}</button>`;
+}
+function tourCard(t) {
+  const g = TGROUP[t.group] || TGROUP.recommended, near = tourNear(t), eu = (t.stops || []).filter(x => ["NL","BE","LU","DE","FR","GB","IT","ES","CH","AT","DK","SE","NO","PL","PT","IE","CZ","FI","HU"].includes(x.country));
+  const span = t.firstDate ? (t.lastDate && t.lastDate !== t.firstDate ? `${fmtY(dn(t.firstDate))} to ${fmtY(dn(t.lastDate))}` : fmtY(dn(t.firstDate))) : "Dates to follow";
+  const st = t.status === "soldout" ? ["bad", "Sold out"] : t.status === "onsale" ? ["ok", "On sale"] : t.onSale && dn(t.onSale) >= TODAY ? ["new", "On sale " + fmt(dn(t.onSale))] : ["mute", t.confidence === "projected" ? "Reported" : "Announced"];
+  const stopTxt = eu.length ? "Europe: " + eu.slice(0, 6).map(x => `${esc(x.city)}${x.date ? " " + fmt(dn(x.date)) : ""}`).join(", ") + (eu.length > 6 ? `, plus ${eu.length - 6} more` : "") : (t.europe ? "Europe: dates to follow" : "No European dates announced");
+  return `<div class="tcard" style="--tc:${g.c}"><div class="th"><b>${esc(t.artist)}</b>${tourNew(t) ? `<span class="tag new">New</span>` : ""}${tourFollowed(t) ? `<span class="tag rsvp">You follow</span>` : ""}<span class="tag" style="color:${g.c}">${g.label}</span></div>
+    ${t.tour ? `<div class="tt">${esc(t.tour)}</div>` : ""}
+    <div class="tm"><span>Announced ${fmt(dn(t.announcedOn))}</span><span>${esc(span)}</span>${(t.regions || []).length ? `<span>${esc(t.regions.join(", "))}</span>` : ""}<span class="tag ${st[0]}">${esc(st[1])}</span></div>
+    <div class="stops">${stopTxt}</div>
+    ${near.length ? `<div class="near">Within reach: ${near.slice(0, 4).map(it => `<a href="#${it.type === "c" ? "c" : "e"}-${it.id}" data-open="${it.id}">${esc(it.venue || it.city)} ${fmt(it.first)}</a>`).join(", ")}</div>` : ""}
+    ${t.reason ? `<div class="tt">${esc(t.reason)}</div>` : ""}${t.note ? `<div class="tl">${esc(t.note)}</div>` : ""}
+    <div class="tl"><a href="${esc(t.source)}" target="_blank" rel="noopener">${esc(t.source.replace(/^https?:\/\/(www\.)?/, "").split("/")[0])}</a>${t.confidence === "projected" ? " · reported, not yet on an official page" : ""}</div></div>`;
+}
+function renderTours() {
+  FOLLOWS = followsOf();
+  const counts = g => TOURS.filter(t => (!t.lastDate || dn(t.lastDate) >= TODAY) && TODAY - dn(t.announcedOn) <= tourState.win && (g === "all" || t.group === g || (g === "kpop" && t.group === "kpop-adjacent") || (g === "follow" && tourFollowed(t)))).length;
+  const chips = [["all", "All"], ["kpop", "K-pop"], ["italian", "Italian"], ["eurovision", "Eurovision"], ["recommended", "Recommended"], ["follow", "You follow"]];
+  $("tourChips").innerHTML = chips.map(([v, l]) => `<button class="chip" data-tf="${v}" aria-pressed="${tourState.f === v}">${l} <span class="muted">${counts(v)}</span></button>`).join("")
+    + `<button class="chip" data-te aria-pressed="${tourState.europe}">Europe only</button><select id="tourWin" aria-label="Announced within"><option value="30">Last 30 days</option><option value="90">Last 90 days</option><option value="3650">Any time</option></select>`;
+  $("tourWin").value = String(tourState.win);
+  $("tourChips").querySelectorAll("[data-tf]").forEach(b => b.addEventListener("click", () => { tourState.f = b.dataset.tf; store.set(K.tourFilter, tourState.f); renderTours(); }));
+  $("tourChips").querySelector("[data-te]").addEventListener("click", () => { tourState.europe = !tourState.europe; renderTours(); });
+  $("tourWin").addEventListener("change", e => { tourState.win = +e.target.value; renderTours(); });
+  const list = tourList();
+  $("toursub").textContent = TOURS.length ? `${plural(list.length, "tour")} · updated ${META.checked}` : "";
+  $("toursBody").innerHTML = !TOURS.length ? `<div class="empty">No tours collected yet. The weekly refresh fills this list.</div>`
+    : list.length ? `<div class="list">${list.map(tourCard).join("")}</div>` : `<div class="empty">No tours match. Widen the time window or clear a filter.</div>`;
+  $("toursBody").querySelectorAll("[data-open]").forEach(a => a.addEventListener("click", e => { e.preventDefault(); openDetail(a.dataset.open); }));
+}
+
 /* ================= routing and shell ================= */
-const TABS = ["home", "new", "calendar", "browse", "map", "plan"];
-const VIEW = { home: "v-home", new: "v-new", calendar: "v-cal", browse: "v-browse", map: "v-map", plan: "v-plan" };
+const TABS = ["home", "new", "calendar", "browse", "map", "plan", "tours"];
+const VIEW = { home: "v-home", new: "v-new", calendar: "v-cal", browse: "v-browse", map: "v-map", plan: "v-plan", tours: "v-tours" };
 function setTab(t, push = true) {
   rendered = true;
   if (state.tab === "new" && t !== "new") { markSeenAll(); renderBadges(); }
+  if (state.tab === "tours" && t !== "tours") tourMarkSeen();
   state.tab = t;
   document.querySelectorAll("[data-tab]").forEach(b => { if (b.dataset.tab === t) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current"); });
   Object.entries(VIEW).forEach(([k, id]) => $(id).hidden = k !== t);
@@ -1168,6 +1247,7 @@ function render() {
   else if (state.tab === "browse") renderBrowse();
   else if (state.tab === "map") renderMap();
   else if (state.tab === "plan") renderPlan();
+  else if (state.tab === "tours") renderTours();
 }
 document.querySelectorAll("[data-tab]").forEach(b => b.addEventListener("click", () => setTab(b.dataset.tab)));
 $("openFilters").addEventListener("click", openFilters);

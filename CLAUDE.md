@@ -4,7 +4,7 @@ Nick's phone-first web app for events worth a drive from Hoensbroek, NL (next to
 
 ## What lives where
 
-- `data/events.json` is the single source of truth for events. `data/concerts.json` holds concerts (separate radius), `data/venues.json` the tracked concert venues, `data/meta.json` the version and "data checked" date, `data/geo.json` the map outlines.
+- `data/events.json` is the single source of truth for events. `data/tours.json` feeds the Tour radar side feature only. `data/watchlist.json` lists the acts and sources that `scripts/tour-watch.mjs` scans. `data/concerts.json` holds concerts (separate radius), `data/venues.json` the tracked concert venues, `data/meta.json` the version and "data checked" date, `data/geo.json` the map outlines.
 - `src/index.template.html` is the whole app: HTML, CSS and vanilla JS. No framework, no npm dependencies. `src/sw.template.js` is the service worker.
 - `scripts/build.mjs` validates the data and builds `public/index.html` + `public/sw.js` (Vercel). With `--artifact`, it builds `dist/artifact.html` (claude.ai artifact, single file, icon inlined).
 - `scripts/triage.mjs` prints what the weekly refresh should re-check. `scripts/apply-refresh.mjs` applies the refresh from JSON result files (removals, changes, additions, planBy, meta). `scripts/drive-times.mjs` fills `driveMin` from the OSRM router. `scripts/icons.mjs` renders the PNG icons from `public/icons/favicon.svg`.
@@ -20,6 +20,7 @@ node scripts/build.mjs --artifact   # build the claude.ai artifact version
 node scripts/triage.mjs --days 45 --max 80
 node scripts/venue-feeds.mjs --out <file>       # read six venue agendas from their data feeds; lists new, cancelled and missing shows
 node scripts/venue-browse.mjs <url> [--json]    # render a script-built page in headless Chromium (text or the JSON it fetched)
+node scripts/tour-watch.mjs --out <file> [--feeds <feeds.json>]   # scan agendas, lead sites and tour pages for watchlist acts
 node scripts/apply-refresh.mjs --dir <folder>   # apply a weekly refresh from the research JSON files (see docs/UPDATE.md step 5)
 node scripts/drive-times.mjs        # fill driveMin for entries where it is null (OSRM, rounded to 5 min)
 node scripts/icons.mjs              # re-render PNG icons after changing favicon.svg
@@ -45,6 +46,10 @@ npx serve public                    # local preview
 
 `id`, `artist`, `short`, `venueId` (from venues.json, or null with `venueName`, `city`, `country`, `lat`, `lng`, `driveMin`), `date`, `doors` (HH:MM or null), `genre` (kpop | pop | rock | hiphop | electronic | classical | other), `for[]` (non-empty; a show for nobody in the household is not listed), `status`, `onSale`, `sellOutRisk`, `planBy`, `ticketUrl`, `priceFrom`, `confidence`, `source`, `addedOn`, `tour`, `why` (one sentence for the card; `note` is research detail shown only on the detail page and must not use relative time words), `tier` (set by the updater: 1 for K-pop and stadium shows, 2 for high or medium sell-out risk, 3 otherwise; without it the app falls back to 2 or 3), `tags[]` (`italian`, `eurovision` where they apply).
 
+### `data/tours.json` (array, Tour radar)
+
+Newly announced tours, worldwide, for K-pop, K-pop-adjacent, Italian and Eurovision acts plus recommended and favourite artists: `id` (slug), `artist`, `group` (kpop | kpop-adjacent | italian | eurovision | recommended | favorite), `tour`, `announcedOn` (YYYY-MM-DD, required), `firstDate`, `lastDate`, `regions[]`, `stops[]` ({city, country ISO2, date, venue}), `europe` (bool), `status`, `onSale`, `source` (https, required), `confidence`, `for[]`, `reason` (recommended only), `note`. The build drops an invalid tour with a warning instead of failing. The feature is isolated by design: tours never feed scoring, picks, lists, the calendar, the map, the New badge, calendar feeds or exports. A tour that comes within reach is added to `concerts.json` as usual, and the radar links to it. Keep entries until their `lastDate` passes; the app shows those announced within the chosen window.
+
 ### `data/venues.json` (array)
 
 `id`, `name`, `city`, `country`, `lat`, `lng`, `driveMin`, `capacity`, `parking`, `train`, `lez`, `listingsUrl` (the venue's own agenda page, the first fetch target of the weekly refresh).
@@ -57,7 +62,7 @@ Nearby means `driveMin` of 30 or less (Parkstad, Maastricht, Sittard, Valkenburg
 
 Follows (`out-follows`, names per person, matched client-side against name, venue and tags), RSVP (`out-rsvp`, Maybe or In per person per entry), the Been diary (`out-diary`: who went, rating, one line) and share links (`#g-<id>--<id>`, read-only, with a Save all button) are all device-local by decision: no backend. Calendar feeds (`public/calendar/anne|alma|nick|family|tier1.ics`) are built from the data for one-time subscription on each phone; that is the alert path.
 
-Browser storage keys all start with `out-` (`out-near`, `out-follows`, `out-rsvp`, `out-diary`, `out-calMode`, `out-only`, `out-plan`, `out-notes`, `out-hidden`, `out-likes`, `out-weights`, `out-profiles`, `out-lastSeen`, `out-seen`, `out-showHidden`, `out-drive`, `out-sort`, `out-newCount`). The service worker cache prefix is `out-`.
+Browser storage keys all start with `out-` (`out-toursSeen`, `out-tourFilter`, `out-near`, `out-follows`, `out-rsvp`, `out-diary`, `out-calMode`, `out-only`, `out-plan`, `out-notes`, `out-hidden`, `out-likes`, `out-weights`, `out-profiles`, `out-lastSeen`, `out-seen`, `out-showHidden`, `out-drive`, `out-sort`, `out-newCount`). The service worker cache prefix is `out-`.
 
 ## Rules for editing data
 
@@ -72,7 +77,8 @@ Browser storage keys all start with `out-` (`out-near`, `out-follows`, `out-rsvp
 
 - Mobile-first at 390 px. Nothing scrolls sideways except the Act now strip. Tap targets 44 px or larger. Layout must work with the keyboard open on the search field.
 - Desktop at 900 px and wider: the tab bar is a left rail, Browse and Calendar show the detail beside the list, the calendar shows two months, the map takes the full height. Escape closes the detail panel; arrow keys move through the calendar.
-- Keep working features intact: hash routing (`#home`, `#new`, `#calendar`, `#browse`, `#map`, `#plan`, `#e-<id>`, `#c-<id>`, `#g-<ids>`), the `store` wrapper and `out-` keys, PDF and ICS export, calendar feeds, JSON export/import, offline shell, home-screen install, the data health card and the updated line on Home.
+- Keep working features intact: hash routing (`#home`, `#new`, `#calendar`, `#browse`, `#map`, `#plan`, `#tours`, `#e-<id>`, `#c-<id>`, `#g-<ids>`), the `store` wrapper and `out-` keys, PDF and ICS export, calendar feeds, JSON export/import, offline shell, home-screen install, the data health card and the updated line on Home.
+- Tour radar lives at `#tours`: a rail entry on desktop and one row on Home; the phone tab bar keeps six tabs. Keep its code inside its own block and its own `out-tours*` keys.
 - Sheets stack: closing a detail opened from a day list returns to that list; Back closes a detail; the background is inert while a sheet is open; the calendar keeps a focusable day in every month; map pins are keyboard buttons.
 - Dark theme only; body text at 7:1 or better. Display face Bricolage Grotesque, body IBM Plex Sans. One warm accent `--urgent`, one cool accent `--new`, one hue per person for dots and chips only, one fixed color per lane. The New badge pulses once on load when the count rose; nothing else animates.
 - UI copy: plain English, active voice, no em dashes inside sentences, DD Mon YYYY dates, 24-hour clock, no emoji, no official-looking markers.

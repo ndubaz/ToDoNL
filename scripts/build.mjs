@@ -14,6 +14,24 @@ const concerts = JSON.parse(read("data/concerts.json"));
 const venues = JSON.parse(read("data/venues.json"));
 const geo = JSON.parse(read("data/geo.json"));
 const meta = JSON.parse(read("data/meta.json"));
+// Tour radar (data/tours.json) is a side feature: it never feeds scoring, lists, calendar, map or feeds, and a bad entry
+// is dropped with a warning instead of stopping the build, so it cannot take the rest of the app down.
+const TOUR_GROUPS = ["kpop", "kpop-adjacent", "italian", "eurovision", "recommended", "favorite"];
+let tours = []; try { tours = JSON.parse(read("data/tours.json")); } catch (e) { console.warn("Tour radar: data/tours.json unreadable, shipping none (" + e.message + ")"); }
+const tourWarn = [], tourIds = new Set();
+tours = (Array.isArray(tours) ? tours : []).filter(t => {
+  const bad = [];
+  if (!t || !t.id || !/^[a-z0-9-]+$/.test(t.id) || tourIds.has(t.id)) bad.push("id"); else tourIds.add(t.id);
+  if (!t.artist) bad.push("artist");
+  if (!TOUR_GROUPS.includes(t.group)) bad.push("group");
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(t.announcedOn || "")) bad.push("announcedOn");
+  for (const k of ["firstDate", "lastDate", "onSale"]) if (t[k] != null && !/^\d{4}-\d{2}-\d{2}$/.test(t[k])) bad.push(k);
+  if (typeof t.source !== "string" || !/^https:\/\//.test(t.source)) bad.push("source");
+  if (t.stops != null && !Array.isArray(t.stops)) bad.push("stops");
+  if (/\b(tomorrow|tonight|still available|at time of research)\b/i.test([t.note, t.reason].join(" "))) bad.push("relative wording");
+  if (bad.length) { tourWarn.push(`${t && t.id || "?"}: ${bad.join(", ")}`); return false; } return true;
+}).sort((a, b) => b.announcedOn.localeCompare(a.announcedOn));
+if (tourWarn.length) console.warn("Tour radar: dropped " + tourWarn.length + " entries:\n  " + tourWarn.join("\n  "));
 
 const KINDS = ["festival", "spectacle", "concert", "kpop", "museum", "food", "culture", "military", "aviation", "sport", "other"];
 const GENRES = ["kpop", "pop", "rock", "hiphop", "electronic", "classical", "other"];
@@ -121,6 +139,7 @@ let html = tpl
   .replace("__VENUES__", () => J(venues))
   .replace("__GEO__", () => J(geo))
   .replace("__META__", () => J({ ...meta, generated }))
+  .replace("__TOURS__", () => J(tours))
   .replaceAll("__ICON_SRC__", ARTIFACT ? iconData : "/icons/favicon.svg")
   .replaceAll("__SITE__", SITE)
   .replace("__JSPDF_SRC__", ARTIFACT ? "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" : "/vendor/jspdf-2.5.1.umd.min.js")
@@ -171,7 +190,7 @@ function icsFeed(items, name) {
 
 const counts = {}; events.forEach(e => counts[e.kind] = (counts[e.kind] || 0) + 1); concerts.forEach(c => { const k = c.genre === "kpop" ? "kpop" : "concert"; counts[k] = (counts[k] || 0) + 1; });
 const projected = events.filter(e => e.confidence === "projected").length + concerts.filter(c => c.confidence === "projected").length;
-const summary = `${events.length} events + ${concerts.length} concerts (${Object.entries(counts).map(([k, n]) => `${k} ${n}`).join(", ")}); ${projected} projected`;
+const summary = `${events.length} events + ${concerts.length} concerts + ${tours.length} tours (${Object.entries(counts).map(([k, n]) => `${k} ${n}`).join(", ")}); ${projected} projected`;
 if (ARTIFACT) {
   mkdirSync(new URL("dist/", root), { recursive: true });
   writeFileSync(new URL("dist/artifact.html", root), html);
