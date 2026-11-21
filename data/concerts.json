@@ -1649,6 +1649,42 @@
   "why": "André Rieu in Antwerpen 2027 at AFAS Dome (Sportpaleis), Antwerp."
  },
  {
+  "id": "afterhours-melkweg-2027-01-12",
+  "artist": "Afterhours",
+  "short": "Afterhours",
+  "venueId": null,
+  "venueName": "Melkweg",
+  "city": "Amsterdam",
+  "country": "NL",
+  "lat": 52.3647,
+  "lng": 4.8811,
+  "date": "2027-01-12",
+  "doors": null,
+  "genre": "rock",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "planBy": "2026-12-22",
+  "ticketUrl": "https://www.melkweg.nl/en/agenda/afterhours-12-01-2027/",
+  "priceFrom": 37.95,
+  "confidence": "confirmed",
+  "source": "https://www.melkweg.nl/en/agenda/afterhours-12-01-2027/",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "Quello che non c’è - Tour 2027",
+  "why": "Manuel Agnelli’s Afterhours open their 25th-anniversary tour of Quello che non c’è in the Melkweg Max hall.",
+  "note": "Melkweg lists 19:00 in the Max hall and EUR 37.95 plus the compulsory Melkweg membership. Five other dates on the tour (Berlin, Rome, Milan, Nonantola) are already sold out according to All Music Italia; promoter MC2Live.",
+  "tier": 2,
+  "tags": [
+   "italian"
+  ],
+  "driveMin": 170
+ },
+ {
   "id": "die-fantastischen-vier-lanxess-2027-01-12",
   "artist": "Die Fantastischen Vier",
   "short": "Fanta 4 Köln",
@@ -1673,6 +1709,43 @@
   "verifiedOn": "2026-11-18",
   "tier": 2,
   "why": "Der letzte Bus at Lanxess Arena, Köln."
+ },
+ {
+  "id": "afterhours-madeleine-2027-01-13",
+  "artist": "Afterhours",
+  "short": "Afterhours",
+  "venueId": null,
+  "venueName": "La Madeleine",
+  "city": "Brussels",
+  "country": "BE",
+  "lat": 50.8459,
+  "lng": 4.3561,
+  "date": "2027-01-13",
+  "doors": null,
+  "genre": "rock",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "planBy": "2026-12-23",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://www.allmusicitalia.it/tour/afterhours-tour-2027-date-biglietti.html",
+  "addedOn": "2026-11-21",
+  "verifiedOn": null,
+  "tour": "Quello che non c’è - Tour 2027",
+  "why": "The Italian alt-rock band behind Quello che non c’è plays a club-size Brussels hall.",
+  "note": null,
+  "tier": 2,
+  "tags": [
+   "italian"
+  ],
+  "dateNote": "Date and venue from the All Music Italia tour table (lead); La Madeleine has no page for it yet.",
+  "driveMin": 90
  },
  {
   "id": "nothing-but-thieves-lanxess-2027-01-13",
@@ -1830,6 +1903,43 @@
   "planBy": "2027-01-02"
  },
  {
+  "id": "afterhours-paris-2027-01-17",
+  "artist": "Afterhours",
+  "short": "Afterhours",
+  "venueId": null,
+  "venueName": "Paris (venue to be confirmed)",
+  "city": "Paris",
+  "country": "FR",
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "date": "2027-01-17",
+  "doors": null,
+  "genre": "rock",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "planBy": "2026-12-27",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://www.allmusicitalia.it/tour/afterhours-tour-2027-date-biglietti.html",
+  "addedOn": "2026-11-21",
+  "verifiedOn": null,
+  "tour": "Quello che non c’è - Tour 2027",
+  "why": "The Paris stop of Afterhours’ anniversary tour.",
+  "note": "Date from All Music Italia; the venue name could not be verified.",
+  "tier": 2,
+  "tags": [
+   "italian"
+  ],
+  "dateNote": "Date from the All Music Italia tour table (lead), which names the venue \"Bal Chavaux\"; venue name and address not verified.",
+  "driveMin": 280
+ },
+ {
   "id": "ntx-ams-2027-01-18",
   "artist": "NTX",
   "short": "NTX Amsterdam",
@@ -1960,6 +2070,43 @@
   ],
   "dateNote": "Date from the Kpop Concerts Europe tour post (aggregator); organiser and venue not named, no official page found.",
   "driveMin": 175
+ },
+ {
+  "id": "kyle-alessandro-melkweg-2027-01-22",
+  "artist": "Kyle Alessandro",
+  "short": "Kyle Alessandro",
+  "venueId": null,
+  "venueName": "Melkweg",
+  "city": "Amsterdam",
+  "country": "NL",
+  "lat": 52.3647,
+  "lng": 4.8811,
+  "date": "2027-01-22",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "alma",
+   "anne",
+   "family"
+  ],
+  "status": "soldout",
+  "onSale": null,
+  "sellOutRisk": "high",
+  "planBy": "2026-12-23",
+  "ticketUrl": "https://www.melkweg.nl/en/agenda/kyle-alessandro-22-01-2027/",
+  "priceFrom": 25.3,
+  "confidence": "confirmed",
+  "source": "https://www.melkweg.nl/en/agenda/kyle-alessandro-22-01-2027/",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "The Aura Tour",
+  "why": "Norway’s 2025 Eurovision singer of Lighter plays a small Melkweg room.",
+  "note": "Melkweg ANN room (entrance Lijnbaansgracht 238), 19:30, EUR 25.30; listed as sold out.",
+  "tier": 2,
+  "tags": [
+   "eurovision"
+  ],
+  "driveMin": 170
  },
  {
   "id": "five-finger-death-punch-psd-bank-dome-2027-01-26",
@@ -2827,6 +2974,38 @@
   "why": "Music, Fashion, Film Tour at Ziggo Dome, Amsterdam."
  },
  {
+  "id": "italia-2027-sanremo-accor-2027-02-23",
+  "artist": "Italia 2027: Sanremo 2027 winners",
+  "short": "Italia 2027 Sanremo",
+  "venueId": "accor-arena",
+  "date": "2027-02-23",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "planBy": "2027-02-02",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://www.allmusicitalia.it/sanremo/italia-2027-tour-europeo-sanremo.html",
+  "addedOn": "2026-11-21",
+  "verifiedOn": null,
+  "tour": "Italia 2027",
+  "why": "Three days after the Sanremo final, the winners and guest Italian stars play the first night of a four-city European arena tour.",
+  "note": "Line-up: the overall Sanremo 2027 winner, the winner of the Friday 19 Feb night and the Sanremo Giovani winner, plus invited Italian stars and past Italian Eurovision acts, with host Stefano De Martino. Other stops: Madrid 26 Feb, Munich 1 Mar, London 3 Mar.",
+  "tier": 2,
+  "tags": [
+   "italian",
+   "eurovision"
+  ],
+  "dateNote": "Tuesday 23 Feb 2027 at Accor Arena per the Rai and Farnesina project as reported by AGI and All Music Italia (leads); no ticket page or official line-up yet."
+ },
+ {
   "id": "rush-ziggo-2027-02-23",
   "artist": "RUSH",
   "short": "RUSH",
@@ -3310,6 +3489,156 @@
   "driveMin": 165
  },
  {
+  "id": "delta-goodrem-cigale-2027-03-04",
+  "artist": "Delta Goodrem",
+  "short": "Delta Goodrem",
+  "venueId": null,
+  "venueName": "La Cigale",
+  "city": "Paris",
+  "country": "FR",
+  "lat": 48.8823,
+  "lng": 2.3404,
+  "date": "2027-03-04",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "alma",
+   "anne",
+   "family"
+  ],
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "planBy": "2027-02-18",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://www.aussievision.net/post/delta-goodrem-announces-pure-world-tour-with-european-dates-released",
+  "addedOn": "2026-11-21",
+  "verifiedOn": null,
+  "tour": "Pure World Tour",
+  "why": "Australia’s 2026 Eurovision star plays an intimate Paris theatre.",
+  "note": null,
+  "tier": 3,
+  "tags": [
+   "eurovision"
+  ],
+  "dateNote": "From the Pure World Tour date list on Aussievision (lead); not yet checked on the La Cigale site.",
+  "driveMin": 270
+ },
+ {
+  "id": "delta-goodrem-live-music-hall-2027-03-05",
+  "artist": "Delta Goodrem",
+  "short": "Delta Goodrem",
+  "venueId": null,
+  "venueName": "Live Music Hall",
+  "city": "Köln",
+  "country": "DE",
+  "lat": 50.948,
+  "lng": 6.9165,
+  "date": "2027-03-05",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "alma",
+   "anne",
+   "family"
+  ],
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "planBy": "2027-02-19",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://www.aussievision.net/post/delta-goodrem-announces-pure-world-tour-with-european-dates-released",
+  "addedOn": "2026-11-21",
+  "verifiedOn": null,
+  "tour": "Pure World Tour",
+  "why": "The closest stop of Delta Goodrem’s tour, about an hour from home in Köln.",
+  "note": null,
+  "tier": 3,
+  "tags": [
+   "eurovision"
+  ],
+  "dateNote": "From the Pure World Tour date list on Aussievision (lead); the Live Music Hall agenda did not list it when checked.",
+  "driveMin": 65
+ },
+ {
+  "id": "delta-goodrem-melkweg-2027-03-07",
+  "artist": "Delta Goodrem",
+  "short": "Delta Goodrem",
+  "venueId": null,
+  "venueName": "Melkweg",
+  "city": "Amsterdam",
+  "country": "NL",
+  "lat": 52.3647,
+  "lng": 4.8811,
+  "date": "2027-03-07",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "alma",
+   "anne",
+   "family"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "planBy": "2027-02-21",
+  "ticketUrl": "https://www.melkweg.nl/en/agenda/delta-goodrem-07-03-2027/",
+  "priceFrom": 34.5,
+  "confidence": "confirmed",
+  "source": "https://www.melkweg.nl/en/agenda/delta-goodrem-07-03-2027/",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "Pure World Tour",
+  "why": "Australia’s 2026 Eurovision entrant brings her Pure World Tour to the Melkweg Max hall.",
+  "note": "Melkweg lists 19:00, EUR 34.50 regular and a EUR 264.50 meet-and-greet VIP package, plus the compulsory Melkweg membership.",
+  "tier": 3,
+  "tags": [
+   "eurovision"
+  ],
+  "driveMin": 170
+ },
+ {
+  "id": "mannarino-machine-moulin-rouge-2027-03-07",
+  "artist": "Mannarino",
+  "short": "Mannarino",
+  "venueId": null,
+  "venueName": "La Machine du Moulin Rouge",
+  "city": "Paris",
+  "country": "FR",
+  "lat": 48.8841,
+  "lng": 2.3322,
+  "date": "2027-03-07",
+  "doors": null,
+  "genre": "other",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "planBy": "2027-02-21",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://www.allmusicitalia.it/tour/mannarino-tour-europeo-2027.html",
+  "addedOn": "2026-11-21",
+  "verifiedOn": null,
+  "tour": "Primo Amore Tour 2027",
+  "why": "The Roman cantautore plays a Pigalle club on his European tour.",
+  "note": null,
+  "tier": 3,
+  "tags": [
+   "italian"
+  ],
+  "dateNote": "Date and venue from the All Music Italia tour table (lead); not yet checked on the venue site.",
+  "driveMin": 270
+ },
+ {
   "id": "kool-and-the-gang-afas-live-2027-03-08",
   "artist": "Kool & The Gang",
   "short": "Kool & The Gang",
@@ -3335,6 +3664,42 @@
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-11",
   "planBy": "2027-02-22"
+ },
+ {
+  "id": "mannarino-madeleine-2027-03-08",
+  "artist": "Mannarino",
+  "short": "Mannarino",
+  "venueId": null,
+  "venueName": "La Madeleine",
+  "city": "Brussels",
+  "country": "BE",
+  "lat": 50.8459,
+  "lng": 4.3561,
+  "date": "2027-03-08",
+  "doors": null,
+  "genre": "other",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "planBy": "2027-02-22",
+  "ticketUrl": "https://concert-mannarino-lamadeleine.ticketlive.be/",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.la-madeleine.be/en/agenda/mannarino",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "Primo Amore Tour 2027",
+  "why": "Mannarino’s poetic, Mediterranean songwriting in a 1,000-capacity Brussels hall.",
+  "note": "La Madeleine lists 08.03.27 with tickets through Ticketlive; the tour follows his album Primo Amore and an Italian summer with more than 60,000 tickets sold.",
+  "tier": 3,
+  "tags": [
+   "italian"
+  ],
+  "driveMin": 90
  },
  {
   "id": "wild-wild-paris-2027-03-08",
@@ -3459,6 +3824,42 @@
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-11",
   "planBy": "2027-02-17"
+ },
+ {
+  "id": "mannarino-melkweg-2027-03-11",
+  "artist": "Mannarino",
+  "short": "Mannarino",
+  "venueId": null,
+  "venueName": "Melkweg",
+  "city": "Amsterdam",
+  "country": "NL",
+  "lat": 52.3647,
+  "lng": 4.8811,
+  "date": "2027-03-11",
+  "doors": null,
+  "genre": "other",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "planBy": "2027-02-25",
+  "ticketUrl": "https://www.melkweg.nl/en/agenda/mannarino-11-03-2027/",
+  "priceFrom": 31.05,
+  "confidence": "confirmed",
+  "source": "https://www.melkweg.nl/en/agenda/mannarino-11-03-2027/",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "Primo Amore Tour 2027",
+  "why": "Mannarino brings the Primo Amore songs to the Melkweg Max hall.",
+  "note": "Melkweg lists 19:00, EUR 31.05 regular plus the compulsory Melkweg membership.",
+  "tier": 3,
+  "tags": [
+   "italian"
+  ],
+  "driveMin": 170
  },
  {
   "id": "james-blunt-psd-bank-dome-2027-03-13",
@@ -3979,6 +4380,43 @@
   "planBy": "2027-03-16"
  },
  {
+  "id": "sarah-engels-batschkapp-2027-04-02",
+  "artist": "Sarah Engels",
+  "short": "Sarah Engels",
+  "venueId": null,
+  "venueName": "Batschkapp",
+  "city": "Frankfurt",
+  "country": "DE",
+  "lat": 50.1449,
+  "lng": 8.7213,
+  "date": "2027-04-02",
+  "doors": "18:30",
+  "genre": "pop",
+  "for": [
+   "alma",
+   "anne",
+   "family"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "planBy": "2027-03-19",
+  "ticketUrl": "https://www.batschkapp.de/events/sarah-engels-frankfurt-batschkapp-2027-04-02-193000",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.batschkapp.de/events/sarah-engels-frankfurt-batschkapp-2027-04-02-193000",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "I’m on Fire Tour",
+  "why": "Germany’s 2026 Eurovision singer plays Fire and her pop hits in a Frankfurt club.",
+  "note": "Batschkapp lists doors 18:30, start 19:30.",
+  "tier": 3,
+  "tags": [
+   "eurovision"
+  ],
+  "driveMin": 180
+ },
+ {
   "doors": "20:30",
   "onSale": null,
   "priceFrom": null,
@@ -4034,6 +4472,44 @@
   "changedOn": "2026-11-11"
  },
  {
+  "id": "sarah-engels-koeln-2027-04-04",
+  "artist": "Sarah Engels",
+  "short": "Sarah Engels",
+  "venueId": null,
+  "venueName": "Köln (venue not yet confirmed)",
+  "city": "Köln",
+  "country": "DE",
+  "lat": 50.9375,
+  "lng": 6.9603,
+  "date": "2027-04-04",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "alma",
+   "anne",
+   "family"
+  ],
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "planBy": "2027-03-21",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://eurovoix.com/2026/05/13/germany-sarah-engels-announces-german-tour-for-2027/",
+  "addedOn": "2026-11-21",
+  "verifiedOn": null,
+  "tour": "I’m on Fire Tour",
+  "why": "The Köln night of Sarah Engels’ club tour, an hour from home.",
+  "note": null,
+  "tier": 3,
+  "tags": [
+   "eurovision"
+  ],
+  "dateNote": "Köln on 4 Apr 2027 from the tour list reported by Eurovoix (lead); venue not named and Eventim could not be reached.",
+  "driveMin": 65
+ },
+ {
   "doors": "15:00",
   "onSale": null,
   "priceFrom": null,
@@ -4059,6 +4535,42 @@
   "tier": 2,
   "verifiedOn": "2026-11-18",
   "planBy": "2027-03-05"
+ },
+ {
+  "id": "the-kolors-batschkapp-2027-04-11",
+  "artist": "The Kolors",
+  "short": "The Kolors",
+  "venueId": null,
+  "venueName": "Batschkapp",
+  "city": "Frankfurt",
+  "country": "DE",
+  "lat": 50.1449,
+  "lng": 8.7213,
+  "date": "2027-04-11",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "planBy": "2027-03-28",
+  "ticketUrl": "https://www.batschkapp.de/events/the-kolors-frankfurt-batschkapp-2027-04-11-200000",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.batschkapp.de/events/the-kolors-frankfurt-batschkapp-2027-04-11-200000",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "Europe, USA & Canada Tour 2027",
+  "why": "The Italodisco hitmakers from Sanremo play a Frankfurt club on their spring leg.",
+  "note": "Batschkapp lists a 20:00 start; presented by FRIZZ Das Magazin.",
+  "tier": 3,
+  "tags": [
+   "italian"
+  ],
+  "driveMin": 180
  },
  {
   "id": "ateez-ziggo-2027-04-12",
@@ -8245,6 +8757,42 @@
   "planBy": "2027-09-05"
  },
  {
+  "id": "the-kolors-madeleine-2027-10-09",
+  "artist": "The Kolors",
+  "short": "The Kolors",
+  "venueId": null,
+  "venueName": "La Madeleine",
+  "city": "Brussels",
+  "country": "BE",
+  "lat": 50.8459,
+  "lng": 4.3561,
+  "date": "2027-10-09",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "onsale",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "planBy": "2027-09-25",
+  "ticketUrl": "https://www.la-madeleine.be/en/agenda/the-kolors",
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "source": "https://www.la-madeleine.be/en/agenda/the-kolors",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "tour": "Europe, USA & Canada Tour 2027",
+  "why": "The Kolors bring Italodisco and their Sanremo hits to Brussels on a Saturday night.",
+  "note": "La Madeleine lists Saturday 9 Oct 2027; their 2024-2025 European tour sold out.",
+  "tier": 3,
+  "tags": [
+   "italian"
+  ],
+  "driveMin": 90
+ },
+ {
   "id": "il-volo-forest-national-2027-10-10",
   "artist": "Il Volo",
   "short": "Il Volo",
@@ -8273,6 +8821,43 @@
   "planBy": "2027-09-19",
   "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04"
+ },
+ {
+  "id": "the-kolors-den-atelier-2027-10-10",
+  "artist": "The Kolors",
+  "short": "The Kolors",
+  "venueId": null,
+  "venueName": "Den Atelier",
+  "city": "Luxembourg",
+  "country": "LU",
+  "lat": 49.6033,
+  "lng": 6.129,
+  "date": "2027-10-10",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "nick",
+   "family"
+  ],
+  "status": "announced",
+  "onSale": null,
+  "sellOutRisk": "low",
+  "planBy": "2027-09-26",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "projected",
+  "source": "https://www.allmusicitalia.it/tour/the-kolors-tour-2027-date-concerti.html",
+  "addedOn": "2026-11-21",
+  "verifiedOn": null,
+  "tour": "Europe, USA & Canada Tour 2027",
+  "why": "The Kolors play the Luxembourg club the night after Brussels.",
+  "note": null,
+  "tier": 3,
+  "tags": [
+   "italian"
+  ],
+  "dateNote": "Date from the All Music Italia tour table (lead) and the La Madeleine page, which names Luxembourg; the Den Atelier site blocked automated reads.",
+  "driveMin": 155
  },
  {
   "id": "jean-michel-jarre-forest-national-2027-10-11",

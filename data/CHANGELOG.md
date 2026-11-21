@@ -1,5 +1,10 @@
 # Data changelog
 
+## 2026-11-21: Italian and Eurovision sweep
+- Added 16 concerts and 1 event. Italian: Afterhours (Melkweg 12 Jan 2027, Brussels and Paris projected), Mannarino (La Madeleine Brussels 8 Mar, Melkweg 11 Mar, Paris projected), The Kolors (Batschkapp Frankfurt 11 Apr, La Madeleine 9 Oct, Den Atelier projected), and Italia 2027, the Sanremo 2027 winners' show at Accor Arena on 23 Feb 2027 (projected; no line-up or tickets yet). Eurovision: Kyle Alessandro (Melkweg 22 Jan, sold out), Delta Goodrem (Melkweg 7 Mar; Paris and Köln projected), Sarah Engels (Batschkapp 2 Apr; Köln projected), and the Amsterdam Calling fan party at the Melkweg on 2 Apr 2027, the night before Eurovision in Concert.
+- data/watchlist.json now holds 251 acts and 31 sources, including All Music Italia's 2027 tour list, Friends & Partners, La Madeleine, Batschkapp, Eurovoix and the Eurovision 2027 national-selection table.
+- Sanremo 2027 cast: announced on 11 Dec 2026; festival 16 to 20 Feb 2027. Eurovision 2027: Burgas, 11 to 15 May; the Netherlands withdrew again; Belgium (VRT) has no selection date yet.
+
 ## 2026-11-21: K-pop sweep
 - Added 27 K-pop concerts found through promoter feeds and lead sites: Stray Kids RUN IT at GelreDome Arnhem 27 and 28 Jul 2027 (general sale opened 19 Nov) and a second Plenitude Arena night 10 Jul 2027; TXT STEAL THE WIND in Paris 7 Jun, Amsterdam 10 Jun, Antwerp 12 Jun and Köln 14 Jun 2027 (dates on the BIGHIT tour page, venues to be announced); VERIVERY, NEWBEAT, NTX, EVNNE, JUST B and WILD WILD club tours through Q-Factory Amsterdam, Kantine and Carlswerk Köln, Zeche Bochum, Zoom Frankfurt and Paris halls (December 2026 to March 2027); ZELO at Club Volta Köln 24 Nov 2026; 1VERSE in Frankfurt and Paris (projected).
 - data/watchlist.json now holds 122 acts (K-pop and K-pop adjacent added) and 25 sources, including the Mod One promoter feed, Q:U Entertainment, Kinetic Vibe, NL KPOP TOURS, Kpop Concerts Europe and the Soompi 2027 masterlist.

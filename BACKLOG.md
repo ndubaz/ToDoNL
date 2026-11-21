@@ -60,6 +60,11 @@ Bugs, shortcuts and unverified items. Fixed in one batch when Nick says "execute
 - Not added (lower priority, Korean band and R&B rather than idol K-pop): Catch The Young 27 Nov 2026 Zonnehuis Amsterdam, Jooyoung 6 Dec 2026 Amsterdam (venue unknown), oceanfromtheblue 27 Mar 2027 Q-Factory. Add if Alma follows them.
 - K-pop sources that refuse automated clients: Ticketmaster (all countries), Eventim, Fnac Spectacles, Weverse notices, kpopofficial.com tag pages (429), KQ, Starship, SM and JYP artist pages (script shells), YG concert pages (dates in images). A Ticketmaster Discovery API key would open the biggest of these; see the 21 Nov report.
 
+## Italian and Eurovision sweep, 21 Nov 2026
+- Not added: Giovanni Zarrella (Rockhal 18 Apr, Lanxess 22 Apr 2027; German TV singer, outside the Sanremo sphere), Essyla (Ottignies 10 Apr 2027; Songkick only), Talco (Melkweg 14 May 2027; ska-punk). Add any on request.
+- Blocked: eurovision.tv, eurovision.com, eurovisionworld.com, ebu.ch and Den Atelier (Cloudflare), rockol.it and TivoliVredenburg (403), TicketOne and Eventim (connection reset).
+- Check after 11 Dec 2026: the Sanremo 2027 cast, then each cast member's tour pages; after the festival, the Italia 2027 Paris show line-up and ticket sale.
+
 ## Code
 - Plan conflicts consider only entries spanning 3 days or fewer; long-running exhibitions never clash.
 - Deep links to the Browse filters (kind, country, month) are not in the hash; only tabs and entries are.

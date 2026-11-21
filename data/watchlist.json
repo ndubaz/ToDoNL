@@ -224,6 +224,52 @@
    "url": "https://kpopdemonhunterstour.com/",
    "mode": "browser",
    "scrolls": 4
+  },
+  {
+   "id": "allmusicitalia-2027",
+   "kind": "lead",
+   "official": false,
+   "url": "https://www.allmusicitalia.it/tour/concerti-2027.html",
+   "mode": "static"
+  },
+  {
+   "id": "friends-partners",
+   "kind": "lead",
+   "official": true,
+   "url": "https://www.friendsandpartners.it/in-tour",
+   "mode": "static"
+  },
+  {
+   "id": "la-madeleine",
+   "kind": "venue",
+   "official": true,
+   "city": "Brussels",
+   "url": "https://www.la-madeleine.be/en/agenda",
+   "mode": "browser",
+   "scrolls": 10
+  },
+  {
+   "id": "batschkapp",
+   "kind": "venue",
+   "official": true,
+   "city": "Frankfurt",
+   "url": "https://www.batschkapp.de/",
+   "mode": "browser",
+   "scrolls": 10
+  },
+  {
+   "id": "eurovoix",
+   "kind": "lead",
+   "official": false,
+   "url": "https://eurovoix.com/",
+   "mode": "static"
+  },
+  {
+   "id": "wiki-esc-2027",
+   "kind": "lead",
+   "official": false,
+   "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2027",
+   "mode": "static"
   }
  ],
  "artists": [
@@ -1082,6 +1128,732 @@
     "K-Pop Forever",
     "K-Pop Live"
    ]
+  },
+  {
+   "name": "Elodie",
+   "group": "italian"
+  },
+  {
+   "name": "Blanco",
+   "group": "italian",
+   "aliases": [
+    "Riccardo Fabbriconi"
+   ]
+  },
+  {
+   "name": "Angelina Mango",
+   "group": "italian",
+   "tourUrl": "https://www.angelinamango.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Marco Mengoni",
+   "group": "italian",
+   "aliases": [
+    "Mengoni"
+   ],
+   "tourUrl": "https://www.marcomengoni.it/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Måneskin",
+   "group": "italian",
+   "aliases": [
+    "Maneskin"
+   ]
+  },
+  {
+   "name": "Damiano David",
+   "group": "italian",
+   "aliases": [
+    "Damiano"
+   ],
+   "tourUrl": "https://www.damianodavidofficial.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Victoria De Angelis",
+   "group": "italian",
+   "aliases": [
+    "Victoria"
+   ]
+  },
+  {
+   "name": "Giorgia",
+   "group": "italian",
+   "aliases": [
+    "Giorgia Todrani"
+   ]
+  },
+  {
+   "name": "Geolier",
+   "group": "italian",
+   "tourUrl": "https://www.geolierofficial.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Ghali",
+   "group": "italian",
+   "caseSensitive": true
+  },
+  {
+   "name": "Gaia",
+   "group": "italian",
+   "aliases": [
+    "Gaia Gozzi"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "Irama",
+   "group": "italian",
+   "caseSensitive": true
+  },
+  {
+   "name": "Rose Villain",
+   "group": "italian"
+  },
+  {
+   "name": "Clara",
+   "group": "italian",
+   "aliases": [
+    "Clara Soccini"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "Francesca Michielin",
+   "group": "italian"
+  },
+  {
+   "name": "Coma_Cose",
+   "group": "italian",
+   "aliases": [
+    "Coma Cose"
+   ]
+  },
+  {
+   "name": "Colapesce Dimartino",
+   "group": "italian",
+   "aliases": [
+    "Colapesce",
+    "Dimartino"
+   ],
+   "tourUrl": "https://iicbruxelles.esteri.it/it/gli_eventi/calendario/"
+  },
+  {
+   "name": "La Rappresentante di Lista",
+   "group": "italian",
+   "aliases": [
+    "LRDL"
+   ]
+  },
+  {
+   "name": "Madame",
+   "group": "italian",
+   "aliases": [
+    "Francesca Calearo"
+   ],
+   "tourUrl": "https://www.friendsandpartners.it/in-tour/madame-disincanto-tour",
+   "caseSensitive": true
+  },
+  {
+   "name": "Ultimo",
+   "group": "italian",
+   "aliases": [
+    "Niccolò Moriconi"
+   ]
+  },
+  {
+   "name": "Tananai",
+   "group": "italian",
+   "tourUrl": "https://www.friendsandpartners.it/in-tour/tananai-palasport-2027"
+  },
+  {
+   "name": "Gazzelle",
+   "group": "italian"
+  },
+  {
+   "name": "Calcutta",
+   "group": "italian",
+   "tourUrl": "https://www.calcutta.it/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Cosmo",
+   "group": "italian",
+   "aliases": [
+    "Marco Jacopo Bianchi"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "Fulminacci",
+   "group": "italian"
+  },
+  {
+   "name": "Brunori Sas",
+   "group": "italian",
+   "aliases": [
+    "Brunori"
+   ]
+  },
+  {
+   "name": "Levante",
+   "group": "italian",
+   "tourUrl": "https://www.levanteofficial.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Willie Peyote",
+   "group": "italian"
+  },
+  {
+   "name": "Joan Thiele",
+   "group": "italian"
+  },
+  {
+   "name": "Bresh",
+   "group": "italian",
+   "caseSensitive": true
+  },
+  {
+   "name": "Sarah Toscano",
+   "group": "italian"
+  },
+  {
+   "name": "Diodato",
+   "group": "italian"
+  },
+  {
+   "name": "Ermal Meta",
+   "group": "italian"
+  },
+  {
+   "name": "Elisa",
+   "group": "italian",
+   "aliases": [
+    "Elisa Toffoli"
+   ],
+   "tourUrl": "https://www.friendsandpartners.it/in-tour/elisa-soundtrack-97-27-campovolo",
+   "caseSensitive": true
+  },
+  {
+   "name": "Emma",
+   "group": "italian",
+   "aliases": [
+    "Emma Marrone"
+   ],
+   "tourUrl": "https://www.friendsandpartners.it/in-tour/emma-live-2027",
+   "caseSensitive": true
+  },
+  {
+   "name": "Noemi",
+   "group": "italian",
+   "caseSensitive": true
+  },
+  {
+   "name": "Arisa",
+   "group": "italian",
+   "caseSensitive": true
+  },
+  {
+   "name": "Laura Pausini",
+   "group": "italian",
+   "aliases": [
+    "Pausini"
+   ],
+   "tourUrl": "https://www.friendsandpartners.it/in-tour/laura-pausini-io-canto-world-tour"
+  },
+  {
+   "name": "Eros Ramazzotti",
+   "group": "italian",
+   "aliases": [
+    "Ramazzotti"
+   ],
+   "tourUrl": "https://www.friendsandpartners.it/in-tour/eros-ramazzotti-una-storia-importante-world-tour"
+  },
+  {
+   "name": "Il Volo",
+   "group": "italian",
+   "tourUrl": "https://www.ilvolomusic.com/tour/"
+  },
+  {
+   "name": "Zucchero",
+   "group": "italian",
+   "aliases": [
+    "Adelmo Fornaciari"
+   ]
+  },
+  {
+   "name": "Tiziano Ferro",
+   "group": "italian",
+   "tourUrl": "https://tizianoferro.com/tour/"
+  },
+  {
+   "name": "Cesare Cremonini",
+   "group": "italian",
+   "aliases": [
+    "Cremonini"
+   ],
+   "tourUrl": "https://www.cesarecremonini.it/tour/"
+  },
+  {
+   "name": "Jovanotti",
+   "group": "italian",
+   "aliases": [
+    "Lorenzo Cherubini"
+   ],
+   "tourUrl": "https://www.soleluna.com/"
+  },
+  {
+   "name": "Vasco Rossi",
+   "group": "italian",
+   "aliases": [
+    "Vasco"
+   ]
+  },
+  {
+   "name": "Negramaro",
+   "group": "italian"
+  },
+  {
+   "name": "Subsonica",
+   "group": "italian",
+   "tourUrl": "https://www.subsonica.it/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Pinguini Tattici Nucleari",
+   "group": "italian"
+  },
+  {
+   "name": "Tommaso Paradiso",
+   "group": "italian",
+   "aliases": [
+    "Thegiornalisti"
+   ]
+  },
+  {
+   "name": "Ludovico Einaudi",
+   "group": "italian",
+   "aliases": [
+    "Einaudi"
+   ],
+   "tourUrl": "https://ludovicoeinaudi.com/concerts/"
+  },
+  {
+   "name": "Andrea Bocelli",
+   "group": "italian",
+   "aliases": [
+    "Bocelli"
+   ]
+  },
+  {
+   "name": "Gianna Nannini",
+   "group": "italian",
+   "aliases": [
+    "Nannini"
+   ],
+   "tourUrl": "https://www.giannanannini.com/"
+  },
+  {
+   "name": "Paolo Conte",
+   "group": "italian",
+   "tourUrl": "https://www.paoloconte.it/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Vinicio Capossela",
+   "group": "italian",
+   "aliases": [
+    "Capossela"
+   ]
+  },
+  {
+   "name": "Mannarino",
+   "group": "italian",
+   "aliases": [
+    "Alessandro Mannarino"
+   ],
+   "tourUrl": "https://www.melkweg.nl/en/agenda/mannarino-11-03-2027/"
+  },
+  {
+   "name": "Motta",
+   "group": "italian",
+   "caseSensitive": true
+  },
+  {
+   "name": "Venerus",
+   "group": "italian"
+  },
+  {
+   "name": "Iosonouncane",
+   "group": "italian"
+  },
+  {
+   "name": "Daniela Pes",
+   "group": "italian"
+  },
+  {
+   "name": "Marlena",
+   "group": "italian"
+  },
+  {
+   "name": "BNKR44",
+   "group": "italian"
+  },
+  {
+   "name": "Ditonellapiaga",
+   "group": "italian"
+  },
+  {
+   "name": "The Kolors",
+   "group": "italian",
+   "aliases": [
+    "Kolors"
+   ]
+  },
+  {
+   "name": "Afterhours",
+   "group": "italian",
+   "aliases": [
+    "Manuel Agnelli"
+   ]
+  },
+  {
+   "name": "Nek",
+   "group": "italian",
+   "tourUrl": "https://www.friendsandpartners.it/in-tour/nek-laura-non-ce",
+   "caseSensitive": true
+  },
+  {
+   "name": "Sal Da Vinci",
+   "group": "italian"
+  },
+  {
+   "name": "Giovanni Zarrella",
+   "group": "italian"
+  },
+  {
+   "name": "Alfa",
+   "group": "italian",
+   "caseSensitive": true
+  },
+  {
+   "name": "Gabry Ponte",
+   "group": "italian"
+  },
+  {
+   "name": "Sfera Ebbasta",
+   "group": "italian",
+   "tourUrl": "https://www.vivoconcerti.com/roster/sfera-ebbasta"
+  },
+  {
+   "name": "Sanremo 2027 cast",
+   "group": "italian",
+   "aliases": [
+    "Festival di Sanremo 2027",
+    "Italia 2027"
+   ],
+   "tourUrl": "https://www.allmusicitalia.it/sanremo"
+  },
+  {
+   "name": "Nemo",
+   "group": "eurovision-artist",
+   "tourUrl": "https://www.nemothings.com/",
+   "caseSensitive": true
+  },
+  {
+   "name": "Baby Lasagna",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Käärijä",
+   "group": "eurovision-artist",
+   "aliases": [
+    "Kaarija"
+   ]
+  },
+  {
+   "name": "Loreen",
+   "group": "eurovision-artist",
+   "caseSensitive": true
+  },
+  {
+   "name": "JJ",
+   "group": "eurovision-artist",
+   "aliases": [
+    "Johannes Pietsch"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "KAJ",
+   "group": "eurovision-artist",
+   "caseSensitive": true
+  },
+  {
+   "name": "Tommy Cash",
+   "group": "eurovision-artist",
+   "tourUrl": "https://www.tommycash.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Claude",
+   "group": "eurovision-artist",
+   "aliases": [
+    "Claude Kiambe"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "Red Sebastian",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Abor & Tynna",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Laura Thorn",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Louane",
+   "group": "eurovision-artist",
+   "caseSensitive": true
+  },
+  {
+   "name": "Slimane",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Mustii",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Isaak",
+   "group": "eurovision-artist",
+   "caseSensitive": true
+  },
+  {
+   "name": "Lord of the Lost",
+   "group": "eurovision-artist",
+   "aliases": [
+    "LOTL"
+   ]
+  },
+  {
+   "name": "Bambie Thug",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Silvester Belt",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Marina Satti",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Go_A",
+   "group": "eurovision-artist",
+   "caseSensitive": true
+  },
+  {
+   "name": "Kalush",
+   "group": "eurovision-artist",
+   "aliases": [
+    "Kalush Orchestra"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "Duncan Laurence",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "S10",
+   "group": "eurovision-artist",
+   "caseSensitive": true
+  },
+  {
+   "name": "Mia Nicolai",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Gustaph",
+   "group": "eurovision-artist",
+   "tourUrl": "https://www.gustaph.com/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Teya",
+   "group": "eurovision-artist",
+   "aliases": [
+    "Teya & Salena"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "Dara",
+   "group": "eurovision-artist",
+   "aliases": [
+    "Darina Yotova"
+   ],
+   "caseSensitive": true
+  },
+  {
+   "name": "Sarah Engels",
+   "group": "eurovision-artist",
+   "tourUrl": "https://www.batschkapp.de/events/sarah-engels-frankfurt-batschkapp-2027-04-02-193000"
+  },
+  {
+   "name": "Erika Vikman",
+   "group": "eurovision-artist",
+   "tourUrl": "https://www.visitberlin.de/en/event/erika-vikman-ich-komme-europe-spring-2027"
+  },
+  {
+   "name": "Essyla",
+   "group": "eurovision-artist",
+   "tourUrl": "https://reflektor.be/en/concert/essyla/"
+  },
+  {
+   "name": "Monroe",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Veronica Fusaro",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Look Mum No Computer",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Cosmó",
+   "group": "eurovision-artist",
+   "caseSensitive": true
+  },
+  {
+   "name": "Eva Marija",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Senhit",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Linda Lampenius and Pete Parkkonen",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Alexandra Căpitănescu",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "George Perris",
+   "group": "eurovision-artist"
+  },
+  {
+   "name": "Eurovision in Concert 2027",
+   "group": "eurovision-event",
+   "tourUrl": "https://eurovisioninconcert.nl/nl/tickets"
+  },
+  {
+   "name": "Amsterdam Calling 2027",
+   "group": "eurovision-event",
+   "tourUrl": "https://www.melkweg.nl/en/agenda/amsterdam-calling-2027-02-04-2027"
+  },
+  {
+   "name": "Het Grote Songfestivalfeest",
+   "group": "eurovision-event"
+  },
+  {
+   "name": "Luxembourg Song Contest 2027",
+   "group": "eurovision-event",
+   "tourUrl": "https://rockhal.lu/agenda-en/"
+  },
+  {
+   "name": "Belgian selection 2027 (VRT)",
+   "group": "eurovision-event",
+   "aliases": [
+    "Eurosong 2027"
+   ],
+   "tourUrl": "https://www.vrt.be/nl/over-ons/nieuws-over-vrt/vrt-neemt-deel-aan-het-eurovisiesongfestival-2027"
+  },
+  {
+   "name": "RTBF Eurovision",
+   "group": "eurovision-event",
+   "tourUrl": "https://www.rtbf.be/emission/concours-eurovision",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Das Deutsche Finale 2027 (SWR)",
+   "group": "eurovision-event",
+   "aliases": [
+    "ESC Vorentscheid 2027"
+   ]
+  },
+  {
+   "name": "France selection 2027",
+   "group": "eurovision-event",
+   "tourUrl": "https://www.france.tv/france-2/eurovision/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "Netherlands at Eurovision 2027",
+   "group": "eurovision-event",
+   "aliases": [
+    "Songfestival"
+   ]
+  },
+  {
+   "name": "Eurovision Song Contest 2027 Burgas",
+   "group": "eurovision-event"
+  },
+  {
+   "name": "Eurovision Song Contest Live Tour",
+   "group": "eurovision-event"
+  },
+  {
+   "name": "Italia 2027 (Sanremo winners tour)",
+   "group": "eurovision-event",
+   "tourUrl": "https://www.allmusicitalia.it/sanremo/italia-2027-tour-europeo-sanremo.html"
+  },
+  {
+   "name": "OGAE Netherlands",
+   "group": "eurovision-event"
+  },
+  {
+   "name": "OGAE Belgium",
+   "group": "eurovision-event"
+  },
+  {
+   "name": "OGAE Germany (Eurovision Club Germany)",
+   "group": "eurovision-event"
+  },
+  {
+   "name": "ESC viewing parties (Melkweg)",
+   "group": "eurovision-event",
+   "tourUrl": "https://www.melkweg.nl/en/agenda/"
+  },
+  {
+   "name": "ESC viewing parties (Rockhal)",
+   "group": "eurovision-event",
+   "tourUrl": "https://rockhal.lu/agenda-en/"
+  },
+  {
+   "name": "ESC viewing parties (Paradiso)",
+   "group": "eurovision-event",
+   "tourUrl": "https://www.paradiso.nl/en/",
+   "tourMode": "browser"
+  },
+  {
+   "name": "ESC viewing parties (Ancienne Belgique)",
+   "group": "eurovision-event",
+   "tourUrl": "https://www.abconcerts.be/en/agenda"
   }
  ]
 }
