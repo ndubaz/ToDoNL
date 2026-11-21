@@ -1,5 +1,5 @@
 {
- "about": "Acts and sources for scripts/tour-watch.mjs. Groups: kpop, kpop-adjacent, italian, eurovision-artist, eurovision-event. Short or common-word names match case-sensitively. Sources: kind venue (official agenda) or lead (aggregator or news; confirm elsewhere).",
+ "about": "Acts and sources for scripts/tour-watch.mjs. Groups: kpop, kpop-adjacent, italian, eurovision-artist, eurovision-event. Short or common-word names match case-sensitively. Sources: kind venue (official agenda) or lead (aggregator or news; confirm elsewhere). An artist may carry an exclude regex: a match within 40 characters of the name discards the hit.",
  "genreTags": [
   {
    "group": "kpop",
@@ -153,7 +153,8 @@
    "kind": "lead",
    "official": false,
    "url": "https://nlkpoptours.nl/",
-   "mode": "static"
+   "mode": "static",
+   "near": true
   },
   {
    "id": "kpopconcertseurope",
@@ -391,7 +392,6 @@
    "name": "BTS members (solo)",
    "group": "kpop",
    "aliases": [
-    "Jin",
     "SUGA",
     "Agust D",
     "j-hope",
@@ -414,11 +414,8 @@
    "aliases": [
     "BSS",
     "BooSeokSoon",
-    "JxW",
     "Jeonghan X Wonwoo",
-    "HxW",
     "HOSHI X WOOZI",
-    "CxM",
     "S.COUPS X MINGYU"
    ],
    "tourUrl": "https://pledis.co.kr/artist/detail/seventeen/",
@@ -427,9 +424,6 @@
   {
    "name": "TWS",
    "group": "kpop",
-   "aliases": [
-    "TOURS"
-   ],
    "tourUrl": "https://www.pledis.co.kr/artist/detail/tws/",
    "tourMode": "browser",
    "caseSensitive": true
@@ -574,7 +568,8 @@
    "group": "kpop",
    "aliases": [
     "BLINK"
-   ]
+   ],
+   "exclude": "blink"
   },
   {
    "name": "JISOO",
@@ -597,13 +592,13 @@
    "aliases": [
     "Lalisa Manobal"
    ],
-   "caseSensitive": true
+   "caseSensitive": true,
+   "exclude": "manon lisa|mona lisa|eckhart"
   },
   {
    "name": "ROSÉ",
    "group": "kpop",
    "aliases": [
-    "Rose",
     "Roseanne Park"
    ]
   },
@@ -737,9 +732,6 @@
   {
    "name": "ONEUS",
    "group": "kpop",
-   "aliases": [
-    "TO MOON"
-   ],
    "tourUrl": "https://www.modone2025.com/tour",
    "tourMode": "browser",
    "caseSensitive": true
@@ -920,9 +912,9 @@
    "name": "pH-1 / H1GHR MUSIC",
    "group": "kpop",
    "aliases": [
-    "pH-1",
     "Woodie Gochild",
     "lIlBOI",
+    "H1GHR",
     "H1GHR"
    ]
   },
@@ -1174,9 +1166,7 @@
   {
    "name": "Victoria De Angelis",
    "group": "italian",
-   "aliases": [
-    "Victoria"
-   ]
+   "exclude": "carlswerk"
   },
   {
    "name": "Giorgia",
@@ -1219,7 +1209,8 @@
    "aliases": [
     "Clara Soccini"
    ],
-   "caseSensitive": true
+   "caseSensitive": true,
+   "exclude": "santa clara"
   },
   {
    "name": "Francesca Michielin",
@@ -1336,7 +1327,8 @@
     "Elisa Toffoli"
    ],
    "tourUrl": "https://www.friendsandpartners.it/in-tour/elisa-soundtrack-97-27-campovolo",
-   "caseSensitive": true
+   "caseSensitive": true,
+   "exclude": "elisa (ramos|toffoli)"
   },
   {
    "name": "Emma",
@@ -1345,7 +1337,8 @@
     "Emma Marrone"
    ],
    "tourUrl": "https://www.friendsandpartners.it/in-tour/emma-live-2027",
-   "caseSensitive": true
+   "caseSensitive": true,
+   "exclude": "emma hessels|elise & emma"
   },
   {
    "name": "Noemi",
@@ -1562,7 +1555,8 @@
    "name": "Nemo",
    "group": "eurovision-artist",
    "tourUrl": "https://www.nemothings.com/",
-   "caseSensitive": true
+   "caseSensitive": true,
+   "exclude": "sperling|nfc_nemo|finding nemo"
   },
   {
    "name": "Baby Lasagna",

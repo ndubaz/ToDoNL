@@ -1,5 +1,8 @@
 # Data changelog
 
+## 2026-11-21: first full watch scan
+- The full scan (126 pages, about 250 acts) added H1GHR SEASON at Batschkapp Frankfurt 24 Nov 2026 (K-pop) and Veronica Fusaro, Switzerland's 2025 Eurovision entrant, at Kantine Köln 2 Dec 2026. Watchlist cleaned: common-word aliases removed, per-act exclusions for false matches.
+
 ## 2026-11-21: Tour radar seeded
 - data/tours.json holds 58 tours announced worldwide between 1 Sep and 21 Nov 2026: 23 K-pop and K-pop adjacent, 21 Italian, 1 Eurovision (Melodifestivalen 2027), 13 recommended (U2, Oasis, Foo Fighters, Fall Out Boy, Mariah Carey at Spa, Charli xcx, Rod Stewart, Hilary Duff, Nickelback, Sam Fender, Noah Kahan, Harry Styles, Bon Jovi). 19 confirmed from organiser pages, 39 from lead sources only.
 

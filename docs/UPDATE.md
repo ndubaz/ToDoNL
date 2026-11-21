@@ -45,7 +45,15 @@ Run the watch scan, then fill the Tour radar:
 ```
 node scripts/tour-watch.mjs --out <folder>/watch.json --feeds <folder>/feeds.json
 ```
-It scans the mid-size venue agendas, the lead sites and each watchlist act's own tour page in `data/watchlist.json` for K-pop, K-pop-adjacent, Italian and Eurovision names and genre tags. `hits` and `genreHits` near home are concert or event candidates for step 2 (confirm each on an official page). `placeHits` show where each act's tour goes.
+It scans the mid-size venue agendas, promoter feeds (Mod One, Q:U, Kinetic Vibe, Friends & Partners), lead sites (NL KPOP TOURS, Kpop Concerts Europe, the Soompi masterlist, All Music Italia, Eurovoix, the Eurovision national-selection table) and each watchlist act's own tour page in `data/watchlist.json` (about 250 acts) for K-pop, K-pop-adjacent, Italian and Eurovision names and genre tags. A full run takes about 12 minutes, so start it in the background while the venue sweep runs.
+
+Read the output this way:
+- `hits` with `near: true`, no `inData` and no `tribute` come first: these are concert or event candidates for step 2. Confirm each on an official page before adding it.
+- `hits` with `near: false` are tour dates elsewhere: use them for the Tour radar below.
+- `tribute: true` marks cover or tribute shows: skip them.
+- `genreHits` show agenda entries tagged K-pop, Eurovision or Italian whose act is not on the watchlist yet: check them and add the act to the watchlist when it fits.
+- `placeHits` show where each act's own tour page sends it.
+- A false match (a common word or another act's name) gets an `exclude` pattern on that act in `data/watchlist.json`; avoid common-word aliases.
 
 For `data/tours.json`, record every tour announced since the last run by a watchlist act, worldwide, whether or not it comes near home, plus up to five recommended tours (big new tours a 14-year-old pop and K-pop fan or her parents would want to hear about, each with a `reason`). Use the official tour or label page as `source`; a lead-only tour gets `confidence: "projected"`. Update `status`, `onSale` and `stops` on tours already listed, and remove tours whose `lastDate` has passed. When a tour stop falls within reach, also add it to `data/concerts.json`. Add any act that tours often and suits the family to `data/watchlist.json`, with its tour page. Report new tours on their own line in the changelog and in the step 7 message.
 

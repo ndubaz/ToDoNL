@@ -3,7 +3,9 @@
 //   node scripts/tour-watch.mjs [--out file.json] [--feeds feeds.json] [--only <sourceId,...>] [--no-tour-pages]
 // --feeds also matches the listings that scripts/venue-feeds.mjs found at the big halls.
 // Output: { hits: [...], placeHits: [...], genreHits: [...], read: {...}, failed: [...] }.
-//   hits       a watchlist name seen on a source, with the text around it and any dates in that text
+//   hits       a watchlist name seen on a source, with the text around it and the nearest date. near: the source is a venue near
+//              home, a venue feed, or a radius city is named beside it (these are concert candidates; the rest feed the Tour radar).
+//              tribute: the text calls it a tribute or cover show (not the real act). inData: dates we already hold for the act.
 //   placeHits  a radius city named on an artist's own tour page, with the text around it
 //   genreHits  a genre tag (K-pop, Eurovision, Italian) seen on a venue agenda, with the text around it
 // Every hit is a lead to check, not an entry: confirm on an official page before adding it (docs/UPDATE.md step 2).
@@ -50,7 +52,8 @@ const PLACES = ["Amsterdam", "Rotterdam", "Utrecht", "Den Haag", "The Hague", "T
   "Paris", "Nanterre", "Saint-Denis", "Lille", "Metz", "Nancy", "Reims", "Strasbourg"];
 const PLACE_RE = new RegExp(`\\b(${PLACES.map(esc).join("|")})\\b`, "g");
 // Names that are ordinary words, or very short, match only in the exact letter case given in the watchlist.
-const artists = W.artists.map(a => { const names = [a.name, ...(a.aliases || [])].filter(n => n && n.length >= 2); return { ...a, res: names.map(n => { const cs = a.caseSensitive || n.length <= 4; return new RegExp(`(^|[^\\p{L}\\p{N}])${esc(cs ? n : norm(n))}(?=$|[^\\p{L}\\p{N}])`, cs ? "u" : "iu"); }) }; });
+const artists = W.artists.map(a => {
+  const ex = a.exclude ? new RegExp(a.exclude, "i") : null; const names = [a.name, ...(a.aliases || [])].filter(n => n && n.length >= 2); return { ...a, ex, res: names.map(n => { const cs = a.caseSensitive || n.length <= 4; return new RegExp(`(^|[^\\p{L}\\p{N}])${esc(cs ? n : norm(n))}(?=$|[^\\p{L}\\p{N}])`, cs ? "u" : "iu"); }) }; });
 const genres = (W.genreTags || []).map(g => ({ ...g, re: new RegExp(g.pattern, "i") }));
 const ctx = (t, i, n = 170) => t.slice(Math.max(0, i - n), i + n).replace(/\s+/g, " ").trim();
 const datesIn = s => [...new Set((s.match(DATE) || []).map(x => x.trim()))].slice(0, 4);
@@ -60,7 +63,7 @@ function scanNames(text, source) {
   const out = [], low = norm(text);
   for (const a of artists) for (const re of a.res) {
     const hay = re.flags.includes("i") ? low : text; const g = new RegExp(re.source, re.flags + "g"); let m, n = 0;
-    while ((m = g.exec(hay)) && n < 6) { n++; const i = m.index + m[1].length; const c = ctx(text, i); out.push({ artist: a.name, group: a.group, source: source.id, official: !!source.official, city: source.city || null, url: source.url || (source.pages && source.pages.pattern.replace("{n}", source.pages.from)), date: nearest(text, i), dates: datesIn(c), context: c }); }
+    while ((m = g.exec(hay)) && n < 6) { n++; const i = m.index + m[1].length; const c = ctx(text, i); if (a.ex && a.ex.test(ctx(text, i, 40))) continue; const tribute = /tribute|cover show|sensations|superstars|showdown/i.test(ctx(text, i, 90)); out.push({ artist: a.name, group: a.group, source: source.id, official: !!source.official, city: source.city || null, url: source.url || (source.pages && source.pages.pattern.replace("{n}", source.pages.from)), date: nearest(text, i), dates: datesIn(c), tribute: tribute || undefined, near: !!(source.kind === "venue" || source.near || String(source.id).startsWith("feed:") || new RegExp(PLACE_RE.source).test(ctx(text, i, 120))), context: c }); }
   }
   return out;
 }
@@ -89,16 +92,16 @@ if (!args.includes("--no-tour-pages") && !only) for (const a of W.artists.filter
   } catch (e) { failed.push(`tour:${a.name}: ${e.message.split("\n")[0]}`); }
 }
 const feedsFile = opt("--feeds");
-if (feedsFile) { const f = JSON.parse(readFileSync(feedsFile, "utf8")); for (const c of f.candidates || []) for (const h of scanNames(`${c.title} ${c.sub || ""}`, { id: "feed:" + c.venueId, official: true, url: c.url })) hits.push({ ...h, date: c.date, dates: [c.date], context: `${c.date} ${c.title}${c.sub ? " (" + c.sub + ")" : ""} at ${c.venueId}` }); }
+if (feedsFile) { const f = JSON.parse(readFileSync(feedsFile, "utf8")); for (const c of f.candidates || []) for (const h of scanNames(`${c.title} ${c.sub || ""}`, { id: "feed:" + c.venueId, official: true, url: c.url })) hits.push({ ...h, near: true, date: c.date, dates: [c.date], context: `${c.date} ${c.title}${c.sub ? " (" + c.sub + ")" : ""} at ${c.venueId}` }); }
 if (browser) await browser.close();
 
 // Tag each hit with the entries we already hold for that act, so a reviewer sees at a glance whether it is new.
 const tag = h => { const k = knownFor(h.artist); return { ...h, inData: k.length ? k.map(x => x.date).slice(0, 6) : undefined }; };
 const dedupe = (arr, key) => { const s = new Set(); return arr.filter(x => { const k = key(x); if (s.has(k)) return false; s.add(k); return true; }); };
 const out = { today, read, failed,
-  hits: dedupe(hits.map(tag), h => h.artist + "|" + h.source + "|" + (h.date || h.dates.join())),
+  hits: dedupe(hits.map(tag), h => h.artist + "|" + h.source + "|" + (h.date || h.dates.join())).sort((a, b) => (b.near && !b.inData && !b.tribute) - (a.near && !a.inData && !a.tribute)),
   placeHits: dedupe(placeHits.map(tag), h => h.artist + "|" + h.place + "|" + h.dates.join()),
   genreHits: dedupe(genreHits, h => h.source + "|" + h.context.slice(0, 80)) };
 const file = opt("--out");
-if (file) { writeFileSync(file, JSON.stringify(out, null, 1)); console.log(JSON.stringify({ read: Object.keys(read).length, failed: failed.length, hits: out.hits.length, newHits: out.hits.filter(h => !h.inData).length, placeHits: out.placeHits.length, genreHits: out.genreHits.length }, null, 1)); }
+if (file) { writeFileSync(file, JSON.stringify(out, null, 1)); console.log(JSON.stringify({ read: Object.keys(read).length, failed: failed.length, hits: out.hits.length, newHits: out.hits.filter(h => !h.inData).length, newNearHits: out.hits.filter(h => !h.inData && h.near && !h.tribute).length, placeHits: out.placeHits.length, genreHits: out.genreHits.length }, null, 1)); }
 else console.log(JSON.stringify(out, null, 1));

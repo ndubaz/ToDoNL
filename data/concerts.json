@@ -159,6 +159,41 @@
   "planBy": null
  },
  {
+  "venueId": null,
+  "status": "onsale",
+  "onSale": null,
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "note": null,
+  "venueName": "Batschkapp",
+  "city": "Frankfurt",
+  "country": "DE",
+  "lat": 50.1449,
+  "lng": 8.7213,
+  "driveMin": 180,
+  "id": "h1ghr-season-batschkapp-2026-11-24",
+  "artist": "pH-1, lIlBOI & Woodie Gochild (H1GHR SEASON)",
+  "short": "H1GHR Frankfurt",
+  "date": "2026-11-24",
+  "doors": null,
+  "genre": "kpop",
+  "for": [
+   "alma"
+  ],
+  "sellOutRisk": "high",
+  "source": "https://www.batschkapp.de/",
+  "tour": "H1GHR SEASON in Europe & UK",
+  "why": "The H1GHR MUSIC crew of Korean rappers plays the Batschkapp in Frankfurt.",
+  "tier": 1,
+  "tags": [
+   "kpop"
+  ],
+  "planBy": "2026-11-24"
+ },
+ {
   "id": "muse-psd-bank-dome-2026-11-24",
   "artist": "Muse",
   "short": "Muse",
@@ -701,6 +736,43 @@
   "addedOn": "2026-11-11",
   "verifiedOn": "2026-11-18",
   "planBy": null
+ },
+ {
+  "venueId": null,
+  "status": "onsale",
+  "onSale": null,
+  "ticketUrl": null,
+  "priceFrom": null,
+  "confidence": "confirmed",
+  "addedOn": "2026-11-21",
+  "verifiedOn": "2026-11-21",
+  "note": null,
+  "venueName": "Die Kantine",
+  "city": "Köln",
+  "country": "DE",
+  "lat": 50.9937,
+  "lng": 6.9339,
+  "driveMin": 65,
+  "id": "veronica-fusaro-kantine-2026-12-02",
+  "artist": "Veronica Fusaro",
+  "short": "Veronica Fusaro",
+  "date": "2026-12-02",
+  "doors": null,
+  "genre": "pop",
+  "for": [
+   "alma",
+   "anne",
+   "family"
+  ],
+  "sellOutRisk": "low",
+  "source": "https://kantine.com/programm",
+  "tour": "Looking for Connection Tour",
+  "why": "Switzerland's 2025 Eurovision entrant plays the Kantine Yard Club in Köln.",
+  "tier": 3,
+  "tags": [
+   "eurovision"
+  ],
+  "planBy": "2026-11-21"
  },
  {
   "id": "beabadoobee-afas-live-2026-12-03",
