@@ -5,6 +5,7 @@
 - Antwerp: Antwerpen Proeft 6 to 9 May 2027 at Waagnatie (confirmed; children born 2015 or later free).
 - Cancelled: Transmission at GelreDome 28 Nov 2026.
 - Newly confirmed: Superprestige Zolder 25 Dec and Diegem 30 Dec, Jumping Mechelen 26 to 30 Dec (on sale), Het Nationale Vuurwerk Rotterdam, Afterhours Brussels 13 Jan and Paris 17 Jan 2027 (Bal Chavaux, Montreuil), Kattenstoet Ieper 9 May 2027, Tomorrowland 2027, Laura Pausini Ziggo Dome 24 Nov 2027. Kusama at the Stedelijk extended to 31 Jan 2027. moers festival prices updated.
+- Tour radar: added IU 2027 world tour (Asia and Oceania, 16 Jan to 9 May 2027, projected from Soompi). No other tours announced 20 to 25 Nov by watched acts.
 
 ## 2026-11-21: first full watch scan
 - The full scan (126 pages, about 250 acts) added H1GHR SEASON at Batschkapp Frankfurt 24 Nov 2026 (K-pop) and Veronica Fusaro, Switzerland's 2025 Eurovision entrant, at Kantine Köln 2 Dec 2026. Watchlist cleaned: common-word aliases removed, per-act exclusions for false matches.
