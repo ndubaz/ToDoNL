@@ -70,6 +70,18 @@ Bugs, shortcuts and unverified items. Fixed in one batch when Nick says "execute
 - No tours announced in the window by most Eurovision acts or K-pop-adjacent groups (Santos Bravos, XG, &TEAM, NiziU, JO1, INI, BE:FIRST, VCHA, dear ALICE); the radar lists those groups as they announce.
 - Conflicts left null: NEXZ Kuala Lumpur date, Stray Kids second nights in Paris, London and Munich (fan sites only), Rod Stewart mid-tour dates, Gigi D'Alessio European cities.
 
+## From the 25 Nov 2026 refresh
+- Venue feeds flag Il Volo at Forest National (10 Oct 2027) as missing because be-at sitemaps drop some events whose event pages still work. Before acting on a missingFromVenue flag for a be-at venue, open the event page.
+- Rotterdam Ahoy returns a Cloudflare 403 to every reader; Ahoy shows reach the data only through promoters and ticket partners.
+- Leads not added (no official listing): oceanfromtheblue "Back To Blue" at Q-Factory Amsterdam 27 Mar 2027 and Catch The Young "IGNITE EVOLVE" at Zonnehuis Amsterdam 27 Nov 2026 (both NL KPOP TOURS only).
+- Giovanni Zarrella again surfaced at Rockhal 18 Apr, Lanxess 22 Apr and Westfalenhalle 26 Apr 2027 (official venue pages); left out per the 21 Nov decision. Add on request.
+- Heerlen carnival parade 7 Feb 2027 is projected from the 2026 traffic order; Winkbülle site down. Sittard (De Marotte) and Roermond parades not found.
+- Antwerp Pride 2027: antwerppride.be counts down to 4 Aug 2027; our 11 to 15 Aug dates stay projected until the site shows the programme.
+- Snijders&Rockoxhuis Rubens notebook show: Visit Antwerp press release of 17 Nov gives 30 Sep 2027 to 13 Jan 2028; settles the earlier start-date conflict once added.
+- Eurovision 2027: NPO does not take part; Eurovision in Concert 3 Apr 2027 still listed by its organiser. Re-check monthly.
+- Not found yet: Luchtmachtdagen 2027 (Eindhoven runway closed February to July 2027), GLOW 2027 dates, Cultuurmarkt 2027 (site down), Fire Is Gold 2027 (domain now a parking page).
+- Watch scan failures: TWICE tour page (navigation during read), Nemo (403), Eurovision in Concert (503).
+
 ## Code
 - Plan conflicts consider only entries spanning 3 days or fewer; long-running exhibitions never clash.
 - Deep links to the Browse filters (kind, country, month) are not in the hash; only tabs and entries are.

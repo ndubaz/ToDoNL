@@ -45,4 +45,4 @@ Plain `curl` with a browser User-Agent works for all of these unless noted. WebF
 - https://www.mil.be/nl/agenda/ : Belgian Defence agenda. Script-built: render with venue-browse.
 
 ## Unreachable from this environment (proxy 502, TLS error or redirect loop)
-antwerpenproeft.be, antwerppride.eu, cultuurmarkt.be, borgerrio.be, linkerwoofer.be, fire-is-gold.com, hanswijkprocessie.org, antwerpsymphonyorchestra.be (queue page), operaballet.be (script-built, calendar not readable), visitmechelen.be events (script-built), museumplantinmoretus.be activities (client error).
+antwerpenproeft.be, antwerppride.be (antwerppride.eu is now a parked domain), cultuurmarkt.be, borgerrio.be, linkerwoofer.be, fire-is-gold.com, hanswijkprocessie.org, antwerpsymphonyorchestra.be (queue page), operaballet.be (script-built, calendar not readable), visitmechelen.be events (script-built), museumplantinmoretus.be activities (client error).

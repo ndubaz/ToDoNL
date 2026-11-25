@@ -1,5 +1,11 @@
 # Data changelog
 
+## 2026-11-25: Weekly refresh (rotation A, Netherlands)
+- Added 6 events and 8 concerts. Tier 1: Wereldhavendagen Rotterdam 3 to 5 Sep 2027, the 50th edition (Navy Days Den Helder moved to 2028 for it). Also Groëten Optoch Venlo 8 Feb 2027, Heerlen carnival parade 7 Feb 2027 (projected), Heroes Made in Asia at Jaarbeurs Utrecht 20 to 21 Mar 2027 (anime and K-pop convention), European Judo Championships Apeldoorn 15 to 18 Apr 2027 (on sale from EUR 27.50). Concerts: Deep Purple make-up dates at Festhalle 6 Feb, Ziggo Dome 11 Feb and Westfalenhalle 12 Feb 2027; André Rieu Ziggo Dome 8 Jan; Night of the Proms 2027 AFAS Dome 19 Nov 2027; Kool & The Gang Lotto Arena 5 Apr; Diana Krall Rockhal 13 Oct; Joe Bonamassa Rudolf Weber-Arena 23 Oct 2027.
+- Antwerp: Antwerpen Proeft 6 to 9 May 2027 at Waagnatie (confirmed; children born 2015 or later free).
+- Cancelled: Transmission at GelreDome 28 Nov 2026.
+- Newly confirmed: Superprestige Zolder 25 Dec and Diegem 30 Dec, Jumping Mechelen 26 to 30 Dec (on sale), Het Nationale Vuurwerk Rotterdam, Afterhours Brussels 13 Jan and Paris 17 Jan 2027 (Bal Chavaux, Montreuil), Kattenstoet Ieper 9 May 2027, Tomorrowland 2027, Laura Pausini Ziggo Dome 24 Nov 2027. Kusama at the Stedelijk extended to 31 Jan 2027. moers festival prices updated.
+
 ## 2026-11-21: first full watch scan
 - The full scan (126 pages, about 250 acts) added H1GHR SEASON at Batschkapp Frankfurt 24 Nov 2026 (K-pop) and Veronica Fusaro, Switzerland's 2025 Eurovision entrant, at Kantine Köln 2 Dec 2026. Watchlist cleaned: common-word aliases removed, per-act exclusions for false matches.
 

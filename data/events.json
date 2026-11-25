@@ -147,7 +147,7 @@
   "lat": 52.358,
   "lng": 4.8797,
   "start": "2026-09-11",
-  "end": "2027-01-17",
+  "end": "2027-01-31",
   "times": "Daily 10:00-18:00, last entry 17:45",
   "venue": "Stedelijk Museum",
   "tier": 1,
@@ -181,8 +181,9 @@
   "driveMin": 165,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
-  "startTime": "10:00"
+  "verifiedOn": "2026-11-25",
+  "startTime": "10:00",
+  "dateNote": "Extended: the Stedelijk exhibition page gives 11 Sep 2026 to 31 Jan 2027."
  },
  {
   "id": "k20-franz-marc-2026",
@@ -1029,50 +1030,6 @@
   "dateNote": "Dates confirmed on 5 Nov"
  },
  {
-  "id": "colapesce-dimartino-iic-bruxelles-2026",
-  "name": "Colapesce Dimartino live in duo",
-  "short": "Colapesce Dimartino",
-  "kind": "culture",
-  "city": "Brussels",
-  "country": "BE",
-  "region": "Brussels",
-  "lat": 50.8265,
-  "lng": 4.362,
-  "start": "2026-11-23",
-  "end": "2026-11-23",
-  "startTime": null,
-  "venue": "Istituto Italiano di Cultura, Rue de Livourne 38",
-  "tier": 3,
-  "for": [
-   "nick",
-   "family"
-  ],
-  "confidence": "confirmed",
-  "source": "https://iicbruxelles.esteri.it/it/gli_eventi/calendario/",
-  "status": "soldout",
-  "annual": false,
-  "onSale": null,
-  "sellOutRisk": "high",
-  "ticketUrl": "https://iicbruxelles.esteri.it/it/gli_eventi/calendario/",
-  "priceFrom": null,
-  "ticketNote": "Registration through the Istituto; its other November concert is already sold out",
-  "highlights": "The Sicilian duo behind the Sanremo hit Musica leggerissima play an acoustic set of two guitars and two voices at the Italian Cultural Institute.",
-  "tip": "Register as soon as the Istituto opens bookings; the room is small and its concerts fill up fast.",
-  "train": "Louise metro station, 10 minutes on foot",
-  "tags": [
-   "indoor",
-   "music",
-   "italian"
-  ],
-  "why": "A rare intimate show by two Sanremo favourites, right in Brussels.",
-  "driveMin": 95,
-  "planBy": null,
-  "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
-  "prevStatus": "announced",
-  "changedOn": "2026-11-18"
- },
- {
   "id": "amsterdam-light-festival-2026",
   "name": "Amsterdam Light Festival 2026-27 (Edition 15)",
   "short": "Amsterdam Light Fest",
@@ -1119,7 +1076,7 @@
   "driveMin": 165,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "startTime": "16:30"
  },
  {
@@ -1133,7 +1090,7 @@
   "priceFrom": null,
   "driveMin": 90,
   "addedOn": "2026-11-05",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "startTime": null,
   "sellOutRisk": "medium",
   "id": "kanal-centre-pompidou-opening-2026",
@@ -1223,7 +1180,7 @@
   "driveMin": 70,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "startTime": null
  },
  {
@@ -1269,7 +1226,7 @@
   "driveMin": 80,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "startTime": null
  },
  {
@@ -1314,7 +1271,7 @@
   "driveMin": 80,
   "planBy": null,
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "startTime": "10:00"
  },
  {
@@ -1329,7 +1286,7 @@
   "lng": 7.4553,
   "start": "2026-12-05",
   "end": "2026-12-06",
-  "times": "10:00-18:00 both days, early-bird entry from 09:00",
+  "times": "Sat 10:00-18:00, Sun 10:00-17:00, early-bird entry from 09:00",
   "startTime": "10:00",
   "venue": "Messe Dortmund, Halls 4 to 7",
   "tier": 2,
@@ -1360,7 +1317,7 @@
   "dateNote": null,
   "driveMin": 110,
   "addedOn": "2026-11-11",
-  "verifiedOn": "2026-11-11",
+  "verifiedOn": "2026-11-25",
   "planBy": null
  },
  {
@@ -1407,7 +1364,7 @@
   "why": "A real look inside a top design school for a 14-year-old who draws, an hour from home.",
   "cityNote": "Eindhoven, about 1 hour by car",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "driveMin": 75,
   "planBy": "2026-11-27"
  },
@@ -1454,7 +1411,7 @@
   "driveMin": 105,
   "planBy": "2026-11-27",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "startTime": null
  },
  {
@@ -1469,7 +1426,7 @@
   "priceFrom": null,
   "ticketNote": "Free for the opening weekend with a reserved ticket; from 14 Dec 2026 adults €14, ages 12 to 24 €7, under 12 free",
   "addedOn": "2026-11-18",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "id": "havenwereld-opening-weekend-2026",
   "name": "Havenwereld port experience centre: opening weekend",
   "short": "Havenwereld opening",
@@ -1501,7 +1458,7 @@
   ],
   "why": "Nick gets a first look at Europe's second-largest port from the new centre on the old dry docks, free on the opening weekend.",
   "driveMin": 85,
-  "planBy": "2026-11-21"
+  "planBy": null
  },
  {
   "id": "cyclocross-world-cup-antwerpen-2026",
@@ -1541,7 +1498,7 @@
   "driveMin": 95,
   "planBy": "2026-12-05",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "startTime": "13:40",
   "prevStatus": "announced",
   "changedOn": "2026-11-18",
@@ -1586,7 +1543,7 @@
   "driveMin": 180,
   "planBy": "2026-12-06",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "startTime": "13:40",
   "prevStatus": "announced",
   "changedOn": "2026-11-18",
@@ -1610,9 +1567,9 @@
    "nick",
    "family"
   ],
-  "confidence": "projected",
-  "source": "https://www.superprestige.be/",
-  "status": "tbd",
+  "confidence": "confirmed",
+  "source": "https://www.superprestigecyclocross.be/en/news/discover-the-calendar-for-the-2026-2027-telenet-superprestige",
+  "status": "announced",
   "annual": true,
   "onSale": null,
   "sellOutRisk": "low",
@@ -1629,11 +1586,14 @@
    "motorsport"
   ],
   "why": "A Christmas Day cyclocross 45 minutes from home on a motor racing circuit.",
-  "dateNote": "Friday 25 December 2026 per the published 2026-27 Belgian cyclocross calendar (Sporza); the organiser's site could not be reached from this session to confirm.",
+  "dateNote": "Dates confirmed on 25 Nov (Telenet Superprestige 2026-27 calendar on the organiser site: Friday 25 December 2026, Zolder).",
   "driveMin": 50,
   "planBy": "2026-12-11",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-25",
+  "prevStatus": "tbd",
+  "changedOn": "2026-11-25"
  },
  {
   "id": "jumping-mechelen-2026",
@@ -1652,13 +1612,13 @@
   "for": [
    "family"
   ],
-  "confidence": "projected",
-  "source": "https://www.jumpingmechelen.com/",
-  "status": "tbd",
+  "confidence": "confirmed",
+  "source": "https://www.beat-tickets.be/en/event/jumping-mechelen-3f1103db",
+  "status": "onsale",
   "annual": true,
   "onSale": null,
   "sellOutRisk": "medium",
-  "ticketUrl": "https://www.jumpingmechelen.com/",
+  "ticketUrl": "https://www.beat-tickets.be/en/event/jumping-mechelen-3f1103db",
   "priceFrom": null,
   "ticketNote": "Tickets via the organiser; the World Cup jumping evening on 30 December sells out first.",
   "highlights": "Belgium's Christmas jumping: FEI World Cup legs in jumping, dressage and driving between Christmas and New Year, with show acts and a packed Nekkerhal every evening.",
@@ -1670,11 +1630,15 @@
    "kids"
   ],
   "why": "Christmas-week World Cup show jumping with show-business flair, 90 minutes away.",
-  "dateNote": "26-30 December 2026 per ClipMyHorse event listings; the organiser's site could not be reached from this session, dates follow the fixed 26-30 December pattern of every edition.",
+  "dateNote": "Dates confirmed on 25 Nov (official be-at ticket shop lists sessions 1A to 10 from 26 to 30 December 2026 at the Nekkerhal).",
   "driveMin": 95,
   "planBy": "2026-12-05",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-25",
+  "prevStatus": "tbd",
+  "changedOn": "2026-11-25",
+  "times": "Day and evening sessions daily at the Nekkerhal; first session Sat 26 Dec 09:00, last evening session Wed 30 Dec 18:30"
  },
  {
   "id": "cyclocross-world-cup-namur-2026",
@@ -1717,7 +1681,7 @@
   "driveMin": 85,
   "planBy": "2026-12-13",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "startTime": "13:40"
  },
  {
@@ -1739,9 +1703,9 @@
    "nick",
    "family"
   ],
-  "confidence": "projected",
-  "source": "https://www.superprestige.be/",
-  "status": "tbd",
+  "confidence": "confirmed",
+  "source": "https://www.superprestigecyclocross.be/en/news/discover-the-calendar-for-the-2026-2027-telenet-superprestige",
+  "status": "announced",
   "annual": true,
   "onSale": null,
   "sellOutRisk": "low",
@@ -1758,12 +1722,15 @@
    "lights"
   ],
   "why": "Cyclocross under floodlights in a village street party, the most atmospheric cross of the winter.",
-  "dateNote": "Wednesday 30 December 2026 per the published 2026-27 Belgian cyclocross calendar (Sporza); the organiser's site could not be reached from this session to confirm.",
+  "dateNote": "Dates confirmed on 25 Nov (Telenet Superprestige 2026-27 calendar on the organiser site: Wednesday 30 December 2026, evening race).",
   "driveMin": 85,
   "planBy": "2026-12-16",
   "addedOn": "2026-11-04",
   "cityNote": "Machelen",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-25",
+  "prevStatus": "tbd",
+  "changedOn": "2026-11-25"
  },
  {
   "country": "BE",
@@ -1809,7 +1776,8 @@
   "why": "Anne gets a free midnight fireworks show fired from the Scheldt, watched by about 120,000 people in the previous edition.",
   "dateNote": "Projected from the annual city tradition: the city press release cited covers the 31 Dec 2025 show and no official page for 31 Dec 2026 could be read (visit.antwerpen.be and antwerpen.be block automated access). Viewing zones and tram advice are from that edition.",
   "driveMin": 85,
-  "planBy": "2026-12-17"
+  "planBy": "2026-12-17",
+  "unreachableOn": "2026-11-25"
  },
  {
   "id": "nationale-vuurwerk-rotterdam-2026",
@@ -1831,9 +1799,9 @@
    "alma",
    "family"
   ],
-  "confidence": "projected",
+  "confidence": "confirmed",
   "source": "https://www.hetnationalevuurwerk.nl/",
-  "status": "tbd",
+  "status": "announced",
   "annual": true,
   "onSale": null,
   "sellOutRisk": "low",
@@ -1853,12 +1821,14 @@
    "teens"
   ],
   "why": "The national New Year fireworks over the Erasmus Bridge, a two-hour drive for the biggest midnight show in the country.",
-  "dateNote": "Projected: the show is held every 31 December at the Erasmusbrug; the official site still showed the 2025/2026 edition at research time.",
+  "dateNote": "Dates confirmed on 25 Nov (official site announces Het Nationale Vuurwerk 2026/2027 on 31 December at the Erasmusbrug, music from 22:30).",
   "driveMin": 150,
   "planBy": "2026-12-17",
   "addedOn": "2026-11-04",
   "startTime": "22:30",
-  "verifiedOn": "2026-11-18"
+  "verifiedOn": "2026-11-25",
+  "prevStatus": "tbd",
+  "changedOn": "2026-11-25"
  },
  {
   "id": "cyclocross-world-cup-zonhoven-2027",
@@ -1900,7 +1870,7 @@
   "driveMin": 35,
   "planBy": "2026-12-20",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "startTime": "13:40",
   "prevStatus": "announced",
   "changedOn": "2026-11-18"
@@ -1947,7 +1917,7 @@
   "driveMin": 150,
   "planBy": "2026-12-26",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "startTime": null
  },
  {
@@ -1992,7 +1962,7 @@
   "driveMin": 65,
   "planBy": "2026-12-21",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "startTime": null
  },
  {
@@ -2040,7 +2010,7 @@
   "dateNote": null,
   "driveMin": 70,
   "addedOn": "2026-11-11",
-  "verifiedOn": "2026-11-11",
+  "verifiedOn": "2026-11-25",
   "planBy": "2027-01-09"
  },
  {
@@ -2177,7 +2147,7 @@
   "driveMin": 160,
   "planBy": "2027-01-08",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04",
+  "verifiedOn": "2026-11-25",
   "startTime": null
  },
  {
@@ -2224,7 +2194,7 @@
   "driveMin": 160,
   "planBy": "2026-12-31",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-18"
+  "verifiedOn": "2026-11-25"
  },
  {
   "id": "koelner-karneval-2027",
@@ -2530,6 +2500,52 @@
   "dateNote": "2027 dates projected: the Trois Joyeuses are always the Sunday, Monday and Tuesday before Ash Wednesday (10 Feb 2027), so 7 to 9 Feb 2027. The city site returned 403 to the fetcher and no 2027 programme has been published yet; the season runs from the Sunday after Epiphany to Palm Sunday with bandes in the surrounding towns every weekend.",
   "driveMin": 185,
   "addedOn": "2026-11-18",
+  "planBy": "2027-01-24",
+  "unreachableOn": "2026-11-25"
+ },
+ {
+  "id": "heerlen-carnaval-optocht-2027",
+  "name": "Grote Carnavalsoptocht Heerlen 2027",
+  "short": "Optocht Heerlen",
+  "kind": "spectacle",
+  "city": "Heerlen",
+  "country": "NL",
+  "region": "Limburg (NL)",
+  "lat": 50.8882,
+  "lng": 5.9795,
+  "start": "2027-02-07",
+  "end": "2027-02-07",
+  "times": null,
+  "startTime": null,
+  "venue": "Heerlen city centre",
+  "tier": 3,
+  "for": [
+   "anne",
+   "family"
+  ],
+  "confidence": "projected",
+  "source": "https://zoek.officielebekendmakingen.nl/gmb-2026-7508.html",
+  "status": "tbd",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "ticketNote": "Free",
+  "highlights": "The big carnival parade of Heerlen, organised by carnival society De Winkbülle, with floats, bands and walking groups through the city centre.",
+  "tip": "It is ten minutes from home, so combine it with Maastricht or Venlo on another carnival day.",
+  "tags": [
+   "parade",
+   "outdoor",
+   "free",
+   "music",
+   "kids"
+  ],
+  "why": "The home-town carnival parade, close enough to pop in for an hour.",
+  "dateNote": "2027 date projected from the 2026 pattern (the municipal traffic order put the parade on carnival Sunday, 15 Feb 2026); carnival Sunday 2027 is 7 Feb. De Winkbülle site was unreachable.",
+  "addedOn": "2026-11-25",
+  "verifiedOn": "2026-11-25",
+  "driveMin": 10,
   "planBy": "2027-01-24"
  },
  {
@@ -2724,6 +2740,52 @@
   "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-04",
   "startTime": "12:30"
+ },
+ {
+  "id": "venlo-groeten-optoch-2027",
+  "name": "Groëten Optoch Venlo 2027 (Carnival Monday parade)",
+  "short": "Groëten Optoch Venlo",
+  "kind": "spectacle",
+  "city": "Venlo",
+  "country": "NL",
+  "region": "Limburg (NL)",
+  "lat": 51.3704,
+  "lng": 6.1724,
+  "start": "2027-02-08",
+  "end": "2027-02-08",
+  "times": "From 13:00",
+  "startTime": "13:00",
+  "venue": "Binnenstad (Groote Beekstraat to Parade)",
+  "tier": 2,
+  "for": [
+   "anne",
+   "alma",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://jocus.nl/evenement/groeten-optoch/",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": null,
+  "priceFrom": null,
+  "ticketNote": "Free",
+  "highlights": "The high point of Venlo carnival: Prince Carnival leads groups, floats, brass bands and costumed walkers through the old town, with the march-past on the Kwartelemarkt.",
+  "tip": "Claim a spot early on the Kwartelemarkt, where the Prince takes the march-past; the route runs Groote Beekstraat, Kwartelemarkt, Jodenstraat, Oude Markt, Markt, Sint Jorisstraat and Parade from 13:00.",
+  "tags": [
+   "parade",
+   "outdoor",
+   "free",
+   "music",
+   "kids",
+   "teens"
+  ],
+  "why": "One of the largest carnival parades in Limburg, run on Carnival Monday so it does not clash with Maastricht's Sunday parade.",
+  "addedOn": "2026-11-25",
+  "verifiedOn": "2026-11-25",
+  "driveMin": 65,
+  "planBy": "2027-01-25"
  },
  {
   "id": "bright-brussels-2027",
@@ -3393,6 +3455,49 @@
   "startTime": "08:00"
  },
  {
+  "id": "heroes-made-in-asia-2027",
+  "name": "Heroes Made in Asia 2027 (anime, manga and K-pop convention)",
+  "short": "Heroes Made in Asia",
+  "kind": "kpop",
+  "city": "Utrecht",
+  "country": "NL",
+  "region": "Utrecht",
+  "lat": 52.088,
+  "lng": 5.105,
+  "start": "2027-03-20",
+  "end": "2027-03-21",
+  "times": "10:00-18:00 (VIP from 09:00)",
+  "startTime": "10:00",
+  "venue": "Jaarbeurs Utrecht",
+  "tier": 2,
+  "for": [
+   "alma"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.made-in-asia.nl/",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.made-in-asia.nl/info/tickets/",
+  "priceFrom": null,
+  "ticketNote": "Ticket shop not yet open; early bird, regular and last-minute prices; youth tickets only with an adult ticket",
+  "highlights": "The biggest anime and manga event in the Netherlands (about 17,500 visitors) with K-pop, cosplay, Asian food, gaming, workshops and guest meet-and-greets.",
+  "tip": "Buy early bird tickets when the shop opens and take the train to Utrecht Centraal, which connects directly to the Jaarbeurs.",
+  "tags": [
+   "indoor",
+   "ticketed",
+   "teens",
+   "kpop",
+   "fan-event"
+  ],
+  "why": "A full weekend of K-pop, cosplay and Asian pop culture under one roof for Alma.",
+  "addedOn": "2026-11-25",
+  "verifiedOn": "2026-11-25",
+  "driveMin": 135,
+  "planBy": "2027-02-27"
+ },
+ {
   "country": "BE",
   "region": "Antwerp",
   "times": "Open until 18:00, last entry 17:00",
@@ -3705,7 +3810,7 @@
   "driveMin": 155,
   "planBy": "2027-03-13",
   "addedOn": "2026-11-04",
-  "verifiedOn": "2026-11-04"
+  "verifiedOn": "2026-11-25"
  },
  {
   "id": "ronde-van-vlaanderen-2027",
@@ -3983,6 +4088,48 @@
   "addedOn": "2026-11-18",
   "verifiedOn": "2026-11-18",
   "planBy": "2027-03-28"
+ },
+ {
+  "id": "european-judo-championships-apeldoorn-2027",
+  "name": "European Judo Championships 2027 (Apeldoorn)",
+  "short": "EK Judo Apeldoorn",
+  "kind": "sport",
+  "city": "Apeldoorn",
+  "country": "NL",
+  "region": "Gelderland",
+  "lat": 52.205,
+  "lng": 5.923,
+  "start": "2027-04-15",
+  "end": "2027-04-18",
+  "times": "Thursday from 09:00",
+  "startTime": "09:00",
+  "venue": "Omnisport Apeldoorn",
+  "tier": 2,
+  "for": [
+   "nick",
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://sales.ticketing.cm.com/judo-euro2027/en-gb/",
+  "status": "onsale",
+  "annual": false,
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://sales.ticketing.cm.com/judo-euro2027/en-gb/",
+  "priceFrom": 27.5,
+  "ticketNote": "Day ticket EUR 27.50 incl. service charges, unreserved seating in the stands; group tickets EUR 20 from 20 people",
+  "highlights": "Europe's best judokas fight for the European titles in every weight class and for qualification for the 2028 Olympic Games, with side activities in the hall.",
+  "tip": "Seats are unreserved, so arrive early for the final block of the day; check the session schedule before choosing a day.",
+  "tags": [
+   "indoor",
+   "ticketed",
+   "teens"
+  ],
+  "why": "A home European Championship with Olympic qualification at stake, at a price a family can manage.",
+  "addedOn": "2026-11-25",
+  "verifiedOn": "2026-11-25",
+  "driveMin": 150,
+  "planBy": "2027-03-25"
  },
  {
   "id": "premier-league-darts-rotterdam-2027",
@@ -4837,6 +4984,47 @@
   "verifiedOn": "2026-11-18"
  },
  {
+  "id": "antwerpen-proeft-2027",
+  "name": "Antwerpen Proeft 2027",
+  "short": "Antwerpen Proeft",
+  "kind": "food",
+  "city": "Antwerp",
+  "country": "BE",
+  "region": "Antwerp",
+  "lat": 51.2302,
+  "lng": 4.4044,
+  "start": "2027-05-06",
+  "end": "2027-05-09",
+  "times": null,
+  "startTime": null,
+  "venue": "Waagnatie Expo & Events",
+  "tier": 2,
+  "for": [
+   "family"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.proeft.be/",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "medium",
+  "ticketUrl": "https://www.proeft.be/tickets.html",
+  "priceFrom": null,
+  "ticketNote": "Ticket sales start November 2026; free for children born 2015 or later; youth duo deal on site for those born 2007-2014; EUR 1.35 service fee",
+  "highlights": "Belgium's biggest culinary festival: about 50 top restaurants and star chefs serve some 100 signature dishes, plus street food and food trucks, mostly indoors in two halls.",
+  "tip": "Thursday 6 May is Ascension Day, a public holiday on both sides of the border, so expect the biggest crowds then.",
+  "tags": [
+   "food",
+   "indoor",
+   "ticketed"
+  ],
+  "why": "Tasting plates from Michelin-starred Belgian kitchens in one hall over the Ascension weekend.",
+  "addedOn": "2026-11-25",
+  "verifiedOn": "2026-11-25",
+  "driveMin": 85,
+  "planBy": "2027-04-15"
+ },
+ {
   "id": "heilig-bloedprocessie-brugge-2027",
   "name": "Heilig Bloedprocessie Brugge 2027",
   "short": "Holy Blood Brugge",
@@ -4896,7 +5084,7 @@
   "lng": 2.8857,
   "start": "2027-05-09",
   "end": "2027-05-09",
-  "times": "Afternoon parade, followed by the cat throwing from the Belfry and the witch burning",
+  "times": "47th Kattenstoet weekend Sat 8 and Sun 9 May; parade starts Sunday 15:00, followed by the cat throwing from the Belfry and the witch burning",
   "venue": "Grote Markt and city centre",
   "tier": 1,
   "for": [
@@ -4904,9 +5092,9 @@
    "alma",
    "family"
   ],
-  "confidence": "projected",
+  "confidence": "confirmed",
   "source": "https://www.kattenstoet.be/",
-  "status": "tbd",
+  "status": "announced",
   "annual": false,
   "onSale": null,
   "sellOutRisk": "medium",
@@ -4925,11 +5113,14 @@
    "teens"
   ],
   "why": "A triennial parade that will not come back until 2030, with giants and flying plush cats that Alma will love.",
-  "dateNote": "Projected: the Kattenstoet is held every three years on the second Sunday of May (last edition 12 May 2024), which gives 9 May 2027; the official site was unreachable at research time, confirm before travelling.",
+  "dateNote": "Dates confirmed on 25 Nov (kattenstoet.be: weekend of 8 and 9 May 2027, parade Sunday 9 May at 15:00).",
   "driveMin": 170,
   "planBy": "2027-04-18",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": "15:00",
+  "verifiedOn": "2026-11-25",
+  "prevStatus": "tbd",
+  "changedOn": "2026-11-25"
  },
  {
   "times": "Wed 13:00-23:00, Thu 12:00-23:00, Fri 13:00-23:00",
@@ -5003,15 +5194,14 @@
   "onSale": "2026-11-27",
   "sellOutRisk": "low",
   "ticketUrl": "https://tickets.moers-festival.de/",
-  "priceFrom": null,
-  "ticketNote": "Early-bird festival passes announced; the festival village and park stages are free",
+  "priceFrom": 45,
+  "ticketNote": "Early-bird passes from 27 Nov 2026 (EUR 129, reduced EUR 79, camping included); Pay What You Can passes in spring 2027; day tickets EUR 45 (reduced EUR 25) on site; the festival village is free",
   "highlights": "One of Europe's longest-running experimental jazz and improvised music festivals, the 56th edition in 2027, with ticketed hall concerts and a free festival village, open-air stages and camping in the castle park.",
   "tip": "The free village and park programme is enough for a family afternoon; buy a hall pass only if the line-up, published in spring, has names you want.",
   "lez": "none",
   "tags": [
    "music",
    "outdoor",
-   "free",
    "ticketed"
   ],
   "why": "A world-renowned adventurous music festival with a free park programme, 75 minutes away on the Pentecost weekend.",
@@ -5019,7 +5209,7 @@
   "driveMin": 75,
   "addedOn": "2026-11-11",
   "planBy": "2027-04-29",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "prevStatus": "tbd",
   "changedOn": "2026-11-18"
  },
@@ -7923,15 +8113,15 @@
    "alma",
    "family"
   ],
-  "confidence": "projected",
+  "confidence": "confirmed",
   "source": "https://www.tomorrowland.com/",
-  "status": "tbd",
+  "status": "announced",
   "annual": true,
   "onSale": null,
   "sellOutRisk": "high",
   "ticketUrl": "https://www.tomorrowland.com/",
   "priceFrom": null,
-  "ticketNote": "Pre-registration usually opens in early December, worldwide sale in late January; day passes sell out within hours",
+  "ticketNote": "Pre-registration opens 2 Dec 2026; worldwide sale follows; day passes sell out within hours",
   "highlights": "The world's most spectacular dance festival with 15 themed stages, daily fireworks and the famous Mainstage show over two weekends in De Schorre park.",
   "tip": "Pre-register on tomorrowland.com the moment registration opens and have the whole family queue for the sale; Global Journey packages are the realistic route for latecomers.",
   "tags": [
@@ -7943,11 +8133,14 @@
    "teens"
   ],
   "why": "Nothing else in Europe matches the stage design and pyrotechnics of Tomorrowland, and it is only an hour and a half from home.",
-  "dateNote": "2027 dates projected from the festival's fixed pattern (third and fourth weekends of July: 17-19 and 24-26 July 2026, 18-20 and 25-27 July 2025); official site could not be fetched and has not announced 2027 dates as of 4 Nov 2026.",
+  "dateNote": "Dates confirmed on 25 Nov (tomorrowland.com: 16-18 and 23-25 July 2027 at De Schorre, Boom).",
   "driveMin": 95,
   "planBy": "2027-06-16",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-25",
+  "prevStatus": "tbd",
+  "changedOn": "2026-11-25"
  },
  {
   "train": "Nijmegen station is in the festival zone",
@@ -9226,7 +9419,8 @@
   "driveMin": 125,
   "planBy": "2027-08-07",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "unreachableOn": "2026-11-25"
  },
  {
   "venue": "Koelnmesse",
@@ -9592,7 +9786,7 @@
   ],
   "why": "A legendary dance festival relaunching in a new form, a two-hour trip for Anne.",
   "driveMin": 175,
-  "planBy": "2026-11-24",
+  "planBy": "2027-07-28",
   "addedOn": "2026-11-04",
   "verifiedOn": "2026-11-18",
   "startTime": null
@@ -9828,6 +10022,51 @@
   "verifiedOn": "2026-11-11",
   "prevStatus": "tbd",
   "changedOn": "2026-11-11"
+ },
+ {
+  "id": "wereldhavendagen-rotterdam-2027",
+  "name": "Wereldhavendagen Rotterdam 2027 (50th World Port Days)",
+  "short": "Wereldhavendagen",
+  "kind": "festival",
+  "city": "Rotterdam",
+  "country": "NL",
+  "region": "Zuid-Holland",
+  "lat": 51.905,
+  "lng": 4.488,
+  "start": "2027-09-03",
+  "end": "2027-09-05",
+  "times": null,
+  "startTime": null,
+  "venue": "Rotterdam quays along the Maas",
+  "tier": 1,
+  "for": [
+   "nick",
+   "family",
+   "anne"
+  ],
+  "confidence": "confirmed",
+  "source": "https://www.wereldhavendagen.nl/",
+  "status": "announced",
+  "annual": true,
+  "onSale": null,
+  "sellOutRisk": "low",
+  "ticketUrl": "https://www.wereldhavendagen.nl/",
+  "priceFrom": null,
+  "ticketNote": "2027 programme, hours and prices not yet published",
+  "highlights": "The 50th edition of the biggest maritime festival in the Netherlands, with ships to visit, port demonstrations and boat trips; the Royal Netherlands Navy skips its 2027 Navy Days to put on a larger show at this jubilee.",
+  "tip": "Watch for the programme in summer 2027 and book any paid boat tours early; go by train to Rotterdam Centraal rather than driving into the centre.",
+  "tags": [
+   "ships",
+   "outdoor",
+   "kids",
+   "history"
+  ],
+  "why": "The jubilee port festival where the Dutch navy puts on its big public showing of 2027, since Navy Days in Den Helder move to 2028.",
+  "dateNote": "Dates confirmed on the organiser site on 25 Nov 2026; Defensie announced on 9 Sep 2026 that the navy moves Marinedagen to 2028 to go bigger at this edition (https://www.defensie.nl/nieuws/20260909-marinedagen-in-2028).",
+  "addedOn": "2026-11-25",
+  "verifiedOn": "2026-11-25",
+  "driveMin": 150,
+  "planBy": "2027-08-20"
  },
  {
   "venue": "Sportpark Hartenstein, Oosterbeek",
@@ -10836,7 +11075,8 @@
   "driveMin": 110,
   "planBy": "2027-09-06",
   "addedOn": "2026-11-04",
-  "startTime": null
+  "startTime": null,
+  "verifiedOn": "2026-11-25"
  },
  {
   "times": "Royal procession around 13:00, balcony scene around 14:00",
@@ -11696,7 +11936,7 @@
   "planBy": "2027-10-16",
   "addedOn": "2026-11-04",
   "startTime": "09:00",
-  "verifiedOn": "2026-11-18",
+  "verifiedOn": "2026-11-25",
   "prevStatus": "tbd",
   "changedOn": "2026-11-18"
  },
@@ -11741,7 +11981,8 @@
   "driveMin": 165,
   "planBy": "2027-10-07",
   "addedOn": "2026-11-04",
-  "startTime": "19:00"
+  "startTime": "19:00",
+  "unreachableOn": "2026-11-25"
  },
  {
   "venue": "Bastogne War Museum and town centre",
